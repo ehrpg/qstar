@@ -17,7 +17,7 @@ reaches zero hit points its damage reduction drops to zero and thus stops
 being useful.
 
 | Suit        | DR  | HP  | Cost  | Extras
-|-------------|-----|-----|------------------------------------
+|-------------|-----|-----|-------|----------------------------
 | UHAS MK I   | 2   | 40  |  9000 | Space suit, mag boots, internal radio
 | UHAS MK II  | 4   | 60  | 15000 | Space suit, mag boots, internal radio, camera
 | MACS MK I   | 6   | 50  | 50000 | Combat armour, space suit, mag boots, radio
