@@ -165,7 +165,7 @@ lessons for skills.
 Improving an ability costs:
 
 | New Rank | Cost
-|----------|----------
+|----------|----------:
 | 1        | -512000
 | 2        | -162000
 | 3        |  -32000
@@ -182,7 +182,7 @@ Formula: ```cost = abs(mod) ^ 4 * 2000```
 Improving a skill costs:
 
 | New Rank       | Cost
-|----------------|--------
+|----------------|--------:
 | Untrained      |  200
 | Proficient     |  800
 | Trained        | 1800
