@@ -189,13 +189,13 @@ Improving a skill costs:
 
 | New Rank       | Cost
 |----------------|--------:
-| Untrained      |  200
-| Proficient     |  800
-| Trained        | 1800
-| Experienced    | 3200
-| Master         | 5000
+| Untrained      |      0
+| Proficient     |   1000
+| Trained        |  31000
+| Experienced    |  81000
+| Master         | 151000
 
-Formula: ```cost = ((rank * 2) ^ 2) * 50```
+Formula: ```cost = ((max(x-1, 0) * 100) ^ 2) - 9000```
 
 Buying perks may be done at any time, and the perk's description lists the
 price.
