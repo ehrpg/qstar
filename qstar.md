@@ -63,12 +63,18 @@ roll the health dice and add or subtract that value from your health pool.
 
 Normal damage always targets endurance. If endurance drops to zero the
 character becomes incapacitated. **Critical damage** is dealt to health
-instead. Normal damage is converted to critical damage if an attack roll
-comes up with a ten and successfully hits. If endurance is zero, all damage
-is dealt to health instead.
+instead. If endurance is zero, all damage is dealt to health instead.
 
 Damaging objects is the same as damaging another player or NPC, except that
 inanimate objects have no endurance, just health.
+
+## Critial Hit and Damage
+
+Causing a critical hit requires another success in addition to the
+attack roll (see **Multiple Successes** down below). If the attack roll
+and the roll to convert to a critical hit are successful, then the
+damage is converted to **critical damage** and targets the **Health**
+pool instead of the **Endurance** pool.
 
 ## Skills
 
