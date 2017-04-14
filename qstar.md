@@ -172,16 +172,16 @@ Improving an ability costs:
 
 | New Rank | Cost
 |----------|----------:
-| 1        | -512000
-| 2        | -162000
-| 3        |  -32000
-| 4        |   -2000
-| 5        |       0
-| 6        |    2000
-| 7        |   32000
-| 8        |  162000
-| 9        |  512000
-| 10       | 1250000
+| 1        |  -512 000
+| 2        |  -162 000
+| 3        |   -32 000
+| 4        |    -2 000
+| 5        |         0
+| 6        |     2 000
+| 7        |    32 000
+| 8        |   162 000
+| 9        |   512 000
+| 10       | 1 250 000
 
 Formula: ```cost = abs(mod) ^ 4 * 2000```
 
@@ -189,11 +189,11 @@ Improving a skill costs:
 
 | New Rank       | Cost
 |----------------|--------:
-| Untrained      |  200
-| Proficient     |  800
-| Trained        | 1800
-| Experienced    | 3200
-| Master         | 5000
+| Untrained      |   200
+| Proficient     |   800
+| Trained        | 1 800
+| Experienced    | 3 200
+| Master         | 5 000
 
 Formula: ```cost = ((rank * 2) ^ 2) * 50```
 
