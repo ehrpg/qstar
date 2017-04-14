@@ -40,13 +40,15 @@ additional benefit. This benefit is called ability modifier:
 
 ## Endurance
 
-**Endurance** represents the character's short time well being and constitution.
-A character that reaches zero endurance is knocked unconscious. Endurance is
-determined by rolling a number of dices equal to your **Might** rank. Which
-dice is rolled is determined by the race. Endurance recovers once the character
-has had enough time to rest (usually resting eight hours) without interruptions.
-Whenever you permanently increase or decrease **Might** you must roll the
-endurance dice and add or subtract that value from your endurance pool.
+**Endurance** represents the character's short time well being and
+constitution. A character that reaches zero endurance is knocked
+unconscious. Endurance is determined by rolling a number of dices equal to
+your **Might** rank and then adding the base endurance pool of your race to
+the results. Which dice is rolled is also determined by the race. Endurance
+recovers once the character has had enough time to rest (usually resting eight
+hours) without interruptions.  Whenever you permanently increase or decrease
+**Might** you must roll the endurance dice and add or subtract that value from
+your endurance pool.
 
 ## Health
 
@@ -54,7 +56,8 @@ endurance dice and add or subtract that value from your endurance pool.
 a character. Severe wounds, illness and temporary handicaps (such as broken
 arms or legs) are abstracted away in the health pool. If health reaches zero
 the character dies. Health is determined by rolling a number of dices equal to
-your **Might** rank. Which dice is rolled is determined by race. Health cannot
+your **Might** rank and then adding the base health pool of your race to the
+results. Which dice is rolled is also determined by race. Health cannot
 recovered by resting, and requires external methods (medicine, first aid etc.)
 to recover. Whenever you permanently increase or decrease **Might** you must
 roll the health dice and add or subtract that value from your health pool.
@@ -256,10 +259,12 @@ drawbacks. They are suitable for all kinds of game play.
 | Speed         | 5
 | Intelligence  | 5
 | Charisma      | 5
+| Base Endurance| 20
+| Base Health   | 15
 | Endurance     | d10
 | Health        | d6
-| Perks:        | -
-| Flaws:        | -
+| Perks         | -
+| Flaws         | -
 
 ## Second: Make adaptions
 
