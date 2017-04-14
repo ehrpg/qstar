@@ -191,12 +191,12 @@ Formula: ```cost = abs(mod) ^ 4 * 2000```
 Improving a skill costs:
 
 | New Rank       | Cost
-|----------------|--------:
-| Untrained      |      0
-| Proficient     |   1000
-| Trained        |  31000
-| Experienced    |  81000
-| Master         | 151000
+|----------------|---------:
+| Untrained      |       0
+| Proficient     |   1 000
+| Trained        |  31 000
+| Experienced    |  81 000
+| Master         | 151 000
 
 Formula: ```cost = ((max(x-1, 0) * 100) ^ 2) - 9000```
 
