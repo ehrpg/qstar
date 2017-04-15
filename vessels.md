@@ -83,6 +83,41 @@ but a -1 speed value due to the vessel size. Both attacker and defender can
 apply positive modifiers or have to substract negative ones. The one with the
 higher result succeeds.
 
+#### Smart Weapons
+
+Weapons with guided weapon systems such as missiles or torpedos do not depend on
+the pilots skills. The statistics for these weapon provide their own *skill
+rank* and *attack value*. If the vessel has multiple launchers for these
+weapons, follow the **multiple weapons** rules.
+
+#### Multiple Weapons
+
+Weapons of the same type can be fired in groups of a maximum of 5. There are two
+kinds of bonuses for having more than 1 weapon, which the attacker can choose
+when firing.
+
+##### Spread Fire Mode
+
+Every additional weapon reduces the defenders *speed value* by one, until it
+reaches 0. The *speed value* due to multiple weapons can't deceed 0.
+
+Example: An attacker is firing a battery of 4 rail guns upon a small vessel with
+a *speed value* of +2. The attacker has 4 dice and +4 on his attack due to the
+pilots skill. Because the attacker has 4 rail guns, they could reduce any
+defenders *speed value* by 3, to a minimum of 0. In this case the defenders
+*speed value* is reduced to 0. The attack suceeds, and deals damage.
+
+##### Focused Fire Mode
+
+Every die that exceeds the defenders highest roll results in another hit.
+
+Example: An attacker is firing a battery of 4 rail guns upon a small vessel with
+a *speed value* of +2. The attacker has 4 dice and +4 on his attack due to the
+pilots skill. The attacker decides to add additional damage rather than reducing
+the enemies speed value. Two of his dice, after applying bonuses, exceed the
+defenders defense roll. Instead of dealing damage once, the attacker deals
+damage twice.
+
 ### Damaging
 
 If the attack succeeds, the attacker can deal damage to the attacked vessel. The
