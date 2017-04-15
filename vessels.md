@@ -69,10 +69,10 @@ specialised modules like docking bays.
 
 ### Attacking and Defending
 
-Attacking and defending follow the melee rules of Q*. The pilot of a vessel can
-make an attack roll using their dice pool of the associated skill. Besides any
-ability modifiers, the attacker also gains or loses the vessels attack value.
-The same rules apply to the defender.
+Attacking and defending follow the competition rules of Q*. The pilot of a
+vessel can make an attack roll using their dice pool of the associated skill.
+Besides any ability modifiers, the attacker also gains or loses the vessels
+attack value. The same rules apply to the defender.
 
 Example: An attacker is trained with piloting the vessel, and thus has 3 dice
 for the check. The character also has a +2 modifier on the associated ability,
@@ -92,7 +92,7 @@ weapons, follow the **multiple weapons** rules.
 
 #### Multiple Weapons
 
-Weapons of the same type can be fired in groups of a maximum of 5. There are two
+Weapons of the same type can be fired in groups to a maximum of 5. There are two
 kinds of bonuses for having more than 1 weapon, which the attacker can choose
 when firing.
 
