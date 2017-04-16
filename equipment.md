@@ -48,7 +48,7 @@ reduce the DC of the next shot.
 
 | Weapon  | Damage | Capacity | Cost   | Magazine | Notes
 |---------|-------:|---------:|-------:|---------:|---------------
-| CP9     | 4      |          |  1 100 |    20    | Single shot,  ompact, pistol
+| CP9     | 4      |          |  1 100 |    20    | Single shot, compact, pistol
 | P32     | 4      |  15      |    900 |    30    | Single shot, Pistol
 | RX60    | 6      |  30      |  6 200 |   150    | Select fire
 | AX7     | 8      |  30      |  9 100 |   400    | Select fire, rifle

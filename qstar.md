@@ -30,8 +30,8 @@ Each character, NPC or even monster is defined by four abilities:
   of personality and his ability to lead. It is mostly used in social
   interactions between characters and NPCs.
 
-Abilities have ranks going from 1 to 10. Five (5) is the average, confering
-neither a benefit now a drawback. Every point below or above five grants an
+Abilities have ranks going from 1 to 10. Five (5) is the average, conferring
+neither a benefit nor a drawback. Every point below or above five grants an
 additional benefit. This benefit is called ability modifier:
 
 |Ability  | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10
@@ -71,7 +71,7 @@ instead. If endurance is zero, all damage is dealt to health instead.
 Damaging objects is the same as damaging another player or NPC, except that
 inanimate objects have no endurance, just health.
 
-## Critial Hit and Damage
+## Critical Hit and Damage
 
 Causing a critical hit requires another success in addition to the
 attack roll (see **Multiple Successes** down below). If the attack roll
@@ -134,7 +134,7 @@ the player has roll multiple successes using the available dices.
 For example Mary is a good pilot and thus has 3 dices available and
 an ability modifier of +3. Her ship is under attack, and she wants to
 deploy counter measures at the right moment, and then make a sharp
-evasive maneuver. As she has three dices, she may make those two
+evasive manoeuver. As she has three dices, she may make those two
 actions at the same time. The GM decides on a DC of 6 and Mary rolls:
 4 3 6. She expends two ability modifiers to make the 4 a success and
 thus succeeds at the task.
@@ -186,7 +186,7 @@ Improving an ability costs:
 | 9        |   512 000
 | 10       | 1 250 000
 
-Formula: ```cost = abs(mod) ^ 4 * 2000```
+Formula: `cost = abs(mod) ^ 4 * 2000`
 
 Improving a skill costs:
 
@@ -198,7 +198,7 @@ Improving a skill costs:
 | Experienced    |  81 000
 | Master         | 151 000
 
-Formula: ```cost = ((max(x-1, 0) * 100) ^ 2) - 9000```
+Formula: `cost = ((max(x-1, 0) * 100) ^ 2) - 9000`
 
 Buying perks may be done at any time, and the perk's description lists the
 price.

@@ -29,16 +29,16 @@ effect stacks with **Endurance I** and **Endurance II**.
 
 ## Health I
 
-Upon taking Health I you immediately add the average of your race's health
-dice (rounded down) to your character's total health pool.
+Upon taking Health I you immediately add the average of your race's health dice
+(rounded down) to your character's total health pool.
 
 **Price**: 500
 
 ## Health II
 
-Upon taking Health II you immediately add the average of your race's health
-dice (rounded down) to your character's total health pool. This effect stacks
-with **Health I**.
+Upon taking Health II you immediately add the average of your race's health dice
+(rounded down) to your character's total health pool. This effect stacks with
+**Health I**.
 
 **Price**: 1 000
 
