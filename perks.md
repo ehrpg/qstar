@@ -1,4 +1,4 @@
-# Health
+# Body
 
 ## Endurance I
 
