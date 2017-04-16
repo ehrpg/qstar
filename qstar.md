@@ -55,7 +55,7 @@ your endurance pool.
 **Health** represents the overall long-term physical health and well being of
 a character. Severe wounds, illness and temporary handicaps (such as broken
 arms or legs) are abstracted away in the health pool. If health reaches zero
-the character dies. Health is determined by rolling a number of dices equal to
+the character dies. Health is determined by rolling a number of dice equal to
 your **Might** rank and then adding the base health pool of your race to the
 results. Which dice is rolled is also determined by race. Health cannot
 recovered by resting, and requires external methods (medicine, first aid etc.)
@@ -116,8 +116,8 @@ DC are called **failures**.
 ## Competition
 
 When two characters, or a character and an NPC, pitch their skills against
-each other both roll the respective skill dices. Whoever has the highest roll
-(out of any of the dices) wins. On a tie the participant on the defensive
+each other both roll the respective skill dice. Whoever has the highest roll
+(out of any of the dice) wins. On a tie the participant on the defensive
 side wins. If there is no defensive participant, reroll until a winner is
 decided. A dice that beats the other side's highest roll is called a
 **success**, and a dice that does not beat the other side's highest roll
@@ -129,12 +129,12 @@ If a character has more than once dice for a specific skill available,
 more than one action may be attempted at the same time using that
 skill. The DM sets the amount of successes required and adjusts the
 DC accordingly. There is still only one DC for all actions, but now
-the player has roll multiple successes using the available dices.
+the player has roll multiple successes using the available dice.
 
-For example Mary is a good pilot and thus has 3 dices available and
+For example Mary is a good pilot and thus has 3 dice available and
 an ability modifier of +3. Her ship is under attack, and she wants to
 deploy counter measures at the right moment, and then make a sharp
-evasive manoeuver. As she has three dices, she may make those two
+evasive manoeuver. As she has three dice, she may make those two
 actions at the same time. The GM decides on a DC of 6 and Mary rolls:
 4 3 6. She expends two ability modifiers to make the 4 a success and
 thus succeeds at the task.
@@ -147,10 +147,10 @@ highest to lowest. Repeat this process until the entire negative
 penalty is spread across the dice rolls.  If the modifier is positive
 then the player may decide where to spend the ability modifier. The
 player may also spread out the positive modifier across multiple
-dices, but may not exceed the total positive modifier available to
+dice, but may not exceed the total positive modifier available to
 that ability.
 
-Example: Mary has 3 dices for a Melee skill check and a +2 modifier. She
+Example: Mary has 3 dice for a Melee skill check and a +2 modifier. She
 has to meet a DC 5 and rolls: 4 2 3. She expends one modifier on the 4
 to make it a success, and uses the other modifier to buy extra damage.
 
@@ -279,7 +279,7 @@ suit your character.
 
 ## Third: Roll Endurance and Health
 
-Use your race's endurance and health dices, and your new ability rank to roll
+Use your race's endurance and health dice, and your new ability rank to roll
 endurance and health. Note these values on your character sheet.
 
 ## Fourth: Buy equipment
@@ -337,6 +337,8 @@ The following skills are available in Q*:
 * **Oratory** (CA) is used to sway another in ones favour through social
   interactions. It allows a character to bargain, bluff, intimidate or charm
   another. The counter skill is called **Sense Motive**.
+* **Piloting** (SP) is used to pilot any air or space borne vehicle. It's also
+  used in vessel combat to attack.
 * **Sense Motive** (CA) allows to spot bluffs in conversations, spot an resist
   an intimidation attempt or otherwise realise when ones belly is rubbed with
   honey. It is the counter part skill to **Oratory**.
