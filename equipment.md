@@ -56,7 +56,7 @@ reduce the DC of the next shot.
 | RPT     | 8      | 100      | 15 000 |   500    | Select fire
 | HP3 A1  | 14     |   5      | 22 000 | 1 000    | Single shot, rifle, high accuracy
 
-* *Compact* means that the weapon can be easily concealed. **Subterfuge**
+* *Compact* means that the weapon can be easily concealed. **Stealth**
   skill checks involved in this weapon should be easier.
 * *Pistol* means that the weapon is hand held, and can be carried easily
   on the armour or suit. Most pistols only have good accuracy at shorter

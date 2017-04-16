@@ -331,7 +331,7 @@ The following skills are available in Q*:
 * **Micro Gravity** (MI) is the skill that replaces **Athletics** in micro
   gravity environments. It is used to manoeuvre in such weightless conditions.
 * **Notice** (IN) is used to spot hidden things or notice small details that
-  would otherwise be missed. It is the counter part skill to subterfuge.
+  would otherwise be missed. It is the counter part skill to stealth.
 * **Oratory** (CA) is used to sway another in ones favour through social
   interactions. It allows a character to bargain, bluff, intimidate or charm
   another. The counter skill is called **Sense Motive**.
@@ -340,5 +340,5 @@ The following skills are available in Q*:
 * **Sense Motive** (CA) allows to spot bluffs in conversations, spot an resist
   an intimidation attempt or otherwise realise when ones belly is rubbed with
   honey. It is the counter part skill to **Oratory**.
-* **Subterfuge** (SP) is used to sneak about, hide, hide things or use sleight
+* **Stealth** (SP) is used to sneak about, hide, hide things or use sleight
   of hand to conceal items. Its counter skill is **Notice**.
