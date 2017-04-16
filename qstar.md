@@ -5,8 +5,8 @@ Pen & Paper game.
 
 You will need a game master, someone who is willing to run and guide the game,
 and at least two other players. Furthermore you will need a pencil, eraser, and
-some paper. To play you also need a few six sided dices (d6) and ten sided
-dices (d10).
+some paper. To play you also need a few six sided dice (d6) and ten sided
+dice (d10).
 
 # Mechanics
 
@@ -42,7 +42,7 @@ additional benefit. This benefit is called ability modifier:
 
 **Endurance** represents the character's short time well being and
 constitution. A character that reaches zero endurance is knocked
-unconscious. Endurance is determined by rolling a number of dices equal to
+unconscious. Endurance is determined by rolling a number of dice equal to
 your **Might** rank and then adding the base endurance pool of your race to
 the results. Which dice is rolled is also determined by the race. Endurance
 recovers once the character has had enough time to rest (usually resting eight
@@ -86,9 +86,9 @@ course of gameplay. Whenever a character attempts a task a skill roll
 is involved.  A skill has five ranks: **untrained**, **proficient**,
 **trained**, **experienced**, **master**. The ranks are numbered 1
 (untrained) through 5 (master) respectively. The rank number denotes
-how many ten sided dices (d10) you may roll when performing a skill check.
+how many ten sided dice (d10) you may roll when performing a skill check.
 
-| Rank           | Dices
+| Rank           | Dice
 |----------------|-----
 | Untrained      | 1d10
 | Proficient     | 2d10
