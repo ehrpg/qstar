@@ -293,12 +293,9 @@ The following skills are available in Q*:
 
 * **Athletics** (MI) is used to perform actions such as jumping, climbing,
   tumbling, lifting, dragging or rope walking. Extra ability modifiers may be
-  spent on completing a task faster, or to avoid extra falling damage in case
-  of controlled jumps.
-* **Dodging** (SP) is used to move out of harms way. It can be used to dodge
-  hazards such as a falling debris but is also used as the counter part to
-  to the Melee skill. Whenever one person wishes to hit another in melee, dodge
-  can be used to avoid the blow in a contest.
+  spent on completing a task faster, or to avoid extra falling damage in case of
+  controlled jumps. Athletics is also used to move out of harms way. It can be
+  used to dodge hazards such as a falling debris.
 * **Driving** (SP) allows someone to steer land or sea based vehicles, such as
   cars, motorcycles and tanks.
 * **Engineering** (IN) is used to construct and repair devices, buildings and
@@ -326,10 +323,11 @@ The following skills are available in Q*:
   grenade launchers or light machine guns. Extra ability modifiers can be
   spent on extra damage. Extra ability modifiers can be spend on either extra
   normal (1 modifier per point) or critical damage (1 modifier per two points).
-* **Melee** (MI) is the skill involved with all sorts of melee weapons, such
-  as blades, axes, clubs or bare fists and kicks. Extra ability modifiers can
-  be used to purchase extra damage (1 modifier per point) or extra critical
-  damage (1 modifier per two points). Its counter skill is **Dodging**.
+* **Melee** (MI) is the skill involved with all sorts of melee weapons, such as
+  blades, axes, clubs or bare fists and kicks. Extra ability modifiers can be
+  used to purchase extra damage (1 modifier per point) or extra critical damage
+  (1 modifier per two points). It's also used for defending against a melee
+  attack, either by deflecting, blocking or dodging an attack.
 * **Micro Gravity** (MI) is the skill that replaces **Athletics** in micro
   gravity environments. It is used to manoeuvre in such weightless conditions.
 * **Notice** (IN) is used to spot hidden things or notice small details that
