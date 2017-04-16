@@ -98,24 +98,24 @@ when firing.
 
 ##### Spread Fire Mode
 
-Every additional weapon reduces the defenders *speed value* by one, until it
+Every additional weapon reduces the defender's *speed value* by one, until it
 reaches 0. The *speed value* due to multiple weapons can't deceed 0.
 
 Example: An attacker is firing a battery of 4 rail guns upon a small vessel with
 a *speed value* of +2. The attacker has 4 dice and +4 on his attack due to the
-pilots skill. Because the attacker has 4 rail guns, they could reduce any
-defenders *speed value* by 3, to a minimum of 0. In this case the defenders
+pilot's skill. Because the attacker has 4 rail guns, they could reduce any
+defender's *speed value* by 3, to a minimum of 0. In this case the defender's
 *speed value* is reduced to 0. The attack succeeds, and deals damage.
 
 ##### Focused Fire Mode
 
-Every die that exceeds the defenders highest roll results in another hit.
+Every die that exceeds the defender's highest roll results in another hit.
 
 Example: An attacker is firing a battery of 4 rail guns upon a small vessel with
 a *speed value* of +2. The attacker has 4 dice and +4 on his attack due to the
 pilots skill. The attacker decides to add additional damage rather than reducing
-the enemies speed value. Two of his dice, after applying bonuses, exceed the
-defenders defence roll. Instead of dealing damage once, the attacker deals
+the enemy's speed value. Two of his dice, after applying bonuses, exceed the
+defender's defence roll. Instead of dealing damage once, the attacker deals
 damage twice.
 
 ### Damaging
