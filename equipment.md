@@ -16,12 +16,12 @@ full damage is subtracted from the hit points of the armour. If the armour
 reaches zero hit points its damage reduction drops to zero and thus stops
 being useful.
 
-| Suit        | DR  | HP  | Cost   | Extras
-|-------------|-----|-----|--------|----------------------------
-| UHAS MK I   | 2   | 40  |  9 000 | Space suit, mag boots, internal radio
-| UHAS MK II  | 4   | 60  | 15 000 | Space suit, mag boots, internal radio, camera
-| MACS MK I   | 6   | 50  | 50 000 | Combat armour, space suit, mag boots, radio
-| MACS MK II  | 8   | 70  | 90 000 | Advanced combat armour, space suit, mag boots, radio, camera
+| Suit        | DR  | HP | Cost   | Extras
+|-------------|----:|---:|-------:|----------------------------
+| UHAS MK I   | 2   | 40 |  9 000 | Space suit, mag boots, internal radio
+| UHAS MK II  | 4   | 60 | 15 000 | Space suit, mag boots, internal radio, camera
+| MACS MK I   | 6   | 50 | 50 000 | Combat armour, space suit, mag boots, radio
+| MACS MK II  | 8   | 70 | 90 000 | Advanced combat armour, space suit, mag boots, radio, camera
 
 # Melee Weapons
 
@@ -29,7 +29,7 @@ Melee weapons have a cost and damage. They get the might ability modifier
 as extra damage.
 
 | Weapon    | Damage | Cost
-|-----------|--------|-----
+|-----------|-------:|----:
 | Fists     | 4      | -
 | Baton     | 6      | 100
 | Knife     | 8      | 100
@@ -47,7 +47,7 @@ perks the weapons have. An action can be used to aim once, which should
 reduce the DC of the next shot.
 
 | Weapon  | Damage | Capacity | Cost   | Magazine | Notes
-|---------|--------|----------|--------|----------|---------------
+|---------|-------:|---------:|-------:|---------:|---------------
 | CP9     | 4      |          |  1 100 |    20    | Single shot,  ompact, pistol
 | P32     | 4      |  15      |    900 |    30    | Single shot, Pistol
 | RX60    | 6      |  30      |  6 200 |   150    | Select fire
@@ -78,7 +78,7 @@ reduce the DC of the next shot.
 
 Medical items recover endurance or even health.
 
-| Item          | Cost   | Endurance   |  Health
-|---------------|--------|-------------|-----------
-| First Aid Kit |  600   | 1d6         | -
-| Medical Kit   | 1200   | 1d10        | 1d6
+| Item          | Cost  | Endurance   |  Health
+|---------------|------:|-------------|-----------
+| First Aid Kit |   600 | 1d6         | -
+| Medical Kit   | 1 200 | 1d10        | 1d6

@@ -13,7 +13,7 @@ Upon taking Endurance II you immediately add the average of your race's
 endurance dice (rounded down) to your character's total endurance pool. This
 effect stacks with **Endurance I**.
 
-**Price**: 1000
+**Price**: 1 000
 
 **Requires**: Endurance I
 
@@ -23,7 +23,7 @@ Upon taking Endurance III you immediately add the average of your race's
 endurance dice (rounded down) to your character's total endurance pool. This
 effect stacks with **Endurance I** and **Endurance II**.
 
-**Price**: 2000
+**Price**: 2 000
 
 **Requires**: Endurance II
 
@@ -40,7 +40,7 @@ Upon taking Health II you immediately add the average of your race's health
 dice (rounded down) to your character's total health pool. This effect stacks
 with **Health I**.
 
-**Price**: 1000
+**Price**: 1 000
 
 **Requires**: Health I
 
@@ -50,7 +50,7 @@ Upon taking Health III you immediately add the average of your race's health
 dice (rounded down) to your character's total health pool. This effect stacks
 with **Health I** and **Health 2**.
 
-**Price**: 2000
+**Price**: 2 000
 
 **Requires**: Health II
 
@@ -62,7 +62,7 @@ With the Weapon Finesse feat you use **Speed** (SP) instead of **Might** (MI)
 when using the **Melee** skill with small and light weight weapons (such as
 knives).
 
-**Price**: 1000
+**Price**: 1 000
 
 **Requires**: **Speed** 6 or higher
 
@@ -73,6 +73,6 @@ knives).
 With **Forceful Presence** you may use **Might** (MI) instead of **Charisma**
 (CA) when you attempt to intimidate another using the **Oratory** skill.
 
-**Price**: 1000
+**Price**: 1 000
 
 **Requires**: **Might** 6 or higher

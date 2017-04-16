@@ -253,8 +253,8 @@ of paper.
 Humans are the versatile race of Q*, with having no obvious benefits or
 drawbacks. They are suitable for all kinds of game play.
 
-| Human         | Value
-|---------------|------
+| Human         | Value 
+|---------------|------:
 | Might         | 5
 | Speed         | 5
 | Intelligence  | 5
