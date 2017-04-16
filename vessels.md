@@ -2,21 +2,21 @@
 
 ## Type
 
-All vessels are given one more types defining in which environments they
-operate in. The environment can impose penalties to a vessel, or simply disable,
-damage, or destroy it.
+All vessels are given one more types defining in which environments they operate
+in. The environment can impose penalties to a vessel, or simply disable, damage,
+or destroy it.
 
-Space means that the vessel is capable of manoeuvring in outer
-space, air means that is also capable of flying through an atmosphere. If a
-vessel has both space and air listed, the vessel is capable of making a
-transition from atmosphere to outer space and vice versa. Land means that the
-vessel moves on land, and water means that it moves on or in water.
+Space means that the vessel is capable of manoeuvring in outer space, air means
+that is also capable of flying through an atmosphere. If a vessel has both space
+and air listed, the vessel is capable of making a transition from atmosphere to
+outer space and vice versa. Land means that the vessel moves on land, and water
+means that it moves on or in water.
 
 ## Vessel Statistics
 
 ### Attack
 
-Any vessel is outfitted with electronics for aim assistance, maneuvering and so
+Any vessel is outfitted with electronics for aim assistance, manoeuvering and so
 forth. Bigger and better vessels have better and more sophisticated electronics
 than smaller and cheaper vessels. The attack value is a bonus the pilot of a
 small vessel or officer of a bigger vessel gains when attacking.
@@ -25,28 +25,28 @@ small vessel or officer of a bigger vessel gains when attacking.
 
 Ships also have an armour rating. Armour reduces the incoming damage (both
 normal and critical) by the listed damage reduction amount. Any damage above the
-damage reduction is passed on to the ships shield hitpoints or hull integrity.
+damage reduction is passed on to the ships shield hit points or hull integrity.
 The full damage is subtracted from the hit points of the armour. If the armour
 reaches zero hit points its damage reduction drops to zero and thus stops being
-useful. 
+useful.
 
-A vessel can outfit multiple armour platings. The damage reduction is not
-cummulative, but the armour hitpoints are, given the armour is of the same type.
-Damage is always substracted from the armour providing the most damage reduction
+A vessel can outfit multiple armour plating. The damage reduction is not
+cumulative, but the armour hit points are, given the armour is of the same type.
+Damage is always subtracted from the armour providing the most damage reduction
 first.
 
 ### Speed
 
-Smaller vessels have the upper hand when it comes to maneuvering. As such, they
+Smaller vessels have the upper hand when it comes to manoeuvering. As such, they
 gain a bonus to evading enemy fire, while bigger, slower vessels are penalised.
 
 ### Shield Hitpoints
 
-Shiels come in great variety to protect a vessel versus any kind of damage. F.e.
-a shield might be a simple sand screen that deflects beam and laser weapons.
-Also, point-defense versus small fighter wings, or missiles add to the shield
-hitpoints value. The hitpoints abstract the recharge speed of shields, or reload
-speed of point defense.
+Shields come in great variety to protect a vessel versus any kind of damage.
+F.e. a shield might be a simple sand screen that deflects beam and laser
+weapons. Also, point-defence versus small fighter wings, or missiles add to the
+shield hit points value. The hit points abstract the recharge speed of shields,
+or reload speed of point defence.
 
 ### Hull Integrity
 
@@ -80,7 +80,7 @@ and the vessel has +1 on its attack value, resulting in +3, that can be spent
 across any of the 3 dice. The defender also rolls on the associated piloting
 skill in which they are trained, has a +1 modifier on the associated ability,
 but a -1 speed value due to the vessel size. Both attacker and defender can
-apply positive modifiers or have to substract negative ones. The one with the
+apply positive modifiers or have to subtract negative ones. The one with the
 higher result succeeds.
 
 #### Smart Weapons
@@ -105,7 +105,7 @@ Example: An attacker is firing a battery of 4 rail guns upon a small vessel with
 a *speed value* of +2. The attacker has 4 dice and +4 on his attack due to the
 pilots skill. Because the attacker has 4 rail guns, they could reduce any
 defenders *speed value* by 3, to a minimum of 0. In this case the defenders
-*speed value* is reduced to 0. The attack suceeds, and deals damage.
+*speed value* is reduced to 0. The attack succeeds, and deals damage.
 
 ##### Focused Fire Mode
 
@@ -115,18 +115,18 @@ Example: An attacker is firing a battery of 4 rail guns upon a small vessel with
 a *speed value* of +2. The attacker has 4 dice and +4 on his attack due to the
 pilots skill. The attacker decides to add additional damage rather than reducing
 the enemies speed value. Two of his dice, after applying bonuses, exceed the
-defenders defense roll. Instead of dealing damage once, the attacker deals
+defenders defence roll. Instead of dealing damage once, the attacker deals
 damage twice.
 
 ### Damaging
 
 If the attack succeeds, the attacker can deal damage to the attacked vessel. The
 damage is reduced by the attacked vessels damage reduction. Any exceeding damage
-is substracted from the ships shield hitpoints or hull integrity.
+is subtracted from the ships shield hit points or hull integrity.
 
 Example: The attacking ship fires a missile that would deal 20 points of damage
 to the attacked vessel. The attacked vessel has four armour plates with 10
-damage reduction and 50 hitpoints, resulting in a total of 10 damage reduction
-and 200 hitpoints. The damage of the missile is reduced by 10 by the armours
-damage reduction, reducing the armour hitpoints by 20 to a total of 180, and the
-ships shield hitpoints or hull integrity by 10.
+damage reduction and 50 hit points, resulting in a total of 10 damage reduction
+and 200 hit points. The damage of the missile is reduced by 10 by the armours
+damage reduction, reducing the armour hit points by 20 to a total of 180, and
+the ships shield hit points or hull integrity by 10.
