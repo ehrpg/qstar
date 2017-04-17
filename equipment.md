@@ -78,7 +78,8 @@ reduce the DC of the next shot.
 
 Medical items recover endurance or even health.
 
-| Item          | Cost  | Endurance   |  Health
-|---------------|------:|-------------|-----------
-| First Aid Kit |   600 | 1d6         | -
-| Medical Kit   | 1 200 | 1d10        | 1d6
+| Item            | Cost  | Endurance   | Health | Notes                               |
+|-----------------|------:|------------:|-------:|-------------------------------------|
+| First Aid Kit   |   600 |         1d6 |      - |                                     |
+| Medical Kit     | 1 200 |        1d10 |    1d6 |                                     |
+| Adrenaline Shot |   400 |        1d10 |        | Temporary, expires after 5 minutes. |
