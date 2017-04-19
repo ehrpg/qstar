@@ -364,7 +364,7 @@ The following skills are available in Q*:
   interactions. It allows a character to bargain, bluff, intimidate or charm
   another. The counter skill is called **Sense Motive**.
 * **Piloting** (SP) is used to pilot any air or space borne vehicle. It's also
-  used in vessel combat to attack.
+  used in vessel combat to attack and defend.
 * **Sense Motive** (CA) allows to spot bluffs in conversations, spot an resist
   an intimidation attempt or otherwise realise when ones belly is rubbed with
   honey. It is the counter part skill to **Oratory**.
