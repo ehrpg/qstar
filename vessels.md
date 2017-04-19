@@ -1,3 +1,24 @@
+<!-- TOC -->
+
+- [Vessels](#vessels)
+  - [Type](#type)
+  - [Vessel Statistics](#vessel-statistics)
+    - [Attack](#attack)
+    - [Defense](#defense)
+    - [Speed](#speed)
+    - [Shield Hitpoints](#shield-hitpoints)
+    - [Hull Integrity](#hull-integrity)
+    - [Size](#size)
+  - [Vessel Combat](#vessel-combat)
+    - [Attacking and Defending](#attacking-and-defending)
+      - [Smart Weapons](#smart-weapons)
+      - [Multiple Weapons](#multiple-weapons)
+        - [Spread Fire Mode](#spread-fire-mode)
+        - [Focused Fire Mode](#focused-fire-mode)
+    - [Damaging](#damaging)
+
+<!-- /TOC -->
+
 # Vessels
 
 ## Type

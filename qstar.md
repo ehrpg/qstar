@@ -1,3 +1,31 @@
+<!-- TOC -->
+
+- [Introduction](#introduction)
+- [Mechanics](#mechanics)
+  - [Abilities](#abilities)
+  - [Endurance](#endurance)
+  - [Health](#health)
+  - [Damage](#damage)
+  - [Critical Hit and Damage](#critical-hit-and-damage)
+  - [Skills](#skills)
+  - [Tasks](#tasks)
+  - [Competition](#competition)
+  - [Multiple Successes](#multiple-successes)
+  - [Ability Modifier](#ability-modifier)
+  - [Perks](#perks)
+  - [Improving your character](#improving-your-character)
+  - [Crisis](#crisis)
+  - [Actions](#actions)
+- [Making a character](#making-a-character)
+  - [First: Choose a race](#first-choose-a-race)
+    - [Human](#human)
+  - [Second: Make adaptions](#second-make-adaptions)
+  - [Third: Roll Endurance and Health](#third-roll-endurance-and-health)
+  - [Fourth: Buy equipment](#fourth-buy-equipment)
+- [Available Skills](#available-skills)
+
+<!-- /TOC -->
+
 Q* is the working title for a bunch of modifications for the Endless Horizons
 Pen & Paper game.
 
@@ -34,9 +62,9 @@ Abilities have ranks going from 1 to 10. Five (5) is the average, conferring
 neither a benefit nor a drawback. Every point below or above five grants an
 additional benefit. This benefit is called ability modifier:
 
-|Ability  | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10
-|---------|---|---|---|---|---|---|---|---|---|---|---
-|Modifier | -5| -4| -3| -2| -1| +0| +1| +2| +3| +4| +5
+| Ability  | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
+| -------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Modifier | -5  | -4  | -3  | -2  | -1  | +0  | +1  | +2  | +3  | +4  | +5  |
 
 ## Endurance
 
@@ -88,13 +116,13 @@ is involved.  A skill has five ranks: **untrained**, **proficient**,
 (untrained) through 5 (master) respectively. The rank number denotes
 how many ten sided dice (d10) you may roll when performing a skill check.
 
-| Rank           | Dice
-|----------------|-----
-| Untrained      | 1d10
-| Proficient     | 2d10
-| Trained        | 3d10
-| Experienced    | 4d10
-| Master         | 5d10
+| Rank        | Dice |
+| ----------- | ---- |
+| Untrained   | 1d10 |
+| Proficient  | 2d10 |
+| Trained     | 3d10 |
+| Experienced | 4d10 |
+| Master      | 5d10 |
 
 Each skill is associated with an attribute. Ability modifiers are used
 from the corresponding associated skill. Every character starts with
@@ -173,30 +201,30 @@ lessons for skills.
 
 Improving an ability costs:
 
-| New Rank | Cost
-|----------|----------:
-| 1        |  -512 000
-| 2        |  -162 000
-| 3        |   -32 000
-| 4        |    -2 000
-| 5        |         0
-| 6        |     2 000
-| 7        |    32 000
-| 8        |   162 000
-| 9        |   512 000
-| 10       | 1 250 000
+| New Rank |      Cost |
+| -------- | --------: |
+| 1        |  -512 000 |
+| 2        |  -162 000 |
+| 3        |   -32 000 |
+| 4        |    -2 000 |
+| 5        |         0 |
+| 6        |     2 000 |
+| 7        |    32 000 |
+| 8        |   162 000 |
+| 9        |   512 000 |
+| 10       | 1 250 000 |
 
 Formula: `cost = abs(mod) ^ 4 * 2000`
 
 Improving a skill costs:
 
-| New Rank       | Cost
-|----------------|---------:
-| Untrained      |       0
-| Proficient     |   1 000
-| Trained        |  31 000
-| Experienced    |  81 000
-| Master         | 151 000
+| New Rank    |    Cost |
+| ----------- | ------: |
+| Untrained   |       0 |
+| Proficient  |   1 000 |
+| Trained     |  31 000 |
+| Experienced |  81 000 |
+| Master      | 151 000 |
 
 Formula: `cost = ((max(x-1, 0) * 100) ^ 2) - 9000`
 
@@ -253,18 +281,18 @@ of paper.
 Humans are the versatile race of Q*, with having no obvious benefits or
 drawbacks. They are suitable for all kinds of game play.
 
-| Human         | Value 
-|---------------|------:
-| Might         | 5
-| Speed         | 5
-| Intelligence  | 5
-| Charisma      | 5
-| Base Endurance| 20
-| Base Health   | 15
-| Endurance     | d10
-| Health        | d6
-| Perks         | -
-| Flaws         | -
+| Human          | Value |
+| -------------- | ----: |
+| Might          |     5 |
+| Speed          |     5 |
+| Intelligence   |     5 |
+| Charisma       |     5 |
+| Base Endurance |    20 |
+| Base Health    |    15 |
+| Endurance      |   d10 |
+| Health         |    d6 |
+| Perks          |     - |
+| Flaws          |     - |
 
 ## Second: Make adaptions
 

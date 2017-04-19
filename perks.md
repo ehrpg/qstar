@@ -1,3 +1,19 @@
+<!-- TOC -->
+
+- [Body](#body)
+  - [Endurance I](#endurance-i)
+  - [Endurance II](#endurance-ii)
+  - [Endurance III](#endurance-iii)
+  - [Health I](#health-i)
+  - [Health II](#health-ii)
+  - [Health III](#health-iii)
+- [Combat](#combat)
+  - [Weapon Finesse](#weapon-finesse)
+- [Social](#social)
+  - [Forceful Presence](#forceful-presence)
+
+<!-- /TOC -->
+
 # Body
 
 ## Endurance I
