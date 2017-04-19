@@ -10,16 +10,24 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="297mm"
-   height="210mm"
-   viewBox="0 0 297 210"
-   version="1.1"
-   id="svg8"
-   enable-background="new"
+   sodipodi:docname="charsheet.svg"
    inkscape:version="0.92.1 r15371"
-   sodipodi:docname="charsheetv2.svg">
+   enable-background="new"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 297 210"
+   height="210mm"
+   width="297mm">
   <defs
      id="defs2">
+    <linearGradient
+       id="linearGradient11816"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#a0a0a0;stop-opacity:1;"
+         offset="0"
+         id="stop11814" />
+    </linearGradient>
     <marker
        inkscape:isstock="true"
        style="overflow:visible"
@@ -3327,16 +3335,6 @@
          offset="0"
          id="stop4634" />
     </linearGradient>
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter6370">
-      <feBlend
-         inkscape:collect="always"
-         mode="screen"
-         in2="BackgroundImage"
-         id="feBlend6372" />
-    </filter>
     <marker
        style="overflow:visible"
        inkscape:stockid="InfiniteLineEnd"
@@ -6677,25 +6675,25 @@
     </marker>
   </defs>
   <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="1.0765701"
-     inkscape:cx="524.72804"
-     inkscape:cy="435.83883"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     showguides="true"
-     inkscape:window-width="2560"
-     inkscape:window-height="1387"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:lockguides="false"
      inkscape:window-maximized="1"
-     inkscape:lockguides="false">
+     inkscape:window-y="-8"
+     inkscape:window-x="2552"
+     inkscape:window-height="1387"
+     inkscape:window-width="2560"
+     showguides="true"
+     showgrid="false"
+     inkscape:current-layer="g5972"
+     inkscape:document-units="mm"
+     inkscape:cy="692.30922"
+     inkscape:cx="739.99913"
+     inkscape:zoom="4.3062804"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base">
     <inkscape:grid
        type="xygrid"
        id="grid3680"
@@ -6718,7 +6716,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -7001,16 +6999,16 @@
            id="g5972"
            inkscape:label="attribute">
           <text
-             id="text5700-9-59-8"
+             id="text5700-9-59-88-6"
              y="106.7652"
-             x="114.02422"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:Impact;-inkscape-font-specification:Impact;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332;filter:url(#filter6370)"
+             x="114.02539"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:Impact;-inkscape-font-specification:Impact;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
              xml:space="preserve"
              inkscape:label="text-mod"><tspan
                style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:Immortal;-inkscape-font-specification:Immortal;fill:#a0a0a0;fill-opacity:1;stroke-width:0.26458332"
                y="106.7652"
-               x="114.02422"
-               id="tspan5698-4-4-3"
+               x="114.02539"
+               id="tspan5698-4-4-9-1"
                sodipodi:role="line">Mod</tspan></text>
           <text
              id="text5700-9-1"
@@ -7322,7 +7320,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:Impact;-inkscape-font-specification:Impact;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2758472"
            xml:space="preserve"
            inkscape:label="text-rank"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;font-family:Immortal;-inkscape-font-specification:Immortal;fill:#a0a0a0;fill-opacity:1;stroke-width:0.2758472"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.65863371px;font-family:Immortal;-inkscape-font-specification:Immortal;fill:#a0a0a0;fill-opacity:1;stroke-width:0.2758472"
              y="109.8253"
              x="49.458309"
              id="tspan5698-4-36"
@@ -8448,7 +8446,7 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.24745464px;line-height:1.25;font-family:Impact;-inkscape-font-specification:Impact;letter-spacing:0px;word-spacing:0px;fill:#404040;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.24745464px;line-height:1.25;font-family:Impact;-inkscape-font-specification:Impact;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:0;stroke:#404040;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4;stroke-opacity:1;paint-order:normal"
        x="252.48163"
        y="271.62259"
        id="text7498"
@@ -8457,7 +8455,7 @@
          id="tspan7496"
          x="252.48163"
          y="271.62259"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.77329636px;font-family:Immortal;-inkscape-font-specification:Immortal;fill:#404040;fill-opacity:1;stroke-width:0.26458332">Q*</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.77329636px;font-family:Immortal;-inkscape-font-specification:Immortal;fill:#ffffff;fill-opacity:0;stroke:#404040;stroke-width:0.40000001;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4;stroke-opacity:1;paint-order:normal">Q*</tspan></text>
     <g
        id="g7324"
        inkscape:label="melee"
