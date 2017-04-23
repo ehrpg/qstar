@@ -4,9 +4,9 @@
   - [Type](#type)
   - [Vessel Statistics](#vessel-statistics)
     - [Attack](#attack)
-    - [Defense](#defense)
+    - [Defence](#defence)
     - [Speed](#speed)
-    - [Shield Hitpoints](#shield-hitpoints)
+    - [Shield Hit Points](#shield-hit-points)
     - [Hull Integrity](#hull-integrity)
     - [Size](#size)
   - [Vessel Combat](#vessel-combat)
@@ -16,6 +16,9 @@
         - [Spread Fire Mode](#spread-fire-mode)
         - [Focused Fire Mode](#focused-fire-mode)
     - [Damaging](#damaging)
+  - [Optional](#optional)
+    - [Fuel](#fuel)
+    - [Power](#power)
 
 <!-- /TOC -->
 
@@ -37,12 +40,12 @@ means that it moves on or in water.
 
 ### Attack
 
-Any vessel is outfitted with electronics for aim assistance, manoeuvering and so
+Any vessel is outfitted with electronics for aim assistance, manoeuvring and so
 forth. Bigger and better vessels have better and more sophisticated electronics
 than smaller and cheaper vessels. The attack value is a bonus the pilot of a
 small vessel or officer of a bigger vessel gains when attacking.
 
-### Defense
+### Defence
 
 Ships also have an armour rating. Armour reduces the incoming damage (both
 normal and critical) by the listed damage reduction amount. Any damage above the
@@ -58,10 +61,10 @@ first.
 
 ### Speed
 
-Smaller vessels have the upper hand when it comes to manoeuvering. As such, they
+Smaller vessels have the upper hand when it comes to manoeuvring. As such, they
 gain a bonus to evading enemy fire, while bigger, slower vessels are penalised.
 
-### Shield Hitpoints
+### Shield Hit Points
 
 Shields come in great variety to protect a vessel versus any kind of damage.
 F.e. a shield might be a simple sand screen that deflects beam and laser
@@ -72,12 +75,13 @@ or reload speed of point defence.
 ### Hull Integrity
 
 Hull Integrity is the Health for vessels, and depends on the size and quality of
-the vessel. If the hull integrity drops below one half of the maximum, the
-vessel is venting atmosphere, which itself might be deadly in a space combat
-scenario. If the hull integrity reaches zero, it is utterly destroyed in a
-blast. Certain weapons are designed to drop the hull integrity temporarily, so
-that the vessel can be boarded rather than destroyed. See vessel equipment for
-details.
+the vessel. When dropping below the maximum, the vessel begins venting
+atmosphere or becomes otherwise impeded, which might be dangerous by itself. If
+the hull integrity drops below one half of the maximum, the vessel's power
+supply is cut, disabling all functions. If the hull integrity reaches zero, the
+vessel is utterly destroyed in a blast. Certain weapons are designed to drop the
+hull integrity temporarily, so that the vessel can be boarded rather than
+destroyed. See vessel equipment for details.
 
 ### Size
 
@@ -120,7 +124,7 @@ when firing.
 ##### Spread Fire Mode
 
 Every additional weapon reduces the defender's *speed value* by one, until it
-reaches 0. The *speed value* due to multiple weapons can't deceed 0.
+reaches 0. The *speed value* due to multiple weapons can't fall below 0.
 
 Example: An attacker is firing a battery of 4 rail guns upon a small vessel with
 a *speed value* of +2. The attacker has 4 dice and +4 on his attack due to the
@@ -151,3 +155,9 @@ damage reduction and 50 hit points, resulting in a total of 10 damage reduction
 and 200 hit points. The damage of the missile is reduced by 10 by the armours
 damage reduction, reducing the armour hit points by 20 to a total of 180, and
 the ships shield hit points or hull integrity by 10.
+
+## Optional
+
+### Fuel
+
+### Power
