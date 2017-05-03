@@ -331,7 +331,9 @@ The following skills are available in Q*:
   fortifications or repairing an airlock. Extra ability modifiers can be used
   to use less materials or complete the action faster.
 * **Explosives** (IN) can be used to disarm, handle or even build explosive
-  ordinance.
+  ordinance. When explosives are thrown (i.e. grenades) roll Athletics instead.
+  Otherwise defusing and planting explosives is a competition between the one
+  setting it, and the one defusing it.
 * **First Aid** (IN) is used to treat wounds and cure health damage. A
   successful first aid check requires a first aid kit (or similar) and cures
   an amount of **Health** as defined by the first aid kit. The game master may
