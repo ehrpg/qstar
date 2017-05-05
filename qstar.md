@@ -153,7 +153,7 @@ is called a **failure**.
 
 ## Multiple Successes
 
-If a character has more than once dice for a specific skill available,
+If a character has more than one die for a specific skill available,
 more than one action may be attempted at the same time using that
 skill. The DM sets the amount of successes required and adjusts the
 DC accordingly. There is still only one DC for all actions, but now
