@@ -245,24 +245,41 @@ order of the highest initiative to lowest.
 
 ## Actions
 
-Once it is a player's turn in a crisis, he or she may do two actions. An action
-takes a small amount of time, and may involve a skill check. The game master
-may decide that a task takes more than one action, or even takes a couple of
-rounds. Any number of actions may be converted to **reactions**. These are
-specific conditions set by the player that trigger when an external event
-occurs. An example of a reaction is using the **Dodging** skill to avoid a hit
-in melee combat. If the condition does not occur before his or her next turn,
-the reaction is lost.
+Once it is a player's turn in a crisis, he or she may do two
+actions. An action takes a small amount of time, and may involve a
+skill check. The game master may decide that a task takes more than
+one action, or even takes a couple of rounds. Any number of actions
+may be converted to **ready actions**. These are specific conditions
+set by the player that trigger when an external event occurs. If the
+condition does not occur before his or her next turn, the **ready
+action** is lost.
 
-A game master may also decide that something takes so little time, that it does
-not count towards the player's amount of actions in that round. These actions
-are called **free actions**. For example, the game master may decide that
-letting go of a ledge takes no time and is thus a **free action**.
+Everything you do in a crisis as part of an action is almost all of
+the time solvable through a skill check. Movement in combat is done
+through **Acrobatics**, hitting an enemy with a sword through
+**Melee** or getting a blast door open uses **Hacking**.
 
-Everything you do in a crisis as part of an action is almost all of the time
-solvable through a skill check. Movement in combat is done through
-**Acrobatics**, hitting an enemy with a sword through **Melee** or getting a
-blast door open uses **Hacking**.
+### Free Actions
+
+A game master may also decide that something takes so little time,
+that it does not count towards the player's amount of actions in that
+round. These actions are called **free actions**. For example, the
+game master may decide that letting go of a ledge takes no time and is
+thus a **free action**.
+
+### Reactions
+
+Reactions are skill checks that a player or NPC must make upon the
+request of the game master. Reactions are triggered by external
+events, and may happen out of turn for the player. The game master
+sets a DC and a skill, which the player has to succeed or face certain
+consequences. These reactions do not detract from the player or NPCs
+available actions on his turn.
+
+For example two players climb a mountain side. One player fails his
+athletics check, slips and falls. The other player may receive a
+reaction to catch him.  Should he fail his friend falls, and if he
+succeeds he may help is friend to gain footing again.
 
 # Making a character
 
