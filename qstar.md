@@ -9,6 +9,7 @@
   - [Critical Hit and Damage](#critical-hit-and-damage)
   - [Skills](#skills)
   - [Tasks](#tasks)
+  - [Aiding](#aiding)
   - [Competition](#competition)
   - [Multiple Successes](#multiple-successes)
   - [Ability Modifier](#ability-modifier)
@@ -140,6 +141,34 @@ the corresponding skill. At least one dice has to meet or exceed the
 DC for the task to completed successfully.  A dice that meets or
 exceeds the DC is called a **success**, and dice that do not meet the
 DC are called **failures**.
+
+## Aiding
+
+At the game master's discretion, it is possible for one or more
+characters to aid another in an upcoming task (henceforth called the
+*main task*). The players aiding must be able to declare, and be able
+to perform the aid before the main task is attempted (i.e. rolled
+for). Then they must perform the same skill check (consuming an
+action) within their turn. Every success of those aiding translates
+into a tangible benefit for the main task. Such benefits could include
+(but are not limited to):
+
+* One additional modifier for each success, to be used in the roll of
+  the main task.
+* Better outcome of the main task, such as less time or materials used.
+* A lowered difficulty for the main task.
+
+The actual benefits bestowed upon the main task are up to the game
+master. Players should state beforehand what they are trying to
+achieve by helping, for example making sure that the player who
+performs the main task succeeds more easily, or that the task is done
+faster. This helps the GM to design any potential benefits.
+
+Game masters may also demand that a task is not doable alone, for
+example moving furniture that is too heavy to be moved by just one
+character, or a high enough wall that requires help from another to
+successfully climb.
+
 
 ## Competition
 
