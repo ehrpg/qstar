@@ -9,6 +9,7 @@
   - [Critical Hit and Damage](#critical-hit-and-damage)
   - [Skills](#skills)
   - [Tasks](#tasks)
+  - [Aiding](#aiding)
   - [Competition](#competition)
   - [Multiple Successes](#multiple-successes)
   - [Ability Modifier](#ability-modifier)
@@ -141,6 +142,34 @@ DC for the task to completed successfully.  A dice that meets or
 exceeds the DC is called a **success**, and dice that do not meet the
 DC are called **failures**.
 
+## Aiding
+
+At the game master's discretion, it is possible for one or more
+characters to aid another in an upcoming task (henceforth called the
+*main task*). The players aiding must be able to declare, and be able
+to perform the aid before the main task is attempted (i.e. rolled
+for). Then they must perform the same skill check (consuming an
+action) within their turn. Every success of those aiding translates
+into a tangible benefit for the main task. Such benefits could include
+(but are not limited to):
+
+* One additional modifier for each success, to be used in the roll of
+  the main task.
+* Better outcome of the main task, such as less time or materials used.
+* A lowered difficulty for the main task.
+
+The actual benefits bestowed upon the main task are up to the game
+master. Players should state beforehand what they are trying to
+achieve by helping, for example making sure that the player who
+performs the main task succeeds more easily, or that the task is done
+faster. This helps the GM to design any potential benefits.
+
+Game masters may also demand that a task is not doable alone, for
+example moving furniture that is too heavy to be moved by just one
+character, or a high enough wall that requires help from another to
+successfully climb.
+
+
 ## Competition
 
 When two characters, or a character and an NPC, pitch their skills against
@@ -153,7 +182,7 @@ is called a **failure**.
 
 ## Multiple Successes
 
-If a character has more than once dice for a specific skill available,
+If a character has more than one die for a specific skill available,
 more than one action may be attempted at the same time using that
 skill. The DM sets the amount of successes required and adjusts the
 DC accordingly. There is still only one DC for all actions, but now
@@ -245,24 +274,41 @@ order of the highest initiative to lowest.
 
 ## Actions
 
-Once it is a player's turn in a crisis, he or she may do two actions. An action
-takes a small amount of time, and may involve a skill check. The game master
-may decide that a task takes more than one action, or even takes a couple of
-rounds. Any number of actions may be converted to **reactions**. These are
-specific conditions set by the player that trigger when an external event
-occurs. An example of a reaction is using the **Dodging** skill to avoid a hit
-in melee combat. If the condition does not occur before his or her next turn,
-the reaction is lost.
+Once it is a player's turn in a crisis, he or she may do two
+actions. An action takes a small amount of time, and may involve a
+skill check. The game master may decide that a task takes more than
+one action, or even takes a couple of rounds. Any number of actions
+may be converted to **ready actions**. These are specific conditions
+set by the player that trigger when an external event occurs. If the
+condition does not occur before his or her next turn, the **ready
+action** is lost.
 
-A game master may also decide that something takes so little time, that it does
-not count towards the player's amount of actions in that round. These actions
-are called **free actions**. For example, the game master may decide that
-letting go of a ledge takes no time and is thus a **free action**.
+Everything you do in a crisis as part of an action is almost all of
+the time solvable through a skill check. Movement in combat is done
+through **Acrobatics**, hitting an enemy with a sword through
+**Melee** or getting a blast door open uses **Hacking**.
 
-Everything you do in a crisis as part of an action is almost all of the time
-solvable through a skill check. Movement in combat is done through
-**Acrobatics**, hitting an enemy with a sword through **Melee** or getting a
-blast door open uses **Hacking**.
+### Free Actions
+
+A game master may also decide that something takes so little time,
+that it does not count towards the player's amount of actions in that
+round. These actions are called **free actions**. For example, the
+game master may decide that letting go of a ledge takes no time and is
+thus a **free action**.
+
+### Reactions
+
+Reactions are skill checks that a player or NPC must make upon the
+request of the game master. Reactions are triggered by external
+events, and may happen out of turn for the player. The game master
+sets a DC and a skill, which the player has to succeed or face certain
+consequences. These reactions do not detract from the player or NPCs
+available actions on his turn.
+
+For example two players climb a mountain side. One player fails his
+athletics check, slips and falls. The other player may receive a
+reaction to catch him.  Should he fail his friend falls, and if he
+succeeds he may help is friend to gain footing again.
 
 # Making a character
 
@@ -331,7 +377,9 @@ The following skills are available in Q*:
   fortifications or repairing an airlock. Extra ability modifiers can be used
   to use less materials or complete the action faster.
 * **Explosives** (IN) can be used to disarm, handle or even build explosive
-  ordinance.
+  ordinance. When explosives are thrown (i.e. grenades) roll Athletics instead.
+  Otherwise defusing and planting explosives is a competition between the one
+  setting it, and the one defusing it.
 * **First Aid** (IN) is used to treat wounds and cure health damage. A
   successful first aid check requires a first aid kit (or similar) and cures
   an amount of **Health** as defined by the first aid kit. The game master may
