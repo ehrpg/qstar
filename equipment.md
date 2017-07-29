@@ -64,7 +64,7 @@ reduce the DC of the next shot.
 | P32    |     12 |       15 |    900 |       30 | Single shot, Pistol               |
 | RX60   |     16 |       30 |  6 200 |      150 | Select fire                       |
 | AX7    |     20 |       30 |  9 100 |      400 | Select fire, rifle                |
-| ASG-8  |     30 |        7 |  7 000 |       50 | Semi automatic, 
+| ASG-8  |     30 |        7 |  7 000 |       50 | Semi automatic, shotgun
 | M80A2  |     32 |        5 | 12 000 |      600 | Single shot, rifle, high accuracy |
 | RPT    |     20 |      100 | 15 000 |      500 | Select fire, rifle                |
 | HP3 A1 |     36 |        1 | 22 000 |    1 000 | Single shot, rifle, high accuracy |
@@ -86,6 +86,8 @@ reduce the DC of the next shot.
   fire multiple bursts.
 * *High accuracy* means that the weapon is capable of firing accurately
   over longer distances. The DC should be lowered in such cases.
+* *Shotgun* means that the weapon shoots buckshot and thus has reduced
+  range.
 
 # Medical Items
 
