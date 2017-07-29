@@ -1,10 +1,11 @@
 <!-- TOC -->
 
-- [Credits](#credits)
-- [Suits](#suits)
-- [Melee Weapons](#melee-weapons)
-- [Ranged Weapons](#ranged-weapons)
-- [Medical Items](#medical-items)
+1. [Credits](#credits)
+2. [Suits](#suits)
+3. [Melee Weapons](#melee-weapons)
+4. [Ranged Weapons](#ranged-weapons)
+5. [Medical Items](#medical-items)
+6. [Miscellaneous Items](#miscellaneous-items)
 
 <!-- /TOC -->
 
@@ -97,3 +98,16 @@ Medical items recover endurance or even health.
 
 * *Temporary* means that the effect only lasts some time, indicated by the
   parenthesis.
+
+# Miscellaneous Items
+
+| Item       | Cost | Notes                                                  |
+| ---------- | ---- | ------------------------------------------------------ |
+| Toolbox    | 2000 |                                                        |
+| PDA        | 500  | GPS, Pedometer, Interface for electronic devices, etc. |
+| Flashlight | 50   |                                                        |
+| Welder     | 250  |                                                        |
+
+Some checks and tasks may require one or more of these items to be accessible.
+Easier tasks can be done without e.g. tools, but tend to require a lot more
+time.
