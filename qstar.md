@@ -267,10 +267,11 @@ Combat is always a crisis, but other dangerous situation are also considered
 a crisis, such as escaping a space ship that is about to explode. What
 constitutes a crisis is always up the game master.
 
-When a crisis starts, all involved roll initiative by rolling a ten sided dice
-(d10) and adding their speed modifier to it. Perks and flaws may give additional
-bonuses or penalties to initiative. Players, NPCs and monsters start in the
-order of the highest initiative to lowest.
+When a crisis starts, all involved roll initiative by rolling a ten
+sided die (d10) and adding their speed modifier to it. Perks and flaws
+may give additional bonuses or penalties to initiative. Players, NPCs
+and monsters start in the order of the highest initiative to
+lowest. In case of a tie the person with the highest die result wins.
 
 ## Actions
 
