@@ -1,29 +1,31 @@
 <!-- TOC -->
 
-- [Introduction](#introduction)
-- [Mechanics](#mechanics)
-  - [Abilities](#abilities)
-  - [Endurance](#endurance)
-  - [Health](#health)
-  - [Damage](#damage)
-  - [Critical Hit and Damage](#critical-hit-and-damage)
-  - [Skills](#skills)
-  - [Tasks](#tasks)
-  - [Aiding](#aiding)
-  - [Competition](#competition)
-  - [Multiple Successes](#multiple-successes)
-  - [Ability Modifier](#ability-modifier)
-  - [Perks](#perks)
-  - [Improving your character](#improving-your-character)
-  - [Crisis](#crisis)
-  - [Actions](#actions)
-- [Making a character](#making-a-character)
-  - [First: Choose a race](#first-choose-a-race)
-    - [Human](#human)
-  - [Second: Make adaptions](#second-make-adaptions)
-  - [Third: Roll Endurance and Health](#third-roll-endurance-and-health)
-  - [Fourth: Buy equipment](#fourth-buy-equipment)
-- [Available Skills](#available-skills)
+1. [Introduction](#introduction)
+2. [Mechanics](#mechanics)
+  1. [Abilities](#abilities)
+  2. [Endurance](#endurance)
+  3. [Health](#health)
+  4. [Damage](#damage)
+  5. [Critical Hit and Damage](#critical-hit-and-damage)
+  6. [Skills](#skills)
+  7. [Tasks](#tasks)
+  8. [Aiding](#aiding)
+  9. [Competition](#competition)
+  10. [Multiple Successes](#multiple-successes)
+  11. [Ability Modifier](#ability-modifier)
+  12. [Perks](#perks)
+  13. [Improving your character](#improving-your-character)
+  14. [Crisis](#crisis)
+  15. [Actions](#actions)
+    1. [Free Actions](#free-actions)
+    2. [Reactions](#reactions)
+3. [Making a character](#making-a-character)
+  1. [First: Choose a race](#first-choose-a-race)
+    1. [Human](#human)
+  2. [Second: Make adaptions](#second-make-adaptions)
+  3. [Third: Roll Endurance and Health](#third-roll-endurance-and-health)
+  4. [Fourth: Buy equipment](#fourth-buy-equipment)
+4. [Available Skills](#available-skills)
 
 <!-- /TOC -->
 
@@ -395,6 +397,9 @@ The following skills are available in Q*:
   or guided missile platforms.  Extra ability modifiers can be spend
   on either extra normal (1 modifier per point) or critical damage (1 modifier
   per two points).
+* **Knowledge** (IN) is chosen for a particular area, e.g. history, religion,
+  etc. For all other knowledge skills, the character only has basic, common
+  knowledge. 
 * **Light Weapons** (SP) is used to operate firearms such as pistols, rifles,
   or shotguns. Light weapons also applies to man portable weapons such as
   grenade launchers or light machine guns. Extra ability modifiers can be
@@ -414,6 +419,10 @@ The following skills are available in Q*:
   another. The counter skill is called **Sense Motive**.
 * **Piloting** (SP) is used to pilot any air or space borne vehicle. It's also
   used in vessel combat to attack and defend.
+* **Science** (IN) is chosen for a particular scientific field, e.g. geology,
+  biology, astronomy, medicine, etc. For all other scientific areas that weren't
+  chosen, the character has basic knowledge. They only know common knowledge in
+  these areas (according to their education), but nothing special.
 * **Sense Motive** (CA) allows to spot bluffs in conversations, spot an resist
   an intimidation attempt or otherwise realise when ones belly is rubbed with
   honey. It is the counter part skill to **Oratory**.
