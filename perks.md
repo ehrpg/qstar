@@ -11,6 +11,8 @@
   - [Weapon Finesse](#weapon-finesse)
 - [Social](#social)
   - [Forceful Presence](#forceful-presence)
+- [Special skills](#special-skills)
+  - [Create explosives](#create-explosives)
 
 <!-- /TOC -->
 
@@ -92,3 +94,16 @@ With **Forceful Presence** you may use **Might** (MI) instead of **Charisma**
 **Price**: 1 000
 
 **Requires**: **Might** 6 or higher
+
+# Special skills
+
+## Create explosives
+
+A skilled engineer who also knows his stuff about explosives can create
+explosions from mundane items. This allows a character to sabotage a car
+battery, create a hand-made granade and everything in between.
+
+**Price**: 2 000
+
+**Requires**: **Engineering** rank 2 or higher and **Explosives** rank 2 or
+higher
