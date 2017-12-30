@@ -1,7 +1,5 @@
 # Rules
 
-
-
 ## Radiation
 
 *Characters are radiated over time.*
@@ -70,6 +68,38 @@ stay in bed and get **one ration** worth of food and drinks **each day**.
 1. <small id="f1">If the character is unconcious they have to receive infusions
    from others to regain conciousness.</small> [↩](#a1)
 
+# Anomalies
+
+Anomalies are a well known energy phenomenon scattered around the zone.
+
+## Vortex
+
+
+
+## Burner
+
+## Fruit Punch
+
+## Electro
+
+## Springboard
+
+## Whirligig
+
+## Burnt Fuzz
+
+## Radiation
+
+## Fault
+
+## Space Anomaly
+
+## Symbiont
+
+## Gas
+
+## Emission
+
 # Items
 
 ## Consumeables
@@ -84,3 +114,20 @@ stay in bed and get **one ration** worth of food and drinks **each day**.
 | Water (Distilled) |         1.0 |        10 | -                                                                                                   |
 | Vodka             |         1.5 |        40 | One bottle of vodka allows you to ignore the negative effects of radiation regarding **endurance**. |
 
+# Skills
+
+## Obsolete Skills
+
+* ~~Micro Gravity~~ 
+
+## New Skills
+
+* **Survival** is used to navigate through the zone, reading the weather and
+  staying safe of harm.  It also allows you to follow and track down creatures,
+  people and vehicles, if the tracks are fresh.
+
+* **Knowledge** adds new areas of expertise, namely mutants and anomalies.
+
+* **Scientific method** allows a character to combine any knowledge area with
+  this skill. This is used to find out more, or even details unknown to mankind,
+  about the chosen scientific field.
