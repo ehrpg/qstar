@@ -1,0 +1,16 @@
+language: generic
+
+branches:
+  except:
+    - gh-pages
+
+python:
+  - "2.7"
+
+before_install:
+  - sudo apt-get update -qq
+  - sudo apt-get install -qq git
+
+install: "sudo pip install -U mkdocs"
+
+script: /bin/sh .travis.sh
