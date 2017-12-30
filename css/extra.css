@@ -1,0 +1,99 @@
+[data-bracket-bottom] {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+[data-bracket-bottom]:after {
+  content: "";
+  display: block;
+  height: 6px;
+  border: 2px solid black;
+  border-top: none;
+}
+
+[data-bracket-bottom]:before {
+  content: attr(data-bracket-bottom);
+  position: absolute;
+  top: 100%;
+  font-size: 80%;
+  padding: 5px;
+  white-space: nowrap;
+  left: 50%;
+  transform: translateX(-50%)
+}
+
+[data-bracket-top] {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  margin-left: 10px;
+}
+
+[data-bracket-top]:before {
+  content: "";
+  display: block;
+  height: 6px;
+  border: 2px solid black;
+  position: absolute;
+  bottom: 100%;
+  left:0;
+  right:0;
+  border-bottom: none;
+}
+
+[data-bracket-top]:after {
+  content: attr(data-bracket-top);
+  position: absolute;
+  top:-30px;
+  font-size: 80%;
+  padding: 5px;
+  white-space: nowrap;
+  left: 50%;
+  transform: translateX(-50%)
+}
+
+
+.formula {
+  text-align: center;
+}
+
+.formula-top {
+  margin-top: 55px;
+}
+
+.formula-bottom {
+  margin-bottom: 55px;
+}
+
+[class*='ehicon-'] {
+  margin-right: 5px;
+  color: #404040;
+}
+
+.fa-2x {
+  vertical-align: middle;
+}
+
+.toctree-l4:before {
+  content: " — ";
+  padding: 0 5px;
+}
+
+img.ehicon {
+  display: inline-block;
+  border-radius: 3px;
+  height: 1em !important;
+}
+
+img.ehicon-2x {
+  height: 2em !important;
+}
+@media screen and (max-width: 768px) {
+  body img.ehicon {
+    border-radius: 3px;
+    width: auto;
+  }
+}
