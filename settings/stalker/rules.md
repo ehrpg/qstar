@@ -26,7 +26,8 @@ minutes (eigth tenth) worth of exposure, resulting in 400 rad.
 
 | Exposure (rads) | Description            | Health | Endurance | Notes            |
 | --------------: | ---------------------- | -----: | --------: | ---------------- |
-|           0-149 | very nauseous          |      - |        -5 |                  |
+|           0- 24 | feeling unwell         |      - |         - | no side effects  |
+|          25-149 | very nauseous          |      - |        -5 |                  |
 |         150-299 | slightly fatigued      |      - |       -10 |                  |
 |         300-449 | vomiting does not stop |     -5 |       -10 | Speed halved     |
 |         450-599 | hair is falling out    |    -10 |       -15 | Charisma -3      |
