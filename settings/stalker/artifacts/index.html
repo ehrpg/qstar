@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="@n0la, @johannes-z">
+  <link rel="shortcut icon" href="../../../img/favicon.ico">
+  <title>Artifacts - QStar - RPG</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../../css/highlight.css">
+  <link href="../../../css/extra.css" rel="stylesheet">
+  <link href="../../../css/font-awesome.min.css" rel="stylesheet">
+  <link href="../../../css/ehicons.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Artifacts";
+    var mkdocs_page_input_path = "settings/stalker/artifacts.md";
+    var mkdocs_page_url = "/settings/stalker/artifacts/";
+  </script>
+  
+  <script src="../../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../../.." class="icon icon-home"> QStar - RPG</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../..">Introduction</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">QStar</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../../qstar/">Rules</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../../perks/">Perks</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../../equipment/">Equipment</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../../taskdcs/">Task DCs</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../../vessels/">Vessels</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">S.T.A.L.K.E.R. Setting</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../rules/">Rules</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../perks/">Perks</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">Artifacts</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#creation">Creation</a></li>
+    
+
+    <li class="toctree-l3"><a href="#uses">Uses</a></li>
+    
+
+    <li class="toctree-l3"><a href="#finding-artifacts">Finding Artifacts</a></li>
+    
+
+    <li class="toctree-l3"><a href="#list-of-artifacts">List of Artifacts</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#battery">Battery</a></li>
+        
+            <li><a class="toctree-l4" href="#shell">Shell</a></li>
+        
+            <li><a class="toctree-l4" href="#snowflake">Snowflake</a></li>
+        
+            <li><a class="toctree-l4" href="#soul">Soul</a></li>
+        
+            <li><a class="toctree-l4" href="#kolobok">Kolobok</a></li>
+        
+            <li><a class="toctree-l4" href="#firefly">Firefly</a></li>
+        
+            <li><a class="toctree-l4" href="#stone-flower">Stone Flower</a></li>
+        
+            <li><a class="toctree-l4" href="#moonlight">Moonlight</a></li>
+        
+            <li><a class="toctree-l4" href="#nightstar">Nightstar</a></li>
+        
+            <li><a class="toctree-l4" href="#gravi">Gravi</a></li>
+        
+            <li><a class="toctree-l4" href="#goldfish">Goldfish</a></li>
+        
+            <li><a class="toctree-l4" href="#jellyfish">Jellyfish</a></li>
+        
+            <li><a class="toctree-l4" href="#wrenched">Wrenched</a></li>
+        
+            <li><a class="toctree-l4" href="#bubble">Bubble</a></li>
+        
+            <li><a class="toctree-l4" href="#compass">Compass</a></li>
+        
+            <li><a class="toctree-l4" href="#crystal">Crystal</a></li>
+        
+            <li><a class="toctree-l4" href="#fireball">Fireball</a></li>
+        
+            <li><a class="toctree-l4" href="#sparkler">Sparkler</a></li>
+        
+            <li><a class="toctree-l4" href="#flash">Flash</a></li>
+        
+            <li><a class="toctree-l4" href="#stone-blood">Stone Blood</a></li>
+        
+            <li><a class="toctree-l4" href="#meat-chunk">Meat Chunk</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../../..">QStar - RPG</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>S.T.A.L.K.E.R. Setting &raquo;</li>
+        
+      
+    
+    <li>Artifacts</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/ehrpg/qstar/edit/master/docs/settings/stalker/artifacts.md"
+          class="icon icon-github"> Edit on GitHub</a>
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <p>Artifacts are items that have been created or changed by the conditions
+of the zone. Artifacts exhibit strange properties, which can either be
+helpful or also detrimental to the person wielding them. They are highly
+sought after, both by scientists who wish to study their properties, as well
+as large and powerful corporations who are willing to pay a hefty price to
+obtain them from the Zone.</p>
+<h1 id="creation">Creation<a class="headerlink" href="#creation" title="Permanent link">&para;</a></h1>
+<p>Artifacts are created in the intense and hostile conditions in the Zone,
+and many artifacts are created within anomalies. Emissions are known
+to be the catalyst in the actual creation of an artifact, although
+scientists in the zone are still unable to explain how this happens.</p>
+<h1 id="uses">Uses<a class="headerlink" href="#uses" title="Permanent link">&para;</a></h1>
+<p>Many artifacts have wondrous properties, allowing the wearer to resist
+more damage, or will absorb radiation. Artifacts are also heavily
+sought after by both outside sources and scientists, who will pay a
+hefty price for any recovered artifact. Many stalkers earn money by
+hunting and selling artefacts to vendors.</p>
+<p>To gain the advantages from artifacts they must be worn in direct
+contact with the skin. This also exposes the wearer of the artifact
+to any harmful radiation it might emit.</p>
+<h1 id="finding-artifacts">Finding Artifacts<a class="headerlink" href="#finding-artifacts" title="Permanent link">&para;</a></h1>
+<p>Most artifacts can only be found in highly dangerous and anomalous
+areas, and require a detector to be found.</p>
+<h1 id="list-of-artifacts">List of Artifacts<a class="headerlink" href="#list-of-artifacts" title="Permanent link">&para;</a></h1>
+<h2 id="battery">Battery<a class="headerlink" href="#battery" title="Permanent link">&para;</a></h2>
+<p>The composition of this artifact includes electrostatic elements,
+but scientists have yet to identify the exact physical conditions
+required for its formation. The artifact is popular in the Zone
+and valued by its residents and visitors for its energizing and
+regenerative properties, although it can tire the body out through
+prolonged use. Emits radiation.</p>
+<p><strong>Effects</strong>: +3 Maximum Endurance, +5 RAD/hour</p>
+<p><strong>Price</strong>: 1500 RU</p>
+<h2 id="shell">Shell<a class="headerlink" href="#shell" title="Permanent link">&para;</a></h2>
+<p>This artifact used to be considered inert, devoid of any useful
+properties. However, scientists recently discovered that if kept
+in constant contact with the body, it has an excellent stimulating
+effect on the nervous system. Emits radiation.</p>
+<p><strong>Effects</strong>: +6 Maximum Endurance, +10 RAD/hour</p>
+<p><strong>Price</strong>: 3300 RU</p>
+<h2 id="snowflake">Snowflake<a class="headerlink" href="#snowflake" title="Permanent link">&para;</a></h2>
+<p>At first glance this artifact resembles a Kolobok. Some claim that it
+is actually a Kolobok, its properties reinforced by exposure to a
+powerful electric field. Thanks to its unique properties, the artifact
+can significantly increase the bearer&rsquo;s muscle tone. Emits radiation.</p>
+<p><strong>Effects</strong>: +9 Maximum Endurance, +15 RAD/hour</p>
+<p><strong>Price</strong>: 7000 RU</p>
+<h2 id="soul">Soul<a class="headerlink" href="#soul" title="Permanent link">&para;</a></h2>
+<p>A unique organic artifact with properties just as unique. Somehow
+it increases the body&rsquo;s overall recovery rate from damage of any kind,
+without accelerating the accumulation of toxins. Thanks to its effects
+and appearance, this artifact is a valuable collector&rsquo;s item. Emits
+radiation.</p>
+<p><strong>Effects</strong>: +2 Health/hour, 10 RAD/hour</p>
+<p><strong>Price</strong>: 4000 RU</p>
+<h2 id="kolobok">Kolobok<a class="headerlink" href="#kolobok" title="Permanent link">&para;</a></h2>
+<p>A relatively rare artifact that forms in areas contaminated with
+chemicals, Kolobok is highly valued for its ability to heal wounds
+of any kind in mere minutes. For unknown reasons, scientists are
+spreading rumours among stalkers that the artifact interacts
+with the bearer&rsquo;s genetic code. The artifact looks similar to
+a sea urchin. Emits radiation.</p>
+<p><strong>Effects</strong>: +4 Health/hour, +10 RAD/hour</p>
+<p><strong>Price</strong>: 9000 RU</p>
+<h2 id="firefly">Firefly<a class="headerlink" href="#firefly" title="Permanent link">&para;</a></h2>
+<p>Firefly interacts with fields unknown to science, considerably speeding
+up regeneration of tissue and organs in living beings, as well as
+normalising metabolic processes. This artifact can literally get a badly
+wounded stalker back on his feet in seconds. Unfortunately, Firefly is
+extremely rare.</p>
+<p><strong>Effects</strong>: +6 Health/hour, +15 RAD/hour</p>
+<p><strong>Price</strong>: 16000 RU</p>
+<h2 id="stone-flower">Stone Flower<a class="headerlink" href="#stone-flower" title="Permanent link">&para;</a></h2>
+<p>This artifact is made up of granite-like stone deformed by an extreme
+gravitational force, resulting in a crystallised formation that has not
+been explained by science to date. Can provide moderate protection
+against psy-emissions. Emits radiation.</p>
+<p><strong>Effects</strong>: 3 DR against psy damage, +5 RAD/hour</p>
+<p><strong>Price</strong>: 2500 RU</p>
+<h2 id="moonlight">Moonlight<a class="headerlink" href="#moonlight" title="Permanent link">&para;</a></h2>
+<p>This unique electrostatic artifact can resonate under the influence
+of psy-waves. Stalkers and scientists have learned to fine tune
+this artifact so that it resonates in opposite phase to the main
+source of psy emissions, thus fully or significantly neutralising
+their effects. Emits radiation.</p>
+<p><strong>Effects</strong>: 6 DR against psy damage, +10 RAD/hour</p>
+<p><strong>Price</strong>: 5000 RU</p>
+<h2 id="nightstar">Nightstar<a class="headerlink" href="#nightstar" title="Permanent link">&para;</a></h2>
+<p>This glowing artifact can generate a local directed law-gravity field.
+Widely used by stalkers along with <a href="#gravi">Gravi</a>, a similar artifact,
+to increase maximum carrying capacity. Emits radiation.</p>
+<p><strong>Effects</strong>: +4 kg carrying capacity, +5 RAD/hour</p>
+<p><strong>Price</strong>: 4200 RU</p>
+<h2 id="gravi">Gravi<a class="headerlink" href="#gravi" title="Permanent link">&para;</a></h2>
+<p>Gravi is formed from metallic substances exposed to prolonged gravitation.
+This makes it capable of sustaining an anti-gravitational field, and
+many stalkers use it to reduce the weight of their backpacks. Emits
+radiation.</p>
+<p><strong>Effects</strong>: +8 kg carrying capacity, +10 RAD/hour</p>
+<p><strong>Price:</strong> 8000 RU</p>
+<h2 id="goldfish">Goldfish<a class="headerlink" href="#goldfish" title="Permanent link">&para;</a></h2>
+<p>The result of interaction between large number of gravitation fields,
+Goldfish produces its own strong directed gravitational field, which
+renders items within its range almost weightless. This artifact is
+most effective for reducing carried weight, which explains why it is
+always in great demand. Emits radiation.</p>
+<p><strong>Effects</strong>: +12 kg carrying capacity, +15 RAD/hour</p>
+<p><strong>Price</strong>: 24000 RU</p>
+<h2 id="jellyfish">Jellyfish<a class="headerlink" href="#jellyfish" title="Permanent link">&para;</a></h2>
+<p>This gravitation artifact attracts and absorbs radioactive particles,
+reducing the effects of radiation on the body. Very common in the Zone
+and is unofficially used outside the Zone for treating acute radiation
+sickness in exceptional circumstances.</p>
+<p><strong>Effects</strong>: -10 RAD/hour</p>
+<p><strong>Price</strong>: 2000 RU</p>
+<h2 id="wrenched">Wrenched<a class="headerlink" href="#wrenched" title="Permanent link">&para;</a></h2>
+<p>This bizarrely-shaped artifact appears in placed with increased
+gravitational activity. Acting as a kind of sponge that absorbs radio-active
+elements, this artifact provides protection from outside radiation
+as well as from radioactive particles that have already made their
+way into the body.</p>
+<p><strong>Effects</strong>: -15 RAD/hour</p>
+<p><strong>Price</strong>: 7000 RU</p>
+<h2 id="bubble">Bubble<a class="headerlink" href="#bubble" title="Permanent link">&para;</a></h2>
+<p>A compound of several hollow organic formations, this artifact emits a
+gaseous substance that can neutralise radioactive particles inside the
+body without harming it. Because of its effectiveness, this artifact is
+in great demand.</p>
+<p><strong>Effects</strong>: -20 RAD/hour</p>
+<p><strong>Price</strong>: 15500 RU</p>
+<h2 id="compass">Compass<a class="headerlink" href="#compass" title="Permanent link">&para;</a></h2>
+<p>A rare artifact - it&rsquo;s been several years since one was found. The
+artifact can locate gaps in anomaly fields, effectively acting as a compass.
+It is believed that it ca help one traverse the most complex anomaly fields
+completely unharmed. However, very few know how to handle it properly.</p>
+<p><strong>Effects</strong>: One additional d10 when making survival checks. +20 RAD/hour</p>
+<p><strong>Price</strong>: 34000 RU</p>
+<h2 id="crystal">Crystal<a class="headerlink" href="#crystal" title="Permanent link">&para;</a></h2>
+<p>This artifact is formed in anomalous zones with intense thermal activity.
+Actively consumes excessive heat, remaining cool to the touch throughout.
+Emits radiation.</p>
+<p><strong>Effects</strong>: 3 DR against fire damage, +5 RAD/hour</p>
+<p><strong>Price</strong>: 1000 RU</p>
+<h2 id="fireball">Fireball<a class="headerlink" href="#fireball" title="Permanent link">&para;</a></h2>
+<p>Even though fireball is a thermal artifact, it can be handled without fear
+of being burned. This artifact is valued for its ability to maintain a
+temperature of 25 degrees within a small radius, virtually regardless of
+its surroundings. Emits radiation.</p>
+<p><strong>Effects</strong>: 6 DR against fire damage, +10 RAD/hour</p>
+<p><strong>Price</strong>: 2500 RU</p>
+<h2 id="sparkler">Sparkler<a class="headerlink" href="#sparkler" title="Permanent link">&para;</a></h2>
+<p>A bright representative of the electrostatic family of artifacts. This
+artifact can smooth fluctuations on electric field density. Emits radiation.</p>
+<p><strong>Effects</strong>: 3 DR against electricity damage, +5 RAD/hour</p>
+<p><strong>Price</strong>: 900 RU</p>
+<h2 id="flash">Flash<a class="headerlink" href="#flash" title="Permanent link">&para;</a></h2>
+<p>This electrostatic artifact is a powerful absorbent of electricity, which
+later discharges. Flash is capable of protecting its bearer from electric
+shocks of up to 5,000 volts. Emits radiation.</p>
+<p><strong>Effects</strong>: 6 DR against electricity damage, +10 RAD/hour</p>
+<p><strong>Price</strong>: 2000 RU</p>
+<h2 id="stone-blood">Stone Blood<a class="headerlink" href="#stone-blood" title="Permanent link">&para;</a></h2>
+<p>A reddish formation of compressed and fossilised plants, soil and animal
+debris. Can partially neutralise chemical poisons. Emits radiation.</p>
+<p><strong>Effects</strong>: 3 DR against acid, +5 RAD/hour</p>
+<p><strong>Price</strong>: 1500 RU</p>
+<h2 id="meat-chunk">Meat Chunk<a class="headerlink" href="#meat-chunk" title="Permanent link">&para;</a></h2>
+<p>This organic artifact consists of deformed, mutated animal tissue. When
+placed in a chemically contaminated area, Meat Chunk transforms the
+airborne chemicals into a mucous fluid. Emits radiation.</p>
+<p><strong>Effects</strong>: 6 DR against acid, +10 RAD/hour</p>
+<p><strong>Price</strong>: 4000 RU</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../perks/" class="btn btn-neutral" title="Perks"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a href="https://github.com/ehrpg/qstar/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+        <span><a href="../perks/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+    </span>
+</div>
+    <script>var base_url = '../../..';</script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/require.js"></script>
+      <script src="../../../search/search.js"></script>
+
+</body>
+</html>

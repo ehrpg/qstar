@@ -544,6 +544,136 @@
             "location": "/settings/stalker/perks/#tracker", 
             "text": "", 
             "title": "Tracker"
+        }, 
+        {
+            "location": "/settings/stalker/artifacts/", 
+            "text": "Artifacts are items that have been created or changed by the conditions\nof the zone. Artifacts exhibit strange properties, which can either be\nhelpful or also detrimental to the person wielding them. They are highly\nsought after, both by scientists who wish to study their properties, as well\nas large and powerful corporations who are willing to pay a hefty price to\nobtain them from the Zone.\n\n\nCreation\n\n\nArtifacts are created in the intense and hostile conditions in the Zone,\nand many artifacts are created within anomalies. Emissions are known\nto be the catalyst in the actual creation of an artifact, although\nscientists in the zone are still unable to explain how this happens.\n\n\nUses\n\n\nMany artifacts have wondrous properties, allowing the wearer to resist\nmore damage, or will absorb radiation. Artifacts are also heavily\nsought after by both outside sources and scientists, who will pay a\nhefty price for any recovered artifact. Many stalkers earn money by\nhunting and selling artefacts to vendors.\n\n\nTo gain the advantages from artifacts they must be worn in direct\ncontact with the skin. This also exposes the wearer of the artifact\nto any harmful radiation it might emit.\n\n\nFinding Artifacts\n\n\nMost artifacts can only be found in highly dangerous and anomalous\nareas, and require a detector to be found.\n\n\nList of Artifacts\n\n\nBattery\n\n\nThe composition of this artifact includes electrostatic elements,\nbut scientists have yet to identify the exact physical conditions\nrequired for its formation. The artifact is popular in the Zone\nand valued by its residents and visitors for its energizing and\nregenerative properties, although it can tire the body out through\nprolonged use. Emits radiation.\n\n\nEffects\n: +3 Maximum Endurance, +5 RAD/hour\n\n\nPrice\n: 1500 RU\n\n\nShell\n\n\nThis artifact used to be considered inert, devoid of any useful\nproperties. However, scientists recently discovered that if kept\nin constant contact with the body, it has an excellent stimulating\neffect on the nervous system. Emits radiation.\n\n\nEffects\n: +6 Maximum Endurance, +10 RAD/hour\n\n\nPrice\n: 3300 RU\n\n\nSnowflake\n\n\nAt first glance this artifact resembles a Kolobok. Some claim that it\nis actually a Kolobok, its properties reinforced by exposure to a\npowerful electric field. Thanks to its unique properties, the artifact\ncan significantly increase the bearer\ns muscle tone. Emits radiation.\n\n\nEffects\n: +9 Maximum Endurance, +15 RAD/hour\n\n\nPrice\n: 7000 RU\n\n\nSoul\n\n\nA unique organic artifact with properties just as unique. Somehow\nit increases the body\ns overall recovery rate from damage of any kind,\nwithout accelerating the accumulation of toxins. Thanks to its effects\nand appearance, this artifact is a valuable collector\ns item. Emits\nradiation.\n\n\nEffects\n: +2 Health/hour, 10 RAD/hour\n\n\nPrice\n: 4000 RU\n\n\nKolobok\n\n\nA relatively rare artifact that forms in areas contaminated with\nchemicals, Kolobok is highly valued for its ability to heal wounds\nof any kind in mere minutes. For unknown reasons, scientists are\nspreading rumours among stalkers that the artifact interacts\nwith the bearer\ns genetic code. The artifact looks similar to\na sea urchin. Emits radiation.\n\n\nEffects\n: +4 Health/hour, +10 RAD/hour\n\n\nPrice\n: 9000 RU\n\n\nFirefly\n\n\nFirefly interacts with fields unknown to science, considerably speeding\nup regeneration of tissue and organs in living beings, as well as\nnormalising metabolic processes. This artifact can literally get a badly\nwounded stalker back on his feet in seconds. Unfortunately, Firefly is\nextremely rare.\n\n\nEffects\n: +6 Health/hour, +15 RAD/hour\n\n\nPrice\n: 16000 RU\n\n\nStone Flower\n\n\nThis artifact is made up of granite-like stone deformed by an extreme\ngravitational force, resulting in a crystallised formation that has not\nbeen explained by science to date. Can provide moderate protection\nagainst psy-emissions. Emits radiation.\n\n\nEffects\n: 3 DR against psy damage, +5 RAD/hour\n\n\nPrice\n: 2500 RU\n\n\nMoonlight\n\n\nThis unique electrostatic artifact can resonate under the influence\nof psy-waves. Stalkers and scientists have learned to fine tune\nthis artifact so that it resonates in opposite phase to the main\nsource of psy emissions, thus fully or significantly neutralising\ntheir effects. Emits radiation.\n\n\nEffects\n: 6 DR against psy damage, +10 RAD/hour\n\n\nPrice\n: 5000 RU\n\n\nNightstar\n\n\nThis glowing artifact can generate a local directed law-gravity field.\nWidely used by stalkers along with \nGravi\n, a similar artifact,\nto increase maximum carrying capacity. Emits radiation.\n\n\nEffects\n: +4 kg carrying capacity, +5 RAD/hour\n\n\nPrice\n: 4200 RU\n\n\nGravi\n\n\nGravi is formed from metallic substances exposed to prolonged gravitation.\nThis makes it capable of sustaining an anti-gravitational field, and\nmany stalkers use it to reduce the weight of their backpacks. Emits\nradiation.\n\n\nEffects\n: +8 kg carrying capacity, +10 RAD/hour\n\n\nPrice:\n 8000 RU\n\n\nGoldfish\n\n\nThe result of interaction between large number of gravitation fields,\nGoldfish produces its own strong directed gravitational field, which\nrenders items within its range almost weightless. This artifact is\nmost effective for reducing carried weight, which explains why it is\nalways in great demand. Emits radiation.\n\n\nEffects\n: +12 kg carrying capacity, +15 RAD/hour\n\n\nPrice\n: 24000 RU\n\n\nJellyfish\n\n\nThis gravitation artifact attracts and absorbs radioactive particles,\nreducing the effects of radiation on the body. Very common in the Zone\nand is unofficially used outside the Zone for treating acute radiation\nsickness in exceptional circumstances.\n\n\nEffects\n: -10 RAD/hour\n\n\nPrice\n: 2000 RU\n\n\nWrenched\n\n\nThis bizarrely-shaped artifact appears in placed with increased\ngravitational activity. Acting as a kind of sponge that absorbs radio-active\nelements, this artifact provides protection from outside radiation\nas well as from radioactive particles that have already made their\nway into the body.\n\n\nEffects\n: -15 RAD/hour\n\n\nPrice\n: 7000 RU\n\n\nBubble\n\n\nA compound of several hollow organic formations, this artifact emits a\ngaseous substance that can neutralise radioactive particles inside the\nbody without harming it. Because of its effectiveness, this artifact is\nin great demand.\n\n\nEffects\n: -20 RAD/hour\n\n\nPrice\n: 15500 RU\n\n\nCompass\n\n\nA rare artifact - it\ns been several years since one was found. The\nartifact can locate gaps in anomaly fields, effectively acting as a compass.\nIt is believed that it ca help one traverse the most complex anomaly fields\ncompletely unharmed. However, very few know how to handle it properly.\n\n\nEffects\n: One additional d10 when making survival checks. +20 RAD/hour\n\n\nPrice\n: 34000 RU\n\n\nCrystal\n\n\nThis artifact is formed in anomalous zones with intense thermal activity.\nActively consumes excessive heat, remaining cool to the touch throughout.\nEmits radiation.\n\n\nEffects\n: 3 DR against fire damage, +5 RAD/hour\n\n\nPrice\n: 1000 RU\n\n\nFireball\n\n\nEven though fireball is a thermal artifact, it can be handled without fear\nof being burned. This artifact is valued for its ability to maintain a\ntemperature of 25 degrees within a small radius, virtually regardless of\nits surroundings. Emits radiation.\n\n\nEffects\n: 6 DR against fire damage, +10 RAD/hour\n\n\nPrice\n: 2500 RU\n\n\nSparkler\n\n\nA bright representative of the electrostatic family of artifacts. This\nartifact can smooth fluctuations on electric field density. Emits radiation.\n\n\nEffects\n: 3 DR against electricity damage, +5 RAD/hour\n\n\nPrice\n: 900 RU\n\n\nFlash\n\n\nThis electrostatic artifact is a powerful absorbent of electricity, which\nlater discharges. Flash is capable of protecting its bearer from electric\nshocks of up to 5,000 volts. Emits radiation.\n\n\nEffects\n: 6 DR against electricity damage, +10 RAD/hour\n\n\nPrice\n: 2000 RU\n\n\nStone Blood\n\n\nA reddish formation of compressed and fossilised plants, soil and animal\ndebris. Can partially neutralise chemical poisons. Emits radiation.\n\n\nEffects\n: 3 DR against acid, +5 RAD/hour\n\n\nPrice\n: 1500 RU\n\n\nMeat Chunk\n\n\nThis organic artifact consists of deformed, mutated animal tissue. When\nplaced in a chemically contaminated area, Meat Chunk transforms the\nairborne chemicals into a mucous fluid. Emits radiation.\n\n\nEffects\n: 6 DR against acid, +10 RAD/hour\n\n\nPrice\n: 4000 RU", 
+            "title": "Artifacts"
+        }, 
+        {
+            "location": "/settings/stalker/artifacts/#creation", 
+            "text": "Artifacts are created in the intense and hostile conditions in the Zone,\nand many artifacts are created within anomalies. Emissions are known\nto be the catalyst in the actual creation of an artifact, although\nscientists in the zone are still unable to explain how this happens.", 
+            "title": "Creation"
+        }, 
+        {
+            "location": "/settings/stalker/artifacts/#uses", 
+            "text": "Many artifacts have wondrous properties, allowing the wearer to resist\nmore damage, or will absorb radiation. Artifacts are also heavily\nsought after by both outside sources and scientists, who will pay a\nhefty price for any recovered artifact. Many stalkers earn money by\nhunting and selling artefacts to vendors.  To gain the advantages from artifacts they must be worn in direct\ncontact with the skin. This also exposes the wearer of the artifact\nto any harmful radiation it might emit.", 
+            "title": "Uses"
+        }, 
+        {
+            "location": "/settings/stalker/artifacts/#finding-artifacts", 
+            "text": "Most artifacts can only be found in highly dangerous and anomalous\nareas, and require a detector to be found.", 
+            "title": "Finding Artifacts"
+        }, 
+        {
+            "location": "/settings/stalker/artifacts/#list-of-artifacts", 
+            "text": "", 
+            "title": "List of Artifacts"
+        }, 
+        {
+            "location": "/settings/stalker/artifacts/#battery", 
+            "text": "The composition of this artifact includes electrostatic elements,\nbut scientists have yet to identify the exact physical conditions\nrequired for its formation. The artifact is popular in the Zone\nand valued by its residents and visitors for its energizing and\nregenerative properties, although it can tire the body out through\nprolonged use. Emits radiation.  Effects : +3 Maximum Endurance, +5 RAD/hour  Price : 1500 RU", 
+            "title": "Battery"
+        }, 
+        {
+            "location": "/settings/stalker/artifacts/#shell", 
+            "text": "This artifact used to be considered inert, devoid of any useful\nproperties. However, scientists recently discovered that if kept\nin constant contact with the body, it has an excellent stimulating\neffect on the nervous system. Emits radiation.  Effects : +6 Maximum Endurance, +10 RAD/hour  Price : 3300 RU", 
+            "title": "Shell"
+        }, 
+        {
+            "location": "/settings/stalker/artifacts/#snowflake", 
+            "text": "At first glance this artifact resembles a Kolobok. Some claim that it\nis actually a Kolobok, its properties reinforced by exposure to a\npowerful electric field. Thanks to its unique properties, the artifact\ncan significantly increase the bearer s muscle tone. Emits radiation.  Effects : +9 Maximum Endurance, +15 RAD/hour  Price : 7000 RU", 
+            "title": "Snowflake"
+        }, 
+        {
+            "location": "/settings/stalker/artifacts/#soul", 
+            "text": "A unique organic artifact with properties just as unique. Somehow\nit increases the body s overall recovery rate from damage of any kind,\nwithout accelerating the accumulation of toxins. Thanks to its effects\nand appearance, this artifact is a valuable collector s item. Emits\nradiation.  Effects : +2 Health/hour, 10 RAD/hour  Price : 4000 RU", 
+            "title": "Soul"
+        }, 
+        {
+            "location": "/settings/stalker/artifacts/#kolobok", 
+            "text": "A relatively rare artifact that forms in areas contaminated with\nchemicals, Kolobok is highly valued for its ability to heal wounds\nof any kind in mere minutes. For unknown reasons, scientists are\nspreading rumours among stalkers that the artifact interacts\nwith the bearer s genetic code. The artifact looks similar to\na sea urchin. Emits radiation.  Effects : +4 Health/hour, +10 RAD/hour  Price : 9000 RU", 
+            "title": "Kolobok"
+        }, 
+        {
+            "location": "/settings/stalker/artifacts/#firefly", 
+            "text": "Firefly interacts with fields unknown to science, considerably speeding\nup regeneration of tissue and organs in living beings, as well as\nnormalising metabolic processes. This artifact can literally get a badly\nwounded stalker back on his feet in seconds. Unfortunately, Firefly is\nextremely rare.  Effects : +6 Health/hour, +15 RAD/hour  Price : 16000 RU", 
+            "title": "Firefly"
+        }, 
+        {
+            "location": "/settings/stalker/artifacts/#stone-flower", 
+            "text": "This artifact is made up of granite-like stone deformed by an extreme\ngravitational force, resulting in a crystallised formation that has not\nbeen explained by science to date. Can provide moderate protection\nagainst psy-emissions. Emits radiation.  Effects : 3 DR against psy damage, +5 RAD/hour  Price : 2500 RU", 
+            "title": "Stone Flower"
+        }, 
+        {
+            "location": "/settings/stalker/artifacts/#moonlight", 
+            "text": "This unique electrostatic artifact can resonate under the influence\nof psy-waves. Stalkers and scientists have learned to fine tune\nthis artifact so that it resonates in opposite phase to the main\nsource of psy emissions, thus fully or significantly neutralising\ntheir effects. Emits radiation.  Effects : 6 DR against psy damage, +10 RAD/hour  Price : 5000 RU", 
+            "title": "Moonlight"
+        }, 
+        {
+            "location": "/settings/stalker/artifacts/#nightstar", 
+            "text": "This glowing artifact can generate a local directed law-gravity field.\nWidely used by stalkers along with  Gravi , a similar artifact,\nto increase maximum carrying capacity. Emits radiation.  Effects : +4 kg carrying capacity, +5 RAD/hour  Price : 4200 RU", 
+            "title": "Nightstar"
+        }, 
+        {
+            "location": "/settings/stalker/artifacts/#gravi", 
+            "text": "Gravi is formed from metallic substances exposed to prolonged gravitation.\nThis makes it capable of sustaining an anti-gravitational field, and\nmany stalkers use it to reduce the weight of their backpacks. Emits\nradiation.  Effects : +8 kg carrying capacity, +10 RAD/hour  Price:  8000 RU", 
+            "title": "Gravi"
+        }, 
+        {
+            "location": "/settings/stalker/artifacts/#goldfish", 
+            "text": "The result of interaction between large number of gravitation fields,\nGoldfish produces its own strong directed gravitational field, which\nrenders items within its range almost weightless. This artifact is\nmost effective for reducing carried weight, which explains why it is\nalways in great demand. Emits radiation.  Effects : +12 kg carrying capacity, +15 RAD/hour  Price : 24000 RU", 
+            "title": "Goldfish"
+        }, 
+        {
+            "location": "/settings/stalker/artifacts/#jellyfish", 
+            "text": "This gravitation artifact attracts and absorbs radioactive particles,\nreducing the effects of radiation on the body. Very common in the Zone\nand is unofficially used outside the Zone for treating acute radiation\nsickness in exceptional circumstances.  Effects : -10 RAD/hour  Price : 2000 RU", 
+            "title": "Jellyfish"
+        }, 
+        {
+            "location": "/settings/stalker/artifacts/#wrenched", 
+            "text": "This bizarrely-shaped artifact appears in placed with increased\ngravitational activity. Acting as a kind of sponge that absorbs radio-active\nelements, this artifact provides protection from outside radiation\nas well as from radioactive particles that have already made their\nway into the body.  Effects : -15 RAD/hour  Price : 7000 RU", 
+            "title": "Wrenched"
+        }, 
+        {
+            "location": "/settings/stalker/artifacts/#bubble", 
+            "text": "A compound of several hollow organic formations, this artifact emits a\ngaseous substance that can neutralise radioactive particles inside the\nbody without harming it. Because of its effectiveness, this artifact is\nin great demand.  Effects : -20 RAD/hour  Price : 15500 RU", 
+            "title": "Bubble"
+        }, 
+        {
+            "location": "/settings/stalker/artifacts/#compass", 
+            "text": "A rare artifact - it s been several years since one was found. The\nartifact can locate gaps in anomaly fields, effectively acting as a compass.\nIt is believed that it ca help one traverse the most complex anomaly fields\ncompletely unharmed. However, very few know how to handle it properly.  Effects : One additional d10 when making survival checks. +20 RAD/hour  Price : 34000 RU", 
+            "title": "Compass"
+        }, 
+        {
+            "location": "/settings/stalker/artifacts/#crystal", 
+            "text": "This artifact is formed in anomalous zones with intense thermal activity.\nActively consumes excessive heat, remaining cool to the touch throughout.\nEmits radiation.  Effects : 3 DR against fire damage, +5 RAD/hour  Price : 1000 RU", 
+            "title": "Crystal"
+        }, 
+        {
+            "location": "/settings/stalker/artifacts/#fireball", 
+            "text": "Even though fireball is a thermal artifact, it can be handled without fear\nof being burned. This artifact is valued for its ability to maintain a\ntemperature of 25 degrees within a small radius, virtually regardless of\nits surroundings. Emits radiation.  Effects : 6 DR against fire damage, +10 RAD/hour  Price : 2500 RU", 
+            "title": "Fireball"
+        }, 
+        {
+            "location": "/settings/stalker/artifacts/#sparkler", 
+            "text": "A bright representative of the electrostatic family of artifacts. This\nartifact can smooth fluctuations on electric field density. Emits radiation.  Effects : 3 DR against electricity damage, +5 RAD/hour  Price : 900 RU", 
+            "title": "Sparkler"
+        }, 
+        {
+            "location": "/settings/stalker/artifacts/#flash", 
+            "text": "This electrostatic artifact is a powerful absorbent of electricity, which\nlater discharges. Flash is capable of protecting its bearer from electric\nshocks of up to 5,000 volts. Emits radiation.  Effects : 6 DR against electricity damage, +10 RAD/hour  Price : 2000 RU", 
+            "title": "Flash"
+        }, 
+        {
+            "location": "/settings/stalker/artifacts/#stone-blood", 
+            "text": "A reddish formation of compressed and fossilised plants, soil and animal\ndebris. Can partially neutralise chemical poisons. Emits radiation.  Effects : 3 DR against acid, +5 RAD/hour  Price : 1500 RU", 
+            "title": "Stone Blood"
+        }, 
+        {
+            "location": "/settings/stalker/artifacts/#meat-chunk", 
+            "text": "This organic artifact consists of deformed, mutated animal tissue. When\nplaced in a chemically contaminated area, Meat Chunk transforms the\nairborne chemicals into a mucous fluid. Emits radiation.  Effects : 6 DR against acid, +10 RAD/hour  Price : 4000 RU", 
+            "title": "Meat Chunk"
         }
     ]
 }
