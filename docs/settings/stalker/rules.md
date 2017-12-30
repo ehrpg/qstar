@@ -1,6 +1,4 @@
-# Rules
-
-## Radiation
+# Radiation
 
 *Characters are radiated over time.*
 
@@ -20,7 +18,7 @@ receive 500rad/h. A character stays in the zone for 43 minutes. The DM divides
 the radiation value by ten, resulting in 50rad/6min. The character receives 48
 minutes (eigth tenth) worth of exposure, resulting in 400 rad.
 
-### Radiation Effects
+## Radiation Effects
 
 | Exposure (rads) | Description            | Health | Endurance | Notes            |
 | --------------: | ---------------------- | -----: | --------: | ---------------- |
@@ -33,7 +31,7 @@ minutes (eigth tenth) worth of exposure, resulting in 400 rad.
 |         800-999 | intense agony          |    -20 |       -20 | Might drops to 1 |
 |           1000+ | death                  |      - |         - |                  |
 
-### Countering Radiation Effects
+## Countering Radiation Effects
 
 A character can use **consumables** such as anti radiation or medical kits to
 reduce accumulated rads. **Consumables** such as vodka or alcohol with high
@@ -47,7 +45,7 @@ it's value.
 Example: A hazmat suit may have a radiation reduction of 100. A contaminated
 zone may have 150rad/h. The suit reduces the radiation exposure to 50rad/h.
 
-## Food & Water
+# Food & Water
 
 *Characters get hungry and thirsty, and need to eat and drink each day or suffer
 the consequences.*
