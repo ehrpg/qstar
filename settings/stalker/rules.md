@@ -22,15 +22,31 @@ receive 500rad/h. A character stays in the zone for 43 minutes. The DM divides
 the radiation value by ten, resulting in 50rad/6min. The character receives 48
 minutes (eigth tenth) worth of exposure, resulting in 400 rad.
 
+### Radiation Effects
+
 | Exposure (rads) | Description            | Health | Endurance | Notes            |
-| --------------- | ---------------------- | -----: | --------: | ---------------- |
-|   0-149         | very nauseous          |      - |        -5 |                  |
-| 150-299         | slightly fatigued      |      - |       -10 |                  |
-| 300-449         | vomiting does not stop |     -5 |       -10 | Speed halved     |
-| 450-599         | hair is falling out    |    -10 |       -15 | Charisma -3      |
-| 600-799         | skin is falling off    |    -15 |       -15 | Charisma -5      |
-| 800-999         | intense agony          |    -20 |       -20 | Might drops to 1 |
-| 1000+           | death                  |      - |         - |                  |
+| --------------: | ---------------------- | -----: | --------: | ---------------- |
+|           0-149 | very nauseous          |      - |        -5 |                  |
+|         150-299 | slightly fatigued      |      - |       -10 |                  |
+|         300-449 | vomiting does not stop |     -5 |       -10 | Speed halved     |
+|         450-599 | hair is falling out    |    -10 |       -15 | Charisma -3      |
+|         600-799 | skin is falling off    |    -15 |       -15 | Charisma -5      |
+|         800-999 | intense agony          |    -20 |       -20 | Might drops to 1 |
+|           1000+ | death                  |      - |         - |                  |
+
+### Countering Radiation Effects
+
+A character can use **consumables** such as anti radiation or medical kits to
+reduce accumulated rads. **Consumables** such as vodka or alcohol with high
+percentage let a character ignore the negative effects on endurance due to
+radiation exposure.
+
+Also, certain equipment such as hazmat suits can reduce the radiation exposure
+or even reduce it to zero. The suit reduces the radiation exposure per hour by
+it's value.
+
+Example: A hazmat suit may have a radiation reduction of 100. A contaminated
+zone may have 150rad/h. The suit reduces the radiation exposure to 50rad/h.
 
 ## Food & Water
 
