@@ -3,11 +3,14 @@ repo_url: https://github.com/ehrpg/qstar
 site_author: "@n0la, @johannes-z"
 dev_addr: 127.0.0.1:8001
 
-theme: readthedocs
+theme:
+  name: 'material'
 extra_css:
     - css/extra.css
     - css/font-awesome.min.css
     - css/ehicons.css
+extra_javascript:
+    - js/extra.js
 
 markdown_extensions:
   - admonition
@@ -27,4 +30,5 @@ pages:
 
 - S.T.A.L.K.E.R. Setting:
     - Rules: 'settings/stalker/rules.md'
+    - Equipment: 'settings/stalker/equipment.md'
     - Perks: 'settings/stalker/perks.md'

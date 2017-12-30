@@ -97,3 +97,24 @@ img.ehicon-2x {
     width: auto;
   }
 }
+
+.md-typeset__table table td {
+  padding: 0.8rem 1rem !important;
+}
+
+#cartridges+div table {
+  position: relative
+}
+
+#cartridges+div .cartridge {
+  position: absolute;
+  top: -120px;
+}
+
+tr.targetted {
+  background-color: #FFF9C4 !important;
+}
+
+tr:nth-child(even) {
+  background-color: #efefef
+}
