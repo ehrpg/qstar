@@ -1,0 +1,28 @@
+site_name: QStar - RPG
+repo_url: https://github.com/ehrpg/qstar
+site_author: "@n0la, @johannes-z"
+dev_addr: 127.0.0.1:8001
+
+theme: readthedocs
+extra_css:
+    - css/extra.css
+    - css/font-awesome.min.css
+    - css/ehicons.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - smarty
+  - toc:
+      permalink: True
+
+pages:
+- QStar:
+    - Rules: 'qstar.md'
+    - Perks: 'perks.md'
+    - Task DCs: 'taskdcs.md'
+    - Vessels: 'vessels.md'
+
+- S.T.A.L.K.E.R. Setting:
+    - Rules: 'settings/stalker/rules.md'
+    - Perks: 'settings/stalker/perks.md'
