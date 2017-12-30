@@ -17,9 +17,11 @@ markdown_extensions:
       permalink: True
 
 pages:
-- QStar:
+- Introduction: 'index.md'
+- QStar: 
     - Rules: 'qstar.md'
     - Perks: 'perks.md'
+    - Equipment: 'equipment.md'
     - Task DCs: 'taskdcs.md'
     - Vessels: 'vessels.md'
 
