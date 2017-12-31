@@ -5,7 +5,7 @@
 
   function stalkerEquipment () {
     var previousTr
-    var cartridges = document.querySelector('h2#cartridges')
+    var cartridges = document.querySelector('h3#cartridges')
 
     hashUpdated()
     window.onhashchange = hashUpdated
@@ -20,6 +20,7 @@
       if (!span) return
 
       var tr = span.parentNode.parentNode
+      if (tr.tagName !== 'TR') return
       tr.classList.add('targetted')
       previousTr = tr
       cartridges.scrollIntoView(true)

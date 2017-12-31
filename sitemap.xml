@@ -64,6 +64,12 @@
     </url>
         
     <url>
+     <loc>/settings/stalker/anomalies/</loc>
+     <lastmod>2017-12-31</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
      <loc>/settings/stalker/artifacts/</loc>
      <lastmod>2017-12-31</lastmod>
      <changefreq>daily</changefreq>
