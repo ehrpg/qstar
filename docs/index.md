@@ -100,29 +100,40 @@ health pool.
 
 ## Damage
 
-Normal damage always targets endurance. If endurance drops to zero the
-character becomes incapacitated. **Critical damage** is dealt to health
-instead. If endurance is zero, all damage is dealt to health instead.
+Normal damage always targets endurance. [**Critical
+damage**](#critical-hit-and-damage) is dealt to health instead. If endurance is
+zero, all exceeding and subsequent damage is dealt to health instead.
 
 Damaging objects is the same as damaging another player or NPC, except that
 inanimate objects have no endurance, just health.
 
+!!! summary "Damaged characters"
+    If **endurance** drops to zero the character becomes incapacitated.<br>
+    If **health** drops to zero the character dies.
+
 ### Critical Hit and Damage
 
-Causing a critical hit requires another success in addition to the
-attack roll (see **Multiple Successes** down below). If the attack roll
-and the roll to convert to a critical hit are successful, then the
-damage is converted to **critical damage** and targets the **Health**
-pool instead of the **Endurance** pool.
+Causing a critical hit requires another success in addition to the attack roll
+(see [**Multiple Successes**](#multiple-successes)). If the attack roll and the
+roll to convert to a critical hit are successful, then the damage is converted
+to **critical damage** and targets the **Health** pool additionally to the
+**Endurance** pool. Both pools are reduced by the critical damage done.
+
+!!! note "Critical damage"
+    Critical damage does not bypass any armour a character or object may have.
+    If a character has 5 DR, then the critical damage is reduced by that value,
+    and then substracted from both **health** and **endurance** pools.
 
 ## Skills
 
 Skills are areas of expertise a character may acquire throughout the
 course of gameplay. Whenever a character attempts a task a skill roll
-is involved.  A skill has five ranks: **untrained**, **proficient**,
-**trained**, **experienced**, **master**. The ranks are numbered 1
-(untrained) through 5 (master) respectively. The rank number denotes
-how many ten sided dice (d10) you may roll when performing a skill check.
+is involved.
+
+A skill has five ranks: **untrained**, **proficient**, **trained**,
+**experienced**, **master**. The ranks are numbered 1 (untrained) through 5
+(master) respectively. The rank number denotes how many ten sided dice (d10) you
+may roll when performing a skill check.
 
 | Rank        | Dice |
 | ----------- | ---- |
