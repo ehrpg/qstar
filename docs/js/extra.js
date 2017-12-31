@@ -23,7 +23,7 @@
       tr.classList.add('targetted')
       previousTr = tr
       cartridges.scrollIntoView(true)
-      window.scrollBy(0, -60) // offset for topnav
+      // window.scrollBy(0, -60) // offset for topnav
     }
   }
 })()

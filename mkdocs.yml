@@ -4,7 +4,7 @@ site_author: "@n0la, @johannes-z"
 dev_addr: 127.0.0.1:8001
 
 theme:
-  name: 'material'
+  name: 'readthedocs'
 extra_css:
     - css/extra.css
     - css/font-awesome.min.css

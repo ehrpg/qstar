@@ -24,7 +24,7 @@ ammunition.
 Ammunition is only available in packs, denoted by the rounds column. For
 example, if you buy *9x18mm* rounds, you get 50 rounds for 10 credits.
 
-!!! info "Optional rules"
+!!! note "Optional rules"
     If you want to keep things simple, ignore the weight of the bullets.
 
 ## Cartridges
