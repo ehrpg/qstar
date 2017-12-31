@@ -9,13 +9,19 @@ credit equals 1 rubel in this setting.
 
 | Name              | Weight (kg) | Cost (RU) | Notes                                                                                               |
 | ----------------- | ----------: | --------: | --------------------------------------------------------------------------------------------------- |
-| First Aid Kit     |           - |         - | see qstar equipment. Also heals 50 rads.                                                            |
-| Medical Kit       |           - |         - | see qstar equipment. Also heal 100 rads.                                                            |
+| First Aid Kit     |           - |         - | [See qstar equipment](/equipment/#medical-items). Also heals 50 rads.                               |
+| Medical Kit       |           - |         - | [See qstar equipment](/equipment/#medical-items). Also heals 100 rads.                               |
 | Anti-rad          |         0.1 |       500 | Reduce the radiation value of a character by 200 to a minimum of 0.                                 |
 | MRE               |         2.0 |        20 | One ration worth of food for one day.                                                               |
 | Water (Dirty)     |         1.0 |         2 | A characer who drinks dirty water receives 5 rads.                                                  |
 | Water (Distilled) |         1.0 |        10 | -                                                                                                   |
 | Vodka             |         1.5 |        40 | One bottle of vodka allows you to ignore the negative effects of radiation regarding **endurance**. |
+
+## Items
+
+| Name              | Cost | Weight | Notes                                   |
+| ----------------- | ---: | -----: | --------------------------------------- |
+| Artifact detector |  500 |    0.5 | Used to detect and track down artifacts |
 
 ## Weapons
 
@@ -35,7 +41,7 @@ example, if you buy *9x18mm* rounds, you get 50 rounds for 10 credits.
 | ------- | ---: | -----: | -------------: |
 | <span id="9x18"> </span> 9x18mm  |   10 |     50 |            0.5 |
 | <span id="45acp"></span> .45 ACP |   25 |     50 |              1 |
-| <span id="12g">  </span> 12G     |   20 |     12 |            0.5 |
+| <span id="12g">  </span> 12G     |   20 |     10 |            0.5 |
 | <span id="556">  </span> 5.56x45 |   80 |     30 |            0.5 |
 | <span id="545">  </span> 5.45x39 |  100 |     30 |            0.5 |
 | <span id="939">  </span> 9x39mm  |  110 |     30 |            0.5 |

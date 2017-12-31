@@ -8,7 +8,7 @@
 
 Ignore the first 6 minutes (one tenth) of radiation damage.
 
-**Price**: 1.000
+**Price**: 1 000
 
 ### Tracker
 

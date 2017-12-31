@@ -4,30 +4,30 @@ site_author: "@n0la, @johannes-z"
 dev_addr: 127.0.0.1:8001
 
 theme:
-  name: null
-  custom_dir: material
+    name: null
+    custom_dir: material
 
-  # 404 page
-  static_templates:
-    - 404.html
+    # 404 page
+    static_templates:
+        - 404.html
 
-  # Don't include MkDocs' JavaScript
-  include_search_page: false
-  search_index_only: true
+    # Don't include MkDocs' JavaScript
+    include_search_page: false
+    search_index_only: true
 
-  # Default values, taken from mkdocs_theme.yml
-  language: en
-  feature:
-    tabs: true
-  palette:
-    primary: indigo
-    accent: indigo
-  font:
-    text: Roboto
-    code: Roboto Mono
-  favicon: assets/images/favicon.png
-  logo:
-    icon: "\uE80C"
+    # Default values, taken from mkdocs_theme.yml
+    language: en
+    feature:
+        tabs: true
+    palette:
+        primary: indigo
+        accent: indigo
+    font:
+        text: Roboto
+        code: Roboto Mono
+    favicon: assets/images/favicon.png
+    logo:
+        icon: "\uE80C"
 
 extra_css:
     - css/extra.css
@@ -37,24 +37,23 @@ extra_javascript:
     - js/extra.js
 
 markdown_extensions:
-  - admonition
-  - attr_list
-  - smarty
-  - toc:
-      permalink: True
+    - admonition
+    - attr_list
+    - smarty
+    - toc:
+        permalink: True
 
 pages:
-- Introduction: 'index.md'
-- Q*:
-    - Rules: 'qstar.md'
-    - Perks: 'perks.md'
-    - Equipment: 'equipment.md'
-    - Task DCs: 'taskdcs.md'
-    - Vessels: 'vessels.md'
-
-- S.T.A.L.K.E.R. Setting:
-    - Rules: 'settings/stalker/rules.md'
-    - Equipment: 'settings/stalker/equipment.md'
-    - Perks: 'settings/stalker/perks.md'
-    - Anomalies: 'settings/stalker/anomalies.md'
-    - Artifacts: 'settings/stalker/artifacts.md'
+    - Q*:
+        - Rules: 'index.md'
+        - Perks: 'perks.md'
+        - Equipment: 'equipment.md'
+        - Task DCs: 'taskdcs.md'
+        - Vessels: 'vessels.md'
+    
+    - S.T.A.L.K.E.R. Setting:
+        - Rules: 'settings/stalker/rules.md'
+        - Equipment: 'settings/stalker/equipment.md'
+        - Perks: 'settings/stalker/perks.md'
+        - Anomalies: 'settings/stalker/anomalies.md'
+        - Artifacts: 'settings/stalker/artifacts.md'

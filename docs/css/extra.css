@@ -130,5 +130,5 @@ tr:nth-child(even) {
 }
 
 .admonition  {
-  overflow: hidden;
+  overflow: hidden !important;
 }
