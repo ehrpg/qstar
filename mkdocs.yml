@@ -1,4 +1,4 @@
-site_name: QStar - RPG
+site_name: Q* - RPG
 repo_url: https://github.com/ehrpg/qstar
 site_author: "@n0la, @johannes-z"
 dev_addr: 127.0.0.1:8001
@@ -45,7 +45,7 @@ markdown_extensions:
 
 pages:
 - Introduction: 'index.md'
-- QStar:
+- Q*:
     - Rules: 'qstar.md'
     - Perks: 'perks.md'
     - Equipment: 'equipment.md'
@@ -56,4 +56,5 @@ pages:
     - Rules: 'settings/stalker/rules.md'
     - Equipment: 'settings/stalker/equipment.md'
     - Perks: 'settings/stalker/perks.md'
+    - Anomalies: 'settings/stalker/anomalies.md'
     - Artifacts: 'settings/stalker/artifacts.md'

@@ -1,37 +1,39 @@
-Artifacts are items that have been created or changed by the conditions
+# Artifacts
+
+*Artifacts are items that have been created or changed by the conditions
 of the zone. Artifacts exhibit strange properties, which can either be
 helpful or also detrimental to the person wielding them. They are highly
 sought after, both by scientists who wish to study their properties, as well
 as large and powerful corporations who are willing to pay a hefty price to
-obtain them from the Zone.
+obtain them from the Zone.*
 
-# Creation
+## Creation
 
-Artifacts are created in the intense and hostile conditions in the Zone,
+*Artifacts are created in the intense and hostile conditions in the Zone,
 and many artifacts are created within anomalies. Emissions are known
 to be the catalyst in the actual creation of an artifact, although
-scientists in the zone are still unable to explain how this happens.
+scientists in the zone are still unable to explain how this happens.*
 
-# Uses
+## Uses
 
-Many artifacts have wondrous properties, allowing the wearer to resist
+*Many artifacts have wondrous properties, allowing the wearer to resist
 more damage, or will absorb radiation. Artifacts are also heavily
 sought after by both outside sources and scientists, who will pay a
 hefty price for any recovered artifact. Many stalkers earn money by
-hunting and selling artefacts to vendors.
+hunting and selling artefacts to vendors.*
 
-To gain the advantages from artifacts they must be worn in direct
-contact with the skin. This also exposes the wearer of the artifact
+To gain the advantages from artifacts they must be worn in **direct
+contact** with the skin. This also exposes the wearer of the artifact
 to any harmful radiation it might emit.
 
-# Finding Artifacts
+## Finding Artifacts
 
 Most artifacts can only be found in highly dangerous and anomalous
-areas, and require a detector to be found.
+areas, and **require a detector** to be found.
 
-# List of Artifacts
+## List of Artifacts
 
-## Battery
+### Battery
 
 The composition of this artifact includes electrostatic elements,
 but scientists have yet to identify the exact physical conditions
@@ -44,7 +46,7 @@ prolonged use. Emits radiation.
 
 **Price**: 1500 RU
 
-## Shell
+### Shell
 
 This artifact used to be considered inert, devoid of any useful
 properties. However, scientists recently discovered that if kept
@@ -55,7 +57,7 @@ effect on the nervous system. Emits radiation.
 
 **Price**: 3300 RU
 
-## Snowflake
+### Snowflake
 
 At first glance this artifact resembles a Kolobok. Some claim that it
 is actually a Kolobok, its properties reinforced by exposure to a
@@ -66,7 +68,7 @@ can significantly increase the bearer's muscle tone. Emits radiation.
 
 **Price**: 7000 RU
 
-## Soul
+### Soul
 
 A unique organic artifact with properties just as unique. Somehow
 it increases the body's overall recovery rate from damage of any kind,
@@ -78,7 +80,7 @@ radiation.
 
 **Price**: 4000 RU
 
-## Kolobok
+### Kolobok
 
 A relatively rare artifact that forms in areas contaminated with
 chemicals, Kolobok is highly valued for its ability to heal wounds
@@ -91,7 +93,7 @@ a sea urchin. Emits radiation.
 
 **Price**: 9000 RU
 
-## Firefly
+### Firefly
 
 Firefly interacts with fields unknown to science, considerably speeding
 up regeneration of tissue and organs in living beings, as well as
@@ -103,7 +105,7 @@ extremely rare.
 
 **Price**: 16000 RU
 
-## Stone Flower
+### Stone Flower
 
 This artifact is made up of granite-like stone deformed by an extreme
 gravitational force, resulting in a crystallised formation that has not
@@ -114,7 +116,7 @@ against psy-emissions. Emits radiation.
 
 **Price**: 2500 RU
 
-## Moonlight
+### Moonlight
 
 This unique electrostatic artifact can resonate under the influence
 of psy-waves. Stalkers and scientists have learned to fine tune
@@ -126,7 +128,7 @@ their effects. Emits radiation.
 
 **Price**: 5000 RU
 
-## Nightstar
+### Nightstar
 
 This glowing artifact can generate a local directed law-gravity field.
 Widely used by stalkers along with [Gravi](#gravi), a similar artifact,
@@ -136,7 +138,7 @@ to increase maximum carrying capacity. Emits radiation.
 
 **Price**: 4200 RU
 
-## Gravi
+### Gravi
 
 Gravi is formed from metallic substances exposed to prolonged gravitation.
 This makes it capable of sustaining an anti-gravitational field, and
@@ -147,7 +149,7 @@ radiation.
 
 **Price:** 8000 RU
 
-## Goldfish
+### Goldfish
 
 The result of interaction between large number of gravitation fields,
 Goldfish produces its own strong directed gravitational field, which
@@ -159,7 +161,7 @@ always in great demand. Emits radiation.
 
 **Price**: 24000 RU
 
-## Jellyfish
+### Jellyfish
 
 This gravitation artifact attracts and absorbs radioactive particles,
 reducing the effects of radiation on the body. Very common in the Zone
@@ -170,7 +172,7 @@ sickness in exceptional circumstances.
 
 **Price**: 2000 RU
 
-## Wrenched
+### Wrenched
 
 This bizarrely-shaped artifact appears in placed with increased
 gravitational activity. Acting as a kind of sponge that absorbs radio-active
@@ -182,7 +184,7 @@ way into the body.
 
 **Price**: 7000 RU
 
-## Bubble
+### Bubble
 
 A compound of several hollow organic formations, this artifact emits a
 gaseous substance that can neutralise radioactive particles inside the
@@ -193,7 +195,7 @@ in great demand.
 
 **Price**: 15500 RU
 
-## Compass
+### Compass
 
 A rare artifact - it's been several years since one was found. The
 artifact can locate gaps in anomaly fields, effectively acting as a compass.
@@ -204,7 +206,7 @@ completely unharmed. However, very few know how to handle it properly.
 
 **Price**: 34000 RU
 
-## Crystal
+### Crystal
 
 This artifact is formed in anomalous zones with intense thermal activity.
 Actively consumes excessive heat, remaining cool to the touch throughout.
@@ -214,7 +216,7 @@ Emits radiation.
 
 **Price**: 1000 RU
 
-## Fireball
+### Fireball
 
 Even though fireball is a thermal artifact, it can be handled without fear
 of being burned. This artifact is valued for its ability to maintain a
@@ -225,7 +227,7 @@ its surroundings. Emits radiation.
 
 **Price**: 2500 RU
 
-## Sparkler
+### Sparkler
 
 A bright representative of the electrostatic family of artifacts. This
 artifact can smooth fluctuations on electric field density. Emits radiation.
@@ -234,7 +236,7 @@ artifact can smooth fluctuations on electric field density. Emits radiation.
 
 **Price**: 900 RU
 
-## Flash
+### Flash
 
 This electrostatic artifact is a powerful absorbent of electricity, which
 later discharges. Flash is capable of protecting its bearer from electric
@@ -244,7 +246,7 @@ shocks of up to 5,000 volts. Emits radiation.
 
 **Price**: 2000 RU
 
-## Stone Blood
+### Stone Blood
 
 A reddish formation of compressed and fossilised plants, soil and animal
 debris. Can partially neutralise chemical poisons. Emits radiation.
@@ -253,7 +255,7 @@ debris. Can partially neutralise chemical poisons. Emits radiation.
 
 **Price**: 1500 RU
 
-## Meat Chunk
+### Meat Chunk
 
 This organic artifact consists of deformed, mutated animal tissue. When
 placed in a chemically contaminated area, Meat Chunk transforms the

@@ -1,18 +1,20 @@
+# Task DCs
+
 This document should be a guide for the dungeon master on how to design
 DCs for tasks. This of course is only a guideline, and the game masters
 may set the DCs at their discretion. Just be fair, as most players won't
 tolerate unfairness for long.
 
-# Designing DCs
+## Designing DCs
 
 The easiest way to go about designing DCs is to have a baseline on what
 an average difficult task in said skill would be (so a DC 5) and compare
 from there. After you have determined the base DC, you then add or subtract
 external influences.
 
-# Skills
+## Skills
 
-## Athletics
+### Athletics
 
 Athletics is a difficult topic. Generally jumping three metres is
 something every able bodied human should be capable of doing with a
@@ -34,7 +36,7 @@ be thrown 40 metres by the average person while standing still. A
 1 kg object roughly 30 metres. Ranges may increase with a half or
 full approach.
 
-## Driving
+### Driving
 
 Someone who has at least some experience in driving should not have to
 roll to drive from point A to point B in normal street conditions.
@@ -44,7 +46,7 @@ recklessly in traffic are all conditions were a driving check might be
 called for. Difficult off-road driving, driving while being shot at or
 operating unfamiliar vehicles might also call for driving checks.
 
-## Engineering
+### Engineering
 
 Planning an engineering project might always be a low or average DC
 but might take more time. Generally speaking the more planning goes
@@ -60,7 +62,7 @@ instead of adding to the DC. Of course there are also wrong materials
 for certain products, for example you would not fix a hull breach of a
 space ship with wood.
 
-## Hacking
+### Hacking
 
 Hacking, contrary to popular belief, requires a lot of preparation. Usually
 systems to be hacked are analysed first and might require several hours if
@@ -71,14 +73,14 @@ could be counter acted by cost. Buying exploits, or even zero day exploits
 is expensive. Finding your own exploits can be a difficult or time consuming
 task.
 
-## Heavy Weapons
+### Heavy Weapons
 
 Just like most light weapons (see below) heavy weapons have an effective
 range that indicate a range and hit probability. But unlike with light
 weapons the weapon specifies what size of target its effective range is
 rated for.
 
-## Light Weapons
+### Light Weapons
 
 All light weapons (pistols, rifles etc.) have an effective range. This
 range indicates how many metres away a decently skilled shooter is able
@@ -97,7 +99,7 @@ sized target and you should adjust the DC accordingly. Hitting a large
 space craft is quite realistic, even from longer distances while a very
 tiny object may be impossible to hit.
 
-## Micro Gravity
+### Micro Gravity
 
 This is similar to athletics, and the DC highly depends on the actions
 involved. Many tasks are made substantially easier by helpful gear,
@@ -105,7 +107,7 @@ such as magnetic boots or even small manoeuvring thrusters. Lifting
 and dragging are no problem in micro gravity. However what can be a
 problem is reducing the velocity of objects in motion.
 
-## Piloting
+### Piloting
 
 Just like driving, flying from one point to another without any
 hindrances should not require a check. Tricky landings or take offs

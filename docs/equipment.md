@@ -1,23 +1,13 @@
-<!-- TOC -->
+# Equipment
 
-1. [Credits](#credits)
-2. [Suits](#suits)
-3. [Melee Weapons](#melee-weapons)
-4. [Ranged Weapons](#ranged-weapons)
-5. [Medical Items](#medical-items)
-6. [Miscellaneous Items](#miscellaneous-items)
-
-<!-- /TOC -->
-
-
-# Credits
+## Credits
 
 Prices are listed in credits. Credits are a completely digital currency,
 that are stored on credit cards. These cards will store amount of credits
 on them, and also a list of transactions. Credits may transferred from
 these cards to other cards to make transactions.
 
-# Suits
+## Suits
 
 Suits are full body suits used in hazardous environments (underwater, space,
 extreme heat or cold, or on planets with hazardous climate) or for battle.
@@ -35,7 +25,7 @@ being useful.
 | MACS MK I  |   6 |  50 | 50 000 | Combat armour, space suit, mag boots, radio                  |
 | MACS MK II |   8 |  70 | 90 000 | Advanced combat armour, space suit, mag boots, radio, camera |
 
-# Melee Weapons
+## Melee Weapons
 
 Melee weapons have a cost and damage. They get the might ability modifier
 as extra damage.
@@ -48,7 +38,7 @@ as extra damage.
 | Hatchet |     18 |  100 |
 | Sword   |     24 |  400 |
 
-# Ranged Weapons
+## Ranged Weapons
 
 Ranged weapons have a cost, damage and a magazine capacity. Prices for
 magazines are listed as well. It is assumed that a person just buys
@@ -89,7 +79,7 @@ reduce the DC of the next shot.
 * *Shotgun* means that the weapon shoots buckshot and thus has reduced
   range.
 
-# Medical Items
+## Medical Items
 
 Medical items recover endurance or even health.
 
@@ -102,7 +92,7 @@ Medical items recover endurance or even health.
 * *Temporary* means that the effect only lasts some time, indicated by the
   parenthesis.
 
-# Miscellaneous Items
+## Miscellaneous Items
 
 | Item       | Cost | Notes                                                  |
 | ---------- | ---- | ------------------------------------------------------ |

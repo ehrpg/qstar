@@ -1,4 +1,6 @@
-# Radiation
+# Rules
+
+## Radiation
 
 *Characters are radiated over time.*
 
@@ -8,32 +10,34 @@ than one is ignored. All radiation a character receives is rounded down.
 The unit for measuring radiation is defined by rad/hour. For simplicity, this
 value can be divided by 10, if a character isn't exposed for a full hour. 
 
-!!! note "Example"
+!!! info "Example"
     A character who is exposed for 5 minutes would suffer one tenth of the
     radiation, so 6 minutes worth of exposure. A character who is exposed for 26
     minutes would suffer five tenth of the radiation, so 30 minutes worth of
     exposure.
 
-!!! note "Example"
+!!! info "Example"
     A zone is contaminated and heavily radiated. Characters in the zone receive
-    500rad/h. A character stays in the zone for 43 minutes. The DM divides the
-    radiation value by ten, resulting in 50rad/6min. The character receives 48
-    minutes (eigth tenth) worth of exposure, resulting in 400 rad.
+    500 RAD/h. A character stays in the zone for 43 minutes. The DM divides the
+    radiation value by ten, resulting in 50 RAD/6min. The character receives 48
+    minutes (eigth tenth) worth of exposure, resulting in 400 RAD.
 
-## Radiation Effects
+### Exposure
 
-| Exposure (rads) | Description            | Health | Endurance | Notes            |
-| --------------: | ---------------------- | -----: | --------: | ---------------- |
-|           0- 24 | feeling unwell         |      - |         - | no side effects  |
-|          25-149 | very nauseous          |      - |        -5 |                  |
-|         150-299 | slightly fatigued      |      - |       -10 |                  |
-|         300-449 | vomiting does not stop |     -5 |       -10 | Speed halved     |
-|         450-599 | hair is falling out    |    -10 |       -15 | Charisma -3      |
-|         600-799 | skin is falling off    |    -15 |       -15 | Charisma -5      |
-|         800-999 | intense agony          |    -20 |       -20 | Might drops to 1 |
-|           1000+ | death                  |      - |         - |                  |
+### Radiation Effects
 
-## Countering Radiation Effects
+| Exposure (RAD) | Description            | Health | Endurance | Notes            |
+| -------------: | ---------------------- | -----: | --------: | ---------------- |
+|          0- 24 | feeling unwell         |      - |         - | no side effects  |
+|         25-149 | very nauseous          |      - |        -5 |                  |
+|        150-299 | slightly fatigued      |      - |       -10 |                  |
+|        300-449 | vomiting does not stop |     -5 |       -10 | Speed halved     |
+|        450-599 | hair is falling out    |    -10 |       -15 | Charisma -3      |
+|        600-799 | skin is falling off    |    -15 |       -15 | Charisma -5      |
+|        800-999 | intense agony          |    -20 |       -20 | Might drops to 1 |
+|          1000+ | death                  |      - |         - |                  |
+
+### Countering Radiation Effects
 
 A character can use **consumables** such as anti radiation or medical kits to
 reduce accumulated rads. **Consumables** such as vodka or alcohol with high
@@ -44,11 +48,11 @@ Also, certain equipment such as hazmat suits can reduce the radiation exposure
 or even reduce it to zero. The suit reduces the radiation exposure per hour by
 it's value.
 
-!!! note "Example" 
+!!! info "Example" 
     A hazmat suit may have a radiation reduction of 100. A contaminated zone may
-    have 150rad/h. The suit reduces the radiation exposure to 50rad/h.
+    have 150 RAD/h. The suit reduces the radiation exposure to 50 RAD/h.
 
-# Food & Water
+## Food & Water
 
 *Characters get hungry and thirsty, and need to eat and drink each day or suffer
 the consequences.*
@@ -68,45 +72,13 @@ id="a1">[1](#f1)</sup> **Health** points are regained first.
 1. <small id="f1">If the character is unconcious they have to receive infusions
    from others to regain conciousness.</small> [↩](#a1)
 
-# Anomalies
+## Skills
 
-Anomalies are a well known energy phenomenon scattered around the zone.
-
-## Vortex
-
-
-
-## Burner
-
-## Fruit Punch
-
-## Electro
-
-## Springboard
-
-## Whirligig
-
-## Burnt Fuzz
-
-## Radiation
-
-## Fault
-
-## Space Anomaly
-
-## Symbiont
-
-## Gas
-
-## Emission
-
-# Skills
-
-## Obsolete Skills
+### Obsolete Skills
 
 * ~~Micro Gravity~~ 
 
-## New Skills
+### New Skills
 
 * **Survival** is used to navigate through the zone, reading the weather and
   staying safe of harm.  It also allows you to follow and track down creatures,

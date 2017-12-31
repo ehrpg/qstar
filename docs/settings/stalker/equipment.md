@@ -1,9 +1,11 @@
-# Rubel
+# Equipment
+
+## Rubel
 
 Rubel is the main currency in and around the zone. For the sake of simplicity 1
 credit equals 1 rubel in this setting.
 
-# Consumeables
+## Consumeables
 
 | Name              | Weight (kg) | Cost (RU) | Notes                                                                                               |
 | ----------------- | ----------: | --------: | --------------------------------------------------------------------------------------------------- |
@@ -15,7 +17,7 @@ credit equals 1 rubel in this setting.
 | Water (Distilled) |         1.0 |        10 | -                                                                                                   |
 | Vodka             |         1.5 |        40 | One bottle of vodka allows you to ignore the negative effects of radiation regarding **endurance**. |
 
-# Weapons
+## Weapons
 
 Weapons use different kinds of cartridges. The **cartridge** column in the
 weapon's table describes the cartridge used. Only that cartridge is useable as
@@ -24,10 +26,10 @@ ammunition.
 Ammunition is only available in packs, denoted by the rounds column. For
 example, if you buy *9x18mm* rounds, you get 50 rounds for 10 credits.
 
-!!! info "Optional rules"
+!!! note "Optional rules"
     If you want to keep things simple, ignore the weight of the bullets.
 
-## Cartridges
+### Cartridges
 
 |  Name   | Cost | Rounds | Weight (in kg) |
 | ------- | ---: | -----: | -------------: |
@@ -40,13 +42,13 @@ example, if you buy *9x18mm* rounds, you get 50 rounds for 10 credits.
 | <span id="762">  </span> 7.62x54 |  130 |     20 |            0.5 |
 | <span id="40mm"> </span> 40mm    |  500 |      1 |              1 |
 
-## Melee Weapons
+### Melee Weapons
 
 |  Name                | Damage | Weight | Cost     | Notes            |
 | -------------------- | -----: | -----: | -------: | ---------------- |
 | Combat Knife         |     16 |      1 |      200 |                  |
 
-## Pistols
+### Pistols
 
 |  Name                | Cartridge         | Damage | Capacity | Weight | Cost     | Notes            |
 | -------------------- | ----------------- | -----: | -------: | -----: | -------: | ---------------- |
@@ -61,7 +63,7 @@ example, if you buy *9x18mm* rounds, you get 50 rounds for 10 credits.
 | Colt M1911           | [.45 ACP](#45acp) |     14 |       7  |      2 |    1 200 |                  |
 | H&K USP Compact      | [.45 ACP](#45acp) |     14 |       8  |      1 |    1 300 |                  |
 
-## Shotguns
+### Shotguns
 
 |  Name                | Cartridge     | Damage | Capacity | Weight | Cost     | Notes            |
 | -------------------- | ------------- | -----: | -------: | -----: | -------: | ---------------- |
@@ -71,13 +73,13 @@ example, if you buy *9x18mm* rounds, you get 50 rounds for 10 credits.
 | Franchi SPAS-12      | [12G](#12g)   |     26 |        8 |      4 |    9 000 |                  |
 | Armsel Striker       | [12G](#12g)   |     26 |       12 |      3 |   12 000 |                  |
 
-## Sub-machine guns
+### Sub-machine guns
 
 |  Name                | Cartridge       | Damage | Capacity | Weight | Cost     | Notes            |
 | -------------------- | --------------- | -----: | -------: | -----: | -------: | ---------------- |
 | H&K MP5              | [9x18mm](#9x18) |     12 |       30 |    2.5 |    6 000 |                  |
 
-## Assault rifles
+### Assault rifles
 
 |  Name                | Cartridge       | Damage | Capacity | Weight | Cost     | Notes            |
 | -------------------- | --------------- | -----: | -------: | -----: | -------: | ---------------- |
@@ -92,13 +94,13 @@ example, if you buy *9x18mm* rounds, you get 50 rounds for 10 credits.
 | Ots-14 Groza         | [9x39mm](#939)  |     20 |       20 |      3 |   12 000 |                  |
 | AS VAL               | [9x39mm](#939)  |     20 |       20 |    2.5 |   15 000 | silenced         |
 
-## Machine Guns
+### Machine Guns
 
 |  Name                | Cartridge       | Damage | Capacity | Weight | Cost     | Notes            |
 | -------------------- | --------------- | -----: | -------: | -----: | -------: | ---------------- |
 | PKM                  | [7.62x54](#762) |     30 |      100 |    7.5 |   20 000 |                  |
 
-## Sniper Rifles
+### Sniper Rifles
 
 |  Name                | Cartridge       | Damage | Capacity | Weight | Cost     | Notes            |
 | -------------------- | --------------- | -----: | -------: | -----: | -------: | ---------------- |
@@ -106,7 +108,7 @@ example, if you buy *9x18mm* rounds, you get 50 rounds for 10 credits.
 | SVU                  | [7.62x54](#762) |     30 |       10 |    4.5 |   26 000 |                  |
 | VSS Vintorez         | [9x39mm](#939)  |     20 |       10 |      3 |   30 000 | silenced         |
 
-## Grenades
+### Grenades
 
 |  Name                | Cartridge     | Damage | Capacity | Weight | Cost     | Notes            |
 | -------------------- | ------------- | -----: | -------: | -----: | -------: | ---------------- |
