@@ -31,19 +31,19 @@ example, if you buy *9x18mm* rounds, you get 50 rounds for 10 credits.
 
 |  Name   | Cost | Rounds | Weight (in kg) |
 | ------- | ---: | -----: | -------------: |
-| <span class="cartridge" id="9x18"> </span> 9x18mm  |   10 |     50 |            0.5 |
-| <span class="cartridge" id="45acp"></span> .45 ACP |   23 |     50 |              1 |
-| <span class="cartridge" id="12g">  </span> 12G     |   20 |     12 |            0.5 |
-| <span class="cartridge" id="556">  </span> 5.56x45 |   80 |     30 |            0.5 |
-| <span class="cartridge" id="545">  </span> 5.45x39 |  100 |     30 |            0.5 |
-| <span class="cartridge" id="939">  </span> 9x39mm  |  110 |     30 |            0.5 |
-| <span class="cartridge" id="762">  </span> 7.62x54 |  130 |     20 |            0.5 |
-| <span class="cartridge" id="40mm"> </span> 40mm    |  500 |      1 |              1 |
+| <span id="9x18"> </span> 9x18mm  |   10 |     50 |            0.5 |
+| <span id="45acp"></span> .45 ACP |   25 |     50 |              1 |
+| <span id="12g">  </span> 12G     |   20 |     12 |            0.5 |
+| <span id="556">  </span> 5.56x45 |   80 |     30 |            0.5 |
+| <span id="545">  </span> 5.45x39 |  100 |     30 |            0.5 |
+| <span id="939">  </span> 9x39mm  |  110 |     30 |            0.5 |
+| <span id="762">  </span> 7.62x54 |  130 |     20 |            0.5 |
+| <span id="40mm"> </span> 40mm    |  500 |      1 |              1 |
 
 ## Melee Weapons
 
 |  Name                | Damage | Weight | Cost     | Notes            |
-| -------------------- | ------ | ------ | -------: | ---------------- |
+| -------------------- | -----: | -----: | -------: | ---------------- |
 | Combat Knife         |     16 |      1 |      200 |                  |
 
 ## Pistols
