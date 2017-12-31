@@ -34,7 +34,7 @@
     
     
       
-        <title>Rules - QStar - RPG</title>
+        <title>Equipment - QStar - RPG</title>
       
     
     
@@ -102,7 +102,7 @@
                 QStar - RPG
               </span>
               <span class="md-header-nav__topic">
-                Rules
+                Equipment
               </span>
             
           
@@ -206,7 +206,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="./" title="S.T.A.L.K.E.R. Setting" class="md-tabs__link md-tabs__link--active">
+        <a href="../rules/" title="S.T.A.L.K.E.R. Setting" class="md-tabs__link md-tabs__link--active">
           S.T.A.L.K.E.R. Setting
         </a>
       
@@ -380,6 +380,18 @@
           
           
 
+
+  <li class="md-nav__item">
+    <a href="../rules/" title="Rules" class="md-nav__link">
+      Rules
+    </a>
+  </li>
+
+        
+          
+          
+          
+
   
 
 
@@ -390,56 +402,10 @@
       
     
     
-      <label class="md-nav__link md-nav__link--active" for="toc">
-        Rules
-      </label>
-    
-    <a href="./" title="Rules" class="md-nav__link md-nav__link--active">
-      Rules
-    </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#radiation-effects" title="Radiation Effects" class="md-nav__link">
-    Radiation Effects
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#countering-radiation-effects" title="Countering Radiation Effects" class="md-nav__link">
-    Countering Radiation Effects
-  </a>
-  
-</li>
-      
-      
-      
-    </ul>
-  
-</nav>
-    
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../equipment/" title="Equipment" class="md-nav__link">
+    <a href="./" title="Equipment" class="md-nav__link md-nav__link--active">
       Equipment
     </a>
+    
   </li>
 
         
@@ -489,27 +455,6 @@
     
   
   
-    <label class="md-nav__title" for="toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#radiation-effects" title="Radiation Effects" class="md-nav__link">
-    Radiation Effects
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#countering-radiation-effects" title="Countering Radiation Effects" class="md-nav__link">
-    Countering Radiation Effects
-  </a>
-  
-</li>
-      
-      
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -520,164 +465,559 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/ehrpg/qstar/edit/master/docs/settings/stalker/rules.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/ehrpg/qstar/edit/master/docs/settings/stalker/equipment.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="radiation">Radiation<a class="headerlink" href="#radiation" title="Permanent link">&para;</a></h1>
-<p><em>Characters are radiated over time.</em></p>
-<p>The radiation poisoning of a character is measured by rads. Any value smaller
-than one is ignored. All radiation a character receives is rounded down.</p>
-<p>The unit for measuring radiation is defined by rad/hour. For simplicity, this
-value can be divided by 10, if a character isn&rsquo;t exposed for a full hour. </p>
-<div class="admonition note">
-<p class="admonition-title">Example</p>
-<p>A character who is exposed for 5 minutes would suffer one tenth of the
-radiation, so 6 minutes worth of exposure. A character who is exposed for 26
-minutes would suffer five tenth of the radiation, so 30 minutes worth of
-exposure.</p>
-</div>
-<div class="admonition note">
-<p class="admonition-title">Example</p>
-<p>A zone is contaminated and heavily radiated. Characters in the zone receive
-500rad/h. A character stays in the zone for 43 minutes. The DM divides the
-radiation value by ten, resulting in 50rad/6min. The character receives 48
-minutes (eigth tenth) worth of exposure, resulting in 400 rad.</p>
-</div>
-<h2 id="radiation-effects">Radiation Effects<a class="headerlink" href="#radiation-effects" title="Permanent link">&para;</a></h2>
+                <h1 id="rubel">Rubel<a class="headerlink" href="#rubel" title="Permanent link">&para;</a></h1>
+<p>Rubel is the main currency in and around the zone. For the sake of simplicity 1
+credit equals 1 rubel in this setting.</p>
+<h1 id="consumeables">Consumeables<a class="headerlink" href="#consumeables" title="Permanent link">&para;</a></h1>
 <table>
 <thead>
 <tr>
-<th align="right">Exposure (rads)</th>
-<th>Description</th>
-<th align="right">Health</th>
-<th align="right">Endurance</th>
+<th>Name</th>
+<th align="right">Weight (kg)</th>
+<th align="right">Cost (RU)</th>
 <th>Notes</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="right">0- 24</td>
-<td>feeling unwell</td>
+<td>First Aid Kit</td>
 <td align="right">-</td>
 <td align="right">-</td>
-<td>no side effects</td>
+<td>see qstar equipment. Also heals 50 rads.</td>
 </tr>
 <tr>
-<td align="right">25-149</td>
-<td>very nauseous</td>
-<td align="right">-</td>
-<td align="right">-5</td>
-<td></td>
-</tr>
-<tr>
-<td align="right">150-299</td>
-<td>slightly fatigued</td>
-<td align="right">-</td>
-<td align="right">-10</td>
-<td></td>
-</tr>
-<tr>
-<td align="right">300-449</td>
-<td>vomiting does not stop</td>
-<td align="right">-5</td>
-<td align="right">-10</td>
-<td>Speed halved</td>
-</tr>
-<tr>
-<td align="right">450-599</td>
-<td>hair is falling out</td>
-<td align="right">-10</td>
-<td align="right">-15</td>
-<td>Charisma -3</td>
-</tr>
-<tr>
-<td align="right">600-799</td>
-<td>skin is falling off</td>
-<td align="right">-15</td>
-<td align="right">-15</td>
-<td>Charisma -5</td>
-</tr>
-<tr>
-<td align="right">800-999</td>
-<td>intense agony</td>
-<td align="right">-20</td>
-<td align="right">-20</td>
-<td>Might drops to 1</td>
-</tr>
-<tr>
-<td align="right">1000+</td>
-<td>death</td>
+<td>Medical Kit</td>
 <td align="right">-</td>
 <td align="right">-</td>
+<td>see qstar equipment. Also heal 100 rads.</td>
+</tr>
+<tr>
+<td>Anti-rad</td>
+<td align="right">0.1</td>
+<td align="right">500</td>
+<td>Reduce the radiation value of a character by 200 to a minimum of 0.</td>
+</tr>
+<tr>
+<td>MRE</td>
+<td align="right">2.0</td>
+<td align="right">20</td>
+<td>One ration worth of food for one day.</td>
+</tr>
+<tr>
+<td>Water (Dirty)</td>
+<td align="right">1.0</td>
+<td align="right">2</td>
+<td>A characer who drinks dirty water receives 5 rads.</td>
+</tr>
+<tr>
+<td>Water (Distilled)</td>
+<td align="right">1.0</td>
+<td align="right">10</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Vodka</td>
+<td align="right">1.5</td>
+<td align="right">40</td>
+<td>One bottle of vodka allows you to ignore the negative effects of radiation regarding <strong>endurance</strong>.</td>
+</tr>
+</tbody>
+</table>
+<h1 id="weapons">Weapons<a class="headerlink" href="#weapons" title="Permanent link">&para;</a></h1>
+<p>Weapons use different kinds of cartridges. The <strong>cartridge</strong> column in the
+weapon&rsquo;s table describes the cartridge used. Only that cartridge is useable as
+ammunition.</p>
+<p>Ammunition is only available in packs, denoted by the rounds column. For
+example, if you buy <em>9x18mm</em> rounds, you get 50 rounds for 10 credits.</p>
+<div class="admonition info">
+<p class="admonition-title">Optional rules</p>
+<p>If you want to keep things simple, ignore the weight of the bullets.</p>
+</div>
+<h2 id="cartridges">Cartridges<a class="headerlink" href="#cartridges" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th align="right">Cost</th>
+<th align="right">Rounds</th>
+<th align="right">Weight (in kg)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span id="9x18"> </span> 9x18mm</td>
+<td align="right">10</td>
+<td align="right">50</td>
+<td align="right">0.5</td>
+</tr>
+<tr>
+<td><span id="45acp"></span> .45 ACP</td>
+<td align="right">25</td>
+<td align="right">50</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td><span id="12g">  </span> 12G</td>
+<td align="right">20</td>
+<td align="right">12</td>
+<td align="right">0.5</td>
+</tr>
+<tr>
+<td><span id="556">  </span> 5.56x45</td>
+<td align="right">80</td>
+<td align="right">30</td>
+<td align="right">0.5</td>
+</tr>
+<tr>
+<td><span id="545">  </span> 5.45x39</td>
+<td align="right">100</td>
+<td align="right">30</td>
+<td align="right">0.5</td>
+</tr>
+<tr>
+<td><span id="939">  </span> 9x39mm</td>
+<td align="right">110</td>
+<td align="right">30</td>
+<td align="right">0.5</td>
+</tr>
+<tr>
+<td><span id="762">  </span> 7.62x54</td>
+<td align="right">130</td>
+<td align="right">20</td>
+<td align="right">0.5</td>
+</tr>
+<tr>
+<td><span id="40mm"> </span> 40mm</td>
+<td align="right">500</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+</tbody>
+</table>
+<h2 id="melee-weapons">Melee Weapons<a class="headerlink" href="#melee-weapons" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th align="right">Damage</th>
+<th align="right">Weight</th>
+<th align="right">Cost</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Combat Knife</td>
+<td align="right">16</td>
+<td align="right">1</td>
+<td align="right">200</td>
 <td></td>
 </tr>
 </tbody>
 </table>
-<h2 id="countering-radiation-effects">Countering Radiation Effects<a class="headerlink" href="#countering-radiation-effects" title="Permanent link">&para;</a></h2>
-<p>A character can use <strong>consumables</strong> such as anti radiation or medical kits to
-reduce accumulated rads. <strong>Consumables</strong> such as vodka or alcohol with high
-percentage let a character ignore the negative effects on endurance due to
-radiation exposure.</p>
-<p>Also, certain equipment such as hazmat suits can reduce the radiation exposure
-or even reduce it to zero. The suit reduces the radiation exposure per hour by
-it&rsquo;s value.</p>
-<div class="admonition note">
-<p class="admonition-title">Example</p>
-<p>A hazmat suit may have a radiation reduction of 100. A contaminated zone may
-have 150rad/h. The suit reduces the radiation exposure to 50rad/h.</p>
-</div>
-<h1 id="food-water">Food &amp; Water<a class="headerlink" href="#food-water" title="Permanent link">&para;</a></h1>
-<p><em>Characters get hungry and thirsty, and need to eat and drink each day or suffer
-the consequences.</em></p>
-<p>Each character needs <strong>one ration</strong> worth of food and drinks <strong>each day</strong>. For
-each day a character does not eat and drink, they lose <strong>10 points</strong> of
-<strong>endurance</strong> of their maximum. If the <strong>endurance</strong> becomes zero they fall
-unconcious and enter the <strong>starving</strong> state. </p>
-<p>A <strong>starving</strong> character loses <strong>10 points</strong> of <strong>health</strong> of their maximum
-health each day until the character dies or receives medical attention.</p>
-<p>A character regenerates <strong>10 points</strong> of <strong>health</strong> and <strong>endurance</strong> if they
-stay in bed and get <strong>one ration</strong> worth of food and drinks <strong>each day</strong>.<sup
-id="a1"><a href="#f1">1</a></sup> <strong>Health</strong> points are regained first. </p>
-<ol>
-<li><small id="f1">If the character is unconcious they have to receive infusions
-   from others to regain conciousness.</small> <a href="#a1">↩</a></li>
-</ol>
-<h1 id="anomalies">Anomalies<a class="headerlink" href="#anomalies" title="Permanent link">&para;</a></h1>
-<p>Anomalies are a well known energy phenomenon scattered around the zone.</p>
-<h2 id="vortex">Vortex<a class="headerlink" href="#vortex" title="Permanent link">&para;</a></h2>
-<h2 id="burner">Burner<a class="headerlink" href="#burner" title="Permanent link">&para;</a></h2>
-<h2 id="fruit-punch">Fruit Punch<a class="headerlink" href="#fruit-punch" title="Permanent link">&para;</a></h2>
-<h2 id="electro">Electro<a class="headerlink" href="#electro" title="Permanent link">&para;</a></h2>
-<h2 id="springboard">Springboard<a class="headerlink" href="#springboard" title="Permanent link">&para;</a></h2>
-<h2 id="whirligig">Whirligig<a class="headerlink" href="#whirligig" title="Permanent link">&para;</a></h2>
-<h2 id="burnt-fuzz">Burnt Fuzz<a class="headerlink" href="#burnt-fuzz" title="Permanent link">&para;</a></h2>
-<h2 id="radiation_1">Radiation<a class="headerlink" href="#radiation_1" title="Permanent link">&para;</a></h2>
-<h2 id="fault">Fault<a class="headerlink" href="#fault" title="Permanent link">&para;</a></h2>
-<h2 id="space-anomaly">Space Anomaly<a class="headerlink" href="#space-anomaly" title="Permanent link">&para;</a></h2>
-<h2 id="symbiont">Symbiont<a class="headerlink" href="#symbiont" title="Permanent link">&para;</a></h2>
-<h2 id="gas">Gas<a class="headerlink" href="#gas" title="Permanent link">&para;</a></h2>
-<h2 id="emission">Emission<a class="headerlink" href="#emission" title="Permanent link">&para;</a></h2>
-<h1 id="skills">Skills<a class="headerlink" href="#skills" title="Permanent link">&para;</a></h1>
-<h2 id="obsolete-skills">Obsolete Skills<a class="headerlink" href="#obsolete-skills" title="Permanent link">&para;</a></h2>
-<ul>
-<li>~~Micro Gravity~~ </li>
-</ul>
-<h2 id="new-skills">New Skills<a class="headerlink" href="#new-skills" title="Permanent link">&para;</a></h2>
-<ul>
-<li>
-<p><strong>Survival</strong> is used to navigate through the zone, reading the weather and
-  staying safe of harm.  It also allows you to follow and track down creatures,
-  people and vehicles, if the tracks are fresh.</p>
-</li>
-<li>
-<p><strong>Knowledge</strong> adds new areas of expertise, namely mutants and anomalies.</p>
-</li>
-<li>
-<p><strong>Scientific method</strong> allows a character to combine any knowledge area with
-  this skill. This is used to find out more, or even details unknown to mankind,
-  about the chosen scientific field.</p>
-</li>
-</ul>
+<h2 id="pistols">Pistols<a class="headerlink" href="#pistols" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Cartridge</th>
+<th align="right">Damage</th>
+<th align="right">Capacity</th>
+<th align="right">Weight</th>
+<th align="right">Cost</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fort-12</td>
+<td><a href="#9x18">9x18mm</a></td>
+<td align="right">10</td>
+<td align="right">12</td>
+<td align="right">1</td>
+<td align="right">800</td>
+<td></td>
+</tr>
+<tr>
+<td>Fort-15</td>
+<td><a href="#9x18">9x18mm</a></td>
+<td align="right">10</td>
+<td align="right">15</td>
+<td align="right">1</td>
+<td align="right">1 000</td>
+<td></td>
+</tr>
+<tr>
+<td>PB/6P9</td>
+<td><a href="#9x18">9x18mm</a></td>
+<td align="right">10</td>
+<td align="right">8</td>
+<td align="right">1</td>
+<td align="right">1 200</td>
+<td>silenced</td>
+</tr>
+<tr>
+<td>Makarov PM</td>
+<td><a href="#9x18">9x18mm</a></td>
+<td align="right">10</td>
+<td align="right">8</td>
+<td align="right">1</td>
+<td align="right">600</td>
+<td></td>
+</tr>
+<tr>
+<td>Walther P99</td>
+<td><a href="#9x18">9x18mm</a></td>
+<td align="right">10</td>
+<td align="right">16</td>
+<td align="right">1</td>
+<td align="right">1 100</td>
+<td></td>
+</tr>
+<tr>
+<td>Beretta 92F</td>
+<td><a href="#9x18">9x18mm</a></td>
+<td align="right">16</td>
+<td align="right">15</td>
+<td align="right">1</td>
+<td align="right">1 400</td>
+<td></td>
+</tr>
+<tr>
+<td>Browning Hi-Power</td>
+<td><a href="#9x18">9x18mm</a></td>
+<td align="right">16</td>
+<td align="right">13</td>
+<td align="right">1</td>
+<td align="right">1 400</td>
+<td></td>
+</tr>
+<tr>
+<td>SIG P220</td>
+<td><a href="#9x18">9x18mm</a></td>
+<td align="right">14</td>
+<td align="right">7</td>
+<td align="right">1</td>
+<td align="right">1 200</td>
+<td></td>
+</tr>
+<tr>
+<td>Colt M1911</td>
+<td><a href="#45acp">.45 ACP</a></td>
+<td align="right">14</td>
+<td align="right">7</td>
+<td align="right">2</td>
+<td align="right">1 200</td>
+<td></td>
+</tr>
+<tr>
+<td>H&amp;K USP Compact</td>
+<td><a href="#45acp">.45 ACP</a></td>
+<td align="right">14</td>
+<td align="right">8</td>
+<td align="right">1</td>
+<td align="right">1 300</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="shotguns">Shotguns<a class="headerlink" href="#shotguns" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Cartridge</th>
+<th align="right">Damage</th>
+<th align="right">Capacity</th>
+<th align="right">Weight</th>
+<th align="right">Cost</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TOZ-66</td>
+<td><a href="#12g">12G</a></td>
+<td align="right">26</td>
+<td align="right">2</td>
+<td align="right">2</td>
+<td align="right">6 000</td>
+<td></td>
+</tr>
+<tr>
+<td>TOZ-34</td>
+<td><a href="#12g">12G</a></td>
+<td align="right">26</td>
+<td align="right">2</td>
+<td align="right">3</td>
+<td align="right">5 000</td>
+<td></td>
+</tr>
+<tr>
+<td>Mossberg Maverick 88</td>
+<td><a href="#12g">12G</a></td>
+<td align="right">28</td>
+<td align="right">6</td>
+<td align="right">3</td>
+<td align="right">7 000</td>
+<td></td>
+</tr>
+<tr>
+<td>Franchi SPAS-12</td>
+<td><a href="#12g">12G</a></td>
+<td align="right">26</td>
+<td align="right">8</td>
+<td align="right">4</td>
+<td align="right">9 000</td>
+<td></td>
+</tr>
+<tr>
+<td>Armsel Striker</td>
+<td><a href="#12g">12G</a></td>
+<td align="right">26</td>
+<td align="right">12</td>
+<td align="right">3</td>
+<td align="right">12 000</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="sub-machine-guns">Sub-machine guns<a class="headerlink" href="#sub-machine-guns" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Cartridge</th>
+<th align="right">Damage</th>
+<th align="right">Capacity</th>
+<th align="right">Weight</th>
+<th align="right">Cost</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>H&amp;K MP5</td>
+<td><a href="#9x18">9x18mm</a></td>
+<td align="right">12</td>
+<td align="right">30</td>
+<td align="right">2.5</td>
+<td align="right">6 000</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="assault-rifles">Assault rifles<a class="headerlink" href="#assault-rifles" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Cartridge</th>
+<th align="right">Damage</th>
+<th align="right">Capacity</th>
+<th align="right">Weight</th>
+<th align="right">Cost</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AKS-74</td>
+<td><a href="#545">5.45x39</a></td>
+<td align="right">18</td>
+<td align="right">30</td>
+<td align="right">3.5</td>
+<td align="right">9 000</td>
+<td></td>
+</tr>
+<tr>
+<td>AKS-74U</td>
+<td><a href="#545">5.45x39</a></td>
+<td align="right">16</td>
+<td align="right">30</td>
+<td align="right">3</td>
+<td align="right">8 000</td>
+<td></td>
+</tr>
+<tr>
+<td>AN-94</td>
+<td><a href="#545">5.45x39</a></td>
+<td align="right">18</td>
+<td align="right">30</td>
+<td align="right">4</td>
+<td align="right">9 000</td>
+<td></td>
+</tr>
+<tr>
+<td>FN F2000</td>
+<td><a href="#556">5.56x45</a></td>
+<td align="right">20</td>
+<td align="right">30</td>
+<td align="right">4.5</td>
+<td align="right">12 000</td>
+<td>grenade launcher</td>
+</tr>
+<tr>
+<td>H&amp;K G36</td>
+<td><a href="#556">5.56x45</a></td>
+<td align="right">18</td>
+<td align="right">30</td>
+<td align="right">3.5</td>
+<td align="right">9 000</td>
+<td></td>
+</tr>
+<tr>
+<td>Enfield L85A1</td>
+<td><a href="#556">5.56x45</a></td>
+<td align="right">16</td>
+<td align="right">30</td>
+<td align="right">5</td>
+<td align="right">7 000</td>
+<td></td>
+</tr>
+<tr>
+<td>SIG SG-550</td>
+<td><a href="#556">5.56x45</a></td>
+<td align="right">18</td>
+<td align="right">30</td>
+<td align="right">4.5</td>
+<td align="right">8 000</td>
+<td></td>
+</tr>
+<tr>
+<td>Z&amp;M LR300</td>
+<td><a href="#556">5.56x45</a></td>
+<td align="right">16</td>
+<td align="right">30</td>
+<td align="right">3</td>
+<td align="right">8 000</td>
+<td></td>
+</tr>
+<tr>
+<td>Ots-14 Groza</td>
+<td><a href="#939">9x39mm</a></td>
+<td align="right">20</td>
+<td align="right">20</td>
+<td align="right">3</td>
+<td align="right">12 000</td>
+<td></td>
+</tr>
+<tr>
+<td>AS VAL</td>
+<td><a href="#939">9x39mm</a></td>
+<td align="right">20</td>
+<td align="right">20</td>
+<td align="right">2.5</td>
+<td align="right">15 000</td>
+<td>silenced</td>
+</tr>
+</tbody>
+</table>
+<h2 id="machine-guns">Machine Guns<a class="headerlink" href="#machine-guns" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Cartridge</th>
+<th align="right">Damage</th>
+<th align="right">Capacity</th>
+<th align="right">Weight</th>
+<th align="right">Cost</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PKM</td>
+<td><a href="#762">7.62x54</a></td>
+<td align="right">30</td>
+<td align="right">100</td>
+<td align="right">7.5</td>
+<td align="right">20 000</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="sniper-rifles">Sniper Rifles<a class="headerlink" href="#sniper-rifles" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Cartridge</th>
+<th align="right">Damage</th>
+<th align="right">Capacity</th>
+<th align="right">Weight</th>
+<th align="right">Cost</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SVD</td>
+<td><a href="#762">7.62x54</a></td>
+<td align="right">30</td>
+<td align="right">10</td>
+<td align="right">5</td>
+<td align="right">25 000</td>
+<td></td>
+</tr>
+<tr>
+<td>SVU</td>
+<td><a href="#762">7.62x54</a></td>
+<td align="right">30</td>
+<td align="right">10</td>
+<td align="right">4.5</td>
+<td align="right">26 000</td>
+<td></td>
+</tr>
+<tr>
+<td>VSS Vintorez</td>
+<td><a href="#939">9x39mm</a></td>
+<td align="right">20</td>
+<td align="right">10</td>
+<td align="right">3</td>
+<td align="right">30 000</td>
+<td>silenced</td>
+</tr>
+</tbody>
+</table>
+<h2 id="grenades">Grenades<a class="headerlink" href="#grenades" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Cartridge</th>
+<th align="right">Damage</th>
+<th align="right">Capacity</th>
+<th align="right">Weight</th>
+<th align="right">Cost</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RG6</td>
+<td><a href="#40mm">40mm</a></td>
+<td align="right"></td>
+<td align="right">6</td>
+<td align="right">6</td>
+<td align="right">15 000</td>
+<td></td>
+</tr>
+<tr>
+<td>RPG-7</td>
+<td><a href="#40mm">40mm</a></td>
+<td align="right">100</td>
+<td align="right">1</td>
+<td align="right">7</td>
+<td align="right">20 000</td>
+<td></td>
+</tr>
+</tbody>
+</table>
                 
                   
                 
@@ -696,7 +1036,7 @@ id="a1"><a href="#f1">1</a></sup> <strong>Health</strong> points are regained fi
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../../../vessels/" title="Vessels" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../rules/" title="Rules" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -705,19 +1045,19 @@ id="a1"><a href="#f1">1</a></sup> <strong>Health</strong> points are regained fi
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Vessels
+                Rules
               </span>
             </div>
           </a>
         
         
-          <a href="../equipment/" title="Equipment" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../perks/" title="Perks" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Equipment
+                Perks
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">

@@ -82,10 +82,16 @@
   padding: 0 5px;
 }
 
+table td {
+  position: relative;
+}
+
 img.ehicon {
   display: inline-block;
-  border-radius: 3px;
+  border-radius: 0.2rem;
   height: 1em !important;
+  position: absolute;
+  top: 0.4rem;
 }
 
 img.ehicon-2x {
@@ -96,4 +102,33 @@ img.ehicon-2x {
     border-radius: 3px;
     width: auto;
   }
+}
+
+.md-typeset__table table td,
+.md-typeset__table table th {
+  padding: 0.4rem 1rem !important;
+}
+
+.md-typeset__table table th {
+  padding: 0.8rem 1rem !important;
+}
+
+.md-typeset table:not([class]) th {
+  min-width: 8rem;
+}
+
+tr.targetted {
+  background-color: #FFF9C4 !important;
+}
+
+tr:nth-child(even) {
+  background-color: #efefef
+}
+
+.md-typeset h2 {
+  margin: 1.6rem 0 1.6rem;
+}
+
+.admonition  {
+  overflow: hidden;
 }
