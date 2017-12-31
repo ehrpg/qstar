@@ -21,7 +21,7 @@ markdown_extensions:
 
 pages:
 - Introduction: 'index.md'
-- QStar: 
+- QStar:
     - Rules: 'qstar.md'
     - Perks: 'perks.md'
     - Equipment: 'equipment.md'
@@ -32,3 +32,4 @@ pages:
     - Rules: 'settings/stalker/rules.md'
     - Equipment: 'settings/stalker/equipment.md'
     - Perks: 'settings/stalker/perks.md'
+    - Artifacts: 'settings/stalker/artifacts.md'
