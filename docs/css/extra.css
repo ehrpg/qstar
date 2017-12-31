@@ -97,6 +97,9 @@ img.ehicon {
   display: inline-block;
   border-radius: 0.2rem;
   height: 1em !important;
+}
+
+table img.ehicon {
   position: absolute;
   top: 0.4rem;
 }

@@ -149,16 +149,16 @@ every skill at the untrained level.
 
 ### Tasks
 
-Often characters perform tasks such as repairing, shooting or flying a
-space craft. It is the game masters job to come up with a difficulty
-check (**DC**) between one and ten. A DC of one (1) is so easy that no
-roll has to be performed, five (5) denotes an averagely difficult
-task, and ten (10) denotes a task almost impossible to complete. To
-succeed at a task a player may roll all his dice available to him from
-the corresponding skill. At least one dice has to meet or exceed the
-DC for the task to completed successfully.  A dice that meets or
-exceeds the DC is called a **success**, and dice that do not meet the
-DC are called **failures**.
+Often characters perform tasks such as repairing, shooting or flying a space
+craft. It is the game masters job to come up with a difficulty check (**DC**)
+between one and ten. A DC of one (1) is so easy that no roll has to be
+performed, five (5) denotes an averagely difficult task, and ten (10) denotes a
+task almost impossible to complete.
+
+To succeed at a task a player may roll all his dice available to him from the
+corresponding skill. At least one dice has to meet or exceed the DC for the task
+to completed successfully.  A dice that meets or exceeds the DC is called a
+**success**, and dice that do not meet the DC are called **failures**.
 
 ### Aiding
 
@@ -206,31 +206,35 @@ skill. The DM sets the amount of successes required and adjusts the
 DC accordingly. There is still only one DC for all actions, but now
 the player has roll multiple successes using the available dice.
 
-For example Mary is a good pilot and thus has 3 dice available and
-an ability modifier of +3. Her ship is under attack, and she wants to
-deploy counter measures at the right moment, and then make a sharp
-evasive manoeuver. As she has three dice, she may make those two
-actions at the same time. The GM decides on a DC of 6 and Mary rolls:
-4 3 6. She expends two ability modifiers to make the 4 a success and
-thus succeeds at the task.
+
+!!! info "Example"
+    Mary is a good pilot and thus has 3 dice available and an ability modifier
+    of +3. Her ship is under attack, and she wants to deploy counter measures at
+    the right moment, and then make a sharp evasive manoeuver. As she has three
+    dice, she may make those two actions at the same time. The GM decides on a
+    DC of 6 and Mary rolls: 4 3 6. She expends two ability modifiers to make the
+    4 a success and thus succeeds at the task.
 
 ### Ability Modifier
 
-Ability modifiers are used every time a character makes a roll. If the
-modifier is negative, then each roll incurs a -1 penalty in order of
-highest to lowest. Repeat this process until the entire negative
-penalty is spread across the dice rolls.  If the modifier is positive
-then the player may decide where to spend the ability modifier. The
-player may also spread out the positive modifier across multiple
-dice, but may not exceed the total positive modifier available to
-that ability.
+Ability modifiers are used every time a character makes a roll.
 
-Example: Mary has 3 dice for a Melee skill check and a +2 modifier. She
-has to meet a DC 5 and rolls: 4 2 3. She expends one modifier on the 4
-to make it a success, and uses the other modifier to buy extra damage.
+If the modifier is negative, then each roll incurs a -1 penalty in order of
+highest to lowest. Repeat this process until the entire negative penalty is
+spread across the dice rolls.
+
+If the modifier is positive then the player may decide where to spend the
+ability modifier. The player may also spread out the positive modifier across
+multiple dice, but may not exceed the total positive modifier available to that
+ability.
 
 Ability modifier may also be expended for other benefits. See the list of
 skills what can be bought by expending an ability modifier.
+
+!!! info "Example"
+    Mary has 3 dice for a Melee skill check and a +2 modifier. She has to meet a
+    DC 5 and rolls: 4, 2, 3. She expends one modifier on the 4 to make it a
+    success, and uses the other modifier to buy extra damage.
 
 ## Perks
 
@@ -245,6 +249,9 @@ play, or based on a character's background story.
 Characters are not improved by experience but by spending time and money.
 Money can buy time at the gym, implants and most importantly training
 lessons for skills.
+
+Downgrading abilities may only be done at the GMs discretion, or as a temporary
+or permanent effect from adventuring (such as scars, wounds, etc.).
 
 Improving an ability costs:
 
@@ -331,17 +338,17 @@ succeeds he may help is friend to gain footing again.
 
 ## Making a character
 
-## First: Choose a race
+### First: Choose a race
 
 Q* supports multiple races, but your game master may restrict them as necessary.
-Races defines basic attributes, and may grant you perks from the get go. All
+Races define basic attributes, and may grant you perks from the get go. All
 races are balanced, with some having slight benefits which are weighed out by
 drawbacks in other areas.
 
 Select a race, and note their starting abilities, perks and flaws on your sheet
 of paper.
 
-### Human
+#### Human
 
 Humans are the versatile race of Q*, with having no obvious benefits or
 drawbacks. They are suitable for all kinds of game play.
@@ -359,7 +366,7 @@ drawbacks. They are suitable for all kinds of game play.
 | Perks          |     - |
 | Flaws          |     - |
 
-## Second: Make adaptions
+### Second: Make adaptions
 
 The game master hands out starting money to all players. Use these funds to
 purchase increases in abilities, skills or even perks. If your game master
@@ -370,27 +377,57 @@ you to increase that ability to the old value.
 You should increase relevant attributes, and buy ranks in the skills that best
 suit your character.
 
-## Third: Roll Endurance and Health
+### Third: Roll Endurance and Health
 
 Use your race's endurance and health dice, and your new ability rank to roll
 endurance and health. Note these values on your character sheet.
 
-## Fourth: Buy equipment
+### Fourth: Buy equipment
 
 Last but not least buy equipment that suits your character. See further down
 below on a list of available equipment
 
-# Available Skills
+## Available Skills
 
-The following skills are available in Q*:
+The following skills are available in the base system of Q*:
+
+### Might Skills
 
 * **Athletics** (MI) is used to perform actions such as jumping, climbing,
   tumbling, lifting, dragging or rope walking. Extra ability modifiers may be
   spent on completing a task faster, or to avoid extra falling damage in case of
   controlled jumps. Athletics is also used to move out of harms way. It can be
   used to dodge hazards such as a falling debris.
+* **Melee** (MI) is the skill involved with all sorts of melee weapons, such as
+  blades, axes, clubs or bare fists and kicks. Extra ability modifiers can be
+  used to purchase extra damage (1 modifier per point) or extra critical damage
+  (1 modifier per two points). It's also used for defending against a melee
+  attack, either by deflecting, blocking or dodging an attack.
+* **Micro Gravity** (MI) is the skill that replaces **Athletics** in micro
+  gravity environments. It is used to manoeuvre in such weightless conditions.
+
+### Speed Skills
+
 * **Driving** (SP) allows someone to steer land or sea based vehicles, such as
   cars, motorcycles and tanks.
+* **Heavy Weapons** (SP) allows operations of heavy or stationary guns. Such
+  guns are usually mounted turrets on ships and tanks, but can also be land
+  based artillery or very large man portable weapons such as rocket launchers
+  or guided missile platforms.  Extra ability modifiers can be spend
+  on either extra normal (1 modifier per point) or critical damage (1 modifier
+  per two points).
+* **Light Weapons** (SP) is used to operate firearms such as pistols, rifles,
+  or shotguns. Light weapons also applies to man portable weapons such as
+  grenade launchers or light machine guns. Extra ability modifiers can be
+  spent on extra damage. Extra ability modifiers can be spend on either extra
+  normal (1 modifier per point) or critical damage (1 modifier per two points).
+* **Piloting** (SP) is used to pilot any air or space borne vehicle. It's also
+  used in vessel combat to attack and defend.
+* **Stealth** (SP) is used to sneak about, hide, hide things or use sleight
+  of hand to conceal items. Its counter skill is **Notice**.
+
+### Intelligence Skills
+
 * **Engineering** (IN) is used to construct and repair devices, buildings and
   vehicles. Servicing a motorcycle is considered engineering, as is constructing
   fortifications or repairing an airlock. Extra ability modifiers can be used
@@ -407,40 +444,20 @@ The following skills are available in Q*:
   health damage.
 * **Hacking** (IN) is used to bypass electronic security. Its counter skill is
   also hacking. Extra ability modifiers can be used to get the job done faster.
-* **Heavy Weapons** (SP) allows operations of heavy or stationary guns. Such
-  guns are usually mounted turrets on ships and tanks, but can also be land
-  based artillery or very large man portable weapons such as rocket launchers
-  or guided missile platforms.  Extra ability modifiers can be spend
-  on either extra normal (1 modifier per point) or critical damage (1 modifier
-  per two points).
 * **Knowledge** (IN) is chosen for a particular area, e.g. history, religion,
   etc. For all other knowledge skills, the character only has basic, common
   knowledge. 
-* **Light Weapons** (SP) is used to operate firearms such as pistols, rifles,
-  or shotguns. Light weapons also applies to man portable weapons such as
-  grenade launchers or light machine guns. Extra ability modifiers can be
-  spent on extra damage. Extra ability modifiers can be spend on either extra
-  normal (1 modifier per point) or critical damage (1 modifier per two points).
-* **Melee** (MI) is the skill involved with all sorts of melee weapons, such as
-  blades, axes, clubs or bare fists and kicks. Extra ability modifiers can be
-  used to purchase extra damage (1 modifier per point) or extra critical damage
-  (1 modifier per two points). It's also used for defending against a melee
-  attack, either by deflecting, blocking or dodging an attack.
-* **Micro Gravity** (MI) is the skill that replaces **Athletics** in micro
-  gravity environments. It is used to manoeuvre in such weightless conditions.
 * **Notice** (IN) is used to spot hidden things or notice small details that
   would otherwise be missed. It is the counter part skill to stealth.
-* **Oratory** (CA) is used to sway another in ones favour through social
-  interactions. It allows a character to bargain, bluff, intimidate or charm
-  another. The counter skill is called **Sense Motive**.
-* **Piloting** (SP) is used to pilot any air or space borne vehicle. It's also
-  used in vessel combat to attack and defend.
 * **Science** (IN) is chosen for a particular scientific field, e.g. geology,
   biology, astronomy, medicine, etc. For all other scientific areas that weren't
   chosen, the character has basic knowledge. They only know common knowledge in
   these areas (according to their education), but nothing special.
-* **Sense Motive** (CA) allows to spot bluffs in conversations, spot an resist
-  an intimidation attempt or otherwise realise when ones belly is rubbed with
-  honey. It is the counter part skill to **Oratory**.
-* **Stealth** (SP) is used to sneak about, hide, hide things or use sleight
-  of hand to conceal items. Its counter skill is **Notice**.
+
+### Charisma Skills
+* **Oratory** (CA) is used to sway another in ones favour through social
+  interactions. It allows a character to bargain, bluff, intimidate or charm
+  another. The counter skill is called **Sense Motive**.
+* **Sense Motive** (CA) allows to spot bluffs in conversations, resist an
+  intimidation attempt, notice lies etc. It is the counter part skill to
+  **Oratory**.
