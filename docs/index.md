@@ -10,37 +10,43 @@ and at least two other players. Furthermore you will need a pencil, eraser, and
 some paper. To play you also need a few six sided dice (d6) and ten sided
 dice (d10).
 
-## Mechanics
+## Abilities
 
-### Abilities
-
-Each character, NPC or even monster is defined by four abilities:
-
-* **Might** (MI) represents the character's physical strength and resilience.
-  Endurance and health are derived from might. Your melee weapon damage
-  also derives from might.
-
-* **Speed** (SP) measures the character's reflexes and hand-eye coordination.
-  It is used for subversive actions (such as sneaking, or lock picking) and
-  is used to better hit with melee weapons and ranged weapons.
-
-* **Intelligence** (IN) describes how well your character learns new things,
-  and how well he remembers already existing things. It is a key factor in
-  skills like hacking, medicine or engineering.
-
-* **Charisma** (CA) represents the character's physical attractiveness, force
-  of personality and his ability to lead. It is mostly used in social
-  interactions between characters and NPCs.
+Each character, NPC or even monster is defined by four abilities. 
 
 Abilities have ranks going from 1 to 10. Five (5) is the average, conferring
 neither a benefit nor a drawback. Every point below or above five grants an
-additional benefit. This benefit is called ability modifier:
+additional benefit. This benefit is called **ability modifier**:
 
 | Ability  | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
 | -------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Modifier | -5  | -4  | -3  | -2  | -1  | +0  | +1  | +2  | +3  | +4  | +5  |
 
-### Endurance
+### Might
+
+**Might** (MI) represents the character's physical **strength** and
+**resilience**. [Endurance](#endurance) and [health](#health) are derived from
+might. Your melee weapon damage also derives from might.
+
+### Speed
+
+**Speed** (SP) measures the character's reflexes and hand-eye coordination. It
+is used for subversive actions (such as sneaking, or lock picking) and is used
+to **better hit** with melee weapons and ranged weapons.
+
+### Intelligence
+
+**Intelligence** (IN) describes how well your character learns new things, and
+how well he remembers already existing things. It is a key factor in skills like
+hacking, medicine or engineering.
+
+### Charisma
+
+**Charisma** (CA) represents the character's physical attractiveness, force of
+personality and his ability to lead. It is mostly used in **social
+interactions** between characters and NPCs.
+
+## Endurance
 
 *Endurance represents the character's short time well being and constitution.*
 
@@ -65,7 +71,7 @@ value from your endurance pool.
     <span data-bracket-top="endurance die (race)" style="margin-left: 0;">d10</span>
     </div>
 
-### Health
+## Health
 
 *Health represents the overall long-term physical health and well being of a
 character. Severe wounds, illness and temporary handicaps (such as broken arms
@@ -92,7 +98,7 @@ health pool.
     <span data-bracket-top="health die (race)" style="margin-left: 0;">d6</span>
     </div>
 
-### Damage
+## Damage
 
 Normal damage always targets endurance. If endurance drops to zero the
 character becomes incapacitated. **Critical damage** is dealt to health
@@ -101,7 +107,7 @@ instead. If endurance is zero, all damage is dealt to health instead.
 Damaging objects is the same as damaging another player or NPC, except that
 inanimate objects have no endurance, just health.
 
-#### Critical Hit and Damage
+### Critical Hit and Damage
 
 Causing a critical hit requires another success in addition to the
 attack roll (see **Multiple Successes** down below). If the attack roll
@@ -109,7 +115,7 @@ and the roll to convert to a critical hit are successful, then the
 damage is converted to **critical damage** and targets the **Health**
 pool instead of the **Endurance** pool.
 
-### Skills
+## Skills
 
 Skills are areas of expertise a character may acquire throughout the
 course of gameplay. Whenever a character attempts a task a skill roll
@@ -130,7 +136,7 @@ Each skill is associated with an attribute. Ability modifiers are used
 from the corresponding associated skill. Every character starts with
 every skill at the untrained level.
 
-#### Tasks
+### Tasks
 
 Often characters perform tasks such as repairing, shooting or flying a
 space craft. It is the game masters job to come up with a difficulty
@@ -143,7 +149,7 @@ DC for the task to completed successfully.  A dice that meets or
 exceeds the DC is called a **success**, and dice that do not meet the
 DC are called **failures**.
 
-#### Aiding
+### Aiding
 
 At the game master's discretion, it is possible for one or more
 characters to aid another in an upcoming task (henceforth called the
@@ -171,7 +177,7 @@ character, or a high enough wall that requires help from another to
 successfully climb.
 
 
-#### Competition
+### Competition
 
 When two characters, or a character and an NPC, pitch their skills against
 each other both roll the respective skill dice. Whoever has the highest roll
@@ -181,7 +187,7 @@ decided. A dice that beats the other side's highest roll is called a
 **success**, and a dice that does not beat the other side's highest roll
 is called a **failure**.
 
-#### Multiple Successes
+### Multiple Successes
 
 If a character has more than one die for a specific skill available,
 more than one action may be attempted at the same time using that
@@ -197,7 +203,7 @@ actions at the same time. The GM decides on a DC of 6 and Mary rolls:
 4 3 6. She expends two ability modifiers to make the 4 a success and
 thus succeeds at the task.
 
-#### Ability Modifier
+### Ability Modifier
 
 Ability modifiers are used every time a character makes a roll. If the
 modifier is negative, then each roll incurs a -1 penalty in order of
@@ -215,7 +221,7 @@ to make it a success, and uses the other modifier to buy extra damage.
 Ability modifier may also be expended for other benefits. See the list of
 skills what can be bought by expending an ability modifier.
 
-### Perks
+## Perks
 
 Perks, and flaws, are gained through your race and give your character
 special abilities or drawbacks. Perks and flaws aim at making a character
@@ -223,7 +229,7 @@ more unique. It is up to the game master whether perks can be freely purchased.
 A game master may also give them out based on experience throughout game
 play, or based on a character's background story.
 
-### Improving your character
+## Improving your character
 
 Characters are not improved by experience but by spending time and money.
 Money can buy time at the gym, implants and most importantly training
@@ -261,7 +267,7 @@ Formula: `cost = ((max(x-1, 0) * 100) ^ 2) - 9000`
 Buying perks may be done at any time, and the perk's description lists the
 price.
 
-### Crisis
+## Crisis
 
 Whenever time and order of action is of critical concern a **crisis** starts.
 Combat is always a crisis, but other dangerous situation are also considered
@@ -274,7 +280,7 @@ may give additional bonuses or penalties to initiative. Players, NPCs
 and monsters start in the order of the highest initiative to
 lowest. In case of a tie the person with the highest die result wins.
 
-### Actions
+## Actions
 
 Once it is a player's turn in a crisis, he or she may do two
 actions. An action takes a small amount of time, and may involve a
@@ -290,7 +296,7 @@ the time solvable through a skill check. Movement in combat is done
 through **Acrobatics**, hitting an enemy with a sword through
 **Melee** or getting a blast door open uses **Hacking**.
 
-#### Free Actions
+### Free Actions
 
 A game master may also decide that something takes so little time,
 that it does not count towards the player's amount of actions in that
@@ -298,7 +304,7 @@ round. These actions are called **free actions**. For example, the
 game master may decide that letting go of a ledge takes no time and is
 thus a **free action**.
 
-#### Reactions
+### Reactions
 
 Reactions are skill checks that a player or NPC must make upon the
 request of the game master. Reactions are triggered by external
@@ -314,7 +320,7 @@ succeeds he may help is friend to gain footing again.
 
 ## Making a character
 
-### First: Choose a race
+## First: Choose a race
 
 Q* supports multiple races, but your game master may restrict them as necessary.
 Races defines basic attributes, and may grant you perks from the get go. All
@@ -324,7 +330,7 @@ drawbacks in other areas.
 Select a race, and note their starting abilities, perks and flaws on your sheet
 of paper.
 
-#### Human
+### Human
 
 Humans are the versatile race of Q*, with having no obvious benefits or
 drawbacks. They are suitable for all kinds of game play.
@@ -342,7 +348,7 @@ drawbacks. They are suitable for all kinds of game play.
 | Perks          |     - |
 | Flaws          |     - |
 
-### Second: Make adaptions
+## Second: Make adaptions
 
 The game master hands out starting money to all players. Use these funds to
 purchase increases in abilities, skills or even perks. If your game master
@@ -353,17 +359,17 @@ you to increase that ability to the old value.
 You should increase relevant attributes, and buy ranks in the skills that best
 suit your character.
 
-### Third: Roll Endurance and Health
+## Third: Roll Endurance and Health
 
 Use your race's endurance and health dice, and your new ability rank to roll
 endurance and health. Note these values on your character sheet.
 
-### Fourth: Buy equipment
+## Fourth: Buy equipment
 
 Last but not least buy equipment that suits your character. See further down
 below on a list of available equipment
 
-## Available Skills
+# Available Skills
 
 The following skills are available in Q*:
 
