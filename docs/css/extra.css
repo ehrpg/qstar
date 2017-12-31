@@ -68,6 +68,13 @@
   margin-bottom: 55px;
 }
 
+.admonition .formula-bottom {
+  margin-bottom: 30px;
+}
+.admonition .formula-top {
+  margin-top: 40px;
+}
+
 [class*='ehicon-'] {
   margin-right: 5px;
   color: #404040;

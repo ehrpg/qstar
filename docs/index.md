@@ -42,27 +42,55 @@ additional benefit. This benefit is called ability modifier:
 
 ### Endurance
 
-**Endurance** represents the character's short time well being and
-constitution. A character that reaches zero endurance is knocked
-unconscious. Endurance is determined by rolling a number of dice equal to
-your **Might** rank and then adding the base endurance pool of your race to
-the results. Which dice is rolled is also determined by the race. Endurance
-recovers once the character has had enough time to rest (usually resting eight
-hours) without interruptions.  Whenever you permanently increase or decrease
-**Might** you must roll the endurance dice and add or subtract that value from
-your endurance pool.
+*Endurance represents the character's short time well being and constitution.*
+
+A character that reaches zero endurance is knocked **unconscious**.
+
+Endurance is determined by rolling a number of dice equal to your **Migh rank**
+and then adding the base endurance pool of your race to the results. Which dice
+is rolled is also determined by the race.
+
+Endurance recovers once the character has had enough time to rest (usually
+resting eight hours) without interruptions. Whenever you permanently increase or
+decrease **Might** you must roll the endurance dice and add or subtract that
+value from your endurance pool.
+
+!!! summary "How to determine *Endurance*"
+    This formular uses the [Human](#human) race as an example.
+    <div class="formula formula-top formula-bottom">
+    Endurance = <span data-bracket-bottom="base (race)">20</span>
+    <span style="margin-left: 18px;">+</span>
+    <span data-bracket-bottom="might rank" style="margin-left: 18px;">n</span>
+    *
+    <span data-bracket-top="endurance die (race)" style="margin-left: 0;">d10</span>
+    </div>
 
 ### Health
 
-**Health** represents the overall long-term physical health and well being of
-a character. Severe wounds, illness and temporary handicaps (such as broken
-arms or legs) are abstracted away in the health pool. If health reaches zero
-the character dies. Health is determined by rolling a number of dice equal to
-your **Might** rank and then adding the base health pool of your race to the
-results. Which dice is rolled is also determined by race. Health cannot
-recovered by resting, and requires external methods (medicine, first aid etc.)
-to recover. Whenever you permanently increase or decrease **Might** you must
-roll the health dice and add or subtract that value from your health pool.
+*Health represents the overall long-term physical health and well being of a
+character. Severe wounds, illness and temporary handicaps (such as broken arms
+or legs) are abstracted away in the health pool.*
+
+If health reaches zero the character **dies**.
+
+Health is determined by rolling a number of dice equal to your **Might rank**
+and then adding the base health pool of your race to the results. Which dice is
+rolled is also determined by race.
+
+Health cannot recovered by resting, and requires external methods (medicine,
+first aid etc.) to recover. Whenever you permanently increase or decrease
+**Might** you must roll the health dice and add or subtract that value from your
+health pool.
+
+!!! summary "How to determine *Health*"
+    This formular uses the [Human](#human) race as an example.
+    <div class="formula formula-top formula-bottom">
+    Endurance = <span data-bracket-bottom="base (race)">15</span>
+    <span style="margin-left: 18px;">+</span>
+    <span data-bracket-bottom="might rank" style="margin-left: 18px;">n</span>
+    *
+    <span data-bracket-top="health die (race)" style="margin-left: 0;">d6</span>
+    </div>
 
 ### Damage
 
