@@ -93,13 +93,13 @@ Melee weapons have a cost and damage. They get the **might ability modifier** as
 | HP3 A1 |   +3 |   36 |   15 |    1 |    1 |      3 |    Far | 22 000 | 1 000 |      6 | high accuracy   |
 
 !!! info
-    Players are responsible for tracking this information. Notes denote
-    additional perks the weapons have.
+    Players are responsible for tracking informations regarding their weapon,
+    like capacity, magazines and ammo.
 
 ### Weapon perks
 
 * *Compact* means that the weapon can be easily concealed. **Stealth**
-  skill checks involved in this weapon should be easier.
+  skill checks involved with this weapon should be easier.
 * *Pistol* means that the weapon is hand held, and can be carried easily
   on the armour or suit. Most pistols only have good accuracy at shorter
   distances.
