@@ -341,16 +341,43 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#weapons" title="Weapons" class="md-nav__link">
+    Weapons
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#stats" title="Stats" class="md-nav__link">
+    Stats
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#melee-weapons" title="Melee Weapons" class="md-nav__link">
     Melee Weapons
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#ranged-weapons" title="Ranged Weapons" class="md-nav__link">
     Ranged Weapons
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#weapon-perks" title="Weapon perks" class="md-nav__link">
+    Weapon perks
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -525,16 +552,43 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#weapons" title="Weapons" class="md-nav__link">
+    Weapons
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#stats" title="Stats" class="md-nav__link">
+    Stats
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#melee-weapons" title="Melee Weapons" class="md-nav__link">
     Melee Weapons
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#ranged-weapons" title="Ranged Weapons" class="md-nav__link">
     Ranged Weapons
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#weapon-perks" title="Weapon perks" class="md-nav__link">
+    Weapon perks
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -625,131 +679,259 @@ being useful.</p>
 </tr>
 </tbody>
 </table>
-<h2 id="melee-weapons">Melee Weapons<a class="headerlink" href="#melee-weapons" title="Permanent link">&para;</a></h2>
-<p>Melee weapons have a cost and damage. They get the might ability modifier
-as extra damage.</p>
+<h2 id="weapons">Weapons<a class="headerlink" href="#weapons" title="Permanent link">&para;</a></h2>
+<h3 id="stats">Stats<a class="headerlink" href="#stats" title="Permanent link">&para;</a></h3>
+<dl>
+  <dt>Hit</dt>
+  <dd>Specifies any additional bonuses to an attack roll with this weapon.</dd>
+
+  <dt>DMG (damage)</dt>
+  <dd>This value denotes the weapons damage. Any successful hit deals this value
+  to the targets endurance pool.</dd>
+
+  <dt>Crit (critical)</dt>
+  <dd>If you score a <a href="/#critical-hit">critical hit</a> you deal the
+  specified value as damage to the health pool of your target.</dd>
+
+  <dt>RoF</dt>
+  <dd>Some weapons, including melee weapons, allow a higher rate of fire than
+  other weapons. See <a href="/#attack">attack rules</a> for details.</dd>
+
+  <dt>Cap. (capacity)</dt>
+  <dd>Specifies how often a gun can be fired before it has to be reloaded. Uses
+  of RoF use additional ammunition.</dd>
+
+  <dt>Reload</dt>
+  <dd>The amount of turns it takes to reload the weapon. Reloading can be paused
+  and continued anytime.</dd>
+
+  <dt>Range</dt>
+  <dd>Attacks within the specified range do not penalize the attack.</dd>
+
+  <dt>Cost</dt>
+  <dd>The cost of the weapon without ammo.</dd>
+
+  <dt>Mag. (magazine)</dt>
+  <dd>The cost of one magazine worth of ammo for the weapon.</dd>
+
+  <dt>Notes</dt>
+  <dd>Notes denote additional perks the weapons have.</dd>
+
+</dl>
+
+<h3 id="melee-weapons">Melee Weapons<a class="headerlink" href="#melee-weapons" title="Permanent link">&para;</a></h3>
+<p>Melee weapons have a cost and damage. They get the <strong>might ability modifier</strong> as extra damage.</p>
 <table>
 <thead>
 <tr>
 <th>Weapon</th>
-<th align="right">Damage</th>
+<th align="right">Hit</th>
+<th align="right">DMG</th>
+<th align="right">Crit</th>
+<th align="right">Rof</th>
+<th align="right">Range</th>
 <th align="right">Cost</th>
+<th align="right">Weight</th>
+<th>Notes</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Fists</td>
+<td align="right">+0</td>
 <td align="right">4</td>
+<td align="right">2</td>
+<td align="right">2</td>
+<td align="right">Melee</td>
 <td align="right">-</td>
+<td align="right">-</td>
+<td></td>
 </tr>
 <tr>
 <td>Baton</td>
+<td align="right">+1</td>
 <td align="right">10</td>
+<td align="right">5</td>
+<td align="right">1</td>
+<td align="right">Melee</td>
 <td align="right">100</td>
+<td align="right">0.5</td>
+<td></td>
 </tr>
 <tr>
 <td>Knife</td>
+<td align="right">+1</td>
 <td align="right">14</td>
-<td align="right">100</td>
+<td align="right">6</td>
+<td align="right">2</td>
+<td align="right">Melee</td>
+<td align="right">200</td>
+<td align="right">0.2</td>
+<td>compact</td>
 </tr>
 <tr>
 <td>Hatchet</td>
+<td align="right">+1</td>
 <td align="right">18</td>
-<td align="right">100</td>
+<td align="right">8</td>
+<td align="right">1</td>
+<td align="right">Melee</td>
+<td align="right">150</td>
+<td align="right">1</td>
+<td></td>
 </tr>
 <tr>
 <td>Sword</td>
+<td align="right">+2</td>
 <td align="right">24</td>
-<td align="right">400</td>
+<td align="right">10</td>
+<td align="right">1</td>
+<td align="right">Melee</td>
+<td align="right">500</td>
+<td align="right">3</td>
+<td></td>
 </tr>
 </tbody>
 </table>
-<h2 id="ranged-weapons">Ranged Weapons<a class="headerlink" href="#ranged-weapons" title="Permanent link">&para;</a></h2>
-<p>Ranged weapons have a cost, damage and a magazine capacity. Prices for
-magazines are listed as well. It is assumed that a person just buys
-bullets and reloads the magazines. Magazine capacity lists how often
-a fully loaded gun can be fired before it runs out of bullets. Players
-are responsible for tracking this information. Notes denote additional
-perks the weapons have. An action can be used to aim once, which should
-reduce the DC of the next shot.</p>
+<h3 id="ranged-weapons">Ranged Weapons<a class="headerlink" href="#ranged-weapons" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
 <tr>
 <th>Weapon</th>
-<th align="right">Damage</th>
-<th align="right">Capacity</th>
+<th align="right">Hit</th>
+<th align="right">DMG</th>
+<th align="right">Crit</th>
+<th align="right">RoF</th>
+<th align="right">Cap.</th>
+<th align="right">Reload</th>
+<th align="right">Range</th>
 <th align="right">Cost</th>
-<th align="right">Magazine</th>
+<th align="right">Mag.</th>
+<th align="right">Weight</th>
 <th>Notes</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>CP9</td>
-<td align="right">12</td>
+<td align="right">+1</td>
+<td align="right">10</td>
+<td align="right">4</td>
+<td align="right">1</td>
 <td align="right"></td>
+<td align="right">1</td>
+<td align="right">Close</td>
 <td align="right">1 100</td>
 <td align="right">20</td>
-<td>Single shot, compact, pistol</td>
+<td align="right">1</td>
+<td>compact, pistol</td>
 </tr>
 <tr>
 <td>P32</td>
+<td align="right">+1</td>
 <td align="right">12</td>
+<td align="right">6</td>
+<td align="right">1</td>
 <td align="right">15</td>
+<td align="right">1</td>
+<td align="right">Close</td>
 <td align="right">900</td>
 <td align="right">30</td>
-<td>Single shot, Pistol</td>
+<td align="right">0.8</td>
+<td>Pistol</td>
 </tr>
 <tr>
 <td>RX60</td>
+<td align="right">+2</td>
 <td align="right">16</td>
+<td align="right">8</td>
+<td align="right">3</td>
 <td align="right">30</td>
+<td align="right">1</td>
+<td align="right">Medium</td>
 <td align="right">6 200</td>
 <td align="right">150</td>
-<td>Select fire</td>
+<td align="right">2</td>
+<td></td>
 </tr>
 <tr>
 <td>AX7</td>
+<td align="right">+2</td>
 <td align="right">20</td>
+<td align="right">10</td>
+<td align="right">3</td>
 <td align="right">30</td>
+<td align="right">1</td>
+<td align="right">Medium</td>
 <td align="right">9 100</td>
 <td align="right">400</td>
-<td>Select fire, rifle</td>
+<td align="right">3</td>
+<td></td>
 </tr>
 <tr>
 <td>ASG-8</td>
+<td align="right">+2</td>
 <td align="right">30</td>
+<td align="right">15</td>
+<td align="right">1</td>
 <td align="right">7</td>
+<td align="right">2</td>
+<td align="right">Close</td>
 <td align="right">7 000</td>
 <td align="right">50</td>
-<td>Semi automatic, shotgun</td>
+<td align="right">3.5</td>
+<td>shotgun</td>
 </tr>
 <tr>
 <td>M80A2</td>
+<td align="right">+3</td>
 <td align="right">32</td>
+<td align="right">15</td>
+<td align="right">1</td>
 <td align="right">5</td>
+<td align="right">3</td>
+<td align="right">Far</td>
 <td align="right">12 000</td>
 <td align="right">600</td>
-<td>Single shot, rifle, high accuracy</td>
+<td align="right">4</td>
+<td>high accuracy</td>
 </tr>
 <tr>
 <td>RPT</td>
+<td align="right">+1</td>
 <td align="right">20</td>
+<td align="right">10</td>
+<td align="right">5</td>
 <td align="right">100</td>
+<td align="right">4</td>
+<td align="right">Medium</td>
 <td align="right">15 000</td>
 <td align="right">500</td>
-<td>Select fire, rifle</td>
+<td align="right">7</td>
+<td></td>
 </tr>
 <tr>
 <td>HP3 A1</td>
+<td align="right">+3</td>
 <td align="right">36</td>
+<td align="right">15</td>
 <td align="right">1</td>
+<td align="right">1</td>
+<td align="right">3</td>
+<td align="right">Far</td>
 <td align="right">22 000</td>
 <td align="right">1 000</td>
-<td>Single shot, rifle, high accuracy</td>
+<td align="right">6</td>
+<td>high accuracy</td>
 </tr>
 </tbody>
 </table>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Players are responsible for tracking this information. Notes denote
+additional perks the weapons have.</p>
+</div>
+<h3 id="weapon-perks">Weapon perks<a class="headerlink" href="#weapon-perks" title="Permanent link">&para;</a></h3>
 <ul>
 <li><em>Compact</em> means that the weapon can be easily concealed. <strong>Stealth</strong>
   skill checks involved in this weapon should be easier.</li>
@@ -759,15 +941,8 @@ reduce the DC of the next shot.</p>
 <li><em>Rifle</em> means that the weapon is a full length rifle. Concealing it is
   harder if almost impossible. But the rifle has greater accuracy over
   medium distances.</li>
-<li><em>Single shot</em> means that the weapon can only fire one bullet per skill
-  roll. Multiple successes can be used to fire repeatedly at a target
-  however.</li>
-<li><em>Select fire</em> means that the weapon is capable of fully automatic fire,
-  alongside single shots. Small bursts can be fired in a single skill
-  roll which will reduce the DC to hit. Multiple successes can be used to
-  fire multiple bursts.</li>
 <li><em>High accuracy</em> means that the weapon is capable of firing accurately
-  over longer distances. The DC should be lowered in such cases.</li>
+  over longer distances.</li>
 <li><em>Shotgun</em> means that the weapon shoots buckshot and thus has reduced
   range.</li>
 </ul>
@@ -778,6 +953,7 @@ reduce the DC of the next shot.</p>
 <tr>
 <th>Item</th>
 <th align="right">Cost</th>
+<th align="right">Weight</th>
 <th align="right">Endurance</th>
 <th align="right">Health</th>
 <th>Notes</th>
@@ -787,6 +963,7 @@ reduce the DC of the next shot.</p>
 <tr>
 <td>First Aid Kit</td>
 <td align="right">600</td>
+<td align="right">1</td>
 <td align="right">1d6</td>
 <td align="right">-</td>
 <td></td>
@@ -794,6 +971,7 @@ reduce the DC of the next shot.</p>
 <tr>
 <td>Medical Kit</td>
 <td align="right">1 200</td>
+<td align="right">2</td>
 <td align="right">1d10</td>
 <td align="right">1d6</td>
 <td></td>
@@ -801,8 +979,9 @@ reduce the DC of the next shot.</p>
 <tr>
 <td>Adrenaline Shot</td>
 <td align="right">400</td>
+<td align="right">0.2</td>
 <td align="right">1d10</td>
-<td align="right"></td>
+<td align="right">-</td>
 <td>Temporary (5 min.)</td>
 </tr>
 </tbody>
@@ -812,45 +991,51 @@ reduce the DC of the next shot.</p>
   parenthesis.</li>
 </ul>
 <h2 id="miscellaneous-items">Miscellaneous Items<a class="headerlink" href="#miscellaneous-items" title="Permanent link">&para;</a></h2>
+<p>Some checks and tasks may require one or more of these items to be accessible.
+Easier tasks can be done without e.g. tools, but tend to require a lot more
+time.</p>
 <table>
 <thead>
 <tr>
 <th>Item</th>
-<th>Cost</th>
+<th align="right">Cost</th>
+<th align="right">Weight</th>
 <th>Notes</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Toolbox</td>
-<td>2000</td>
+<td align="right">2000</td>
+<td align="right">10</td>
 <td></td>
 </tr>
 <tr>
 <td>PDA</td>
-<td>500</td>
+<td align="right">500</td>
+<td align="right">1</td>
 <td>GPS, Pedometer, Interface for electronic devices, etc.</td>
 </tr>
 <tr>
 <td>Flashlight</td>
-<td>50</td>
+<td align="right">50</td>
+<td align="right">0.5</td>
 <td></td>
 </tr>
 <tr>
 <td>Welder</td>
-<td>250</td>
+<td align="right">250</td>
+<td align="right">5</td>
 <td></td>
 </tr>
 <tr>
 <td>Mobile Laboratory</td>
-<td>1 000</td>
-<td>Used to take damage</td>
+<td align="right">1 000</td>
+<td align="right">10</td>
+<td>Used to take samples.</td>
 </tr>
 </tbody>
 </table>
-<p>Some checks and tasks may require one or more of these items to be accessible.
-Easier tasks can be done without e.g. tools, but tend to require a lot more
-time.</p>
                 
                   
                 

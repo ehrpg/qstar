@@ -68,6 +68,10 @@
   margin-bottom: 55px;
 }
 
+.formula span {
+  margin: 0 8px;
+}
+
 .admonition .formula-bottom {
   margin-bottom: 30px;
 }
@@ -115,11 +119,11 @@ img.ehicon-2x {
 }
 
 .md-typeset__table table td {
-  padding: 0.4rem 1rem !important;
+  padding: 0.4rem 0.8rem !important;
 }
 
 .md-typeset__table table th {
-  padding: 0.8rem 1rem !important;
+  padding: 0.8rem 0.8rem !important;
 }
 
 .md-typeset table:not([class]) th {
@@ -141,4 +145,8 @@ tr:nth-child(even) {
 
 .admonition  {
   overflow: hidden !important;
+}
+
+.md-typeset dd {
+  margin: 0.1em 0 1em 1.875em
 }
