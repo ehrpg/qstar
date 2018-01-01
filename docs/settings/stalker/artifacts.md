@@ -33,6 +33,30 @@ areas, and **require a detector** to be found.
 
 ## List of Artifacts
 
+| Name                          | Effect                  | Radiation (RAD/h) | Price (RU) |
+| ----------------------------- | ----------------------- | ----------------: | ---------: |
+| [Battery](#battery)           | +3 max. endurance       |                +5 |      1 500 |
+| [Shell](#shell)               | +6 max. endurance       |               +10 |      3 300 |
+| [Snowflake](#snowflake)       | +9 max. endurance       |               +15 |      7 000 |
+| [Soul](#soul)                 | +2 health/h             |               +10 |      4 000 |
+| [Kolobok](#kolobok)           | +4 health/h             |               +10 |      9 000 |
+| [Firefly](#firefly)           | +6 health/h             |               +15 |     16 000 |
+| [Stone Flower](#stone-flower) | 3 DR (psy)              |                +5 |      2 500 |
+| [Moonlight](#moonlight)       | 6 DR (psy)              |               +10 |      5 000 |
+| [Nightstar](#nightstar)       | +4 kg carrying cap.     |                +5 |      4 200 |
+| [Gravi](#gravi)               | +8 kg carrying cap.     |               +10 |      8 000 |
+| [Goldfish](#goldfish)         | +12 kg carrying cap.    |               +15 |      24000 |
+| [Jellyfish](#jellyfish)       | -                       |               -10 |      2 000 |
+| [Wrenched](#wrenched)         | -                       |               -15 |       7000 |
+| [Bubble](#bubble)             | -                       |               -20 |     15 500 |
+| [Compass](#compass)           | +1d10 (survival checks) |               +20 |     34 000 |
+| [Crystal](#crystal)           | 3 DR (fire)             |                +5 |      1 000 |
+| [Fireball](#fireball)         | 6 DR (fire)             |               +10 |      2 500 |
+| [Sparkler](#sparkler)         | 3 DR (electricity)      |                +5 |        900 |
+| [Flash](#flash)               | 6 DR (electricity)      |               +10 |      2 000 |
+| [Stone Blood](#stone-blood)   | 3 DR (acid)             |                +5 |      1 500 |
+| [Meat Chunk](#meat-chunk)     | 6 DR (acid)             |               +10 |      4 000 |
+
 ### Battery
 
 The composition of this artifact includes electrostatic elements,
