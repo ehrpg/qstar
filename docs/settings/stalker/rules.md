@@ -58,16 +58,16 @@ it's value.
 the consequences.*
 
 Each character needs **one ration** worth of food and drinks **each day**. For
-each day a character does not eat and drink, they lose **10 points** of
-**endurance** of their maximum. If the **endurance** becomes zero they fall
-unconcious and enter the **starving** state. 
+each day a character does not eat and drink, she loses **10 points** of her
+**maximum endurance**. If the **endurance** becomes zero the characters falls
+unconcious and enters the **starving** state. 
 
-A **starving** character loses **10 points** of **health** of their maximum
-health each day until the character dies or receives medical attention.
+A **starving** character loses **10 points** of her **maximum health**  each day
+until the character dies or receives medical attention.
 
-A character regenerates **10 points** of **health** and **endurance** if they
-stay in bed and get **one ration** worth of food and drinks **each day**.<sup
-id="a1">[1](#f1)</sup> **Health** points are regained first. 
+A character regenerates **10 points** of **maximum health** and **maximum
+endurance** if they stay in bed and get **one ration** worth of food and drinks
+**each day**.<sup id="a1">[1](#f1)</sup> **Health** points are regained first. 
 
 1. <small id="f1">If the character is unconcious they have to receive infusions
    from others to regain conciousness.</small> [↩](#a1)
