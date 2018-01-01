@@ -18,46 +18,85 @@ full damage is subtracted from the hit points of the armour. If the armour
 reaches zero hit points its damage reduction drops to zero and thus stops
 being useful.
 
-| Suit       |  DR |  HP |   Cost | Extras                                                       |
-| ---------- | --: | --: | -----: | ------------------------------------------------------------ |
-| UHAS MK I  |   2 |  40 |  9 000 | Space suit, mag boots, internal radio                        |
-| UHAS MK II |   4 |  60 | 15 000 | Space suit, mag boots, internal radio, camera                |
-| MACS MK I  |   6 |  50 | 50 000 | Combat armour, space suit, mag boots, radio                  |
-| MACS MK II |   8 |  70 | 90 000 | Advanced combat armour, space suit, mag boots, radio, camera |
+| Suit       |   DR |   HP |   Cost | Extras                                                       |
+|------------|-----:|-----:|-------:|--------------------------------------------------------------|
+| UHAS MK I  |    2 |   40 |  9 000 | Space suit, mag boots, internal radio                        |
+| UHAS MK II |    4 |   60 | 15 000 | Space suit, mag boots, internal radio, camera                |
+| MACS MK I  |    6 |   50 | 50 000 | Combat armour, space suit, mag boots, radio                  |
+| MACS MK II |    8 |   70 | 90 000 | Advanced combat armour, space suit, mag boots, radio, camera |
 
-## Melee Weapons
+## Weapons
 
-Melee weapons have a cost and damage. They get the might ability modifier
-as extra damage.
+### Stats
 
-| Weapon  | Damage | Cost |
-| ------- | -----: | ---: |
-| Fists   |      4 |    - |
-| Baton   |     10 |  100 |
-| Knife   |     14 |  100 |
-| Hatchet |     18 |  100 |
-| Sword   |     24 |  400 |
+<dl>
+  <dt>Hit</dt>
+  <dd>Specifies any additional bonuses to an attack roll with this weapon.</dd>
 
-## Ranged Weapons
+  <dt>DMG (damage)</dt>
+  <dd>This value denotes the weapons damage. Any successful hit deals this value
+  to the targets endurance pool.</dd>
 
-Ranged weapons have a cost, damage and a magazine capacity. Prices for
-magazines are listed as well. It is assumed that a person just buys
-bullets and reloads the magazines. Magazine capacity lists how often
-a fully loaded gun can be fired before it runs out of bullets. Players
-are responsible for tracking this information. Notes denote additional
-perks the weapons have. An action can be used to aim once, which should
-reduce the DC of the next shot.
+  <dt>Crit (critical)</dt>
+  <dd>If you score a <a href="/#critical-hit">critical hit</a> you deal the
+  specified value as damage to the health pool of your target.</dd>
 
-| Weapon | Damage | Capacity |   Cost | Magazine | Notes                             |
-| ------ | -----: | -------: | -----: | -------: | --------------------------------- |
-| CP9    |     12 |          |  1 100 |       20 | Single shot, compact, pistol      |
-| P32    |     12 |       15 |    900 |       30 | Single shot, Pistol               |
-| RX60   |     16 |       30 |  6 200 |      150 | Select fire                       |
-| AX7    |     20 |       30 |  9 100 |      400 | Select fire, rifle                |
-| ASG-8  |     30 |        7 |  7 000 |       50 | Semi automatic, shotgun
-| M80A2  |     32 |        5 | 12 000 |      600 | Single shot, rifle, high accuracy |
-| RPT    |     20 |      100 | 15 000 |      500 | Select fire, rifle                |
-| HP3 A1 |     36 |        1 | 22 000 |    1 000 | Single shot, rifle, high accuracy |
+  <dt>RoF</dt>
+  <dd>Some weapons, including melee weapons, allow a higher rate of fire than
+  other weapons. See <a href="/#attack">attack rules</a> for details.</dd>
+
+  <dt>Cap. (capacity)</dt>
+  <dd>Specifies how often a gun can be fired before it has to be reloaded. Uses
+  of RoF use additional ammunition.</dd>
+
+  <dt>Reload</dt>
+  <dd>The amount of turns it takes to reload the weapon. Reloading can be paused
+  and continued anytime.</dd>
+
+  <dt>Range</dt>
+  <dd>Attacks within the specified range do not penalize the attack.</dd>
+  
+  <dt>Cost</dt>
+  <dd>The cost of the weapon without ammo.</dd>
+
+  <dt>Mag. (magazine)</dt>
+  <dd>The cost of one magazine worth of ammo for the weapon.</dd>
+
+  <dt>Notes</dt>
+  <dd>Notes denote additional perks the weapons have.</dd>
+
+</dl>
+
+### Melee Weapons
+
+Melee weapons have a cost and damage. They get the **might ability modifier** as extra damage.
+
+| Weapon  |  Hit |  DMG | Crit |  Rof | Range | Cost | Weight | Notes   |
+|---------|-----:|-----:|-----:|-----:|------:|-----:|-------:|---------|
+| Fists   |   +0 |    4 |    2 |    2 | Melee |    - |      - |         |
+| Baton   |   +1 |   10 |    5 |    1 | Melee |  100 |    0.5 |         |
+| Knife   |   +1 |   14 |    6 |    2 | Melee |  200 |    0.2 | compact |
+| Hatchet |   +1 |   18 |    8 |    1 | Melee |  150 |      1 |         |
+| Sword   |   +2 |   24 |   10 |    1 | Melee |  500 |      3 |         |
+
+### Ranged Weapons
+
+| Weapon |  Hit |  DMG | Crit |  RoF | Cap. | Reload |  Range |   Cost |  Mag. | Weight | Notes           |
+|--------|-----:|-----:|-----:|-----:|-----:|-------:|-------:|-------:|------:|-------:|-----------------|
+| CP9    |   +1 |   10 |    4 |    1 |      |      1 |  Close |  1 100 |    20 |      1 | compact, pistol |
+| P32    |   +1 |   12 |    6 |    1 |   15 |      1 |  Close |    900 |    30 |    0.8 | Pistol          |
+| RX60   |   +2 |   16 |    8 |    3 |   30 |      1 | Medium |  6 200 |   150 |      2 |                 |
+| AX7    |   +2 |   20 |   10 |    3 |   30 |      1 | Medium |  9 100 |   400 |      3 |                 |
+| ASG-8  |   +2 |   30 |   15 |    1 |    7 |      2 |  Close |  7 000 |    50 |    3.5 | shotgun         |
+| M80A2  |   +3 |   32 |   15 |    1 |    5 |      3 |    Far | 12 000 |   600 |      4 | high accuracy   |
+| RPT    |   +1 |   20 |   10 |    5 |  100 |      4 | Medium | 15 000 |   500 |      7 |                 |
+| HP3 A1 |   +3 |   36 |   15 |    1 |    1 |      3 |    Far | 22 000 | 1 000 |      6 | high accuracy   |
+
+!!! info
+    Players are responsible for tracking this information. Notes denote
+    additional perks the weapons have.
+
+### Weapon perks
 
 * *Compact* means that the weapon can be easily concealed. **Stealth**
   skill checks involved in this weapon should be easier.
@@ -67,15 +106,8 @@ reduce the DC of the next shot.
 * *Rifle* means that the weapon is a full length rifle. Concealing it is
   harder if almost impossible. But the rifle has greater accuracy over
   medium distances.
-* *Single shot* means that the weapon can only fire one bullet per skill
-  roll. Multiple successes can be used to fire repeatedly at a target
-  however.
-* *Select fire* means that the weapon is capable of fully automatic fire,
-  alongside single shots. Small bursts can be fired in a single skill
-  roll which will reduce the DC to hit. Multiple successes can be used to
-  fire multiple bursts.
 * *High accuracy* means that the weapon is capable of firing accurately
-  over longer distances. The DC should be lowered in such cases.
+  over longer distances.
 * *Shotgun* means that the weapon shoots buckshot and thus has reduced
   range.
 
@@ -83,25 +115,25 @@ reduce the DC of the next shot.
 
 Medical items recover endurance or even health.
 
-| Item            |  Cost | Endurance | Health | Notes              |
-| --------------- | ----: | --------: | -----: | ------------------ |
-| First Aid Kit   |   600 |       1d6 |      - |                    |
-| Medical Kit     | 1 200 |      1d10 |    1d6 |                    |
-| Adrenaline Shot |   400 |      1d10 |        | Temporary (5 min.) |
+| Item            |  Cost | Weight | Endurance | Health | Notes              |
+|-----------------|------:|-------:|----------:|-------:|--------------------|
+| First Aid Kit   |   600 |      1 |       1d6 |      - |                    |
+| Medical Kit     | 1 200 |      2 |      1d10 |    1d6 |                    |
+| Adrenaline Shot |   400 |    0.2 |      1d10 |      - | Temporary (5 min.) |
 
 * *Temporary* means that the effect only lasts some time, indicated by the
   parenthesis.
 
 ## Miscellaneous Items
 
-| Item       | Cost | Notes                                                  |
-| ---------- | ---- | ------------------------------------------------------ |
-| Toolbox    | 2000 |                                                        |
-| PDA        | 500  | GPS, Pedometer, Interface for electronic devices, etc. |
-| Flashlight | 50   |                                                        |
-| Welder     | 250  |                                                        |
-| Mobile Laboratory|1 000 | Used to take damage                              |
-
 Some checks and tasks may require one or more of these items to be accessible.
 Easier tasks can be done without e.g. tools, but tend to require a lot more
 time.
+
+| Item              |  Cost | Weight | Notes                                                  |
+|-------------------|------:|-------:|--------------------------------------------------------|
+| Toolbox           |  2000 |     10 |                                                        |
+| PDA               |   500 |      1 | GPS, Pedometer, Interface for electronic devices, etc. |
+| Flashlight        |    50 |    0.5 |                                                        |
+| Welder            |   250 |      5 |                                                        |
+| Mobile Laboratory | 1 000 |     10 | Used to take samples.                                  |

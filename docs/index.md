@@ -22,6 +22,8 @@ additional benefit. This benefit is called **ability modifier**:
 | -------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Modifier | -5  | -4  | -3  | -2  | -1  | +0  | +1  | +2  | +3  | +4  | +5  |
 
+If an ability drops to zero, the character dies.
+
 ### Might
 
 **Might** (MI) represents the character's physical **strength** and
@@ -46,13 +48,19 @@ hacking, medicine or engineering.
 personality and his ability to lead. It is mostly used in **social
 interactions** between characters and NPCs.
 
-## Endurance
+## Pools
+
+Each creature has two pools: **endurance** and **health**. Objects only have a
+**health** pool.
+
+### Endurance
 
 *Endurance represents the character's short time well being and constitution.*
 
-A character that reaches zero endurance is knocked **unconscious**.
+A character that reaches zero endurance is an easy target in combat or
+otherwise impaired.
 
-Endurance is determined by rolling a number of dice equal to your **Migh rank**
+Endurance is determined by rolling a number of dice equal to your **Might rank**
 and then adding the base endurance pool of your race to the results. Which dice
 is rolled is also determined by the race.
 
@@ -64,20 +72,22 @@ value from your endurance pool.
 !!! summary "How to determine *Endurance*"
     This formular uses the [Human](#human) race as an example.
     <div class="formula formula-top formula-bottom">
-    Endurance = <span data-bracket-bottom="base (race)">20</span>
-    <span style="margin-left: 18px;">+</span>
-    <span data-bracket-bottom="might rank" style="margin-left: 18px;">n</span>
+    Endurance = <span data-bracket-bottom="base (race)">10</span>
+    <span style="margin-left: 12px;">+</span>
+    <span data-bracket-bottom="might rank" style="margin-left: 12px;">n</span>
     *
-    <span data-bracket-top="endurance die (race)" style="margin-left: 0;">d10</span>
+    <span data-bracket-top="endurance die (race)">d10</span>
     </div>
 
-## Health
+### Health
 
 *Health represents the overall long-term physical health and well being of a
 character. Severe wounds, illness and temporary handicaps (such as broken arms
 or legs) are abstracted away in the health pool.*
 
-If health reaches zero the character **dies**.
+If health drops to zero, the character is heavily wounded and near death. He is
+**incapacitated**, and automatically dies soon after if not medically treated.
+Receiving damage while the health pool is at zero instantly kills the character.
 
 Health is determined by rolling a number of dice equal to your **Might rank**
 and then adding the base health pool of your race to the results. Which dice is
@@ -91,38 +101,12 @@ health pool.
 !!! summary "How to determine *Health*"
     This formular uses the [Human](#human) race as an example.
     <div class="formula formula-top formula-bottom">
-    Endurance = <span data-bracket-bottom="base (race)">15</span>
-    <span style="margin-left: 18px;">+</span>
-    <span data-bracket-bottom="might rank" style="margin-left: 18px;">n</span>
+    Endurance = <span data-bracket-bottom="base (race)">0</span>
+    <span style="margin-left: 12px;">+</span>
+    <span data-bracket-bottom="might rank" style="margin-left: 12px;">n</span>
     *
-    <span data-bracket-top="health die (race)" style="margin-left: 0;">d6</span>
+    <span data-bracket-top="health die (race)">d6</span>
     </div>
-
-## Damage
-
-Normal damage always targets endurance. [**Critical
-damage**](#critical-hit-and-damage) is dealt to health instead. If endurance is
-zero, all exceeding and subsequent damage is dealt to health instead.
-
-Damaging objects is the same as damaging another player or NPC, except that
-inanimate objects have no endurance, just health.
-
-!!! summary "Damaged characters"
-    If **endurance** drops to zero the character becomes incapacitated.<br>
-    If **health** drops to zero the character dies.
-
-### Critical Hit and Damage
-
-Causing a critical hit requires another success in addition to the attack roll
-(see [**Multiple Successes**](#multiple-successes)). If the attack roll and the
-roll to convert to a critical hit are successful, then the damage is converted
-to **critical damage** and targets the **Health** pool additionally to the
-**Endurance** pool. Both pools are reduced by the critical damage done.
-
-!!! note "Critical damage"
-    Critical damage does not bypass any armour a character or object may have.
-    If a character has 5 DR, then the critical damage is reduced by that value,
-    and then substracted from both **health** and **endurance** pools.
 
 ## Skills
 
@@ -132,33 +116,63 @@ is involved.
 
 A skill has five ranks: **untrained**, **proficient**, **trained**,
 **experienced**, **master**. The ranks are numbered 1 (untrained) through 5
-(master) respectively. The rank number denotes how many ten sided dice (d10) you
-may roll when performing a skill check.
+(master) respectively. Each rank provides additional bonuses to skill checks and
+allows the selection of additional perks.
 
-| Rank        | Dice |
-| ----------- | ---- |
-| Untrained   | 1d10 |
-| Proficient  | 2d10 |
-| Trained     | 3d10 |
-| Experienced | 4d10 |
-| Master      | 5d10 |
+| Rank        | Skill Bonus |
+|-------------|------------:|
+| Untrained   |          -2 |
+| Proficient  |          +0 |
+| Trained     |          +1 |
+| Experienced |          +2 |
+| Master      |          +4 |
 
 Each skill is associated with an attribute. Ability modifiers are used
 from the corresponding associated skill. Every character starts with
 every skill at the untrained level.
 
+In addition to abilities and skills, skill checks also receive a bonus or
+drawback from roleplaying. Good roleplay should be rewarded by awarding a bonus
+to the skill check, while bad roleplay or none at all should impose a penalty.
+
+!!! summary "How to make a **skill check**"
+    <div class="formula formula-top formula-bottom">
+    Skill check =
+    <span data-bracket-bottom="base">3d6</span>
+    ±
+    <span data-bracket-top="modifier">ability</span>
+    ±
+    <span data-bracket-bottom="bonus">skill</span>
+    ±
+    <span data-bracket-top="-2 to +2">roleplay</span>
+    </div>
+
+!!! tip "Roleplaying bonuses"
+    You, as a DM, can allow players to completely ignored a skill check / DC if
+    they are roleplaying very well and/or playing to their characters strengths
+    and weaknesses.
+
+    Also, a task that's so easy for a character that she doesn't have to roll if
+    the roleplay bonus was 0, can be skipped as well, even if no roleplaying is
+    done.
+
 ### Tasks
 
 Often characters perform tasks such as repairing, shooting or flying a space
-craft. It is the game masters job to come up with a difficulty check (**DC**)
-between one and ten. A DC of one (1) is so easy that no roll has to be
-performed, five (5) denotes an averagely difficult task, and ten (10) denotes a
-task almost impossible to complete.
+craft. It is the game masters job to come up with a difficulty check (**DC**).
+These DCs are recognized by the following categories:
 
-To succeed at a task a player may roll all his dice available to him from the
-corresponding skill. At least one dice has to meet or exceed the DC for the task
-to completed successfully.  A dice that meets or exceeds the DC is called a
-**success**, and dice that do not meet the DC are called **failures**.
+| Name      |    DC |
+|-----------|------:|
+| Very easy |   1-8 |
+| Easy      |  9-12 |
+| Moderate  | 13-15 |
+| Hard      | 16-17 |
+| Very Hard |   18+ |
+
+If a skill check meets or exceeds the set **DC** the skill check is
+**successful**. If the skill check is less than the **DC** the skill check is a
+**failure**.
 
 ### Aiding
 
@@ -171,8 +185,6 @@ action) within their turn. Every success of those aiding translates
 into a tangible benefit for the main task. Such benefits could include
 (but are not limited to):
 
-* One additional modifier for each success, to be used in the roll of
-  the main task.
 * Better outcome of the main task, such as less time or materials used.
 * A lowered difficulty for the main task.
 
@@ -187,16 +199,12 @@ example moving furniture that is too heavy to be moved by just one
 character, or a high enough wall that requires help from another to
 successfully climb.
 
-
 ### Competition
 
-When two characters, or a character and an NPC, pitch their skills against
-each other both roll the respective skill dice. Whoever has the highest roll
-(out of any of the dice) wins. On a tie the participant on the defensive
-side wins. If there is no defensive participant, reroll until a winner is
-decided. A dice that beats the other side's highest roll is called a
-**success**, and a dice that does not beat the other side's highest roll
-is called a **failure**.
+When two characters, or a character and an NPC, pitch their skills against each
+other both roll the respective skills. Whoever has the highest skill check wins.
+On a tie the participant on the defensive side wins. If there is no defensive
+participant, reroll until a winner is decided.
 
 ### Multiple Successes
 
@@ -206,7 +214,6 @@ skill. The DM sets the amount of successes required and adjusts the
 DC accordingly. There is still only one DC for all actions, but now
 the player has roll multiple successes using the available dice.
 
-
 !!! info "Example"
     Mary is a good pilot and thus has 3 dice available and an ability modifier
     of +3. Her ship is under attack, and she wants to deploy counter measures at
@@ -214,27 +221,6 @@ the player has roll multiple successes using the available dice.
     dice, she may make those two actions at the same time. The GM decides on a
     DC of 6 and Mary rolls: 4 3 6. She expends two ability modifiers to make the
     4 a success and thus succeeds at the task.
-
-### Ability Modifier
-
-Ability modifiers are used every time a character makes a roll.
-
-If the modifier is negative, then each roll incurs a -1 penalty in order of
-highest to lowest. Repeat this process until the entire negative penalty is
-spread across the dice rolls.
-
-If the modifier is positive then the player may decide where to spend the
-ability modifier. The player may also spread out the positive modifier across
-multiple dice, but may not exceed the total positive modifier available to that
-ability.
-
-Ability modifier may also be expended for other benefits. See the list of
-skills what can be bought by expending an ability modifier.
-
-!!! info "Example"
-    Mary has 3 dice for a Melee skill check and a +2 modifier. She has to meet a
-    DC 5 and rolls: 4, 2, 3. She expends one modifier on the 4 to make it a
-    success, and uses the other modifier to buy extra damage.
 
 ## Perks
 
@@ -284,6 +270,99 @@ Formula: `cost = ((max(x-1, 0) * 100) ^ 2) - 9000`
 
 Buying perks may be done at any time, and the perk's description lists the
 price.
+
+## Combat 
+
+### Defence
+
+Any attack roll has to be equal to or exceed a creatures defence value. The
+defence value of a creature is described by its speed and cover.
+
+`Defence = 10 + Speed + Cover`
+
+!!! summary "How to determine *Defence*"
+    <div class="formula formula-top formula-bottom">
+    Defence = <span data-bracket-bottom="base">10</span>
+    + 
+    <span data-bracket-top="modifier">Speed</span>
+    + 
+    <span>Cover</span>
+    </div>
+
+### Attack
+
+Any attack roll is done using a weapon and its related skill. Attacks beyond a
+weapons effective range impose penalties to the attack roll.
+
+Some weapons allow multiple shots to be fired, denoted by the
+[RoF](./equipment#stats) value of a weapon. If a weapons
+[RoF](./equipment#stats) value is higher than one, additional shots
+**may** be fired to increase the hit chance and [critical hit](#critical-hit)
+chance. 
+
+!!! note "RoF Example"
+    If a weapon has a RoF value of 2, you may fire an extra bullet and add
+    **1d6** to your attack.
+
+If the **attack** is equal to or higher than the targets **defence** value the
+shot (or shots) **hit**.
+
+If the **attack** is less than the targets **defence** value the shot (or shots)
+**miss**.
+
+On a hit you can deal [damage](#damage) and potential [critical
+damage](#critical-damage).
+
+!!! summary "How to roll an *Attack*"
+    <div class="formula formula-top formula-bottom">
+    Attack = <span data-bracket-bottom="base">3d6</span>
+    + 
+    <span data-bracket-top="'hit' value">weapon</span>
+    +
+    <span data-bracket-bottom="for the used weapon">skill</span>
+    +
+    <span data-bracket-top="per RoF &gt; 1">1d6</span>
+    -
+    <span>range penalty</span>
+    </div>
+
+### Damage
+
+*Damage is dealt by environment, traps or simply by successful attacks from
+creatures and characters.*
+
+Armour provides [DR](./equipment#damage-reduction) (damage reduction). Subtract
+the DR from **any damage** received before subtracting it from your pools. If a
+targets DR is higher than the inflicted damage, they don't take any damage at
+all (except for [critical damage](#critical-damage)).
+
+Normal damage always targets endurance. If endurance is zero, all exceeding and
+subsequent damage is dealt to health instead.
+
+Damaging objects is the same as damaging another player or NPC, except that
+inanimate objects have no endurance, just health.
+
+!!! summary "Damaged characters" 
+    If **endurance** drops to zero the character becomes **impaired**.<br>
+    If **health** drops to zero the character is **incapacitated** and in a
+    dying state.
+
+#### Critical Hit
+
+Whenever you roll for an attack and **hit**, every **6** you rolled with a **d6**,
+including extra dice from RoF, causes additional [critical
+damage](#critical-damage).
+
+#### Critical Damage
+
+Critical damage inflicts additional damage to the health pool, even if the
+target's endurance isn't at 0 yet.
+
+Critical damage is also reduced by the target's DR, but cannot be less than 1.
+Every critical hit deals at least 1 damage, disregarding any armour the target
+may have.
+
+Each weapon specifies it's own critical damage.
 
 ## Crisis
 
