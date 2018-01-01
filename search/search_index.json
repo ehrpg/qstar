@@ -617,77 +617,67 @@
         }, 
         {
             "location": "/settings/stalker/anomalies/", 
-            "text": "Anomalies\n\n\nAnomalies are a well known energy phenomenon scattered around the zone.\n\n\nVortex\n\n\nBurner\n\n\nFruit Punch\n\n\nElectro\n\n\nSpringboard\n\n\nWhirligig\n\n\nBurnt Fuzz\n\n\nRadiation\n\n\nFault\n\n\nSpace Anomaly\n\n\nSymbiont\n\n\nGas\n\n\nEmission", 
+            "text": "After the second Chernobyl disaster, the Zone was littered with spots\nwhere the laws of nature and physics had been corrupted. These small\noddities are called anomalies. They are hazardous, often deadly,\ntowards human beings and other creatures as they can deliver electric\nshocks or burn, corrode and distort physical objects. Most anomalies\nproduce visible air or light distortions, so their extent can be\ndetermined by throwing anything that is made of metal, like bolts, to\ntrigger them. The anomalies seem to emit a powerful magnetic field, so\nit is logical to assume that the anomalies are triggered by anything\nmade of metal that enters the magnetic field. Because vertebrate life\non earth has iron-based blood, those creatures with enough body mass\nare capable of triggering the anomalies.\n\n\nSpringboard\n\n\nIt was one of the first types of anomalies ever recorded. A\nSpringboard is an unstable gravitational field limited to a pocket on\nground level, about 1-2 meters wide. Reacts to the presence of\ncreatures or objects by sending out a powerful shock wave that damages\nanything within radius. The damage caused by this changes throughout\nthe anomaly\ns lifetime, ranging from minor bruises through serious\nwounds to instant death.\n\n\nA Springboard anomaly has an activation radius of roughly 2 to 4\nmetres. Once triggered it sends out a shock wave that does \n4d6\npoints of critical damage\n to anyone within its radius.\n\n\nKnown to produce the following artifacts:\n\nJellyfish\n,\n\nNightstar\n,\n\nStone Flower\n.\n\n\nWhirligig\n\n\nA common and dangerous anomaly, which snatches its victims up in the\nair and spins them at a breakneck speed. The exact nature of the\nWhirligig remains unknown. The anomaly can be recognized by a light\nwhirlwind of dust above and by body fragments scattered in the\nvicinity. Victims caught on its outer rim, far enough from the maximum\neffect zone at the center, can escape the Whirligig with relatively\nminor injuries.\n\n\nThe whirligig is a weaker form of the \nVortex\n anomaly. It is\noften found off the ground and pulls unsuspecting victims into the air\ntowards its centre. The whirligig has an activation radius of roughly\n8 to 10 metres. It is possible to escape the anti-gravitational pull\nof a Whirligig by holding onto something solid on the ground, or by\nbeing helped by someone outside its pull. Anyone within \n15 metres of\nthe explosion takes 2d6 points of critical damage\n, everyone \nwithin\n5 metres takes 4d6 points of critical damage\n, and everyone within 1\nmetre of the explosion (including directly at the centre) is killed\ninstantly.\n\n\nKnown to produce the following artifacts:\n\nStone Blood\n,\n\nMeat Chunk\n,\n\nWrenched\n,\n\nSoul\n.\n\n\nVortex\n\n\nAn anomaly of presumably gravitational nature. When triggered, the\ntremendous power of the Vortex drags everything within the radius\n10-15 meters towards the center. Victims drawn into the core have\nlittle to no chance of survival: their bodies are quickly constricted\ninto a tight lump, only to be blown up in a powerful discharge of\nenergy a moment later.  In some cases, they may levitate in air with\nagony, and soon their entire systems are shredded into mere skeletal\nand flesh parts.\n\n\nOnce triggered this anomaly drags everything within a radius of 15\nmetres into its centre. After a short amount of the time the vortex\nanomaly explodes killing anything that has been dragged into its\ncentre. It is only possible to escape the pull by holding onto something\nsolid. The vortex will explode after a set amount of time, regardless\nof whether something was pulled into its centre or not. Anyone within\n\n15 metres of the explosion takes 4d6 points of critical damage\n,\neveryone \nwithin 5 metres takes 8d6 points of critical damage\n, and\neveryone within 1 metre of the explosion (including directly at the\ncentre) is killed instantly.\n\n\nKnown to produce the following artifacts:\n\nNightstar\n,\n\nGravi\n,\n\nGoldfish\n.\n\n\nBurner\n\n\nThe Burner can be a bit difficult to see, even in daylight, as it\ns\nonly revealed by a faint heat haze. If the anomaly is triggered by\neither a living being or an object such as a metal bolt, it shoots out\na tall pillar of flame in the air, burning everything in its\nvicinity. Though somewhat rare, the Burner anomaly is often found in\nclusters.\n\n\nOnce a Burner is triggered it shoots out a directed flame of roughly\nfour metres in length. Anything within its path takes \n4 points of\nfire damage per second\n. Experienced stalkers are capable of dodging\nthe directed flaming jet of a Burner.\n\n\nKnown to produce the following artifacts:\n\nCrystal\n,\n\nFireball\n.\n\n\nComet\n\n\nThe Comet anomaly functions much like a Burner anomaly in that it\ndeals fire damage on close contact, but with a key difference in that\nthe Comet is mobile, hovering around within a certain area at a rapid\npace.\n\n\nA Comet anomaly is always moving, either in a circle, or following along\na straight path. It will not stop after having hit something (or someone)\nand will always follow its path. Being hit by a comet deals \n2d6 points of\nimpact damage, and 2d6 points of fire damage\n.\n\n\nFruit Punch\n\n\nThe Fruit Punch is a puddle of lambent green liquid that is easily\nvisible in almost any environment due to its bright glow and\ndistinctive hissing and bubbling noises. On contact with creatures or\nobjects such as bolts, a Fruit Punch lights up brightly and emits a\nsharp hissing sound. It is extremely corrosive, damaging creatures and\nobjects on contact.\n\n\nA Fruit Punch as an activation radius between \none and two metres\n.\nOnce activated it deals \n3d6 points of acid damage\n to anyone caught\nwithin it. Any matter left within the Fruit Punch anomaly is usually\ndissolved within a few hours.\n\n\nKnown to produce the following artifacts:\n\nStone Blood\n,\n\nMeat Chunk\n,\n\nKolobok\n,\n\nFirefly\n (rarely),\n\nBubble\n (rarely).\n\n\nElectro\n\n\nAn anomalous formation, roughly 10 meters in diameter, accumulating\nlarge quantities of static electricity. When triggered, the anomaly\nbursts into a storm of arcing electricity nearly always lethal to all\nliving beings. Easily recognizable by the blue gas it emits, along\nwith the endless arcing of small bolts of electricity in the\nvicinity.\n\n\nOnce triggered the anomaly does \n10d6 points electricity damage\n,\nwhich is equally distributed among all those within it\ns path.\n\n\nKnown to produce the following artifacts:\n\nSparkler\n,\n\nFlash\n,\n\nMoonlight\n,\n\nBattery\n,\n\nShell\n.\n\nSnowflake\n.\n\n\nBurnt Fuzz\n\n\nThis anomaly is usually found outdoors. It resembles moss or vines,\nhanging down like curtains from its growing spot. Reacts to rapidly\napproaching living beings by discharging a cloud of projectiles\nseverely injuring uncovered or lightly protected skin upon\ncontact. Does not react to slowly moving targets. Burnt Fuzz is\ngenerally considered the least dangerous anomaly in the Zone since it\ncan be easily spotted and avoided.\n\n\nBurnt Fuzz deals \n1d6 points of damage\n to rapidly moving targets.\nIt can be easily avoided by slowly moving past it. Burnt Fuzz is the\nonly anomaly that doesn\nt react to bolts. It does not create any\nartifacts.\n\n\nRadiation\n\n\nPockets of ionizing radiation, or simply radiation for short (areas\nwhere the ambient radiation count exceeds 50 mR per hour) can be found\nall over the Zone. In the outside areas, radiation tends to be\ndominant in wide, open spaces and on piles of scrap (such as the dirt\nor scrap piles in Garbage. Also cars, tractors and anything\nmechanical). Radiation in itself doesn\nt form artifacts.\n\n\nAreas affected by radiation vary greatly in size, shape, and in their\nstrength. But each give out noticeable RAD per minute or hour.\n\n\nSpace Anomaly\n\n\nIt is truly the ultimate result of the Zone\ns instability as now it\nalters the very fabric of reality and distorts time and space,\nseemingly creating miniature Wormholes, which \nteleport\n the player\nand anything thrown into it to another spot.\n\n\nSpace Anomalies may either teleport anything thrown into them somewhere\nelse.\n\n\nSpace Bubble\n\n\nAttention. We are stuck in an anomaly....can\nt get out......it\ns\nlike space is warped......which ever way we go\ncan\nt\nmove\nequipment has gone off the rails....can see the outline of a\ntown on the horizon\nour coordinates\n51\n10..3..1..2....Is anybody\nout there\n?\n \n Unfortunate stalker trapped in a space bubble.\n\n\nNot much is known about this kind of anomaly, except that anything that\nventures into them is never to be seen again.\n\n\nThe Space Bubble is a special variant of the \nSpace Anomaly\n,\nin that it creates a discrete separate region of space-time, trapping all\nwho enter it. Navigating a Space Bubble is almost impossible, without the\nhelp of a \nCompass\n artifact.\n\n\nKnown to produce the following artifacts: \nCompass\n.\n\n\nEmission\n\n\nAn emission or blowout is a sudden and powerful release of excess\nenergy from the centre of the Zone. During a blowout, the energy\nfloats from the center of the Zone to the outskirts in a circular\npattern, affecting the minds and bodies of the living. Emissions are\nprecluded by a stormy cloud front, lightning, thunder and the sky\nturning red.\n\n\nAnyone trapped outside when an emission hits is killed instantly or\nturned into a zombie. Only fortified shelter can protect against\nemissions. A shelter needs to have thick walls and a solid roof\nto protect against emissions. Stalkers have learned to fortify houses,\nold train cars, caves or even car wrecks to be emission shelters.", 
             "title": "Anomalies"
-        }, 
-        {
-            "location": "/settings/stalker/anomalies/#anomalies", 
-            "text": "Anomalies are a well known energy phenomenon scattered around the zone.", 
-            "title": "Anomalies"
-        }, 
-        {
-            "location": "/settings/stalker/anomalies/#vortex", 
-            "text": "", 
-            "title": "Vortex"
-        }, 
-        {
-            "location": "/settings/stalker/anomalies/#burner", 
-            "text": "", 
-            "title": "Burner"
-        }, 
-        {
-            "location": "/settings/stalker/anomalies/#fruit-punch", 
-            "text": "", 
-            "title": "Fruit Punch"
-        }, 
-        {
-            "location": "/settings/stalker/anomalies/#electro", 
-            "text": "", 
-            "title": "Electro"
         }, 
         {
             "location": "/settings/stalker/anomalies/#springboard", 
-            "text": "", 
+            "text": "It was one of the first types of anomalies ever recorded. A\nSpringboard is an unstable gravitational field limited to a pocket on\nground level, about 1-2 meters wide. Reacts to the presence of\ncreatures or objects by sending out a powerful shock wave that damages\nanything within radius. The damage caused by this changes throughout\nthe anomaly s lifetime, ranging from minor bruises through serious\nwounds to instant death.  A Springboard anomaly has an activation radius of roughly 2 to 4\nmetres. Once triggered it sends out a shock wave that does  4d6\npoints of critical damage  to anyone within its radius.  Known to produce the following artifacts: Jellyfish , Nightstar , Stone Flower .", 
             "title": "Springboard"
         }, 
         {
             "location": "/settings/stalker/anomalies/#whirligig", 
-            "text": "", 
+            "text": "A common and dangerous anomaly, which snatches its victims up in the\nair and spins them at a breakneck speed. The exact nature of the\nWhirligig remains unknown. The anomaly can be recognized by a light\nwhirlwind of dust above and by body fragments scattered in the\nvicinity. Victims caught on its outer rim, far enough from the maximum\neffect zone at the center, can escape the Whirligig with relatively\nminor injuries.  The whirligig is a weaker form of the  Vortex  anomaly. It is\noften found off the ground and pulls unsuspecting victims into the air\ntowards its centre. The whirligig has an activation radius of roughly\n8 to 10 metres. It is possible to escape the anti-gravitational pull\nof a Whirligig by holding onto something solid on the ground, or by\nbeing helped by someone outside its pull. Anyone within  15 metres of\nthe explosion takes 2d6 points of critical damage , everyone  within\n5 metres takes 4d6 points of critical damage , and everyone within 1\nmetre of the explosion (including directly at the centre) is killed\ninstantly.  Known to produce the following artifacts: Stone Blood , Meat Chunk , Wrenched , Soul .", 
             "title": "Whirligig"
         }, 
         {
+            "location": "/settings/stalker/anomalies/#vortex", 
+            "text": "An anomaly of presumably gravitational nature. When triggered, the\ntremendous power of the Vortex drags everything within the radius\n10-15 meters towards the center. Victims drawn into the core have\nlittle to no chance of survival: their bodies are quickly constricted\ninto a tight lump, only to be blown up in a powerful discharge of\nenergy a moment later.  In some cases, they may levitate in air with\nagony, and soon their entire systems are shredded into mere skeletal\nand flesh parts.  Once triggered this anomaly drags everything within a radius of 15\nmetres into its centre. After a short amount of the time the vortex\nanomaly explodes killing anything that has been dragged into its\ncentre. It is only possible to escape the pull by holding onto something\nsolid. The vortex will explode after a set amount of time, regardless\nof whether something was pulled into its centre or not. Anyone within 15 metres of the explosion takes 4d6 points of critical damage ,\neveryone  within 5 metres takes 8d6 points of critical damage , and\neveryone within 1 metre of the explosion (including directly at the\ncentre) is killed instantly.  Known to produce the following artifacts: Nightstar , Gravi , Goldfish .", 
+            "title": "Vortex"
+        }, 
+        {
+            "location": "/settings/stalker/anomalies/#burner", 
+            "text": "The Burner can be a bit difficult to see, even in daylight, as it s\nonly revealed by a faint heat haze. If the anomaly is triggered by\neither a living being or an object such as a metal bolt, it shoots out\na tall pillar of flame in the air, burning everything in its\nvicinity. Though somewhat rare, the Burner anomaly is often found in\nclusters.  Once a Burner is triggered it shoots out a directed flame of roughly\nfour metres in length. Anything within its path takes  4 points of\nfire damage per second . Experienced stalkers are capable of dodging\nthe directed flaming jet of a Burner.  Known to produce the following artifacts: Crystal , Fireball .", 
+            "title": "Burner"
+        }, 
+        {
+            "location": "/settings/stalker/anomalies/#comet", 
+            "text": "The Comet anomaly functions much like a Burner anomaly in that it\ndeals fire damage on close contact, but with a key difference in that\nthe Comet is mobile, hovering around within a certain area at a rapid\npace.  A Comet anomaly is always moving, either in a circle, or following along\na straight path. It will not stop after having hit something (or someone)\nand will always follow its path. Being hit by a comet deals  2d6 points of\nimpact damage, and 2d6 points of fire damage .", 
+            "title": "Comet"
+        }, 
+        {
+            "location": "/settings/stalker/anomalies/#fruit-punch", 
+            "text": "The Fruit Punch is a puddle of lambent green liquid that is easily\nvisible in almost any environment due to its bright glow and\ndistinctive hissing and bubbling noises. On contact with creatures or\nobjects such as bolts, a Fruit Punch lights up brightly and emits a\nsharp hissing sound. It is extremely corrosive, damaging creatures and\nobjects on contact.  A Fruit Punch as an activation radius between  one and two metres .\nOnce activated it deals  3d6 points of acid damage  to anyone caught\nwithin it. Any matter left within the Fruit Punch anomaly is usually\ndissolved within a few hours.  Known to produce the following artifacts: Stone Blood , Meat Chunk , Kolobok , Firefly  (rarely), Bubble  (rarely).", 
+            "title": "Fruit Punch"
+        }, 
+        {
+            "location": "/settings/stalker/anomalies/#electro", 
+            "text": "An anomalous formation, roughly 10 meters in diameter, accumulating\nlarge quantities of static electricity. When triggered, the anomaly\nbursts into a storm of arcing electricity nearly always lethal to all\nliving beings. Easily recognizable by the blue gas it emits, along\nwith the endless arcing of small bolts of electricity in the\nvicinity.  Once triggered the anomaly does  10d6 points electricity damage ,\nwhich is equally distributed among all those within it s path.  Known to produce the following artifacts: Sparkler , Flash , Moonlight , Battery , Shell . Snowflake .", 
+            "title": "Electro"
+        }, 
+        {
             "location": "/settings/stalker/anomalies/#burnt-fuzz", 
-            "text": "", 
+            "text": "This anomaly is usually found outdoors. It resembles moss or vines,\nhanging down like curtains from its growing spot. Reacts to rapidly\napproaching living beings by discharging a cloud of projectiles\nseverely injuring uncovered or lightly protected skin upon\ncontact. Does not react to slowly moving targets. Burnt Fuzz is\ngenerally considered the least dangerous anomaly in the Zone since it\ncan be easily spotted and avoided.  Burnt Fuzz deals  1d6 points of damage  to rapidly moving targets.\nIt can be easily avoided by slowly moving past it. Burnt Fuzz is the\nonly anomaly that doesn t react to bolts. It does not create any\nartifacts.", 
             "title": "Burnt Fuzz"
         }, 
         {
             "location": "/settings/stalker/anomalies/#radiation", 
-            "text": "", 
+            "text": "Pockets of ionizing radiation, or simply radiation for short (areas\nwhere the ambient radiation count exceeds 50 mR per hour) can be found\nall over the Zone. In the outside areas, radiation tends to be\ndominant in wide, open spaces and on piles of scrap (such as the dirt\nor scrap piles in Garbage. Also cars, tractors and anything\nmechanical). Radiation in itself doesn t form artifacts.  Areas affected by radiation vary greatly in size, shape, and in their\nstrength. But each give out noticeable RAD per minute or hour.", 
             "title": "Radiation"
         }, 
         {
-            "location": "/settings/stalker/anomalies/#fault", 
-            "text": "", 
-            "title": "Fault"
-        }, 
-        {
             "location": "/settings/stalker/anomalies/#space-anomaly", 
-            "text": "", 
+            "text": "It is truly the ultimate result of the Zone s instability as now it\nalters the very fabric of reality and distorts time and space,\nseemingly creating miniature Wormholes, which  teleport  the player\nand anything thrown into it to another spot.  Space Anomalies may either teleport anything thrown into them somewhere\nelse.", 
             "title": "Space Anomaly"
         }, 
         {
-            "location": "/settings/stalker/anomalies/#symbiont", 
-            "text": "", 
-            "title": "Symbiont"
-        }, 
-        {
-            "location": "/settings/stalker/anomalies/#gas", 
-            "text": "", 
-            "title": "Gas"
+            "location": "/settings/stalker/anomalies/#space-bubble", 
+            "text": "Attention. We are stuck in an anomaly....can t get out......it s\nlike space is warped......which ever way we go can t\nmove equipment has gone off the rails....can see the outline of a\ntown on the horizon our coordinates 51 10..3..1..2....Is anybody\nout there ?    Unfortunate stalker trapped in a space bubble.  Not much is known about this kind of anomaly, except that anything that\nventures into them is never to be seen again.  The Space Bubble is a special variant of the  Space Anomaly ,\nin that it creates a discrete separate region of space-time, trapping all\nwho enter it. Navigating a Space Bubble is almost impossible, without the\nhelp of a  Compass  artifact.  Known to produce the following artifacts:  Compass .", 
+            "title": "Space Bubble"
         }, 
         {
             "location": "/settings/stalker/anomalies/#emission", 
-            "text": "", 
+            "text": "An emission or blowout is a sudden and powerful release of excess\nenergy from the centre of the Zone. During a blowout, the energy\nfloats from the center of the Zone to the outskirts in a circular\npattern, affecting the minds and bodies of the living. Emissions are\nprecluded by a stormy cloud front, lightning, thunder and the sky\nturning red.  Anyone trapped outside when an emission hits is killed instantly or\nturned into a zombie. Only fortified shelter can protect against\nemissions. A shelter needs to have thick walls and a solid roof\nto protect against emissions. Stalkers have learned to fortify houses,\nold train cars, caves or even car wrecks to be emission shelters.", 
             "title": "Emission"
         }, 
         {
