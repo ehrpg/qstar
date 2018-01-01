@@ -26,9 +26,9 @@ metres. Once triggered it sends out a shock wave that does **4d6
 points of critical damage** to anyone within its radius.
 
 Known to produce the following artifacts:
-[Jellyfish](../artifacts/#jellyfish),
-[Nightstar](../artifacts/#nightstar),
-[Stone Flower](../artifacts/#stone-flower).
+[Jellyfish](./artifacts/#jellyfish),
+[Nightstar](./artifacts/#nightstar),
+[Stone Flower](./artifacts/#stone-flower).
 
 ## Whirligig
 
@@ -52,10 +52,10 @@ metre of the explosion (including directly at the centre) is killed
 instantly.
 
 Known to produce the following artifacts:
-[Stone Blood](../artifacts/#stone-blood),
-[Meat Chunk](../artifacts/#meat-chunk),
-[Wrenched](../artifacts/#wrenched),
-[Soul](../artifacts/#soul).
+[Stone Blood](./artifacts/#stone-blood),
+[Meat Chunk](./artifacts/#meat-chunk),
+[Wrenched](./artifacts/#wrenched),
+[Soul](./artifacts/#soul).
 
 ## Vortex
 
@@ -80,9 +80,9 @@ everyone within 1 metre of the explosion (including directly at the
 centre) is killed instantly.
 
 Known to produce the following artifacts:
-[Nightstar](../artifacts/#nightstar),
-[Gravi](../artifacts/#gravi),
-[Goldfish](../artifacts/#goldfish).
+[Nightstar](./artifacts/#nightstar),
+[Gravi](./artifacts/#gravi),
+[Goldfish](./artifacts/#goldfish).
 
 ## Burner
 
@@ -99,8 +99,8 @@ fire damage per second**. Experienced stalkers are capable of dodging
 the directed flaming jet of a Burner.
 
 Known to produce the following artifacts:
-[Crystal](../artifacts/#crystal),
-[Fireball](../artifacts/#fireball).
+[Crystal](./artifacts/#crystal),
+[Fireball](./artifacts/#fireball).
 
 ## Comet
 
@@ -129,11 +129,11 @@ within it. Any matter left within the Fruit Punch anomaly is usually
 dissolved within a few hours.
 
 Known to produce the following artifacts:
-[Stone Blood](../artifacts/#stone-blood),
-[Meat Chunk](../artifacts/#meat-chunk),
-[Kolobok](../artifacts/#kolobok),
-[Firefly](../artifacts/#firefly) (rarely),
-[Bubble](../artifacts/#bubble) (rarely).
+[Stone Blood](./artifacts/#stone-blood),
+[Meat Chunk](./artifacts/#meat-chunk),
+[Kolobok](./artifacts/#kolobok),
+[Firefly](./artifacts/#firefly) (rarely),
+[Bubble](./artifacts/#bubble) (rarely).
 
 ## Electro
 
@@ -148,12 +148,12 @@ Once triggered the anomaly does **10d6 points electricity damage**,
 which is equally distributed among all those within it's path.
 
 Known to produce the following artifacts:
-[Sparkler](../artifacts/#sparkler),
-[Flash](../artifacts/#flash),
-[Moonlight](../artifacts/#moonlight),
-[Battery](../artifacts/#battery),
-[Shell](../artifacts/#shell).
-[Snowflake](../artifacts/#snowflake).
+[Sparkler](./artifacts/#sparkler),
+[Flash](./artifacts/#flash),
+[Moonlight](./artifacts/#moonlight),
+[Battery](./artifacts/#battery),
+[Shell](./artifacts/#shell).
+[Snowflake](./artifacts/#snowflake).
 
 ## Burnt Fuzz
 
@@ -206,9 +206,9 @@ ventures into them is never to be seen again.*
 The Space Bubble is a special variant of the [Space Anomaly](#space-anomaly),
 in that it creates a discrete separate region of space-time, trapping all
 who enter it. Navigating a Space Bubble is almost impossible, without the
-help of a [Compass](../artifacts/#compass) artifact.
+help of a [Compass](./artifacts/#compass) artifact.
 
-Known to produce the following artifacts: [Compass](../artifacts/#compass).
+Known to produce the following artifacts: [Compass](./artifacts/#compass).
 
 ## Emission
 
