@@ -68,6 +68,10 @@
   margin-bottom: 55px;
 }
 
+.formula span {
+  margin: 0 8px;
+}
+
 .admonition .formula-bottom {
   margin-bottom: 30px;
 }
