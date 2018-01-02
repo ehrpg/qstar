@@ -152,7 +152,11 @@ tr:nth-child(even) {
 }
 
 #equipment ~ div table th:nth-child(1) {
-  min-width: 150px !important;
-  max-width: 150px !important;
-  width: 150px !important;
+  min-width: 15rem !important;
+  max-width: 15rem !important;
+  width: 15rem !important;
+}
+
+html {
+  font-size: 62.5%;
 }
