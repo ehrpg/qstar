@@ -148,7 +148,7 @@ to the skill check, while bad roleplay or none at all should impose a penalty.
     </div>
 
 !!! tip "Roleplaying bonuses"
-    You, as a DM, can allow players to completely ignored a skill check / DC if
+    You, as a DM, can allow players to completely ignore a skill check / DC if
     they are roleplaying very well and/or playing to their characters strengths
     and weaknesses.
 
