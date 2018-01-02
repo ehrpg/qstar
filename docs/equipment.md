@@ -71,26 +71,26 @@ being useful.
 
 Melee weapons have a cost and damage. They get the **might ability modifier** as extra damage.
 
-| Weapon  |  Hit |  DMG | Crit |  Rof | Range | Cost | Weight | Notes   |
-|---------|-----:|-----:|-----:|-----:|------:|-----:|-------:|---------|
-| Fists   |   +0 |    4 |    2 |    2 | Melee |    - |      - |         |
-| Baton   |   +1 |   10 |    5 |    1 | Melee |  100 |    0.5 |         |
-| Knife   |   +1 |   14 |    6 |    2 | Melee |  200 |    0.2 | compact |
-| Hatchet |   +1 |   18 |    8 |    1 | Melee |  150 |      1 |         |
-| Sword   |   +2 |   24 |   10 |    1 | Melee |  500 |      3 |         |
+| Weapon  |  Hit |  DMG | Crit |  Rof  | Range | Cost | Weight | Notes   |
+|---------|-----:|-----:|-----:|:-----:|------:|-----:|-------:|---------|
+| Fists   |   +0 |    4 |    2 |   2   | Melee |    - |      - |         |
+| Baton   |   +1 |   10 |    5 |   1   | Melee |  100 |    0.5 |         |
+| Knife   |   +1 |   14 |    6 |   2   | Melee |  200 |    0.2 | compact |
+| Hatchet |   +1 |   18 |    8 |   1   | Melee |  150 |      1 |         |
+| Sword   |   +2 |   24 |   10 |   1   | Melee |  500 |      3 |         |
 
 ### Ranged Weapons
 
-| Weapon |  Hit |  DMG | Crit |  RoF | Cap. | Reload |  Range |   Cost |  Mag. | Weight | Notes           |
-|--------|-----:|-----:|-----:|-----:|-----:|-------:|-------:|-------:|------:|-------:|-----------------|
-| CP9    |   +1 |   10 |    4 |    1 |      |      1 |  Close |  1 100 |    20 |      1 | compact, pistol |
-| P32    |   +1 |   12 |    6 |    1 |   15 |      1 |  Close |    900 |    30 |    0.8 | Pistol          |
-| RX60   |   +2 |   16 |    8 |    3 |   30 |      1 | Medium |  6 200 |   150 |      2 |                 |
-| AX7    |   +2 |   20 |   10 |    3 |   30 |      1 | Medium |  9 100 |   400 |      3 |                 |
-| ASG-8  |   +2 |   30 |   15 |    1 |    7 |      2 |  Close |  7 000 |    50 |    3.5 | shotgun         |
-| M80A2  |   +3 |   32 |   15 |    1 |    5 |      3 |    Far | 12 000 |   600 |      4 | high accuracy   |
-| RPT    |   +1 |   20 |   10 |    5 |  100 |      4 | Medium | 15 000 |   500 |      7 |                 |
-| HP3 A1 |   +3 |   36 |   15 |    1 |    1 |      3 |    Far | 22 000 | 1 000 |      6 | high accuracy   |
+| Weapon |  Hit |  DMG | Crit |  RoF  | Cap. | Reload |  Range |   Cost |  Mag. | Weight | Notes           |
+|--------|-----:|-----:|-----:|:-----:|-----:|:------:|-------:|-------:|------:|-------:|-----------------|
+| CP9    |   +1 |   10 |    4 |   1   |      |    1   |  Close |  1 100 |    20 |      1 | compact, pistol |
+| P32    |   +1 |   12 |    6 |   1   |   15 |    1   |  Close |    900 |    30 |    0.8 | Pistol          |
+| RX60   |   +2 |   16 |    8 |   3   |   30 |    1   | Medium |  6 200 |   150 |      2 |                 |
+| AX7    |   +2 |   20 |   10 |   3   |   30 |    1   | Medium |  9 100 |   400 |      3 |                 |
+| ASG-8  |   +2 |   30 |   15 |   1   |    7 |    2   |  Close |  7 000 |    50 |    3.5 | shotgun         |
+| M80A2  |   +3 |   32 |   15 |   1   |    5 |    3   |    Far | 12 000 |   600 |      4 | high accuracy   |
+| RPT    |   +1 |   20 |   10 |   5   |  100 |    4   | Medium | 15 000 |   500 |      7 |                 |
+| HP3 A1 |   +3 |   36 |   15 |   1   |    1 |    3   |    Far | 22 000 | 1 000 |      6 | high accuracy   |
 
 !!! info
     Players are responsible for tracking informations regarding their weapons,
