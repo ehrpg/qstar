@@ -93,8 +93,13 @@ Melee weapons have a cost and damage. They get the **might ability modifier** as
 | HP3 A1 |   +3 |   36 |   15 |    1 |    1 |      3 |    Far | 22 000 | 1 000 |      6 | high accuracy   |
 
 !!! info
-    Players are responsible for tracking informations regarding their weapon,
+    Players are responsible for tracking informations regarding their weapons,
     like capacity, magazines and ammo.
+
+!!! tip
+    Magazines don't specify their weight. This is to simplify the inventory
+    tracking for the players. As a DM you should only let players buy magazines
+    if the amount is within reason.
 
 ### Weapon perks
 
