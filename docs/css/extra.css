@@ -150,3 +150,9 @@ tr:nth-child(even) {
 .md-typeset dd {
   margin: 0.1em 0 1em 1.875em
 }
+
+#equipment ~ div table th:nth-child(1) {
+  min-width: 150px !important;
+  max-width: 150px !important;
+  width: 150px !important;
+}
