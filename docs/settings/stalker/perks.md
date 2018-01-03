@@ -4,21 +4,33 @@
 
 ### Assassin
 
-When you roll a higher initiative than an enemy who hasn't noticed you yet, a
-melee attack or weapon attack from close range (~5m) instantly kills your
-target.
+When you roll an attack against an enemy who hasn't noticed you yet, a melee
+attack or weapon attack from close range (~5m) lets you treat any die you rolled
+for the attack as a **6**.
 
-**Price**: 5 000
+**Price**: 4 000 RU
 
 ## Survival
 
-### Wastelander
+### Wastelander I
 
 *You have been to the zone countless times and know which areas to avoid.*
 
-Ignore the first 6 minutes (one tenth) of radiation damage.
+You gain 5 RAD resistance that **doesn't** accumulate with any other bonuses
+such as from suits or artifacts.
 
-**Price**: 1 000
+**Price**: 1 000 RU
+
+**Requirements**: Survival (Trained)
+
+### Wastelander II
+
+The RAD resistance becomes 10 and **does** stack with any other bonuses such as
+form suits or artifacts.
+
+**Price**: 10 000 RU
+
+**Requirements**: Survival (Proficient)
 
 ### Tracker
 
