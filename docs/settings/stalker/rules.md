@@ -80,12 +80,8 @@ endurance** if they stay in bed and get **one ration** worth of food and drinks
 
 ### New Skills
 
-* **Survival** is used to navigate through the zone, reading the weather and
-  staying safe of harm.  It also allows you to follow and track down creatures,
-  people and vehicles, if the tracks are fresh.
+* **Survival** (IN) is used to navigate through the zone, reading the weather
+  and staying safe of harm.  It also allows you to follow and track down
+  creatures, people and vehicles, if the tracks are fresh.
 
-* **Knowledge** adds new areas of expertise, namely mutants and anomalies.
-
-* **Scientific method** allows a character to combine any knowledge area with
-  this skill. This is used to find out more, or even details unknown to mankind,
-  about the chosen scientific field.
+* **Knowledge** (IN) adds new areas of expertise, namely mutants and anomalies.
