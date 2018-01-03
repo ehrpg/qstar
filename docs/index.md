@@ -380,6 +380,8 @@ Combat is always a crisis, but other dangerous situation are also considered
 a crisis, such as escaping a space ship that is about to explode. What
 constitutes a crisis is always up the game master.
 
+### Turn order
+
 When a crisis starts, all involved have to determine their turn order. Roll a 6
 sided die (d6) and add your **speed** and **intelligence** modifiers to the
 result. Perks and flaws may give additional bonuses or penalties to initiative.
@@ -398,19 +400,18 @@ is still a tie roll again.
 
 ## Actions
 
-Once it is a player's turn in a crisis, he or she may do two
-actions. An action takes a small amount of time, and may involve a
-skill check. The game master may decide that a task takes more than
-one action, or even takes a couple of rounds. Any number of actions
-may be converted to **ready actions**. These are specific conditions
-set by the player that trigger when an external event occurs. If the
-condition does not occur before his or her next turn, the **ready
+Once it is a player's turn in a crisis, he or she may do **two actions**. An
+action takes a small amount of time, and may involve a skill check. The game
+master may decide that a task takes more than one action, or even takes a couple
+of rounds. Any number of actions may be converted to **ready actions**. These
+are specific conditions set by the player that trigger when an external event
+occurs. If the condition does not occur before his or her next turn, the **ready
 action** is lost.
 
-Everything you do in a crisis as part of an action is almost all of
-the time solvable through a skill check. Movement in combat is done
-through **Acrobatics**, hitting an enemy with a sword through
-**Melee** or getting a blast door open uses **Hacking**.
+Everything you do in a crisis as part of an action is almost all of the time
+solvable through a skill check. Movement in combat is done through
+**Athletics**, hitting an enemy with a sword through **Melee** or getting a
+blast door open uses **Hacking**.
 
 ### Free Actions
 
@@ -429,10 +430,11 @@ sets a DC and a skill, which the player has to succeed or face certain
 consequences. These reactions do not detract from the player or NPCs
 available actions on his turn.
 
-For example two players climb a mountain side. One player fails his
-athletics check, slips and falls. The other player may receive a
-reaction to catch him.  Should he fail his friend falls, and if he
-succeeds he may help is friend to gain footing again.
+!!! note "Example"
+    Two players climb a mountain side. One player fails his athletics check,
+    slips and falls. The other player may receive a reaction to catch him.
+    Should he fail his friend falls, and if he succeeds he may help is friend to
+    gain footing again.
 
 ## Making a character
 
@@ -477,7 +479,7 @@ suit your character.
 
 ### Third: Roll Endurance and Health
 
-Use your race's endurance and health dice, and your new ability rank to roll
+Use your race's endurance and health die, and your new ability rank to roll
 endurance and health. Note these values on your character sheet.
 
 ### Fourth: Buy equipment
