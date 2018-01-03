@@ -174,6 +174,11 @@ If a skill check meets or exceeds the set **DC** the skill check is
 **successful**. If the skill check is less than the **DC** the skill check is a
 **failure**.
 
+!!! summary "Succeeding and failing a task"
+    Skill check ≥ Task DC ⇒ **success**
+
+    Skill check < Task DC ⇒ **failure**
+
 ### Aiding
 
 At the game master's discretion, it is possible for one or more
@@ -276,9 +281,9 @@ price.
 ### Defence
 
 Any attack roll has to be equal to or exceed a creatures defence value. The
-defence value of a creature is described by its speed and cover.
-
-`Defence = 10 + Speed + Cover`
+defence value of a creature is described by its speed and cover. If the target
+is attacked in melee combat, the defence value equals the targets melee skill
+check result.
 
 !!! summary "How to determine *Defence*"
     <div class="formula formula-top formula-bottom">
@@ -287,6 +292,10 @@ defence value of a creature is described by its speed and cover.
     <span data-bracket-top="modifier">Speed</span>
     + 
     <span>Cover</span>
+    </div>
+    or
+    <div class="formula formula-top formula-bottom">
+    Defence (melee) = <span data-bracket-top="skill check">3d6 + skill modifiers</span>
     </div>
 
 ### Attack
@@ -302,7 +311,7 @@ chance.
 
 !!! note "RoF Example"
     If a weapon has a RoF value of 2, you may fire an extra bullet and add
-    **1d6** to your attack.
+    **1d6** to your attack, resulting in **4d6** total.
 
 If the **attack** is equal to or higher than the targets **defence** value the
 shot (or shots) **hit**.
@@ -371,11 +380,21 @@ Combat is always a crisis, but other dangerous situation are also considered
 a crisis, such as escaping a space ship that is about to explode. What
 constitutes a crisis is always up the game master.
 
-When a crisis starts, all involved roll initiative by rolling a ten
-sided die (d10) and adding their speed modifier to it. Perks and flaws
-may give additional bonuses or penalties to initiative. Players, NPCs
-and monsters start in the order of the highest initiative to
-lowest. In case of a tie the person with the highest die result wins.
+When a crisis starts, all involved have to determine their turn order. Roll a 6
+sided die (d6) and add your **speed** and **intelligence** modifiers to the
+result. Perks and flaws may give additional bonuses or penalties to initiative.
+Players, NPCs and monsters start in the order of the highest initiative to
+lowest. In case of a tie the person with the highest die result wins. If there
+is still a tie roll again.
+
+!!! summary "How to determine *turn order*"
+    <div class="formula formula-top formula-bottom">
+    Turn Order = <span data-bracket-bottom="base">1d6</span>
+    ±
+    <span data-bracket-top="modifier">Speed</span>
+    ±
+    <span data-bracket-bottom="modifier">Intelligence</span>
+    </div>
 
 ## Actions
 
