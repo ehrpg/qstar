@@ -7,16 +7,24 @@ that are stored on credit cards. These cards will store amount of credits
 on them, and also a list of transactions. Credits may transferred from
 these cards to other cards to make transactions.
 
-## Suits
+## Armour
+
+### Damage Reduction
+
+Armour reduces the incoming damage (both endurance and health) by its damage
+reduction value. 
+
+Any successful hit that deals health damage reduces the armours hitpoints by
+that amount too. Endurance damage isn't dealt to the armours hitpoints.
+
+If the hitpoints of the armour drop to zero, it's destroyed or otherwise
+rendered useless.
+
+### Suits
 
 Suits are full body suits used in hazardous environments (underwater, space,
 extreme heat or cold, or on planets with hazardous climate) or for battle.
-Suits all have an armour rating. Armour reduces the incoming damage (both
-normal and critical) by the listed damage reduction amount. Any damage above
-the damage reduction is passed on to the character wearing the suit. The
-full damage is subtracted from the hit points of the armour. If the armour
-reaches zero hit points its damage reduction drops to zero and thus stops
-being useful.
+Suits all have an armour rating.
 
 | Suit       |   DR |   HP |   Cost | Extras                                                       |
 |------------|-----:|-----:|-------:|--------------------------------------------------------------|
