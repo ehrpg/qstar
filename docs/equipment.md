@@ -9,13 +9,18 @@ these cards to other cards to make transactions.
 
 ## Armour
 
+| Armour           |   DR |   HP | Cost | Extras                            |
+|------------------|-----:|-----:|-----:|-----------------------------------|
+| Body Armour MK I |    5 |   30 |  500 | Basic protection from projectiles |
+
 ### Damage Reduction
 
 Armour reduces the incoming damage (both endurance and health) by its damage
 reduction value. 
 
-Any successful hit that deals health damage reduces the armours hitpoints by
-that amount too. Endurance damage isn't dealt to the armours hitpoints.
+Any successful hit that deals health damage (before damage reduction) reduces
+the armours hitpoints by that amount. Endurance damage isn't dealt to the
+armours hitpoints.
 
 If the hitpoints of the armour drop to zero, it's destroyed or otherwise
 rendered useless.
