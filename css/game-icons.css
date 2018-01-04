@@ -1,0 +1,12448 @@
+@font-face {
+  font-family: "game-icons";
+  src: url('../fonts/game-icons.eot');
+  src: url('../fonts/game-icons.eot?#iefix') format('eot'),
+    url('../fonts/game-icons.woff2') format('woff2'),
+    url('../fonts/game-icons.woff') format('woff'),
+    url('../fonts/game-icons.ttf') format('truetype'),
+    url('../fonts/game-icons.svg#game-icons') format('svg');
+}
+
+*[class^="qstar-"]:before {
+  font-family: "game-icons";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  /* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+  text-decoration: none;
+  text-transform: none;
+  vertical-align: middle;
+
+  font-size: 150%;
+}
+
+.qstar-police-badge:before {
+  content: "\E001";
+}
+
+.qstar-swordman:before {
+  content: "\E002";
+}
+
+.qstar-swordwoman:before {
+  content: "\E003";
+}
+
+.qstar-american-shield:before {
+  content: "\E004";
+}
+
+.qstar-attached-shield:before {
+  content: "\E005";
+}
+
+.qstar-cross-shield:before {
+  content: "\E006";
+}
+
+.qstar-roman-shield:before {
+  content: "\E007";
+}
+
+.qstar-shield-bash:before {
+  content: "\E008";
+}
+
+.qstar-templar-shield:before {
+  content: "\E009";
+}
+
+.qstar-vibrating-shield:before {
+  content: "\E00A";
+}
+
+.qstar-viking-shield:before {
+  content: "\E00B";
+}
+
+.qstar-shield:before {
+  content: "\E00C";
+}
+
+.qstar-air-force:before {
+  content: "\E00D";
+}
+
+.qstar-shield-disabled:before {
+  content: "\E00E";
+}
+
+.qstar-round-shield:before {
+  content: "\E00F";
+}
+
+.qstar-arrows-shield:before {
+  content: "\E010";
+}
+
+.qstar-battle-gear:before {
+  content: "\E011";
+}
+
+.qstar-bell-shield:before {
+  content: "\E012";
+}
+
+.qstar-black-hand-shield:before {
+  content: "\E013";
+}
+
+.qstar-bolt-shield:before {
+  content: "\E014";
+}
+
+.qstar-bordered-shield:before {
+  content: "\E015";
+}
+
+.qstar-broken-shield:before {
+  content: "\E016";
+}
+
+.qstar-bubble-field:before {
+  content: "\E017";
+}
+
+.qstar-checked-shield:before {
+  content: "\E018";
+}
+
+.qstar-cracked-shield:before {
+  content: "\E019";
+}
+
+.qstar-crenulated-shield:before {
+  content: "\E01A";
+}
+
+.qstar-edged-shield:before {
+  content: "\E01B";
+}
+
+.qstar-energy-shield:before {
+  content: "\E01C";
+}
+
+.qstar-eye-shield:before {
+  content: "\E01D";
+}
+
+.qstar-fire-shield:before {
+  content: "\E01E";
+}
+
+.qstar-ice-shield:before {
+  content: "\E01F";
+}
+
+.qstar-layered-armor:before {
+  content: "\E020";
+}
+
+.qstar-lightning-shield:before {
+  content: "\E021";
+}
+
+.qstar-magic-shield:before {
+  content: "\E022";
+}
+
+.qstar-riot-shield:before {
+  content: "\E023";
+}
+
+.qstar-rosa-shield:before {
+  content: "\E024";
+}
+
+.qstar-shield-bounces:before {
+  content: "\E025";
+}
+
+.qstar-shield-echoes:before {
+  content: "\E026";
+}
+
+.qstar-shield-reflect:before {
+  content: "\E027";
+}
+
+.qstar-shieldcomb:before {
+  content: "\E028";
+}
+
+.qstar-skull-shield:before {
+  content: "\E029";
+}
+
+.qstar-slashed-shield:before {
+  content: "\E02A";
+}
+
+.qstar-spartan:before {
+  content: "\E02B";
+}
+
+.qstar-spiky-field:before {
+  content: "\E02C";
+}
+
+.qstar-surrounded-shield:before {
+  content: "\E02D";
+}
+
+.qstar-swords-emblem:before {
+  content: "\E02E";
+}
+
+.qstar-winged-shield:before {
+  content: "\E02F";
+}
+
+.qstar-zebra-shield:before {
+  content: "\E030";
+}
+
+.qstar-chameleon-glyph:before {
+  content: "\E031";
+}
+
+.qstar-transform:before {
+  content: "\E032";
+}
+
+.qstar-rss:before {
+  content: "\E033";
+}
+
+.qstar-aquarius:before {
+  content: "\E034";
+}
+
+.qstar-aries:before {
+  content: "\E035";
+}
+
+.qstar-cancer:before {
+  content: "\E036";
+}
+
+.qstar-capricorn:before {
+  content: "\E037";
+}
+
+.qstar-gemini:before {
+  content: "\E038";
+}
+
+.qstar-leo:before {
+  content: "\E039";
+}
+
+.qstar-libra:before {
+  content: "\E03A";
+}
+
+.qstar-ophiuchus:before {
+  content: "\E03B";
+}
+
+.qstar-pisces:before {
+  content: "\E03C";
+}
+
+.qstar-sagittarius:before {
+  content: "\E03D";
+}
+
+.qstar-scorpio:before {
+  content: "\E03E";
+}
+
+.qstar-taurus:before {
+  content: "\E03F";
+}
+
+.qstar-virgo:before {
+  content: "\E040";
+}
+
+.qstar-holosphere:before {
+  content: "\E041";
+}
+
+.qstar-power-button:before {
+  content: "\E042";
+}
+
+.qstar-all-seeing-eye:before {
+  content: "\E043";
+}
+
+.qstar-anarchy:before {
+  content: "\E044";
+}
+
+.qstar-banknote:before {
+  content: "\E045";
+}
+
+.qstar-bowen-knot:before {
+  content: "\E046";
+}
+
+.qstar-caduceus:before {
+  content: "\E047";
+}
+
+.qstar-camargue-cross:before {
+  content: "\E048";
+}
+
+.qstar-cornucopia:before {
+  content: "\E049";
+}
+
+.qstar-corporal:before {
+  content: "\E04A";
+}
+
+.qstar-dream-catcher:before {
+  content: "\E04B";
+}
+
+.qstar-dwennimmen:before {
+  content: "\E04C";
+}
+
+.qstar-easter-egg:before {
+  content: "\E04D";
+}
+
+.qstar-ermine:before {
+  content: "\E04E";
+}
+
+.qstar-eye-of-horus:before {
+  content: "\E04F";
+}
+
+.qstar-f-clef:before {
+  content: "\E050";
+}
+
+.qstar-fallout-shelter:before {
+  content: "\E051";
+}
+
+.qstar-female:before {
+  content: "\E052";
+}
+
+.qstar-film-strip:before {
+  content: "\E053";
+}
+
+.qstar-fleur-de-lys:before {
+  content: "\E054";
+}
+
+.qstar-freemasonry:before {
+  content: "\E055";
+}
+
+.qstar-g-clef:before {
+  content: "\E056";
+}
+
+.qstar-hell-crosses:before {
+  content: "\E057";
+}
+
+.qstar-heptagram:before {
+  content: "\E058";
+}
+
+.qstar-hieroglyph-y:before {
+  content: "\E059";
+}
+
+.qstar-horseshoe:before {
+  content: "\E05A";
+}
+
+.qstar-info:before {
+  content: "\E05B";
+}
+
+.qstar-klingon:before {
+  content: "\E05C";
+}
+
+.qstar-male:before {
+  content: "\E05D";
+}
+
+.qstar-mona-lisa:before {
+  content: "\E05E";
+}
+
+.qstar-nested-hexagons:before {
+  content: "\E05F";
+}
+
+.qstar-stop-sign:before {
+  content: "\E060";
+}
+
+.qstar-striped-sun:before {
+  content: "\E061";
+}
+
+.qstar-triforce:before {
+  content: "\E062";
+}
+
+.qstar-triquetra:before {
+  content: "\E063";
+}
+
+.qstar-virtual-marker:before {
+  content: "\E064";
+}
+
+.qstar-warlock-eye:before {
+  content: "\E065";
+}
+
+.qstar-yin-yang:before {
+  content: "\E066";
+}
+
+.qstar-cancel:before {
+  content: "\E067";
+}
+
+.qstar-clover-spiked:before {
+  content: "\E068";
+}
+
+.qstar-clover:before {
+  content: "\E069";
+}
+
+.qstar-doubled:before {
+  content: "\E06A";
+}
+
+.qstar-expander:before {
+  content: "\E06B";
+}
+
+.qstar-help:before {
+  content: "\E06C";
+}
+
+.qstar-hive:before {
+  content: "\E06D";
+}
+
+.qstar-mass-driver:before {
+  content: "\E06E";
+}
+
+.qstar-nodular:before {
+  content: "\E06F";
+}
+
+.qstar-nuclear:before {
+  content: "\E070";
+}
+
+.qstar-overmind:before {
+  content: "\E071";
+}
+
+.qstar-pulse:before {
+  content: "\E072";
+}
+
+.qstar-reactor:before {
+  content: "\E073";
+}
+
+.qstar-regeneration:before {
+  content: "\E074";
+}
+
+.qstar-slow-blob:before {
+  content: "\E075";
+}
+
+.qstar-spawn-node:before {
+  content: "\E076";
+}
+
+.qstar-infinity:before {
+  content: "\E077";
+}
+
+.qstar-allied-star:before {
+  content: "\E078";
+}
+
+.qstar-balkenkreuz:before {
+  content: "\E079";
+}
+
+.qstar-bat:before {
+  content: "\E07A";
+}
+
+.qstar-clubs:before {
+  content: "\E07B";
+}
+
+.qstar-diamonds:before {
+  content: "\E07C";
+}
+
+.qstar-divided-square:before {
+  content: "\E07D";
+}
+
+.qstar-hearts:before {
+  content: "\E07E";
+}
+
+.qstar-iron-cross:before {
+  content: "\E07F";
+}
+
+.qstar-pentacle:before {
+  content: "\E080";
+}
+
+.qstar-spades:before {
+  content: "\E081";
+}
+
+.qstar-ace:before {
+  content: "\E082";
+}
+
+.qstar-aerial-signal:before {
+  content: "\E083";
+}
+
+.qstar-ankh:before {
+  content: "\E084";
+}
+
+.qstar-artificial-hive:before {
+  content: "\E085";
+}
+
+.qstar-automatic-sas:before {
+  content: "\E086";
+}
+
+.qstar-barbed-sun:before {
+  content: "\E087";
+}
+
+.qstar-batwing-emblem:before {
+  content: "\E088";
+}
+
+.qstar-biohazard:before {
+  content: "\E089";
+}
+
+.qstar-black-flag:before {
+  content: "\E08A";
+}
+
+.qstar-checkbox-tree:before {
+  content: "\E08B";
+}
+
+.qstar-clover-2:before {
+  content: "\E08C";
+}
+
+.qstar-coiling-curl:before {
+  content: "\E08D";
+}
+
+.qstar-concentric-crescents:before {
+  content: "\E08E";
+}
+
+.qstar-condor-emblem:before {
+  content: "\E08F";
+}
+
+.qstar-conversation:before {
+  content: "\E090";
+}
+
+.qstar-cubeforce:before {
+  content: "\E091";
+}
+
+.qstar-cubes:before {
+  content: "\E092";
+}
+
+.qstar-cursed-star:before {
+  content: "\E093";
+}
+
+.qstar-cycle:before {
+  content: "\E094";
+}
+
+.qstar-divided-spiral:before {
+  content: "\E095";
+}
+
+.qstar-eagle-emblem:before {
+  content: "\E096";
+}
+
+.qstar-fluffy-trefoil:before {
+  content: "\E097";
+}
+
+.qstar-freedom-dove:before {
+  content: "\E098";
+}
+
+.qstar-gamepad-cross:before {
+  content: "\E099";
+}
+
+.qstar-gothic-cross:before {
+  content: "\E09A";
+}
+
+.qstar-hawk-emblem:before {
+  content: "\E09B";
+}
+
+.qstar-hazard-sign:before {
+  content: "\E09C";
+}
+
+.qstar-holy-symbol:before {
+  content: "\E09D";
+}
+
+.qstar-hospital-cross:before {
+  content: "\E09E";
+}
+
+.qstar-interdiction:before {
+  content: "\E09F";
+}
+
+.qstar-james-bond-aperture:before {
+  content: "\E0A0";
+}
+
+.qstar-justice-star:before {
+  content: "\E0A1";
+}
+
+.qstar-king:before {
+  content: "\E0A2";
+}
+
+.qstar-laser-warning:before {
+  content: "\E0A3";
+}
+
+.qstar-law-star:before {
+  content: "\E0A4";
+}
+
+.qstar-maze-cornea:before {
+  content: "\E0A5";
+}
+
+.qstar-maze-saw:before {
+  content: "\E0A6";
+}
+
+.qstar-moebius-star:before {
+  content: "\E0A7";
+}
+
+.qstar-moebius-trefoil:before {
+  content: "\E0A8";
+}
+
+.qstar-moebius-triangle:before {
+  content: "\E0A9";
+}
+
+.qstar-omega:before {
+  content: "\E0AA";
+}
+
+.qstar-orbital:before {
+  content: "\E0AB";
+}
+
+.qstar-over-infinity:before {
+  content: "\E0AC";
+}
+
+.qstar-pentagram-rose:before {
+  content: "\E0AD";
+}
+
+.qstar-perpendicular-rings:before {
+  content: "\E0AE";
+}
+
+.qstar-radial-balance:before {
+  content: "\E0AF";
+}
+
+.qstar-radioactive:before {
+  content: "\E0B0";
+}
+
+.qstar-recycle:before {
+  content: "\E0B1";
+}
+
+.qstar-ribbon:before {
+  content: "\E0B2";
+}
+
+.qstar-rss-2:before {
+  content: "\E0B3";
+}
+
+.qstar-rune-sword:before {
+  content: "\E0B4";
+}
+
+.qstar-scales:before {
+  content: "\E0B5";
+}
+
+.qstar-shiny-omega:before {
+  content: "\E0B6";
+}
+
+.qstar-shuriken-aperture:before {
+  content: "\E0B7";
+}
+
+.qstar-skull-crossed-bones:before {
+  content: "\E0B8";
+}
+
+.qstar-staryu:before {
+  content: "\E0B9";
+}
+
+.qstar-steelwing-emblem:before {
+  content: "\E0BA";
+}
+
+.qstar-totem-head:before {
+  content: "\E0BB";
+}
+
+.qstar-triorb:before {
+  content: "\E0BC";
+}
+
+.qstar-triple-beak:before {
+  content: "\E0BD";
+}
+
+.qstar-triple-corn:before {
+  content: "\E0BE";
+}
+
+.qstar-triple-plier:before {
+  content: "\E0BF";
+}
+
+.qstar-triple-yin:before {
+  content: "\E0C0";
+}
+
+.qstar-ubisoft-sun:before {
+  content: "\E0C1";
+}
+
+.qstar-zigzag-cage:before {
+  content: "\E0C2";
+}
+
+.qstar-brutal-helm:before {
+  content: "\E0C3";
+}
+
+.qstar-dwarf-helmet:before {
+  content: "\E0C4";
+}
+
+.qstar-dwarf-king:before {
+  content: "\E0C5";
+}
+
+.qstar-elf-helmet:before {
+  content: "\E0C6";
+}
+
+.qstar-american-football-helmet:before {
+  content: "\E0C7";
+}
+
+.qstar-astronaut-helmet:before {
+  content: "\E0C8";
+}
+
+.qstar-black-knight-helm:before {
+  content: "\E0C9";
+}
+
+.qstar-chef-toque:before {
+  content: "\E0CA";
+}
+
+.qstar-closed-barbute:before {
+  content: "\E0CB";
+}
+
+.qstar-coronation:before {
+  content: "\E0CC";
+}
+
+.qstar-deshret-red-crown:before {
+  content: "\E0CD";
+}
+
+.qstar-diving-helmet:before {
+  content: "\E0CE";
+}
+
+.qstar-dunce-cap:before {
+  content: "\E0CF";
+}
+
+.qstar-fez:before {
+  content: "\E0D0";
+}
+
+.qstar-frog-prince:before {
+  content: "\E0D1";
+}
+
+.qstar-full-motorcycle-helmet:before {
+  content: "\E0D2";
+}
+
+.qstar-galea:before {
+  content: "\E0D3";
+}
+
+.qstar-gauls-helm:before {
+  content: "\E0D4";
+}
+
+.qstar-graduate-cap:before {
+  content: "\E0D5";
+}
+
+.qstar-hazmat-suit:before {
+  content: "\E0D6";
+}
+
+.qstar-hedjet-white-crown:before {
+  content: "\E0D7";
+}
+
+.qstar-jester-hat:before {
+  content: "\E0D8";
+}
+
+.qstar-jewel-crown:before {
+  content: "\E0D9";
+}
+
+.qstar-magic-hat:before {
+  content: "\E0DA";
+}
+
+.qstar-magick-trick:before {
+  content: "\E0DB";
+}
+
+.qstar-mining-helmet:before {
+  content: "\E0DC";
+}
+
+.qstar-nefertiti:before {
+  content: "\E0DD";
+}
+
+.qstar-overlord-helm:before {
+  content: "\E0DE";
+}
+
+.qstar-phrygian-cap:before {
+  content: "\E0DF";
+}
+
+.qstar-pirate-hat:before {
+  content: "\E0E0";
+}
+
+.qstar-plague-doctor-profile:before {
+  content: "\E0E1";
+}
+
+.qstar-pope-crown:before {
+  content: "\E0E2";
+}
+
+.qstar-propeller-beanie:before {
+  content: "\E0E3";
+}
+
+.qstar-pschent-double-crown:before {
+  content: "\E0E4";
+}
+
+.qstar-robin-hood-hat:before {
+  content: "\E0E5";
+}
+
+.qstar-sherlock-holmes:before {
+  content: "\E0E6";
+}
+
+.qstar-sombrero:before {
+  content: "\E0E7";
+}
+
+.qstar-spartan-helmet:before {
+  content: "\E0E8";
+}
+
+.qstar-spy:before {
+  content: "\E0E9";
+}
+
+.qstar-throne-king:before {
+  content: "\E0EA";
+}
+
+.qstar-tiara:before {
+  content: "\E0EB";
+}
+
+.qstar-turban:before {
+  content: "\E0EC";
+}
+
+.qstar-viking-helmet:before {
+  content: "\E0ED";
+}
+
+.qstar-warlock-hood:before {
+  content: "\E0EE";
+}
+
+.qstar-western-hat:before {
+  content: "\E0EF";
+}
+
+.qstar-helmet:before {
+  content: "\E0F0";
+}
+
+.qstar-brodie-helmet:before {
+  content: "\E0F1";
+}
+
+.qstar-chess-king:before {
+  content: "\E0F2";
+}
+
+.qstar-chess-queen:before {
+  content: "\E0F3";
+}
+
+.qstar-pickelhaube:before {
+  content: "\E0F4";
+}
+
+.qstar-stahlhelm:before {
+  content: "\E0F5";
+}
+
+.qstar-wooden-helmet:before {
+  content: "\E0F6";
+}
+
+.qstar-barbute:before {
+  content: "\E0F7";
+}
+
+.qstar-cowled:before {
+  content: "\E0F8";
+}
+
+.qstar-cracked-helm:before {
+  content: "\E0F9";
+}
+
+.qstar-crested-helmet:before {
+  content: "\E0FA";
+}
+
+.qstar-crown-coin:before {
+  content: "\E0FB";
+}
+
+.qstar-crown-of-thorns:before {
+  content: "\E0FC";
+}
+
+.qstar-crown:before {
+  content: "\E0FD";
+}
+
+.qstar-crowned-heart:before {
+  content: "\E0FE";
+}
+
+.qstar-crowned-skull:before {
+  content: "\E0FF";
+}
+
+.qstar-fedora:before {
+  content: "\E100";
+}
+
+.qstar-heavy-helm:before {
+  content: "\E101";
+}
+
+.qstar-helmet-head-shot:before {
+  content: "\E102";
+}
+
+.qstar-hood:before {
+  content: "\E103";
+}
+
+.qstar-horned-helm:before {
+  content: "\E104";
+}
+
+.qstar-laurel-crown:before {
+  content: "\E105";
+}
+
+.qstar-laurels:before {
+  content: "\E106";
+}
+
+.qstar-pointy-hat:before {
+  content: "\E107";
+}
+
+.qstar-queen-crown:before {
+  content: "\E108";
+}
+
+.qstar-sharp-crown:before {
+  content: "\E109";
+}
+
+.qstar-top-hat:before {
+  content: "\E10A";
+}
+
+.qstar-visored-helm:before {
+  content: "\E10B";
+}
+
+.qstar-crossbow:before {
+  content: "\E10C";
+}
+
+.qstar-annexation:before {
+  content: "\E10D";
+}
+
+.qstar-anticlockwise-rotation:before {
+  content: "\E10E";
+}
+
+.qstar-arrow-cursor:before {
+  content: "\E10F";
+}
+
+.qstar-chart:before {
+  content: "\E110";
+}
+
+.qstar-clockwise-rotation:before {
+  content: "\E111";
+}
+
+.qstar-contract:before {
+  content: "\E112";
+}
+
+.qstar-expand:before {
+  content: "\E113";
+}
+
+.qstar-horizontal-flip:before {
+  content: "\E114";
+}
+
+.qstar-move:before {
+  content: "\E115";
+}
+
+.qstar-plain-arrow:before {
+  content: "\E116";
+}
+
+.qstar-vertical-flip:before {
+  content: "\E117";
+}
+
+.qstar-card-draw:before {
+  content: "\E118";
+}
+
+.qstar-forward-sun:before {
+  content: "\E119";
+}
+
+.qstar-dodge:before {
+  content: "\E11A";
+}
+
+.qstar-overhead:before {
+  content: "\E11B";
+}
+
+.qstar-sideswipe:before {
+  content: "\E11C";
+}
+
+.qstar-thrust:before {
+  content: "\E11D";
+}
+
+.qstar-underhand:before {
+  content: "\E11E";
+}
+
+.qstar-bunker-assault:before {
+  content: "\E11F";
+}
+
+.qstar-trench-assault:before {
+  content: "\E120";
+}
+
+.qstar-achilles-heel:before {
+  content: "\E121";
+}
+
+.qstar-archer:before {
+  content: "\E122";
+}
+
+.qstar-backward-time:before {
+  content: "\E123";
+}
+
+.qstar-body-height:before {
+  content: "\E124";
+}
+
+.qstar-bow-arrow:before {
+  content: "\E125";
+}
+
+.qstar-buy-card:before {
+  content: "\E126";
+}
+
+.qstar-card-exchange:before {
+  content: "\E127";
+}
+
+.qstar-dart:before {
+  content: "\E128";
+}
+
+.qstar-detour:before {
+  content: "\E129";
+}
+
+.qstar-direction-sign:before {
+  content: "\E12A";
+}
+
+.qstar-encirclement:before {
+  content: "\E12B";
+}
+
+.qstar-expense:before {
+  content: "\E12C";
+}
+
+.qstar-join:before {
+  content: "\E12D";
+}
+
+.qstar-quiver:before {
+  content: "\E12E";
+}
+
+.qstar-sell-card:before {
+  content: "\E12F";
+}
+
+.qstar-slalom:before {
+  content: "\E130";
+}
+
+.qstar-spear-feather:before {
+  content: "\E131";
+}
+
+.qstar-sun-spear:before {
+  content: "\E132";
+}
+
+.qstar-thrust-bend:before {
+  content: "\E133";
+}
+
+.qstar-up-card:before {
+  content: "\E134";
+}
+
+.qstar-upgrade:before {
+  content: "\E135";
+}
+
+.qstar-fall-down:before {
+  content: "\E136";
+}
+
+.qstar-pounce:before {
+  content: "\E137";
+}
+
+.qstar-bullseye:before {
+  content: "\E138";
+}
+
+.qstar-aerodynamic-harpoon:before {
+  content: "\E139";
+}
+
+.qstar-arrow-cluster:before {
+  content: "\E13A";
+}
+
+.qstar-arrow-dunk:before {
+  content: "\E13B";
+}
+
+.qstar-arrow-flights:before {
+  content: "\E13C";
+}
+
+.qstar-arrow-scope:before {
+  content: "\E13D";
+}
+
+.qstar-arrowed:before {
+  content: "\E13E";
+}
+
+.qstar-arrowhead:before {
+  content: "\E13F";
+}
+
+.qstar-back-forth:before {
+  content: "\E140";
+}
+
+.qstar-barbed-arrow:before {
+  content: "\E141";
+}
+
+.qstar-barbed-spear:before {
+  content: "\E142";
+}
+
+.qstar-bottom-right-3d-arrow:before {
+  content: "\E143";
+}
+
+.qstar-bowman:before {
+  content: "\E144";
+}
+
+.qstar-branch-arrow:before {
+  content: "\E145";
+}
+
+.qstar-broadhead-arrow:before {
+  content: "\E146";
+}
+
+.qstar-chained-arrow-heads:before {
+  content: "\E147";
+}
+
+.qstar-charged-arrow:before {
+  content: "\E148";
+}
+
+.qstar-chemical-arrow:before {
+  content: "\E149";
+}
+
+.qstar-crosshair-arrow:before {
+  content: "\E14A";
+}
+
+.qstar-cupidon-arrow:before {
+  content: "\E14B";
+}
+
+.qstar-divergence:before {
+  content: "\E14C";
+}
+
+.qstar-divert:before {
+  content: "\E14D";
+}
+
+.qstar-double-shot:before {
+  content: "\E14E";
+}
+
+.qstar-energy-arrow:before {
+  content: "\E14F";
+}
+
+.qstar-falling-boulder:before {
+  content: "\E150";
+}
+
+.qstar-fast-arrow:before {
+  content: "\E151";
+}
+
+.qstar-flaming-arrow:before {
+  content: "\E152";
+}
+
+.qstar-frayed-arrow:before {
+  content: "\E153";
+}
+
+.qstar-frozen-arrow:before {
+  content: "\E154";
+}
+
+.qstar-headshot:before {
+  content: "\E155";
+}
+
+.qstar-heavy-arrow:before {
+  content: "\E156";
+}
+
+.qstar-high-shot:before {
+  content: "\E157";
+}
+
+.qstar-ice-spear:before {
+  content: "\E158";
+}
+
+.qstar-imbricated-arrows:before {
+  content: "\E159";
+}
+
+.qstar-impact-point:before {
+  content: "\E15A";
+}
+
+.qstar-interleaved-arrows:before {
+  content: "\E15B";
+}
+
+.qstar-lift:before {
+  content: "\E15C";
+}
+
+.qstar-lob-arrow:before {
+  content: "\E15D";
+}
+
+.qstar-middle-arrow:before {
+  content: "\E15E";
+}
+
+.qstar-on-target:before {
+  content: "\E15F";
+}
+
+.qstar-orb-direction:before {
+  content: "\E160";
+}
+
+.qstar-paper-arrow:before {
+  content: "\E161";
+}
+
+.qstar-pentarrows-tornado:before {
+  content: "\E162";
+}
+
+.qstar-pierced-body:before {
+  content: "\E163";
+}
+
+.qstar-pierced-heart:before {
+  content: "\E164";
+}
+
+.qstar-piercing-sword:before {
+  content: "\E165";
+}
+
+.qstar-pocket-bow:before {
+  content: "\E166";
+}
+
+.qstar-profit:before {
+  content: "\E167";
+}
+
+.qstar-rally-the-troops:before {
+  content: "\E168";
+}
+
+.qstar-rapidshare-arrow:before {
+  content: "\E169";
+}
+
+.qstar-return-arrow:before {
+  content: "\E16A";
+}
+
+.qstar-self-love:before {
+  content: "\E16B";
+}
+
+.qstar-slicing-arrow:before {
+  content: "\E16C";
+}
+
+.qstar-smash-arrows:before {
+  content: "\E16D";
+}
+
+.qstar-spear-hook:before {
+  content: "\E16E";
+}
+
+.qstar-spears:before {
+  content: "\E16F";
+}
+
+.qstar-spine-arrow:before {
+  content: "\E170";
+}
+
+.qstar-spiral-arrow:before {
+  content: "\E171";
+}
+
+.qstar-spotted-arrowhead:before {
+  content: "\E172";
+}
+
+.qstar-stone-spear:before {
+  content: "\E173";
+}
+
+.qstar-striking-arrows:before {
+  content: "\E174";
+}
+
+.qstar-striking-clamps:before {
+  content: "\E175";
+}
+
+.qstar-supersonic-arrow:before {
+  content: "\E176";
+}
+
+.qstar-target-arrows:before {
+  content: "\E177";
+}
+
+.qstar-target-shot:before {
+  content: "\E178";
+}
+
+.qstar-thorn-helix:before {
+  content: "\E179";
+}
+
+.qstar-thorned-arrow:before {
+  content: "\E17A";
+}
+
+.qstar-thrown-spear:before {
+  content: "\E17B";
+}
+
+.qstar-trade:before {
+  content: "\E17C";
+}
+
+.qstar-tron-arrow:before {
+  content: "\E17D";
+}
+
+.qstar-uncertainty:before {
+  content: "\E17E";
+}
+
+.qstar-wavy-itinerary:before {
+  content: "\E17F";
+}
+
+.qstar-wide-arrow-dunk:before {
+  content: "\E180";
+}
+
+.qstar-william-tell-skull:before {
+  content: "\E181";
+}
+
+.qstar-william-tell:before {
+  content: "\E182";
+}
+
+.qstar-winged-arrow:before {
+  content: "\E183";
+}
+
+.qstar-zig-arrow:before {
+  content: "\E184";
+}
+
+.qstar-flying-shuriken:before {
+  content: "\E185";
+}
+
+.qstar-kusarigama:before {
+  content: "\E186";
+}
+
+.qstar-north-star-shuriken:before {
+  content: "\E187";
+}
+
+.qstar-sharp-shuriken:before {
+  content: "\E188";
+}
+
+.qstar-shuriken:before {
+  content: "\E189";
+}
+
+.qstar-star-shuriken:before {
+  content: "\E18A";
+}
+
+.qstar-three-pointed-shuriken:before {
+  content: "\E18B";
+}
+
+.qstar-whirlpool-shuriken:before {
+  content: "\E18C";
+}
+
+.qstar-baseball-bat:before {
+  content: "\E18D";
+}
+
+.qstar-ninja-star:before {
+  content: "\E18E";
+}
+
+.qstar-shepherds-crook:before {
+  content: "\E18F";
+}
+
+.qstar-pistol-gun:before {
+  content: "\E190";
+}
+
+.qstar-field-gun:before {
+  content: "\E191";
+}
+
+.qstar-bo:before {
+  content: "\E192";
+}
+
+.qstar-boomerang:before {
+  content: "\E193";
+}
+
+.qstar-brass-knuckles:before {
+  content: "\E194";
+}
+
+.qstar-crowbar:before {
+  content: "\E195";
+}
+
+.qstar-dagger-rose:before {
+  content: "\E196";
+}
+
+.qstar-flail:before {
+  content: "\E197";
+}
+
+.qstar-flanged-mace:before {
+  content: "\E198";
+}
+
+.qstar-gun-rose:before {
+  content: "\E199";
+}
+
+.qstar-laser-turret:before {
+  content: "\E19A";
+}
+
+.qstar-lasso:before {
+  content: "\E19B";
+}
+
+.qstar-lead-pipe:before {
+  content: "\E19C";
+}
+
+.qstar-lunar-wand:before {
+  content: "\E19D";
+}
+
+.qstar-magic-trident:before {
+  content: "\E19E";
+}
+
+.qstar-missile-launcher:before {
+  content: "\E19F";
+}
+
+.qstar-monkey-wrench:before {
+  content: "\E1A0";
+}
+
+.qstar-mortar:before {
+  content: "\E1A1";
+}
+
+.qstar-mp5:before {
+  content: "\E1A2";
+}
+
+.qstar-nunchaku:before {
+  content: "\E1A3";
+}
+
+.qstar-panzerfaust:before {
+  content: "\E1A4";
+}
+
+.qstar-revolver:before {
+  content: "\E1A5";
+}
+
+.qstar-sai:before {
+  content: "\E1A6";
+}
+
+.qstar-sawed-off-shotgun:before {
+  content: "\E1A7";
+}
+
+.qstar-sharp-axe:before {
+  content: "\E1A8";
+}
+
+.qstar-skull-staff:before {
+  content: "\E1A9";
+}
+
+.qstar-slingshot:before {
+  content: "\E1AA";
+}
+
+.qstar-stake-hammer:before {
+  content: "\E1AB";
+}
+
+.qstar-switch-weapon:before {
+  content: "\E1AC";
+}
+
+.qstar-thor-hammer:before {
+  content: "\E1AD";
+}
+
+.qstar-tomahawk:before {
+  content: "\E1AE";
+}
+
+.qstar-torpedo:before {
+  content: "\E1AF";
+}
+
+.qstar-umbrella-bayonet:before {
+  content: "\E1B0";
+}
+
+.qstar-uzi:before {
+  content: "\E1B1";
+}
+
+.qstar-war-axe:before {
+  content: "\E1B2";
+}
+
+.qstar-war-pick:before {
+  content: "\E1B3";
+}
+
+.qstar-wood-club:before {
+  content: "\E1B4";
+}
+
+.qstar-ammo-box:before {
+  content: "\E1B5";
+}
+
+.qstar-chaingun:before {
+  content: "\E1B6";
+}
+
+.qstar-duel:before {
+  content: "\E1B7";
+}
+
+.qstar-grenade:before {
+  content: "\E1B8";
+}
+
+.qstar-laser-gun:before {
+  content: "\E1B9";
+}
+
+.qstar-rifle:before {
+  content: "\E1BA";
+}
+
+.qstar-shotgun:before {
+  content: "\E1BB";
+}
+
+.qstar-turret:before {
+  content: "\E1BC";
+}
+
+.qstar-baton:before {
+  content: "\E1BD";
+}
+
+.qstar-bayonet:before {
+  content: "\E1BE";
+}
+
+.qstar-drop-weapon:before {
+  content: "\E1BF";
+}
+
+.qstar-famas:before {
+  content: "\E1C0";
+}
+
+.qstar-gladius:before {
+  content: "\E1C1";
+}
+
+.qstar-lee-enfield:before {
+  content: "\E1C2";
+}
+
+.qstar-luger:before {
+  content: "\E1C3";
+}
+
+.qstar-nuclear-bomb:before {
+  content: "\E1C4";
+}
+
+.qstar-spiked-ball:before {
+  content: "\E1C5";
+}
+
+.qstar-spiked-bat:before {
+  content: "\E1C6";
+}
+
+.qstar-steyr-aug:before {
+  content: "\E1C7";
+}
+
+.qstar-stick-grenade:before {
+  content: "\E1C8";
+}
+
+.qstar-tec-9:before {
+  content: "\E1C9";
+}
+
+.qstar-telescopic-baton:before {
+  content: "\E1CA";
+}
+
+.qstar-teller-mine:before {
+  content: "\E1CB";
+}
+
+.qstar-orb-wand:before {
+  content: "\E1CC";
+}
+
+.qstar-all-for-one:before {
+  content: "\E1CD";
+}
+
+.qstar-andromeda-chain:before {
+  content: "\E1CE";
+}
+
+.qstar-archery-target:before {
+  content: "\E1CF";
+}
+
+.qstar-autogun:before {
+  content: "\E1D0";
+}
+
+.qstar-axe-in-stump:before {
+  content: "\E1D1";
+}
+
+.qstar-backstab:before {
+  content: "\E1D2";
+}
+
+.qstar-battered-axe:before {
+  content: "\E1D3";
+}
+
+.qstar-battle-axe:before {
+  content: "\E1D4";
+}
+
+.qstar-beam-wake:before {
+  content: "\E1D5";
+}
+
+.qstar-blunderbuss:before {
+  content: "\E1D6";
+}
+
+.qstar-bolas:before {
+  content: "\E1D7";
+}
+
+.qstar-bolter-gun:before {
+  content: "\E1D8";
+}
+
+.qstar-broken-bottle:before {
+  content: "\E1D9";
+}
+
+.qstar-bullets:before {
+  content: "\E1DA";
+}
+
+.qstar-cannon-ball:before {
+  content: "\E1DB";
+}
+
+.qstar-cannon-shot:before {
+  content: "\E1DC";
+}
+
+.qstar-cannon:before {
+  content: "\E1DD";
+}
+
+.qstar-crossed-pistols:before {
+  content: "\E1DE";
+}
+
+.qstar-crossed-sabres:before {
+  content: "\E1DF";
+}
+
+.qstar-crossed-swords:before {
+  content: "\E1E0";
+}
+
+.qstar-crystal-wand:before {
+  content: "\E1E1";
+}
+
+.qstar-dripping-knife:before {
+  content: "\E1E2";
+}
+
+.qstar-fairy-wand:before {
+  content: "\E1E3";
+}
+
+.qstar-flaming-trident:before {
+  content: "\E1E4";
+}
+
+.qstar-flash-grenade:before {
+  content: "\E1E5";
+}
+
+.qstar-grapple:before {
+  content: "\E1E6";
+}
+
+.qstar-grenade-2:before {
+  content: "\E1E7";
+}
+
+.qstar-gunshot:before {
+  content: "\E1E8";
+}
+
+.qstar-halberd-shuriken:before {
+  content: "\E1E9";
+}
+
+.qstar-harpoon-chain:before {
+  content: "\E1EA";
+}
+
+.qstar-harpoon-trident:before {
+  content: "\E1EB";
+}
+
+.qstar-laser-blast:before {
+  content: "\E1EC";
+}
+
+.qstar-lightning-bow:before {
+  content: "\E1ED";
+}
+
+.qstar-mace-head:before {
+  content: "\E1EE";
+}
+
+.qstar-machete:before {
+  content: "\E1EF";
+}
+
+.qstar-minigun:before {
+  content: "\E1F0";
+}
+
+.qstar-missile-pod:before {
+  content: "\E1F1";
+}
+
+.qstar-missile-swarm:before {
+  content: "\E1F2";
+}
+
+.qstar-pincers:before {
+  content: "\E1F3";
+}
+
+.qstar-ray-gun:before {
+  content: "\E1F4";
+}
+
+.qstar-reticule:before {
+  content: "\E1F5";
+}
+
+.qstar-saber-slash:before {
+  content: "\E1F6";
+}
+
+.qstar-sabers-choc:before {
+  content: "\E1F7";
+}
+
+.qstar-sacrificial-dagger:before {
+  content: "\E1F8";
+}
+
+.qstar-scalpel-strike:before {
+  content: "\E1F9";
+}
+
+.qstar-scythe:before {
+  content: "\E1FA";
+}
+
+.qstar-sentry-gun:before {
+  content: "\E1FB";
+}
+
+.qstar-shuriken-2:before {
+  content: "\E1FC";
+}
+
+.qstar-slavery-whip:before {
+  content: "\E1FD";
+}
+
+.qstar-sparkling-sabre:before {
+  content: "\E1FE";
+}
+
+.qstar-spiked-mace:before {
+  content: "\E1FF";
+}
+
+.qstar-spray:before {
+  content: "\E200";
+}
+
+.qstar-stiletto:before {
+  content: "\E201";
+}
+
+.qstar-supersonic-bullet:before {
+  content: "\E202";
+}
+
+.qstar-sword-clash:before {
+  content: "\E203";
+}
+
+.qstar-sword-in-stone:before {
+  content: "\E204";
+}
+
+.qstar-sword-spade:before {
+  content: "\E205";
+}
+
+.qstar-tesla-turret:before {
+  content: "\E206";
+}
+
+.qstar-trefoil-shuriken:before {
+  content: "\E207";
+}
+
+.qstar-trident:before {
+  content: "\E208";
+}
+
+.qstar-wave-strike:before {
+  content: "\E209";
+}
+
+.qstar-whip:before {
+  content: "\E20A";
+}
+
+.qstar-winged-sword:before {
+  content: "\E20B";
+}
+
+.qstar-wizard-staff:before {
+  content: "\E20C";
+}
+
+.qstar-flame:before {
+  content: "\E20D";
+}
+
+.qstar-candles:before {
+  content: "\E20E";
+}
+
+.qstar-fire-extinguisher:before {
+  content: "\E20F";
+}
+
+.qstar-lighter:before {
+  content: "\E210";
+}
+
+.qstar-torch:before {
+  content: "\E211";
+}
+
+.qstar-blast:before {
+  content: "\E212";
+}
+
+.qstar-blaster:before {
+  content: "\E213";
+}
+
+.qstar-burn:before {
+  content: "\E214";
+}
+
+.qstar-fire:before {
+  content: "\E215";
+}
+
+.qstar-fireflake:before {
+  content: "\E216";
+}
+
+.qstar-flamer:before {
+  content: "\E217";
+}
+
+.qstar-hot-surface:before {
+  content: "\E218";
+}
+
+.qstar-lava:before {
+  content: "\E219";
+}
+
+.qstar-lucifer-cannon:before {
+  content: "\E21A";
+}
+
+.qstar-burning-skull:before {
+  content: "\E21B";
+}
+
+.qstar-alien-fire:before {
+  content: "\E21C";
+}
+
+.qstar-arson:before {
+  content: "\E21D";
+}
+
+.qstar-burning-book:before {
+  content: "\E21E";
+}
+
+.qstar-burning-dot:before {
+  content: "\E21F";
+}
+
+.qstar-burning-embers:before {
+  content: "\E220";
+}
+
+.qstar-burning-eye:before {
+  content: "\E221";
+}
+
+.qstar-burning-meteor:before {
+  content: "\E222";
+}
+
+.qstar-burning-passion:before {
+  content: "\E223";
+}
+
+.qstar-burning-tree:before {
+  content: "\E224";
+}
+
+.qstar-caldera:before {
+  content: "\E225";
+}
+
+.qstar-campfire:before {
+  content: "\E226";
+}
+
+.qstar-candle-flame:before {
+  content: "\E227";
+}
+
+.qstar-candle-holder:before {
+  content: "\E228";
+}
+
+.qstar-candle-light:before {
+  content: "\E229";
+}
+
+.qstar-candlebright:before {
+  content: "\E22A";
+}
+
+.qstar-celebration-fire:before {
+  content: "\E22B";
+}
+
+.qstar-dragon-breath:before {
+  content: "\E22C";
+}
+
+.qstar-ember-shot:before {
+  content: "\E22D";
+}
+
+.qstar-eruption:before {
+  content: "\E22E";
+}
+
+.qstar-fire-ace:before {
+  content: "\E22F";
+}
+
+.qstar-fire-axe:before {
+  content: "\E230";
+}
+
+.qstar-fire-bomb:before {
+  content: "\E231";
+}
+
+.qstar-fire-bottle:before {
+  content: "\E232";
+}
+
+.qstar-fire-bowl:before {
+  content: "\E233";
+}
+
+.qstar-fire-breath:before {
+  content: "\E234";
+}
+
+.qstar-fire-dash:before {
+  content: "\E235";
+}
+
+.qstar-fire-punch:before {
+  content: "\E236";
+}
+
+.qstar-fire-ray:before {
+  content: "\E237";
+}
+
+.qstar-fire-ring:before {
+  content: "\E238";
+}
+
+.qstar-fire-silhouette:before {
+  content: "\E239";
+}
+
+.qstar-fire-tail:before {
+  content: "\E23A";
+}
+
+.qstar-fire-wave:before {
+  content: "\E23B";
+}
+
+.qstar-fire-zone:before {
+  content: "\E23C";
+}
+
+.qstar-fireball:before {
+  content: "\E23D";
+}
+
+.qstar-firework-rocket:before {
+  content: "\E23E";
+}
+
+.qstar-flame-claws:before {
+  content: "\E23F";
+}
+
+.qstar-flame-spin:before {
+  content: "\E240";
+}
+
+.qstar-flame-tunnel:before {
+  content: "\E241";
+}
+
+.qstar-flamed-leaf:before {
+  content: "\E242";
+}
+
+.qstar-flaming-claw:before {
+  content: "\E243";
+}
+
+.qstar-flaming-sheet:before {
+  content: "\E244";
+}
+
+.qstar-fluffy-flame:before {
+  content: "\E245";
+}
+
+.qstar-frostfire:before {
+  content: "\E246";
+}
+
+.qstar-heartburn:before {
+  content: "\E247";
+}
+
+.qstar-heat-haze:before {
+  content: "\E248";
+}
+
+.qstar-hot-spices:before {
+  content: "\E249";
+}
+
+.qstar-ifrit:before {
+  content: "\E24A";
+}
+
+.qstar-kindle:before {
+  content: "\E24B";
+}
+
+.qstar-lantern-flame:before {
+  content: "\E24C";
+}
+
+.qstar-lit-candelabra:before {
+  content: "\E24D";
+}
+
+.qstar-match-head:before {
+  content: "\E24E";
+}
+
+.qstar-match-tip:before {
+  content: "\E24F";
+}
+
+.qstar-molotov:before {
+  content: "\E250";
+}
+
+.qstar-plasma-bolt:before {
+  content: "\E251";
+}
+
+.qstar-pyromaniac:before {
+  content: "\E252";
+}
+
+.qstar-salamander:before {
+  content: "\E253";
+}
+
+.qstar-small-fire:before {
+  content: "\E254";
+}
+
+.qstar-spark-spirit:before {
+  content: "\E255";
+}
+
+.qstar-three-burning-balls:before {
+  content: "\E256";
+}
+
+.qstar-thrown-charcoal:before {
+  content: "\E257";
+}
+
+.qstar-unfriendly-fire:before {
+  content: "\E258";
+}
+
+.qstar-volcano:before {
+  content: "\E259";
+}
+
+.qstar-wildfires:before {
+  content: "\E25A";
+}
+
+.qstar-mite-alt:before {
+  content: "\E25B";
+}
+
+.qstar-spider-alt:before {
+  content: "\E25C";
+}
+
+.qstar-spider-face:before {
+  content: "\E25D";
+}
+
+.qstar-earth-worm:before {
+  content: "\E25E";
+}
+
+.qstar-flying-trout:before {
+  content: "\E25F";
+}
+
+.qstar-polar-bear:before {
+  content: "\E260";
+}
+
+.qstar-plants-and-animals:before {
+  content: "\E261";
+}
+
+.qstar-animal-hide:before {
+  content: "\E262";
+}
+
+.qstar-bat-2:before {
+  content: "\E263";
+}
+
+.qstar-bear-head:before {
+  content: "\E264";
+}
+
+.qstar-camel-head:before {
+  content: "\E265";
+}
+
+.qstar-charging-bull:before {
+  content: "\E266";
+}
+
+.qstar-chicken:before {
+  content: "\E267";
+}
+
+.qstar-clownfish:before {
+  content: "\E268";
+}
+
+.qstar-cow:before {
+  content: "\E269";
+}
+
+.qstar-cricket:before {
+  content: "\E26A";
+}
+
+.qstar-dolphin:before {
+  content: "\E26B";
+}
+
+.qstar-duck:before {
+  content: "\E26C";
+}
+
+.qstar-elephant-head:before {
+  content: "\E26D";
+}
+
+.qstar-elephant:before {
+  content: "\E26E";
+}
+
+.qstar-falcon-moon:before {
+  content: "\E26F";
+}
+
+.qstar-feline:before {
+  content: "\E270";
+}
+
+.qstar-flamingo:before {
+  content: "\E271";
+}
+
+.qstar-fox-tail:before {
+  content: "\E272";
+}
+
+.qstar-giant-squid:before {
+  content: "\E273";
+}
+
+.qstar-gorilla:before {
+  content: "\E274";
+}
+
+.qstar-griffin-symbol:before {
+  content: "\E275";
+}
+
+.qstar-horse-head:before {
+  content: "\E276";
+}
+
+.qstar-ivory-tusks:before {
+  content: "\E277";
+}
+
+.qstar-lynx-head:before {
+  content: "\E278";
+}
+
+.qstar-manta-ray:before {
+  content: "\E279";
+}
+
+.qstar-panda:before {
+  content: "\E27A";
+}
+
+.qstar-penguin:before {
+  content: "\E27B";
+}
+
+.qstar-praying-mantis:before {
+  content: "\E27C";
+}
+
+.qstar-rabbit:before {
+  content: "\E27D";
+}
+
+.qstar-rhinoceros-horn:before {
+  content: "\E27E";
+}
+
+.qstar-saddle:before {
+  content: "\E27F";
+}
+
+.qstar-sea-star:before {
+  content: "\E280";
+}
+
+.qstar-seahorse:before {
+  content: "\E281";
+}
+
+.qstar-shark-fin:before {
+  content: "\E282";
+}
+
+.qstar-sheep:before {
+  content: "\E283";
+}
+
+.qstar-snail-eyes:before {
+  content: "\E284";
+}
+
+.qstar-sperm-whale:before {
+  content: "\E285";
+}
+
+.qstar-tiger-head:before {
+  content: "\E286";
+}
+
+.qstar-tiger:before {
+  content: "\E287";
+}
+
+.qstar-tortoise:before {
+  content: "\E288";
+}
+
+.qstar-toucan:before {
+  content: "\E289";
+}
+
+.qstar-trojan-horse:before {
+  content: "\E28A";
+}
+
+.qstar-udder:before {
+  content: "\E28B";
+}
+
+.qstar-whale-tail:before {
+  content: "\E28C";
+}
+
+.qstar-wool:before {
+  content: "\E28D";
+}
+
+.qstar-big-egg:before {
+  content: "\E28E";
+}
+
+.qstar-claw:before {
+  content: "\E28F";
+}
+
+.qstar-poison:before {
+  content: "\E290";
+}
+
+.qstar-bear-face:before {
+  content: "\E291";
+}
+
+.qstar-chess-knight:before {
+  content: "\E292";
+}
+
+.qstar-donkey:before {
+  content: "\E293";
+}
+
+.qstar-goat:before {
+  content: "\E294";
+}
+
+.qstar-long-legged-spider:before {
+  content: "\E295";
+}
+
+.qstar-mounted-knight:before {
+  content: "\E296";
+}
+
+.qstar-pegasus:before {
+  content: "\E297";
+}
+
+.qstar-pig:before {
+  content: "\E298";
+}
+
+.qstar-ammonite-fossil:before {
+  content: "\E299";
+}
+
+.qstar-ammonite:before {
+  content: "\E29A";
+}
+
+.qstar-angler-fish:before {
+  content: "\E29B";
+}
+
+.qstar-angular-spider:before {
+  content: "\E29C";
+}
+
+.qstar-animal-skull:before {
+  content: "\E29D";
+}
+
+.qstar-armadillo-tail:before {
+  content: "\E29E";
+}
+
+.qstar-bat-wing:before {
+  content: "\E29F";
+}
+
+.qstar-bee:before {
+  content: "\E2A0";
+}
+
+.qstar-bird-twitter:before {
+  content: "\E2A1";
+}
+
+.qstar-black-cat:before {
+  content: "\E2A2";
+}
+
+.qstar-boar-tusks:before {
+  content: "\E2A3";
+}
+
+.qstar-bull-horns:before {
+  content: "\E2A4";
+}
+
+.qstar-bull:before {
+  content: "\E2A5";
+}
+
+.qstar-butterfly-warning:before {
+  content: "\E2A6";
+}
+
+.qstar-butterfly:before {
+  content: "\E2A7";
+}
+
+.qstar-centipede:before {
+  content: "\E2A8";
+}
+
+.qstar-chicken-leg:before {
+  content: "\E2A9";
+}
+
+.qstar-cobweb:before {
+  content: "\E2AA";
+}
+
+.qstar-crab-claw:before {
+  content: "\E2AB";
+}
+
+.qstar-crab:before {
+  content: "\E2AC";
+}
+
+.qstar-croc-jaws:before {
+  content: "\E2AD";
+}
+
+.qstar-crossed-claws:before {
+  content: "\E2AE";
+}
+
+.qstar-crow-dive:before {
+  content: "\E2AF";
+}
+
+.qstar-desert-skull:before {
+  content: "\E2B0";
+}
+
+.qstar-dinosaur-rex:before {
+  content: "\E2B1";
+}
+
+.qstar-dragonfly:before {
+  content: "\E2B2";
+}
+
+.qstar-earwig:before {
+  content: "\E2B3";
+}
+
+.qstar-evil-bat:before {
+  content: "\E2B4";
+}
+
+.qstar-fish-corpse:before {
+  content: "\E2B5";
+}
+
+.qstar-fishbone:before {
+  content: "\E2B6";
+}
+
+.qstar-food-chain:before {
+  content: "\E2B7";
+}
+
+.qstar-fox-head:before {
+  content: "\E2B8";
+}
+
+.qstar-frog:before {
+  content: "\E2B9";
+}
+
+.qstar-gecko:before {
+  content: "\E2BA";
+}
+
+.qstar-gold-scarab:before {
+  content: "\E2BB";
+}
+
+.qstar-grasping-claws:before {
+  content: "\E2BC";
+}
+
+.qstar-hanging-spider:before {
+  content: "\E2BD";
+}
+
+.qstar-hoof:before {
+  content: "\E2BE";
+}
+
+.qstar-horse-head-2:before {
+  content: "\E2BF";
+}
+
+.qstar-hound:before {
+  content: "\E2C0";
+}
+
+.qstar-insect-jaws:before {
+  content: "\E2C1";
+}
+
+.qstar-jellyfish:before {
+  content: "\E2C2";
+}
+
+.qstar-lamprey-mouth:before {
+  content: "\E2C3";
+}
+
+.qstar-leeching-worm:before {
+  content: "\E2C4";
+}
+
+.qstar-lion:before {
+  content: "\E2C5";
+}
+
+.qstar-maggot:before {
+  content: "\E2C6";
+}
+
+.qstar-masked-spider:before {
+  content: "\E2C7";
+}
+
+.qstar-minotaur:before {
+  content: "\E2C8";
+}
+
+.qstar-mite:before {
+  content: "\E2C9";
+}
+
+.qstar-monkey:before {
+  content: "\E2CA";
+}
+
+.qstar-mouse:before {
+  content: "\E2CB";
+}
+
+.qstar-octopus:before {
+  content: "\E2CC";
+}
+
+.qstar-ouroboros:before {
+  content: "\E2CD";
+}
+
+.qstar-owl:before {
+  content: "\E2CE";
+}
+
+.qstar-parmecia:before {
+  content: "\E2CF";
+}
+
+.qstar-parrot-head:before {
+  content: "\E2D0";
+}
+
+.qstar-paw-front:before {
+  content: "\E2D1";
+}
+
+.qstar-paw-heart:before {
+  content: "\E2D2";
+}
+
+.qstar-paw-print:before {
+  content: "\E2D3";
+}
+
+.qstar-paw:before {
+  content: "\E2D4";
+}
+
+.qstar-raven:before {
+  content: "\E2D5";
+}
+
+.qstar-roast-chicken:before {
+  content: "\E2D6";
+}
+
+.qstar-sad-crab:before {
+  content: "\E2D7";
+}
+
+.qstar-scarab-beetle:before {
+  content: "\E2D8";
+}
+
+.qstar-scorpion-tail:before {
+  content: "\E2D9";
+}
+
+.qstar-scorpion:before {
+  content: "\E2DA";
+}
+
+.qstar-sea-serpent:before {
+  content: "\E2DB";
+}
+
+.qstar-seated-mouse:before {
+  content: "\E2DC";
+}
+
+.qstar-shark-jaws:before {
+  content: "\E2DD";
+}
+
+.qstar-snail:before {
+  content: "\E2DE";
+}
+
+.qstar-snake-bite:before {
+  content: "\E2DF";
+}
+
+.qstar-snake-totem:before {
+  content: "\E2E0";
+}
+
+.qstar-snake:before {
+  content: "\E2E1";
+}
+
+.qstar-sonic-screech:before {
+  content: "\E2E2";
+}
+
+.qstar-spider-web:before {
+  content: "\E2E3";
+}
+
+.qstar-spiked-snail:before {
+  content: "\E2E4";
+}
+
+.qstar-squid-head:before {
+  content: "\E2E5";
+}
+
+.qstar-squid:before {
+  content: "\E2E6";
+}
+
+.qstar-stag-head:before {
+  content: "\E2E7";
+}
+
+.qstar-stomp:before {
+  content: "\E2E8";
+}
+
+.qstar-swan:before {
+  content: "\E2E9";
+}
+
+.qstar-tick:before {
+  content: "\E2EA";
+}
+
+.qstar-top-paw:before {
+  content: "\E2EB";
+}
+
+.qstar-trilobite:before {
+  content: "\E2EC";
+}
+
+.qstar-turd:before {
+  content: "\E2ED";
+}
+
+.qstar-turtle-shell:before {
+  content: "\E2EE";
+}
+
+.qstar-turtle:before {
+  content: "\E2EF";
+}
+
+.qstar-virus:before {
+  content: "\E2F0";
+}
+
+.qstar-vulture:before {
+  content: "\E2F1";
+}
+
+.qstar-wasp-sting:before {
+  content: "\E2F2";
+}
+
+.qstar-web-spit:before {
+  content: "\E2F3";
+}
+
+.qstar-werewolf:before {
+  content: "\E2F4";
+}
+
+.qstar-white-cat:before {
+  content: "\E2F5";
+}
+
+.qstar-wolf-head:before {
+  content: "\E2F6";
+}
+
+.qstar-wolf-howl:before {
+  content: "\E2F7";
+}
+
+.qstar-wolverine-claws:before {
+  content: "\E2F8";
+}
+
+.qstar-worm-mouth:before {
+  content: "\E2F9";
+}
+
+.qstar-amber-mosquito:before {
+  content: "\E2FA";
+}
+
+.qstar-beehive:before {
+  content: "\E2FB";
+}
+
+.qstar-claws:before {
+  content: "\E2FC";
+}
+
+.qstar-fly:before {
+  content: "\E2FD";
+}
+
+.qstar-tree-beehive:before {
+  content: "\E2FE";
+}
+
+.qstar-spotted-bug:before {
+  content: "\E2FF";
+}
+
+.qstar-beetle-shell:before {
+  content: "\E300";
+}
+
+.qstar-long-antennae-bug:before {
+  content: "\E301";
+}
+
+.qstar-opening-shell:before {
+  content: "\E302";
+}
+
+.qstar-card-10-clubs:before {
+  content: "\E303";
+}
+
+.qstar-card-10-diamonds:before {
+  content: "\E304";
+}
+
+.qstar-card-10-hearts:before {
+  content: "\E305";
+}
+
+.qstar-card-10-spades:before {
+  content: "\E306";
+}
+
+.qstar-card-2-clubs:before {
+  content: "\E307";
+}
+
+.qstar-card-2-diamonds:before {
+  content: "\E308";
+}
+
+.qstar-card-2-hearts:before {
+  content: "\E309";
+}
+
+.qstar-card-2-spades:before {
+  content: "\E30A";
+}
+
+.qstar-card-3-clubs:before {
+  content: "\E30B";
+}
+
+.qstar-card-3-diamonds:before {
+  content: "\E30C";
+}
+
+.qstar-card-3-hearts:before {
+  content: "\E30D";
+}
+
+.qstar-card-3-spades:before {
+  content: "\E30E";
+}
+
+.qstar-card-4-clubs:before {
+  content: "\E30F";
+}
+
+.qstar-card-4-diamonds:before {
+  content: "\E310";
+}
+
+.qstar-card-4-hearts:before {
+  content: "\E311";
+}
+
+.qstar-card-4-spades:before {
+  content: "\E312";
+}
+
+.qstar-card-5-clubs:before {
+  content: "\E313";
+}
+
+.qstar-card-5-diamonds:before {
+  content: "\E314";
+}
+
+.qstar-card-5-hearts:before {
+  content: "\E315";
+}
+
+.qstar-card-5-spades:before {
+  content: "\E316";
+}
+
+.qstar-card-6-clubs:before {
+  content: "\E317";
+}
+
+.qstar-card-6-diamonds:before {
+  content: "\E318";
+}
+
+.qstar-card-6-hearts:before {
+  content: "\E319";
+}
+
+.qstar-card-6-spades:before {
+  content: "\E31A";
+}
+
+.qstar-card-7-clubs:before {
+  content: "\E31B";
+}
+
+.qstar-card-7-diamonds:before {
+  content: "\E31C";
+}
+
+.qstar-card-7-hearts:before {
+  content: "\E31D";
+}
+
+.qstar-card-7-spades:before {
+  content: "\E31E";
+}
+
+.qstar-card-8-clubs:before {
+  content: "\E31F";
+}
+
+.qstar-card-8-diamonds:before {
+  content: "\E320";
+}
+
+.qstar-card-8-hearts:before {
+  content: "\E321";
+}
+
+.qstar-card-8-spades:before {
+  content: "\E322";
+}
+
+.qstar-card-9-clubs:before {
+  content: "\E323";
+}
+
+.qstar-card-9-diamonds:before {
+  content: "\E324";
+}
+
+.qstar-card-9-hearts:before {
+  content: "\E325";
+}
+
+.qstar-card-9-spades:before {
+  content: "\E326";
+}
+
+.qstar-card-ace-clubs:before {
+  content: "\E327";
+}
+
+.qstar-card-ace-diamonds:before {
+  content: "\E328";
+}
+
+.qstar-card-ace-hearts:before {
+  content: "\E329";
+}
+
+.qstar-card-ace-spades:before {
+  content: "\E32A";
+}
+
+.qstar-card-jack-clubs:before {
+  content: "\E32B";
+}
+
+.qstar-card-jack-diamonds:before {
+  content: "\E32C";
+}
+
+.qstar-card-jack-hearts:before {
+  content: "\E32D";
+}
+
+.qstar-card-jack-spades:before {
+  content: "\E32E";
+}
+
+.qstar-card-king-clubs:before {
+  content: "\E32F";
+}
+
+.qstar-card-king-diamonds:before {
+  content: "\E330";
+}
+
+.qstar-card-king-hearts:before {
+  content: "\E331";
+}
+
+.qstar-card-king-spades:before {
+  content: "\E332";
+}
+
+.qstar-card-queen-clubs:before {
+  content: "\E333";
+}
+
+.qstar-card-queen-diamonds:before {
+  content: "\E334";
+}
+
+.qstar-card-queen-hearts:before {
+  content: "\E335";
+}
+
+.qstar-card-queen-spades:before {
+  content: "\E336";
+}
+
+.qstar-dice-six-faces-three:before {
+  content: "\E337";
+}
+
+.qstar-perspective-dice-six-faces-four:before {
+  content: "\E338";
+}
+
+.qstar-rolling-dice-cup:before {
+  content: "\E339";
+}
+
+.qstar-card-discard:before {
+  content: "\E33A";
+}
+
+.qstar-card-pick:before {
+  content: "\E33B";
+}
+
+.qstar-card-random:before {
+  content: "\E33C";
+}
+
+.qstar-card-pickup:before {
+  content: "\E33D";
+}
+
+.qstar-card-play:before {
+  content: "\E33E";
+}
+
+.qstar-3d-meeple:before {
+  content: "\E33F";
+}
+
+.qstar-ages:before {
+  content: "\E340";
+}
+
+.qstar-backgammon:before {
+  content: "\E341";
+}
+
+.qstar-card-burn:before {
+  content: "\E342";
+}
+
+.qstar-card-joker:before {
+  content: "\E343";
+}
+
+.qstar-coins:before {
+  content: "\E344";
+}
+
+.qstar-empty-chessboard:before {
+  content: "\E345";
+}
+
+.qstar-meeple-group:before {
+  content: "\E346";
+}
+
+.qstar-meeple-king:before {
+  content: "\E347";
+}
+
+.qstar-meeple:before {
+  content: "\E348";
+}
+
+.qstar-rolling-dices:before {
+  content: "\E349";
+}
+
+.qstar-stack:before {
+  content: "\E34A";
+}
+
+.qstar-tabletop-players:before {
+  content: "\E34B";
+}
+
+.qstar-tic-tac-toe:before {
+  content: "\E34C";
+}
+
+.qstar-chess-bishop:before {
+  content: "\E34D";
+}
+
+.qstar-chess-pawn:before {
+  content: "\E34E";
+}
+
+.qstar-chess-rook:before {
+  content: "\E34F";
+}
+
+.qstar-hexes:before {
+  content: "\E350";
+}
+
+.qstar-honeycomb:before {
+  content: "\E351";
+}
+
+.qstar-hourglass:before {
+  content: "\E352";
+}
+
+.qstar-pawn:before {
+  content: "\E353";
+}
+
+.qstar-poker-hand:before {
+  content: "\E354";
+}
+
+.qstar-stopwatch:before {
+  content: "\E355";
+}
+
+.qstar-suits:before {
+  content: "\E356";
+}
+
+.qstar-acrobatic:before {
+  content: "\E357";
+}
+
+.qstar-catch:before {
+  content: "\E358";
+}
+
+.qstar-running-ninja:before {
+  content: "\E359";
+}
+
+.qstar-arrest:before {
+  content: "\E35A";
+}
+
+.qstar-button-finger:before {
+  content: "\E35B";
+}
+
+.qstar-convince:before {
+  content: "\E35C";
+}
+
+.qstar-discussion:before {
+  content: "\E35D";
+}
+
+.qstar-drinking:before {
+  content: "\E35E";
+}
+
+.qstar-eating:before {
+  content: "\E35F";
+}
+
+.qstar-flying-fox:before {
+  content: "\E360";
+}
+
+.qstar-jump-across:before {
+  content: "\E361";
+}
+
+.qstar-kneeling:before {
+  content: "\E362";
+}
+
+.qstar-look-at:before {
+  content: "\E363";
+}
+
+.qstar-public-speaker:before {
+  content: "\E364";
+}
+
+.qstar-pull:before {
+  content: "\E365";
+}
+
+.qstar-push:before {
+  content: "\E366";
+}
+
+.qstar-robber:before {
+  content: "\E367";
+}
+
+.qstar-shaking-hands:before {
+  content: "\E368";
+}
+
+.qstar-shrug:before {
+  content: "\E369";
+}
+
+.qstar-teacher:before {
+  content: "\E36A";
+}
+
+.qstar-think:before {
+  content: "\E36B";
+}
+
+.qstar-uprising:before {
+  content: "\E36C";
+}
+
+.qstar-vote:before {
+  content: "\E36D";
+}
+
+.qstar-crush:before {
+  content: "\E36E";
+}
+
+.qstar-amputation:before {
+  content: "\E36F";
+}
+
+.qstar-read:before {
+  content: "\E370";
+}
+
+.qstar-talk:before {
+  content: "\E371";
+}
+
+.qstar-disintegrate:before {
+  content: "\E372";
+}
+
+.qstar-dodging:before {
+  content: "\E373";
+}
+
+.qstar-drowning:before {
+  content: "\E374";
+}
+
+.qstar-fruiting:before {
+  content: "\E375";
+}
+
+.qstar-grab:before {
+  content: "\E376";
+}
+
+.qstar-journey:before {
+  content: "\E377";
+}
+
+.qstar-juggler:before {
+  content: "\E378";
+}
+
+.qstar-meditation:before {
+  content: "\E379";
+}
+
+.qstar-mining:before {
+  content: "\E37A";
+}
+
+.qstar-muscle-up:before {
+  content: "\E37B";
+}
+
+.qstar-pointing:before {
+  content: "\E37C";
+}
+
+.qstar-pouring-chalice:before {
+  content: "\E37D";
+}
+
+.qstar-prayer:before {
+  content: "\E37E";
+}
+
+.qstar-run:before {
+  content: "\E37F";
+}
+
+.qstar-screaming:before {
+  content: "\E380";
+}
+
+.qstar-shouting:before {
+  content: "\E381";
+}
+
+.qstar-sing:before {
+  content: "\E382";
+}
+
+.qstar-slap:before {
+  content: "\E383";
+}
+
+.qstar-snatch:before {
+  content: "\E384";
+}
+
+.qstar-sprint:before {
+  content: "\E385";
+}
+
+.qstar-stick-splitting:before {
+  content: "\E386";
+}
+
+.qstar-stone-crafting:before {
+  content: "\E387";
+}
+
+.qstar-swallow:before {
+  content: "\E388";
+}
+
+.qstar-targeting:before {
+  content: "\E389";
+}
+
+.qstar-tearing:before {
+  content: "\E38A";
+}
+
+.qstar-teleport:before {
+  content: "\E38B";
+}
+
+.qstar-transfuse:before {
+  content: "\E38C";
+}
+
+.qstar-vomiting:before {
+  content: "\E38D";
+}
+
+.qstar-position-marker:before {
+  content: "\E38E";
+}
+
+.qstar-africa:before {
+  content: "\E38F";
+}
+
+.qstar-antarctica:before {
+  content: "\E390";
+}
+
+.qstar-atlas:before {
+  content: "\E391";
+}
+
+.qstar-australia:before {
+  content: "\E392";
+}
+
+.qstar-belgium:before {
+  content: "\E393";
+}
+
+.qstar-binoculars:before {
+  content: "\E394";
+}
+
+.qstar-black-sea:before {
+  content: "\E395";
+}
+
+.qstar-bolivia:before {
+  content: "\E396";
+}
+
+.qstar-brazil:before {
+  content: "\E397";
+}
+
+.qstar-cambodia:before {
+  content: "\E398";
+}
+
+.qstar-colombia:before {
+  content: "\E399";
+}
+
+.qstar-direction-signs:before {
+  content: "\E39A";
+}
+
+.qstar-earth-africa-europe:before {
+  content: "\E39B";
+}
+
+.qstar-earth-america:before {
+  content: "\E39C";
+}
+
+.qstar-earth-asia-oceania:before {
+  content: "\E39D";
+}
+
+.qstar-ecology:before {
+  content: "\E39E";
+}
+
+.qstar-egypt:before {
+  content: "\E39F";
+}
+
+.qstar-italia:before {
+  content: "\E3A0";
+}
+
+.qstar-japan:before {
+  content: "\E3A1";
+}
+
+.qstar-latvia:before {
+  content: "\E3A2";
+}
+
+.qstar-mexico:before {
+  content: "\E3A3";
+}
+
+.qstar-road:before {
+  content: "\E3A4";
+}
+
+.qstar-sextant:before {
+  content: "\E3A5";
+}
+
+.qstar-south-africa:before {
+  content: "\E3A6";
+}
+
+.qstar-south-america:before {
+  content: "\E3A7";
+}
+
+.qstar-spain:before {
+  content: "\E3A8";
+}
+
+.qstar-sri-lanka:before {
+  content: "\E3A9";
+}
+
+.qstar-switzerland:before {
+  content: "\E3AA";
+}
+
+.qstar-uruguay:before {
+  content: "\E3AB";
+}
+
+.qstar-wireframe-globe:before {
+  content: "\E3AC";
+}
+
+.qstar-digital-trace:before {
+  content: "\E3AD";
+}
+
+.qstar-orbit:before {
+  content: "\E3AE";
+}
+
+.qstar-compass:before {
+  content: "\E3AF";
+}
+
+.qstar-globe:before {
+  content: "\E3B0";
+}
+
+.qstar-spyglass:before {
+  content: "\E3B1";
+}
+
+.qstar-treasure-map:before {
+  content: "\E3B2";
+}
+
+.qstar-wooden-sign:before {
+  content: "\E3B3";
+}
+
+.qstar-world:before {
+  content: "\E3B4";
+}
+
+.qstar-bad-gnome:before {
+  content: "\E3B5";
+}
+
+.qstar-fomorian:before {
+  content: "\E3B6";
+}
+
+.qstar-medusa-head:before {
+  content: "\E3B7";
+}
+
+.qstar-transparent-slime:before {
+  content: "\E3B8";
+}
+
+.qstar-tree-face:before {
+  content: "\E3B9";
+}
+
+.qstar-witch-face:before {
+  content: "\E3BA";
+}
+
+.qstar-dragon-head:before {
+  content: "\E3BB";
+}
+
+.qstar-alien-bug:before {
+  content: "\E3BC";
+}
+
+.qstar-alien-egg:before {
+  content: "\E3BD";
+}
+
+.qstar-anubis:before {
+  content: "\E3BE";
+}
+
+.qstar-bottled-shadow:before {
+  content: "\E3BF";
+}
+
+.qstar-brain-tentacle:before {
+  content: "\E3C0";
+}
+
+.qstar-bully-minion:before {
+  content: "\E3C1";
+}
+
+.qstar-carnivorous-plant:before {
+  content: "\E3C2";
+}
+
+.qstar-ceiling-barnacle:before {
+  content: "\E3C3";
+}
+
+.qstar-drakkar-dragon:before {
+  content: "\E3C4";
+}
+
+.qstar-egyptian-sphinx:before {
+  content: "\E3C5";
+}
+
+.qstar-fairy:before {
+  content: "\E3C6";
+}
+
+.qstar-female-vampire:before {
+  content: "\E3C7";
+}
+
+.qstar-fish-monster:before {
+  content: "\E3C8";
+}
+
+.qstar-floating-ghost:before {
+  content: "\E3C9";
+}
+
+.qstar-gargoyle:before {
+  content: "\E3CA";
+}
+
+.qstar-giant:before {
+  content: "\E3CB";
+}
+
+.qstar-goblin-head:before {
+  content: "\E3CC";
+}
+
+.qstar-golem-head:before {
+  content: "\E3CD";
+}
+
+.qstar-grasping-slug:before {
+  content: "\E3CE";
+}
+
+.qstar-greek-sphinx:before {
+  content: "\E3CF";
+}
+
+.qstar-half-body-crawling:before {
+  content: "\E3D0";
+}
+
+.qstar-horned-reptile:before {
+  content: "\E3D1";
+}
+
+.qstar-horus:before {
+  content: "\E3D2";
+}
+
+.qstar-ice-golem:before {
+  content: "\E3D3";
+}
+
+.qstar-jawless-cyclop:before {
+  content: "\E3D4";
+}
+
+.qstar-kenku-head:before {
+  content: "\E3D5";
+}
+
+.qstar-mermaid:before {
+  content: "\E3D6";
+}
+
+.qstar-metroid:before {
+  content: "\E3D7";
+}
+
+.qstar-mummy-head:before {
+  content: "\E3D8";
+}
+
+.qstar-ogre:before {
+  content: "\E3D9";
+}
+
+.qstar-oni:before {
+  content: "\E3DA";
+}
+
+.qstar-orc-head:before {
+  content: "\E3DB";
+}
+
+.qstar-sasquatch:before {
+  content: "\E3DC";
+}
+
+.qstar-shambling-mound:before {
+  content: "\E3DD";
+}
+
+.qstar-shambling-zombie:before {
+  content: "\E3DE";
+}
+
+.qstar-slime:before {
+  content: "\E3DF";
+}
+
+.qstar-swallower:before {
+  content: "\E3E0";
+}
+
+.qstar-swamp-bat:before {
+  content: "\E3E1";
+}
+
+.qstar-troglodyte:before {
+  content: "\E3E2";
+}
+
+.qstar-unicorn:before {
+  content: "\E3E3";
+}
+
+.qstar-vampire-dracula:before {
+  content: "\E3E4";
+}
+
+.qstar-sea-creature:before {
+  content: "\E3E5";
+}
+
+.qstar-troll:before {
+  content: "\E3E6";
+}
+
+.qstar-behold:before {
+  content: "\E3E7";
+}
+
+.qstar-bestial-fangs:before {
+  content: "\E3E8";
+}
+
+.qstar-cracked-alien-skull:before {
+  content: "\E3E9";
+}
+
+.qstar-cyclops:before {
+  content: "\E3EA";
+}
+
+.qstar-daemon-skull:before {
+  content: "\E3EB";
+}
+
+.qstar-diablo-skull:before {
+  content: "\E3EC";
+}
+
+.qstar-dinosaur-bones:before {
+  content: "\E3ED";
+}
+
+.qstar-dinosaur-egg:before {
+  content: "\E3EE";
+}
+
+.qstar-double-dragon:before {
+  content: "\E3EF";
+}
+
+.qstar-dragon-head-2:before {
+  content: "\E3F0";
+}
+
+.qstar-dragon-spiral:before {
+  content: "\E3F1";
+}
+
+.qstar-ent-mouth:before {
+  content: "\E3F2";
+}
+
+.qstar-evil-book:before {
+  content: "\E3F3";
+}
+
+.qstar-evil-comet:before {
+  content: "\E3F4";
+}
+
+.qstar-evil-fork:before {
+  content: "\E3F5";
+}
+
+.qstar-evil-minion:before {
+  content: "\E3F6";
+}
+
+.qstar-evil-moon:before {
+  content: "\E3F7";
+}
+
+.qstar-evil-tree:before {
+  content: "\E3F8";
+}
+
+.qstar-eyestalk:before {
+  content: "\E3F9";
+}
+
+.qstar-fairy-2:before {
+  content: "\E3FA";
+}
+
+.qstar-fleshy-mass:before {
+  content: "\E3FB";
+}
+
+.qstar-frankenstein-creature:before {
+  content: "\E3FC";
+}
+
+.qstar-ghost:before {
+  content: "\E3FD";
+}
+
+.qstar-gluttonous-smile:before {
+  content: "\E3FE";
+}
+
+.qstar-gooey-daemon:before {
+  content: "\E3FF";
+}
+
+.qstar-grim-reaper:before {
+  content: "\E400";
+}
+
+.qstar-harpy:before {
+  content: "\E401";
+}
+
+.qstar-haunting:before {
+  content: "\E402";
+}
+
+.qstar-horned-skull:before {
+  content: "\E403";
+}
+
+.qstar-hydra-shot:before {
+  content: "\E404";
+}
+
+.qstar-hydra:before {
+  content: "\E405";
+}
+
+.qstar-imp-laugh:before {
+  content: "\E406";
+}
+
+.qstar-imp:before {
+  content: "\E407";
+}
+
+.qstar-infested-mass:before {
+  content: "\E408";
+}
+
+.qstar-lizardman:before {
+  content: "\E409";
+}
+
+.qstar-pretty-fangs:before {
+  content: "\E40A";
+}
+
+.qstar-sea-dragon:before {
+  content: "\E40B";
+}
+
+.qstar-sharp-smile:before {
+  content: "\E40C";
+}
+
+.qstar-spectre:before {
+  content: "\E40D";
+}
+
+.qstar-toad-teeth:before {
+  content: "\E40E";
+}
+
+.qstar-triton-head:before {
+  content: "\E40F";
+}
+
+.qstar-vile-fluid:before {
+  content: "\E410";
+}
+
+.qstar-witch-flight:before {
+  content: "\E411";
+}
+
+.qstar-wyvern:before {
+  content: "\E412";
+}
+
+.qstar-battleship:before {
+  content: "\E413";
+}
+
+.qstar-carrier:before {
+  content: "\E414";
+}
+
+.qstar-cruiser:before {
+  content: "\E415";
+}
+
+.qstar-dreadnought:before {
+  content: "\E416";
+}
+
+.qstar-iron-hulled-warship:before {
+  content: "\E417";
+}
+
+.qstar-nautilus-shell:before {
+  content: "\E418";
+}
+
+.qstar-algae:before {
+  content: "\E419";
+}
+
+.qstar-buoy:before {
+  content: "\E41A";
+}
+
+.qstar-canoe:before {
+  content: "\E41B";
+}
+
+.qstar-crow-nest:before {
+  content: "\E41C";
+}
+
+.qstar-drakkar:before {
+  content: "\E41D";
+}
+
+.qstar-fishing-boat:before {
+  content: "\E41E";
+}
+
+.qstar-fishing-pole:before {
+  content: "\E41F";
+}
+
+.qstar-fishing-spoon:before {
+  content: "\E420";
+}
+
+.qstar-fishing:before {
+  content: "\E421";
+}
+
+.qstar-flood:before {
+  content: "\E422";
+}
+
+.qstar-helicoprion:before {
+  content: "\E423";
+}
+
+.qstar-high-tide:before {
+  content: "\E424";
+}
+
+.qstar-iceberg:before {
+  content: "\E425";
+}
+
+.qstar-island:before {
+  content: "\E426";
+}
+
+.qstar-knot:before {
+  content: "\E427";
+}
+
+.qstar-life-buoy:before {
+  content: "\E428";
+}
+
+.qstar-lighthouse:before {
+  content: "\E429";
+}
+
+.qstar-low-tide:before {
+  content: "\E42A";
+}
+
+.qstar-mini-submarine:before {
+  content: "\E42B";
+}
+
+.qstar-offshore-platform:before {
+  content: "\E42C";
+}
+
+.qstar-paddles:before {
+  content: "\E42D";
+}
+
+.qstar-periscope:before {
+  content: "\E42E";
+}
+
+.qstar-plesiosaurus:before {
+  content: "\E42F";
+}
+
+.qstar-pulley-hook:before {
+  content: "\E430";
+}
+
+.qstar-rope-coil:before {
+  content: "\E431";
+}
+
+.qstar-sailboat:before {
+  content: "\E432";
+}
+
+.qstar-sand-castle:before {
+  content: "\E433";
+}
+
+.qstar-scuba-tanks:before {
+  content: "\E434";
+}
+
+.qstar-ship-wheel:before {
+  content: "\E435";
+}
+
+.qstar-ship-wreck:before {
+  content: "\E436";
+}
+
+.qstar-sinking-ship:before {
+  content: "\E437";
+}
+
+.qstar-speed-boat:before {
+  content: "\E438";
+}
+
+.qstar-submarine:before {
+  content: "\E439";
+}
+
+.qstar-swimfins:before {
+  content: "\E43A";
+}
+
+.qstar-trireme:before {
+  content: "\E43B";
+}
+
+.qstar-wooden-pier:before {
+  content: "\E43C";
+}
+
+.qstar-snorkel:before {
+  content: "\E43D";
+}
+
+.qstar-anchor:before {
+  content: "\E43E";
+}
+
+.qstar-at-sea:before {
+  content: "\E43F";
+}
+
+.qstar-big-wave:before {
+  content: "\E440";
+}
+
+.qstar-cargo-crane:before {
+  content: "\E441";
+}
+
+.qstar-fishing-hook:before {
+  content: "\E442";
+}
+
+.qstar-fishing-net:before {
+  content: "\E443";
+}
+
+.qstar-galleon:before {
+  content: "\E444";
+}
+
+.qstar-water-splash:before {
+  content: "\E445";
+}
+
+.qstar-wave-crest:before {
+  content: "\E446";
+}
+
+.qstar-chariot:before {
+  content: "\E447";
+}
+
+.qstar-great-war-tank:before {
+  content: "\E448";
+}
+
+.qstar-bomber:before {
+  content: "\E449";
+}
+
+.qstar-heavy-fighter:before {
+  content: "\E44A";
+}
+
+.qstar-light-fighter:before {
+  content: "\E44B";
+}
+
+.qstar-biplane:before {
+  content: "\E44C";
+}
+
+.qstar-military-ambulance:before {
+  content: "\E44D";
+}
+
+.qstar-air-balloon:before {
+  content: "\E44E";
+}
+
+.qstar-ambulance:before {
+  content: "\E44F";
+}
+
+.qstar-boat-propeller:before {
+  content: "\E450";
+}
+
+.qstar-bulldozer:before {
+  content: "\E451";
+}
+
+.qstar-bus:before {
+  content: "\E452";
+}
+
+.qstar-car-key:before {
+  content: "\E453";
+}
+
+.qstar-car-wheel:before {
+  content: "\E454";
+}
+
+.qstar-caravan:before {
+  content: "\E455";
+}
+
+.qstar-city-car:before {
+  content: "\E456";
+}
+
+.qstar-coal-wagon:before {
+  content: "\E457";
+}
+
+.qstar-dutch-bike:before {
+  content: "\E458";
+}
+
+.qstar-farm-tractor:before {
+  content: "\E459";
+}
+
+.qstar-flat-tire:before {
+  content: "\E45A";
+}
+
+.qstar-forklift:before {
+  content: "\E45B";
+}
+
+.qstar-gas-pump:before {
+  content: "\E45C";
+}
+
+.qstar-hang-glider:before {
+  content: "\E45D";
+}
+
+.qstar-helicopter-tail:before {
+  content: "\E45E";
+}
+
+.qstar-helicopter:before {
+  content: "\E45F";
+}
+
+.qstar-home-garage:before {
+  content: "\E460";
+}
+
+.qstar-jeep:before {
+  content: "\E461";
+}
+
+.qstar-jet-fighter:before {
+  content: "\E462";
+}
+
+.qstar-level-crossing:before {
+  content: "\E463";
+}
+
+.qstar-lunar-module:before {
+  content: "\E464";
+}
+
+.qstar-mars-curiosity:before {
+  content: "\E465";
+}
+
+.qstar-mars-pathfinder:before {
+  content: "\E466";
+}
+
+.qstar-mechanic-garage:before {
+  content: "\E467";
+}
+
+.qstar-mine-wagon:before {
+  content: "\E468";
+}
+
+.qstar-old-wagon:before {
+  content: "\E469";
+}
+
+.qstar-plane-wing:before {
+  content: "\E46A";
+}
+
+.qstar-railway:before {
+  content: "\E46B";
+}
+
+.qstar-rocket-thruster:before {
+  content: "\E46C";
+}
+
+.qstar-ropeway:before {
+  content: "\E46D";
+}
+
+.qstar-scooter:before {
+  content: "\E46E";
+}
+
+.qstar-siege-tower:before {
+  content: "\E46F";
+}
+
+.qstar-space-shuttle:before {
+  content: "\E470";
+}
+
+.qstar-spaceship:before {
+  content: "\E471";
+}
+
+.qstar-speedometer:before {
+  content: "\E472";
+}
+
+.qstar-starfighter:before {
+  content: "\E473";
+}
+
+.qstar-steam-locomotive:before {
+  content: "\E474";
+}
+
+.qstar-steering-wheel:before {
+  content: "\E475";
+}
+
+.qstar-tire-tracks:before {
+  content: "\E476";
+}
+
+.qstar-tracked-robot:before {
+  content: "\E477";
+}
+
+.qstar-traffic-lights-green:before {
+  content: "\E478";
+}
+
+.qstar-traffic-lights-orange:before {
+  content: "\E479";
+}
+
+.qstar-traffic-lights-ready-to-go:before {
+  content: "\E47A";
+}
+
+.qstar-traffic-lights-red:before {
+  content: "\E47B";
+}
+
+.qstar-trebuchet:before {
+  content: "\E47C";
+}
+
+.qstar-truck:before {
+  content: "\E47D";
+}
+
+.qstar-ufo:before {
+  content: "\E47E";
+}
+
+.qstar-unicycle:before {
+  content: "\E47F";
+}
+
+.qstar-velocipede:before {
+  content: "\E480";
+}
+
+.qstar-walking-scout:before {
+  content: "\E481";
+}
+
+.qstar-jet-pack:before {
+  content: "\E482";
+}
+
+.qstar-airplane:before {
+  content: "\E483";
+}
+
+.qstar-apc:before {
+  content: "\E484";
+}
+
+.qstar-ballista:before {
+  content: "\E485";
+}
+
+.qstar-carpet-bombing:before {
+  content: "\E486";
+}
+
+.qstar-f1-car:before {
+  content: "\E487";
+}
+
+.qstar-flatbed-covered:before {
+  content: "\E488";
+}
+
+.qstar-flatbed:before {
+  content: "\E489";
+}
+
+.qstar-glider:before {
+  content: "\E48A";
+}
+
+.qstar-hang-glider-2:before {
+  content: "\E48B";
+}
+
+.qstar-jeep-2:before {
+  content: "\E48C";
+}
+
+.qstar-race-car:before {
+  content: "\E48D";
+}
+
+.qstar-siege-ram:before {
+  content: "\E48E";
+}
+
+.qstar-tank-tread:before {
+  content: "\E48F";
+}
+
+.qstar-zeppelin:before {
+  content: "\E490";
+}
+
+.qstar-afterburn:before {
+  content: "\E491";
+}
+
+.qstar-cartwheel:before {
+  content: "\E492";
+}
+
+.qstar-forward-field:before {
+  content: "\E493";
+}
+
+.qstar-jetpack:before {
+  content: "\E494";
+}
+
+.qstar-missile-mech:before {
+  content: "\E495";
+}
+
+.qstar-rocket-flight:before {
+  content: "\E496";
+}
+
+.qstar-rocket:before {
+  content: "\E497";
+}
+
+.qstar-strafe:before {
+  content: "\E498";
+}
+
+.qstar-tank:before {
+  content: "\E499";
+}
+
+.qstar-boar-ensign:before {
+  content: "\E49A";
+}
+
+.qstar-ram:before {
+  content: "\E49B";
+}
+
+.qstar-armadillo:before {
+  content: "\E49C";
+}
+
+.qstar-cavalry:before {
+  content: "\E49D";
+}
+
+.qstar-mandrill-head:before {
+  content: "\E49E";
+}
+
+.qstar-sniffing-dog:before {
+  content: "\E49F";
+}
+
+.qstar-squirrel:before {
+  content: "\E4A0";
+}
+
+.qstar-walrus-head:before {
+  content: "\E4A1";
+}
+
+.qstar-direwolf:before {
+  content: "\E4A2";
+}
+
+.qstar-carnyx:before {
+  content: "\E4A3";
+}
+
+.qstar-phone:before {
+  content: "\E4A4";
+}
+
+.qstar-speaker-off:before {
+  content: "\E4A5";
+}
+
+.qstar-speaker:before {
+  content: "\E4A6";
+}
+
+.qstar-amplitude:before {
+  content: "\E4A7";
+}
+
+.qstar-acoustic-megaphone:before {
+  content: "\E4A8";
+}
+
+.qstar-alarm-clock:before {
+  content: "\E4A9";
+}
+
+.qstar-audio-cassette:before {
+  content: "\E4AA";
+}
+
+.qstar-compact-disc:before {
+  content: "\E4AB";
+}
+
+.qstar-drum:before {
+  content: "\E4AC";
+}
+
+.qstar-elf-ear:before {
+  content: "\E4AD";
+}
+
+.qstar-film-spool:before {
+  content: "\E4AE";
+}
+
+.qstar-headphones:before {
+  content: "\E4AF";
+}
+
+.qstar-heart-beats:before {
+  content: "\E4B0";
+}
+
+.qstar-human-ear:before {
+  content: "\E4B1";
+}
+
+.qstar-jack-plug:before {
+  content: "\E4B2";
+}
+
+.qstar-megaphone:before {
+  content: "\E4B3";
+}
+
+.qstar-microphone:before {
+  content: "\E4B4";
+}
+
+.qstar-mute:before {
+  content: "\E4B5";
+}
+
+.qstar-ocarina:before {
+  content: "\E4B6";
+}
+
+.qstar-old-microphone:before {
+  content: "\E4B7";
+}
+
+.qstar-pan-flute:before {
+  content: "\E4B8";
+}
+
+.qstar-piano-keys:before {
+  content: "\E4B9";
+}
+
+.qstar-pocket-radio:before {
+  content: "\E4BA";
+}
+
+.qstar-radio-tower:before {
+  content: "\E4BB";
+}
+
+.qstar-ringing-alarm:before {
+  content: "\E4BC";
+}
+
+.qstar-saxophone:before {
+  content: "\E4BD";
+}
+
+.qstar-silenced:before {
+  content: "\E4BE";
+}
+
+.qstar-sound-off:before {
+  content: "\E4BF";
+}
+
+.qstar-sound-on:before {
+  content: "\E4C0";
+}
+
+.qstar-trumpet:before {
+  content: "\E4C1";
+}
+
+.qstar-whistle:before {
+  content: "\E4C2";
+}
+
+.qstar-xylophone:before {
+  content: "\E4C3";
+}
+
+.qstar-hearing-disabled:before {
+  content: "\E4C4";
+}
+
+.qstar-sound-waves:before {
+  content: "\E4C5";
+}
+
+.qstar-anthem:before {
+  content: "\E4C6";
+}
+
+.qstar-bugle-call:before {
+  content: "\E4C7";
+}
+
+.qstar-carillon:before {
+  content: "\E4C8";
+}
+
+.qstar-double-quaver:before {
+  content: "\E4C9";
+}
+
+.qstar-echo-ripples:before {
+  content: "\E4CA";
+}
+
+.qstar-guitar:before {
+  content: "\E4CB";
+}
+
+.qstar-hunting-horn:before {
+  content: "\E4CC";
+}
+
+.qstar-love-howl:before {
+  content: "\E4CD";
+}
+
+.qstar-love-song:before {
+  content: "\E4CE";
+}
+
+.qstar-lyre:before {
+  content: "\E4CF";
+}
+
+.qstar-movement-sensor:before {
+  content: "\E4D0";
+}
+
+.qstar-music-spell:before {
+  content: "\E4D1";
+}
+
+.qstar-resonance:before {
+  content: "\E4D2";
+}
+
+.qstar-ringing-bell:before {
+  content: "\E4D3";
+}
+
+.qstar-silence:before {
+  content: "\E4D4";
+}
+
+.qstar-sonic-boom:before {
+  content: "\E4D5";
+}
+
+.qstar-sonic-shout:before {
+  content: "\E4D6";
+}
+
+.qstar-tune-pitch:before {
+  content: "\E4D7";
+}
+
+.qstar-ultrasound:before {
+  content: "\E4D8";
+}
+
+.qstar-vibrating-ball:before {
+  content: "\E4D9";
+}
+
+.qstar-zigzag-tune:before {
+  content: "\E4DA";
+}
+
+.qstar-dread:before {
+  content: "\E4DB";
+}
+
+.qstar-distraction:before {
+  content: "\E4DC";
+}
+
+.qstar-artificial-intelligence:before {
+  content: "\E4DD";
+}
+
+.qstar-angry-eyes:before {
+  content: "\E4DE";
+}
+
+.qstar-confrontation:before {
+  content: "\E4DF";
+}
+
+.qstar-dead-head:before {
+  content: "\E4E0";
+}
+
+.qstar-enrage:before {
+  content: "\E4E1";
+}
+
+.qstar-idea:before {
+  content: "\E4E2";
+}
+
+.qstar-liar:before {
+  content: "\E4E3";
+}
+
+.qstar-cement-shoes:before {
+  content: "\E4E4";
+}
+
+.qstar-knockout:before {
+  content: "\E4E5";
+}
+
+.qstar-awareness:before {
+  content: "\E4E6";
+}
+
+.qstar-back-pain:before {
+  content: "\E4E7";
+}
+
+.qstar-brain-freeze:before {
+  content: "\E4E8";
+}
+
+.qstar-chained-heart:before {
+  content: "\E4E9";
+}
+
+.qstar-coma:before {
+  content: "\E4EA";
+}
+
+.qstar-delighted:before {
+  content: "\E4EB";
+}
+
+.qstar-despair:before {
+  content: "\E4EC";
+}
+
+.qstar-distraction-2:before {
+  content: "\E4ED";
+}
+
+.qstar-drama-masks:before {
+  content: "\E4EE";
+}
+
+.qstar-extra-lucid:before {
+  content: "\E4EF";
+}
+
+.qstar-gluttony:before {
+  content: "\E4F0";
+}
+
+.qstar-hidden:before {
+  content: "\E4F1";
+}
+
+.qstar-imprisoned:before {
+  content: "\E4F2";
+}
+
+.qstar-mirror-mirror:before {
+  content: "\E4F3";
+}
+
+.qstar-mouth-watering:before {
+  content: "\E4F4";
+}
+
+.qstar-nothing-to-say:before {
+  content: "\E4F5";
+}
+
+.qstar-oppression:before {
+  content: "\E4F6";
+}
+
+.qstar-paranoia:before {
+  content: "\E4F7";
+}
+
+.qstar-sensuousness:before {
+  content: "\E4F8";
+}
+
+.qstar-sleepy:before {
+  content: "\E4F9";
+}
+
+.qstar-sly:before {
+  content: "\E4FA";
+}
+
+.qstar-smitten:before {
+  content: "\E4FB";
+}
+
+.qstar-stoned-skull:before {
+  content: "\E4FC";
+}
+
+.qstar-strong:before {
+  content: "\E4FD";
+}
+
+.qstar-surprised-skull:before {
+  content: "\E4FE";
+}
+
+.qstar-surprised:before {
+  content: "\E4FF";
+}
+
+.qstar-suspicious:before {
+  content: "\E500";
+}
+
+.qstar-temptation:before {
+  content: "\E501";
+}
+
+.qstar-terror:before {
+  content: "\E502";
+}
+
+.qstar-worried-eyes:before {
+  content: "\E503";
+}
+
+.qstar-smoke-bomb:before {
+  content: "\E504";
+}
+
+.qstar-chimney:before {
+  content: "\E505";
+}
+
+.qstar-cigar:before {
+  content: "\E506";
+}
+
+.qstar-cigarette:before {
+  content: "\E507";
+}
+
+.qstar-nuclear-plant:before {
+  content: "\E508";
+}
+
+.qstar-smoking-pipe:before {
+  content: "\E509";
+}
+
+.qstar-smoking-volcano:before {
+  content: "\E50A";
+}
+
+.qstar-steam:before {
+  content: "\E50B";
+}
+
+.qstar-poison-cloud:before {
+  content: "\E50C";
+}
+
+.qstar-aerosol:before {
+  content: "\E50D";
+}
+
+.qstar-bottle-vapors:before {
+  content: "\E50E";
+}
+
+.qstar-bubbling-bowl:before {
+  content: "\E50F";
+}
+
+.qstar-cloudy-fork:before {
+  content: "\E510";
+}
+
+.qstar-fizzing-flask:before {
+  content: "\E511";
+}
+
+.qstar-fluffy-swirl:before {
+  content: "\E512";
+}
+
+.qstar-fragrance:before {
+  content: "\E513";
+}
+
+.qstar-gas-mask:before {
+  content: "\E514";
+}
+
+.qstar-incense:before {
+  content: "\E515";
+}
+
+.qstar-mushroom-cloud:before {
+  content: "\E516";
+}
+
+.qstar-poison-gas:before {
+  content: "\E517";
+}
+
+.qstar-smoking-finger:before {
+  content: "\E518";
+}
+
+.qstar-smoking-orb:before {
+  content: "\E519";
+}
+
+.qstar-chicken-oven:before {
+  content: "\E51A";
+}
+
+.qstar-eating-pelican:before {
+  content: "\E51B";
+}
+
+.qstar-fried-eggs:before {
+  content: "\E51C";
+}
+
+.qstar-goose:before {
+  content: "\E51D";
+}
+
+.qstar-kiwi-bird:before {
+  content: "\E51E";
+}
+
+.qstar-new-born:before {
+  content: "\E51F";
+}
+
+.qstar-stork-delivery:before {
+  content: "\E520";
+}
+
+.qstar-bird-claw:before {
+  content: "\E521";
+}
+
+.qstar-bird-limb:before {
+  content: "\E522";
+}
+
+.qstar-bird-mask:before {
+  content: "\E523";
+}
+
+.qstar-dove:before {
+  content: "\E524";
+}
+
+.qstar-egg-clutch:before {
+  content: "\E525";
+}
+
+.qstar-falling-ovoid:before {
+  content: "\E526";
+}
+
+.qstar-feather:before {
+  content: "\E527";
+}
+
+.qstar-scarecrow:before {
+  content: "\E528";
+}
+
+.qstar-sparrow:before {
+  content: "\E529";
+}
+
+.qstar-two-feathers:before {
+  content: "\E52A";
+}
+
+.qstar-winged-leg:before {
+  content: "\E52B";
+}
+
+.qstar-fish-cooked:before {
+  content: "\E52C";
+}
+
+.qstar-fried-fish:before {
+  content: "\E52D";
+}
+
+.qstar-aquarium:before {
+  content: "\E52E";
+}
+
+.qstar-eel:before {
+  content: "\E52F";
+}
+
+.qstar-fish-smoking:before {
+  content: "\E530";
+}
+
+.qstar-piranha:before {
+  content: "\E531";
+}
+
+.qstar-tropical-fish:before {
+  content: "\E532";
+}
+
+.qstar-salmon:before {
+  content: "\E533";
+}
+
+.qstar-flying-target:before {
+  content: "\E534";
+}
+
+.qstar-heart-wings:before {
+  content: "\E535";
+}
+
+.qstar-icarus:before {
+  content: "\E536";
+}
+
+.qstar-pterodactylus:before {
+  content: "\E537";
+}
+
+.qstar-evil-wings:before {
+  content: "\E538";
+}
+
+.qstar-angel-outfit:before {
+  content: "\E539";
+}
+
+.qstar-angel-wings:before {
+  content: "\E53A";
+}
+
+.qstar-bat-blade:before {
+  content: "\E53B";
+}
+
+.qstar-curly-wing:before {
+  content: "\E53C";
+}
+
+.qstar-feathered-wing:before {
+  content: "\E53D";
+}
+
+.qstar-fluffy-wing:before {
+  content: "\E53E";
+}
+
+.qstar-holy-grail:before {
+  content: "\E53F";
+}
+
+.qstar-quill:before {
+  content: "\E540";
+}
+
+.qstar-wing-cloak:before {
+  content: "\E541";
+}
+
+.qstar-winged-emblem:before {
+  content: "\E542";
+}
+
+.qstar-wingfoot:before {
+  content: "\E543";
+}
+
+.qstar-tumulus:before {
+  content: "\E544";
+}
+
+.qstar-death-juice:before {
+  content: "\E545";
+}
+
+.qstar-chalk-outline-murder:before {
+  content: "\E546";
+}
+
+.qstar-graveyard:before {
+  content: "\E547";
+}
+
+.qstar-morgue-feet:before {
+  content: "\E548";
+}
+
+.qstar-sarcophagus:before {
+  content: "\E549";
+}
+
+.qstar-skeletal-hand:before {
+  content: "\E54A";
+}
+
+.qstar-suicide:before {
+  content: "\E54B";
+}
+
+.qstar-telefrag:before {
+  content: "\E54C";
+}
+
+.qstar-tombstone:before {
+  content: "\E54D";
+}
+
+.qstar-hasty-grave:before {
+  content: "\E54E";
+}
+
+.qstar-raise-zombie:before {
+  content: "\E54F";
+}
+
+.qstar-carrion:before {
+  content: "\E550";
+}
+
+.qstar-coffin:before {
+  content: "\E551";
+}
+
+.qstar-dead-eye:before {
+  content: "\E552";
+}
+
+.qstar-dead-wood:before {
+  content: "\E553";
+}
+
+.qstar-death-zone:before {
+  content: "\E554";
+}
+
+.qstar-decapitation:before {
+  content: "\E555";
+}
+
+.qstar-guillotine:before {
+  content: "\E556";
+}
+
+.qstar-internal-injury:before {
+  content: "\E557";
+}
+
+.qstar-life-in-the-balance:before {
+  content: "\E558";
+}
+
+.qstar-pirate-grave:before {
+  content: "\E559";
+}
+
+.qstar-reaper-scythe:before {
+  content: "\E55A";
+}
+
+.qstar-tombstone-2:before {
+  content: "\E55B";
+}
+
+.qstar-holy-oak:before {
+  content: "\E55C";
+}
+
+.qstar-asian-lantern:before {
+  content: "\E55D";
+}
+
+.qstar-bed-lamp:before {
+  content: "\E55E";
+}
+
+.qstar-ceiling-light:before {
+  content: "\E55F";
+}
+
+.qstar-dungeon-gate:before {
+  content: "\E560";
+}
+
+.qstar-dungeon-light:before {
+  content: "\E561";
+}
+
+.qstar-flashlight:before {
+  content: "\E562";
+}
+
+.qstar-led:before {
+  content: "\E563";
+}
+
+.qstar-wall-light:before {
+  content: "\E564";
+}
+
+.qstar-siren:before {
+  content: "\E565";
+}
+
+.qstar-candle-skull:before {
+  content: "\E566";
+}
+
+.qstar-desk-lamp:before {
+  content: "\E567";
+}
+
+.qstar-double-face-mask:before {
+  content: "\E568";
+}
+
+.qstar-duality:before {
+  content: "\E569";
+}
+
+.qstar-expanded-rays:before {
+  content: "\E56A";
+}
+
+.qstar-explosion-rays:before {
+  content: "\E56B";
+}
+
+.qstar-explosive-materials:before {
+  content: "\E56C";
+}
+
+.qstar-gooey-eyed-sun:before {
+  content: "\E56D";
+}
+
+.qstar-interstellar-path:before {
+  content: "\E56E";
+}
+
+.qstar-lantern:before {
+  content: "\E56F";
+}
+
+.qstar-laser-precision:before {
+  content: "\E570";
+}
+
+.qstar-laserburn:before {
+  content: "\E571";
+}
+
+.qstar-light-bulb:before {
+  content: "\E572";
+}
+
+.qstar-magic-lamp:before {
+  content: "\E573";
+}
+
+.qstar-paper-lantern:before {
+  content: "\E574";
+}
+
+.qstar-radar-sweep:before {
+  content: "\E575";
+}
+
+.qstar-shiny-entrance:before {
+  content: "\E576";
+}
+
+.qstar-sun:before {
+  content: "\E577";
+}
+
+.qstar-sunbeams:before {
+  content: "\E578";
+}
+
+.qstar-sundial:before {
+  content: "\E579";
+}
+
+.qstar-two-shadows:before {
+  content: "\E57A";
+}
+
+.qstar-unlit-candelabra:before {
+  content: "\E57B";
+}
+
+.qstar-camping-tent:before {
+  content: "\E57C";
+}
+
+.qstar-cave-entrance:before {
+  content: "\E57D";
+}
+
+.qstar-desert:before {
+  content: "\E57E";
+}
+
+.qstar-forest:before {
+  content: "\E57F";
+}
+
+.qstar-fuji:before {
+  content: "\E580";
+}
+
+.qstar-grass:before {
+  content: "\E581";
+}
+
+.qstar-high-grass:before {
+  content: "\E582";
+}
+
+.qstar-hills:before {
+  content: "\E583";
+}
+
+.qstar-mountain-cave:before {
+  content: "\E584";
+}
+
+.qstar-path-tile:before {
+  content: "\E585";
+}
+
+.qstar-river:before {
+  content: "\E586";
+}
+
+.qstar-stone-stack:before {
+  content: "\E587";
+}
+
+.qstar-sunrise:before {
+  content: "\E588";
+}
+
+.qstar-sunset:before {
+  content: "\E589";
+}
+
+.qstar-swamp:before {
+  content: "\E58A";
+}
+
+.qstar-earth-crack:before {
+  content: "\E58B";
+}
+
+.qstar-field:before {
+  content: "\E58C";
+}
+
+.qstar-mountains:before {
+  content: "\E58D";
+}
+
+.qstar-mountaintop:before {
+  content: "\E58E";
+}
+
+.qstar-peaks:before {
+  content: "\E58F";
+}
+
+.qstar-quicksand:before {
+  content: "\E590";
+}
+
+.qstar-stalagtite:before {
+  content: "\E591";
+}
+
+.qstar-valley:before {
+  content: "\E592";
+}
+
+.qstar-wind-hole:before {
+  content: "\E593";
+}
+
+.qstar-barrel:before {
+  content: "\E594";
+}
+
+.qstar-berry-bush:before {
+  content: "\E595";
+}
+
+.qstar-bonsai-tree:before {
+  content: "\E596";
+}
+
+.qstar-chainsaw:before {
+  content: "\E597";
+}
+
+.qstar-crucifix:before {
+  content: "\E598";
+}
+
+.qstar-dough-roller:before {
+  content: "\E599";
+}
+
+.qstar-empty-wood-bucket-handle:before {
+  content: "\E59A";
+}
+
+.qstar-empty-wood-bucket:before {
+  content: "\E59B";
+}
+
+.qstar-fruit-tree:before {
+  content: "\E59C";
+}
+
+.qstar-full-wood-bucket-handle:before {
+  content: "\E59D";
+}
+
+.qstar-full-wood-bucket:before {
+  content: "\E59E";
+}
+
+.qstar-greenhouse:before {
+  content: "\E59F";
+}
+
+.qstar-hand-saw:before {
+  content: "\E5A0";
+}
+
+.qstar-log:before {
+  content: "\E5A1";
+}
+
+.qstar-oak-leaf:before {
+  content: "\E5A2";
+}
+
+.qstar-palisade:before {
+  content: "\E5A3";
+}
+
+.qstar-palm-tree:before {
+  content: "\E5A4";
+}
+
+.qstar-planks:before {
+  content: "\E5A5";
+}
+
+.qstar-solid-leaf:before {
+  content: "\E5A6";
+}
+
+.qstar-spiked-trunk:before {
+  content: "\E5A7";
+}
+
+.qstar-stump-regrowth:before {
+  content: "\E5A8";
+}
+
+.qstar-table:before {
+  content: "\E5A9";
+}
+
+.qstar-totem:before {
+  content: "\E5AA";
+}
+
+.qstar-tree-swing:before {
+  content: "\E5AB";
+}
+
+.qstar-watchtower:before {
+  content: "\E5AC";
+}
+
+.qstar-wood-cabin:before {
+  content: "\E5AD";
+}
+
+.qstar-wood-pile:before {
+  content: "\E5AE";
+}
+
+.qstar-wooden-clogs:before {
+  content: "\E5AF";
+}
+
+.qstar-wooden-crate:before {
+  content: "\E5B0";
+}
+
+.qstar-wooden-pegleg:before {
+  content: "\E5B1";
+}
+
+.qstar-circular-saw:before {
+  content: "\E5B2";
+}
+
+.qstar-logging:before {
+  content: "\E5B3";
+}
+
+.qstar-acorn:before {
+  content: "\E5B4";
+}
+
+.qstar-beech:before {
+  content: "\E5B5";
+}
+
+.qstar-circular-sawblade:before {
+  content: "\E5B6";
+}
+
+.qstar-curled-leaf:before {
+  content: "\E5B7";
+}
+
+.qstar-falling-leaf:before {
+  content: "\E5B8";
+}
+
+.qstar-leaf-swirl:before {
+  content: "\E5B9";
+}
+
+.qstar-linden-leaf:before {
+  content: "\E5BA";
+}
+
+.qstar-maple-leaf:before {
+  content: "\E5BB";
+}
+
+.qstar-oak:before {
+  content: "\E5BC";
+}
+
+.qstar-pine-tree:before {
+  content: "\E5BD";
+}
+
+.qstar-root-tip:before {
+  content: "\E5BE";
+}
+
+.qstar-three-leaves:before {
+  content: "\E5BF";
+}
+
+.qstar-totem-mask:before {
+  content: "\E5C0";
+}
+
+.qstar-tree-branch:before {
+  content: "\E5C1";
+}
+
+.qstar-tribal-mask:before {
+  content: "\E5C2";
+}
+
+.qstar-vine-leaf:before {
+  content: "\E5C3";
+}
+
+.qstar-wood-axe:before {
+  content: "\E5C4";
+}
+
+.qstar-wooden-door:before {
+  content: "\E5C5";
+}
+
+.qstar-wooden-fence:before {
+  content: "\E5C6";
+}
+
+.qstar-zigzag-leaf:before {
+  content: "\E5C7";
+}
+
+.qstar-nun-face:before {
+  content: "\E5C8";
+}
+
+.qstar-old-king:before {
+  content: "\E5C9";
+}
+
+.qstar-ninja-head:before {
+  content: "\E5CA";
+}
+
+.qstar-baby-face:before {
+  content: "\E5CB";
+}
+
+.qstar-barbarian:before {
+  content: "\E5CC";
+}
+
+.qstar-blindfold:before {
+  content: "\E5CD";
+}
+
+.qstar-caesar:before {
+  content: "\E5CE";
+}
+
+.qstar-dwarf-face:before {
+  content: "\E5CF";
+}
+
+.qstar-headband-knot:before {
+  content: "\E5D0";
+}
+
+.qstar-id-card:before {
+  content: "\E5D1";
+}
+
+.qstar-invisible-face:before {
+  content: "\E5D2";
+}
+
+.qstar-mecha-head:before {
+  content: "\E5D3";
+}
+
+.qstar-mecha-mask:before {
+  content: "\E5D4";
+}
+
+.qstar-monk-face:before {
+  content: "\E5D5";
+}
+
+.qstar-nose-front:before {
+  content: "\E5D6";
+}
+
+.qstar-nose-side:before {
+  content: "\E5D7";
+}
+
+.qstar-pirate-captain:before {
+  content: "\E5D8";
+}
+
+.qstar-police-officer-head:before {
+  content: "\E5D9";
+}
+
+.qstar-robber-mask:before {
+  content: "\E5DA";
+}
+
+.qstar-robot-antennas:before {
+  content: "\E5DB";
+}
+
+.qstar-sunglasses:before {
+  content: "\E5DC";
+}
+
+.qstar-viking-head:before {
+  content: "\E5DD";
+}
+
+.qstar-wizard-face:before {
+  content: "\E5DE";
+}
+
+.qstar-woman-elf-face:before {
+  content: "\E5DF";
+}
+
+.qstar-overkill:before {
+  content: "\E5E0";
+}
+
+.qstar-balaclava:before {
+  content: "\E5E1";
+}
+
+.qstar-headshot-2:before {
+  content: "\E5E2";
+}
+
+.qstar-alien-stare:before {
+  content: "\E5E3";
+}
+
+.qstar-beard:before {
+  content: "\E5E4";
+}
+
+.qstar-brain-stem:before {
+  content: "\E5E5";
+}
+
+.qstar-brain:before {
+  content: "\E5E6";
+}
+
+.qstar-brainstorm:before {
+  content: "\E5E7";
+}
+
+.qstar-comb:before {
+  content: "\E5E8";
+}
+
+.qstar-cultist:before {
+  content: "\E5E9";
+}
+
+.qstar-diamonds-smile:before {
+  content: "\E5EA";
+}
+
+.qstar-doctor-face:before {
+  content: "\E5EB";
+}
+
+.qstar-frontal-lobe:before {
+  content: "\E5EC";
+}
+
+.qstar-gaze:before {
+  content: "\E5ED";
+}
+
+.qstar-gibbet:before {
+  content: "\E5EE";
+}
+
+.qstar-iron-mask:before {
+  content: "\E5EF";
+}
+
+.qstar-mad-scientist:before {
+  content: "\E5F0";
+}
+
+.qstar-nailed-head:before {
+  content: "\E5F1";
+}
+
+.qstar-ninja-mask:before {
+  content: "\E5F2";
+}
+
+.qstar-one-eyed:before {
+  content: "\E5F3";
+}
+
+.qstar-pig-face:before {
+  content: "\E5F4";
+}
+
+.qstar-psychic-waves:before {
+  content: "\E5F5";
+}
+
+.qstar-pummeled:before {
+  content: "\E5F6";
+}
+
+.qstar-pumpkin-lantern:before {
+  content: "\E5F7";
+}
+
+.qstar-pumpkin-mask:before {
+  content: "\E5F8";
+}
+
+.qstar-razor-blade:before {
+  content: "\E5F9";
+}
+
+.qstar-spectacle-lenses:before {
+  content: "\E5FA";
+}
+
+.qstar-spectacles:before {
+  content: "\E5FB";
+}
+
+.qstar-spiked-halo:before {
+  content: "\E5FC";
+}
+
+.qstar-tear-tracks:before {
+  content: "\E5FD";
+}
+
+.qstar-tooth:before {
+  content: "\E5FE";
+}
+
+.qstar-cobra:before {
+  content: "\E5FF";
+}
+
+.qstar-dimetrodon:before {
+  content: "\E600";
+}
+
+.qstar-diplodocus:before {
+  content: "\E601";
+}
+
+.qstar-ninja-velociraptor:before {
+  content: "\E602";
+}
+
+.qstar-parasaurolophus:before {
+  content: "\E603";
+}
+
+.qstar-rattlesnake:before {
+  content: "\E604";
+}
+
+.qstar-reptile-tail:before {
+  content: "\E605";
+}
+
+.qstar-sand-snake:before {
+  content: "\E606";
+}
+
+.qstar-snake-egg:before {
+  content: "\E607";
+}
+
+.qstar-snake-tongue:before {
+  content: "\E608";
+}
+
+.qstar-stegosaurus-scales:before {
+  content: "\E609";
+}
+
+.qstar-triceratops-head:before {
+  content: "\E60A";
+}
+
+.qstar-velociraptor-tracks:before {
+  content: "\E60B";
+}
+
+.qstar-velociraptor:before {
+  content: "\E60C";
+}
+
+.qstar-cobra-2:before {
+  content: "\E60D";
+}
+
+.qstar-beast-eye:before {
+  content: "\E60E";
+}
+
+.qstar-lizard-tongue:before {
+  content: "\E60F";
+}
+
+.qstar-occupy:before {
+  content: "\E610";
+}
+
+.qstar-oppidum:before {
+  content: "\E611";
+}
+
+.qstar-defensive-wall:before {
+  content: "\E612";
+}
+
+.qstar-bunker:before {
+  content: "\E613";
+}
+
+.qstar-damaged-house:before {
+  content: "\E614";
+}
+
+.qstar-3d-stairs:before {
+  content: "\E615";
+}
+
+.qstar-airtight-hatch:before {
+  content: "\E616";
+}
+
+.qstar-ancient-ruins:before {
+  content: "\E617";
+}
+
+.qstar-aqueduct:before {
+  content: "\E618";
+}
+
+.qstar-arabic-door:before {
+  content: "\E619";
+}
+
+.qstar-arc-triomphe:before {
+  content: "\E61A";
+}
+
+.qstar-bank:before {
+  content: "\E61B";
+}
+
+.qstar-barn:before {
+  content: "\E61C";
+}
+
+.qstar-barracks-tent:before {
+  content: "\E61D";
+}
+
+.qstar-barracks:before {
+  content: "\E61E";
+}
+
+.qstar-barricade:before {
+  content: "\E61F";
+}
+
+.qstar-barrier:before {
+  content: "\E620";
+}
+
+.qstar-block-house:before {
+  content: "\E621";
+}
+
+.qstar-brick-pile:before {
+  content: "\E622";
+}
+
+.qstar-brick-wall:before {
+  content: "\E623";
+}
+
+.qstar-broken-wall:before {
+  content: "\E624";
+}
+
+.qstar-byzantin-temple:before {
+  content: "\E625";
+}
+
+.qstar-cage:before {
+  content: "\E626";
+}
+
+.qstar-castle-ruins:before {
+  content: "\E627";
+}
+
+.qstar-castle:before {
+  content: "\E628";
+}
+
+.qstar-church:before {
+  content: "\E629";
+}
+
+.qstar-closed-doors:before {
+  content: "\E62A";
+}
+
+.qstar-coliseum:before {
+  content: "\E62B";
+}
+
+.qstar-concrete-bag:before {
+  content: "\E62C";
+}
+
+.qstar-congress:before {
+  content: "\E62D";
+}
+
+.qstar-crane:before {
+  content: "\E62E";
+}
+
+.qstar-crime-scene-tape:before {
+  content: "\E62F";
+}
+
+.qstar-drawbridge:before {
+  content: "\E630";
+}
+
+.qstar-egyptian-pyramids:before {
+  content: "\E631";
+}
+
+.qstar-entry-door:before {
+  content: "\E632";
+}
+
+.qstar-evil-tower:before {
+  content: "\E633";
+}
+
+.qstar-exit-door:before {
+  content: "\E634";
+}
+
+.qstar-factory:before {
+  content: "\E635";
+}
+
+.qstar-family-house:before {
+  content: "\E636";
+}
+
+.qstar-gate:before {
+  content: "\E637";
+}
+
+.qstar-goblin-camp:before {
+  content: "\E638";
+}
+
+.qstar-gold-mine:before {
+  content: "\E639";
+}
+
+.qstar-greek-temple:before {
+  content: "\E63A";
+}
+
+.qstar-habitat-dome:before {
+  content: "\E63B";
+}
+
+.qstar-hill-fort:before {
+  content: "\E63C";
+}
+
+.qstar-hobbit-dwelling:before {
+  content: "\E63D";
+}
+
+.qstar-house:before {
+  content: "\E63E";
+}
+
+.qstar-i-beam:before {
+  content: "\E63F";
+}
+
+.qstar-igloo:before {
+  content: "\E640";
+}
+
+.qstar-indian-palace:before {
+  content: "\E641";
+}
+
+.qstar-ionic-column:before {
+  content: "\E642";
+}
+
+.qstar-ladder:before {
+  content: "\E643";
+}
+
+.qstar-mayan-pyramid:before {
+  content: "\E644";
+}
+
+.qstar-medieval-gate:before {
+  content: "\E645";
+}
+
+.qstar-medieval-pavilion:before {
+  content: "\E646";
+}
+
+.qstar-military-fort:before {
+  content: "\E647";
+}
+
+.qstar-modern-city:before {
+  content: "\E648";
+}
+
+.qstar-mushroom-house:before {
+  content: "\E649";
+}
+
+.qstar-obelisk:before {
+  content: "\E64A";
+}
+
+.qstar-observatory:before {
+  content: "\E64B";
+}
+
+.qstar-oil-pump:before {
+  content: "\E64C";
+}
+
+.qstar-oil-rig:before {
+  content: "\E64D";
+}
+
+.qstar-pagoda:before {
+  content: "\E64E";
+}
+
+.qstar-pisa-tower:before {
+  content: "\E64F";
+}
+
+.qstar-refinery:before {
+  content: "\E650";
+}
+
+.qstar-round-silo:before {
+  content: "\E651";
+}
+
+.qstar-saint-basil-cathedral:before {
+  content: "\E652";
+}
+
+.qstar-saloon-doors:before {
+  content: "\E653";
+}
+
+.qstar-secret-door:before {
+  content: "\E654";
+}
+
+.qstar-shinto-shrine:before {
+  content: "\E655";
+}
+
+.qstar-shop:before {
+  content: "\E656";
+}
+
+.qstar-stairs:before {
+  content: "\E657";
+}
+
+.qstar-stone-bridge:before {
+  content: "\E658";
+}
+
+.qstar-stone-wall:before {
+  content: "\E659";
+}
+
+.qstar-sverd-i-fjell:before {
+  content: "\E65A";
+}
+
+.qstar-theater-curtains:before {
+  content: "\E65B";
+}
+
+.qstar-tipi:before {
+  content: "\E65C";
+}
+
+.qstar-tower-bridge:before {
+  content: "\E65D";
+}
+
+.qstar-tower-flag:before {
+  content: "\E65E";
+}
+
+.qstar-traffic-cone:before {
+  content: "\E65F";
+}
+
+.qstar-tv-tower:before {
+  content: "\E660";
+}
+
+.qstar-viking-church:before {
+  content: "\E661";
+}
+
+.qstar-viking-longhouse:before {
+  content: "\E662";
+}
+
+.qstar-village:before {
+  content: "\E663";
+}
+
+.qstar-warp-pipe:before {
+  content: "\E664";
+}
+
+.qstar-water-fountain:before {
+  content: "\E665";
+}
+
+.qstar-well:before {
+  content: "\E666";
+}
+
+.qstar-wheelbarrow:before {
+  content: "\E667";
+}
+
+.qstar-wind-turbine:before {
+  content: "\E668";
+}
+
+.qstar-windmill:before {
+  content: "\E669";
+}
+
+.qstar-window-bars:before {
+  content: "\E66A";
+}
+
+.qstar-windpump:before {
+  content: "\E66B";
+}
+
+.qstar-arena:before {
+  content: "\E66C";
+}
+
+.qstar-bridge:before {
+  content: "\E66D";
+}
+
+.qstar-capitol:before {
+  content: "\E66E";
+}
+
+.qstar-castle-2:before {
+  content: "\E66F";
+}
+
+.qstar-demolish:before {
+  content: "\E670";
+}
+
+.qstar-fountain:before {
+  content: "\E671";
+}
+
+.qstar-guarded-tower:before {
+  content: "\E672";
+}
+
+.qstar-heart-tower:before {
+  content: "\E673";
+}
+
+.qstar-locked-fortress:before {
+  content: "\E674";
+}
+
+.qstar-magic-gate:before {
+  content: "\E675";
+}
+
+.qstar-magic-portal:before {
+  content: "\E676";
+}
+
+.qstar-maze:before {
+  content: "\E677";
+}
+
+.qstar-mucous-pillar:before {
+  content: "\E678";
+}
+
+.qstar-portculis:before {
+  content: "\E679";
+}
+
+.qstar-radar-dish:before {
+  content: "\E67A";
+}
+
+.qstar-stone-tower:before {
+  content: "\E67B";
+}
+
+.qstar-tower-fall:before {
+  content: "\E67C";
+}
+
+.qstar-white-tower:before {
+  content: "\E67D";
+}
+
+.qstar-wrecking-ball:before {
+  content: "\E67E";
+}
+
+.qstar-corner-flag:before {
+  content: "\E67F";
+}
+
+.qstar-golf-flag:before {
+  content: "\E680";
+}
+
+.qstar-brazil-flag:before {
+  content: "\E681";
+}
+
+.qstar-checkered-flag:before {
+  content: "\E682";
+}
+
+.qstar-conqueror:before {
+  content: "\E683";
+}
+
+.qstar-european-flag:before {
+  content: "\E684";
+}
+
+.qstar-hammer-sickle:before {
+  content: "\E685";
+}
+
+.qstar-hill-conquest:before {
+  content: "\E686";
+}
+
+.qstar-party-flags:before {
+  content: "\E687";
+}
+
+.qstar-pirate-flag:before {
+  content: "\E688";
+}
+
+.qstar-south-africa-flag:before {
+  content: "\E689";
+}
+
+.qstar-union-jack:before {
+  content: "\E68A";
+}
+
+.qstar-usa-flag:before {
+  content: "\E68B";
+}
+
+.qstar-vertical-banner:before {
+  content: "\E68C";
+}
+
+.qstar-broken-ribbon:before {
+  content: "\E68D";
+}
+
+.qstar-flying-flag:before {
+  content: "\E68E";
+}
+
+.qstar-spinning-ribbons:before {
+  content: "\E68F";
+}
+
+.qstar-tattered-banner:before {
+  content: "\E690";
+}
+
+.qstar-hooded-assassin:before {
+  content: "\E691";
+}
+
+.qstar-hooded-figure:before {
+  content: "\E692";
+}
+
+.qstar-ninja-heroic-stance:before {
+  content: "\E693";
+}
+
+.qstar-lost-limb:before {
+  content: "\E694";
+}
+
+.qstar-arm:before {
+  content: "\E695";
+}
+
+.qstar-biceps:before {
+  content: "\E696";
+}
+
+.qstar-blacksmith:before {
+  content: "\E697";
+}
+
+.qstar-body-balance:before {
+  content: "\E698";
+}
+
+.qstar-bowels:before {
+  content: "\E699";
+}
+
+.qstar-convict:before {
+  content: "\E69A";
+}
+
+.qstar-cryo-chamber:before {
+  content: "\E69B";
+}
+
+.qstar-egyptian-walk:before {
+  content: "\E69C";
+}
+
+.qstar-face-to-face:before {
+  content: "\E69D";
+}
+
+.qstar-farmer:before {
+  content: "\E69E";
+}
+
+.qstar-forearm:before {
+  content: "\E69F";
+}
+
+.qstar-guards:before {
+  content: "\E6A0";
+}
+
+.qstar-high-kick:before {
+  content: "\E6A1";
+}
+
+.qstar-invisible:before {
+  content: "\E6A2";
+}
+
+.qstar-liver:before {
+  content: "\E6A3";
+}
+
+.qstar-lovers:before {
+  content: "\E6A4";
+}
+
+.qstar-lungs:before {
+  content: "\E6A5";
+}
+
+.qstar-medallist:before {
+  content: "\E6A6";
+}
+
+.qstar-mug-shot:before {
+  content: "\E6A7";
+}
+
+.qstar-muscular-torso:before {
+  content: "\E6A8";
+}
+
+.qstar-pelvis-bone:before {
+  content: "\E6A9";
+}
+
+.qstar-person:before {
+  content: "\E6AA";
+}
+
+.qstar-pikeman:before {
+  content: "\E6AB";
+}
+
+.qstar-police-target:before {
+  content: "\E6AC";
+}
+
+.qstar-prisoner:before {
+  content: "\E6AD";
+}
+
+.qstar-stomach:before {
+  content: "\E6AE";
+}
+
+.qstar-stone-bust:before {
+  content: "\E6AF";
+}
+
+.qstar-tightrope:before {
+  content: "\E6B0";
+}
+
+.qstar-vampire-cape:before {
+  content: "\E6B1";
+}
+
+.qstar-van-damme-split:before {
+  content: "\E6B2";
+}
+
+.qstar-vitruvian-man:before {
+  content: "\E6B3";
+}
+
+.qstar-weight-lifting-down:before {
+  content: "\E6B4";
+}
+
+.qstar-weight-lifting-up:before {
+  content: "\E6B5";
+}
+
+.qstar-falling:before {
+  content: "\E6B6";
+}
+
+.qstar-fat:before {
+  content: "\E6B7";
+}
+
+.qstar-skeleton:before {
+  content: "\E6B8";
+}
+
+.qstar-anatomy:before {
+  content: "\E6B9";
+}
+
+.qstar-aura:before {
+  content: "\E6BA";
+}
+
+.qstar-backup:before {
+  content: "\E6BB";
+}
+
+.qstar-beams-aura:before {
+  content: "\E6BC";
+}
+
+.qstar-body-swapping:before {
+  content: "\E6BD";
+}
+
+.qstar-dark-squad:before {
+  content: "\E6BE";
+}
+
+.qstar-deadly-strike:before {
+  content: "\E6BF";
+}
+
+.qstar-dna1:before {
+  content: "\E6C0";
+}
+
+.qstar-dna2:before {
+  content: "\E6C1";
+}
+
+.qstar-dozen:before {
+  content: "\E6C2";
+}
+
+.qstar-embrassed-energy:before {
+  content: "\E6C3";
+}
+
+.qstar-eskimo:before {
+  content: "\E6C4";
+}
+
+.qstar-ghost-ally:before {
+  content: "\E6C5";
+}
+
+.qstar-heart-inside:before {
+  content: "\E6C6";
+}
+
+.qstar-heart-organ:before {
+  content: "\E6C7";
+}
+
+.qstar-icicles-aura:before {
+  content: "\E6C8";
+}
+
+.qstar-inner-self:before {
+  content: "\E6C9";
+}
+
+.qstar-internal-organ:before {
+  content: "\E6CA";
+}
+
+.qstar-master-of-arms:before {
+  content: "\E6CB";
+}
+
+.qstar-minions:before {
+  content: "\E6CC";
+}
+
+.qstar-muscle-fat:before {
+  content: "\E6CD";
+}
+
+.qstar-octoman:before {
+  content: "\E6CE";
+}
+
+.qstar-palm:before {
+  content: "\E6CF";
+}
+
+.qstar-puppet:before {
+  content: "\E6D0";
+}
+
+.qstar-rear-aura:before {
+  content: "\E6D1";
+}
+
+.qstar-relationship-bounds:before {
+  content: "\E6D2";
+}
+
+.qstar-rogue:before {
+  content: "\E6D3";
+}
+
+.qstar-shadow-follower:before {
+  content: "\E6D4";
+}
+
+.qstar-sinking-trap:before {
+  content: "\E6D5";
+}
+
+.qstar-skeleton-inside:before {
+  content: "\E6D6";
+}
+
+.qstar-split-body:before {
+  content: "\E6D7";
+}
+
+.qstar-static-guard:before {
+  content: "\E6D8";
+}
+
+.qstar-sword-tie:before {
+  content: "\E6D9";
+}
+
+.qstar-target-dummy:before {
+  content: "\E6DA";
+}
+
+.qstar-telepathy:before {
+  content: "\E6DB";
+}
+
+.qstar-transportation-rings:before {
+  content: "\E6DC";
+}
+
+.qstar-tumor:before {
+  content: "\E6DD";
+}
+
+.qstar-apothecary:before {
+  content: "\E6DE";
+}
+
+.qstar-cauldron:before {
+  content: "\E6DF";
+}
+
+.qstar-amphora:before {
+  content: "\E6E0";
+}
+
+.qstar-broken-pottery:before {
+  content: "\E6E1";
+}
+
+.qstar-coffee-cup:before {
+  content: "\E6E2";
+}
+
+.qstar-cooking-pot:before {
+  content: "\E6E3";
+}
+
+.qstar-covered-jar:before {
+  content: "\E6E4";
+}
+
+.qstar-glass-celebration:before {
+  content: "\E6E5";
+}
+
+.qstar-jug:before {
+  content: "\E6E6";
+}
+
+.qstar-manual-juicer:before {
+  content: "\E6E7";
+}
+
+.qstar-meal:before {
+  content: "\E6E8";
+}
+
+.qstar-painted-pottery:before {
+  content: "\E6E9";
+}
+
+.qstar-porcelain-vase:before {
+  content: "\E6EA";
+}
+
+.qstar-teapot-leaves:before {
+  content: "\E6EB";
+}
+
+.qstar-toaster:before {
+  content: "\E6EC";
+}
+
+.qstar-egg-pod:before {
+  content: "\E6ED";
+}
+
+.qstar-fruit-bowl:before {
+  content: "\E6EE";
+}
+
+.qstar-pestle-mortar:before {
+  content: "\E6EF";
+}
+
+.qstar-bandage-roll:before {
+  content: "\E6F0";
+}
+
+.qstar-bowl-spiral:before {
+  content: "\E6F1";
+}
+
+.qstar-cauldron-2:before {
+  content: "\E6F2";
+}
+
+.qstar-chalice-drops:before {
+  content: "\E6F3";
+}
+
+.qstar-coffee-mug:before {
+  content: "\E6F4";
+}
+
+.qstar-glass-shot:before {
+  content: "\E6F5";
+}
+
+.qstar-kitchen-knives:before {
+  content: "\E6F6";
+}
+
+.qstar-knife-fork:before {
+  content: "\E6F7";
+}
+
+.qstar-martini:before {
+  content: "\E6F8";
+}
+
+.qstar-meat-cleaver:before {
+  content: "\E6F9";
+}
+
+.qstar-pizza-cutter:before {
+  content: "\E6FA";
+}
+
+.qstar-shattered-glass:before {
+  content: "\E6FB";
+}
+
+.qstar-spoon:before {
+  content: "\E6FC";
+}
+
+.qstar-teapot:before {
+  content: "\E6FD";
+}
+
+.qstar-wine-glass:before {
+  content: "\E6FE";
+}
+
+.qstar-big-gear:before {
+  content: "\E6FF";
+}
+
+.qstar-catapult:before {
+  content: "\E700";
+}
+
+.qstar-computing:before {
+  content: "\E701";
+}
+
+.qstar-diagram:before {
+  content: "\E702";
+}
+
+.qstar-microscope:before {
+  content: "\E703";
+}
+
+.qstar-beam-satellite:before {
+  content: "\E704";
+}
+
+.qstar-candlestick-phone:before {
+  content: "\E705";
+}
+
+.qstar-computer-fan:before {
+  content: "\E706";
+}
+
+.qstar-drill:before {
+  content: "\E707";
+}
+
+.qstar-floor-polisher:before {
+  content: "\E708";
+}
+
+.qstar-gps:before {
+  content: "\E709";
+}
+
+.qstar-hexagonal-nut:before {
+  content: "\E70A";
+}
+
+.qstar-pipes:before {
+  content: "\E70B";
+}
+
+.qstar-plug:before {
+  content: "\E70C";
+}
+
+.qstar-power-generator:before {
+  content: "\E70D";
+}
+
+.qstar-star-gate:before {
+  content: "\E70E";
+}
+
+.qstar-tv:before {
+  content: "\E70F";
+}
+
+.qstar-vacuum-cleaner:before {
+  content: "\E710";
+}
+
+.qstar-tesla:before {
+  content: "\E711";
+}
+
+.qstar-unplugged:before {
+  content: "\E712";
+}
+
+.qstar-auto-repair:before {
+  content: "\E713";
+}
+
+.qstar-circuitry:before {
+  content: "\E714";
+}
+
+.qstar-clockwork:before {
+  content: "\E715";
+}
+
+.qstar-cog-lock:before {
+  content: "\E716";
+}
+
+.qstar-cog:before {
+  content: "\E717";
+}
+
+.qstar-cogsplosion:before {
+  content: "\E718";
+}
+
+.qstar-drill-2:before {
+  content: "\E719";
+}
+
+.qstar-gears:before {
+  content: "\E71A";
+}
+
+.qstar-lever:before {
+  content: "\E71B";
+}
+
+.qstar-mechanical-arm:before {
+  content: "\E71C";
+}
+
+.qstar-microchip:before {
+  content: "\E71D";
+}
+
+.qstar-microscope-lens:before {
+  content: "\E71E";
+}
+
+.qstar-overdrive:before {
+  content: "\E71F";
+}
+
+.qstar-pokecog:before {
+  content: "\E720";
+}
+
+.qstar-processor:before {
+  content: "\E721";
+}
+
+.qstar-sattelite:before {
+  content: "\E722";
+}
+
+.qstar-skid-mark:before {
+  content: "\E723";
+}
+
+.qstar-spoutnik:before {
+  content: "\E724";
+}
+
+.qstar-tyre:before {
+  content: "\E725";
+}
+
+.qstar-belt-armor:before {
+  content: "\E726";
+}
+
+.qstar-bolt-cutter:before {
+  content: "\E727";
+}
+
+.qstar-bottle-cap:before {
+  content: "\E728";
+}
+
+.qstar-empty-metal-bucket-handle:before {
+  content: "\E729";
+}
+
+.qstar-empty-metal-bucket:before {
+  content: "\E72A";
+}
+
+.qstar-full-metal-bucket-handle:before {
+  content: "\E72B";
+}
+
+.qstar-full-metal-bucket:before {
+  content: "\E72C";
+}
+
+.qstar-gold-stack:before {
+  content: "\E72D";
+}
+
+.qstar-metal-plate:before {
+  content: "\E72E";
+}
+
+.qstar-shoulder-armor:before {
+  content: "\E72F";
+}
+
+.qstar-zipper:before {
+  content: "\E730";
+}
+
+.qstar-weight-crush:before {
+  content: "\E731";
+}
+
+.qstar-breaking-chain:before {
+  content: "\E732";
+}
+
+.qstar-steel-claws:before {
+  content: "\E733";
+}
+
+.qstar-steel-door:before {
+  content: "\E734";
+}
+
+.qstar-gold-bar:before {
+  content: "\E735";
+}
+
+.qstar-anvil-impact:before {
+  content: "\E736";
+}
+
+.qstar-anvil:before {
+  content: "\E737";
+}
+
+.qstar-barbed-coil:before {
+  content: "\E738";
+}
+
+.qstar-barbed-wire:before {
+  content: "\E739";
+}
+
+.qstar-black-bar:before {
+  content: "\E73A";
+}
+
+.qstar-cash:before {
+  content: "\E73B";
+}
+
+.qstar-crossed-chains:before {
+  content: "\E73C";
+}
+
+.qstar-handcuffs:before {
+  content: "\E73D";
+}
+
+.qstar-magnet-blast:before {
+  content: "\E73E";
+}
+
+.qstar-magnet:before {
+  content: "\E73F";
+}
+
+.qstar-manacles:before {
+  content: "\E740";
+}
+
+.qstar-metal-bar:before {
+  content: "\E741";
+}
+
+.qstar-metal-disc:before {
+  content: "\E742";
+}
+
+.qstar-metal-hand:before {
+  content: "\E743";
+}
+
+.qstar-metal-scales:before {
+  content: "\E744";
+}
+
+.qstar-nails:before {
+  content: "\E745";
+}
+
+.qstar-needle-drill:before {
+  content: "\E746";
+}
+
+.qstar-robot-golem:before {
+  content: "\E747";
+}
+
+.qstar-steel-claws-2:before {
+  content: "\E748";
+}
+
+.qstar-steeltoe-boots:before {
+  content: "\E749";
+}
+
+.qstar-wavy-chains:before {
+  content: "\E74A";
+}
+
+.qstar-revolt:before {
+  content: "\E74B";
+}
+
+.qstar-robber-hand:before {
+  content: "\E74C";
+}
+
+.qstar-severed-hand:before {
+  content: "\E74D";
+}
+
+.qstar-thumb-down:before {
+  content: "\E74E";
+}
+
+.qstar-thumb-up:before {
+  content: "\E74F";
+}
+
+.qstar-fingers-crossed:before {
+  content: "\E750";
+}
+
+.qstar-paper:before {
+  content: "\E751";
+}
+
+.qstar-rock:before {
+  content: "\E752";
+}
+
+.qstar-scissors:before {
+  content: "\E753";
+}
+
+.qstar-bolt-spell-cast:before {
+  content: "\E754";
+}
+
+.qstar-cherish:before {
+  content: "\E755";
+}
+
+.qstar-finger-print:before {
+  content: "\E756";
+}
+
+.qstar-gauntlet:before {
+  content: "\E757";
+}
+
+.qstar-gloves:before {
+  content: "\E758";
+}
+
+.qstar-hand-grip:before {
+  content: "\E759";
+}
+
+.qstar-hand-of-god:before {
+  content: "\E75A";
+}
+
+.qstar-hand-ok:before {
+  content: "\E75B";
+}
+
+.qstar-handcuffed:before {
+  content: "\E75C";
+}
+
+.qstar-ice-spell-cast:before {
+  content: "\E75D";
+}
+
+.qstar-pirate-hook:before {
+  content: "\E75E";
+}
+
+.qstar-ring:before {
+  content: "\E75F";
+}
+
+.qstar-take-my-money:before {
+  content: "\E760";
+}
+
+.qstar-hand:before {
+  content: "\E761";
+}
+
+.qstar-revolt-2:before {
+  content: "\E762";
+}
+
+.qstar-usable:before {
+  content: "\E763";
+}
+
+.qstar-click:before {
+  content: "\E764";
+}
+
+.qstar-fist:before {
+  content: "\E765";
+}
+
+.qstar-halt:before {
+  content: "\E766";
+}
+
+.qstar-open-palm:before {
+  content: "\E767";
+}
+
+.qstar-raise-skeleton:before {
+  content: "\E768";
+}
+
+.qstar-boxing-glove-surprise:before {
+  content: "\E769";
+}
+
+.qstar-boxing-glove:before {
+  content: "\E76A";
+}
+
+.qstar-cut-palm:before {
+  content: "\E76B";
+}
+
+.qstar-engagement-ring:before {
+  content: "\E76C";
+}
+
+.qstar-evil-hand:before {
+  content: "\E76D";
+}
+
+.qstar-fist-2:before {
+  content: "\E76E";
+}
+
+.qstar-fulguro-punch:before {
+  content: "\E76F";
+}
+
+.qstar-gift-of-knowledge:before {
+  content: "\E770";
+}
+
+.qstar-glowing-hands:before {
+  content: "\E771";
+}
+
+.qstar-hand-2:before {
+  content: "\E772";
+}
+
+.qstar-high-five:before {
+  content: "\E773";
+}
+
+.qstar-magic-palm:before {
+  content: "\E774";
+}
+
+.qstar-magic-swirl:before {
+  content: "\E775";
+}
+
+.qstar-mailed-fist:before {
+  content: "\E776";
+}
+
+.qstar-monster-grasp:before {
+  content: "\E777";
+}
+
+.qstar-moon-claws:before {
+  content: "\E778";
+}
+
+.qstar-punch-blast:before {
+  content: "\E779";
+}
+
+.qstar-punch:before {
+  content: "\E77A";
+}
+
+.qstar-shadow-grasp:before {
+  content: "\E77B";
+}
+
+.qstar-stigmata:before {
+  content: "\E77C";
+}
+
+.qstar-thor-fist:before {
+  content: "\E77D";
+}
+
+.qstar-database:before {
+  content: "\E77E";
+}
+
+.qstar-backpack:before {
+  content: "\E77F";
+}
+
+.qstar-bindle:before {
+  content: "\E780";
+}
+
+.qstar-briefcase:before {
+  content: "\E781";
+}
+
+.qstar-cardboard-box:before {
+  content: "\E782";
+}
+
+.qstar-chest:before {
+  content: "\E783";
+}
+
+.qstar-companion-cube:before {
+  content: "\E784";
+}
+
+.qstar-energy-tank:before {
+  content: "\E785";
+}
+
+.qstar-fuel-tank:before {
+  content: "\E786";
+}
+
+.qstar-hand-bag:before {
+  content: "\E787";
+}
+
+.qstar-jerrycan:before {
+  content: "\E788";
+}
+
+.qstar-light-backpack:before {
+  content: "\E789";
+}
+
+.qstar-magic-potion:before {
+  content: "\E78A";
+}
+
+.qstar-matryoshka-dolls:before {
+  content: "\E78B";
+}
+
+.qstar-opened-food-can:before {
+  content: "\E78C";
+}
+
+.qstar-paper-tray:before {
+  content: "\E78D";
+}
+
+.qstar-powder-bag:before {
+  content: "\E78E";
+}
+
+.qstar-present:before {
+  content: "\E78F";
+}
+
+.qstar-suitcase:before {
+  content: "\E790";
+}
+
+.qstar-watering-can:before {
+  content: "\E791";
+}
+
+.qstar-box-trap:before {
+  content: "\E792";
+}
+
+.qstar-oil-drum:before {
+  content: "\E793";
+}
+
+.qstar-open-chest:before {
+  content: "\E794";
+}
+
+.qstar-open-treasure-chest:before {
+  content: "\E795";
+}
+
+.qstar-cannister:before {
+  content: "\E796";
+}
+
+.qstar-chemical-tank:before {
+  content: "\E797";
+}
+
+.qstar-jigsaw-box:before {
+  content: "\E798";
+}
+
+.qstar-knapsack:before {
+  content: "\E799";
+}
+
+.qstar-locked-chest:before {
+  content: "\E79A";
+}
+
+.qstar-shiny-purse:before {
+  content: "\E79B";
+}
+
+.qstar-swap-bag:before {
+  content: "\E79C";
+}
+
+.qstar-milk-carton:before {
+  content: "\E79D";
+}
+
+.qstar-holy-water:before {
+  content: "\E79E";
+}
+
+.qstar-lily-pads:before {
+  content: "\E79F";
+}
+
+.qstar-shower:before {
+  content: "\E7A0";
+}
+
+.qstar-tap:before {
+  content: "\E7A1";
+}
+
+.qstar-acid:before {
+  content: "\E7A2";
+}
+
+.qstar-water-drop:before {
+  content: "\E7A3";
+}
+
+.qstar-blood:before {
+  content: "\E7A4";
+}
+
+.qstar-acid-blob:before {
+  content: "\E7A5";
+}
+
+.qstar-beer-stein:before {
+  content: "\E7A6";
+}
+
+.qstar-bleeding-eye:before {
+  content: "\E7A7";
+}
+
+.qstar-boiling-bubbles:before {
+  content: "\E7A8";
+}
+
+.qstar-bubbles:before {
+  content: "\E7A9";
+}
+
+.qstar-burst-blob:before {
+  content: "\E7AA";
+}
+
+.qstar-chemical-drop:before {
+  content: "\E7AB";
+}
+
+.qstar-crystalize:before {
+  content: "\E7AC";
+}
+
+.qstar-dew:before {
+  content: "\E7AD";
+}
+
+.qstar-drink-me:before {
+  content: "\E7AE";
+}
+
+.qstar-dripping-blade:before {
+  content: "\E7AF";
+}
+
+.qstar-dripping-goo:before {
+  content: "\E7B0";
+}
+
+.qstar-dripping-honey:before {
+  content: "\E7B1";
+}
+
+.qstar-dripping-star:before {
+  content: "\E7B2";
+}
+
+.qstar-dripping-stone:before {
+  content: "\E7B3";
+}
+
+.qstar-dripping-sword:before {
+  content: "\E7B4";
+}
+
+.qstar-drop:before {
+  content: "\E7B5";
+}
+
+.qstar-droplet-splash:before {
+  content: "\E7B6";
+}
+
+.qstar-droplets:before {
+  content: "\E7B7";
+}
+
+.qstar-eyedropper:before {
+  content: "\E7B8";
+}
+
+.qstar-foam:before {
+  content: "\E7B9";
+}
+
+.qstar-gloop:before {
+  content: "\E7BA";
+}
+
+.qstar-goo-explosion:before {
+  content: "\E7BB";
+}
+
+.qstar-goo-skull:before {
+  content: "\E7BC";
+}
+
+.qstar-goo-spurt:before {
+  content: "\E7BD";
+}
+
+.qstar-gooey-impact:before {
+  content: "\E7BE";
+}
+
+.qstar-gooey-molecule:before {
+  content: "\E7BF";
+}
+
+.qstar-gooey-sword:before {
+  content: "\E7C0";
+}
+
+.qstar-grease-trap:before {
+  content: "\E7C1";
+}
+
+.qstar-grouped-drops:before {
+  content: "\E7C2";
+}
+
+.qstar-heart-drop:before {
+  content: "\E7C3";
+}
+
+.qstar-heavy-rain:before {
+  content: "\E7C4";
+}
+
+.qstar-hypodermic-test:before {
+  content: "\E7C5";
+}
+
+.qstar-jeweled-chalice:before {
+  content: "\E7C6";
+}
+
+.qstar-kaleidoscope-pearls:before {
+  content: "\E7C7";
+}
+
+.qstar-marrow-drain:before {
+  content: "\E7C8";
+}
+
+.qstar-oily-spiral:before {
+  content: "\E7C9";
+}
+
+.qstar-poison-bottle:before {
+  content: "\E7CA";
+}
+
+.qstar-ragged-wound:before {
+  content: "\E7CB";
+}
+
+.qstar-spatter:before {
+  content: "\E7CC";
+}
+
+.qstar-spill:before {
+  content: "\E7CD";
+}
+
+.qstar-splash:before {
+  content: "\E7CE";
+}
+
+.qstar-splashy-stream:before {
+  content: "\E7CF";
+}
+
+.qstar-splurt:before {
+  content: "\E7D0";
+}
+
+.qstar-transparent-tubes:before {
+  content: "\E7D1";
+}
+
+.qstar-water-bolt:before {
+  content: "\E7D2";
+}
+
+.qstar-skull-sabertooth:before {
+  content: "\E7D3";
+}
+
+.qstar-calavera:before {
+  content: "\E7D4";
+}
+
+.qstar-death-skull:before {
+  content: "\E7D5";
+}
+
+.qstar-alien-skull:before {
+  content: "\E7D6";
+}
+
+.qstar-blade-bite:before {
+  content: "\E7D7";
+}
+
+.qstar-bone-gnawer:before {
+  content: "\E7D8";
+}
+
+.qstar-broken-skull:before {
+  content: "\E7D9";
+}
+
+.qstar-chewed-skull:before {
+  content: "\E7DA";
+}
+
+.qstar-chopped-skull:before {
+  content: "\E7DB";
+}
+
+.qstar-condylura-skull:before {
+  content: "\E7DC";
+}
+
+.qstar-death-note:before {
+  content: "\E7DD";
+}
+
+.qstar-dread-skull:before {
+  content: "\E7DE";
+}
+
+.qstar-fanged-skull:before {
+  content: "\E7DF";
+}
+
+.qstar-happy-skull:before {
+  content: "\E7E0";
+}
+
+.qstar-harry-potter-skull:before {
+  content: "\E7E1";
+}
+
+.qstar-leaky-skull:before {
+  content: "\E7E2";
+}
+
+.qstar-medal-skull:before {
+  content: "\E7E3";
+}
+
+.qstar-morbid-humour:before {
+  content: "\E7E4";
+}
+
+.qstar-piece-skull:before {
+  content: "\E7E5";
+}
+
+.qstar-pirate-skull:before {
+  content: "\E7E6";
+}
+
+.qstar-sharped-teeth-skull:before {
+  content: "\E7E7";
+}
+
+.qstar-skeleton-key:before {
+  content: "\E7E8";
+}
+
+.qstar-skull-bolt:before {
+  content: "\E7E9";
+}
+
+.qstar-skull-crack:before {
+  content: "\E7EA";
+}
+
+.qstar-skull-in-jar:before {
+  content: "\E7EB";
+}
+
+.qstar-skull-mask:before {
+  content: "\E7EC";
+}
+
+.qstar-skull-ring:before {
+  content: "\E7ED";
+}
+
+.qstar-skull-signet:before {
+  content: "\E7EE";
+}
+
+.qstar-skull-slices:before {
+  content: "\E7EF";
+}
+
+.qstar-spade-skull:before {
+  content: "\E7F0";
+}
+
+.qstar-star-skull:before {
+  content: "\E7F1";
+}
+
+.qstar-tentacles-skull:before {
+  content: "\E7F2";
+}
+
+.qstar-thunder-skull:before {
+  content: "\E7F3";
+}
+
+.qstar-triple-skulls:before {
+  content: "\E7F4";
+}
+
+.qstar-soda-can:before {
+  content: "\E7F5";
+}
+
+.qstar-chocolate-bar:before {
+  content: "\E7F6";
+}
+
+.qstar-peanut:before {
+  content: "\E7F7";
+}
+
+.qstar-banana:before {
+  content: "\E7F8";
+}
+
+.qstar-beer-bottle:before {
+  content: "\E7F9";
+}
+
+.qstar-beet:before {
+  content: "\E7FA";
+}
+
+.qstar-bread:before {
+  content: "\E7FB";
+}
+
+.qstar-candy-canes:before {
+  content: "\E7FC";
+}
+
+.qstar-carrot:before {
+  content: "\E7FD";
+}
+
+.qstar-cherry:before {
+  content: "\E7FE";
+}
+
+.qstar-chili-pepper:before {
+  content: "\E7FF";
+}
+
+.qstar-chips-bag:before {
+  content: "\E800";
+}
+
+.qstar-coffee-beans:before {
+  content: "\E801";
+}
+
+.qstar-corn:before {
+  content: "\E802";
+}
+
+.qstar-croissant:before {
+  content: "\E803";
+}
+
+.qstar-cupcake:before {
+  content: "\E804";
+}
+
+.qstar-dog-bowl:before {
+  content: "\E805";
+}
+
+.qstar-garlic:before {
+  content: "\E806";
+}
+
+.qstar-gingerbread-man:before {
+  content: "\E807";
+}
+
+.qstar-grain:before {
+  content: "\E808";
+}
+
+.qstar-hamburger:before {
+  content: "\E809";
+}
+
+.qstar-hot-meal:before {
+  content: "\E80A";
+}
+
+.qstar-ice-cream-cone:before {
+  content: "\E80B";
+}
+
+.qstar-ice-pop:before {
+  content: "\E80C";
+}
+
+.qstar-kiwi-fruit:before {
+  content: "\E80D";
+}
+
+.qstar-noodles:before {
+  content: "\E80E";
+}
+
+.qstar-olive:before {
+  content: "\E80F";
+}
+
+.qstar-pear:before {
+  content: "\E810";
+}
+
+.qstar-pizza-slice:before {
+  content: "\E811";
+}
+
+.qstar-potato:before {
+  content: "\E812";
+}
+
+.qstar-pretzel:before {
+  content: "\E813";
+}
+
+.qstar-steak:before {
+  content: "\E814";
+}
+
+.qstar-tacos:before {
+  content: "\E815";
+}
+
+.qstar-tangerine:before {
+  content: "\E816";
+}
+
+.qstar-tomato:before {
+  content: "\E817";
+}
+
+.qstar-wine-bottle:before {
+  content: "\E818";
+}
+
+.qstar-ham-shank:before {
+  content: "\E819";
+}
+
+.qstar-aubergine:before {
+  content: "\E81A";
+}
+
+.qstar-brandy-bottle:before {
+  content: "\E81B";
+}
+
+.qstar-cake-slice:before {
+  content: "\E81C";
+}
+
+.qstar-cheese-wedge:before {
+  content: "\E81D";
+}
+
+.qstar-cool-spices:before {
+  content: "\E81E";
+}
+
+.qstar-elderberry:before {
+  content: "\E81F";
+}
+
+.qstar-grapes:before {
+  content: "\E820";
+}
+
+.qstar-honeypot:before {
+  content: "\E821";
+}
+
+.qstar-ice-cube:before {
+  content: "\E822";
+}
+
+.qstar-meat-hook:before {
+  content: "\E823";
+}
+
+.qstar-meat:before {
+  content: "\E824";
+}
+
+.qstar-mushroom-gills:before {
+  content: "\E825";
+}
+
+.qstar-mushroom:before {
+  content: "\E826";
+}
+
+.qstar-oat:before {
+  content: "\E827";
+}
+
+.qstar-overdose:before {
+  content: "\E828";
+}
+
+.qstar-pie-slice:before {
+  content: "\E829";
+}
+
+.qstar-pill:before {
+  content: "\E82A";
+}
+
+.qstar-powder:before {
+  content: "\E82B";
+}
+
+.qstar-salt-shaker:before {
+  content: "\E82C";
+}
+
+.qstar-shiny-apple:before {
+  content: "\E82D";
+}
+
+.qstar-sliced-bread:before {
+  content: "\E82E";
+}
+
+.qstar-wheat:before {
+  content: "\E82F";
+}
+
+.qstar-wrapped-sweet:before {
+  content: "\E830";
+}
+
+.qstar-cactus:before {
+  content: "\E831";
+}
+
+.qstar-caltrops:before {
+  content: "\E832";
+}
+
+.qstar-spiky-pit:before {
+  content: "\E833";
+}
+
+.qstar-tribal-pendant:before {
+  content: "\E834";
+}
+
+.qstar-spikeball:before {
+  content: "\E835";
+}
+
+.qstar-spikes-full:before {
+  content: "\E836";
+}
+
+.qstar-spikes-half:before {
+  content: "\E837";
+}
+
+.qstar-spikes-init:before {
+  content: "\E838";
+}
+
+.qstar-spikes:before {
+  content: "\E839";
+}
+
+.qstar-trigger-hurt:before {
+  content: "\E83A";
+}
+
+.qstar-air-zigzag:before {
+  content: "\E83B";
+}
+
+.qstar-alligator-clip:before {
+  content: "\E83C";
+}
+
+.qstar-armoured-shell:before {
+  content: "\E83D";
+}
+
+.qstar-atomic-slashes:before {
+  content: "\E83E";
+}
+
+.qstar-bleeding-heart:before {
+  content: "\E83F";
+}
+
+.qstar-broken-bone:before {
+  content: "\E840";
+}
+
+.qstar-broken-heart:before {
+  content: "\E841";
+}
+
+.qstar-burning-round-shot:before {
+  content: "\E842";
+}
+
+.qstar-circle-claws:before {
+  content: "\E843";
+}
+
+.qstar-claw-slashes:before {
+  content: "\E844";
+}
+
+.qstar-cracked-ball-dunk:before {
+  content: "\E845";
+}
+
+.qstar-cracked-disc:before {
+  content: "\E846";
+}
+
+.qstar-cracked-glass:before {
+  content: "\E847";
+}
+
+.qstar-cracked-mask:before {
+  content: "\E848";
+}
+
+.qstar-cracked-saber:before {
+  content: "\E849";
+}
+
+.qstar-crossed-air-flows:before {
+  content: "\E84A";
+}
+
+.qstar-crossed-slashes:before {
+  content: "\E84B";
+}
+
+.qstar-earth-spit:before {
+  content: "\E84C";
+}
+
+.qstar-eclipse-saw:before {
+  content: "\E84D";
+}
+
+.qstar-edge-crack:before {
+  content: "\E84E";
+}
+
+.qstar-fangs-circle:before {
+  content: "\E84F";
+}
+
+.qstar-groundbreaker:before {
+  content: "\E850";
+}
+
+.qstar-heavy-thorny-triskelion:before {
+  content: "\E851";
+}
+
+.qstar-icicles-fence:before {
+  content: "\E852";
+}
+
+.qstar-large-wound:before {
+  content: "\E853";
+}
+
+.qstar-light-thorny-triskelion:before {
+  content: "\E854";
+}
+
+.qstar-mantrap:before {
+  content: "\E855";
+}
+
+.qstar-mighty-spanner:before {
+  content: "\E856";
+}
+
+.qstar-needle-jaws:before {
+  content: "\E857";
+}
+
+.qstar-quick-slash:before {
+  content: "\E858";
+}
+
+.qstar-rough-wound:before {
+  content: "\E859";
+}
+
+.qstar-serrated-slash:before {
+  content: "\E85A";
+}
+
+.qstar-shatter:before {
+  content: "\E85B";
+}
+
+.qstar-shattered-sword:before {
+  content: "\E85C";
+}
+
+.qstar-spiked-armor:before {
+  content: "\E85D";
+}
+
+.qstar-spiked-collar:before {
+  content: "\E85E";
+}
+
+.qstar-spiked-fence:before {
+  content: "\E85F";
+}
+
+.qstar-spiked-shell:before {
+  content: "\E860";
+}
+
+.qstar-spiked-tail:before {
+  content: "\E861";
+}
+
+.qstar-spiked-tentacle:before {
+  content: "\E862";
+}
+
+.qstar-spiky-eclipse:before {
+  content: "\E863";
+}
+
+.qstar-spiky-explosion:before {
+  content: "\E864";
+}
+
+.qstar-striking-diamonds:before {
+  content: "\E865";
+}
+
+.qstar-swan-breeze:before {
+  content: "\E866";
+}
+
+.qstar-swirl-ring:before {
+  content: "\E867";
+}
+
+.qstar-swirl-string:before {
+  content: "\E868";
+}
+
+.qstar-sword-break:before {
+  content: "\E869";
+}
+
+.qstar-tension-snowflake:before {
+  content: "\E86A";
+}
+
+.qstar-tornado-discs:before {
+  content: "\E86B";
+}
+
+.qstar-triple-claws:before {
+  content: "\E86C";
+}
+
+.qstar-unstable-projectile:before {
+  content: "\E86D";
+}
+
+.qstar-whiplash:before {
+  content: "\E86E";
+}
+
+.qstar-wind-slap:before {
+  content: "\E86F";
+}
+
+.qstar-wolf-trap:before {
+  content: "\E870";
+}
+
+.qstar-wrapped-heart:before {
+  content: "\E871";
+}
+
+.qstar-cadillac-helm:before {
+  content: "\E872";
+}
+
+.qstar-carnival-mask:before {
+  content: "\E873";
+}
+
+.qstar-cyborg-face:before {
+  content: "\E874";
+}
+
+.qstar-jason-mask:before {
+  content: "\E875";
+}
+
+.qstar-king-ju-mask:before {
+  content: "\E876";
+}
+
+.qstar-luchador:before {
+  content: "\E877";
+}
+
+.qstar-mighty-boosh:before {
+  content: "\E878";
+}
+
+.qstar-pharoah:before {
+  content: "\E879";
+}
+
+.qstar-protection-glasses:before {
+  content: "\E87A";
+}
+
+.qstar-steampunk-goggles:before {
+  content: "\E87B";
+}
+
+.qstar-cultist-2:before {
+  content: "\E87C";
+}
+
+.qstar-gas-mask-2:before {
+  content: "\E87D";
+}
+
+.qstar-android-mask:before {
+  content: "\E87E";
+}
+
+.qstar-architect-mask:before {
+  content: "\E87F";
+}
+
+.qstar-curly-mask:before {
+  content: "\E880";
+}
+
+.qstar-domino-mask:before {
+  content: "\E881";
+}
+
+.qstar-duality-mask:before {
+  content: "\E882";
+}
+
+.qstar-lightning-mask:before {
+  content: "\E883";
+}
+
+.qstar-trap-mask:before {
+  content: "\E884";
+}
+
+.qstar-flower-star:before {
+  content: "\E885";
+}
+
+.qstar-round-star:before {
+  content: "\E886";
+}
+
+.qstar-seven-pointed-star:before {
+  content: "\E887";
+}
+
+.qstar-solar-system:before {
+  content: "\E888";
+}
+
+.qstar-star-formation:before {
+  content: "\E889";
+}
+
+.qstar-stars-stack:before {
+  content: "\E88A";
+}
+
+.qstar-sun-cloud:before {
+  content: "\E88B";
+}
+
+.qstar-sunflower:before {
+  content: "\E88C";
+}
+
+.qstar-thermometer-hot:before {
+  content: "\E88D";
+}
+
+.qstar-ursa-major:before {
+  content: "\E88E";
+}
+
+.qstar-flake:before {
+  content: "\E88F";
+}
+
+.qstar-splash-2:before {
+  content: "\E890";
+}
+
+.qstar-laser-burst:before {
+  content: "\E891";
+}
+
+.qstar-solar-power:before {
+  content: "\E892";
+}
+
+.qstar-barbed-star:before {
+  content: "\E893";
+}
+
+.qstar-beveled-star:before {
+  content: "\E894";
+}
+
+.qstar-boomerang-sun:before {
+  content: "\E895";
+}
+
+.qstar-circle-sparks:before {
+  content: "\E896";
+}
+
+.qstar-cross-flare:before {
+  content: "\E897";
+}
+
+.qstar-eclipse-flare:before {
+  content: "\E898";
+}
+
+.qstar-eclipse:before {
+  content: "\E899";
+}
+
+.qstar-flat-star:before {
+  content: "\E89A";
+}
+
+.qstar-flexible-star:before {
+  content: "\E89B";
+}
+
+.qstar-laser-sparks:before {
+  content: "\E89C";
+}
+
+.qstar-lotus-flower:before {
+  content: "\E89D";
+}
+
+.qstar-orbital-rays:before {
+  content: "\E89E";
+}
+
+.qstar-rainbow-star:before {
+  content: "\E89F";
+}
+
+.qstar-shiny-iris:before {
+  content: "\E8A0";
+}
+
+.qstar-star-cycle:before {
+  content: "\E8A1";
+}
+
+.qstar-star-prominences:before {
+  content: "\E8A2";
+}
+
+.qstar-star-pupil:before {
+  content: "\E8A3";
+}
+
+.qstar-star-sattelites:before {
+  content: "\E8A4";
+}
+
+.qstar-star-swirl:before {
+  content: "\E8A5";
+}
+
+.qstar-sun-radiations:before {
+  content: "\E8A6";
+}
+
+.qstar-sunrise-2:before {
+  content: "\E8A7";
+}
+
+.qstar-wrapping-star:before {
+  content: "\E8A8";
+}
+
+.qstar-on-sight:before {
+  content: "\E8A9";
+}
+
+.qstar-crosshair:before {
+  content: "\E8AA";
+}
+
+.qstar-eye-target:before {
+  content: "\E8AB";
+}
+
+.qstar-multiple-targets:before {
+  content: "\E8AC";
+}
+
+.qstar-head-shot:before {
+  content: "\E8AD";
+}
+
+.qstar-select:before {
+  content: "\E8AE";
+}
+
+.qstar-target-laser:before {
+  content: "\E8AF";
+}
+
+.qstar-targeted:before {
+  content: "\E8B0";
+}
+
+.qstar-poppy:before {
+  content: "\E8B1";
+}
+
+.qstar-cotton-flower:before {
+  content: "\E8B2";
+}
+
+.qstar-fire-flower:before {
+  content: "\E8B3";
+}
+
+.qstar-hemp:before {
+  content: "\E8B4";
+}
+
+.qstar-hops:before {
+  content: "\E8B5";
+}
+
+.qstar-papyrus:before {
+  content: "\E8B6";
+}
+
+.qstar-round-straw-bale:before {
+  content: "\E8B7";
+}
+
+.qstar-sugar-cane:before {
+  content: "\E8B8";
+}
+
+.qstar-beanstalk:before {
+  content: "\E8B9";
+}
+
+.qstar-bud:before {
+  content: "\E8BA";
+}
+
+.qstar-bulb:before {
+  content: "\E8BB";
+}
+
+.qstar-curling-vines:before {
+  content: "\E8BC";
+}
+
+.qstar-daisy:before {
+  content: "\E8BD";
+}
+
+.qstar-deathcab:before {
+  content: "\E8BE";
+}
+
+.qstar-evil-bud:before {
+  content: "\E8BF";
+}
+
+.qstar-flower-pot:before {
+  content: "\E8C0";
+}
+
+.qstar-flowers:before {
+  content: "\E8C1";
+}
+
+.qstar-ground-sprout:before {
+  content: "\E8C2";
+}
+
+.qstar-leaf-skeleton:before {
+  content: "\E8C3";
+}
+
+.qstar-lotus:before {
+  content: "\E8C4";
+}
+
+.qstar-pollen-dust:before {
+  content: "\E8C5";
+}
+
+.qstar-rose:before {
+  content: "\E8C6";
+}
+
+.qstar-shut-rose:before {
+  content: "\E8C7";
+}
+
+.qstar-spiral-bloom:before {
+  content: "\E8C8";
+}
+
+.qstar-spoted-flower:before {
+  content: "\E8C9";
+}
+
+.qstar-spotted-mushroom:before {
+  content: "\E8CA";
+}
+
+.qstar-sprout-disc:before {
+  content: "\E8CB";
+}
+
+.qstar-sprout:before {
+  content: "\E8CC";
+}
+
+.qstar-super-mushroom:before {
+  content: "\E8CD";
+}
+
+.qstar-trefoil-lily:before {
+  content: "\E8CE";
+}
+
+.qstar-twirly-flower:before {
+  content: "\E8CF";
+}
+
+.qstar-vanilla-flower:before {
+  content: "\E8D0";
+}
+
+.qstar-vine-flower:before {
+  content: "\E8D1";
+}
+
+.qstar-vine-whip:before {
+  content: "\E8D2";
+}
+
+.qstar-viola:before {
+  content: "\E8D3";
+}
+
+.qstar-gold-nuggets:before {
+  content: "\E8D4";
+}
+
+.qstar-money-stack:before {
+  content: "\E8D5";
+}
+
+.qstar-piggy-bank:before {
+  content: "\E8D6";
+}
+
+.qstar-price-tag:before {
+  content: "\E8D7";
+}
+
+.qstar-rupee:before {
+  content: "\E8D8";
+}
+
+.qstar-joint:before {
+  content: "\E8D9";
+}
+
+.qstar-swirled-shell:before {
+  content: "\E8DA";
+}
+
+.qstar-backbone-shell:before {
+  content: "\E8DB";
+}
+
+.qstar-bone-knife:before {
+  content: "\E8DC";
+}
+
+.qstar-crossed-bones:before {
+  content: "\E8DD";
+}
+
+.qstar-horn-internal:before {
+  content: "\E8DE";
+}
+
+.qstar-jawbone:before {
+  content: "\E8DF";
+}
+
+.qstar-ribcage:before {
+  content: "\E8E0";
+}
+
+.qstar-spinal-coil:before {
+  content: "\E8E1";
+}
+
+.qstar-artillery-shell:before {
+  content: "\E8E2";
+}
+
+.qstar-dynamite:before {
+  content: "\E8E3";
+}
+
+.qstar-holy-hand-grenade:before {
+  content: "\E8E4";
+}
+
+.qstar-stun-grenade:before {
+  content: "\E8E5";
+}
+
+.qstar-bundle-grenade:before {
+  content: "\E8E6";
+}
+
+.qstar-minefield:before {
+  content: "\E8E7";
+}
+
+.qstar-bombing-run:before {
+  content: "\E8E8";
+}
+
+.qstar-cluster-bomb:before {
+  content: "\E8E9";
+}
+
+.qstar-ice-bomb:before {
+  content: "\E8EA";
+}
+
+.qstar-letter-bomb:before {
+  content: "\E8EB";
+}
+
+.qstar-paper-bomb:before {
+  content: "\E8EC";
+}
+
+.qstar-rolling-bomb:before {
+  content: "\E8ED";
+}
+
+.qstar-sparky-bomb:before {
+  content: "\E8EE";
+}
+
+.qstar-time-bomb:before {
+  content: "\E8EF";
+}
+
+.qstar-unlit-bomb:before {
+  content: "\E8F0";
+}
+
+.qstar-tabi-boot:before {
+  content: "\E8F1";
+}
+
+.qstar-banana-peel:before {
+  content: "\E8F2";
+}
+
+.qstar-cowboy-boot:before {
+  content: "\E8F3";
+}
+
+.qstar-flip-flops:before {
+  content: "\E8F4";
+}
+
+.qstar-foot-plaster:before {
+  content: "\E8F5";
+}
+
+.qstar-fur-boot:before {
+  content: "\E8F6";
+}
+
+.qstar-greaves:before {
+  content: "\E8F7";
+}
+
+.qstar-high-heel:before {
+  content: "\E8F8";
+}
+
+.qstar-ice-skate:before {
+  content: "\E8F9";
+}
+
+.qstar-leg-armor:before {
+  content: "\E8FA";
+}
+
+.qstar-running-shoe:before {
+  content: "\E8FB";
+}
+
+.qstar-ski-boot:before {
+  content: "\E8FC";
+}
+
+.qstar-socks:before {
+  content: "\E8FD";
+}
+
+.qstar-footsteps:before {
+  content: "\E8FE";
+}
+
+.qstar-barefoot:before {
+  content: "\E8FF";
+}
+
+.qstar-boot-prints:before {
+  content: "\E900";
+}
+
+.qstar-boot-stomp:before {
+  content: "\E901";
+}
+
+.qstar-boots:before {
+  content: "\E902";
+}
+
+.qstar-foot-trip:before {
+  content: "\E903";
+}
+
+.qstar-footprint:before {
+  content: "\E904";
+}
+
+.qstar-leather-boot:before {
+  content: "\E905";
+}
+
+.qstar-nailed-foot:before {
+  content: "\E906";
+}
+
+.qstar-quake-stomp:before {
+  content: "\E907";
+}
+
+.qstar-tread:before {
+  content: "\E908";
+}
+
+.qstar-tripwire:before {
+  content: "\E909";
+}
+
+.qstar-walking-boot:before {
+  content: "\E90A";
+}
+
+.qstar-dice-eight-faces-eight:before {
+  content: "\E90B";
+}
+
+.qstar-dice-six-faces-five:before {
+  content: "\E90C";
+}
+
+.qstar-dice-six-faces-four:before {
+  content: "\E90D";
+}
+
+.qstar-dice-six-faces-one:before {
+  content: "\E90E";
+}
+
+.qstar-dice-six-faces-six:before {
+  content: "\E90F";
+}
+
+.qstar-dice-six-faces-two:before {
+  content: "\E910";
+}
+
+.qstar-dice-twenty-faces-twenty:before {
+  content: "\E911";
+}
+
+.qstar-perspective-dice-five:before {
+  content: "\E912";
+}
+
+.qstar-perspective-dice-four:before {
+  content: "\E913";
+}
+
+.qstar-perspective-dice-one:before {
+  content: "\E914";
+}
+
+.qstar-perspective-dice-six-faces-five:before {
+  content: "\E915";
+}
+
+.qstar-perspective-dice-six-faces-one:before {
+  content: "\E916";
+}
+
+.qstar-perspective-dice-six-faces-random:before {
+  content: "\E917";
+}
+
+.qstar-perspective-dice-six-faces-six:before {
+  content: "\E918";
+}
+
+.qstar-perspective-dice-six-faces-three:before {
+  content: "\E919";
+}
+
+.qstar-perspective-dice-six-faces-two:before {
+  content: "\E91A";
+}
+
+.qstar-perspective-dice-six:before {
+  content: "\E91B";
+}
+
+.qstar-perspective-dice-three:before {
+  content: "\E91C";
+}
+
+.qstar-perspective-dice-two:before {
+  content: "\E91D";
+}
+
+.qstar-d10:before {
+  content: "\E91E";
+}
+
+.qstar-d12:before {
+  content: "\E91F";
+}
+
+.qstar-d4:before {
+  content: "\E920";
+}
+
+.qstar-inverted-dice-1:before {
+  content: "\E921";
+}
+
+.qstar-inverted-dice-2:before {
+  content: "\E922";
+}
+
+.qstar-inverted-dice-3:before {
+  content: "\E923";
+}
+
+.qstar-inverted-dice-4:before {
+  content: "\E924";
+}
+
+.qstar-inverted-dice-5:before {
+  content: "\E925";
+}
+
+.qstar-inverted-dice-6:before {
+  content: "\E926";
+}
+
+.qstar-checklist:before {
+  content: "\E927";
+}
+
+.qstar-histogram:before {
+  content: "\E928";
+}
+
+.qstar-load:before {
+  content: "\E929";
+}
+
+.qstar-save:before {
+  content: "\E92A";
+}
+
+.qstar-shopping-cart:before {
+  content: "\E92B";
+}
+
+.qstar-pause-button:before {
+  content: "\E92C";
+}
+
+.qstar-play-button:before {
+  content: "\E92D";
+}
+
+.qstar-abacus:before {
+  content: "\E92E";
+}
+
+.qstar-calendar:before {
+  content: "\E92F";
+}
+
+.qstar-clapperboard:before {
+  content: "\E930";
+}
+
+.qstar-cube:before {
+  content: "\E931";
+}
+
+.qstar-files:before {
+  content: "\E932";
+}
+
+.qstar-film-projector:before {
+  content: "\E933";
+}
+
+.qstar-full-folder:before {
+  content: "\E934";
+}
+
+.qstar-funnel:before {
+  content: "\E935";
+}
+
+.qstar-gamepad:before {
+  content: "\E936";
+}
+
+.qstar-hamburger-menu:before {
+  content: "\E937";
+}
+
+.qstar-joystick:before {
+  content: "\E938";
+}
+
+.qstar-keyboard:before {
+  content: "\E939";
+}
+
+.qstar-large-paint-brush:before {
+  content: "\E93A";
+}
+
+.qstar-mailbox:before {
+  content: "\E93B";
+}
+
+.qstar-mouse-2:before {
+  content: "\E93C";
+}
+
+.qstar-open-folder:before {
+  content: "\E93D";
+}
+
+.qstar-organigram:before {
+  content: "\E93E";
+}
+
+.qstar-paint-brush:before {
+  content: "\E93F";
+}
+
+.qstar-paint-bucket:before {
+  content: "\E940";
+}
+
+.qstar-paint-roller:before {
+  content: "\E941";
+}
+
+.qstar-palette:before {
+  content: "\E942";
+}
+
+.qstar-pencil-brush:before {
+  content: "\E943";
+}
+
+.qstar-pencil:before {
+  content: "\E944";
+}
+
+.qstar-photo-camera:before {
+  content: "\E945";
+}
+
+.qstar-pie-chart:before {
+  content: "\E946";
+}
+
+.qstar-pin:before {
+  content: "\E947";
+}
+
+.qstar-resize:before {
+  content: "\E948";
+}
+
+.qstar-trash-can:before {
+  content: "\E949";
+}
+
+.qstar-video-camera:before {
+  content: "\E94A";
+}
+
+.qstar-retro-controller:before {
+  content: "\E94B";
+}
+
+.qstar-smartphone:before {
+  content: "\E94C";
+}
+
+.qstar-tablet:before {
+  content: "\E94D";
+}
+
+.qstar-bookmark:before {
+  content: "\E94E";
+}
+
+.qstar-envelope:before {
+  content: "\E94F";
+}
+
+.qstar-magnifying-glass:before {
+  content: "\E950";
+}
+
+.qstar-open-book:before {
+  content: "\E951";
+}
+
+.qstar-podium:before {
+  content: "\E952";
+}
+
+.qstar-bow-tie-ribbon:before {
+  content: "\E953";
+}
+
+.qstar-diploma:before {
+  content: "\E954";
+}
+
+.qstar-laurels-trophy:before {
+  content: "\E955";
+}
+
+.qstar-podium-second:before {
+  content: "\E956";
+}
+
+.qstar-podium-third:before {
+  content: "\E957";
+}
+
+.qstar-podium-winner:before {
+  content: "\E958";
+}
+
+.qstar-private-first-class:before {
+  content: "\E959";
+}
+
+.qstar-private:before {
+  content: "\E95A";
+}
+
+.qstar-ribbon-medal:before {
+  content: "\E95B";
+}
+
+.qstar-sergeant:before {
+  content: "\E95C";
+}
+
+.qstar-trophy-cup:before {
+  content: "\E95D";
+}
+
+.qstar-level-four-advanced:before {
+  content: "\E95E";
+}
+
+.qstar-level-four:before {
+  content: "\E95F";
+}
+
+.qstar-level-three-advanced:before {
+  content: "\E960";
+}
+
+.qstar-level-three:before {
+  content: "\E961";
+}
+
+.qstar-level-two-advanced:before {
+  content: "\E962";
+}
+
+.qstar-level-two:before {
+  content: "\E963";
+}
+
+.qstar-achievement:before {
+  content: "\E964";
+}
+
+.qstar-rank-1:before {
+  content: "\E965";
+}
+
+.qstar-rank-2:before {
+  content: "\E966";
+}
+
+.qstar-rank-3:before {
+  content: "\E967";
+}
+
+.qstar-medal:before {
+  content: "\E968";
+}
+
+.qstar-trophy:before {
+  content: "\E969";
+}
+
+.qstar-light-sabers:before {
+  content: "\E96A";
+}
+
+.qstar-health-decrease:before {
+  content: "\E96B";
+}
+
+.qstar-health-increase:before {
+  content: "\E96C";
+}
+
+.qstar-health-normal:before {
+  content: "\E96D";
+}
+
+.qstar-cross-mark:before {
+  content: "\E96E";
+}
+
+.qstar-crossed-axes:before {
+  content: "\E96F";
+}
+
+.qstar-dervish-swords:before {
+  content: "\E970";
+}
+
+.qstar-dig-dug:before {
+  content: "\E971";
+}
+
+.qstar-royal-love:before {
+  content: "\E972";
+}
+
+.qstar-split-cross:before {
+  content: "\E973";
+}
+
+.qstar-templar-eye:before {
+  content: "\E974";
+}
+
+.qstar-templar-heart:before {
+  content: "\E975";
+}
+
+.qstar-tinker:before {
+  content: "\E976";
+}
+
+.qstar-zeus-sword:before {
+  content: "\E977";
+}
+
+.qstar-american-football-ball:before {
+  content: "\E978";
+}
+
+.qstar-basketball-ball:before {
+  content: "\E979";
+}
+
+.qstar-eight-ball:before {
+  content: "\E97A";
+}
+
+.qstar-ping-pong-bat:before {
+  content: "\E97B";
+}
+
+.qstar-soccer-ball:before {
+  content: "\E97C";
+}
+
+.qstar-tennis-ball:before {
+  content: "\E97D";
+}
+
+.qstar-volleyball-ball:before {
+  content: "\E97E";
+}
+
+.qstar-babyfoot-players:before {
+  content: "\E97F";
+}
+
+.qstar-beach-ball:before {
+  content: "\E980";
+}
+
+.qstar-boulder-dash:before {
+  content: "\E981";
+}
+
+.qstar-bowling-strike:before {
+  content: "\E982";
+}
+
+.qstar-jupiter:before {
+  content: "\E983";
+}
+
+.qstar-marbles:before {
+  content: "\E984";
+}
+
+.qstar-morph-ball:before {
+  content: "\E985";
+}
+
+.qstar-pearl-necklace:before {
+  content: "\E986";
+}
+
+.qstar-pendulum-swing:before {
+  content: "\E987";
+}
+
+.qstar-pinball-flipper:before {
+  content: "\E988";
+}
+
+.qstar-planet-core:before {
+  content: "\E989";
+}
+
+.qstar-snitch-quidditch-ball:before {
+  content: "\E98A";
+}
+
+.qstar-ball-glow:before {
+  content: "\E98B";
+}
+
+.qstar-balloons:before {
+  content: "\E98C";
+}
+
+.qstar-black-hole-bolas:before {
+  content: "\E98D";
+}
+
+.qstar-blackball:before {
+  content: "\E98E";
+}
+
+.qstar-bowling-propulsion:before {
+  content: "\E98F";
+}
+
+.qstar-caged-ball:before {
+  content: "\E990";
+}
+
+.qstar-circle-cage:before {
+  content: "\E991";
+}
+
+.qstar-concentration-orb:before {
+  content: "\E992";
+}
+
+.qstar-crumbling-ball:before {
+  content: "\E993";
+}
+
+.qstar-crystal-ball:before {
+  content: "\E994";
+}
+
+.qstar-double-diaphragm:before {
+  content: "\E995";
+}
+
+.qstar-double-ringed-orb:before {
+  content: "\E996";
+}
+
+.qstar-dragon-balls:before {
+  content: "\E997";
+}
+
+.qstar-extraction-orb:before {
+  content: "\E998";
+}
+
+.qstar-eyeball:before {
+  content: "\E999";
+}
+
+.qstar-falling-blob:before {
+  content: "\E99A";
+}
+
+.qstar-frozen-orb:before {
+  content: "\E99B";
+}
+
+.qstar-gold-shell:before {
+  content: "\E99C";
+}
+
+.qstar-mesh-ball:before {
+  content: "\E99D";
+}
+
+.qstar-moon:before {
+  content: "\E99E";
+}
+
+.qstar-nested-eclipses:before {
+  content: "\E99F";
+}
+
+.qstar-noodle-ball:before {
+  content: "\E9A0";
+}
+
+.qstar-stone-sphere:before {
+  content: "\E9A1";
+}
+
+.qstar-striking-balls:before {
+  content: "\E9A2";
+}
+
+.qstar-sword-slice:before {
+  content: "\E9A3";
+}
+
+.qstar-unstable-orb:before {
+  content: "\E9A4";
+}
+
+.qstar-basketball-basket:before {
+  content: "\E9A5";
+}
+
+.qstar-bowling-pin:before {
+  content: "\E9A6";
+}
+
+.qstar-hockey:before {
+  content: "\E9A7";
+}
+
+.qstar-rugby-conversion:before {
+  content: "\E9A8";
+}
+
+.qstar-shuttlecock:before {
+  content: "\E9A9";
+}
+
+.qstar-soccer-field:before {
+  content: "\E9AA";
+}
+
+.qstar-fencer:before {
+  content: "\E9AB";
+}
+
+.qstar-frisbee:before {
+  content: "\E9AC";
+}
+
+.qstar-kimono:before {
+  content: "\E9AD";
+}
+
+.qstar-pool-dive:before {
+  content: "\E9AE";
+}
+
+.qstar-thermometer-cold:before {
+  content: "\E9AF";
+}
+
+.qstar-cold-heart:before {
+  content: "\E9B0";
+}
+
+.qstar-frozen-block:before {
+  content: "\E9B1";
+}
+
+.qstar-ice-bolt:before {
+  content: "\E9B2";
+}
+
+.qstar-icebergs:before {
+  content: "\E9B3";
+}
+
+.qstar-snow-bottle:before {
+  content: "\E9B4";
+}
+
+.qstar-snowflake-1:before {
+  content: "\E9B5";
+}
+
+.qstar-snowflake-2:before {
+  content: "\E9B6";
+}
+
+.qstar-snowing:before {
+  content: "\E9B7";
+}
+
+.qstar-snowman:before {
+  content: "\E9B8";
+}
+
+.qstar-i-brick:before {
+  content: "\E9B9";
+}
+
+.qstar-j-brick:before {
+  content: "\E9BA";
+}
+
+.qstar-l-brick:before {
+  content: "\E9BB";
+}
+
+.qstar-o-brick:before {
+  content: "\E9BC";
+}
+
+.qstar-s-brick:before {
+  content: "\E9BD";
+}
+
+.qstar-t-brick:before {
+  content: "\E9BE";
+}
+
+.qstar-z-brick:before {
+  content: "\E9BF";
+}
+
+.qstar-platform:before {
+  content: "\E9C0";
+}
+
+.qstar-stone-block:before {
+  content: "\E9C1";
+}
+
+.qstar-minerals:before {
+  content: "\E9C2";
+}
+
+.qstar-ore:before {
+  content: "\E9C3";
+}
+
+.qstar-crystal-shrine:before {
+  content: "\E9C4";
+}
+
+.qstar-amethyst:before {
+  content: "\E9C5";
+}
+
+.qstar-topaz:before {
+  content: "\E9C6";
+}
+
+.qstar-checkered-diamond:before {
+  content: "\E9C7";
+}
+
+.qstar-crystal-bars:before {
+  content: "\E9C8";
+}
+
+.qstar-crystal-cluster:before {
+  content: "\E9C9";
+}
+
+.qstar-crystal-eye:before {
+  content: "\E9CA";
+}
+
+.qstar-crystal-growth:before {
+  content: "\E9CB";
+}
+
+.qstar-crystal-shine:before {
+  content: "\E9CC";
+}
+
+.qstar-cut-diamond:before {
+  content: "\E9CD";
+}
+
+.qstar-diamond-hard:before {
+  content: "\E9CE";
+}
+
+.qstar-emerald:before {
+  content: "\E9CF";
+}
+
+.qstar-floating-crystal:before {
+  content: "\E9D0";
+}
+
+.qstar-gem-chain:before {
+  content: "\E9D1";
+}
+
+.qstar-gem-necklace:before {
+  content: "\E9D2";
+}
+
+.qstar-gem-pendant:before {
+  content: "\E9D3";
+}
+
+.qstar-gems:before {
+  content: "\E9D4";
+}
+
+.qstar-saphir:before {
+  content: "\E9D5";
+}
+
+.qstar-oyster-pearl:before {
+  content: "\E9D6";
+}
+
+.qstar-fossil:before {
+  content: "\E9D7";
+}
+
+.qstar-scallop:before {
+  content: "\E9D8";
+}
+
+.qstar-sewed-shell:before {
+  content: "\E9D9";
+}
+
+.qstar-spiral-shell:before {
+  content: "\E9DA";
+}
+
+.qstar-triple-shells:before {
+  content: "\E9DB";
+}
+
+.qstar-twin-shell:before {
+  content: "\E9DC";
+}
+
+.qstar-asteroid:before {
+  content: "\E9DD";
+}
+
+.qstar-colombian-statue:before {
+  content: "\E9DE";
+}
+
+.qstar-dig-hole:before {
+  content: "\E9DF";
+}
+
+.qstar-falling-rocks:before {
+  content: "\E9E0";
+}
+
+.qstar-menhir:before {
+  content: "\E9E1";
+}
+
+.qstar-stone-pile:before {
+  content: "\E9E2";
+}
+
+.qstar-wax-tablet:before {
+  content: "\E9E3";
+}
+
+.qstar-broken-tablet:before {
+  content: "\E9E4";
+}
+
+.qstar-crags:before {
+  content: "\E9E5";
+}
+
+.qstar-meteor-impact:before {
+  content: "\E9E6";
+}
+
+.qstar-mineral-heart:before {
+  content: "\E9E7";
+}
+
+.qstar-rock-2:before {
+  content: "\E9E8";
+}
+
+.qstar-rune-stone:before {
+  content: "\E9E9";
+}
+
+.qstar-stone-axe:before {
+  content: "\E9EA";
+}
+
+.qstar-stone-tablet:before {
+  content: "\E9EB";
+}
+
+.qstar-stone-throne:before {
+  content: "\E9EC";
+}
+
+.qstar-aspergillum:before {
+  content: "\E9ED";
+}
+
+.qstar-banging-gavel:before {
+  content: "\E9EE";
+}
+
+.qstar-box-cutter:before {
+  content: "\E9EF";
+}
+
+.qstar-broom:before {
+  content: "\E9F0";
+}
+
+.qstar-hair-strands:before {
+  content: "\E9F1";
+}
+
+.qstar-hole-ladder:before {
+  content: "\E9F2";
+}
+
+.qstar-injustice:before {
+  content: "\E9F3";
+}
+
+.qstar-lock-picking:before {
+  content: "\E9F4";
+}
+
+.qstar-lockpicks:before {
+  content: "\E9F5";
+}
+
+.qstar-plow:before {
+  content: "\E9F6";
+}
+
+.qstar-rake:before {
+  content: "\E9F7";
+}
+
+.qstar-sickle:before {
+  content: "\E9F8";
+}
+
+.qstar-stethoscope:before {
+  content: "\E9F9";
+}
+
+.qstar-swiss-army-knife:before {
+  content: "\E9FA";
+}
+
+.qstar-toy-mallet:before {
+  content: "\E9FB";
+}
+
+.qstar-trowel:before {
+  content: "\E9FC";
+}
+
+.qstar-weight:before {
+  content: "\E9FD";
+}
+
+.qstar-trample:before {
+  content: "\E9FE";
+}
+
+.qstar-wrench:before {
+  content: "\E9FF";
+}
+
+.qstar-trench-spade:before {
+  content: "\EA00";
+}
+
+.qstar-claw-hammer:before {
+  content: "\EA01";
+}
+
+.qstar-fishhook-fork:before {
+  content: "\EA02";
+}
+
+.qstar-flat-hammer:before {
+  content: "\EA03";
+}
+
+.qstar-gavel:before {
+  content: "\EA04";
+}
+
+.qstar-gear-hammer:before {
+  content: "\EA05";
+}
+
+.qstar-hammer-drop:before {
+  content: "\EA06";
+}
+
+.qstar-hammer-nails:before {
+  content: "\EA07";
+}
+
+.qstar-lightning-spanner:before {
+  content: "\EA08";
+}
+
+.qstar-scalpel:before {
+  content: "\EA09";
+}
+
+.qstar-scissors-2:before {
+  content: "\EA0A";
+}
+
+.qstar-screwdriver:before {
+  content: "\EA0B";
+}
+
+.qstar-sewing-needle:before {
+  content: "\EA0C";
+}
+
+.qstar-spade:before {
+  content: "\EA0D";
+}
+
+.qstar-spanner:before {
+  content: "\EA0E";
+}
+
+.qstar-sword-smithing:before {
+  content: "\EA0F";
+}
+
+.qstar-thermometer-scale:before {
+  content: "\EA10";
+}
+
+.qstar-bottled-bolt:before {
+  content: "\EA11";
+}
+
+.qstar-bubbling-flask:before {
+  content: "\EA12";
+}
+
+.qstar-heart-bottle:before {
+  content: "\EA13";
+}
+
+.qstar-perfume-bottle:before {
+  content: "\EA14";
+}
+
+.qstar-potion-ball:before {
+  content: "\EA15";
+}
+
+.qstar-round-bottom-flask:before {
+  content: "\EA16";
+}
+
+.qstar-spiral-bottle:before {
+  content: "\EA17";
+}
+
+.qstar-square-bottle:before {
+  content: "\EA18";
+}
+
+.qstar-standing-potion:before {
+  content: "\EA19";
+}
+
+.qstar-armored-pants:before {
+  content: "\EA1A";
+}
+
+.qstar-bracer:before {
+  content: "\EA1B";
+}
+
+.qstar-chest-armor:before {
+  content: "\EA1C";
+}
+
+.qstar-knee-pad:before {
+  content: "\EA1D";
+}
+
+.qstar-loincloth:before {
+  content: "\EA1E";
+}
+
+.qstar-saiyan-suit:before {
+  content: "\EA1F";
+}
+
+.qstar-kevlar:before {
+  content: "\EA20";
+}
+
+.qstar-bracers:before {
+  content: "\EA21";
+}
+
+.qstar-kevlar-vest:before {
+  content: "\EA22";
+}
+
+.qstar-pauldrons:before {
+  content: "\EA23";
+}
+
+.qstar-pteruges:before {
+  content: "\EA24";
+}
+
+.qstar-trench-body-armor:before {
+  content: "\EA25";
+}
+
+.qstar-chain-mail:before {
+  content: "\EA26";
+}
+
+.qstar-armor-vest:before {
+  content: "\EA27";
+}
+
+.qstar-breastplate:before {
+  content: "\EA28";
+}
+
+.qstar-dorsal-scales:before {
+  content: "\EA29";
+}
+
+.qstar-lamellar:before {
+  content: "\EA2A";
+}
+
+.qstar-leather-vest:before {
+  content: "\EA2B";
+}
+
+.qstar-mail-shirt:before {
+  content: "\EA2C";
+}
+
+.qstar-plastron:before {
+  content: "\EA2D";
+}
+
+.qstar-scale-mail:before {
+  content: "\EA2E";
+}
+
+.qstar-shoulder-scales:before {
+  content: "\EA2F";
+}
+
+.qstar-space-suit:before {
+  content: "\EA30";
+}
+
+.qstar-belt:before {
+  content: "\EA31";
+}
+
+.qstar-cloak:before {
+  content: "\EA32";
+}
+
+.qstar-shirt:before {
+  content: "\EA33";
+}
+
+.qstar-trousers:before {
+  content: "\EA34";
+}
+
+.qstar-black-belt:before {
+  content: "\EA35";
+}
+
+.qstar-bow-tie:before {
+  content: "\EA36";
+}
+
+.qstar-cape:before {
+  content: "\EA37";
+}
+
+.qstar-corset:before {
+  content: "\EA38";
+}
+
+.qstar-hanger:before {
+  content: "\EA39";
+}
+
+.qstar-moncler-jacket:before {
+  content: "\EA3A";
+}
+
+.qstar-ninja-armor:before {
+  content: "\EA3B";
+}
+
+.qstar-pirate-coat:before {
+  content: "\EA3C";
+}
+
+.qstar-polo-shirt:before {
+  content: "\EA3D";
+}
+
+.qstar-rolled-cloth:before {
+  content: "\EA3E";
+}
+
+.qstar-roman-toga:before {
+  content: "\EA3F";
+}
+
+.qstar-safety-pin:before {
+  content: "\EA40";
+}
+
+.qstar-shorts:before {
+  content: "\EA41";
+}
+
+.qstar-skirt:before {
+  content: "\EA42";
+}
+
+.qstar-sleeveless-jacket:before {
+  content: "\EA43";
+}
+
+.qstar-tie:before {
+  content: "\EA44";
+}
+
+.qstar-underwear:before {
+  content: "\EA45";
+}
+
+.qstar-dress:before {
+  content: "\EA46";
+}
+
+.qstar-belt-buckles:before {
+  content: "\EA47";
+}
+
+.qstar-robe:before {
+  content: "\EA48";
+}
+
+.qstar-trousers-2:before {
+  content: "\EA49";
+}
+
+.qstar-cowboy-holster:before {
+  content: "\EA4A";
+}
+
+.qstar-shotgun-rounds:before {
+  content: "\EA4B";
+}
+
+.qstar-ak47:before {
+  content: "\EA4C";
+}
+
+.qstar-ak47u:before {
+  content: "\EA4D";
+}
+
+.qstar-c96:before {
+  content: "\EA4E";
+}
+
+.qstar-colt-m1911:before {
+  content: "\EA4F";
+}
+
+.qstar-cz-skorpion:before {
+  content: "\EA50";
+}
+
+.qstar-desert-eagle:before {
+  content: "\EA51";
+}
+
+.qstar-fn-fal:before {
+  content: "\EA52";
+}
+
+.qstar-glock:before {
+  content: "\EA53";
+}
+
+.qstar-m3-grease-gun:before {
+  content: "\EA54";
+}
+
+.qstar-mac-10:before {
+  content: "\EA55";
+}
+
+.qstar-machine-gun:before {
+  content: "\EA56";
+}
+
+.qstar-mp-40:before {
+  content: "\EA57";
+}
+
+.qstar-mp5-2:before {
+  content: "\EA58";
+}
+
+.qstar-mp5k:before {
+  content: "\EA59";
+}
+
+.qstar-musket:before {
+  content: "\EA5A";
+}
+
+.qstar-p90:before {
+  content: "\EA5B";
+}
+
+.qstar-revolver-2:before {
+  content: "\EA5C";
+}
+
+.qstar-spectre-m4:before {
+  content: "\EA5D";
+}
+
+.qstar-thompson-m1:before {
+  content: "\EA5E";
+}
+
+.qstar-thompson-m1928:before {
+  content: "\EA5F";
+}
+
+.qstar-walther-ppk:before {
+  content: "\EA60";
+}
+
+.qstar-winchester-rifle:before {
+  content: "\EA61";
+}
+
+.qstar-kite:before {
+  content: "\EA62";
+}
+
+.qstar-cloud-ring:before {
+  content: "\EA63";
+}
+
+.qstar-dust-cloud:before {
+  content: "\EA64";
+}
+
+.qstar-flower-twirl:before {
+  content: "\EA65";
+}
+
+.qstar-fluffy-cloud:before {
+  content: "\EA66";
+}
+
+.qstar-half-tornado:before {
+  content: "\EA67";
+}
+
+.qstar-lightning-storm:before {
+  content: "\EA68";
+}
+
+.qstar-lightning-tree:before {
+  content: "\EA69";
+}
+
+.qstar-night-sky:before {
+  content: "\EA6A";
+}
+
+.qstar-parachute:before {
+  content: "\EA6B";
+}
+
+.qstar-raining:before {
+  content: "\EA6C";
+}
+
+.qstar-static:before {
+  content: "\EA6D";
+}
+
+.qstar-stomp-tornado:before {
+  content: "\EA6E";
+}
+
+.qstar-tornado:before {
+  content: "\EA6F";
+}
+
+.qstar-twirl-center:before {
+  content: "\EA70";
+}
+
+.qstar-twister:before {
+  content: "\EA71";
+}
+
+.qstar-umbrella:before {
+  content: "\EA72";
+}
+
+.qstar-whirlwind:before {
+  content: "\EA73";
+}
+
+.qstar-cctv-camera:before {
+  content: "\EA74";
+}
+
+.qstar-cyber-eye:before {
+  content: "\EA75";
+}
+
+.qstar-game-console:before {
+  content: "\EA76";
+}
+
+.qstar-smartphone-2:before {
+  content: "\EA77";
+}
+
+.qstar-tv-remote:before {
+  content: "\EA78";
+}
+
+.qstar-usb-key:before {
+  content: "\EA79";
+}
+
+.qstar-walkie-talkie:before {
+  content: "\EA7A";
+}
+
+.qstar-console-controller:before {
+  content: "\EA7B";
+}
+
+.qstar-pc:before {
+  content: "\EA7C";
+}
+
+.qstar-batteries:before {
+  content: "\EA7D";
+}
+
+.qstar-lightning-arc:before {
+  content: "\EA7E";
+}
+
+.qstar-ram-2:before {
+  content: "\EA7F";
+}
+
+.qstar-necklace:before {
+  content: "\EA80";
+}
+
+.qstar-diamond-hilt:before {
+  content: "\EA81";
+}
+
+.qstar-diamond-ring:before {
+  content: "\EA82";
+}
+
+.qstar-globe-ring:before {
+  content: "\EA83";
+}
+
+.qstar-heart-necklace:before {
+  content: "\EA84";
+}
+
+.qstar-prayer-beads:before {
+  content: "\EA85";
+}
+
+.qstar-big-diamond-ring:before {
+  content: "\EA86";
+}
+
+.qstar-linked-rings:before {
+  content: "\EA87";
+}
+
+.qstar-battery-0:before {
+  content: "\EA88";
+}
+
+.qstar-battery-100:before {
+  content: "\EA89";
+}
+
+.qstar-battery-25:before {
+  content: "\EA8A";
+}
+
+.qstar-battery-50:before {
+  content: "\EA8B";
+}
+
+.qstar-battery-75:before {
+  content: "\EA8C";
+}
+
+.qstar-battery-minus:before {
+  content: "\EA8D";
+}
+
+.qstar-battery-plus:before {
+  content: "\EA8E";
+}
+
+.qstar-battery-pack-alt:before {
+  content: "\EA8F";
+}
+
+.qstar-battery-pack:before {
+  content: "\EA90";
+}
+
+.qstar-energise:before {
+  content: "\EA91";
+}
+
+.qstar-entangled-typhoon:before {
+  content: "\EA92";
+}
+
+.qstar-lightning-electron:before {
+  content: "\EA93";
+}
+
+.qstar-portal:before {
+  content: "\EA94";
+}
+
+.qstar-rolling-energy:before {
+  content: "\EA95";
+}
+
+.qstar-sinusoidal-beam:before {
+  content: "\EA96";
+}
+
+.qstar-tesla-coil:before {
+  content: "\EA97";
+}
+
+.qstar-coconuts:before {
+  content: "\EA98";
+}
+
+.qstar-cut-lemon:before {
+  content: "\EA99";
+}
+
+.qstar-lemon:before {
+  content: "\EA9A";
+}
+
+.qstar-orange:before {
+  content: "\EA9B";
+}
+
+.qstar-pineapple:before {
+  content: "\EA9C";
+}
+
+.qstar-raspberry:before {
+  content: "\EA9D";
+}
+
+.qstar-strawberry:before {
+  content: "\EA9E";
+}
+
+.qstar-watermelon:before {
+  content: "\EA9F";
+}
+
+.qstar-apple-maggot:before {
+  content: "\EAA0";
+}
+
+.qstar-apple-seeds:before {
+  content: "\EAA1";
+}
+
+.qstar-blackcurrant:before {
+  content: "\EAA2";
+}
+
+.qstar-gift-trap:before {
+  content: "\EAA3";
+}
+
+.qstar-paper-plane:before {
+  content: "\EAA4";
+}
+
+.qstar-paper-windmill:before {
+  content: "\EAA5";
+}
+
+.qstar-puzzle:before {
+  content: "\EAA6";
+}
+
+.qstar-spinning-top:before {
+  content: "\EAA7";
+}
+
+.qstar-jigsaw-piece:before {
+  content: "\EAA8";
+}
+
+.qstar-voodoo-doll:before {
+  content: "\EAA9";
+}
+
+.qstar-bed:before {
+  content: "\EAAA";
+}
+
+.qstar-bookshelf:before {
+  content: "\EAAB";
+}
+
+.qstar-desk:before {
+  content: "\EAAC";
+}
+
+.qstar-director-chair:before {
+  content: "\EAAD";
+}
+
+.qstar-handheld-fan:before {
+  content: "\EAAE";
+}
+
+.qstar-lipstick:before {
+  content: "\EAAF";
+}
+
+.qstar-paper-clip:before {
+  content: "\EAB0";
+}
+
+.qstar-pillow:before {
+  content: "\EAB1";
+}
+
+.qstar-shinto-shrine-mirror:before {
+  content: "\EAB2";
+}
+
+.qstar-sofa:before {
+  content: "\EAB3";
+}
+
+.qstar-fountain-pen:before {
+  content: "\EAB4";
+}
+
+.qstar-papers:before {
+  content: "\EAB5";
+}
+
+.qstar-quill-ink:before {
+  content: "\EAB6";
+}
+
+.qstar-tied-scroll:before {
+  content: "\EAB7";
+}
+
+.qstar-boss-key:before {
+  content: "\EAB8";
+}
+
+.qstar-keyring:before {
+  content: "\EAB9";
+}
+
+.qstar-lock-spy:before {
+  content: "\EABA";
+}
+
+.qstar-locked-heart:before {
+  content: "\EABB";
+}
+
+.qstar-millenium-key:before {
+  content: "\EABC";
+}
+
+.qstar-key:before {
+  content: "\EABD";
+}
+
+.qstar-combination-lock:before {
+  content: "\EABE";
+}
+
+.qstar-key-2:before {
+  content: "\EABF";
+}
+
+.qstar-padlock:before {
+  content: "\EAC0";
+}
+
+.qstar-three-keys:before {
+  content: "\EAC1";
+}
+
+.qstar-triple-lock:before {
+  content: "\EAC2";
+}
+
+.qstar-unlocking:before {
+  content: "\EAC3";
+}
+
+.qstar-wax-seal:before {
+  content: "\EAC4";
+}
+
+.qstar-eternal-love:before {
+  content: "\EAC5";
+}
+
+.qstar-watch:before {
+  content: "\EAC6";
+}
+
+.qstar-pocket-watch:before {
+  content: "\EAC7";
+}
+
+.qstar-stopwatch-2:before {
+  content: "\EAC8";
+}
+
+.qstar-empty-hourglass:before {
+  content: "\EAC9";
+}
+
+.qstar-heavy-timer:before {
+  content: "\EACA";
+}
+
+.qstar-sands-of-time:before {
+  content: "\EACB";
+}
+
+.qstar-time-trap:before {
+  content: "\EACC";
+}
+
+.qstar-barbed-nails:before {
+  content: "\EACD";
+}
+
+.qstar-claw-string:before {
+  content: "\EACE";
+}
+
+.qstar-interleaved-claws:before {
+  content: "\EACF";
+}
+
+.qstar-midnight-claw:before {
+  content: "\EAD0";
+}
+
+.qstar-pawprint:before {
+  content: "\EAD1";
+}
+
+.qstar-plate-claw:before {
+  content: "\EAD2";
+}
+
+.qstar-saw-claw:before {
+  content: "\EAD3";
+}
+
+.qstar-shining-claw:before {
+  content: "\EAD4";
+}
+
+.qstar-triple-scratches:before {
+  content: "\EAD5";
+}
+
+.qstar-defense-satellite:before {
+  content: "\EAD6";
+}
+
+.qstar-hypersonic-bolt:before {
+  content: "\EAD7";
+}
+
+.qstar-ringed-planet:before {
+  content: "\EAD8";
+}
+
+.qstar-vortex:before {
+  content: "\EAD9";
+}
+
+.qstar-curled-tentacle:before {
+  content: "\EADA";
+}
+
+.qstar-interlaced-tentacles:before {
+  content: "\EADB";
+}
+
+.qstar-spiral-tentacle:before {
+  content: "\EADC";
+}
+
+.qstar-suckered-tentacle:before {
+  content: "\EADD";
+}
+
+.qstar-tentacle-heart:before {
+  content: "\EADE";
+}
+
+.qstar-tentacle-strike:before {
+  content: "\EADF";
+}
+
+.qstar-tentacurl:before {
+  content: "\EAE0";
+}
+
+.qstar-thorny-tentacle:before {
+  content: "\EAE1";
+}
+
+.qstar-thorny-vine:before {
+  content: "\EAE2";
+}
+
+.qstar-night-vision:before {
+  content: "\EAE3";
+}
+
+.qstar-evil-eyes:before {
+  content: "\EAE4";
+}
+
+.qstar-sight-disabled:before {
+  content: "\EAE5";
+}
+
+.qstar-bolt-eye:before {
+  content: "\EAE6";
+}
+
+.qstar-brass-eye:before {
+  content: "\EAE7";
+}
+
+.qstar-croissants-pupil:before {
+  content: "\EAE8";
+}
+
+.qstar-falling-eye:before {
+  content: "\EAE9";
+}
+
+.qstar-lightning-tear:before {
+  content: "\EAEA";
+}
+
+.qstar-octogonal-eye:before {
+  content: "\EAEB";
+}
+
+.qstar-semi-closed-eye:before {
+  content: "\EAEC";
+}
+
+.qstar-sheikah-eye:before {
+  content: "\EAED";
+}
+
+.qstar-six-eyes:before {
+  content: "\EAEE";
+}
+
+.qstar-sunken-eye:before {
+  content: "\EAEF";
+}
+
+.qstar-surrounded-eye:before {
+  content: "\EAF0";
+}
+
+.qstar-third-eye:before {
+  content: "\EAF1";
+}
+
+.qstar-first-aid-kit:before {
+  content: "\EAF2";
+}
+
+.qstar-nested-hearts:before {
+  content: "\EAF3";
+}
+
+.qstar-medical-pack-alt:before {
+  content: "\EAF4";
+}
+
+.qstar-medical-pack:before {
+  content: "\EAF5";
+}
+
+.qstar-fetus:before {
+  content: "\EAF6";
+}
+
+.qstar-heart-minus:before {
+  content: "\EAF7";
+}
+
+.qstar-heart-plus:before {
+  content: "\EAF8";
+}
+
+.qstar-defibrilate:before {
+  content: "\EAF9";
+}
+
+.qstar-embryo:before {
+  content: "\EAFA";
+}
+
+.qstar-life-support:before {
+  content: "\EAFB";
+}
+
+.qstar-life-tap:before {
+  content: "\EAFC";
+}
+
+.qstar-love-injection:before {
+  content: "\EAFD";
+}
+
+.qstar-pill-drop:before {
+  content: "\EAFE";
+}
+
+.qstar-syringe:before {
+  content: "\EAFF";
+}
+
+.qstar-ancient-sword:before {
+  content: "\EB00";
+}
+
+.qstar-butterfly-knife:before {
+  content: "\EB01";
+}
+
+.qstar-katana:before {
+  content: "\EB02";
+}
+
+.qstar-scabbard:before {
+  content: "\EB03";
+}
+
+.qstar-spiral-hilt:before {
+  content: "\EB04";
+}
+
+.qstar-stabbed-note:before {
+  content: "\EB05";
+}
+
+.qstar-sword-altar:before {
+  content: "\EB06";
+}
+
+.qstar-two-handed-sword:before {
+  content: "\EB07";
+}
+
+.qstar-bowie-knife:before {
+  content: "\EB08";
+}
+
+.qstar-butterfly-knife-2:before {
+  content: "\EB09";
+}
+
+.qstar-crescent-blade:before {
+  content: "\EB0A";
+}
+
+.qstar-stiletto-2:before {
+  content: "\EB0B";
+}
+
+.qstar-switchblade:before {
+  content: "\EB0C";
+}
+
+.qstar-trench-knife:before {
+  content: "\EB0D";
+}
+
+.qstar-assassin-pocket:before {
+  content: "\EB0E";
+}
+
+.qstar-blade-drag:before {
+  content: "\EB0F";
+}
+
+.qstar-blade-fall:before {
+  content: "\EB10";
+}
+
+.qstar-bloody-sword:before {
+  content: "\EB11";
+}
+
+.qstar-bouncing-sword:before {
+  content: "\EB12";
+}
+
+.qstar-bowie-knife-2:before {
+  content: "\EB13";
+}
+
+.qstar-broad-dagger:before {
+  content: "\EB14";
+}
+
+.qstar-broadsword:before {
+  content: "\EB15";
+}
+
+.qstar-cloak-dagger:before {
+  content: "\EB16";
+}
+
+.qstar-crescent-blade-2:before {
+  content: "\EB17";
+}
+
+.qstar-croc-sword:before {
+  content: "\EB18";
+}
+
+.qstar-curvy-knife:before {
+  content: "\EB19";
+}
+
+.qstar-daggers:before {
+  content: "\EB1A";
+}
+
+.qstar-diving-dagger:before {
+  content: "\EB1B";
+}
+
+.qstar-energy-sword:before {
+  content: "\EB1C";
+}
+
+.qstar-flying-dagger:before {
+  content: "\EB1D";
+}
+
+.qstar-fragmented-sword:before {
+  content: "\EB1E";
+}
+
+.qstar-knife-thrust:before {
+  content: "\EB1F";
+}
+
+.qstar-lightning-saber:before {
+  content: "\EB20";
+}
+
+.qstar-plain-dagger:before {
+  content: "\EB21";
+}
+
+.qstar-pointy-sword:before {
+  content: "\EB22";
+}
+
+.qstar-relic-blade:before {
+  content: "\EB23";
+}
+
+.qstar-shard-sword:before {
+  content: "\EB24";
+}
+
+.qstar-shining-sword:before {
+  content: "\EB25";
+}
+
+.qstar-spinning-blades:before {
+  content: "\EB26";
+}
+
+.qstar-spinning-sword:before {
+  content: "\EB27";
+}
+
+.qstar-spiral-thrust:before {
+  content: "\EB28";
+}
+
+.qstar-striped-sword:before {
+  content: "\EB29";
+}
+
+.qstar-sword-array:before {
+  content: "\EB2A";
+}
+
+.qstar-sword-hilt:before {
+  content: "\EB2B";
+}
+
+.qstar-sword-spin:before {
+  content: "\EB2C";
+}
+
+.qstar-sword-wound:before {
+  content: "\EB2D";
+}
+
+.qstar-thrown-daggers:before {
+  content: "\EB2E";
+}
+
+.qstar-thrown-knife:before {
+  content: "\EB2F";
+}
+
+.qstar-thunder-blade:before {
+  content: "\EB30";
+}
+
+.qstar-antibody:before {
+  content: "\EB31";
+}
+
+.qstar-h2o:before {
+  content: "\EB32";
+}
+
+.qstar-acid-tube:before {
+  content: "\EB33";
+}
+
+.qstar-syringe-2:before {
+  content: "\EB34";
+}
+
+.qstar-vial:before {
+  content: "\EB35";
+}
+
+.qstar-atom:before {
+  content: "\EB36";
+}
+
+.qstar-molecule:before {
+  content: "\EB37";
+}
+
+.qstar-chemical-bolt:before {
+  content: "\EB38";
+}
+
+.qstar-corked-tube:before {
+  content: "\EB39";
+}
+
+.qstar-dripping-tube:before {
+  content: "\EB3A";
+}
+
+.qstar-erlenmeyer:before {
+  content: "\EB3B";
+}
+
+.qstar-foamy-disc:before {
+  content: "\EB3C";
+}
+
+.qstar-materials-science:before {
+  content: "\EB3D";
+}
+
+.qstar-miracle-medecine:before {
+  content: "\EB3E";
+}
+
+.qstar-molecule-2:before {
+  content: "\EB3F";
+}
+
+.qstar-soap-experiment:before {
+  content: "\EB40";
+}
+
+.qstar-test-tubes:before {
+  content: "\EB41";
+}
+
+.qstar-triple-needle:before {
+  content: "\EB42";
+}
+
+.qstar-bad-breath:before {
+  content: "\EB43";
+}
+
+.qstar-neck-bite:before {
+  content: "\EB44";
+}
+
+.qstar-tongue:before {
+  content: "\EB45";
+}
+
+.qstar-fangs:before {
+  content: "\EB46";
+}
+
+.qstar-carnivore-mouth:before {
+  content: "\EB47";
+}
+
+.qstar-energy-breath:before {
+  content: "\EB48";
+}
+
+.qstar-front-teeth:before {
+  content: "\EB49";
+}
+
+.qstar-incisors:before {
+  content: "\EB4A";
+}
+
+.qstar-lightning-shout:before {
+  content: "\EB4B";
+}
+
+.qstar-lips:before {
+  content: "\EB4C";
+}
+
+.qstar-saber-tooth:before {
+  content: "\EB4D";
+}
+
+.qstar-sharp-lips:before {
+  content: "\EB4E";
+}
+
+.qstar-floor-hatch:before {
+  content: "\EB4F";
+}
+
+.qstar-enlightenment:before {
+  content: "\EB50";
+}
+
+.qstar-land-mine:before {
+  content: "\EB51";
+}
+
+.qstar-mine-explosion:before {
+  content: "\EB52";
+}
+
+.qstar-battle-mech:before {
+  content: "\EB53";
+}
+
+.qstar-factory-arm:before {
+  content: "\EB54";
+}
+
+.qstar-mono-wheel-robot:before {
+  content: "\EB55";
+}
+
+.qstar-robot-leg:before {
+  content: "\EB56";
+}
+
+.qstar-spider-bot:before {
+  content: "\EB57";
+}
+
+.qstar-megabot:before {
+  content: "\EB58";
+}
+
+.qstar-techno-heart:before {
+  content: "\EB59";
+}
+
+.qstar-vintage-robot:before {
+  content: "\EB5A";
+}
+
+.qstar-lightning-dome:before {
+  content: "\EB5B";
+}
+
+.qstar-electric:before {
+  content: "\EB5C";
+}
+
+.qstar-chain-lightning:before {
+  content: "\EB5D";
+}
+
+.qstar-bolt-saw:before {
+  content: "\EB5E";
+}
+
+.qstar-book-storm:before {
+  content: "\EB5F";
+}
+
+.qstar-electric-whip:before {
+  content: "\EB60";
+}
+
+.qstar-focused-lightning:before {
+  content: "\EB61";
+}
+
+.qstar-heavy-lightning:before {
+  content: "\EB62";
+}
+
+.qstar-lightning-branches:before {
+  content: "\EB63";
+}
+
+.qstar-lightning-dissipation:before {
+  content: "\EB64";
+}
+
+.qstar-lightning-frequency:before {
+  content: "\EB65";
+}
+
+.qstar-lightning-helix:before {
+  content: "\EB66";
+}
+
+.qstar-lightning-shadow:before {
+  content: "\EB67";
+}
+
+.qstar-lightning-slashes:before {
+  content: "\EB68";
+}
+
+.qstar-lightning-trio:before {
+  content: "\EB69";
+}
+
+.qstar-power-lightning:before {
+  content: "\EB6A";
+}
+
+.qstar-round-struck:before {
+  content: "\EB6B";
+}
+
+.qstar-sonic-lightning:before {
+  content: "\EB6C";
+}
+
+.qstar-static-waves:before {
+  content: "\EB6D";
+}
+
+.qstar-thunder-struck:before {
+  content: "\EB6E";
+}
+
+.qstar-thunderball:before {
+  content: "\EB6F";
+}
+
+.qstar-windy-stripes:before {
+  content: "\EB70";
+}
+
+.qstar-book-cover:before {
+  content: "\EB71";
+}
+
+.qstar-book-pile:before {
+  content: "\EB72";
+}
+
+.qstar-love-letter:before {
+  content: "\EB73";
+}
+
+.qstar-newspaper:before {
+  content: "\EB74";
+}
+
+.qstar-spell-book:before {
+  content: "\EB75";
+}
+
+.qstar-black-book:before {
+  content: "\EB76";
+}
+
+.qstar-white-book:before {
+  content: "\EB77";
+}
+
+.qstar-book-aura:before {
+  content: "\EB78";
+}
+
+.qstar-book-cover-2:before {
+  content: "\EB79";
+}
+
+.qstar-bookmarklet:before {
+  content: "\EB7A";
+}
+
+.qstar-folded-paper:before {
+  content: "\EB7B";
+}
+
+.qstar-ink-swirl:before {
+  content: "\EB7C";
+}
+
+.qstar-scroll-unfurled:before {
+  content: "\EB7D";
+}
+
+.qstar-love-mystery:before {
+  content: "\EB7E";
+}
+
+.qstar-ball-heart:before {
+  content: "\EB7F";
+}
+
+.qstar-broken-heart-zone:before {
+  content: "\EB80";
+}
+
+.qstar-charm:before {
+  content: "\EB81";
+}
+
+.qstar-cheerful:before {
+  content: "\EB82";
+}
+
+.qstar-chewed-heart:before {
+  content: "\EB83";
+}
+
+.qstar-glass-heart:before {
+  content: "\EB84";
+}
+
+.qstar-half-heart:before {
+  content: "\EB85";
+}
+
+.qstar-shining-heart:before {
+  content: "\EB86";
+}
+
+.qstar-bandaged:before {
+  content: "\EB87";
+}
+
+.qstar-bleeding-wound:before {
+  content: "\EB88";
+}
+
+.qstar-bloody-stash:before {
+  content: "\EB89";
+}
+
+.qstar-feather-wound:before {
+  content: "\EB8A";
+}
+
+.qstar-open-wound:before {
+  content: "\EB8B";
+}
+
+.qstar-scar-wound:before {
+  content: "\EB8C";
+}
+
+.qstar-spotted-wound:before {
+  content: "\EB8D";
+}
+
+.qstar-sticking-plaster:before {
+  content: "\EB8E";
+}
+
+.qstar-stitched-wound:before {
+  content: "\EB8F";
+}
+
+.qstar-sharp-halberd:before {
+  content: "\EB90";
+}
+
+.qstar-axe-swing:before {
+  content: "\EB91";
+}
+
+.qstar-halberd:before {
+  content: "\EB92";
+}
+
+.qstar-hatchets:before {
+  content: "\EB93";
+}
+
+.qstar-arcing-bolt:before {
+  content: "\EB94";
+}
+
+.qstar-bright-explosion:before {
+  content: "\EB95";
+}
+
+.qstar-bubbling-beam:before {
+  content: "\EB96";
+}
+
+.qstar-burning-blobs:before {
+  content: "\EB97";
+}
+
+.qstar-clout:before {
+  content: "\EB98";
+}
+
+.qstar-comet-spark:before {
+  content: "\EB99";
+}
+
+.qstar-corner-explosion:before {
+  content: "\EB9A";
+}
+
+.qstar-crowned-explosion:before {
+  content: "\EB9B";
+}
+
+.qstar-egg-defense:before {
+  content: "\EB9C";
+}
+
+.qstar-electrical-crescent:before {
+  content: "\EB9D";
+}
+
+.qstar-explosive-meeting:before {
+  content: "\EB9E";
+}
+
+.qstar-fission:before {
+  content: "\EB9F";
+}
+
+.qstar-fragmented-meteor:before {
+  content: "\EBA0";
+}
+
+.qstar-heavy-fall:before {
+  content: "\EBA1";
+}
+
+.qstar-hypersonic-melon:before {
+  content: "\EBA2";
+}
+
+.qstar-implosion:before {
+  content: "\EBA3";
+}
+
+.qstar-incoming-rocket:before {
+  content: "\EBA4";
+}
+
+.qstar-ion-cannon-blast:before {
+  content: "\EBA5";
+}
+
+.qstar-ringed-beam:before {
+  content: "\EBA6";
+}
+
+.qstar-screen-impact:before {
+  content: "\EBA7";
+}
+
+.qstar-squib:before {
+  content: "\EBA8";
+}
+
+.qstar-striking-splinter:before {
+  content: "\EBA9";
+}
+
+.qstar-abstract-001:before {
+  content: "\EBAA";
+}
+
+.qstar-abstract-002:before {
+  content: "\EBAB";
+}
+
+.qstar-abstract-003:before {
+  content: "\EBAC";
+}
+
+.qstar-abstract-004:before {
+  content: "\EBAD";
+}
+
+.qstar-abstract-005:before {
+  content: "\EBAE";
+}
+
+.qstar-abstract-006:before {
+  content: "\EBAF";
+}
+
+.qstar-abstract-007:before {
+  content: "\EBB0";
+}
+
+.qstar-abstract-008:before {
+  content: "\EBB1";
+}
+
+.qstar-abstract-009:before {
+  content: "\EBB2";
+}
+
+.qstar-abstract-010:before {
+  content: "\EBB3";
+}
+
+.qstar-abstract-011:before {
+  content: "\EBB4";
+}
+
+.qstar-abstract-012:before {
+  content: "\EBB5";
+}
+
+.qstar-abstract-013:before {
+  content: "\EBB6";
+}
+
+.qstar-abstract-014:before {
+  content: "\EBB7";
+}
+
+.qstar-abstract-015:before {
+  content: "\EBB8";
+}
+
+.qstar-abstract-016:before {
+  content: "\EBB9";
+}
+
+.qstar-abstract-017:before {
+  content: "\EBBA";
+}
+
+.qstar-abstract-018:before {
+  content: "\EBBB";
+}
+
+.qstar-abstract-019:before {
+  content: "\EBBC";
+}
+
+.qstar-abstract-020:before {
+  content: "\EBBD";
+}
+
+.qstar-abstract-021:before {
+  content: "\EBBE";
+}
+
+.qstar-abstract-022:before {
+  content: "\EBBF";
+}
+
+.qstar-abstract-023:before {
+  content: "\EBC0";
+}
+
+.qstar-abstract-024:before {
+  content: "\EBC1";
+}
+
+.qstar-abstract-025:before {
+  content: "\EBC2";
+}
+
+.qstar-abstract-026:before {
+  content: "\EBC3";
+}
+
+.qstar-abstract-027:before {
+  content: "\EBC4";
+}
+
+.qstar-abstract-028:before {
+  content: "\EBC5";
+}
+
+.qstar-abstract-029:before {
+  content: "\EBC6";
+}
+
+.qstar-abstract-030:before {
+  content: "\EBC7";
+}
+
+.qstar-abstract-031:before {
+  content: "\EBC8";
+}
+
+.qstar-abstract-032:before {
+  content: "\EBC9";
+}
+
+.qstar-abstract-033:before {
+  content: "\EBCA";
+}
+
+.qstar-abstract-034:before {
+  content: "\EBCB";
+}
+
+.qstar-abstract-035:before {
+  content: "\EBCC";
+}
+
+.qstar-abstract-036:before {
+  content: "\EBCD";
+}
+
+.qstar-abstract-037:before {
+  content: "\EBCE";
+}
+
+.qstar-abstract-038:before {
+  content: "\EBCF";
+}
+
+.qstar-abstract-039:before {
+  content: "\EBD0";
+}
+
+.qstar-abstract-040:before {
+  content: "\EBD1";
+}
+
+.qstar-abstract-041:before {
+  content: "\EBD2";
+}
+
+.qstar-abstract-042:before {
+  content: "\EBD3";
+}
+
+.qstar-abstract-043:before {
+  content: "\EBD4";
+}
+
+.qstar-abstract-044:before {
+  content: "\EBD5";
+}
+
+.qstar-abstract-045:before {
+  content: "\EBD6";
+}
+
+.qstar-abstract-046:before {
+  content: "\EBD7";
+}
+
+.qstar-abstract-047:before {
+  content: "\EBD8";
+}
+
+.qstar-abstract-048:before {
+  content: "\EBD9";
+}
+
+.qstar-abstract-049:before {
+  content: "\EBDA";
+}
+
+.qstar-abstract-050:before {
+  content: "\EBDB";
+}
+
+.qstar-abstract-051:before {
+  content: "\EBDC";
+}
+
+.qstar-abstract-052:before {
+  content: "\EBDD";
+}
+
+.qstar-abstract-053:before {
+  content: "\EBDE";
+}
+
+.qstar-abstract-054:before {
+  content: "\EBDF";
+}
+
+.qstar-abstract-055:before {
+  content: "\EBE0";
+}
+
+.qstar-abstract-056:before {
+  content: "\EBE1";
+}
+
+.qstar-abstract-057:before {
+  content: "\EBE2";
+}
+
+.qstar-abstract-058:before {
+  content: "\EBE3";
+}
+
+.qstar-abstract-059:before {
+  content: "\EBE4";
+}
+
+.qstar-abstract-060:before {
+  content: "\EBE5";
+}
+
+.qstar-abstract-061:before {
+  content: "\EBE6";
+}
+
+.qstar-abstract-062:before {
+  content: "\EBE7";
+}
+
+.qstar-abstract-063:before {
+  content: "\EBE8";
+}
+
+.qstar-abstract-064:before {
+  content: "\EBE9";
+}
+
+.qstar-abstract-065:before {
+  content: "\EBEA";
+}
+
+.qstar-abstract-066:before {
+  content: "\EBEB";
+}
+
+.qstar-abstract-067:before {
+  content: "\EBEC";
+}
+
+.qstar-abstract-068:before {
+  content: "\EBED";
+}
+
+.qstar-abstract-069:before {
+  content: "\EBEE";
+}
+
+.qstar-abstract-070:before {
+  content: "\EBEF";
+}
+
+.qstar-abstract-071:before {
+  content: "\EBF0";
+}
+
+.qstar-abstract-072:before {
+  content: "\EBF1";
+}
+
+.qstar-abstract-073:before {
+  content: "\EBF2";
+}
+
+.qstar-abstract-074:before {
+  content: "\EBF3";
+}
+
+.qstar-abstract-075:before {
+  content: "\EBF4";
+}
+
+.qstar-abstract-076:before {
+  content: "\EBF5";
+}
+
+.qstar-abstract-077:before {
+  content: "\EBF6";
+}
+
+.qstar-abstract-078:before {
+  content: "\EBF7";
+}
+
+.qstar-abstract-079:before {
+  content: "\EBF8";
+}
+
+.qstar-abstract-080:before {
+  content: "\EBF9";
+}
+
+.qstar-abstract-081:before {
+  content: "\EBFA";
+}
+
+.qstar-abstract-082:before {
+  content: "\EBFB";
+}
+
+.qstar-abstract-083:before {
+  content: "\EBFC";
+}
+
+.qstar-abstract-084:before {
+  content: "\EBFD";
+}
+
+.qstar-abstract-085:before {
+  content: "\EBFE";
+}
+
+.qstar-abstract-086:before {
+  content: "\EBFF";
+}
+
+.qstar-abstract-087:before {
+  content: "\EC00";
+}
+
+.qstar-abstract-088:before {
+  content: "\EC01";
+}
+
+.qstar-abstract-089:before {
+  content: "\EC02";
+}
+
+.qstar-abstract-090:before {
+  content: "\EC03";
+}
+
+.qstar-abstract-091:before {
+  content: "\EC04";
+}
+
+.qstar-abstract-092:before {
+  content: "\EC05";
+}
+
+.qstar-abstract-093:before {
+  content: "\EC06";
+}
+
+.qstar-abstract-094:before {
+  content: "\EC07";
+}
+
+.qstar-abstract-095:before {
+  content: "\EC08";
+}
+
+.qstar-abstract-096:before {
+  content: "\EC09";
+}
+
+.qstar-abstract-097:before {
+  content: "\EC0A";
+}
+
+.qstar-abstract-098:before {
+  content: "\EC0B";
+}
+
+.qstar-abstract-099:before {
+  content: "\EC0C";
+}
+
+.qstar-abstract-100:before {
+  content: "\EC0D";
+}
+
+.qstar-abstract-101:before {
+  content: "\EC0E";
+}
+
+.qstar-abstract-102:before {
+  content: "\EC0F";
+}
+
+.qstar-abstract-103:before {
+  content: "\EC10";
+}
+
+.qstar-abstract-104:before {
+  content: "\EC11";
+}
+
+.qstar-abstract-105:before {
+  content: "\EC12";
+}
+
+.qstar-abstract-106:before {
+  content: "\EC13";
+}
+
+.qstar-abstract-107:before {
+  content: "\EC14";
+}
+
+.qstar-abstract-108:before {
+  content: "\EC15";
+}
+
+.qstar-abstract-109:before {
+  content: "\EC16";
+}
+
+.qstar-abstract-110:before {
+  content: "\EC17";
+}
+
+.qstar-abstract-111:before {
+  content: "\EC18";
+}
+
+.qstar-abstract-112:before {
+  content: "\EC19";
+}
+
+.qstar-abstract-113:before {
+  content: "\EC1A";
+}
+
+.qstar-abstract-114:before {
+  content: "\EC1B";
+}
+
+.qstar-abstract-115:before {
+  content: "\EC1C";
+}
+
+.qstar-abstract-116:before {
+  content: "\EC1D";
+}
+
+.qstar-abstract-117:before {
+  content: "\EC1E";
+}
+
+.qstar-abstract-118:before {
+  content: "\EC1F";
+}
+
+.qstar-abstract-119:before {
+  content: "\EC20";
+}
+
+.qstar-abstract-120:before {
+  content: "\EC21";
+}
+
+.qstar-abstract-121:before {
+  content: "\EC22";
+}
