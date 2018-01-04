@@ -170,25 +170,24 @@ These DCs are recognized by the following categories:
 | Hard      | 16-17 |
 | Very Hard |   18+ |
 
-If a skill check meets or exceeds the set **DC** the skill check is
-**successful**. If the skill check is less than the **DC** the skill check is a
-**failure**.
+If a skill check meets or exceeds the set **DC** the skill check is 
+**successful** (<i s></i>). If the skill check is less than the **DC** the skill check is a
+**failure** (<i f></i>).
 
 !!! summary "Succeeding and failing a task"
-    Skill check ≥ Task DC ⇒ **success**
+    Skill check ≥ Task DC ⇒ **success** (<i s></i>)
 
-    Skill check < Task DC ⇒ **failure**
+    Skill check < Task DC ⇒ **failure** (<i f></i>)
 
 ### Aiding
 
-At the game master's discretion, it is possible for one or more
-characters to aid another in an upcoming task (henceforth called the
-*main task*). The players aiding must be able to declare, and be able
-to perform the aid before the main task is attempted (i.e. rolled
-for). Then they must perform the same skill check (consuming an
-action) within their turn. Every success of those aiding translates
-into a tangible benefit for the main task. Such benefits could include
-(but are not limited to):
+At the game master's discretion, it is possible for one or more characters to
+aid another in an upcoming task (henceforth called the *main task*). The players
+aiding must be able to declare, and be able to perform the aid before the main
+task is attempted (i.e. rolled for). Then they must perform the same skill check
+(consuming an action) within their turn. Every success (<i s></i>) of those
+aiding translates into a tangible benefit for the main task. Such benefits could
+include (but are not limited to):
 
 * Better outcome of the main task, such as less time or materials used.
 * A lowered difficulty for the main task.
@@ -213,11 +212,11 @@ participant, reroll until a winner is decided.
 
 ### Multiple Successes
 
-If a character has more than one die for a specific skill available,
-more than one action may be attempted at the same time using that
-skill. The DM sets the amount of successes required and adjusts the
-DC accordingly. There is still only one DC for all actions, but now
-the player has roll multiple successes using the available dice.
+<p style="text-decoration: line-through">If a character has more than one die
+for a specific skill available, more than one action may be attempted at the
+same time using that skill. The DM sets the amount of successes required and
+adjusts the DC accordingly. There is still only one DC for all actions, but now
+the player has roll multiple successes using the available dice.</p>
 
 !!! info "Example"
     Mary is a good pilot and thus has 3 dice available and an ability modifier
@@ -227,7 +226,7 @@ the player has roll multiple successes using the available dice.
     DC of 6 and Mary rolls: 4 3 6. She expends two ability modifiers to make the
     4 a success and thus succeeds at the task.
 
-## Perks
+## Perks / Flaws
 
 Perks, and flaws, are gained through your race and give your character
 special abilities or drawbacks. Perks and flaws aim at making a character
