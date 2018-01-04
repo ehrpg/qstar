@@ -11,12 +11,15 @@ Rules modifications for Endless Horizons
 
 ## License
 
-The entire system, and all of its content - except as noted below - is under the
-[Creative Commons BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-licence. It's free and open source and you can contribute!
+qstar is under the [Creative Commons
+BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/) licence. It's free
+and open source and you can contribute!
 
 The rules and character sheet use icons from
-[game-icons.net](http://game-icons.net/), and their respsective authors:
+[game-icons.net](http://game-icons.net/), and their respective authors:
 [Lorc](http://lorcblog.blogspot.com/), [Delapouite](http://delapouite.com/) &
 [contributors](http://game-icons.net/about.html#authors). The icons are provided
 as font by [Game Icons Font](http://seiyria.com/gameicons-font/).
+
+The *website* uses [MkDocs](http://www.mkdocs.org/) and [Material for
+MkDocs](https://squidfunk.github.io/mkdocs-material/).
