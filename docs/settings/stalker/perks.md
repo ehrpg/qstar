@@ -19,7 +19,7 @@ for the attack as a **6**.
 You gain 5 RAD resistance that **doesn't** accumulate with any other bonuses
 such as from suits or artifacts.
 
-**Price**: 1 000 RU
+**Price**: 500 RU
 
 **Requirements**: Survival (Trained)
 
@@ -28,7 +28,7 @@ such as from suits or artifacts.
 The RAD resistance becomes 10 and **does** stack with any other bonuses such as
 form suits or artifacts.
 
-**Price**: 10 000 RU
+**Price**: 1 500 RU
 
 **Requirements**: Survival (Proficient)
 
