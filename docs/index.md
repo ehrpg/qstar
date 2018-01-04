@@ -72,7 +72,7 @@ value from your endurance pool.
 !!! summary "How to determine *Endurance*"
     This formular uses the [Human](#human) race as an example.
     <div class="formula formula-top formula-bottom">
-    Endurance = <span data-bracket-bottom="base (race)">10</span>
+    Endurance = <span data-bracket-bottom="base (race)">15</span>
     <span style="margin-left: 12px;">+</span>
     <span data-bracket-bottom="might rank" style="margin-left: 12px;">n</span>
     *
@@ -101,7 +101,7 @@ health pool.
 !!! summary "How to determine *Health*"
     This formular uses the [Human](#human) race as an example.
     <div class="formula formula-top formula-bottom">
-    Endurance = <span data-bracket-bottom="base (race)">0</span>
+    Health = <span data-bracket-bottom="base (race)">5</span>
     <span style="margin-left: 12px;">+</span>
     <span data-bracket-bottom="might rank" style="margin-left: 12px;">n</span>
     *
@@ -458,8 +458,8 @@ drawbacks. They are suitable for all kinds of game play.
 | Speed          |     5 |
 | Intelligence   |     5 |
 | Charisma       |     5 |
-| Base Endurance |    20 |
-| Base Health    |    15 |
+| Base Endurance |    15 |
+| Base Health    |     5 |
 | Endurance      |   d10 |
 | Health         |    d6 |
 | Perks          |     - |

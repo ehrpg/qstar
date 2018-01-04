@@ -4,8 +4,8 @@
 
 ### Bad Liar
 
-Whenever you have to roll an **Oratory** or **Sense Motive** skill check, you
-have to roll with **1d6** less.
+Whenever you have to roll an **Oratory** or **Sense Motive** skill check related
+to lying, you have to roll with **1d6** less.
 
 ## Combat
 
