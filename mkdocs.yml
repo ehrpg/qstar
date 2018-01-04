@@ -47,6 +47,7 @@ pages:
     - Q*:
         - Rules: 'index.md'
         - Perks: 'perks.md'
+        - Flaws: 'flaws.md'
         - Equipment: 'equipment.md'
         - Task DCs: 'taskdcs.md'
         - Vessels: 'vessels.md'
