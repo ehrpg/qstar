@@ -483,6 +483,40 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#status" title="Status" class="md-nav__link">
+    Status
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exhausted" title="Exhausted" class="md-nav__link">
+    Exhausted
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#incapacitated" title="Incapacitated" class="md-nav__link">
+    Incapacitated
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dying" title="Dying" class="md-nav__link">
+    Dying
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -783,6 +817,18 @@
   </li>
 
         
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="settings/stalker/enemies/" title="Enemies" class="md-nav__link">
+      Enemies
+    </a>
+  </li>
+
+        
       </ul>
     </nav>
   </li>
@@ -978,6 +1024,40 @@
           <li class="md-nav__item">
   <a href="#critical-damage" title="Critical Damage" class="md-nav__link">
     Critical Damage
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#status" title="Status" class="md-nav__link">
+    Status
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exhausted" title="Exhausted" class="md-nav__link">
+    Exhausted
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#incapacitated" title="Incapacitated" class="md-nav__link">
+    Incapacitated
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dying" title="Dying" class="md-nav__link">
+    Dying
   </a>
   
 </li>
@@ -1219,8 +1299,9 @@ interactions</strong> between characters and NPCs.</p>
 <strong>health</strong> pool.</p>
 <h3 id="endurance">Endurance<a class="headerlink" href="#endurance" title="Permanent link">&para;</a></h3>
 <p><em>Endurance represents the character&rsquo;s short time well being and constitution.</em></p>
-<p>A character that reaches zero endurance is an easy target in combat or
-otherwise impaired.</p>
+<p>A character that reaches zero endurance becomes exhausted and is an easy target
+in combat or otherwise impaired. Being exhausted reduces the amount of actions
+per round to <strong>1</strong>.</p>
 <p>Endurance is determined by rolling a number of dice equal to your <strong>Might rank</strong>
 and then adding the base endurance pool of your race to the results. Which dice
 are rolled is also determined by the race.</p>
@@ -1578,9 +1659,9 @@ subsequent damage is dealt to health instead.</p>
 inanimate objects have no endurance, just health.</p>
 <div class="admonition summary">
 <p class="admonition-title">Damaged characters</p>
-<p>If <strong>endurance</strong> drops to zero the character becomes <strong>impaired</strong>.<br>
-If <strong>health</strong> drops to zero the character is <strong>incapacitated</strong> and in a
-dying state.</p>
+<p>If <strong>endurance</strong> drops to zero the character becomes <strong>exhausted</strong>, reducing
+the amount of actions per round to <strong>1</strong>.<br> If <strong>health</strong> drops to zero
+the character is <strong>incapacitated</strong> and in a <strong>dying</strong> state.</p>
 </div>
 <h4 id="critical-hit">Critical Hit<a class="headerlink" href="#critical-hit" title="Permanent link">&para;</a></h4>
 <p>Whenever you roll for an attack and <strong>hit</strong>, every <strong>6</strong> you rolled with a <strong>d6</strong>,
@@ -1593,6 +1674,20 @@ target&rsquo;s endurance isn&rsquo;t at 0 yet.</p>
 Every critical hit deals at least 1 damage, disregarding any armour the target
 may have.</p>
 <p>Each weapon specifies it&rsquo;s own critical damage.</p>
+<h3 id="status">Status<a class="headerlink" href="#status" title="Permanent link">&para;</a></h3>
+<h4 id="exhausted">Exhausted<a class="headerlink" href="#exhausted" title="Permanent link">&para;</a></h4>
+<p>A creature becomes exhausted if its endurance drops to zero. Being exhausted
+reduces the amount of actions that can be taken at any time to <strong>1</strong> (instead of
+the usually allowed <strong>2</strong>).</p>
+<p>All damage dealt to an exhausted creature reduces health instead of endurance.</p>
+<h4 id="incapacitated">Incapacitated<a class="headerlink" href="#incapacitated" title="Permanent link">&para;</a></h4>
+<p>A creature becomes incapacitated once its health drops to zero. An incapacitated
+creature needs some time (at least a few minutes, up to hours) to become
+concious again.</p>
+<h4 id="dying">Dying<a class="headerlink" href="#dying" title="Permanent link">&para;</a></h4>
+<p>A creature is dying if its health drops to zero. A dying creature dies if its
+not receiving medical attention. A dying creature receiving damage kills the
+creature.</p>
 <h2 id="crisis">Crisis<a class="headerlink" href="#crisis" title="Permanent link">&para;</a></h2>
 <p>Whenever time and order of action is of critical concern a <strong>crisis</strong> starts.
 Combat is always a crisis, but other dangerous situation are also considered

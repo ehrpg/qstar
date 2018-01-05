@@ -73,6 +73,12 @@
      <changefreq>daily</changefreq>
     </url>
         
+    <url>
+     <loc>/settings/stalker/enemies/</loc>
+     <lastmod>2018-01-05</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
 </urlset>
