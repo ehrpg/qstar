@@ -19,9 +19,9 @@ credit equals 1 rubel in this setting.
 
 ## Items
 
-| Name                    | Weight |  Cost | Notes                                                                      |
-|-------------------------|-------:|------:|----------------------------------------------------------------------------|
-| Artifact detector MK I  |    0.5 |   500 | Artifact detector                                                          |
+| Name                    | Weight |  Cost | Notes                                                                          |
+|-------------------------|-------:|------:|--------------------------------------------------------------------------------|
+| Artifact detector MK I  |    0.5 |   500 | Artifact detector                                                              |
 | Artifact detector MK II |    0.5 | 1 500 | Artifact detector; provides a **+2 Notice** bonus when searching for artifacts |
 
 ## Weapons
@@ -63,7 +63,7 @@ does not negate the sonic boom of the round breaking the sound barrier.
 
 | Name         |  Hit |  DMG | Crit |  RoF | Range | Weight | Cost | Notes   |
 |--------------|-----:|-----:|-----:|-----:|-------|-------:|-----:|---------|
-| Combat Knife |   +1 |   16 |    8 |    2 | Melee |      1 |  200 | compact |
+| Combat Knife |   +1 |   16 |    8 |    2 | Melee |      1 |  300 | compact |
 
 ### Pistols
 

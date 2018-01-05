@@ -56,8 +56,9 @@ Each creature has two pools: **endurance** and **health**. Objects only have a
 
 *Endurance represents the character's short time well being and constitution.*
 
-A character that reaches zero endurance is an easy target in combat or
-otherwise impaired.
+A character that reaches zero endurance becomes exhausted and is an easy target
+in combat or otherwise impaired. Being exhausted reduces the amount of actions
+per round to **1**.
 
 Endurance is determined by rolling a number of dice equal to your **Might rank**
 and then adding the base endurance pool of your race to the results. Which dice
@@ -350,9 +351,9 @@ Damaging objects is the same as damaging another player or NPC, except that
 inanimate objects have no endurance, just health.
 
 !!! summary "Damaged characters" 
-    If **endurance** drops to zero the character becomes **impaired**.<br>
-    If **health** drops to zero the character is **incapacitated** and in a
-    dying state.
+    If **endurance** drops to zero the character becomes **exhausted**, reducing
+    the amount of actions per round to **1**.<br> If **health** drops to zero
+    the character is **incapacitated** and in a **dying** state.
 
 #### Critical Hit
 
@@ -370,6 +371,28 @@ Every critical hit deals at least 1 damage, disregarding any armour the target
 may have.
 
 Each weapon specifies it's own critical damage.
+
+### Status
+
+#### Exhausted
+
+A creature becomes exhausted if its endurance drops to zero. Being exhausted
+reduces the amount of actions that can be taken at any time to **1** (instead of
+the usually allowed **2**).
+
+All damage dealt to an exhausted creature reduces health instead of endurance.
+
+#### Incapacitated
+
+A creature becomes incapacitated once its health drops to zero. An incapacitated
+creature needs some time (at least a few minutes, up to hours) to become
+concious again.
+
+#### Dying
+
+A creature is dying if its health drops to zero. A dying creature dies if its
+not receiving medical attention. A dying creature receiving damage kills the
+creature.
 
 ## Crisis
 
