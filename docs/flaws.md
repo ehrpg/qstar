@@ -16,7 +16,7 @@ acted in the current crisis.
 
 ### Slow
 
-You do not gain any positive effects from **speed** on **initiative**.
+You take a **-2 penalty** on **initiative** checks.
 
 ### Weak
 

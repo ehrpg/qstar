@@ -87,8 +87,8 @@ Melee weapons have a cost and damage. They get the **might ability modifier** as
 | Weapon  |  Hit |  DMG | Crit |  Rof  | Range | Cost | Weight | Notes   |
 |---------|-----:|-----:|-----:|:-----:|------:|-----:|-------:|---------|
 | Fists   |   +0 |    4 |    2 |   2   | Melee |    - |      - |         |
-| Baton   |   +1 |   10 |    5 |   1   | Melee |  100 |    0.5 |         |
-| Knife   |   +1 |   14 |    6 |   2   | Melee |  200 |    0.2 | compact |
+| Baton   |   +1 |   10 |    5 |   1   | Melee |   50 |    0.5 |         |
+| Knife   |   +1 |   14 |    6 |   2   | Melee |  100 |    0.2 | compact |
 | Hatchet |   +1 |   18 |    8 |   1   | Melee |  150 |      1 |         |
 | Sword   |   +2 |   24 |   10 |   1   | Melee |  500 |      3 |         |
 
