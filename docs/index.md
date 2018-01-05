@@ -18,7 +18,7 @@ neither a benefit nor a drawback. Every point below or above five grants an
 additional benefit. This benefit is called **ability modifier**:
 
 | Ability  | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
-| -------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|----------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 | Modifier | -5  | -4  | -3  | -2  | -1  | +0  | +1  | +2  | +3  | +4  | +5  |
 
 If an ability drops to zero, the character dies.
@@ -246,7 +246,7 @@ or permanent effect from adventuring (such as scars, wounds, etc.).
 Improving an ability costs:
 
 | New Rank |      Cost |
-| -------- | --------: |
+|----------|----------:|
 | 1        |  -512 000 |
 | 2        |  -162 000 |
 | 3        |   -32 000 |
@@ -263,7 +263,7 @@ Formula: `cost = abs(mod) ^ 4 * 2000`
 Improving a skill costs:
 
 | New Rank    |    Cost |
-| ----------- | ------: |
+|-------------|--------:|
 | Untrained   |       0 |
 | Proficient  |   1 000 |
 | Trained     |  31 000 |
@@ -296,6 +296,14 @@ check result.
     <div class="formula formula-top formula-bottom">
     Defence (melee) = <span data-bracket-top="skill check">3d6 + skill modifiers</span>
     </div>
+
+#### Cover
+
+| Cover       | Bonus | Notes                                                                        | Example                                                       |
+|-------------|------:|------------------------------------------------------------------------------|---------------------------------------------------------------|
+| Light Cover |    +2 | -2 endurance damage, Allows Stealth                                         | Foliage, Smoke, Low Light                                     |
+| Heavy Cover |    +4 | -4 endurance damage                                                          | Complete darkness, Chest high inpenetrable wall               |
+| Entrenched  |    +6 | -6 endurance damage, immunity to critical hits while endurance larger than 0 | Combined through Low and Heavy Cover, inside a literal trench |
 
 ### Attack
 
@@ -475,7 +483,7 @@ Humans are the versatile race of Q*, with having no obvious benefits or
 drawbacks. They are suitable for all kinds of game play.
 
 | Human          | Value |
-| -------------- | ----: |
+|----------------|------:|
 | Might          |     5 |
 | Speed          |     5 |
 | Intelligence   |     5 |
