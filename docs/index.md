@@ -7,8 +7,7 @@ Pen & Paper game.
 
 You will need a game master, someone who is willing to run and guide the game,
 and at least two other players. Furthermore you will need a pencil, eraser, and
-some paper. To play you also need a few six sided dice (d6) and ten sided
-dice (d10).
+some paper. To play you also need a few six sided dice (d6).
 
 ## Abilities
 
@@ -62,7 +61,7 @@ otherwise impaired.
 
 Endurance is determined by rolling a number of dice equal to your **Might rank**
 and then adding the base endurance pool of your race to the results. Which dice
-is rolled is also determined by the race.
+are rolled is also determined by the race.
 
 Endurance recovers once the character has had enough time to rest (usually
 resting eight hours) without interruptions. Whenever you permanently increase or
@@ -90,7 +89,7 @@ If health drops to zero, the character is heavily wounded and near death. He is
 Receiving damage while the health pool is at zero instantly kills the character.
 
 Health is determined by rolling a number of dice equal to your **Might rank**
-and then adding the base health pool of your race to the results. Which dice is
+and then adding the base health pool of your race to the results. Which dice are
 rolled is also determined by race.
 
 Health cannot recovered by resting, and requires external methods (medicine,

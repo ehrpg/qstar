@@ -4,14 +4,14 @@
 
 ### Endurance I
 
-Upon taking Endurance I you immediately add the average of your race's endurance
-dice (rounded down) to your character's total endurance pool.
+Upon taking Endurance I you immediately add the average of your races endurance
+dice (rounded down) to your characters total endurance pool.
 
 **Price**: 500
 
 ### Endurance II
 
-Upon taking Endurance II you immediately add the average of your race's
+Upon taking Endurance II you immediately add the average of your races
 endurance dice (rounded down) to your character's total endurance pool. This
 effect stacks with **Endurance I**.
 
@@ -21,8 +21,8 @@ effect stacks with **Endurance I**.
 
 ### Endurance III
 
-Upon taking Endurance III you immediately add the average of your race's
-endurance dice (rounded down) to your character's total endurance pool. This
+Upon taking Endurance III you immediately add the average of your races
+endurance dice (rounded down) to your characters total endurance pool. This
 effect stacks with **Endurance I** and **Endurance II**.
 
 **Price**: 2 000
@@ -31,15 +31,15 @@ effect stacks with **Endurance I** and **Endurance II**.
 
 ### Health I
 
-Upon taking Health I you immediately add the average of your race's health dice
-(rounded down) to your character's total health pool.
+Upon taking Health I you immediately add the average of your races health dice
+(rounded down) to your characters total health pool.
 
 **Price**: 500
 
 ### Health II
 
-Upon taking Health II you immediately add the average of your race's health dice
-(rounded down) to your character's total health pool. This effect stacks with
+Upon taking Health II you immediately add the average of your races health dice
+(rounded down) to your characters total health pool. This effect stacks with
 **Health I**.
 
 **Price**: 1 000
@@ -48,8 +48,8 @@ Upon taking Health II you immediately add the average of your race's health dice
 
 ### Health III
 
-Upon taking Health III you immediately add the average of your race's health
-dice (rounded down) to your character's total health pool. This effect stacks
+Upon taking Health III you immediately add the average of your races health
+dice (rounded down) to your characters total health pool. This effect stacks
 with **Health I** and **Health 2**.
 
 **Price**: 2 000
