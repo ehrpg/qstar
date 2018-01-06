@@ -362,9 +362,7 @@ On a hit you can deal [damage](#damage){ .qstar-gunshot } and potential
 creatures and characters.*
 
 Armour provides [DR](./equipment#damage-reduction){ .qstar-riot-shield } (damage
-reduction). Subtract the 
-[DR](./equipment#damage-reduction){ .qstar-riot-shield } from **any damage**
-received before subtracting it from your pools. If a targets
+reduction). If a targets
 [DR](./equipment#damage-reduction){ .qstar-riot-shield } is higher than the
 inflicted damage, they don't take any damage at all (except for [critical
 damage](#critical-damage){ .qstar-headshot-2 }).
@@ -379,9 +377,8 @@ health.
 
 !!! summary "Damaged characters" 
     If [endurance](#endurance){ .qstar-electric } drops to zero the character
-    becomes **exhausted**, reducing the amount of actions per round to
-    **1**.<br> If [health](#health){ .qstar-heart-beats } drops to zero the
-    character is **incapacitated** and in a **dying** state.
+    becomes **incapacitated**.<br> If [health](#health){ .qstar-heart-beats }
+    drops to zero the character is **dead**.
 
 #### Critical Hit
 
@@ -403,27 +400,20 @@ Each weapon specifies its own [critical damage](){ .qstar-headshot-2 }.
 
 ### Status
 
-#### Exhausted
-
-A creature becomes exhausted if its [endurance](#endurance){ .qstar-electric }
-drops to zero. Being exhausted reduces the amount of actions that can be taken
-at any time to **1** (instead of the usually allowed **2**).
-
-All damage dealt to an exhausted creature reduces
-[health](#health){ .qstar-heart-beats } instead of
-[endurance](#endurance){ .qstar-electric }.
-
 #### Incapacitated
 
 A creature becomes incapacitated once its
-[health](#health){ .qstar-heart-beats } drops to zero. An incapacitated creature
-needs some time (at least a few minutes, up to hours) to become concious again.
+[endurance](#endurance){ .qstar-electric } drops to zero. An incapacitated
+creature needs some time (at least a few minutes, up to hours) to become
+concious again.
 
-#### Dying
+Most of the time an incapacitated creature needs medical attention to regain
+conciousness.
 
-A creature is dying if its [health](#health){ .qstar-heart-beats } drops to
-zero. A dying creature dies if its not receiving medical attention. A dying
-creature receiving damage kills the creature.
+#### Dead
+
+A creature is dead if its [health](#health){ .qstar-heart-beats } drops to
+zero.
 
 ## Crisis
 
@@ -557,7 +547,7 @@ Last but not least buy equipment that suits your character. See
 
 The following skills are available in the base system of Q*:
 
-### Might Skills
+### Might ![](){ .qstar-biceps } Skills
 
 * **Athletics** (MI) is used to perform actions such as jumping, climbing,
   tumbling, lifting, dragging or rope walking. Extra ability modifiers may be
@@ -572,7 +562,7 @@ The following skills are available in the base system of Q*:
 * **Micro Gravity** (MI) is the skill that replaces **Athletics** in micro
   gravity environments. It is used to manoeuvre in such weightless conditions.
 
-### Speed Skills
+### Speed ![](){ .qstar-wingfoot } Skills
 
 * **Driving** (SP) allows someone to steer land or sea based vehicles, such as
   cars, motorcycles and tanks.
@@ -592,7 +582,7 @@ The following skills are available in the base system of Q*:
 * **Stealth** (SP) is used to sneak about, hide, hide things or use sleight
   of hand to conceal items. Its counter skill is **Notice**.
 
-### Intelligence Skills
+### Intelligence ![](){ .qstar-brain } Skills
 
 * **Engineering** (IN) is used to construct and repair devices, buildings and
   vehicles. Servicing a motorcycle is considered engineering, as is constructing
@@ -620,7 +610,7 @@ The following skills are available in the base system of Q*:
   chosen, the character has basic knowledge. They only know common knowledge in
   these areas (according to their education), but nothing special.
 
-### Charisma Skills
+### Charisma ![](){ .qstar-minions } Skills
 * **Oratory** (CA) is used to sway another in ones favour through social
   interactions. It allows a character to bargain, bluff, intimidate or charm
   another. The counter skill is called **Sense Motive**.
