@@ -20,7 +20,8 @@ reduction value.
 
 Any successful hit that deals health damage (before damage reduction) reduces
 the armours hitpoints by that amount. Endurance damage isn't dealt to the
-armours hitpoints.
+armours hitpoints. This means, that multiple critical hits deal their respective
+damage multiple times to the armour.
 
 If the hitpoints of the armour drop to zero, it's destroyed or otherwise
 rendered useless.
