@@ -23,25 +23,26 @@ additional benefit. This benefit is called **ability modifier**:
 
 If an ability drops to zero, the character dies.
 
-### Might
+### Might ![](){ .qstar-biceps }
 
 **Might** (MI) represents the character's physical **strength** and
-**resilience**. [Endurance](#endurance) and [health](#health) are derived from
-might. Your melee weapon damage also derives from might.
+**resilience**. [Endurance](#endurance){ .qstar-electric } and
+[health](#health){ .qstar-heart-beats } are derived from might. Your melee weapon
+damage also derives from might.
 
-### Speed
+### Speed ![](){ .qstar-wingfoot }
 
 **Speed** (SP) measures the character's reflexes and hand-eye coordination. It
 is used for subversive actions (such as sneaking, or lock picking) and is used
 to **better hit** with melee weapons and ranged weapons.
 
-### Intelligence
+### Intelligence ![](){ .qstar-brain }
 
 **Intelligence** (IN) describes how well your character learns new things, and
 how well he remembers already existing things. It is a key factor in skills like
 hacking, medicine or engineering.
 
-### Charisma
+### Charisma ![](){ .qstar-minions }
 
 **Charisma** (CA) represents the character's physical attractiveness, force of
 personality and his ability to lead. It is mostly used in **social
@@ -49,59 +50,70 @@ interactions** between characters and NPCs.
 
 ## Pools
 
-Each creature has two pools: **endurance** and **health**. Objects only have a
-**health** pool.
+Each creature has two pools: [Endurance](#endurance){ .qstar-electric } and
+[health](#health){ .qstar-heart-beats }. Objects only have a 
+[health](#health){ .qstar-heart-beats } pool.
 
-### Endurance
+### Endurance ![](){ .qstar-electric }
 
 *Endurance represents the character's short time well being and constitution.*
 
-A character that reaches zero endurance becomes exhausted and is an easy target
-in combat or otherwise impaired. Being exhausted reduces the amount of actions
-per round to **1**.
+A character that reaches zero [endurance](#endurance){ .qstar-electric } becomes
+exhausted and is an easy target in combat or otherwise impaired. Being exhausted
+reduces the amount of actions per round to **1**.
 
-Endurance is determined by rolling a number of dice equal to your **Might rank**
-and then adding the base endurance pool of your race to the results. Which dice
-are rolled is also determined by the race.
+[Endurance](#endurance){ .qstar-electric } is determined by rolling a number of
+dice equal to your [Might](#might){ .qstar-biceps } **rank** and then adding the
+base [endurance](#endurance){ .qstar-electric } pool of your race to the
+results. Which dice are rolled is also determined by the race.
 
 Endurance recovers once the character has had enough time to rest (usually
 resting eight hours) without interruptions. Whenever you permanently increase or
-decrease **Might** you must roll the endurance dice and add or subtract that
-value from your endurance pool.
+decrease [Might](#might){ .qstar-biceps } you must roll the
+[endurance](#endurance){ .qstar-electric } dice and add or subtract that value
+from your [endurance](#endurance){ .qstar-electric } pool.
 
 !!! summary "How to determine *Endurance*"
     This formular uses the [Human](#human) race as an example.
     <div class="formula formula-top formula-bottom">
-    Endurance = <span data-bracket-bottom="base (race)">15</span>
+    <a href="#endurance" class="qstar-electric">Endurance</a>
+    =
+    <span data-bracket-bottom="base (race)">15</span>
     <span style="margin-left: 12px;">+</span>
     <span data-bracket-bottom="might rank" style="margin-left: 12px;">n</span>
     *
     <span data-bracket-top="endurance die (race)">d10</span>
     </div>
 
-### Health
+### Health ![](){ .qstar-heart-beats }
 
 *Health represents the overall long-term physical health and well being of a
 character. Severe wounds, illness and temporary handicaps (such as broken arms
 or legs) are abstracted away in the health pool.*
 
-If health drops to zero, the character is heavily wounded and near death. He is
-**incapacitated**, and automatically dies soon after if not medically treated.
-Receiving damage while the health pool is at zero instantly kills the character.
+If [health](#health){ .qstar-heart-beats } drops to zero, the character is
+heavily wounded and near death. He is **incapacitated**, and automatically dies
+soon after if not medically treated. Receiving damage while the
+[health](#health){ .qstar-heart-beats } pool is at zero instantly kills the
+character.
 
-Health is determined by rolling a number of dice equal to your **Might rank**
-and then adding the base health pool of your race to the results. Which dice are
-rolled is also determined by race.
+[Health](#health){ .qstar-heart-beats } is determined by rolling a number of
+dice equal to your [Might](#might){ .qstar-biceps } **rank** and then adding the
+base [health](#health){ .qstar-heart-beats } pool of your race to the results.
+Which dice are rolled is also determined by race.
 
-Health cannot recovered by resting, and requires external methods (medicine,
-first aid etc.) to recover. Whenever you permanently increase or decrease
-**Might** you must roll the health dice and add or subtract that value from your
-health pool.
+[Health](#health){ .qstar-heart-beats } cannot recovered by resting, and
+requires external methods (medicine, first aid etc.) to recover. Whenever you
+permanently increase or decrease [Might](#might){ .qstar-biceps } you must roll
+the [health](#health){ .qstar-heart-beats } dice and add or subtract that value
+from your [health](#health){ .qstar-heart-beats } pool.
 
 !!! summary "How to determine *Health*"
     This formular uses the [Human](#human) race as an example.
     <div class="formula formula-top formula-bottom">
-    Health = <span data-bracket-bottom="base (race)">5</span>
+    <a href="#health" class="qstar-heart-beats">Health</a>
+    =
+    <span data-bracket-bottom="base (race)">5</span>
     <span style="margin-left: 12px;">+</span>
     <span data-bracket-bottom="might rank" style="margin-left: 12px;">n</span>
     *
@@ -117,7 +129,7 @@ is involved.
 A skill has five ranks: **untrained**, **proficient**, **trained**,
 **experienced**, **master**. The ranks are numbered 1 (untrained) through 5
 (master) respectively. Each rank provides additional bonuses to skill checks and
-allows the selection of additional perks.
+allows the selection of additional [perks](#perks){ .qstar-present }.
 
 | Rank        | Skill Bonus |
 |-------------|------------:|
@@ -170,14 +182,14 @@ These DCs are recognized by the following categories:
 | Hard      | 16-17 |
 | Very Hard |   18+ |
 
-If a skill check meets or exceeds the set **DC** the skill check is 
-**successful** (<i s></i>). If the skill check is less than the **DC** the skill check is a
-**failure** (<i f></i>).
+If a skill check meets or exceeds the set **DC** the skill check is
+*successful*{ .qstar-success }. If the skill check is less than the **DC** the
+skill check is a *failure*{ .qstar-failure }.
 
 !!! summary "Succeeding and failing a task"
-    Skill check ≥ Task DC ⇒ **success** (<i s></i>)
+    Skill check ≥ Task DC ⇒ *success*{ .qstar-success }
 
-    Skill check < Task DC ⇒ **failure** (<i f></i>)
+    Skill check < Task DC ⇒ *failure*{ .qstar-failure }
 
 ### Aiding
 
@@ -185,9 +197,9 @@ At the game master's discretion, it is possible for one or more characters to
 aid another in an upcoming task (henceforth called the *main task*). The players
 aiding must be able to declare, and be able to perform the aid before the main
 task is attempted (i.e. rolled for). Then they must perform the same skill check
-(consuming an action) within their turn. Every success (<i s></i>) of those
-aiding translates into a tangible benefit for the main task. Such benefits could
-include (but are not limited to):
+(consuming an action) within their turn. Every *success*{ .qstar-success } of
+those aiding translates into a tangible benefit for the main task. Such benefits
+could include (but are not limited to):
 
 * Better outcome of the main task, such as less time or materials used.
 * A lowered difficulty for the main task.
@@ -226,13 +238,16 @@ the player has roll multiple successes using the available dice.</p>
     DC of 6 and Mary rolls: 4 3 6. She expends two ability modifiers to make the
     4 a success and thus succeeds at the task.
 
-## Perks / Flaws
+## Perks ![](){ .qstar-present } / Flaws ![](){ .qstar-broken-bone }
 
-Perks, and flaws, are gained through your race and give your character
-special abilities or drawbacks. Perks and flaws aim at making a character
-more unique. It is up to the game master whether perks can be freely purchased.
-A game master may also give them out based on experience throughout game
-play, or based on a character's background story.
+[Perks](#perks-flaws){ .qstar-present }, and [flaws](#perks-flaws){
+.qstar-broken-bone }, are gained through your race and give your character
+special abilities or drawbacks. [Perks](#perks-flaws){ .qstar-present } and
+[flaws](#perks-flaws){ .qstar-broken-bone } aim at making a character more
+unique. It is up to the game master whether 
+[perks](#perks-flaws){ .qstar-present } can be freely purchased. A game master
+may also give them out based on experience throughout game play, or based on a
+character's background story.
 
 ## Improving your character
 
@@ -272,8 +287,8 @@ Improving a skill costs:
 
 Formula: `cost = ((max(x-1, 0) * 100) ^ 2) - 9000`
 
-Buying perks may be done at any time, and the perk's description lists the
-price.
+Buying [perks](#perks-flaws){ .qstar-present } may be done at any time, and the
+[perks](#perks-flaws){ .qstar-present } description lists the price.
 
 ## Combat 
 
@@ -299,11 +314,11 @@ check result.
 
 #### Cover
 
-| Cover       | Bonus | Notes                                                                        | Example                                                       |
-|-------------|------:|------------------------------------------------------------------------------|---------------------------------------------------------------|
-| Light Cover |    +2 | -2 endurance damage, Allows Stealth                                         | Foliage, Smoke, Low Light                                     |
-| Heavy Cover |    +4 | -4 endurance damage                                                          | Complete darkness, Chest high inpenetrable wall               |
-| Entrenched  |    +6 | -6 endurance damage, immunity to critical hits while endurance larger than 0 | Combined through Low and Heavy Cover, inside a literal trench |
+| Cover       | Bonus | Notes                                                                                            | Example                                                       |
+|-------------|------:|--------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| Light Cover |    +2 | -2 endurance damage, Allows Stealth                                                              | Foliage, Smoke, Low Light                                     |
+| Heavy Cover |    +4 | -4 endurance damage                                                                              | Complete darkness, Chest high inpenetrable wall               |
+| Entrenched  |    +6 | -6 endurance damage, immunity to [critical hits](#critical-hit) while endurance is larger than 0 | Combined through Low and Heavy Cover, inside a literal trench |
 
 ### Attack
 
@@ -320,14 +335,13 @@ chance.
     If a weapon has a RoF value of 2, you may fire an extra bullet and add
     **1d6** to your attack, resulting in **4d6** total.
 
-If the **attack** is equal to or higher than the targets **defence** value the
-shot (or shots) **hit**.
+If the **attack** is equal to or higher than the targets **defence** attack is
+*successful*{ .qstar-success }.
 
-If the **attack** is less than the targets **defence** value the shot (or shots)
-**miss**.
+If the **attack** is less than the targets **defence** value the attack *fails*{ .qstar-failure }.
 
-On a hit you can deal [damage](#damage) and potential [critical
-damage](#critical-damage).
+On a hit you can deal [damage](#damage){ .qstar-gunshot } and potential
+[critical damage](#critical-damage){ .qstar-headshot-2 }.
 
 !!! summary "How to roll an *Attack*"
     <div class="formula formula-top formula-bottom">
@@ -342,21 +356,26 @@ damage](#critical-damage).
     <span>range penalty</span>
     </div>
 
-### Damage
+### Damage ![](){ .qstar-gunshot }
 
 *Damage is dealt by environment, traps or simply by successful attacks from
 creatures and characters.*
 
-Armour provides [DR](./equipment#damage-reduction) (damage reduction). Subtract
-the DR from **any damage** received before subtracting it from your pools. If a
-targets DR is higher than the inflicted damage, they don't take any damage at
-all (except for [critical damage](#critical-damage)).
+Armour provides [DR](./equipment#damage-reduction){ .qstar-riot-shield } (damage
+reduction). Subtract the 
+[DR](./equipment#damage-reduction){ .qstar-riot-shield } from **any damage**
+received before subtracting it from your pools. If a targets
+[DR](./equipment#damage-reduction){ .qstar-riot-shield } is higher than the
+inflicted damage, they don't take any damage at all (except for [critical
+damage](#critical-damage){ .qstar-headshot-2 }).
 
-Normal damage always targets endurance. If endurance is zero, all exceeding and
-subsequent damage is dealt to health instead.
+Normal damage always targets [endurance](#endurance){ .qstar-electric }. If
+[endurance](#endurance){ .qstar-electric } is zero, all exceeding and subsequent
+damage is dealt to [health](#health){ .qstar-heart-beats } instead.
 
 Damaging objects is the same as damaging another player or NPC, except that
-inanimate objects have no endurance, just health.
+inanimate objects have no [endurance](#endurance){ .qstar-electric }, just
+health.
 
 !!! summary "Damaged characters" 
     If **endurance** drops to zero the character becomes **exhausted**, reducing
@@ -365,20 +384,20 @@ inanimate objects have no endurance, just health.
 
 #### Critical Hit
 
-Whenever you roll for an attack and **hit**, every **6** you rolled with a **d6**,
-including extra dice from RoF, causes additional [critical
-damage](#critical-damage).
+Whenever you roll for an attack and **hit**, every **6** you rolled with a
+**d6**, including extra dice from RoF, causes additional [critical
+damage](#critical-damage){ .qstar-headshot-2 }.
 
-#### Critical Damage
+#### Critical Damage ![](){ .qstar-headshot-2 }
 
-Critical damage inflicts additional damage to the health pool, even if the
-target's endurance isn't at 0 yet.
+[Critical damage](){ .qstar-headshot-2 } inflicts additional damage to the
+health pool, even if the target's endurance isn't at 0 yet.
 
-Critical damage is also reduced by the target's DR, but cannot be less than 1.
-Every critical hit deals at least 1 damage, disregarding any armour the target
-may have.
+[Critical damage](){ .qstar-headshot-2 } is also reduced by the target's
+[DR](./equipment#damage-reduction){ .qstar-riot-shield }, but cannot be less than 1. Every critical hit
+deals at least 1 damage, disregarding any armour the target may have.
 
-Each weapon specifies it's own critical damage.
+Each weapon specifies it's own [critical damage](){ .qstar-headshot-2 }.
 
 ### Status
 
