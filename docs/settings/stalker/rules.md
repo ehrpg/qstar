@@ -8,7 +8,7 @@ The radiation poisoning of a character is measured by rads. Any value smaller
 than one is ignored. All radiation a character receives is rounded down.
 
 The unit for measuring radiation is defined by rad/hour. For simplicity, this
-value can be divided by 10, if a character isn't exposed for a full hour. 
+value can be divided by 10, if a character isn't exposed for a full hour.
 
 !!! info "Example"
     A character who is exposed for 5 minutes would suffer one tenth of the
@@ -48,7 +48,7 @@ Also, certain equipment such as hazmat suits can reduce the radiation exposure
 or even reduce it to zero. The suit reduces the radiation exposure per hour by
 it's value.
 
-!!! info "Example" 
+!!! info "Example"
     A hazmat suit may have a radiation reduction of 100. A contaminated zone may
     have 150 RAD/h. The suit reduces the radiation exposure to 50 RAD/h.
 
@@ -60,14 +60,14 @@ the consequences.*
 Each character needs **one ration** worth of food and drinks **each day**. For
 each day a character does not eat and drink, she loses **10 points** of her
 **maximum endurance**. If the **endurance** becomes zero the characters falls
-unconcious and enters the **starving** state. 
+unconcious and enters the **starving** state.
 
 A **starving** character loses **10 points** of her **maximum health**  each day
 until the character dies or receives medical attention.
 
 A character regenerates **10 points** of **maximum health** and **maximum
 endurance** if they stay in bed and get **one ration** worth of food and drinks
-**each day**.<sup id="a1">[1](#f1)</sup> **Health** points are regained first. 
+**each day**.<sup id="a1">[1](#f1)</sup> **Health** points are regained first.
 
 1. <small id="f1">If the character is unconcious they have to receive infusions
    from others to regain conciousness.</small> [↩](#a1)
@@ -76,7 +76,7 @@ endurance** if they stay in bed and get **one ration** worth of food and drinks
 
 ### Obsolete Skills
 
-* ~~Micro Gravity~~ 
+* ~~Micro Gravity~~
 
 ### New Skills
 

@@ -11,7 +11,7 @@ some paper. To play you also need a few six sided dice (d6).
 
 ## Abilities
 
-Each character, NPC or even monster is defined by four abilities. 
+Each character, NPC or even monster is defined by four abilities.
 
 Abilities have ranks going from 1 to 10. Five (5) is the average, conferring
 neither a benefit nor a drawback. Every point below or above five grants an
@@ -51,7 +51,7 @@ interactions** between characters and NPCs.
 ## Pools
 
 Each creature has two pools: [Endurance](#endurance){ .qstar-electric } and
-[health](#health){ .qstar-heart-beats }. Objects only have a 
+[health](#health){ .qstar-heart-beats }. Objects only have a
 [health](#health){ .qstar-heart-beats } pool.
 
 ### Endurance ![](){ .qstar-electric }
@@ -244,7 +244,7 @@ the player has roll multiple successes using the available dice.</p>
 .qstar-broken-bone }, are gained through your race and give your character
 special abilities or drawbacks. [Perks](#perks-flaws){ .qstar-present } and
 [flaws](#perks-flaws){ .qstar-broken-bone } aim at making a character more
-unique. It is up to the game master whether 
+unique. It is up to the game master whether
 [perks](#perks-flaws){ .qstar-present } can be freely purchased. A game master
 may also give them out based on experience throughout game play, or based on a
 character's background story.
@@ -290,7 +290,7 @@ Formula: `cost = ((max(x-1, 0) * 100) ^ 2) - 9000`
 Buying [perks](#perks-flaws){ .qstar-present } may be done at any time, and the
 [perks](#perks-flaws){ .qstar-present } description lists the price.
 
-## Combat 
+## Combat
 
 ### Defence
 
@@ -302,9 +302,9 @@ check result.
 !!! summary "How to determine *Defence*"
     <div class="formula formula-top formula-bottom">
     Defence = <span data-bracket-bottom="base">10</span>
-    + 
+    +
     <span data-bracket-top="modifier">Speed</span>
-    + 
+    +
     <span>Cover</span>
     </div>
     or
@@ -329,7 +329,7 @@ Some weapons allow multiple shots to be fired, denoted by the
 [RoF](./equipment#stats) value of a weapon. If a weapons
 [RoF](./equipment#stats) value is higher than one, additional shots
 **may** be fired to increase the hit chance and [critical hit](#critical-hit)
-chance. 
+chance.
 
 !!! note "RoF Example"
     If a weapon has a RoF value of 2, you may fire an extra bullet and add
@@ -346,7 +346,7 @@ On a hit you can deal [damage](#damage){ .qstar-gunshot } and potential
 !!! summary "How to roll an *Attack*"
     <div class="formula formula-top formula-bottom">
     Attack = <span data-bracket-bottom="base">3d6</span>
-    + 
+    +
     <span data-bracket-top="'hit' value">weapon</span>
     +
     <span data-bracket-bottom="for the used weapon">skill</span>
@@ -362,7 +362,13 @@ On a hit you can deal [damage](#damage){ .qstar-gunshot } and potential
 creatures and characters.*
 
 Armour provides [DR](./equipment#damage-reduction){ .qstar-riot-shield } (damage
+<<<<<<< HEAD
 reduction). If a targets
+=======
+reduction). Subtract the
+[DR](./equipment#damage-reduction){ .qstar-riot-shield } from **any damage**
+received before subtracting it from your pools. If a targets
+>>>>>>> 4bc7062eadbc24c01f1501c14c9467a8e1163167
 [DR](./equipment#damage-reduction){ .qstar-riot-shield } is higher than the
 inflicted damage, they don't take any damage at all (except for [critical
 damage](#critical-damage){ .qstar-headshot-2 }).
@@ -375,7 +381,7 @@ Damaging objects is the same as damaging another player or NPC, except that
 inanimate objects have no [endurance](#endurance){ .qstar-electric }, just
 health.
 
-!!! summary "Damaged characters" 
+!!! summary "Damaged characters"
     If [endurance](#endurance){ .qstar-electric } drops to zero the character
     becomes **incapacitated**.<br> If [health](#health){ .qstar-heart-beats }
     drops to zero the character is **dead**.
@@ -602,7 +608,7 @@ The following skills are available in the base system of Q*:
   also hacking. Extra ability modifiers can be used to get the job done faster.
 * **Knowledge** (IN) is chosen for a particular area, e.g. history, religion,
   etc. For all other knowledge skills, the character only has basic, common
-  knowledge. 
+  knowledge.
 * **Notice** (IN) is used to spot hidden things or notice small details that
   would otherwise be missed. It is the counter part skill to stealth.
 * **Science** (IN) is chosen for a particular scientific field, e.g. geology,
