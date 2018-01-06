@@ -378,48 +378,52 @@ inanimate objects have no [endurance](#endurance){ .qstar-electric }, just
 health.
 
 !!! summary "Damaged characters" 
-    If **endurance** drops to zero the character becomes **exhausted**, reducing
-    the amount of actions per round to **1**.<br> If **health** drops to zero
-    the character is **incapacitated** and in a **dying** state.
+    If [endurance](#endurance){ .qstar-electric } drops to zero the character
+    becomes **exhausted**, reducing the amount of actions per round to
+    **1**.<br> If [health](#health){ .qstar-heart-beats } drops to zero the
+    character is **incapacitated** and in a **dying** state.
 
 #### Critical Hit
 
 Whenever you roll for an attack and **hit**, every **6** you rolled with a
-**d6**, including extra dice from RoF, causes additional [critical
-damage](#critical-damage){ .qstar-headshot-2 }.
+**d6**, including extra dice from [RoF](./equipment/#stats){ .qstar-bullets },
+causes additional [critical damage](#critical-damage){ .qstar-headshot-2 }.
 
 #### Critical Damage ![](){ .qstar-headshot-2 }
 
 [Critical damage](){ .qstar-headshot-2 } inflicts additional damage to the
-health pool, even if the target's endurance isn't at 0 yet.
+health pool, even if the targets [endurance](#endurance){ .qstar-electric }
+isn't at 0 yet.
 
 [Critical damage](){ .qstar-headshot-2 } is also reduced by the target's
 [DR](./equipment#damage-reduction){ .qstar-riot-shield }, but cannot be less than 1. Every critical hit
 deals at least 1 damage, disregarding any armour the target may have.
 
-Each weapon specifies it's own [critical damage](){ .qstar-headshot-2 }.
+Each weapon specifies its own [critical damage](){ .qstar-headshot-2 }.
 
 ### Status
 
 #### Exhausted
 
-A creature becomes exhausted if its endurance drops to zero. Being exhausted
-reduces the amount of actions that can be taken at any time to **1** (instead of
-the usually allowed **2**).
+A creature becomes exhausted if its [endurance](#endurance){ .qstar-electric }
+drops to zero. Being exhausted reduces the amount of actions that can be taken
+at any time to **1** (instead of the usually allowed **2**).
 
-All damage dealt to an exhausted creature reduces health instead of endurance.
+All damage dealt to an exhausted creature reduces
+[health](#health){ .qstar-heart-beats } instead of
+[endurance](#endurance){ .qstar-electric }.
 
 #### Incapacitated
 
-A creature becomes incapacitated once its health drops to zero. An incapacitated
-creature needs some time (at least a few minutes, up to hours) to become
-concious again.
+A creature becomes incapacitated once its
+[health](#health){ .qstar-heart-beats } drops to zero. An incapacitated creature
+needs some time (at least a few minutes, up to hours) to become concious again.
 
 #### Dying
 
-A creature is dying if its health drops to zero. A dying creature dies if its
-not receiving medical attention. A dying creature receiving damage kills the
-creature.
+A creature is dying if its [health](#health){ .qstar-heart-beats } drops to
+zero. A dying creature dies if its not receiving medical attention. A dying
+creature receiving damage kills the creature.
 
 ## Crisis
 
@@ -428,22 +432,31 @@ Combat is always a crisis, but other dangerous situation are also considered
 a crisis, such as escaping a space ship that is about to explode. What
 constitutes a crisis is always up the game master.
 
-### Turn order
+### Turn order ![](){ .qstar-sprint }
 
 When a crisis starts, all involved have to determine their turn order. Roll a 6
-sided die (d6) and add your **speed** and **intelligence** modifiers to the
-result. Perks and flaws may give additional bonuses or penalties to initiative.
-Players, NPCs and monsters start in the order of the highest initiative to
-lowest. In case of a tie the person with the highest die result wins. If there
-is still a tie roll again.
+sided die (d6) and add your [Speed](#speed){ .qstar-wingfoot } and
+[Intelligence](#intelligence){ .qstar-brain } modifiers to the result.
+[Perks](#perks-flaws){ .qstar-present } and [flaws](#perks-flaws){
+.qstar-broken-bone } may give additional bonuses or penalties to
+[initiative](#turn-order){ .qstar-sprint }. Players, NPCs and monsters start in
+the order of the highest [initiative](#turn-order){ .qstar-sprint } to lowest.
+In case of a tie the person with the highest die result wins. If there is still
+a tie roll again.
 
 !!! summary "How to determine *turn order*"
     <div class="formula formula-top formula-bottom">
-    Turn Order = <span data-bracket-bottom="base">1d6</span>
+    [Turn Order](#turn-order){ .qstar-sprint }
+    =
+    <span data-bracket-bottom="base">1d6</span>
     ±
-    <span data-bracket-top="modifier">Speed</span>
+    <span data-bracket-top="modifier">
+      <a href="#speed" class="qstar-wingfoot">Speed</a>
+    </span>
     ±
-    <span data-bracket-bottom="modifier">Intelligence</span>
+    <span data-bracket-bottom="modifier">
+      <a href="#intelligence" class="qstar-brain">Intelligence</a>
+    </span>
     </div>
 
 ## Actions
@@ -517,23 +530,28 @@ drawbacks. They are suitable for all kinds of game play.
 ### Second: Make adaptions
 
 The game master hands out starting money to all players. Use these funds to
-purchase increases in abilities, skills or even perks. If your game master
-allows it, you can take flaws and decrease abilities to increase your starting
-fund. If you decrease an ability you gain as much money as it would have cost
-you to increase that ability to the old value.
+purchase increases in abilities, skills or even 
+[perks](#perks-flaws){ .qstar-present }. If your game master allows it, you can
+take [flaws](#perks-flaws){ .qstar-broken-bone } and decrease abilities to
+increase your starting fund. If you decrease an ability you gain as much money
+as it would have cost you to increase that ability to the old value.
 
 You should increase relevant attributes, and buy ranks in the skills that best
 suit your character.
 
 ### Third: Roll Endurance and Health
 
-Use your race's endurance and health die, and your new ability rank to roll
-endurance and health. Note these values on your character sheet.
+Use your race's [endurance](#endurance){ .qstar-electric } and
+[health](#health){ .qstar-heart-beats } die, and your new 
+[Might](#might){ .qstar-biceps } **rank** to roll 
+[endurance](#endurance){ .qstar-electric } and 
+[health](#health){ .qstar-heart-beats }. Note these values on your character
+sheet.
 
 ### Fourth: Buy equipment
 
-Last but not least buy equipment that suits your character. See further down
-below on a list of available equipment
+Last but not least buy equipment that suits your character. See
+[equipment](./equipment).
 
 ## Available Skills
 
