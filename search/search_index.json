@@ -984,6 +984,46 @@
             "location": "/settings/stalker/enemies/#zombie-stalker", 
             "text": "Zombie stalkers use the stats they had before the were turned, but there Intelligence  droppes to  1  and they are limited to only one action.", 
             "title": "Zombie Stalker"
+        }, 
+        {
+            "location": "/settings/stalker/mutants/", 
+            "text": "Mutants are animals or humans who have been warped by the Zone,\nchanging both their physical appearance and behavior, usually making\nthem more aggressive.\n\n\nReading these entries\n\n\nAll mutants have basic attributes, skills, endurance and health as\noutlined here. If you wish to add varience to endurance and health,\nsubstract or add the results of \nd6\n dice to the appropriate values.\n\n\nCreatures sometimes have an inherent \ndamage resistance\n (DR) value\nthat protects them from all sorts of damage, except from radiation\ndamage. Radiation resistance is given as \nRAD\n in the table. Creatures\ncan live with radiation up to the given rad value without any adverse\nside affects.\n\n\nFlesh\n\n\nLike many other living creatures, domestic pigs in The Zone underwent\nserious mutations following the second Chernobyl disaster, affecting\ngenes responsible for their metabolism. This eventually caused the\nanimal\ns phenotype to change significantly.\n\n\nBehaviour\n\n\nFlesh are the least aggressive mutated animals within the zone. They\nwill not actively hunt or attack other mutants or stalkers, but will\ndefend themselves. They also always roam the Zone in small groups\nand will protect the herd from threats. Flesh will also flee against\noverwhelming odds, or if wounded.\n\n\nStatistics\n\n\n\n\n\n\n\n\nAttribute\n\n\n\n\n\n\n\n\n\n\n\n\nName\n\n\nFlesh\n\n\n\n\n\n\nMight\n\n\n6\n\n\n\n\n\n\nSpeed\n\n\n4\n\n\n\n\n\n\nIntelligence\n\n\n2\n\n\n\n\n\n\nCharisma\n\n\n2\n\n\n\n\n\n\nEndurance\n\n\n30\n\n\n\n\n\n\nHealth\n\n\n15\n\n\n\n\n\n\nDR\n\n\n3\n\n\n\n\n\n\nRAD resistance\n\n\n150\n\n\n\n\n\n\nHit\n\n\n+1\n\n\n\n\n\n\nDamage\n\n\n4\n\n\n\n\n\n\n\n\nSkills:\n\n Melee (Proficient)\n\n Notice (Proficient)\n* Survival (Trained)\n\n\nBlind Dog\n\n\nSeveral generations of the dog species have lived and died since the\ncatastrophe. Each was more affected by the Zone than the previous\none. Rapid mutation lead to a vast improvement in previously\nperipheral abilities, frequently at the expense of primary ones. The\nmost notable biological change was the loss of sight, paired with an\nuncanny development of smell. As it turned out, blind pups survived in\nthe Zone as well as normal ones, if not better. As a result, the\ncommon dog quickly became extinct in the Zone, giving way to a new\nbreed \u2013 that of blind dogs. The animals instinctively identify and\navoid anomalies, radiation, and other invisible dangers that plague\nthe Zone. Like their wild ancestors \u2013 the wolves \u2013 blind dogs hunt in\npacks. An encounter with a large group of these animals can be\ndangerous even to an experienced and well-armed stalker.\n\n\nBehaviour\n\n\nA lone blind doge is a rare sight, as blind dogs always hunt in large\npacks. They usually attempt to encircle their prey before launching\nan attack. Just like any animal, a blind dog will flee if wounded, or\nif several members of its pack have been killed.\n\n\nStatistics\n\n\n\n\n\n\n\n\nAttribute\n\n\n\n\n\n\n\n\n\n\n\n\nName\n\n\nBlind Dog\n\n\n\n\n\n\nMight\n\n\n4\n\n\n\n\n\n\nSpeed\n\n\n6\n\n\n\n\n\n\nIntelligence\n\n\n2\n\n\n\n\n\n\nCharisma\n\n\n2\n\n\n\n\n\n\nEndurance\n\n\n20\n\n\n\n\n\n\nHealth\n\n\n15\n\n\n\n\n\n\nDR\n\n\n2\n\n\n\n\n\n\nRAD resistance\n\n\n100\n\n\n\n\n\n\nHit\n\n\n+1\n\n\n\n\n\n\nDamage\n\n\n3\n\n\n\n\n\n\n\n\nSkills:\n\n Melee (Proficient)\n\n Notice (Proficient)\n* Survival (Trained)", 
+            "title": "Mutants"
+        }, 
+        {
+            "location": "/settings/stalker/mutants/#reading-these-entries", 
+            "text": "All mutants have basic attributes, skills, endurance and health as\noutlined here. If you wish to add varience to endurance and health,\nsubstract or add the results of  d6  dice to the appropriate values.  Creatures sometimes have an inherent  damage resistance  (DR) value\nthat protects them from all sorts of damage, except from radiation\ndamage. Radiation resistance is given as  RAD  in the table. Creatures\ncan live with radiation up to the given rad value without any adverse\nside affects.", 
+            "title": "Reading these entries"
+        }, 
+        {
+            "location": "/settings/stalker/mutants/#flesh", 
+            "text": "Like many other living creatures, domestic pigs in The Zone underwent\nserious mutations following the second Chernobyl disaster, affecting\ngenes responsible for their metabolism. This eventually caused the\nanimal s phenotype to change significantly.", 
+            "title": "Flesh"
+        }, 
+        {
+            "location": "/settings/stalker/mutants/#behaviour", 
+            "text": "Flesh are the least aggressive mutated animals within the zone. They\nwill not actively hunt or attack other mutants or stalkers, but will\ndefend themselves. They also always roam the Zone in small groups\nand will protect the herd from threats. Flesh will also flee against\noverwhelming odds, or if wounded.", 
+            "title": "Behaviour"
+        }, 
+        {
+            "location": "/settings/stalker/mutants/#statistics", 
+            "text": "Attribute       Name  Flesh    Might  6    Speed  4    Intelligence  2    Charisma  2    Endurance  30    Health  15    DR  3    RAD resistance  150    Hit  +1    Damage  4     Skills:  Melee (Proficient)  Notice (Proficient)\n* Survival (Trained)", 
+            "title": "Statistics"
+        }, 
+        {
+            "location": "/settings/stalker/mutants/#blind-dog", 
+            "text": "Several generations of the dog species have lived and died since the\ncatastrophe. Each was more affected by the Zone than the previous\none. Rapid mutation lead to a vast improvement in previously\nperipheral abilities, frequently at the expense of primary ones. The\nmost notable biological change was the loss of sight, paired with an\nuncanny development of smell. As it turned out, blind pups survived in\nthe Zone as well as normal ones, if not better. As a result, the\ncommon dog quickly became extinct in the Zone, giving way to a new\nbreed \u2013 that of blind dogs. The animals instinctively identify and\navoid anomalies, radiation, and other invisible dangers that plague\nthe Zone. Like their wild ancestors \u2013 the wolves \u2013 blind dogs hunt in\npacks. An encounter with a large group of these animals can be\ndangerous even to an experienced and well-armed stalker.", 
+            "title": "Blind Dog"
+        }, 
+        {
+            "location": "/settings/stalker/mutants/#behaviour_1", 
+            "text": "A lone blind doge is a rare sight, as blind dogs always hunt in large\npacks. They usually attempt to encircle their prey before launching\nan attack. Just like any animal, a blind dog will flee if wounded, or\nif several members of its pack have been killed.", 
+            "title": "Behaviour"
+        }, 
+        {
+            "location": "/settings/stalker/mutants/#statistics_1", 
+            "text": "Attribute       Name  Blind Dog    Might  4    Speed  6    Intelligence  2    Charisma  2    Endurance  20    Health  15    DR  2    RAD resistance  100    Hit  +1    Damage  3     Skills:  Melee (Proficient)  Notice (Proficient)\n* Survival (Trained)", 
+            "title": "Statistics"
         }
     ]
 }
