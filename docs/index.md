@@ -362,13 +362,7 @@ On a hit you can deal [damage](#damage){ .qstar-gunshot } and potential
 creatures and characters.*
 
 Armour provides [DR](./equipment#damage-reduction){ .qstar-riot-shield } (damage
-<<<<<<< HEAD
 reduction). If a targets
-=======
-reduction). Subtract the
-[DR](./equipment#damage-reduction){ .qstar-riot-shield } from **any damage**
-received before subtracting it from your pools. If a targets
->>>>>>> 4bc7062eadbc24c01f1501c14c9467a8e1163167
 [DR](./equipment#damage-reduction){ .qstar-riot-shield } is higher than the
 inflicted damage, they don't take any damage at all (except for [critical
 damage](#critical-damage){ .qstar-headshot-2 }).
