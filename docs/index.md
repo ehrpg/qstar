@@ -12,7 +12,7 @@ dice (d10).
 
 ## Abilities
 
-Each character, NPC or even monster is defined by four abilities. 
+Each character, NPC or even monster is defined by four abilities.
 
 Abilities have ranks going from 1 to 10. Five (5) is the average, conferring
 neither a benefit nor a drawback. Every point below or above five grants an
@@ -276,7 +276,7 @@ Formula: `cost = ((max(x-1, 0) * 100) ^ 2) - 9000`
 Buying perks may be done at any time, and the perk's description lists the
 price.
 
-## Combat 
+## Combat
 
 ### Defence
 
@@ -288,9 +288,9 @@ check result.
 !!! summary "How to determine *Defence*"
     <div class="formula formula-top formula-bottom">
     Defence = <span data-bracket-bottom="base">10</span>
-    + 
+    +
     <span data-bracket-top="modifier">Speed</span>
-    + 
+    +
     <span>Cover</span>
     </div>
     or
@@ -307,7 +307,7 @@ Some weapons allow multiple shots to be fired, denoted by the
 [RoF](./equipment#stats) value of a weapon. If a weapons
 [RoF](./equipment#stats) value is higher than one, additional shots
 **may** be fired to increase the hit chance and [critical hit](#critical-hit)
-chance. 
+chance.
 
 !!! note "RoF Example"
     If a weapon has a RoF value of 2, you may fire an extra bullet and add
@@ -325,7 +325,7 @@ damage](#critical-damage).
 !!! summary "How to roll an *Attack*"
     <div class="formula formula-top formula-bottom">
     Attack = <span data-bracket-bottom="base">3d6</span>
-    + 
+    +
     <span data-bracket-top="'hit' value">weapon</span>
     +
     <span data-bracket-bottom="for the used weapon">skill</span>
@@ -351,7 +351,7 @@ subsequent damage is dealt to health instead.
 Damaging objects is the same as damaging another player or NPC, except that
 inanimate objects have no endurance, just health.
 
-!!! summary "Damaged characters" 
+!!! summary "Damaged characters"
     If **endurance** drops to zero the character becomes **impaired**.<br>
     If **health** drops to zero the character is **incapacitated** and in a
     dying state.
@@ -546,7 +546,7 @@ The following skills are available in the base system of Q*:
   also hacking. Extra ability modifiers can be used to get the job done faster.
 * **Knowledge** (IN) is chosen for a particular area, e.g. history, religion,
   etc. For all other knowledge skills, the character only has basic, common
-  knowledge. 
+  knowledge.
 * **Notice** (IN) is used to spot hidden things or notice small details that
   would otherwise be missed. It is the counter part skill to stealth.
 * **Science** (IN) is chosen for a particular scientific field, e.g. geology,
