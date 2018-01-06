@@ -160,3 +160,25 @@ tr:nth-child(even) {
 html {
   font-size: 62.5%;
 }
+
+i[f],
+i[s] {
+  font-family: 'Material Icons';
+  font-style: normal;
+  vertical-align: middle;
+  line-height: 1.6;
+}
+
+i[s] {
+  color: #00c853;
+}
+i[s]::before {
+  content: "\E876";
+}
+
+i[f] {
+  color: #ff5252;
+}
+i[f]::before {
+  content: "\E14C";
+}

@@ -7,16 +7,29 @@ that are stored on credit cards. These cards will store amount of credits
 on them, and also a list of transactions. Credits may transferred from
 these cards to other cards to make transactions.
 
-## Suits
+## Armour
+
+| Armour           |   DR |   HP | Cost | Extras                            |
+|------------------|-----:|-----:|-----:|-----------------------------------|
+| Body Armour MK I |    5 |   30 |  500 | Basic protection from projectiles |
+
+### Damage Reduction
+
+Armour reduces the incoming damage (both endurance and health) by its damage
+reduction value. 
+
+Any successful hit that deals health damage (before damage reduction) reduces
+the armours hitpoints by that amount. Endurance damage isn't dealt to the
+armours hitpoints.
+
+If the hitpoints of the armour drop to zero, it's destroyed or otherwise
+rendered useless.
+
+### Suits
 
 Suits are full body suits used in hazardous environments (underwater, space,
 extreme heat or cold, or on planets with hazardous climate) or for battle.
-Suits all have an armour rating. Armour reduces the incoming damage (both
-normal and critical) by the listed damage reduction amount. Any damage above
-the damage reduction is passed on to the character wearing the suit. The
-full damage is subtracted from the hit points of the armour. If the armour
-reaches zero hit points its damage reduction drops to zero and thus stops
-being useful.
+Suits all have an armour rating.
 
 | Suit       |   DR |   HP |   Cost | Extras                                                       |
 |------------|-----:|-----:|-------:|--------------------------------------------------------------|
@@ -74,8 +87,8 @@ Melee weapons have a cost and damage. They get the **might ability modifier** as
 | Weapon  |  Hit |  DMG | Crit |  Rof  | Range | Cost | Weight | Notes   |
 |---------|-----:|-----:|-----:|:-----:|------:|-----:|-------:|---------|
 | Fists   |   +0 |    4 |    2 |   2   | Melee |    - |      - |         |
-| Baton   |   +1 |   10 |    5 |   1   | Melee |  100 |    0.5 |         |
-| Knife   |   +1 |   14 |    6 |   2   | Melee |  200 |    0.2 | compact |
+| Baton   |   +1 |   10 |    5 |   1   | Melee |   50 |    0.5 |         |
+| Knife   |   +1 |   14 |    6 |   2   | Melee |  100 |    0.2 | compact |
 | Hatchet |   +1 |   18 |    8 |   1   | Melee |  150 |      1 |         |
 | Sword   |   +2 |   24 |   10 |   1   | Melee |  500 |      3 |         |
 
