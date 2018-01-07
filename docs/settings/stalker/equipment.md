@@ -24,7 +24,8 @@ credit equals 1 rubel in this setting.
 | Artifact detector MK I  |    0.5 |   500 | Artifact detector                                                              |
 | Artifact detector MK II |    0.5 | 1 500 | Artifact detector; provides a **+2 Notice** bonus when searching for artifacts |
 | Geiger Counter          |    0.5 |   500 | Allows RAD detection                                                           |
-
+| ABC-Paper               |      - |     5 | Allows detection of chemical warfare agents                                    |
+| Patch kit               |    0.1 |     5 | Allows patching full body suits                                                |
 
 ## Armour & Suits
 
