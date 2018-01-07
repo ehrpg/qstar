@@ -23,6 +23,8 @@ credit equals 1 rubel in this setting.
 |-------------------------|-------:|------:|--------------------------------------------------------------------------------|
 | Artifact detector MK I  |    0.5 |   500 | Artifact detector                                                              |
 | Artifact detector MK II |    0.5 | 1 500 | Artifact detector; provides a **+2 Notice** bonus when searching for artifacts |
+| Geiger Counter          |    0.5 |   500 | Allows RAD detection                                                           |
+
 
 ## Armour & Suits
 
