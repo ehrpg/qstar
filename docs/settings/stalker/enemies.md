@@ -20,5 +20,5 @@
 
 ### Zombie Stalker
 
-Zombie stalkers use the stats they had before the were turned, but there
-**Intelligence** droppes to **1** and they are limited to only one action.
+Zombie stalkers use the stats they had before they were turned, but their
+**Intelligence** drops to **1** and they are limited to only one action.
