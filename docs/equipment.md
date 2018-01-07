@@ -149,10 +149,12 @@ Some checks and tasks may require one or more of these items to be accessible.
 Easier tasks can be done without e.g. tools, but tend to require a lot more
 time.
 
-| Item              |  Cost | Weight | Notes                                                  |
-|-------------------|------:|-------:|--------------------------------------------------------|
-| Toolbox           |  2000 |     10 |                                                        |
-| PDA               |   500 |      1 | GPS, Pedometer, Interface for electronic devices, etc. |
-| Flashlight        |    50 |    0.5 |                                                        |
-| Welder            |   250 |      5 |                                                        |
-| Mobile Laboratory | 1 000 |     10 | Used to take samples.                                  |
+| Item                 |  Cost | Weight | Notes                                                            |
+|----------------------|------:|-------:|------------------------------------------------------------------|
+| Toolbox              |  2000 |     10 |                                                                  |
+| PDA                  |   500 |      1 | GPS, Pedometer, Interface for electronic devices, etc.           |
+| Flashlight           |    50 |    0.5 |                                                                  |
+| Night Vision Goggles |  2000 |      2 | Allows lightless vision in dark areas.                           |
+| Welder               |   250 |      5 |                                                                  |
+| Mobile Laboratory    | 1 000 |     10 | Used to take samples.                                            |
+| Thermite             |   100 |    0.5 | Pyrotechnic composition of metal powder to breach through metal. |
