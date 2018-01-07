@@ -32,7 +32,7 @@ credit equals 1 rubel in this setting.
 | Name                     |  RAD | Weight | Cost | Notes                                     |
 |--------------------------|-----:|-------:|-----:|-------------------------------------------|
 | Gasmask MK I             |    5 |    1.5 |  250 |                                           |
-| ABC Protection Suit MK I |   15 |      2 |  250 | Required and stacks with Gasmask MK I     |
+| ABC Protection Suit MK I |   15 |      2 |  250 | Requires and stacks with Gasmask MK I     |
 | Hazmat Suit MK I         |  400 |      3 | 5000 | Full body suit with integrated air supply |
 
 ## Weapons
