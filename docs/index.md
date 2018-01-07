@@ -129,7 +129,7 @@ is involved.
 A skill has five ranks: **untrained**, **proficient**, **trained**,
 **experienced**, **master**. The ranks are numbered 1 (untrained) through 5
 (master) respectively. Each rank provides additional bonuses to skill checks and
-allows the selection of additional [perks](#perks){ .qstar-present }.
+allows the selection of additional [perks](#perks-flaws){ .qstar-present }.
 
 | Rank        | Skill Bonus |
 |-------------|------------:|

@@ -24,6 +24,14 @@ credit equals 1 rubel in this setting.
 | Artifact detector MK I  |    0.5 |   500 | Artifact detector                                                              |
 | Artifact detector MK II |    0.5 | 1 500 | Artifact detector; provides a **+2 Notice** bonus when searching for artifacts |
 
+## Armour & Suits
+
+| Name                     |  RAD | Weight | Cost | Notes                                     |
+|--------------------------|-----:|-------:|-----:|-------------------------------------------|
+| Gasmask MK I             |    5 |    1.5 |  250 |                                           |
+| ABC Protection Suit MK I |   15 |      2 |  250 | Required and stacks with Gasmask MK I     |
+| Hazmat Suit MK I         |  400 |      3 | 5000 | Full body suit with integrated air supply |
+
 ## Weapons
 
 Weapons use different kinds of cartridges. The **cartridge** column in the

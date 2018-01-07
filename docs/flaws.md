@@ -22,3 +22,5 @@ You take a **-2 penalty** on **initiative** checks.
 
 Whenever you have to roll a **Melee** skill check, you have to roll with **1d6**
 less.
+
+**Benefit**: 2 000 Cr.

@@ -16,7 +16,7 @@ for the attack as a **6**.
 
 *You have been to the zone countless times and know which areas to avoid.*
 
-You gain 5 RAD resistance that **doesn't** accumulate with any other bonuses
+You gain 5 RAD resistance that stacks with any other bonuses
 such as from suits or artifacts.
 
 **Price**: 500 RU
@@ -25,7 +25,7 @@ such as from suits or artifacts.
 
 ### Wastelander II
 
-The RAD resistance becomes 10 and **does** stack with any other bonuses such as
+The RAD resistance becomes 10 and stacks with any other bonuses such as
 form suits or artifacts.
 
 **Price**: 1 500 RU
