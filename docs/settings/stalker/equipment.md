@@ -7,15 +7,15 @@ credit equals 1 rubel in this setting.
 
 ## Consumeables
 
-| Name              | Weight (kg) | Cost (RU) | Notes                                                                                               |
-|-------------------|------------:|----------:|-----------------------------------------------------------------------------------------------------|
-| First Aid Kit     |           - |         - | [See qstar equipment](/equipment/#medical-items).                                                   |
-| Medical Kit       |           - |         - | [See qstar equipment](/equipment/#medical-items).                                                   |
-| Anti-rad          |         0.1 |       500 | Reduce the radiation value of a character by 50 to a minimum of 0.                                  |
-| MRE               |         2.0 |        20 | One ration worth of food for one day                                                                |
-| Water (Dirty)     |         1.0 |         2 | A characer who drinks dirty water receives 5 rads.                                                  |
-| Water (Distilled) |         1.0 |        10 | -                                                                                                   |
-| Vodka             |         1.5 |        40 | One bottle of vodka allows you to ignore the negative effects of radiation regarding **endurance**. |
+| Name              | Weight (kg) | Cost (RU) | Notes                                                                                                                             |
+|-------------------|------------:|----------:|-----------------------------------------------------------------------------------------------------------------------------------|
+| First Aid Kit     |           - |         - | [See qstar equipment](/equipment/#medical-items).                                                                                 |
+| Medical Kit       |           - |         - | [See qstar equipment](/equipment/#medical-items).                                                                                 |
+| Anti-RAD          |         0.1 |       500 | Reduce the radiation value of a character by 50 to a minimum of 0.                                                                |
+| MRE               |         2.0 |        20 | One ration worth of food for one day                                                                                              |
+| Water (Dirty)     |         1.0 |         2 | A characer who drinks dirty water receives 5 RADs.                                                                                |
+| Water (Distilled) |         1.0 |        10 | -                                                                                                                                 |
+| Vodka             |         1.5 |        40 | One bottle of vodka allows you to ignore the negative effects of radiation regarding [endurance](/#endurance){ .qstar-electric }. |
 
 ## Items
 
