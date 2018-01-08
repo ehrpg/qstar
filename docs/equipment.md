@@ -13,7 +13,7 @@ these cards to other cards to make transactions.
 |------------------|-----:|-----:|-----:|-----------------------------------|
 | Body Armour MK I |    5 |   30 |  500 | Basic protection from projectiles |
 
-### Damage Reduction
+### Damage Reduction ![](){ .qstar-riot-shield }
 
 Armour reduces the incoming damage (both endurance and health) by its damage
 reduction value. 
@@ -136,9 +136,9 @@ Medical items recover endurance or even health.
 
 | Item            |  Cost | Weight | Endurance | Health | Notes              |
 |-----------------|------:|-------:|----------:|-------:|--------------------|
+| Adrenaline Shot |   400 |    0.2 |      1d10 |      - | Temporary (5 min.) |
 | First Aid Kit   |   600 |      1 |       1d6 |      - |                    |
 | Medical Kit     | 1 200 |      2 |      1d10 |    1d6 |                    |
-| Adrenaline Shot |   400 |    0.2 |      1d10 |      - | Temporary (5 min.) |
 
 * *Temporary* means that the effect only lasts some time, indicated by the
   parenthesis.
@@ -149,12 +149,12 @@ Some checks and tasks may require one or more of these items to be accessible.
 Easier tasks can be done without e.g. tools, but tend to require a lot more
 time.
 
-| Item                 |  Cost | Weight | Notes                                                            |
-|----------------------|------:|-------:|------------------------------------------------------------------|
-| Toolbox              |  2000 |     10 |                                                                  |
-| PDA                  |   500 |      1 | GPS, Pedometer, Interface for electronic devices, etc.           |
-| Flashlight           |    50 |    0.5 |                                                                  |
-| Night Vision Goggles |  2000 |      2 | Allows lightless vision in dark areas.                           |
-| Welder               |   250 |      5 |                                                                  |
-| Mobile Laboratory    | 1 000 |     10 | Used to take samples.                                            |
-| Thermite             |   100 |    0.5 | Pyrotechnic composition of metal powder to breach through metal. |
+| Item                 |  Cost | Weight | Notes                                                                   |
+|----------------------|------:|-------:|-------------------------------------------------------------------------|
+| Flashlight           |    50 |    0.5 |                                                                         |
+| Mobile Laboratory    | 1 000 |     10 | Used to take samples.                                                   |
+| Night Vision Goggles |  2000 |      2 | Allows lightless vision in dark areas.                                  |
+| PDA                  |   500 |      1 | GPS, Pedometer, Interface for electronic devices, etc.                  |
+| Thermite             |   100 |    0.5 | Pyrotechnic composition of metal powder to breach through other metals. |
+| Toolbox              |  2000 |     10 |                                                                         |
+| Welder               |   250 |      5 |                                                                         |
