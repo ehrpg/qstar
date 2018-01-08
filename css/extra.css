@@ -127,7 +127,11 @@ img.ehicon-2x {
 }
 
 .md-typeset table:not([class]) th {
-  min-width: 4rem;
+  min-width: 3rem;
+}
+
+table tr td:first-child {
+  white-space: nowrap;
 }
 
 tr.targetted {
@@ -151,11 +155,11 @@ tr:nth-child(even) {
   margin: 0.1em 0 1em 1.875em
 }
 
-#equipment ~ div table th:nth-child(1) {
-  min-width: 15rem !important;
-  max-width: 15rem !important;
-  width: 15rem !important;
-}
+/* #equipment ~ div table th:nth-child(1) {
+  min-width: 12rem !important;
+  max-width: 12rem !important;
+  width: 12rem !important;
+} */
 
 html {
   font-size: 62.5%;
@@ -181,4 +185,76 @@ i[f] {
 }
 i[f]::before {
   content: "\E14C";
+}
+
+a[href*="#"]:after {
+  font-family: "game-icons";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  margin-left: 4px;
+  vertical-align: top;
+}
+
+h2 > a:after,
+h3 > a:after,
+h4 > a:after {
+  content: "" !important;
+}
+
+a[href*="#endurance"]:after {
+  content: "\EB5C";
+}
+
+a[href*="#health"]:after {
+  content: "\E4B0";
+}
+
+a[href*="#perks"]:after {
+  content: "\E78F";
+}
+
+a[href*="#flaws"]:after {
+  content: "\E840";
+}
+
+a[href*="#might"]:after {
+  content: "\E696";
+}
+
+a[href*="#speed"]:after {
+  content: "\E543";
+}
+
+a[href*="#intelligence"]:after {
+  content: "\E5E6";
+}
+
+a[href*="#charisma"]:after {
+  content: "\E6CC";
+}
+
+a[href*="#damage"]:after {
+  content: "\E1E8";
+}
+
+a[href*="#critical-damage"]:after {
+  content: "\E5E2";
+}
+
+a[href*="#DR"]:after,
+a[href*="#damage-reduction"]:after {
+  content: "\E023";
+}
+
+a[href*="#attack"]:after {
+  content: "\E8AA";
+}
+
+a[href*="stats?rof"]:after {
+  content: "\E1DA";
 }
