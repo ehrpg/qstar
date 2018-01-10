@@ -9,21 +9,20 @@ these cards to other cards to make transactions.
 
 ## Armour
 
-| Armour           |   DR |   HP | Cost | Extras                            |
-|------------------|-----:|-----:|-----:|-----------------------------------|
-| Body Armour MK I |    5 |   30 |  500 | Basic protection from projectiles |
+| Armour           |   DR | Durability | Cost | Extras                                  |
+|------------------|-----:|-----------:|-----:|-----------------------------------------|
+| Body Armour MK I |    5 |          4 |  500 | Basic protection from physical attacks. |
 
 ### Damage Reduction ![](){ .qstar-riot-shield }
 
-Armour reduces the incoming damage (both endurance and health) by its damage
-reduction value. 
+Armour reduces the incoming [damage](/#damage) (both [endurance](/#endurance)
+and [health](/#health)) by its damage reduction value. 
 
-Any successful hit that deals health damage (before damage reduction) reduces
-the armours hitpoints by that amount. Endurance damage isn't dealt to the
-armours hitpoints. This means, that multiple critical hits deal their respective
-damage multiple times to the armour.
+Any [critical hit](/#critical-hit) or normal hit that deals [health](/#health)
+[damage](/#damage) reduces the durability of the armour by one. [Endurance
+damage](/#damage) doesn't lower the armour's durability.
 
-If the hitpoints of the armour drop to zero, it's destroyed or otherwise
+If the durability of the armour drops to zero, it's destroyed or otherwise
 rendered useless.
 
 ### Suits
@@ -32,58 +31,69 @@ Suits are full body suits used in hazardous environments (underwater, space,
 extreme heat or cold, or on planets with hazardous climate) or for battle.
 Suits all have an armour rating.
 
-| Suit       |   DR |   HP |   Cost | Extras                                                       |
-|------------|-----:|-----:|-------:|--------------------------------------------------------------|
-| UHAS MK I  |    2 |   40 |  9 000 | Space suit, mag boots, internal radio                        |
-| UHAS MK II |    4 |   60 | 15 000 | Space suit, mag boots, internal radio, camera                |
-| MACS MK I  |    6 |   50 | 50 000 | Combat armour, space suit, mag boots, radio                  |
-| MACS MK II |    8 |   70 | 90 000 | Advanced combat armour, space suit, mag boots, radio, camera |
+| Suit       |   DR | Durability |   Cost | Extras                                                       |
+|------------|-----:|-----------:|-------:|--------------------------------------------------------------|
+| UHAS MK I  |    2 |          6 |  9 000 | Space suit, mag boots, internal radio                        |
+| UHAS MK II |    4 |         10 | 15 000 | Space suit, mag boots, internal radio, camera                |
+| MACS MK I  |    6 |         20 | 50 000 | Combat armour, space suit, mag boots, radio                  |
+| MACS MK II |    8 |         30 | 90 000 | Advanced combat armour, space suit, mag boots, radio, camera |
 
 ## Weapons
 
 ### Stats
 
-<dl>
-  <dt>Hit</dt>
-  <dd>Specifies any additional bonuses to an attack roll with this weapon.</dd>
+#### Hit ![](){ .qstar-crosshair }
 
-  <dt>DMG (damage)</dt>
-  <dd>This value denotes the weapons damage. Any successful hit deals this value
-  to the targets endurance pool.</dd>
+Specifies any additional bonuses to an attack roll with this weapon.
 
-  <dt>Crit (critical)</dt>
-  <dd>If you score a <a href="/#critical-hit">critical hit</a> you deal the
-  specified value as damage to the health pool of your target.</dd>
+#### DMG (damage) ![](){ .qstar-gunshot }
 
-  <dt>RoF</dt>
-  <dd>Some weapons, including melee weapons, allow a higher rate of fire than
-  other weapons. See <a href="/#attack">attack rules</a> for details.</dd>
+This value denotes the weapons [damage](/#damage). Any successful hit deals this
+value to the target as [damage](/#damage).
 
-  <dt>Cap. (capacity)</dt>
-  <dd>Specifies how often a gun can be fired before it has to be reloaded. Uses
-  of RoF use additional ammunition.</dd>
+#### Crit (critical) ![](){ .qstar-headshot-2 }
 
-  <dt>Reload</dt>
-  <dd>The amount of turns it takes to reload the weapon. Reloading can be paused
-  and continued anytime.</dd>
+If you score a [critical hit](/#critical-hit) you deal the specified value as
+[critical damage](/#critical-damage) to the target.
 
-  <dt>Range</dt>
-  <dd>Attacks within the specified range do not penalize the attack.</dd>
-  
-  <dt>Cost</dt>
-  <dd>The cost of the weapon without ammo.</dd>
+#### RoF ![](){ .qstar-bullets }
 
-  <dt>Mag. (magazine)</dt>
-  <dd>The cost of one magazine worth of ammo for the weapon.</dd>
+Some weapons, including melee weapons, allow a highe [rate of
+fire](/equipment/?rof#stats) than other weapons. See [attack](/#attack) rules for
+details.
 
-  <dt>Notes</dt>
-  <dd>Notes denote additional perks the weapons have.</dd>
+#### Cap. (capacity) ![](){ .qstar-chaingun }
 
-</dl>
+Specifies how often a gun can be fired before it has to be
+[reloaded](/equipment?reload#stats). Uses of [RoF](/equipment?rof#stats) use
+additional ammunition.
+
+#### Reload ![](){ .qstar-cycle }
+
+The amount of actions it takes to reload the weapon. Reloading can be paused and
+continued at any time.
+
+#### Range
+
+Attacks within the specified range do not penalize the attack.
+
+#### Cost
+
+The cost of the weapon without ammo.
+
+#### Mag. (magazine)
+
+The cost of one magazine worth of ammo for the weapon.
+
+#### Notes
+
+Notes denote additional perks the weapons have.
+
 
 ### Melee Weapons
 
-Melee weapons have a cost and damage. They get the **might ability modifier** as extra damage.
+Melee weapons have a cost and damage. They get the [Might](/#might)** ability
+modifier** as extra damage.
 
 | Weapon  |  Hit |  DMG | Crit |  Rof  | Range | Cost | Weight | Notes   |
 |---------|-----:|-----:|-----:|:-----:|------:|-----:|-------:|---------|

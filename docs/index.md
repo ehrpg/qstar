@@ -333,13 +333,13 @@ Any attack roll is done using a weapon and its related skill. Attacks beyond a
 weapons effective range impose penalties to the attack roll.
 
 Some weapons allow multiple shots to be fired, denoted by the
-[RoF](./equipment#stats?rof) value of a weapon. If a weapons
-[RoF](./equipment#stats?rof) value is higher than one, additional shots **may** be
-fired to increase the hit chance and [critical hit](#critical-hit) chance.
+[RoF](./equipment?rof#stats) value of a weapon. If a weapons
+[RoF](./equipment?rof#stats) value is higher than one, additional shots **may**
+be fired to increase the hit chance and [critical hit](#critical-hit) chance.
 
-!!! note "RoF Example"
-    If a weapon has a [RoF](./equipment#stats?rof) value of 2, you may fire an
-    extra bullet and add **1d6** to your attack, resulting in **4d6** total.
+!!! note "RoF Example" If a weapon has a [RoF](./equipment?rof#stats) value of
+    2, you may fire an extra bullet and add **1d6** to your attack, resulting in
+    **4d6** total.
 
 If the [attack](#attack) is equal to or higher than the targets **defence**
 attack is *successful*{ .qstar-success }.
@@ -369,17 +369,17 @@ damage](#critical-damage).
 creatures and characters.*
 
 Armour provides [DR](./equipment#damage-reduction) (damage reduction). If a
-targets [DR](./equipment#damage-reduction) is higher than the inflicted damage,
+target's [DR](./equipment#damage-reduction) is higher than the inflicted damage,
 they don't take any damage at all (except for [critical
 damage](#critical-damage)).
 
-Normal damage always targets [endurance](#endurance). If [endurance](#endurance)
-is zero, all exceeding and subsequent damage is dealt to [health](#health)
-instead.
+Normal damage always targets [endurance](#endurance) first, called [endurance
+damage](#damage). If [endurance](#endurance) is zero, all exceeding and
+subsequent damage is dealt to [health](#health) instead, called [health
+damage](#damage).
 
 Damaging objects is the same as damaging another player or NPC, except that
-inanimate objects have no [endurance](#endurance), just
-health.
+inanimate objects have no [endurance](#endurance), just [health](#health).
 
 !!! summary "Damaged characters"
     If [endurance](#endurance) drops to zero the character
@@ -389,7 +389,7 @@ health.
 #### Critical Hit
 
 Whenever you roll for an attack and **hit**, every **6** you rolled with a
-**d6**, including extra dice from [RoF](./equipment/#stats?rof), causes
+**d6**, including extra dice from [RoF](./equipment?rof#stats), causes
 additional [critical damage](#critical-damage).
 
 #### Critical Damage ![](){ .qstar-headshot-2 }
