@@ -542,77 +542,125 @@ Note these values on your character sheet.
 Last but not least buy equipment that suits your character. See
 [equipment](./equipment).
 
-## Available Skills
+## Skills ![](){ .qstar-gears }
 
 The following skills are available in the base system of Q*:
 
 ### Might ![](){ .qstar-biceps } Skills
 
-* **Athletics** (MI) is used to perform actions such as jumping, climbing,
-  tumbling, lifting, dragging or rope walking. Extra ability modifiers may be
-  spent on completing a task faster, or to avoid extra falling damage in case of
-  controlled jumps. Athletics is also used to move out of harms way. It can be
-  used to dodge hazards such as a falling debris.
-* **Melee** (MI) is the skill involved with all sorts of melee weapons, such as
-  blades, axes, clubs or bare fists and kicks. Extra ability modifiers can be
-  used to purchase extra damage (1 modifier per point) or extra critical damage
-  (1 modifier per two points). It's also used for defending against a melee
-  attack, either by deflecting, blocking or dodging an attack.
-* **Micro Gravity** (MI) is the skill that replaces **Athletics** in micro
-  gravity environments. It is used to manoeuvre in such weightless conditions.
+#### Athletics
+
+is used to perform actions such as jumping, climbing, tumbling, lifting,
+dragging or rope walking. Extra ability modifiers may be spent on completing a
+task faster, or to avoid extra falling damage in case of controlled jumps.
+Athletics is also used to move out of harms way. It can be used to dodge hazards
+such as a falling debris.
+
+#### Melee
+
+is the skill involved with all sorts of melee weapons, such as blades, axes,
+clubs or bare fists and kicks. Extra ability modifiers can be used to purchase
+extra damage (1 modifier per point) or extra critical damage (1 modifier per two
+points). It's also used for defending against a melee attack, either by
+deflecting, blocking or dodging an attack.
+
+#### Micro Gravity
+
+is the skill that replaces **Athletics** in micro gravity environments. It is
+used to manoeuvre in such weightless conditions.
 
 ### Speed ![](){ .qstar-wingfoot } Skills
 
-* **Driving** (SP) allows someone to steer land or sea based vehicles, such as
-  cars, motorcycles and tanks.
-* **Heavy Weapons** (SP) allows operations of heavy or stationary guns. Such
-  guns are usually mounted turrets on ships and tanks, but can also be land
-  based artillery or very large man portable weapons such as rocket launchers
-  or guided missile platforms.  Extra ability modifiers can be spend
-  on either extra normal (1 modifier per point) or critical damage (1 modifier
-  per two points).
-* **Light Weapons** (SP) is used to operate firearms such as pistols, rifles,
-  or shotguns. Light weapons also applies to man portable weapons such as
-  grenade launchers or light machine guns. Extra ability modifiers can be
-  spent on extra damage. Extra ability modifiers can be spend on either extra
-  normal (1 modifier per point) or critical damage (1 modifier per two points).
-* **Piloting** (SP) is used to pilot any air or space borne vehicle. It's also
-  used in vessel combat to attack and defend.
-* **Stealth** (SP) is used to sneak about, hide, hide things or use sleight
-  of hand to conceal items. Its counter skill is **Notice**.
+#### Driving
+
+allows someone to steer land or sea based vehicles, such as cars, motorcycles
+and tanks.
+
+#### Heavy Weapons
+
+allows operations of heavy or stationary guns. Such guns are usually mounted
+turrets on ships and tanks, but can also be land based artillery or very large
+man portable weapons such as rocket launchers or guided missile platforms.
+Extra ability modifiers can be spend on either extra normal (1 modifier per
+point) or critical damage (1 modifier per two points).
+
+#### Light Weapons
+
+is used to operate firearms such as pistols, rifles, or shotguns. Light weapons
+also applies to man portable weapons such as grenade launchers or light machine
+guns. Extra ability modifiers can be spent on extra damage. Extra ability
+modifiers can be spend on either extra normal (1 modifier per point) or critical
+damage (1 modifier per two points).
+
+#### Piloting
+
+is used to pilot any air or space borne vehicle. It's also used in vessel combat
+to attack and defend.
+
+#### Stealth
+
+is used to sneak about, hide, hide things or use sleight of hand to conceal
+items. Its counter skill is [Notice](#notice).
 
 ### Intelligence ![](){ .qstar-brain } Skills
 
-* **Engineering** (IN) is used to construct and repair devices, buildings and
-  vehicles. Servicing a motorcycle is considered engineering, as is constructing
-  fortifications or repairing an airlock. Extra ability modifiers can be used
-  to use less materials or complete the action faster.
-* **Explosives** (IN) can be used to disarm, handle or even build explosive
-  ordinance. When explosives are thrown (i.e. grenades) roll Athletics instead.
-  Otherwise defusing and planting explosives is a competition between the one
-  setting it, and the one defusing it.
-* **First Aid** (IN) is used to treat wounds and cure health damage. A
-  successful first aid check requires a first aid kit (or similar) and cures
-  an amount of **Health** as defined by the first aid kit. The game master may
-  also limit how often first aid can actually benefit a character depending on
-  the severity of the wounds. Extra ability modifiers can be used to cure extra
-  health damage.
-* **Hacking** (IN) is used to bypass electronic security. Its counter skill is
-  also hacking. Extra ability modifiers can be used to get the job done faster.
-* **Knowledge** (IN) is chosen for a particular area, e.g. history, religion,
-  etc. For all other knowledge skills, the character only has basic, common
-  knowledge.
-* **Notice** (IN) is used to spot hidden things or notice small details that
-  would otherwise be missed. It is the counter part skill to stealth.
-* **Science** (IN) is chosen for a particular scientific field, e.g. geology,
-  biology, astronomy, medicine, etc. For all other scientific areas that weren't
-  chosen, the character has basic knowledge. They only know common knowledge in
-  these areas (according to their education), but nothing special.
+#### Engineering
+
+is used to construct and repair devices, buildings and vehicles. Servicing a
+motorcycle is considered engineering, as is constructing fortifications or
+repairing an airlock. Extra ability modifiers can be used to use less materials
+or complete the action faster.
+
+#### Explosives
+
+can be used to disarm, handle or even build explosive ordinance. When explosives
+are thrown (i.e. grenades) roll Athletics instead. Otherwise defusing and
+planting explosives is a competition between the one setting it, and the one
+defusing it.
+
+#### First Aid
+
+is used to treat wounds and cure health damage with the help of a medical item.
+A first aid check requires a first aid kit (or similar) and doubles the amount
+of dice rolled for [health](#health) and [endurance](#endurance) if the check is
+*successful*{ .qstar-success }. If the check *fails*{ .qstar-failure } the
+normal amount of dice are applied as healing. The game master may also limit how
+often first aid can actually benefit a character depending on the severity of
+the wounds. See [medical items](/equipment#medical-items) for examples.
+
+#### Hacking
+
+is used to bypass electronic security. Its counter skill is also hacking. Extra
+ability modifiers can be used to get the job done faster.
+
+#### Knowledge
+
+is chosen for a particular area, e.g. history, religion, etc. For all other
+knowledge skills, the character only has basic, common knowledge.
+
+#### Notice
+
+is used to spot hidden things or notice small details that would otherwise be
+missed. It is the counter part skill to [Stealth](#stealth).
+
+#### Science
+
+is chosen for a particular scientific field, e.g. geology, biology, astronomy,
+medicine, etc. For all other scientific areas that weren't chosen, the character
+has basic knowledge. They only know common knowledge in these areas (according
+to their education), but nothing special.
 
 ### Charisma ![](){ .qstar-minions } Skills
-* **Oratory** (CA) is used to sway another in ones favour through social
-  interactions. It allows a character to bargain, bluff, intimidate or charm
-  another. The counter skill is called **Sense Motive**.
-* **Sense Motive** (CA) allows to spot bluffs in conversations, resist an
-  intimidation attempt, notice lies etc. It is the counter part skill to
-  **Oratory**.
+
+#### Oratory
+
+is used to sway another in ones favour through social interactions. It allows a
+character to bargain, bluff, intimidate or charm another. The counter skill is
+called **Sense Motive**.
+
+#### Sense Motive
+
+allows to spot bluffs in conversations, resist an intimidation attempt, notice
+lies etc. It is the counter part skill to **Oratory**.
+
+<div style="clear: both;"></div>

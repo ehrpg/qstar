@@ -1,4 +1,4 @@
-# Equipment
+# Equipment ![](){ .qstar-backpack }
 
 ## Credits
 
@@ -152,6 +152,21 @@ Medical items recover endurance or even health.
 
 * *Temporary* means that the effect only lasts some time, indicated by the
   parenthesis.
+
+### Using Medical Items
+
+Using medical items do not require the use of any skills. The **first aid**
+skill can be used for additional bonuses. The DC for the check is the amount of
+[health](/#health) damage a creature may have. If the DC is met, double the
+amount of dice rolled for the current use.
+
+!!! note "Example"
+    A character has been wounded and has lost 12 [health](/#health) points. The
+    character is treated with a medical kit by a medic, who rolls his **first
+    aid** skill against the DC of 12. The medic *succeeds*{ .qstar-success } on
+    the task, and can heal the character by 2d10 [endurance](/#endurance) and
+    2d6 [health](/#health) instead of 1d10 [endurance](/#endurance) and 1d6
+    [health](/#health).
 
 ## Miscellaneous Items
 

@@ -155,11 +155,37 @@ tr:nth-child(even) {
   margin: 0.1em 0 1em 1.875em
 }
 
+[id$="-skills"] {
+  clear: both;
+}
+
+[id$="-skills"] ~ h4 {
+  width: 140px;
+  text-align: right;
+}
+
+[id$="-skills"] ~ p {
+  padding-left: 1rem;
+}
+
+[id$="-skills"] ~ h4 ~ p {
+  width: calc(100% - 140px);
+}
+
+[id$="-skills"] ~ h4,
+[id$="-skills"] ~ p {
+  vertical-align: top;
+  float: left;
+}
+
+[id$="-skills"] ~ h4,
+[id$="-skills"] ~ p,
 #weapons ~ #stats ~ h4,
 #weapons ~ #stats ~ p {
-  margin-top: 3px;
-  margin-bottom: 3px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
+
 #weapons ~ #stats ~ p {
   padding-left: 2rem;
 }
@@ -190,6 +216,8 @@ i[f]::before {
   content: "\E14C";
 }
 
+
+a[href="./equipment"]:after,
 a[href*="#"]:after {
   font-family: "game-icons";
   -webkit-font-smoothing: antialiased;
@@ -272,4 +300,12 @@ a[href*="#cap-capacity"]:after {
 
 a[href*="reload#stats"]:after {
   content: "\E094";
+}
+
+a[href*="#skills"]:after {
+  content: "\E71A";
+}
+
+a[href^="./equipment"]:after {
+  content: "\E77F";
 }
