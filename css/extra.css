@@ -155,11 +155,40 @@ tr:nth-child(even) {
   margin: 0.1em 0 1em 1.875em
 }
 
-/* #equipment ~ div table th:nth-child(1) {
-  min-width: 12rem !important;
-  max-width: 12rem !important;
-  width: 12rem !important;
-} */
+[id$="-skills"] {
+  clear: both;
+}
+
+[id$="-skills"] ~ h4 {
+  width: 140px;
+  text-align: right;
+}
+
+[id$="-skills"] ~ p {
+  padding-left: 1rem;
+}
+
+[id$="-skills"] ~ h4 ~ p {
+  width: calc(100% - 140px);
+}
+
+[id$="-skills"] ~ h4,
+[id$="-skills"] ~ p {
+  vertical-align: top;
+  float: left;
+}
+
+[id$="-skills"] ~ h4,
+[id$="-skills"] ~ p,
+#weapons ~ #stats ~ h4,
+#weapons ~ #stats ~ p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#weapons ~ #stats ~ p {
+  padding-left: 2rem;
+}
 
 html {
   font-size: 62.5%;
@@ -187,6 +216,8 @@ i[f]::before {
   content: "\E14C";
 }
 
+
+a[href="./equipment"]:after,
 a[href*="#"]:after {
   font-family: "game-icons";
   -webkit-font-smoothing: antialiased;
@@ -214,7 +245,7 @@ a[href*="#health"]:after {
   content: "\E4B0";
 }
 
-a[href*="#perks"]:after {
+a[href$="#perks"]:after {
   content: "\E78F";
 }
 
@@ -238,10 +269,12 @@ a[href*="#charisma"]:after {
   content: "\E6CC";
 }
 
+a[href*="#dmg-damage"]:after,
 a[href*="#damage"]:after {
   content: "\E1E8";
 }
 
+a[href*="#crit-critical"]:after,
 a[href*="#critical-damage"]:after {
   content: "\E5E2";
 }
@@ -251,10 +284,28 @@ a[href*="#damage-reduction"]:after {
   content: "\E023";
 }
 
+a[href*="#hit"]:after,
 a[href*="#attack"]:after {
   content: "\E8AA";
 }
 
-a[href*="stats?rof"]:after {
+a[href*="#rof"]:after,
+a[href*="rof#stats"]:after {
   content: "\E1DA";
+}
+
+a[href*="#cap-capacity"]:after {
+  content: "\E1B6";
+}
+
+a[href*="reload#stats"]:after {
+  content: "\E094";
+}
+
+a[href*="#skills"]:after {
+  content: "\E71A";
+}
+
+a[href^="./equipment"]:after {
+  content: "\E77F";
 }
