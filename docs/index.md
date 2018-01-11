@@ -23,25 +23,25 @@ additional benefit. This benefit is called **ability modifier**:
 
 If an ability drops to zero, the character dies.
 
-### Might ![](){ .qstar-biceps }
+### Might
 
 **Might** (MI) represents the character's physical **strength** and
 **resilience**. [Endurance](#endurance) and [health](#health) are derived from
-might. Your melee weapon damage also derives from mi ght.
+might. Your melee weapon damage also derives from might.
 
-### Speed ![](){ .qstar-wingfoot }
+### Speed
 
 **Speed** (SP) measures the character's reflexes and hand-eye coordination. It
 is used for subversive actions (such as sneaking, or lock picking) and is used
 to **better hit** with melee weapons and ranged weapons.
 
-### Intelligence ![](){ .qstar-brain }
+### Intelligence
 
 **Intelligence** (IN) describes how well your character learns new things, and
 how well he remembers already existing things. It is a key factor in skills like
 hacking, medicine or engineering.
 
-### Charisma ![](){ .qstar-minions }
+### Charisma
 
 **Charisma** (CA) represents the character's physical attractiveness, force of
 personality and his ability to lead. It is mostly used in **social
@@ -52,7 +52,7 @@ interactions** between characters and NPCs.
 Each creature has two pools: [Endurance](#endurance) and [health](#health).
 Objects only have a [health](#health) pool.
 
-### Endurance ![]()
+### Endurance
 
 *Endurance represents the character's short time well being and constitution.*
 
@@ -82,7 +82,7 @@ or subtract that value from your [endurance](#endurance) pool.
     <span data-bracket-top="endurance die (race)">d10</span>
     </div>
 
-### Health ![]()
+### Health
 
 *Health represents the overall long-term physical health and well being of a
 character. Severe wounds, illness and temporary handicaps (such as broken arms
@@ -337,9 +337,9 @@ Some weapons allow multiple shots to be fired, denoted by the
 [RoF](./equipment?rof#stats) value is higher than one, additional shots **may**
 be fired to increase the hit chance and [critical hit](#critical-hit) chance.
 
-!!! note "RoF Example" If a weapon has a [RoF](./equipment?rof#stats) value of
-    2, you may fire an extra bullet and add **1d6** to your attack, resulting in
-    **4d6** total.
+!!! note "RoF Example"
+    If a weapon has a [RoF](./equipment?rof#stats) value of 2, you may fire an
+    extra bullet and add **1d6** to your attack, resulting in **4d6** total.
 
 If the [attack](#attack) is equal to or higher than the targets **defence**
 attack is *successful*{.qs-s}.
@@ -542,7 +542,7 @@ Note these values on your character sheet.
 Last but not least buy equipment that suits your character. See
 [equipment](./equipment).
 
-## Skills ![](){ .qstar-gears }
+## Available Skills
 
 The following skills are available in the base system of Q*:
 

@@ -6,14 +6,6 @@
   margin-left: 10px;
 }
 
-[data-bracket-bottom]:after {
-  content: "";
-  display: block;
-  height: 6px;
-  border: 2px solid black;
-  border-top: none;
-}
-
 [data-bracket-bottom]:before {
   content: attr(data-bracket-bottom);
   position: absolute;
@@ -22,7 +14,15 @@
   padding: 5px;
   white-space: nowrap;
   left: 50%;
-  transform: translateX(-50%)
+  transform: translateX(-50%);
+}
+
+[data-bracket-bottom]:after {
+  content: "";
+  display: block;
+  height: 6px;
+  border: 2px solid black;
+  border-top: none;
 }
 
 [data-bracket-top] {
@@ -39,25 +39,28 @@
   border: 2px solid black;
   position: absolute;
   bottom: 100%;
-  left:0;
-  right:0;
+  left: 0;
+  right: 0;
   border-bottom: none;
 }
 
 [data-bracket-top]:after {
   content: attr(data-bracket-top);
   position: absolute;
-  top:-30px;
+  top: -30px;
   font-size: 80%;
   padding: 5px;
   white-space: nowrap;
   left: 50%;
-  transform: translateX(-50%)
+  transform: translateX(-50%);
 }
-
 
 .formula {
   text-align: center;
+}
+
+.formula span {
+  margin: 0 8px;
 }
 
 .formula-top {
@@ -68,54 +71,16 @@
   margin-bottom: 55px;
 }
 
-.formula span {
-  margin: 0 8px;
-}
-
 .admonition .formula-bottom {
   margin-bottom: 30px;
 }
+
 .admonition .formula-top {
   margin-top: 40px;
 }
 
-[class*='ehicon-'] {
-  margin-right: 5px;
-  color: #404040;
-}
-
-.fa-2x {
-  vertical-align: middle;
-}
-
-.toctree-l4:before {
-  content: " — ";
-  padding: 0 5px;
-}
-
 table td {
   position: relative;
-}
-
-img.ehicon {
-  display: inline-block;
-  border-radius: 0.2rem;
-  height: 1em !important;
-}
-
-table img.ehicon {
-  position: absolute;
-  top: 0.4rem;
-}
-
-img.ehicon-2x {
-  height: 2em !important;
-}
-@media screen and (max-width: 768px) {
-  body img.ehicon {
-    border-radius: 3px;
-    width: auto;
-  }
 }
 
 .md-typeset__table table td {
@@ -139,7 +104,7 @@ tr.targetted {
 }
 
 tr:nth-child(even) {
-  background-color: #efefef
+  background-color: #efefef;
 }
 
 .md-typeset h2,
@@ -147,30 +112,19 @@ tr:nth-child(even) {
   margin: 1.6rem 0 1.6rem;
 }
 
-.admonition  {
+.admonition {
   overflow: hidden !important;
 }
 
 .md-typeset dd {
-  margin: 0.1em 0 1em 1.875em
+  margin: 0.1em 0 1em 1.875em;
 }
 
 .dt {
   text-align: right;
   margin-top: -5.2rem !important;
   padding-top: 6rem !important;
-}
-
-h4.dt {
-  width: 160px;
-}
-
-.dt + p {
-  padding-left: 0.2rem;
-}
-
-h4.dt + p {
-  width: calc(100% - 165px);
+  padding-right: 10px;
 }
 
 .dt,
@@ -179,6 +133,22 @@ h4.dt + p {
   display: inline-block;
   margin-top: 0.8rem;
   margin-bottom: 0.8rem;
+}
+
+.dt + p {
+  padding-left: 0.2rem;
+}
+
+h4.dt {
+  width: 160px;
+}
+
+h4.dt a {
+  display: none !important;
+}
+
+h4.dt + p {
+  width: calc(100% - 165px);
 }
 
 html {
@@ -196,20 +166,21 @@ i[s] {
 i[s] {
   color: #00c853;
 }
-i[s]::before {
+
+i[s]:before {
   content: "\E876";
 }
 
 i[f] {
   color: #ff5252;
 }
-i[f]::before {
+
+i[f]:before {
   content: "\E14C";
 }
 
-
-a[href="./equipment"]:after,
-a[href*="#"]:after {
+*:not(.md-search-result__item) > a[href="./equipment"]:after,
+*:not(.md-search-result__item) > a[href*="#"]:after {
   font-family: "game-icons";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -218,85 +189,173 @@ a[href*="#"]:after {
   font-weight: normal;
   text-decoration: none;
   text-transform: none;
-  margin-left: 4px;
+  margin-left: 2px;
   vertical-align: top;
 }
 
-h2 > a:after,
-h3 > a:after,
-h4 > a:after {
-  content: "" !important;
-}
-
-a[href*="#endurance"]:after {
+*:not(.md-search-result__item) > h3#endurance:after,
+*:not(.md-search-result__item) > a[href*="#endurance"]:after {
   content: "\EB5C";
 }
 
-a[href*="#health"]:after {
+*:not(.md-search-result__item) > h3#health:after,
+*:not(.md-search-result__item) > a[href*="#health"]:after {
   content: "\E4B0";
 }
 
-a[href$="#perks"]:after {
+*:not(.md-search-result__item) > a[href$="#perks"]:after {
   content: "\E78F";
 }
 
-a[href*="#flaws"]:after {
+*:not(.md-search-result__item) > a[href*="#flaws"]:after {
   content: "\E840";
 }
 
-a[href*="#might"]:after {
+*:not(.md-search-result__item) > h3#might:after,
+*:not(.md-search-result__item) > a[href*="#might"]:after {
   content: "\E696";
 }
 
-a[href*="#speed"]:after {
+*:not(.md-search-result__item) > h3#speed:after,
+*:not(.md-search-result__item) > a[href*="#speed"]:after {
   content: "\E543";
 }
 
-a[href*="#intelligence"]:after {
+*:not(.md-search-result__item) > h3#intelligence:after,
+*:not(.md-search-result__item) > a[href*="#intelligence"]:after {
   content: "\E5E6";
 }
 
-a[href*="#charisma"]:after {
+*:not(.md-search-result__item) > h3#charisma:after,
+*:not(.md-search-result__item) > a[href*="#charisma"]:after {
   content: "\E6CC";
 }
 
-a[href*="#dmg-damage"]:after,
-a[href*="#damage"]:after {
+*:not(.md-search-result__item) > a[href$="#dmg-damage"]:after,
+*:not(.md-search-result__item) > a[href$="#damage"]:after {
   content: "\E1E8";
 }
 
-a[href*="#crit-critical"]:after,
-a[href*="#critical-damage"]:after {
+*:not(.md-search-result__item) > a[href*="#crit-critical"]:after,
+*:not(.md-search-result__item) > a[href*="#critical-damage"]:after {
   content: "\E5E2";
 }
 
-a[href*="#DR"]:after,
-a[href*="#damage-reduction"]:after {
+*:not(.md-search-result__item) > h3#damage-reduction:after,
+*:not(.md-search-result__item) > a[href*="#DR"]:after,
+*:not(.md-search-result__item) > a[href*="#damage-reduction"]:after {
   content: "\E023";
 }
 
-a[href*="#hit"]:after,
-a[href*="#attack"]:after {
+*:not(.md-search-result__item) > h4#hit,
+*:not(.md-search-result__item) > a[href*="#hit"]:after,
+*:not(.md-search-result__item) > a[href*="#attack"]:after {
   content: "\E8AA";
 }
 
-a[href*="#rof"]:after,
-a[href*="rof#stats"]:after {
+*:not(.md-search-result__item) > a[href*="#rof"]:after,
+*:not(.md-search-result__item) > a[href*="rof#stats"]:after {
   content: "\E1DA";
 }
 
-a[href*="#cap-capacity"]:after {
+*:not(.md-search-result__item) > a[href*="#cap-capacity"]:after {
   content: "\E1B6";
 }
 
-a[href*="reload#stats"]:after {
+*:not(.md-search-result__item) > a[href*="reload#stats"]:after {
   content: "\E094";
 }
 
-a[href*="#skills"]:after {
+*:not(.md-search-result__item) > h2#skills:after,
+*:not(.md-search-result__item) > h2#available-skills:after,
+*:not(.md-search-result__item) > a[href*="#skills"]:after {
   content: "\E71A";
 }
 
-a[href^="./equipment"]:after {
+*:not(.md-search-result__item) > a[href^="./equipment"]:after {
   content: "\E77F";
 }
+
+*:not(.md-search-result__item) > h2#armour:after,
+*:not(.md-search-result__item) > a[href*="#armour"]:after {
+  content: "\EA22";
+}
+
+h2 {
+  position: relative !important;
+}
+
+h2:after {
+  font-family: "game-icons";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  margin-left: 0.5rem !important;
+  vertical-align: top;
+}
+
+h2 > a {
+  position: absolute;
+  right: 0;
+}
+
+h2 > a:after {
+  content: "" !important;
+}
+
+h3 {
+  position: relative !important;
+}
+
+h3:after {
+  font-family: "game-icons";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  margin-left: 0.5rem !important;
+  vertical-align: top;
+}
+
+h3 > a {
+  position: absolute;
+  right: 0;
+}
+
+h3 > a:after {
+  content: "" !important;
+}
+
+h4 {
+  position: relative !important;
+}
+
+h4:after {
+  font-family: "game-icons";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  margin-left: 0.5rem !important;
+  vertical-align: top;
+}
+
+h4 > a {
+  position: absolute;
+  right: 0;
+}
+
+h4 > a:after {
+  content: "" !important;
+}
+/*# sourceMappingURL=extra.css.map */

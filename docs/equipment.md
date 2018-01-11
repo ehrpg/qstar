@@ -12,7 +12,7 @@ these cards to other cards to make transactions.
 *Armour protects a creature from harm via [damage reduction](#damage-reduction)
 or environmental protection such as lethal gases.*
 
-### Damage Reduction ![](){ .qstar-riot-shield }
+### Damage Reduction
 
 Armour reduces the incoming [damage](/#damage) (both [endurance](/#endurance)
 and [health](/#health)) by its [damage reduction](#damage-reduction) value.
