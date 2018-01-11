@@ -38,7 +38,7 @@ credit equals 1 rubel in this setting.
 ## Weapons
 
 Weapons use different kinds of cartridges. The **cartridge** column in the
-weapon's table describes the cartridge used. Only that cartridge is useable as
+weapons table describes the cartridge used. Only that cartridge is useable as
 ammunition.
 
 Ammunition is only available in packs, denoted by the rounds column. For
@@ -59,16 +59,16 @@ does not negate the sonic boom of the round breaking the sound barrier.
 
 ### Cartridges
 
-| Name                             | Range  |  DMG | Crit | Rounds | Weight | Cost | Notes                                                                                  |
-|----------------------------------|--------|-----:|-----:|-------:|-------:|-----:|----------------------------------------------------------------------------------------|
-| <span id="9x18"></span>  9x18mm  | Close  |   10 |    5 |     50 |    0.5 |   10 |                                                                                        |
-| <span id="45acp"></span> .45 ACP | Close  |   15 |    8 |     50 |      1 |   25 | subsonic                                                                               |
-| <span id="12g"></span>   12G     | Close  |   20 |   10 |     10 |    0.5 |   20 | deals additional 15 [damage](/#damage) in close range. |
-| <span id="545"></span>   5.45x39 | Medium |   15 |   10 |     30 |    0.5 |  100 |                                                                                        |
-| <span id="556"></span>   5.56x45 | Medium |   20 |   10 |     30 |    0.5 |   80 |                                                                                        |
-| <span id="939"></span>   9x39mm  | Medium |   20 |   10 |     30 |    0.5 |  110 | subsonic                                                                               |
-| <span id="762"></span>   7.62x54 | Far    |   25 |   15 |     20 |    0.5 |  130 |                                                                                        |
-| <span id="40mm"></span>  40mm    | Close  |  100 |  100 |      1 |      1 |  500 |                                                                                        |
+| Name                             | Range  |  DMG | Crit | Rounds | Weight | Cost | Notes                                                  |
+|----------------------------------|--------|-----:|-----:|-------:|-------:|-----:|--------------------------------------------------------|
+| <span id="9x18"></span>  9x18mm  | Close  |   10 |    5 |     50 |    0.5 |   20 |                                                        |
+| <span id="45acp"></span> .45 ACP | Close  |   15 |    8 |     50 |      1 |   40 | subsonic                                               |
+| <span id="12g"></span>   12G     | Close  |   20 |   10 |     10 |    0.5 |   25 | deals additional 15 [damage](/#damage) in close range. |
+| <span id="545"></span>   5.45x39 | Medium |   15 |   10 |     30 |    0.5 |  100 |                                                        |
+| <span id="556"></span>   5.56x45 | Medium |   20 |   10 |     30 |    0.5 |  150 |                                                        |
+| <span id="939"></span>   9x39mm  | Medium |   20 |   10 |     30 |    0.5 |  125 | subsonic                                               |
+| <span id="762"></span>   7.62x54 | Far    |   25 |   15 |     20 |    0.5 |  200 |                                                        |
+| <span id="40mm"></span>  40mm    | Close  |  100 |  100 |      1 |      1 | 1000 |                                                        |
 
 ### Melee Weapons
 
@@ -136,7 +136,7 @@ does not negate the sonic boom of the round breaking the sound barrier.
 | SVU          | [7.62x54](#762) |   +3  |   1   |    2   |   10 |    4.5 | 26 000 |            |
 | VSS Vintorez | [9x39mm](#939)  |   +2  |   1   |    2   |   10 |      3 | 30 000 | suppressed |
 
-### Grenades
+### Grenade launchers
 
 | Name  | Cartridge     |  Hit  |  RoF  | Reload | Cap. | Weight |   Cost | Notes |
 |-------|---------------|:-----:|:-----:|:------:|-----:|-------:|-------:|-------|

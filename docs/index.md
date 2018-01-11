@@ -25,15 +25,15 @@ If an ability drops to zero, the character dies.
 
 ### Might
 
-**Might** (MI) represents the character's physical **strength** and
+**Might** (MI) represents the characters physical **strength** and
 **resilience**. [Endurance](#endurance) and [health](#health) are derived from
 might. Your melee weapon damage also derives from might.
 
 ### Speed
 
-**Speed** (SP) measures the character's reflexes and hand-eye coordination. It
-is used for subversive actions (such as sneaking, or lock picking) and is used
-to **better hit** with melee weapons and ranged weapons.
+**Speed** (SP) measures the characters reflexes and hand-eye coordination. It is
+used for subversive actions (such as sneaking, or lock picking) and is used to
+**better hit** with melee weapons and ranged weapons.
 
 ### Intelligence
 
@@ -43,7 +43,7 @@ hacking, medicine or engineering.
 
 ### Charisma
 
-**Charisma** (CA) represents the character's physical attractiveness, force of
+**Charisma** (CA) represents the characters physical attractiveness, force of
 personality and his ability to lead. It is mostly used in **social
 interactions** between characters and NPCs.
 
@@ -54,7 +54,7 @@ Objects only have a [health](#health) pool.
 
 ### Endurance
 
-*Endurance represents the character's short time well being and constitution.*
+*Endurance represents the characters short time well being and constitution.*
 
 [Endurance](#endurance) is determined by rolling a number of dice equal to your
 [Might](#might) **rank** and then adding the base [endurance](#endurance) pool
@@ -183,13 +183,13 @@ skill check is a *failure*{.qs-f}.
 
 ### Aiding
 
-At the game master's discretion, it is possible for one or more characters to
-aid another in an upcoming task (henceforth called the *main task*). The players
+At the game masters discretion, it is possible for one or more characters to aid
+another in an upcoming task (henceforth called the *main task*). The players
 aiding must be able to declare, and be able to perform the aid before the main
 task is attempted (i.e. rolled for). Then they must perform the same skill check
-(consuming an action) within their turn. Every *success*{.qs-s} of
-those aiding translates into a tangible benefit for the main task. Such benefits
-could include (but are not limited to):
+(consuming an action) within their turn. Every *success*{.qs-s} of those aiding
+translates into a tangible benefit for the main task. Such benefits could
+include (but are not limited to):
 
 * Better outcome of the main task, such as less time or materials used.
 * A lowered difficulty for the main task.
@@ -240,7 +240,7 @@ aim at making a character more unique. It is up to the game master whether
 [Perks](#perks) add positive modifiers, make a character better or enable
 certain actions. [Perks](#perks) have requirements and require Credits to be
 unlocked. A game master may also give them out based on experience throughout
-game play, or based on a character's background story.
+game play, or based on a characters background story.
 
 ### Flaws
 
@@ -308,14 +308,14 @@ check result.
     +
     <span>Cover</span>
     </div>
-    or
+    <div style="text-align: center;">or</div>
     <div class="formula formula-top formula-bottom">
     Defence (melee) = <span data-bracket-top="skill check">3d6 + skill modifiers</span>
     </div>
 
 #### Cover
 
-Cover provides vital bonuses to the creature's defence. 
+Cover provides vital bonuses to the creatures defence. 
 
 | Cover       | Bonus | Notes                                                                        | Example                                                        |
 |-------------|------:|------------------------------------------------------------------------------|----------------------------------------------------------------|
@@ -372,7 +372,7 @@ damage](#critical-damage).
 creatures and characters.*
 
 Armour provides [DR](./equipment#damage-reduction) (damage reduction). If a
-target's [DR](./equipment#damage-reduction) is higher than the inflicted damage,
+targets [DR](./equipment#damage-reduction) is higher than the inflicted damage,
 they don't take any damage at all (except for [critical
 damage](#critical-damage)).
 
@@ -400,7 +400,7 @@ additional [critical damage](#critical-damage).
 [Critical damage](#critical-damage) inflicts additional damage to the health
 pool, even if the targets [endurance](#endurance) isn't at 0 yet.
 
-[Critical damage](#critical-damage) is also reduced by the target's
+[Critical damage](#critical-damage) is also reduced by the targets
 [DR](./equipment#damage-reduction), but cannot be less than 1. Every critical
 hit deals at least 1 damage, disregarding any armour the target may have.
 
@@ -457,7 +457,7 @@ a tie roll again.
 
 ## Actions
 
-Once it is a player's turn in a crisis, he or she may do **two actions**. An
+Once it is a players turn in a crisis, he or she may do **two actions**. An
 action takes a small amount of time, and may involve a skill check. The game
 master may decide that a task takes more than one action, or even takes a couple
 of rounds. Any number of actions may be converted to **ready actions**. These
@@ -472,11 +472,10 @@ blast door open uses **Hacking**.
 
 ### Free Actions
 
-A game master may also decide that something takes so little time,
-that it does not count towards the player's amount of actions in that
-round. These actions are called **free actions**. For example, the
-game master may decide that letting go of a ledge takes no time and is
-thus a **free action**.
+A game master may also decide that something takes so little time, that it does
+not count towards the players amount of actions in that round. These actions are
+called **free actions**. For example, the game master may decide that letting go
+of a ledge takes no time and is thus a **free action**.
 
 ### Reactions
 
@@ -536,7 +535,7 @@ suit your character.
 
 ### Third: Roll Endurance and Health
 
-Use your race's [endurance](#endurance) and [health](#health) die, and your new
+Use your races [endurance](#endurance) and [health](#health) die, and your new
 [Might](#might) **rank** to roll [endurance](#endurance) and [health](#health).
 Note these values on your character sheet.
 

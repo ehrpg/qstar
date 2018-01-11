@@ -31,13 +31,13 @@ hit](/#critical-hit) below 1.
 
 Any [critical hit](/#critical-hit) or normal hit that deals [health
 damage](/#damage) reduces the durability of the armour by one. [Endurance
-damage](/#damage) doesn't lower the armour's durability.
+damage](/#damage) doesn't lower the armours durability.
 
 If the durability of the armour drops to zero, it's destroyed or otherwise
 rendered useless.
 
 !!! note "Example"
-    Let's use the [damage reduction](#damage-reduction) example as base for this
+    Lets use the [damage reduction](#damage-reduction) example as base for this
     one. The character was hit by 2 critical hits, reducing the durability of
     the armour by 2 points. If the character was below 10
     [endurance](/#endurance), the excess damage would have targetted his
