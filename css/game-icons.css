@@ -21,16 +21,20 @@
   vertical-align: top;
 }
 
+.qs-s:after,
 .qstar-success:after {
   font-family: 'Material Icons';
   color: #00c853;
+  vertical-align: top;
 
   content: "\E876";
 }
 
+.qs-f:after,
 .qstar-failure:after {
   font-family: 'Material Icons';
   color: #ff5252;
+  vertical-align: top;
 
   content: "\E14C";
 }

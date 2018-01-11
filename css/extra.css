@@ -155,39 +155,30 @@ tr:nth-child(even) {
   margin: 0.1em 0 1em 1.875em
 }
 
-[id$="-skills"] {
-  clear: both;
-}
-
-[id$="-skills"] ~ h4 {
-  width: 140px;
+.dt {
   text-align: right;
+  margin-top: -5.2rem !important;
+  padding-top: 6rem !important;
 }
 
-[id$="-skills"] ~ p {
-  padding-left: 1rem;
+h4.dt {
+  width: 160px;
 }
 
-[id$="-skills"] ~ h4 ~ p {
-  width: calc(100% - 140px);
+.dt + p {
+  padding-left: 0.2rem;
 }
 
-[id$="-skills"] ~ h4,
-[id$="-skills"] ~ p {
+h4.dt + p {
+  width: calc(100% - 165px);
+}
+
+.dt,
+.dt + p {
   vertical-align: top;
-  float: left;
-}
-
-[id$="-skills"] ~ h4,
-[id$="-skills"] ~ p,
-#weapons ~ #stats ~ h4,
-#weapons ~ #stats ~ p {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-#weapons ~ #stats ~ p {
-  padding-left: 2rem;
+  display: inline-block;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
 }
 
 html {
