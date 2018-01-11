@@ -180,109 +180,113 @@ i[f] {
   }
 }
 
-*:not(.md-search-result__item) {
-  > {
-    a[href="./equipment"]:after,
-    a[href*="#"]:after {
-      font-family: "game-icons";
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-      font-style: normal;
-      font-variant: normal;
-      font-weight: normal;
-      text-decoration: none;
-      text-transform: none;
-      margin-left: 2px;
-      vertical-align: top;
-    }
+*:not(.md-search-result__item) > {
+  a[href="./equipment"]:after,
+  a[href*="#"]:after {
+    font-family: "game-icons";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+    margin-left: 2px;
+    vertical-align: top;
+  }
 
-    h3#endurance:after,
-    a[href*="#endurance"]:after {
-      content: "\EB5C";
-    }
-    
-    h3#health:after,
-    a[href*="#health"]:after {
-      content: "\E4B0";
-    }
-    
-    a[href$="#perks"]:after {
-      content: "\E78F";
-    }
-    
-    a[href*="#flaws"]:after {
-      content: "\E840";
-    }
-    
-    h3#might:after,
-    a[href*="#might"]:after {
-      content: "\E696";
-    }
-    
-    h3#speed:after,
-    a[href*="#speed"]:after {
-      content: "\E543";
-    }
-    
-    h3#intelligence:after,
-    a[href*="#intelligence"]:after {
-      content: "\E5E6";
-    }
-    
-    h3#charisma:after,
-    a[href*="#charisma"]:after {
-      content: "\E6CC";
-    }
+  h3#endurance:after,
+  a[href*="#endurance"]:after {
+    content: "\EB5C";
+  }
+  
+  h3#health:after,
+  a[href*="#health"]:after {
+    content: "\E4B0";
+  }
+  
+  h3#perks:after,
+  a[href$="#perks"]:after {
+    content: "\E78F";
+  }
+  
+  h3#flaws:after,
+  a[href*="#flaws"]:after {
+    content: "\E840";
+  }
+  
+  h3#might:after,
+  h3#might-skills:after,
+  a[href*="#might"]:after {
+    content: "\E696";
+  }
+  
+  h3#speed:after,
+  h3#speed-skills:after,
+  a[href*="#speed"]:after {
+    content: "\E543";
+  }
+  
+  h3#intelligence:after,
+  h3#intelligence-skills:after,
+  a[href*="#intelligence"]:after {
+    content: "\E5E6";
+  }
+  
+  h3#charisma:after,
+  h3#charisma-skills:after,
+  a[href*="#charisma"]:after {
+    content: "\E6CC";
+  }
 
-    a[href$="#dmg-damage"]:after,
-    a[href$="#damage"]:after {
-      content: "\E1E8";
-    }
+  a[href$="#dmg-damage"]:after,
+  a[href$="#damage"]:after {
+    content: "\E1E8";
+  }
 
-    a[href*="#crit-critical"]:after,
-    a[href*="#critical-damage"]:after {
-      content: "\E5E2";
-    }
-    
-    h3#damage-reduction:after,
-    a[href*="#DR"]:after,
-    a[href*="#damage-reduction"]:after {
-      content: "\E023";
-    }
-    
-    h4#hit,
-    a[href*="#hit"]:after,
-    a[href*="#attack"]:after {
-      content: "\E8AA";
-    }
-    
-    a[href*="#rof"]:after,
-    a[href*="rof#stats"]:after {
-      content: "\E1DA";
-    }
-    
-    a[href*="#cap-capacity"]:after {
-      content: "\E1B6";
-    }
-    
-    a[href*="reload#stats"]:after {
-      content: "\E094";
-    }
-    
-    h2#skills:after,
-    h2#available-skills:after,
-    a[href*="#skills"]:after {
-      content: "\E71A";
-    }
-    
-    a[href^="./equipment"]:after {
-      content: "\E77F";
-    }
-    
-    h2#armour:after,
-    a[href*="#armour"]:after {
-      content: "\EA22";
-    }
+  a[href*="#crit-critical"]:after,
+  a[href*="#critical-damage"]:after {
+    content: "\E5E2";
+  }
+  
+  h3#damage-reduction:after,
+  a[href*="#DR"]:after,
+  a[href*="#damage-reduction"]:after {
+    content: "\E023";
+  }
+  
+  h4#hit,
+  a[href*="#hit"]:after,
+  a[href*="#attack"]:after {
+    content: "\E8AA";
+  }
+  
+  a[href*="#rof"]:after,
+  a[href*="rof#stats"]:after {
+    content: "\E1DA";
+  }
+  
+  a[href*="#cap-capacity"]:after {
+    content: "\E1B6";
+  }
+  
+  a[href*="reload#stats"]:after {
+    content: "\E094";
+  }
+  
+  h2#skills:after,
+  h2#available-skills:after,
+  a[href*="#skills"]:after {
+    content: "\E71A";
+  }
+  
+  a[href^="./equipment"]:after {
+    content: "\E77F";
+  }
+  
+  h2#armour:after,
+  a[href*="#armour"]:after {
+    content: "\EA22";
   }
 }
 
