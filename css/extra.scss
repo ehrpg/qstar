@@ -1,0 +1,316 @@
+[data-bracket-bottom] {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  margin-bottom: 10px;
+  margin-left: 10px;
+
+  &:before {
+    content: attr(data-bracket-bottom);
+    position: absolute;
+    top: 100%;
+    font-size: 80%;
+    padding: 5px;
+    white-space: nowrap;
+    left: 50%;
+    transform: translateX(-50%)
+  }
+
+  &:after {
+    content: "";
+    display: block;
+    height: 6px;
+    border: 2px solid black;
+    border-top: none;
+  }
+}
+
+
+[data-bracket-top] {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  margin-left: 10px;
+
+  &:before {
+    content: "";
+    display: block;
+    height: 6px;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 100%;
+    left:0;
+    right:0;
+    border-bottom: none;
+  }
+
+  &:after {
+    content: attr(data-bracket-top);
+    position: absolute;
+    top:-30px;
+    font-size: 80%;
+    padding: 5px;
+    white-space: nowrap;
+    left: 50%;
+    transform: translateX(-50%)
+  }
+}
+
+.formula {
+  text-align: center;
+  span {
+    margin: 0 8px;
+  }
+}
+
+.formula-top {
+  margin-top: 55px;
+}
+
+.formula-bottom {
+  margin-bottom: 55px;
+}
+
+.admonition {
+  .formula-bottom {
+    margin-bottom: 30px;
+  }
+  .formula-top {
+    margin-top: 40px;
+  }
+}
+
+table td {
+  position: relative;
+}
+
+.md-typeset__table table td {
+  padding: 0.4rem 0.8rem !important;
+}
+
+.md-typeset__table table th {
+  padding: 0.8rem 0.8rem !important;
+}
+
+.md-typeset table:not([class]) th {
+  min-width: 3rem;
+}
+
+table tr td:first-child {
+  white-space: nowrap;
+}
+
+tr.targetted {
+  background-color: #FFF9C4 !important;
+}
+
+tr:nth-child(even) {
+  background-color: #efefef
+}
+
+.md-typeset h2,
+.md-typeset h3 {
+  margin: 1.6rem 0 1.6rem;
+}
+
+.admonition  {
+  overflow: hidden !important;
+}
+
+.md-typeset dd {
+  margin: 0.1em 0 1em 1.875em
+}
+
+.dt {
+  text-align: right;
+  margin-top: -5.2rem !important;
+  padding-top: 6rem !important;
+  padding-right: 10px;
+
+  &,
+  + p {
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+  }
+
+  + p {
+    padding-left: 0.2rem;
+  }
+}
+
+h4.dt {
+  width: 160px;
+}
+
+h4.dt a {
+  display: none !important;
+}
+
+h4.dt + p {
+  width: calc(100% - 165px);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+i[f],
+i[s] {
+  font-family: 'Material Icons';
+  font-style: normal;
+  vertical-align: middle;
+  line-height: 1.6;
+}
+
+i[s] {
+  color: #00c853;
+
+  &:before {
+    content: "\E876";
+  }
+}
+
+i[f] {
+  color: #ff5252;
+
+  &:before {
+    content: "\E14C";
+  }
+}
+
+*:not(.md-search-result__item) {
+  > {
+    a[href="./equipment"]:after,
+    a[href*="#"]:after {
+      font-family: "game-icons";
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: normal;
+      text-decoration: none;
+      text-transform: none;
+      margin-left: 2px;
+      vertical-align: top;
+    }
+
+    h3#endurance:after,
+    a[href*="#endurance"]:after {
+      content: "\EB5C";
+    }
+    
+    h3#health:after,
+    a[href*="#health"]:after {
+      content: "\E4B0";
+    }
+    
+    a[href$="#perks"]:after {
+      content: "\E78F";
+    }
+    
+    a[href*="#flaws"]:after {
+      content: "\E840";
+    }
+    
+    h3#might:after,
+    a[href*="#might"]:after {
+      content: "\E696";
+    }
+    
+    h3#speed:after,
+    a[href*="#speed"]:after {
+      content: "\E543";
+    }
+    
+    h3#intelligence:after,
+    a[href*="#intelligence"]:after {
+      content: "\E5E6";
+    }
+    
+    h3#charisma:after,
+    a[href*="#charisma"]:after {
+      content: "\E6CC";
+    }
+
+    a[href$="#dmg-damage"]:after,
+    a[href$="#damage"]:after {
+      content: "\E1E8";
+    }
+
+    a[href*="#crit-critical"]:after,
+    a[href*="#critical-damage"]:after {
+      content: "\E5E2";
+    }
+    
+    h3#damage-reduction:after,
+    a[href*="#DR"]:after,
+    a[href*="#damage-reduction"]:after {
+      content: "\E023";
+    }
+    
+    h4#hit,
+    a[href*="#hit"]:after,
+    a[href*="#attack"]:after {
+      content: "\E8AA";
+    }
+    
+    a[href*="#rof"]:after,
+    a[href*="rof#stats"]:after {
+      content: "\E1DA";
+    }
+    
+    a[href*="#cap-capacity"]:after {
+      content: "\E1B6";
+    }
+    
+    a[href*="reload#stats"]:after {
+      content: "\E094";
+    }
+    
+    h2#skills:after,
+    h2#available-skills:after,
+    a[href*="#skills"]:after {
+      content: "\E71A";
+    }
+    
+    a[href^="./equipment"]:after {
+      content: "\E77F";
+    }
+    
+    h2#armour:after,
+    a[href*="#armour"]:after {
+      content: "\EA22";
+    }
+  }
+}
+
+$headers: h2, h3, h4;
+
+@each $header in $headers {
+  #{$header} {
+    position: relative !important;
+  }
+
+  #{$header}:after {
+    font-family: "game-icons";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+    margin-left: 0.5rem !important;
+    vertical-align: top;
+  }
+
+  #{$header} > a {
+    position: absolute;
+    right: 0;
+    &:after {
+      content: "" !important;
+    }
+  }
+}
