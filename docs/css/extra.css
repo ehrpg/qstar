@@ -203,30 +203,36 @@ i[f]:before {
   content: "\E4B0";
 }
 
+*:not(.md-search-result__item) > h3#perks:after,
 *:not(.md-search-result__item) > a[href$="#perks"]:after {
   content: "\E78F";
 }
 
+*:not(.md-search-result__item) > h3#flaws:after,
 *:not(.md-search-result__item) > a[href*="#flaws"]:after {
   content: "\E840";
 }
 
 *:not(.md-search-result__item) > h3#might:after,
+*:not(.md-search-result__item) > h3#might-skills:after,
 *:not(.md-search-result__item) > a[href*="#might"]:after {
   content: "\E696";
 }
 
 *:not(.md-search-result__item) > h3#speed:after,
+*:not(.md-search-result__item) > h3#speed-skills:after,
 *:not(.md-search-result__item) > a[href*="#speed"]:after {
   content: "\E543";
 }
 
 *:not(.md-search-result__item) > h3#intelligence:after,
+*:not(.md-search-result__item) > h3#intelligence-skills:after,
 *:not(.md-search-result__item) > a[href*="#intelligence"]:after {
   content: "\E5E6";
 }
 
 *:not(.md-search-result__item) > h3#charisma:after,
+*:not(.md-search-result__item) > h3#charisma-skills:after,
 *:not(.md-search-result__item) > a[href*="#charisma"]:after {
   content: "\E6CC";
 }

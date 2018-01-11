@@ -41,6 +41,7 @@ markdown_extensions:
     - admonition
     - attr_list
     - smarty
+    - footnotes
     - toc:
         permalink: True
 

@@ -1,9 +1,5 @@
 ;(function () {
   if (window.location.href.indexOf('/settings/stalker/equipment/') > -1) {
-    stalkerEquipment()
-  }
-
-  function stalkerEquipment () {
     var previousTr
     var cartridges = document.querySelector('h3#cartridges')
 

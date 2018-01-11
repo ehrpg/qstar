@@ -17,9 +17,9 @@ Abilities have ranks going from 1 to 10. Five (5) is the average, conferring
 neither a benefit nor a drawback. Every point below or above five grants an
 additional benefit. This benefit is called **ability modifier**:
 
-| Ability  | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
-|----------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| Modifier | -5  | -4  | -3  | -2  | -1  | +0  | +1  | +2  | +3  | +4  | +5  |
+| Ability  |   0   |   1   |   2   |   3   |   4   |   5   |   6   |   7   |   8   |   9   |   10  |
+|----------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| Modifier |   -5  |   -4  |   -3  |   -2  |   -1  |   +0  |   +1  |   +2  |   +3  |   +4  |   +5  |
 
 If an ability drops to zero, the character dies.
 
@@ -56,19 +56,18 @@ Objects only have a [health](#health) pool.
 
 *Endurance represents the character's short time well being and constitution.*
 
-A character that reaches zero [endurance](#endurance) becomes
-exhausted and is an easy target in combat or otherwise impaired. Being exhausted
-reduces the amount of actions per round to **1**.
-
 [Endurance](#endurance) is determined by rolling a number of dice equal to your
 [Might](#might) **rank** and then adding the base [endurance](#endurance) pool
 of your race to the results. Which dice are rolled is also determined by the
 race.
 
-Endurance recovers once the character has had enough time to rest (usually
-resting eight hours) without interruptions. Whenever you permanently increase or
-decrease [Might](#might) you must roll the [endurance](#endurance) dice and add
-or subtract that value from your [endurance](#endurance) pool.
+[Endurance](#endurance) recovers completely once the character has had enough
+time to rest (usually resting eight hours) without interruptions. Whenever you
+permanently increase or decrease [Might](#might) you must roll the
+[endurance](#endurance) dice and add or subtract that value from your
+[endurance](#endurance) pool.
+
+A character that reaches zero [endurance](#endurance) is **incapacitated**.
 
 !!! summary "How to determine *Endurance*"
     This formular uses the [Human](#human) race as an example.
@@ -77,9 +76,9 @@ or subtract that value from your [endurance](#endurance) pool.
     =
     <span data-bracket-bottom="base (race)">15</span>
     <span style="margin-left: 12px;">+</span>
-    <span data-bracket-bottom="might rank" style="margin-left: 12px;">n</span>
+    <span data-bracket-top="might rank" style="margin-left: 12px;">n</span>
     *
-    <span data-bracket-top="endurance die (race)">d10</span>
+    <span data-bracket-bottom="endurance die (race)">d10</span>
     </div>
 
 ### Health
@@ -87,11 +86,6 @@ or subtract that value from your [endurance](#endurance) pool.
 *Health represents the overall long-term physical health and well being of a
 character. Severe wounds, illness and temporary handicaps (such as broken arms
 or legs) are abstracted away in the health pool.*
-
-If [health](#health) drops to zero, the character is heavily wounded and near
-death. He is **incapacitated**, and automatically dies soon after if not
-medically treated. Receiving damage while the [health](#health) pool is at zero
-instantly kills the character.
 
 [Health](#health) is determined by rolling a number of dice equal to your
 [Might](#might) **rank** and then adding the base [health](#health) pool of your
@@ -102,6 +96,8 @@ race to the results. Which dice are rolled is also determined by race.
 decrease [Might](#might) you must roll the [health](#health) dice and add or
 subtract that value from your [health](#health) pool.
 
+If [health](#health) drops to zero, the character is killed.
+
 !!! summary "How to determine *Health*"
     This formular uses the [Human](#human) race as an example.
     <div class="formula formula-top formula-bottom">
@@ -109,9 +105,9 @@ subtract that value from your [health](#health) pool.
     =
     <span data-bracket-bottom="base (race)">5</span>
     <span style="margin-left: 12px;">+</span>
-    <span data-bracket-bottom="might rank" style="margin-left: 12px;">n</span>
+    <span data-bracket-top="might rank" style="margin-left: 12px;">n</span>
     *
-    <span data-bracket-top="health die (race)">d6</span>
+    <span data-bracket-bottom="health die (race)">d6</span>
     </div>
 
 ## Skills
@@ -157,10 +153,10 @@ to the skill check, while bad roleplay or none at all should impose a penalty.
     You, as a DM, can allow players to completely ignore a skill check / DC if
     they are roleplaying very well and/or playing to their characters strengths
     and weaknesses.
-
-    Also, a task that's so easy for a character that she doesn't have to roll if
-    the roleplay bonus was 0, can be skipped as well, even if no roleplaying is
-    done.
+    
+    Also, a task that's trivial or that's so easy for a character that she
+    doesn't have to roll if the roleplay bonus was 0, can be skipped as well,
+    even if no roleplaying is done.
 
 ### Tasks
 
@@ -239,20 +235,20 @@ character special abilities or drawbacks. [Perks](#perks) and [flaws](#flaws)
 aim at making a character more unique. It is up to the game master whether
 [perks](#perks) or [flaws](#flaws) can be freely purchased.
 
-### Perks ![](){ .qstar-present }
+### Perks
 
 [Perks](#perks) add positive modifiers, make a character better or enable
 certain actions. [Perks](#perks) have requirements and require Credits to be
 unlocked. A game master may also give them out based on experience throughout
 game play, or based on a character's background story.
 
-### Flaws ![](){ .qstar-broken-bone }
+### Flaws
 
 [Flaws](#flaws) reduce values, make a character weaker or disable certain
 actions. Usually [flaws](#flaws) can't be taken freely while playing.
 [Flaws](#flaws) should be chosen during character creation with the GMs help, or
-assigned to by the character while playing. Also, each flaw awards a benefit,
-but can also give Credits to the character instead.
+assigned to by the character while playing. Also, each [flaw](#flaws) awards a
+benefit in return, but can also give Credits to the character instead.
 
 ## Improving your character
 
@@ -286,11 +282,11 @@ Improving a skill costs:
 |-------------|-----------:|-------:|
 | Untrained   |          0 |      0 |
 | Proficient  |          1 |  1 000 |
-| Trained     |          2 |  8 000 |
-| Experienced |          3 | 27 000 |
-| Master      |          4 | 64 000 |
+| Trained     |          2 |  4 000 |
+| Experienced |          3 | 25 000 |
+| Master      |          4 | 82 000 |
 
-Formula: `cost = (x ^ 3) * 1000`
+Formula: `cost = ((x - 1) ^ 3) * 3000 + 1000`
 
 Buying [perks](#perks) may be done at any time, and the [perks](#perks)
 description lists the price.
@@ -321,11 +317,18 @@ check result.
 
 Cover provides vital bonuses to the creature's defence. 
 
-| Cover       | Bonus | Notes                                                                                    | Example                                                        |
-|-------------|------:|------------------------------------------------------------------------------------------|----------------------------------------------------------------|
-| Light Cover |    +4 | -2 [endurance](#endurance) [damage](#damage), Allows Stealth                             | Foliage, Smoke, Low Light                                      |
-| Heavy Cover |    +6 | -4 [endurance](#endurance) [damage](#damage)                                             | Complete darkness, Chest high inpenetrable wall                |
-| Entrenched  |    +8 | -6 [endurance](#endurance) [damage](#damage), immunity to [critical hits](#critical-hit) | Combined through Low and Heavy Cover, behind solid metal doors |
+| Cover       | Bonus | Notes                                                                        | Example                                                        |
+|-------------|------:|------------------------------------------------------------------------------|----------------------------------------------------------------|
+| Light Cover |    +2 | -2 [endurance damage](#damage)<br>Allows Stealth                             | Foliage, Smoke, Low Light                                      |
+| Heavy Cover |    +4 | -4 [endurance damage](#damage)                                               | Complete darkness, Chest high inpenetrable wall                |
+| Entrenched  |    +6 | -6 [endurance damage](#damage)<br>immunity to [critical hits](#critical-hit) | Combined through Low and Heavy Cover, behind solid metal doors |
+
+!!! info "Immunity to [critical hits](#critical-hit)"
+    The immunity does not apply for weapons that bypass cover, such as grenades
+    thrown right into the cover. The bonus from cover still applies to defence
+    however.
+
+    The DM may decide that the bonus to cover does not apply.
 
 ### Attack ![](){ .qstar-crosshair }
 
@@ -546,7 +549,7 @@ Last but not least buy equipment that suits your character. See
 
 The following skills are available in the base system of Q*:
 
-### Might ![](){ .qstar-biceps } Skills
+### Might Skills
 
 #### Athletics #### {.dt}
 
@@ -569,7 +572,7 @@ deflecting, blocking or dodging an attack.
 is the skill that replaces **Athletics** in micro gravity environments. It is
 used to manoeuvre in such weightless conditions.
 
-### Speed ![](){ .qstar-wingfoot } Skills
+### Speed Skills
 
 #### Driving #### {.dt}
 
@@ -602,7 +605,7 @@ to attack and defend.
 is used to sneak about, hide, hide things or use sleight of hand to conceal
 items. Its counter skill is [Notice](#notice).
 
-### Intelligence ![](){ .qstar-brain } Skills
+### Intelligence Skills
 
 #### Engineering #### {.dt}
 
@@ -650,7 +653,7 @@ medicine, etc. For all other scientific areas that weren't chosen, the character
 has basic knowledge. They only know common knowledge in these areas (according
 to their education), but nothing special.
 
-### Charisma ![](){ .qstar-minions } Skills
+### Charisma Skills
 
 #### Oratory #### {.dt}
 

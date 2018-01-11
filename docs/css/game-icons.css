@@ -8,6 +8,7 @@
     url('../fonts/game-icons.svg#game-icons') format('svg');
 }
 
+*[class^="qs-"]:after,
 *[class^="qstar-"]:after {
   font-family: "game-icons";
   -webkit-font-smoothing: antialiased;
@@ -17,7 +18,7 @@
   font-weight: normal;
   text-decoration: none;
   text-transform: none;
-  margin-left: 4px;
+  margin-left: 3px;
   vertical-align: top;
 }
 
@@ -25,7 +26,6 @@
 .qstar-success:after {
   font-family: 'Material Icons';
   color: #00c853;
-  vertical-align: top;
 
   content: "\E876";
 }
@@ -34,7 +34,6 @@
 .qstar-failure:after {
   font-family: 'Material Icons';
   color: #ff5252;
-  vertical-align: top;
 
   content: "\E14C";
 }
