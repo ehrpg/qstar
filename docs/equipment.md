@@ -9,21 +9,48 @@ these cards to other cards to make transactions.
 
 ## Armour
 
-| Armour           |   DR | Durability | Cost | Extras                                  |
-|------------------|-----:|-----------:|-----:|-----------------------------------------|
-| Body Armour MK I |    5 |          4 |  500 | Basic protection from physical attacks. |
+*Armour protects a creature from harm via [damage reduction](#damage-reduction)
+or environmental protection such as lethal gases.*
 
 ### Damage Reduction ![](){ .qstar-riot-shield }
 
 Armour reduces the incoming [damage](/#damage) (both [endurance](/#endurance)
-and [health](/#health)) by its damage reduction value. 
+and [health](/#health)) by its [damage reduction](#damage-reduction) value.
 
-Any [critical hit](/#critical-hit) or normal hit that deals [health](/#health)
-[damage](/#damage) reduces the durability of the armour by one. [Endurance
+Any [damage reduction](#damage-reduction) can't reduce the damage of a [critical
+hit](/#critical-hit) below 1.
+
+!!! note "Example"
+    A character is wearing a *Body Armour MK I* and is hit for 15 [endurance
+    damage](/#damage) and 2 times for 10 [health damage](/#damage) due to two
+    [critical hits](/#critical-hit). The armour reduces all values by 5,
+    resulting in 10 [endurance damage](/#damage) and 2 times 5 [health
+    damage](/#damage).
+
+### Durability 
+
+Any [critical hit](/#critical-hit) or normal hit that deals [health
+damage](/#damage) reduces the durability of the armour by one. [Endurance
 damage](/#damage) doesn't lower the armour's durability.
 
 If the durability of the armour drops to zero, it's destroyed or otherwise
 rendered useless.
+
+!!! note "Example"
+    Let's use the [damage reduction](#damage-reduction) example as base for this
+    one. The character was hit by 2 critical hits, reducing the durability of
+    the armour by 2 points. If the character was below 10
+    [endurance](/#endurance), the excess damage would have targetted his
+    [health](/#health) pool. The armour would then have lost another durability
+    point.
+
+### Body Armour
+
+Body armour provides basic protection from physical attacks.
+
+| Armour           |   DR | Durability | Cost | Notes |
+|------------------|-----:|-----------:|-----:|-------|
+| Body Armour MK I |    5 |          4 |  500 |       |
 
 ### Suits
 
@@ -42,50 +69,51 @@ Suits all have an armour rating.
 
 ### Stats
 
-#### Hit ![](){ .qstar-crosshair }
+#### Hit ![](){.qstar-crosshair} #### {.dt}
 
-Specifies any additional bonuses to an attack roll with this weapon.
+Better weapons add a bonus to the [attack](/#attack), while bad weapons or
+weapons in bad shape lower the attack roll by the specified value.
 
-#### DMG (damage) ![](){ .qstar-gunshot }
+#### DMG (damage) ![](){ .qstar-gunshot } #### {.dt}
 
-This value denotes the weapons [damage](/#damage). Any successful hit deals this
-value to the target as [damage](/#damage).
+This value denotes the weapons [damage](/#damage). Any *successful*{.qs-s} hit
+deals this value to the target as [damage](/#damage).
 
-#### Crit (critical) ![](){ .qstar-headshot-2 }
+#### Crit (critical) ![](){ .qstar-headshot-2 } #### {.dt}
 
 If you score a [critical hit](/#critical-hit) you deal the specified value as
 [critical damage](/#critical-damage) to the target.
 
-#### RoF ![](){ .qstar-bullets }
+#### RoF ![](){ .qstar-bullets } #### {.dt}
 
 Some weapons, including melee weapons, allow a highe [rate of
 fire](/equipment/?rof#stats) than other weapons. See [attack](/#attack) rules for
 details.
 
-#### Cap. (capacity) ![](){ .qstar-chaingun }
+#### Cap. (capacity) ![](){ .qstar-chaingun } #### {.dt}
 
 Specifies how often a gun can be fired before it has to be
 [reloaded](/equipment?reload#stats). Uses of [RoF](/equipment?rof#stats) use
 additional ammunition.
 
-#### Reload ![](){ .qstar-cycle }
+#### Reload ![](){ .qstar-cycle } #### {.dt}
 
 The amount of actions it takes to reload the weapon. Reloading can be paused and
 continued at any time.
 
-#### Range
+#### Range #### {.dt}
 
 Attacks within the specified range do not penalize the attack.
 
-#### Cost
+#### Cost #### {.dt}
 
 The cost of the weapon without ammo.
 
-#### Mag. (magazine)
+#### Mag. (magazine) #### {.dt}
 
 The cost of one magazine worth of ammo for the weapon.
 
-#### Notes
+#### Notes #### {.dt}
 
 Notes denote additional perks the weapons have.
 
@@ -163,9 +191,9 @@ amount of dice rolled for the current use.
 !!! note "Example"
     A character has been wounded and has lost 12 [health](/#health) points. The
     character is treated with a medical kit by a medic, who rolls his **first
-    aid** skill against the DC of 12. The medic *succeeds*{ .qstar-success } on
-    the task, and can heal the character by 2d10 [endurance](/#endurance) and
-    2d6 [health](/#health) instead of 1d10 [endurance](/#endurance) and 1d6
+    aid** skill against the DC of 12. The medic *succeeds*{.qs-s} on the task,
+    and can heal the character by 2d10 [endurance](/#endurance) and 2d6
+    [health](/#health) instead of 1d10 [endurance](/#endurance) and 1d6
     [health](/#health).
 
 ## Miscellaneous Items

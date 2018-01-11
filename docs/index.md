@@ -177,13 +177,13 @@ These DCs are recognized by the following categories:
 | Very Hard |   18+ |
 
 If a skill check meets or exceeds the set **DC** the skill check is
-*successful*{ .qstar-success }. If the skill check is less than the **DC** the
-skill check is a *failure*{ .qstar-failure }.
+*successful*{.qs-s}. If the skill check is less than the **DC** the
+skill check is a *failure*{.qs-f}.
 
 !!! summary "Succeeding and failing a task"
-    Skill check ≥ Task DC ⇒ *success*{ .qstar-success }
+    Skill check ≥ Task DC ⇒ *success*{.qs-s}
 
-    Skill check < Task DC ⇒ *failure*{ .qstar-failure }
+    Skill check < Task DC ⇒ *failure*{.qs-f}
 
 ### Aiding
 
@@ -191,7 +191,7 @@ At the game master's discretion, it is possible for one or more characters to
 aid another in an upcoming task (henceforth called the *main task*). The players
 aiding must be able to declare, and be able to perform the aid before the main
 task is attempted (i.e. rolled for). Then they must perform the same skill check
-(consuming an action) within their turn. Every *success*{ .qstar-success } of
+(consuming an action) within their turn. Every *success*{.qs-s} of
 those aiding translates into a tangible benefit for the main task. Such benefits
 could include (but are not limited to):
 
@@ -342,10 +342,10 @@ be fired to increase the hit chance and [critical hit](#critical-hit) chance.
     **4d6** total.
 
 If the [attack](#attack) is equal to or higher than the targets **defence**
-attack is *successful*{ .qstar-success }.
+attack is *successful*{.qs-s}.
 
 If the [attack](#attack) is less than the targets **defence** value the attack
-*fails*{ .qstar-failure }.
+*fails*{.qs-f}.
 
 On a hit you can deal [damage](#damage) and potential [critical
 damage](#critical-damage).
@@ -548,7 +548,7 @@ The following skills are available in the base system of Q*:
 
 ### Might ![](){ .qstar-biceps } Skills
 
-#### Athletics
+#### Athletics #### {.dt}
 
 is used to perform actions such as jumping, climbing, tumbling, lifting,
 dragging or rope walking. Extra ability modifiers may be spent on completing a
@@ -556,7 +556,7 @@ task faster, or to avoid extra falling damage in case of controlled jumps.
 Athletics is also used to move out of harms way. It can be used to dodge hazards
 such as a falling debris.
 
-#### Melee
+#### Melee #### {.dt}
 
 is the skill involved with all sorts of melee weapons, such as blades, axes,
 clubs or bare fists and kicks. Extra ability modifiers can be used to purchase
@@ -564,19 +564,19 @@ extra damage (1 modifier per point) or extra critical damage (1 modifier per two
 points). It's also used for defending against a melee attack, either by
 deflecting, blocking or dodging an attack.
 
-#### Micro Gravity
+#### Micro Gravity #### {.dt}
 
 is the skill that replaces **Athletics** in micro gravity environments. It is
 used to manoeuvre in such weightless conditions.
 
 ### Speed ![](){ .qstar-wingfoot } Skills
 
-#### Driving
+#### Driving #### {.dt}
 
 allows someone to steer land or sea based vehicles, such as cars, motorcycles
 and tanks.
 
-#### Heavy Weapons
+#### Heavy Weapons #### {.dt}
 
 allows operations of heavy or stationary guns. Such guns are usually mounted
 turrets on ships and tanks, but can also be land based artillery or very large
@@ -584,7 +584,7 @@ man portable weapons such as rocket launchers or guided missile platforms.
 Extra ability modifiers can be spend on either extra normal (1 modifier per
 point) or critical damage (1 modifier per two points).
 
-#### Light Weapons
+#### Light Weapons #### {.dt}
 
 is used to operate firearms such as pistols, rifles, or shotguns. Light weapons
 also applies to man portable weapons such as grenade launchers or light machine
@@ -592,58 +592,58 @@ guns. Extra ability modifiers can be spent on extra damage. Extra ability
 modifiers can be spend on either extra normal (1 modifier per point) or critical
 damage (1 modifier per two points).
 
-#### Piloting
+#### Piloting #### {.dt}
 
 is used to pilot any air or space borne vehicle. It's also used in vessel combat
 to attack and defend.
 
-#### Stealth
+#### Stealth #### {.dt}
 
 is used to sneak about, hide, hide things or use sleight of hand to conceal
 items. Its counter skill is [Notice](#notice).
 
 ### Intelligence ![](){ .qstar-brain } Skills
 
-#### Engineering
+#### Engineering #### {.dt}
 
 is used to construct and repair devices, buildings and vehicles. Servicing a
 motorcycle is considered engineering, as is constructing fortifications or
 repairing an airlock. Extra ability modifiers can be used to use less materials
 or complete the action faster.
 
-#### Explosives
+#### Explosives #### {.dt}
 
 can be used to disarm, handle or even build explosive ordinance. When explosives
 are thrown (i.e. grenades) roll Athletics instead. Otherwise defusing and
 planting explosives is a competition between the one setting it, and the one
 defusing it.
 
-#### First Aid
+#### First Aid #### {.dt}
 
 is used to treat wounds and cure health damage with the help of a medical item.
 A first aid check requires a first aid kit (or similar) and doubles the amount
 of dice rolled for [health](#health) and [endurance](#endurance) if the check is
-*successful*{ .qstar-success }. If the check *fails*{ .qstar-failure } the
+*successful*{.qs-s}. If the check *fails*{.qs-f} the
 normal amount of dice are applied as healing. The game master may also limit how
 often first aid can actually benefit a character depending on the severity of
 the wounds. See [medical items](/equipment#medical-items) for examples.
 
-#### Hacking
+#### Hacking #### {.dt}
 
 is used to bypass electronic security. Its counter skill is also hacking. Extra
 ability modifiers can be used to get the job done faster.
 
-#### Knowledge
+#### Knowledge #### {.dt}
 
 is chosen for a particular area, e.g. history, religion, etc. For all other
 knowledge skills, the character only has basic, common knowledge.
 
-#### Notice
+#### Notice #### {.dt}
 
 is used to spot hidden things or notice small details that would otherwise be
 missed. It is the counter part skill to [Stealth](#stealth).
 
-#### Science
+#### Science #### {.dt}
 
 is chosen for a particular scientific field, e.g. geology, biology, astronomy,
 medicine, etc. For all other scientific areas that weren't chosen, the character
@@ -652,13 +652,13 @@ to their education), but nothing special.
 
 ### Charisma ![](){ .qstar-minions } Skills
 
-#### Oratory
+#### Oratory #### {.dt}
 
 is used to sway another in ones favour through social interactions. It allows a
 character to bargain, bluff, intimidate or charm another. The counter skill is
 called **Sense Motive**.
 
-#### Sense Motive
+#### Sense Motive #### {.dt}
 
 allows to spot bluffs in conversations, resist an intimidation attempt, notice
 lies etc. It is the counter part skill to **Oratory**.
