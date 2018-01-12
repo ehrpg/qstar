@@ -1,9 +1,11 @@
 # Equipment
 
 !!! note "Selling [items](#items) and [equipment](#equipment)"
-    Selling items usually only profits one tenth of the price listed by the
+    Selling items usually only profits one half of the price listed by the
     *Cost* column. This applies, unless you sell to someone who is in need of
-    the items sold.
+    the items sold, rewarding up to the normal price or even more.
+
+    Always round down any fractions when selling.
 
     In case of ammo, you can only sell rounds in bulks as denoted by the
     *Rounds* column.
@@ -69,13 +71,13 @@ does not negate the sonic boom of the round breaking the sound barrier.
 
 | Name                             | Range  |  DMG | Crit | Rounds | Weight | Cost | Notes                                                  |
 |----------------------------------|--------|-----:|-----:|-------:|-------:|-----:|--------------------------------------------------------|
-| <span id="9x18"></span>  9x18mm  | Close  |   10 |    5 |     50 |    0.5 |   20 |                                                        |
-| <span id="45acp"></span> .45 ACP | Close  |   15 |    8 |     50 |      1 |   40 | subsonic                                               |
-| <span id="12g"></span>   12G     | Close  |   20 |   10 |     10 |    0.5 |   25 | deals additional 15 [damage](/#damage) in close range. |
-| <span id="545"></span>   5.45x39 | Medium |   15 |   10 |     30 |    0.5 |  100 |                                                        |
-| <span id="556"></span>   5.56x45 | Medium |   20 |   10 |     30 |    0.5 |  150 |                                                        |
-| <span id="939"></span>   9x39mm  | Medium |   20 |   10 |     30 |    0.5 |  150 | subsonic                                               |
-| <span id="762"></span>   7.62x54 | Far    |   25 |   15 |     20 |    0.5 |  200 |                                                        |
+| <span id="9x18"></span>  9x18mm  | Close  |   10 |    5 |     50 |    0.5 |   25 |                                                        |
+| <span id="45acp"></span> .45 ACP | Close  |   15 |    8 |     50 |      1 |   50 | subsonic                                               |
+| <span id="12g"></span>   12G     | Close  |   20 |   10 |     10 |    0.5 |   20 | deals additional 15 [damage](/#damage) in close range. |
+| <span id="545"></span>   5.45x39 | Medium |   15 |   10 |     30 |    0.5 |  150 |                                                        |
+| <span id="556"></span>   5.56x45 | Medium |   20 |   10 |     30 |    0.5 |  200 |                                                        |
+| <span id="939"></span>   9x39mm  | Medium |   20 |   10 |     20 |    0.5 |  200 | subsonic                                               |
+| <span id="762"></span>   7.62x54 | Far    |   25 |   15 |     20 |    0.5 |  300 |                                                        |
 | <span id="40mm"></span>  40mm    | Close  |  100 |  100 |      1 |      1 | 1000 |                                                        |
 
 
