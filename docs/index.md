@@ -594,6 +594,14 @@ guns. Extra ability modifiers can be spent on extra damage. Extra ability
 modifiers can be spend on either extra normal (1 modifier per point) or critical
 damage (1 modifier per two points).
 
+#### Lockpicking #### {.dt}
+
+is used for opening closed locks. Some doors cannot be lockpicked, some may
+require additional tools such as special lockpicking tools, others can be used
+by opened *by hand*. The skill assumes, that the character has simple,
+improvised tools to pick locks. Lockpicking is also used to break into objects
+such as safes.
+
 #### Piloting #### {.dt}
 
 is used to pilot any air or space borne vehicle. It's also used in vessel combat
@@ -628,7 +636,7 @@ of dice rolled for [health](#health) and [endurance](#endurance) if the check is
 *successful*{.qs-s}. If the check *fails*{.qs-f} the
 normal amount of dice are applied as healing. The game master may also limit how
 often first aid can actually benefit a character depending on the severity of
-the wounds. See [medical items](/equipment#medical-items) for examples.
+the wounds. See [medical items](/equipment#using-medical-items) for examples.
 
 #### Hacking #### {.dt}
 
