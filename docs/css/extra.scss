@@ -142,14 +142,14 @@ tr:nth-child(even) {
 
 h4.dt {
   width: 160px;
-}
 
-h4.dt a {
-  display: none !important;
-}
+  a {
+    display: none !important;
+  }
 
-h4.dt + p {
-  width: calc(100% - 165px);
+  + p {
+    width: calc(100% - 165px);
+  }
 }
 
 html {
@@ -181,6 +181,13 @@ i[f] {
 }
 
 *:not(.md-search-result__item) > {
+  h3#might-skills,
+  h3#speed-skills,
+  h3#intelligence-skills,
+  h3#charisma-skills {
+    z-index: 1;
+  }
+
   a[href="./equipment"]:after,
   a[href*="#"]:after {
     font-family: "game-icons";
@@ -287,6 +294,11 @@ i[f] {
   h2#armour:after,
   a[href*="#armour"]:after {
     content: "\EA22";
+  }
+
+  h4#turn-order:after,
+  a[href*="#turn-order"]:after {
+    content: "\E385";
   }
 }
 
