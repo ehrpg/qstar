@@ -676,6 +676,13 @@ called [Sense Motive](#sense-motive).
 #### Sense Motive #### {.dt}
 
 allows to spot bluffs in conversations, resist an intimidation attempt, notice
-lies etc. It is the counter part skill to [Oratory](#oratory).
+lies etc. It is the counter part skill to [Oratory](#oratory).,
+
+#### Small Unit Tactics #### {.dt}
+
+allows to point and interpret wordless commands in combat. The commander has to
+*succeed*{.qs-s} on a DC based on the command. The receiver also has to
+*succeed*{.qs-s} the task based on the DC. If the commanders skill check exceeds
+the DC a lot, the receiver may receive a bonus.
 
 <div style="clear: both;"></div>
