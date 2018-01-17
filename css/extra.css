@@ -179,6 +179,13 @@ i[f]:before {
   content: "\E14C";
 }
 
+*:not(.md-search-result__item) > h3#might-skills,
+*:not(.md-search-result__item) > h3#speed-skills,
+*:not(.md-search-result__item) > h3#intelligence-skills,
+*:not(.md-search-result__item) > h3#charisma-skills {
+  z-index: 1;
+}
+
 *:not(.md-search-result__item) > a[href="./equipment"]:after,
 *:not(.md-search-result__item) > a[href*="#"]:after {
   font-family: "game-icons";
@@ -211,13 +218,6 @@ i[f]:before {
 *:not(.md-search-result__item) > h3#flaws:after,
 *:not(.md-search-result__item) > a[href*="#flaws"]:after {
   content: "\E840";
-}
-
-*:not(.md-search-result__item) > h3#might-skills,
-*:not(.md-search-result__item) > h3#speed-skills,
-*:not(.md-search-result__item) > h3#intelligence-skills,
-*:not(.md-search-result__item) > h3#charisma-skills {
-  z-index: 1;
 }
 
 *:not(.md-search-result__item) > h3#might:after,
