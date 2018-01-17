@@ -667,6 +667,12 @@ to their education), but nothing special.
 
 ### Charisma Skills
 
+#### Back story #### {.dt}
+
+allows you to determine if you know other characters or things about them and
+their life. Knowledge about a character or past acquaintances may improve or
+worsen relations with that character.
+
 #### Oratory #### {.dt}
 
 is used to sway another in ones favour through social interactions. It allows a
