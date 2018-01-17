@@ -558,6 +558,11 @@ task faster, or to avoid extra falling damage in case of controlled jumps.
 Athletics is also used to move out of harms way. It can be used to dodge hazards
 such as a falling debris.
 
+#### Breaching #### {.dt}
+
+is used to break open containers, doors, etc. Some Things cannot be breached
+without proper tools, explosives or other aids. 
+
 #### Melee #### {.dt}
 
 is the skill involved with all sorts of melee weapons, such as blades, axes,
