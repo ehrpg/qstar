@@ -671,11 +671,11 @@ to their education), but nothing special.
 
 is used to sway another in ones favour through social interactions. It allows a
 character to bargain, bluff, intimidate or charm another. The counter skill is
-called **Sense Motive**.
+called [Sense Motive](#sense-motive).
 
 #### Sense Motive #### {.dt}
 
 allows to spot bluffs in conversations, resist an intimidation attempt, notice
-lies etc. It is the counter part skill to **Oratory**.
+lies etc. It is the counter part skill to [Oratory](#oratory).
 
 <div style="clear: both;"></div>

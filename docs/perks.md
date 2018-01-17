@@ -58,6 +58,15 @@ with **Health I** and **Health 2**.
 
 ## Combat
 
+### Trench Shooter
+
+You gain +2 on a light weapon check, when shooting a handgrenade mid-air with a
+shotgun.
+
+**Price**: 1 000
+
+**Requires**: **Light weapon** trained
+
 ### Weapon Finesse
 
 With the Weapon Finesse feat you use **Speed** (SP) instead of **Might** (MI)
