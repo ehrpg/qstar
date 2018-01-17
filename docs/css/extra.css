@@ -287,6 +287,11 @@ i[f]:before {
   content: "\EA22";
 }
 
+*:not(.md-search-result__item) > h4#turn-order:after,
+*:not(.md-search-result__item) > a[href*="#turn-order"]:after {
+  content: "\E385";
+}
+
 h2 {
   position: relative !important;
 }
