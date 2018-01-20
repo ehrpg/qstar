@@ -26,4 +26,4 @@ roll with *1d6*{.qs-1d6} less.
 <br>
 **Requires**: [Might](/#might) rank 4 or lower
 <br>
-**Benefit**: 2 000 Cr.
+**Benefit**: *2.000 Cr.*{.qs-cr}

@@ -167,7 +167,7 @@ items. Its counter skill is [Notice](#notice).
 *&nbsp;*{.qs-f} ![](){.qstar-2ones}
 {.dt}
 
-* placeholder
+* -2 on the check, possibly resulting in more enemies noticing you
 
 *&nbsp;*{.qs-s} ![](){.qstar-2sixes}
 {.dt}
@@ -320,12 +320,13 @@ called [Sense Motive](#sense-motive).
 *&nbsp;*{.qs-f} ![](){.qstar-2ones}
 {.dt}
 
-* placeholder
+* Your attempt fails, angering the other party
 
 *&nbsp;*{.qs-s} ![](){.qstar-2sixes}
 {.dt}
 
-* placeholder
+* Get a higher discount
+* Get more informations
 
 #### Sense Motive #### {.dt}
 
@@ -340,7 +341,7 @@ lies etc. It is the counter part skill to [Oratory](#oratory).
 *&nbsp;*{.qs-s} ![](){.qstar-2sixes}
 {.dt}
 
-* placeholder
+* +2 bonus on [Oratory](#oratory) to counter
 
 #### Small Unit Tactics #### {.dt}
 

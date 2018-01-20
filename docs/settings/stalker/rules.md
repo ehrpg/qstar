@@ -8,19 +8,19 @@ The radiation poisoning of a character is measured by rads. Any value smaller
 than one is ignored. All radiation a character receives is rounded down.
 
 The unit for measuring radiation is defined by rad/hour. For simplicity, this
-value can be divided by 10, if a character isn't exposed for a full hour.
+value can be divided by 10, called a *tick*, which is usefull if a character
+isn't exposed for a full hour.
 
 !!! info "Example"
-    A character who is exposed for 5 minutes would suffer one tenth of the
-    radiation, so 6 minutes worth of exposure. A character who is exposed for 26
-    minutes would suffer five tenth of the radiation, so 30 minutes worth of
-    exposure.
+    A character who is exposed for 5 minutes would suffer one tick of radiation,
+    so 6 minutes worth of exposure. A character who is exposed for 26 minutes
+    would suffer five ticks, so 30 minutes worth of exposure.
 
 !!! info "Example"
     A zone is contaminated and heavily radiated. Characters in the zone receive
     500 RAD/h. A character stays in the zone for 43 minutes. The DM divides the
-    radiation value by ten, resulting in 50 RAD/6min. The character receives 48
-    minutes (eigth tenth) worth of exposure, resulting in 400 RAD.
+    radiation value by ten, resulting in 50 RAD/tick. The character receives 48
+    minutes (eigth ticks) worth of exposure, resulting in 400 RAD.
 
 ### Exposure
 
@@ -46,11 +46,12 @@ radiation exposure.
 
 Also, certain equipment such as hazmat suits can reduce the radiation exposure
 or even reduce it to zero. The suit reduces the radiation exposure per hour by
-it's value.
+its value.
 
 !!! info "Example"
     A hazmat suit may have a radiation reduction of 100. A contaminated zone may
-    have 150 RAD/h. The suit reduces the radiation exposure to 50 RAD/h.
+    have 150 RAD/h. The suit reduces the radiation exposure to 50 RAD/h or 5
+    RAD/tick.
 
 ## Food & Water
 
@@ -59,29 +60,30 @@ the consequences.*
 
 Each character needs **one ration** worth of food and drinks **each day**. For
 each day a character does not eat and drink, she loses **10 points** of her
-**maximum endurance**. If the **endurance** becomes zero the characters falls
-unconcious and enters the **starving** state.
+[maximum endurance](/#endurance). If the [endurance](/#endurance) becomes zero
+the characters falls unconcious and enters the **starving** state.
 
-A **starving** character loses **10 points** of her **maximum health**  each day
-until the character dies or receives medical attention.
+A **starving** character loses **10 points** of her [maximum health](/#health)
+each day until the character dies or receives medical attention.
 
-A character regenerates **10 points** of **maximum health** and **maximum
-endurance** if they stay in bed and get **one ration** worth of food and drinks
-**each day**.<sup id="a1">[1](#f1)</sup> **Health** points are regained first.
+A character regenerates **10 points** of [maximum health](/#health) and [maximum
+endurance](/#endurance) if they stay in bed and get **one ration** worth of food
+and drinks **each day**[^1]. [Health](/#health) points are regained first.
 
-1. <small id="f1">If the character is unconcious they have to receive infusions
-   from others to regain conciousness.</small> [↩](#a1)
+[^1]:
+    If the character is unconcious they have to receive infusions from others to
+    regain conciousness.
 
 ## Skills
 
-### Obsolete Skills
-
-* ~~Micro Gravity~~
-
 ### New Skills
 
-* **Survival** (IN) is used to navigate through the zone, reading the weather
-  and staying safe of harm.  It also allows you to follow and track down
-  creatures, people and vehicles, if the tracks are fresh.
+#### Survival (IN) #### {.dt}
 
-* **Knowledge** (IN) adds new areas of expertise, namely mutants and anomalies.
+is used to navigate through the zone, reading the weather and staying safe of
+harm.  It also allows you to follow and track down creatures, people and
+vehicles, if the tracks are fresh.
+
+#### Knowledge (IN) #### {.dt}
+
+adds new areas of expertise: the zone, anomalies, artifacts, and mutants.
