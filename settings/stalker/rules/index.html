@@ -462,16 +462,29 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#obsolete-skills" title="Obsolete Skills" class="md-nav__link">
-    Obsolete Skills
+  <a href="#new-skills" title="New Skills" class="md-nav__link">
+    New Skills
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#survival-in" title="Survival (IN)" class="md-nav__link">
+    Survival (IN)
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#new-skills" title="New Skills" class="md-nav__link">
-    New Skills
+  <a href="#knowledge-in" title="Knowledge (IN)" class="md-nav__link">
+    Knowledge (IN)
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -636,16 +649,29 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#obsolete-skills" title="Obsolete Skills" class="md-nav__link">
-    Obsolete Skills
+  <a href="#new-skills" title="New Skills" class="md-nav__link">
+    New Skills
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#survival-in" title="Survival (IN)" class="md-nav__link">
+    Survival (IN)
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#new-skills" title="New Skills" class="md-nav__link">
-    New Skills
+  <a href="#knowledge-in" title="Knowledge (IN)" class="md-nav__link">
+    Knowledge (IN)
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -677,20 +703,20 @@
 <p>The radiation poisoning of a character is measured by rads. Any value smaller
 than one is ignored. All radiation a character receives is rounded down.</p>
 <p>The unit for measuring radiation is defined by rad/hour. For simplicity, this
-value can be divided by 10, if a character isn&rsquo;t exposed for a full hour.</p>
+value can be divided by 10, called a <em>tick</em>, which is usefull if a character
+isn&rsquo;t exposed for a full hour.</p>
 <div class="admonition info">
 <p class="admonition-title">Example</p>
-<p>A character who is exposed for 5 minutes would suffer one tenth of the
-radiation, so 6 minutes worth of exposure. A character who is exposed for 26
-minutes would suffer five tenth of the radiation, so 30 minutes worth of
-exposure.</p>
+<p>A character who is exposed for 5 minutes would suffer one tick of radiation,
+so 6 minutes worth of exposure. A character who is exposed for 26 minutes
+would suffer five ticks, so 30 minutes worth of exposure.</p>
 </div>
 <div class="admonition info">
 <p class="admonition-title">Example</p>
 <p>A zone is contaminated and heavily radiated. Characters in the zone receive
 500 RAD/h. A character stays in the zone for 43 minutes. The DM divides the
-radiation value by ten, resulting in 50 RAD/6min. The character receives 48
-minutes (eigth tenth) worth of exposure, resulting in 400 RAD.</p>
+radiation value by ten, resulting in 50 RAD/tick. The character receives 48
+minutes (eigth ticks) worth of exposure, resulting in 400 RAD.</p>
 </div>
 <h3 id="exposure">Exposure<a class="headerlink" href="#exposure" title="Permanent link">&para;</a></h3>
 <h3 id="radiation-effects">Radiation Effects<a class="headerlink" href="#radiation-effects" title="Permanent link">&para;</a></h3>
@@ -770,44 +796,42 @@ percentage let a character ignore the negative effects on endurance due to
 radiation exposure.</p>
 <p>Also, certain equipment such as hazmat suits can reduce the radiation exposure
 or even reduce it to zero. The suit reduces the radiation exposure per hour by
-it&rsquo;s value.</p>
+its value.</p>
 <div class="admonition info">
 <p class="admonition-title">Example</p>
 <p>A hazmat suit may have a radiation reduction of 100. A contaminated zone may
-have 150 RAD/h. The suit reduces the radiation exposure to 50 RAD/h.</p>
+have 150 RAD/h. The suit reduces the radiation exposure to 50 RAD/h or 5
+RAD/tick.</p>
 </div>
 <h2 id="food-water">Food &amp; Water<a class="headerlink" href="#food-water" title="Permanent link">&para;</a></h2>
 <p><em>Characters get hungry and thirsty, and need to eat and drink each day or suffer
 the consequences.</em></p>
 <p>Each character needs <strong>one ration</strong> worth of food and drinks <strong>each day</strong>. For
 each day a character does not eat and drink, she loses <strong>10 points</strong> of her
-<strong>maximum endurance</strong>. If the <strong>endurance</strong> becomes zero the characters falls
-unconcious and enters the <strong>starving</strong> state.</p>
-<p>A <strong>starving</strong> character loses <strong>10 points</strong> of her <strong>maximum health</strong>  each day
-until the character dies or receives medical attention.</p>
-<p>A character regenerates <strong>10 points</strong> of <strong>maximum health</strong> and <strong>maximum
-endurance</strong> if they stay in bed and get <strong>one ration</strong> worth of food and drinks
-<strong>each day</strong>.<sup id="a1"><a href="#f1">1</a></sup> <strong>Health</strong> points are regained first.</p>
-<ol>
-<li><small id="f1">If the character is unconcious they have to receive infusions
-   from others to regain conciousness.</small> <a href="#a1">↩</a></li>
-</ol>
+<a href="../../../#endurance">maximum endurance</a>. If the <a href="../../../#endurance">endurance</a> becomes zero
+the characters falls unconcious and enters the <strong>starving</strong> state.</p>
+<p>A <strong>starving</strong> character loses <strong>10 points</strong> of her <a href="../../../#health">maximum health</a>
+each day until the character dies or receives medical attention.</p>
+<p>A character regenerates <strong>10 points</strong> of <a href="../../../#health">maximum health</a> and <a href="../../../#endurance">maximum
+endurance</a> if they stay in bed and get <strong>one ration</strong> worth of food
+and drinks <strong>each day</strong><sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup>. <a href="../../../#health">Health</a> points are regained first.</p>
 <h2 id="skills">Skills<a class="headerlink" href="#skills" title="Permanent link">&para;</a></h2>
-<h3 id="obsolete-skills">Obsolete Skills<a class="headerlink" href="#obsolete-skills" title="Permanent link">&para;</a></h3>
-<ul>
-<li>~~Micro Gravity~~</li>
-</ul>
 <h3 id="new-skills">New Skills<a class="headerlink" href="#new-skills" title="Permanent link">&para;</a></h3>
-<ul>
-<li>
-<p><strong>Survival</strong> (IN) is used to navigate through the zone, reading the weather
-  and staying safe of harm.  It also allows you to follow and track down
-  creatures, people and vehicles, if the tracks are fresh.</p>
+<h4 class="dt" id="survival-in">Survival (IN)<a class="headerlink" href="#survival-in" title="Permanent link">&para;</a></h4>
+<p>is used to navigate through the zone, reading the weather and staying safe of
+harm.  It also allows you to follow and track down creatures, people and
+vehicles, if the tracks are fresh.</p>
+<h4 class="dt" id="knowledge-in">Knowledge (IN)<a class="headerlink" href="#knowledge-in" title="Permanent link">&para;</a></h4>
+<p>adds new areas of expertise: the zone, anomalies, artifacts, and mutants.</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>If the character is unconcious they have to receive infusions from others to
+regain conciousness.&#160;<a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
-<li>
-<p><strong>Knowledge</strong> (IN) adds new areas of expertise, namely mutants and anomalies.</p>
-</li>
-</ul>
+</ol>
+</div>
                 
                   
                 

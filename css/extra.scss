@@ -324,6 +324,13 @@ i[f] {
   a[href*="#turn-order"]:after {
     content: "\E385";
   }
+
+  .qs-cr {
+    font-style: normal;
+    &:after {
+      content: "\E8D7";
+    }
+  }
 }
 
 

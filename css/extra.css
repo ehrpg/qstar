@@ -323,6 +323,14 @@ i[f]:before {
   content: "\E385";
 }
 
+*:not(.md-search-result__item) > .qs-cr {
+  font-style: normal;
+}
+
+*:not(.md-search-result__item) > .qs-cr:after {
+  content: "\E8D7";
+}
+
 .qstar-2ones:after {
   content: "\E90E \E90E";
 }
