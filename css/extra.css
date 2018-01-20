@@ -120,35 +120,52 @@ tr:nth-child(even) {
   margin: 0.1em 0 1em 1.875em;
 }
 
-.dt {
+p.dt + ul {
+  margin: 0 !important;
+  margin-left: 160px !important;
+}
+
+p.dt + ul li {
+  display: inline;
+  padding-right: 3px;
+  margin: 0 !important;
+}
+
+p.dt + ul li:not(:first-child):before {
+  content: "\2022";
+  padding-right: 5px;
+}
+
+h4.dt,
+p.dt {
+  float: left;
+  width: 140px;
+  overflow: hidden;
+  clear: left;
   text-align: right;
-  margin-top: -5.2rem !important;
-  padding-top: 6rem !important;
-  padding-right: 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 0 !important;
 }
 
-.dt,
-.dt + p {
-  vertical-align: top;
-  display: inline-block;
-  margin-top: 0.8rem;
-  margin-bottom: 0.8rem;
-}
-
-.dt + p {
-  padding-left: 0.2rem;
+h4.dt + p,
+p.dt + p {
+  margin: 0 !important;
+  margin-left: 160px !important;
+  margin-bottom: 0.3em !important;
 }
 
 h4.dt {
-  width: 160px;
+  margin-top: -3em !important;
+  padding-top: 4.5em !important;
+}
+
+h4.dt + p {
+  padding-top: 1.5em !important;
 }
 
 h4.dt a {
   display: none !important;
-}
-
-h4.dt + p {
-  width: calc(100% - 165px);
 }
 
 html {
@@ -184,6 +201,8 @@ i[f]:before {
 *:not(.md-search-result__item) > h3#intelligence-skills,
 *:not(.md-search-result__item) > h3#charisma-skills {
   z-index: 1;
+  padding-top: 1em;
+  margin-bottom: 0.8rem;
 }
 
 *:not(.md-search-result__item) > a[href="./equipment"]:after,
@@ -297,6 +316,14 @@ i[f]:before {
 *:not(.md-search-result__item) > h4#turn-order:after,
 *:not(.md-search-result__item) > a[href*="#turn-order"]:after {
   content: "\E385";
+}
+
+.qstar-2ones:after {
+  content: "\E90E \E90E";
+}
+
+.qstar-2sixes:after {
+  content: "\E90F \E90F";
 }
 
 h2 {

@@ -121,34 +121,53 @@ tr:nth-child(even) {
   margin: 0.1em 0 1em 1.875em
 }
 
-.dt {
-  text-align: right;
-  margin-top: -5.2rem !important;
-  padding-top: 6rem !important;
-  padding-right: 10px;
+p.dt + ul {
+  margin: 0 !important;
+  margin-left: 160px !important;
+  li {
+    display: inline;
+    padding-right: 3px;
+    margin: 0 !important;
 
-  &,
-  + p {
-    vertical-align: top;
-    display: inline-block;
-    margin-top: 0.8rem;
-    margin-bottom: 0.8rem;
+    &:not(:first-child):before {
+      content: "\2022";
+      padding-right: 5px;
+    }
   }
+}
 
+
+h4.dt,
+p.dt {
+
+  float: left;
+  width: 140px;
+  overflow: hidden;
+  clear: left;
+  text-align: right;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  margin: 0 !important;
+  
   + p {
-    padding-left: 0.2rem;
+    margin: 0 !important;
+    margin-left: 160px !important;
+
+    margin-bottom: 0.3em !important;
   }
 }
 
 h4.dt {
-  width: 160px;
+  margin-top: -3em !important;
+  padding-top: 4.5em !important;
+
+  + p {
+    padding-top: 1.5em !important;
+  }
 
   a {
     display: none !important;
-  }
-
-  + p {
-    width: calc(100% - 165px);
   }
 }
 
@@ -186,6 +205,8 @@ i[f] {
   h3#intelligence-skills,
   h3#charisma-skills {
     z-index: 1;
+    padding-top: 1em;
+    margin-bottom: 0.8rem;
   }
 
   a[href="./equipment"]:after,
@@ -300,6 +321,15 @@ i[f] {
   a[href*="#turn-order"]:after {
     content: "\E385";
   }
+}
+
+
+.qstar-2ones:after {
+  content: "\E90E \E90E";
+}
+
+.qstar-2sixes:after {
+  content: "\E90F \E90F";
 }
 
 $headers: h2, h3, h4;

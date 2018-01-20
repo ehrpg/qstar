@@ -9307,7 +9307,7 @@
 }
 
 .qstar-dice-six-faces-one:after {
-  content: "\E90E";
+  content: "\E90E \E90E";
 }
 
 .qstar-dice-six-faces-six:after {
