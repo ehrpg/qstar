@@ -136,6 +136,10 @@ p.dt + ul li:not(:first-child):before {
   padding-right: 5px;
 }
 
+.dt {
+  color: #444;
+}
+
 h4.dt,
 p.dt {
   float: left;
@@ -196,10 +200,10 @@ i[f]:before {
   content: "\E14C";
 }
 
-*:not(.md-search-result__item) > h3#might-skills,
-*:not(.md-search-result__item) > h3#speed-skills,
-*:not(.md-search-result__item) > h3#intelligence-skills,
-*:not(.md-search-result__item) > h3#charisma-skills {
+*:not(.md-search-result__item) > h2#might-skills,
+*:not(.md-search-result__item) > h2#speed-skills,
+*:not(.md-search-result__item) > h2#intelligence-skills,
+*:not(.md-search-result__item) > h2#charisma-skills {
   z-index: 1;
   padding-top: 1em;
   margin-bottom: 0.8rem;
@@ -240,25 +244,25 @@ i[f]:before {
 }
 
 *:not(.md-search-result__item) > h3#might:after,
-*:not(.md-search-result__item) > h3#might-skills:after,
+*:not(.md-search-result__item) > h2#might-skills:after,
 *:not(.md-search-result__item) > a[href*="#might"]:after {
   content: "\E696";
 }
 
 *:not(.md-search-result__item) > h3#speed:after,
-*:not(.md-search-result__item) > h3#speed-skills:after,
+*:not(.md-search-result__item) > h2#speed-skills:after,
 *:not(.md-search-result__item) > a[href*="#speed"]:after {
   content: "\E543";
 }
 
 *:not(.md-search-result__item) > h3#intelligence:after,
-*:not(.md-search-result__item) > h3#intelligence-skills:after,
+*:not(.md-search-result__item) > h2#intelligence-skills:after,
 *:not(.md-search-result__item) > a[href*="#intelligence"]:after {
   content: "\E5E6";
 }
 
 *:not(.md-search-result__item) > h3#charisma:after,
-*:not(.md-search-result__item) > h3#charisma-skills:after,
+*:not(.md-search-result__item) > h2#charisma-skills:after,
 *:not(.md-search-result__item) > a[href*="#charisma"]:after {
   content: "\E6CC";
 }
@@ -298,6 +302,7 @@ i[f]:before {
   content: "\E094";
 }
 
+*:not(.md-search-result__item) > h1#skills:after,
 *:not(.md-search-result__item) > h2#skills:after,
 *:not(.md-search-result__item) > h2#available-skills:after,
 *:not(.md-search-result__item) > a[href*="#skills"]:after {
@@ -324,6 +329,32 @@ i[f]:before {
 
 .qstar-2sixes:after {
   content: "\E90F \E90F";
+}
+
+h1 {
+  position: relative !important;
+}
+
+h1:after {
+  font-family: "game-icons";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  margin-left: 0.5rem !important;
+  vertical-align: top;
+}
+
+h1 > a {
+  position: absolute;
+  right: 0;
+}
+
+h1 > a:after {
+  content: "" !important;
 }
 
 h2 {

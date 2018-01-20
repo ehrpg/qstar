@@ -22,6 +22,11 @@
   vertical-align: top;
 }
 
+.qs-1d6:after {
+  font-family: "game-icons";
+  content: "\E918";
+}
+
 .qs-s:after,
 .qstar-success:after {
   font-family: 'Material Icons';

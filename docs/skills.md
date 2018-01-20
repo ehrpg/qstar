@@ -3,7 +3,7 @@
 
 The following skills are available in the base system of Q*:
 
-### Might Skills
+## Might Skills
 
 #### Athletics #### {.dt}
 
@@ -16,7 +16,7 @@ can be used to dodge hazards such as a falling debris.
 
 * You fall prone
 * You slip and fall
-* Your throw hits an obstacle 
+* Your throw hits an obstacle and bounces back
 
 *&nbsp;*{.qs-s} ![](){.qstar-2sixes}
 {.dt}
@@ -25,8 +25,8 @@ can be used to dodge hazards such as a falling debris.
 
 #### Breaching #### {.dt}
 
-is used to break open containers, doors, etc. Some Things cannot be breached
-without proper tools, explosives or other aids. 
+is used to break open containers, doors, etc. Some things cannot be breached
+without proper tools, explosives or other aids.
 
 *&nbsp;*{.qs-f} ![](){.qstar-2ones}
 {.dt}
@@ -55,12 +55,12 @@ attack, either by deflecting, blocking or dodging an attack.
 *&nbsp;*{.qs-s} ![](){.qstar-2sixes}
 {.dt}
 
-* placeholder
+* You disarm your opponent
 
 #### Micro Gravity #### {.dt}
 
-is the skill that replaces **Athletics** in micro gravity environments. It is
-used to manoeuvre in such weightless conditions.
+is the skill that replaces [Athletics](#athletics) in micro gravity
+environments. It is used to manoeuvre in such weightless conditions.
 
 *&nbsp;*{.qs-f} ![](){.qstar-2ones}
 {.dt}
@@ -73,12 +73,12 @@ used to manoeuvre in such weightless conditions.
 
 * placeholder
 
-### Speed Skills
+## Speed Skills
 
 #### Driving #### {.dt}
 
-allows someone to steer land or sea based vehicles, such as cars, motorcycles
-and tanks.
+allows you to steer land or sea based vehicles, such as cars, motorcycles and
+tanks.
 
 *&nbsp;*{.qs-f} ![](){.qstar-2ones}
 {.dt}
@@ -147,7 +147,7 @@ such as safes.
 #### Piloting #### {.dt}
 
 is used to pilot any air or space borne vehicle. It's also used in vessel combat
-to attack and defend.
+to attack and defend inplace of [light weapons](#light-weapons).
 
 *&nbsp;*{.qs-f} ![](){.qstar-2ones}
 {.dt}
@@ -174,7 +174,7 @@ items. Its counter skill is [Notice](#notice).
 
 * placeholder
 
-### Intelligence Skills
+## Intelligence Skills
 
 #### Engineering #### {.dt}
 
@@ -203,12 +203,13 @@ defusing it.
 *&nbsp;*{.qs-f} ![](){.qstar-2ones}
 {.dt}
 
-* placeholder
+* The trigger for the explosive device fails
+* The explosion is delayed by some time
 
 *&nbsp;*{.qs-s} ![](){.qstar-2sixes}
 {.dt}
 
-* placeholder
+* You need less materials for crafting explosives
 
 #### First Aid #### {.dt}
 
@@ -223,12 +224,12 @@ the wounds. See [medical items](/equipment#using-medical-items) for examples.
 *&nbsp;*{.qs-f} ![](){.qstar-2ones}
 {.dt}
 
-* placeholder
+* You lose the medical item without any health restored
 
 *&nbsp;*{.qs-s} ![](){.qstar-2sixes}
 {.dt}
 
-* placeholder
+* Add *1d6*{.qs-1d6} to the amount of health restored
 
 #### Hacking #### {.dt}
 
@@ -238,12 +239,12 @@ ability modifiers can be used to get the job done faster.
 *&nbsp;*{.qs-f} ![](){.qstar-2ones}
 {.dt}
 
-* placeholder
+* You trigger a system lockdown
 
 *&nbsp;*{.qs-s} ![](){.qstar-2sixes}
 {.dt}
 
-* placeholder
+* You gain full access to the system
 
 #### Knowledge #### {.dt}
 
@@ -292,7 +293,7 @@ to their education), but nothing special.
 
 * placeholder
 
-### Charisma Skills
+## Charisma Skills
 
 #### Back story #### {.dt}
 
@@ -303,12 +304,12 @@ worsen relations with that character.
 *&nbsp;*{.qs-f} ![](){.qstar-2ones}
 {.dt}
 
-* placeholder
+* You have bad reputation amongst the other party
 
 *&nbsp;*{.qs-s} ![](){.qstar-2sixes}
 {.dt}
 
-* placeholder
+* You're a friend of the other party
 
 #### Oratory #### {.dt}
 

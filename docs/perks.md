@@ -60,33 +60,34 @@ with **Health I** and **Health 2**.
 
 #### Trench Shooter #### {.dt}
 
-You gain +2 on a light weapon check, when shooting a handgrenade mid-air with a
-shotgun.
+You gain +2 on a [light weapons](/skills#light-weapons) check, when shooting a
+handgrenade mid-air with a shotgun.
 <br>
 **Price**: 1 000
 <br>
-**Requires**: **Light weapon** trained
+**Requires**: [Light weapon](/skills#light-weapons) trained
 
 #### Weapon Finesse #### {.dt}
 
-With the Weapon Finesse feat you use **Speed** (SP) instead of **Might** (MI)
-when using the **Melee** skill with small and light weight weapons (such as
-knives).
+With the Weapon Finesse feat you use [Speed](/#speed) instead of
+[Might](/#might) when using the [Melee](/skills#melee) skill with small and
+light weight weapons (such as knives).
 <br>
 **Price**: 1 000
 <br>
-**Requires**: **Speed** 6 or higher
+**Requires**: [Speed](/#speed) 6 or higher
 
 ## Social
 
 #### Forceful Presence #### {.dt}
 
-With **Forceful Presence** you may use **Might** (MI) instead of **Charisma**
-(CA) when you attempt to intimidate another using the **Oratory** skill.
+With **Forceful Presence** you may use [Might](/#might) instead of
+[Charisma](/#charisma) when you attempt to intimidate another using the
+[Oratory](/skills#oratory) skill.
 <br>
 **Price**: 1 000
 <br>
-**Requires**: **Might** 6 or higher
+**Requires**: [Might](/#might) 6 or higher
 
 ## Special skills
 

@@ -172,21 +172,23 @@ modifier** as extra damage.
 
 Medical items recover endurance or even health.
 
-| Item            |  Cost | Weight | Endurance | Health | Notes              |
-|-----------------|------:|-------:|----------:|-------:|--------------------|
-| Adrenaline Shot |   400 |    0.2 |      1d10 |      - | Temporary (5 min.) |
-| First Aid Kit   |   600 |      1 |       1d6 |      - |                    |
-| Medical Kit     | 1 200 |      2 |      1d10 |    1d6 |                    |
+| Item                       |  Cost | Weight | Endurance | Health | Notes               |
+|----------------------------|------:|-------:|----------:|-------:|---------------------|
+| Adrenaline Shot            |   400 |    0.2 |       2d6 |      - | Temporary (10 min.) |
+| Bandages                   |   100 |      1 |         - |      1 |                     |
+| First Aid Kit              |   600 |      1 |       1d6 |    1d4 |                     |
+| Medical Kit                | 1 200 |      2 |      1d10 |    1d6 |                     |
+| Military-grade Medical Kit | 2 500 |    2.5 |       2d6 |    2d6 |                     |
 
 * *Temporary* means that the effect only lasts some time, indicated by the
   parenthesis.
 
 ### Using Medical Items
 
-Using medical items do not require the use of any skills. The **first aid**
-skill can be used for additional bonuses. The DC for the check is the amount of
-[health](/#health) damage a creature may have. If the DC is met, double the
-amount of dice rolled for the current use.
+Using medical items do not require the use of any skills. The [first
+aid](/skills#first-aid) skill can be used for additional bonuses. The DC for the
+check is the amount of [health](/#health) damage a creature may have. If the DC
+is met, double the amount of dice rolled for the current use.
 
 !!! note "Example"
     A character has been wounded and has lost 12 [health](/#health) points. The
