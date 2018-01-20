@@ -48,6 +48,7 @@ markdown_extensions:
 pages:
     - Q*:
         - Rules: 'index.md'
+        - Skills: 'skills.md'
         - Perks: 'perks.md'
         - Flaws: 'flaws.md'
         - Equipment: 'equipment.md'

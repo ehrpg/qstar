@@ -117,9 +117,8 @@ course of gameplay. Whenever a character attempts a task a skill roll
 is involved.
 
 A skill has five ranks: **untrained**, **proficient**, **trained**,
-**experienced**, **master**. The ranks are numbered 1 (untrained) through 5
-(master) respectively. Each rank provides additional bonuses to skill checks and
-allows the selection of additional [perks](#perks).
+**experienced**, **master**. Each rank provides additional bonuses to skill
+checks and allows the selection of additional [perks](#perks).
 
 | Rank        | Skill Bonus |
 |-------------|------------:|
@@ -136,6 +135,12 @@ every skill at the untrained level.
 In addition to abilities and skills, skill checks also receive a bonus or
 drawback from roleplaying. Good roleplay should be rewarded by awarding a bonus
 to the skill check, while bad roleplay or none at all should impose a penalty.
+
+Skills impose penalties or add bonuses to the outcome when you either roll two
+ones or two sixes on any skill check. These only apply however, if the skill
+itself fails or succeeds. Rolling two ones or sixes does not automatically make
+you fail or succeed on the task. The [available skills](#available-skills) list
+some examples of additional outcomes.
 
 !!! summary "How to make a **skill check**"
     <div class="formula formula-top formula-bottom">
@@ -385,9 +390,9 @@ Damaging objects is the same as damaging another player or NPC, except that
 inanimate objects have no [endurance](#endurance), just [health](#health).
 
 !!! summary "Damaged characters"
-    If [endurance](#endurance) drops to zero the character
-    becomes **incapacitated**.<br> If [health](#health) drops to zero the
-    character is **dead**.
+    If [endurance](#endurance) drops to zero the character becomes
+    **incapacitated**.<br> If [health](#health) drops to zero the character is
+    **dead**.
 
 #### Critical Hit
 
@@ -431,8 +436,8 @@ constitutes a crisis is always up the game master.
 
 ### Turn order ![](){ .qstar-sprint }
 
-When a crisis starts, all involved have to determine their turn order. Roll a 6
-sided die (d6) and add your [Speed](#speed){ .qstar-wingfoot } and
+When a crisis starts, all involved have to determine their turn order. Roll 3d6
+and add your [Speed](#speed){ .qstar-wingfoot } and
 [Intelligence](#intelligence){ .qstar-brain } modifiers to the result.
 [Perks](#perks) and [flaws](#flaws) may give additional bonuses or penalties to
 [initiative](#turn-order){ .qstar-sprint }. Players, NPCs and monsters start in
@@ -444,7 +449,7 @@ a tie roll again.
     <div class="formula formula-top formula-bottom">
     [Turn Order](#turn-order){ .qstar-sprint }
     =
-    <span data-bracket-bottom="base">1d6</span>
+    <span data-bracket-bottom="base">3d6</span>
     ±
     <span data-bracket-top="modifier">
       <a href="#speed" class="qstar-wingfoot">Speed</a>
@@ -452,6 +457,10 @@ a tie roll again.
     ±
     <span data-bracket-bottom="modifier">
       <a href="#intelligence" class="qstar-brain">Intelligence</a>
+    </span>
+    ±
+    <span data-bracket-top="external factors">
+      Circumstance
     </span>
     </div>
 
@@ -543,152 +552,3 @@ Note these values on your character sheet.
 
 Last but not least buy equipment that suits your character. See
 [equipment](./equipment).
-
-## Available Skills
-
-The following skills are available in the base system of Q*:
-
-### Might Skills
-
-#### Athletics #### {.dt}
-
-is used to perform actions such as jumping, climbing, tumbling, lifting,
-dragging or rope walking. Extra ability modifiers may be spent on completing a
-task faster, or to avoid extra falling damage in case of controlled jumps.
-Athletics is also used to move out of harms way. It can be used to dodge hazards
-such as a falling debris.
-
-#### Breaching #### {.dt}
-
-is used to break open containers, doors, etc. Some Things cannot be breached
-without proper tools, explosives or other aids. 
-
-#### Melee #### {.dt}
-
-is the skill involved with all sorts of melee weapons, such as blades, axes,
-clubs or bare fists and kicks. Extra ability modifiers can be used to purchase
-extra damage (1 modifier per point) or extra critical damage (1 modifier per two
-points). It's also used for defending against a melee attack, either by
-deflecting, blocking or dodging an attack.
-
-#### Micro Gravity #### {.dt}
-
-is the skill that replaces **Athletics** in micro gravity environments. It is
-used to manoeuvre in such weightless conditions.
-
-### Speed Skills
-
-#### Driving #### {.dt}
-
-allows someone to steer land or sea based vehicles, such as cars, motorcycles
-and tanks.
-
-#### Heavy Weapons #### {.dt}
-
-allows operations of heavy or stationary guns. Such guns are usually mounted
-turrets on ships and tanks, but can also be land based artillery or very large
-man portable weapons such as rocket launchers or guided missile platforms.
-Extra ability modifiers can be spend on either extra normal (1 modifier per
-point) or critical damage (1 modifier per two points).
-
-#### Light Weapons #### {.dt}
-
-is used to operate firearms such as pistols, rifles, or shotguns. Light weapons
-also applies to man portable weapons such as grenade launchers or light machine
-guns. Extra ability modifiers can be spent on extra damage. Extra ability
-modifiers can be spend on either extra normal (1 modifier per point) or critical
-damage (1 modifier per two points).
-
-#### Lockpicking #### {.dt}
-
-is used for opening closed locks. Some doors cannot be lockpicked, some may
-require additional tools such as special lockpicking tools, others can be used
-by opened *by hand*. The skill assumes, that the character has simple,
-improvised tools to pick locks. Lockpicking is also used to break into objects
-such as safes.
-
-#### Piloting #### {.dt}
-
-is used to pilot any air or space borne vehicle. It's also used in vessel combat
-to attack and defend.
-
-#### Stealth #### {.dt}
-
-is used to sneak about, hide, hide things or use sleight of hand to conceal
-items. Its counter skill is [Notice](#notice).
-
-### Intelligence Skills
-
-#### Engineering #### {.dt}
-
-is used to construct and repair devices, buildings and vehicles. Servicing a
-motorcycle is considered engineering, as is constructing fortifications or
-repairing an airlock. Extra ability modifiers can be used to use less materials
-or complete the action faster.
-
-#### Explosives #### {.dt}
-
-can be used to disarm, handle or even build explosive ordinance. When explosives
-are thrown (i.e. grenades) roll Athletics instead. Otherwise defusing and
-planting explosives is a competition between the one setting it, and the one
-defusing it.
-
-#### First Aid #### {.dt}
-
-is used to treat wounds and cure health damage with the help of a medical item.
-A first aid check requires a first aid kit (or similar) and doubles the amount
-of dice rolled for [health](#health) and [endurance](#endurance) if the check is
-*successful*{.qs-s}. If the check *fails*{.qs-f} the
-normal amount of dice are applied as healing. The game master may also limit how
-often first aid can actually benefit a character depending on the severity of
-the wounds. See [medical items](/equipment#using-medical-items) for examples.
-
-#### Hacking #### {.dt}
-
-is used to bypass electronic security. Its counter skill is also hacking. Extra
-ability modifiers can be used to get the job done faster.
-
-#### Knowledge #### {.dt}
-
-is chosen for a particular area, e.g. history, religion, etc. For all other
-knowledge skills, the character only has basic, common knowledge.
-
-#### Notice #### {.dt}
-
-is used to spot hidden things or notice small details that would otherwise be
-missed. It is the counter part skill to [Stealth](#stealth).
-
-#### Science #### {.dt}
-
-is chosen for a particular scientific field, e.g. geology, biology, astronomy,
-medicine, etc. For all other scientific areas that weren't chosen, the character
-has basic knowledge. They only know common knowledge in these areas (according
-to their education), but nothing special.
-
-### Charisma Skills
-
-#### Back story #### {.dt}
-
-allows you to determine if you know other characters or things about them and
-their life. Knowledge about a character or past acquaintances may improve or
-worsen relations with that character.
-
-#### Oratory #### {.dt}
-
-is used to sway another in ones favour through social interactions. It allows a
-character to bargain, bluff, intimidate or charm another. The counter skill is
-called [Sense Motive](#sense-motive).
-
-#### Sense Motive #### {.dt}
-
-allows to spot bluffs in conversations, resist an intimidation attempt, notice
-lies etc. It is the counter part skill to [Oratory](#oratory).,
-
-#### Small Unit Tactics #### {.dt}
-
-allows to point and interpret wordless commands in combat. The commander has to
-*succeed*{.qs-s} on a DC based on the command. The receiver also has to
-*succeed*{.qs-s} the task based on the DC. If the commanders skill check exceeds
-the DC a lot, the receiver may receive a bonus.
-
-<div style="clear: both;"></div>
