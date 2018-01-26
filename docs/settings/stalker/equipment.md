@@ -69,18 +69,45 @@ does not negate the sonic boom of the round breaking the sound barrier.
 
 ### Cartridges
 
-| Name                             | Range  |  DMG | Crit | Rounds | Weight | Cost | Notes                                                                                                                         |
-|----------------------------------|--------|-----:|-----:|-------:|-------:|-----:|-------------------------------------------------------------------------------------------------------------------------------|
-| <span id="9x18"></span>  9x18mm  | Close  |   10 |    5 |     50 |    0.5 |   25 |                                                                                                                               |
-| <span id="45acp"></span> .45 ACP | Close  |   15 |    8 |     50 |      1 |   50 | subsonic                                                                                                                      |
-| <span id="12g"></span>   12G     | Close  |   20 |   10 |     10 |    0.5 |   20 | deals additional 15 [damage](/#damage) in close range, if the target has no [damage reduction](/equipment/#damage-reduction). |
-| <span id="545"></span>   5.45x39 | Medium |   15 |   10 |     30 |    0.5 |  150 |                                                                                                                               |
-| <span id="556"></span>   5.56x45 | Medium |   20 |   10 |     30 |    0.5 |  200 |                                                                                                                               |
-| <span id="939"></span>   9x39mm  | Medium |   20 |   10 |     20 |    0.5 |  200 | subsonic                                                                                                                      |
-| <span id="762"></span>   7.62x54 | Far    |   25 |   15 |     20 |    0.5 |  300 |                                                                                                                               |
-| <span id="40mm"></span>  40mm    | Close  |  100 |  100 |      1 |      1 | 1000 |                                                                                                                               |
+In the core system of qstar, weapons indicate the damage they deal. For the
+S.T.A.L.K.E.R. rules, the damage and some other values stem from the cartridge
+used instead.
 
+#### Range #### {.dt}
 
+indicates the effective range of the cartridge. Shooting at a target further
+away imposes a penalty on the attack.
+
+#### HP (ammo) #### {.dt}
+
+deals additional damage versus enemies who have no damage reduction (e.g. from
+armour). HP ammo costs double the normal price for the cartridge.
+
+#### AP (ammo) #### {.dt}
+
+ignores a certain amount of the enemies damage reduction. AP ammo costs thrice
+the normal price for the cartridge.
+
+#### Slugs (ammo) #### {.dt}
+
+increase the effective range of the shotgun to medium. Slugs cost double the
+normal price.
+
+#### Cost #### {.dt}
+
+indicates how much the cartridge costs. Buying cartridges comes in packs,
+indicated by the rounds column.
+
+| Name                             | Range  |  DMG | Crit |   HP |   AP | Rounds | Weight | Cost | Notes                                                                                                                         |
+|----------------------------------|--------|-----:|-----:|-----:|-----:|-------:|-------:|-----:|-------------------------------------------------------------------------------------------------------------------------------|
+| <span id="9x18"></span>  9x18mm  | Close  |   10 |    5 |    5 |    1 |     50 |    0.5 |   25 |                                                                                                                               |
+| <span id="45acp"></span> .45 ACP | Close  |   15 |    8 |    5 |    2 |     50 |      1 |   50 | subsonic                                                                                                                      |
+| <span id="12g"></span>   12G     | Close  |   20 |   10 |    - |    - |     10 |    0.5 |   20 | deals additional 15 [damage](/#damage) in close range, if the target has no [damage reduction](/equipment/#damage-reduction). |
+| <span id="545"></span>   5.45x39 | Medium |   15 |   10 |   10 |    4 |     30 |    0.5 |  150 |                                                                                                                               |
+| <span id="556"></span>   5.56x45 | Medium |   20 |   10 |   10 |    6 |     30 |    0.5 |  200 |                                                                                                                               |
+| <span id="939"></span>   9x39mm  | Medium |   20 |   10 |    5 |    5 |     20 |    0.5 |  200 | subsonic                                                                                                                      |
+| <span id="762"></span>   7.62x54 | Far    |   25 |   15 |   10 |    8 |     20 |    0.5 |  300 |                                                                                                                               |
+| <span id="40mm"></span>  40mm    | Close  |  100 |  100 |    - |      |      1 |      1 | 1000 |                                                                                                                               |
 
 ### Melee Weapons
 

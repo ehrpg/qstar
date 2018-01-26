@@ -305,6 +305,7 @@ worsen relations with that character.
 {.dt}
 
 * You have bad reputation amongst the other party
+* You owe a favour
 
 *&nbsp;*{.qs-s} ![](){.qstar-2sixes}
 {.dt}
