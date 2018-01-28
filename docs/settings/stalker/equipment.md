@@ -1,7 +1,7 @@
 # Equipment
 
 !!! note "Selling [items](#items) and [equipment](#equipment)"
-    Selling items usually only profits one half of the price listed by the
+    Selling items usually only profits one tenth of the price listed by the
     *Cost* column. This applies, unless you sell to someone who is in need of
     the items sold, rewarding up to the normal price or even more.
 
@@ -41,7 +41,7 @@ credit equals 1 rubel in this setting.
 
 | Name                     |  RAD | Weight | Cost | Notes                                     |
 |--------------------------|-----:|-------:|-----:|-------------------------------------------|
-| Gasmask MK I             |    5 |    1.5 |  250 |                                           |
+| Gasmask MK I             |    5 |    1.5 |  500 |                                           |
 | ABC Protection Suit MK I |   15 |      2 |  250 | Requires and stacks with Gasmask MK I     |
 | Hazmat Suit MK I         |  400 |      3 | 5000 | Full body suit with integrated air supply |
 
@@ -60,12 +60,16 @@ example, if you buy [9x18mm](#9x18) rounds, you get 50 rounds for 10 credits.
 
 ### Attributes
 
-*subsonic* rounds do not make an audible crack when fired, making it harder to
-pointpoint the direction of the shooter.
+#### Subsonic #### {.dt}
 
-*suppressed* weapons are using a suppressor (either attached or integral to the
-weapon) and thus reduce noice and avoiding muzzle flash. A suppressed weapon
-does not negate the sonic boom of the round breaking the sound barrier.
+rounds do not make an audible crack when fired, making it harder to pointpoint
+the direction of the shooter.
+
+#### Suppressed #### {.dt}
+
+weapons are using a suppressor (either attached or integral to the weapon) and
+thus reduce noice and avoiding muzzle flash. A suppressed weapon does not negate
+the sonic boom of the round breaking the sound barrier.
 
 ### Cartridges
 
@@ -75,28 +79,30 @@ used instead.
 
 #### Range #### {.dt}
 
-indicates the effective range of the cartridge. Shooting at a target further
-away imposes a penalty on the attack.
+indicates the effective [range](/equipment#range) of the cartridge. Shooting at
+a target further away imposes a penalty on the attack.
 
 #### HP (ammo) #### {.dt}
 
-deals additional damage versus enemies who have no damage reduction (e.g. from
-armour). HP ammo costs double the normal price for the cartridge.
+deals additional [damage](/#damage) versus enemies who have no [damage
+reduction](/equipment#damage-reduction) (e.g. from armour). HP ammo costs double
+the normal price for the cartridge.
 
 #### AP (ammo) #### {.dt}
 
-ignores a certain amount of the enemies damage reduction. AP ammo costs thrice
-the normal price for the cartridge.
+ignores a certain amount of the enemies [damage
+reduction](/equipment#damage-reduction). AP ammo costs thrice the normal price
+for the cartridge.
 
 #### Slugs (ammo) #### {.dt}
 
-increase the effective range of the shotgun to medium. Slugs cost double the
-normal price.
+increase the effective [range](/equipment#range) of the shotgun to medium. Slugs
+cost double the normal price.
 
 #### Cost #### {.dt}
 
 indicates how much the cartridge costs. Buying cartridges comes in packs,
-indicated by the rounds column.
+as shown by the rounds column.
 
 | Name                             | Range  |  DMG | Crit |   HP |   AP | Rounds | Weight | Cost | Notes                                                                                                                         |
 |----------------------------------|--------|-----:|-----:|-----:|-----:|-------:|-------:|-----:|-------------------------------------------------------------------------------------------------------------------------------|

@@ -119,7 +119,7 @@ damage (1 modifier per two points).
 *&nbsp;*{.qs-f} ![](){.qstar-2ones}
 {.dt}
 
-* placeholder
+* Your weapon jams and needs to be reloaded.
 
 *&nbsp;*{.qs-s} ![](){.qstar-2sixes}
 {.dt}

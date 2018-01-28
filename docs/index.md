@@ -158,7 +158,7 @@ some examples of additional outcomes.
     You, as a DM, can allow players to completely ignore a skill check / DC if
     they are roleplaying very well and/or playing to their characters strengths
     and weaknesses.
-    
+
     Also, a task that's trivial or that's so easy for a character that she
     doesn't have to roll if the roleplay bonus was 0, can be skipped as well,
     even if no roleplaying is done.
@@ -298,6 +298,75 @@ description lists the price.
 
 ## Combat
 
+### Actions in Combat
+
+#### Take Aim #### {.dt}
+
+converts the lowest *1d6*{.qs-1d6} of your weapon attack to a six, resuling in a
+critical hit, if the attack hits. If two ones are rolled, the negative effect of
+the failed skill still apply, if the attack misses.
+<br>
+**Requires**: 2 actions, multiple uses stack
+
+#### Use Skill #### {.dt}
+
+allows you to use any skill in combat.
+<br>
+**Requires**: usually 1 action, depends on the skill use.
+
+#### Move #### {.dt}
+
+allows you to change your position on the battlefield, unless otherwise
+impaired.
+<br>
+**Requires**: 1 action
+
+#### Take Cover #### {.dt}
+
+gives you additional bonuses based on the [cover](#cover) the character is
+behind.
+<br>
+**Requires**: usually part of a move action
+
+#### Kneel Down #### {.dt}
+
+gives a +1 bonus to ranged [attacks](#attack).
+<br>
+**Requires**: 1 action
+
+#### Prone #### {.dt}
+
+gives a +2 bonus to ranged [attacks](#attack).
+<br>
+**Requires**: 1 action to lie down and 2 actions to change stance from being
+prone.
+
+### Conditions
+
+#### Drunk #### {.dt}
+
+gives a -1 penalty to [attacks](#attack).
+
+#### In cover #### {.dt}
+
+gives you additional bonuses based on the [cover](#cover) the character is
+behind.
+
+#### Prone #### {.dt}
+
+gives a +2 bonus to ranged [attacks](#attack). You do not gain any bonuses to
+defensive or offensive melee skill checks.
+
+#### Stunned #### {.dt}
+
+gives a -5 penalty to all checks.
+
+#### Incapacitated #### {.dt}
+
+makes a character unable to act and interact, usually acquired through the
+characters [endurance](#endurance) dropping to 0. Incapacitated doesn't
+necessarily mean, that the character is unconcious.
+
 ### Defence
 
 Any attack roll has to be equal to or exceed a creatures defence value. The
@@ -320,7 +389,7 @@ check result.
 
 #### Cover
 
-Cover provides vital bonuses to the creatures defence. 
+Cover provides vital bonuses to the creatures defence.
 
 | Cover       | Bonus | Notes                                                                        | Example                                                        |
 |-------------|------:|------------------------------------------------------------------------------|----------------------------------------------------------------|
