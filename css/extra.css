@@ -122,7 +122,7 @@ tr:nth-child(even) {
 
 p.dt + ul {
   margin: 0 !important;
-  margin-left: 160px !important;
+  margin-left: 150px !important;
 }
 
 p.dt + ul li {
@@ -155,17 +155,25 @@ p.dt {
 h4.dt + p,
 p.dt + p {
   margin: 0 !important;
-  margin-left: 160px !important;
+  margin-left: 150px !important;
   margin-bottom: 0.3em !important;
 }
 
+p.dt {
+  width: 180px;
+}
+
+p.dt + ul {
+  margin-left: 190px !important;
+}
+
 h4.dt {
-  margin-top: -3em !important;
-  padding-top: 4.5em !important;
+  margin-top: -2em !important;
+  padding-top: 2.4em !important;
 }
 
 h4.dt + p {
-  padding-top: 1.5em !important;
+  padding-top: 0.4em !important;
 }
 
 h4.dt a {
