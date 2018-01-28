@@ -345,7 +345,7 @@ prone.
 
 #### Drunk #### {.dt}
 
-gives a -1 penalty to [attacks](#attack).
+gives a -2 penalty to all skill checks.
 
 #### In cover #### {.dt}
 
