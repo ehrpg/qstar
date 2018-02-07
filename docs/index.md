@@ -11,17 +11,24 @@ some paper. To play you also need a few six sided dice (d6).
 
 ## Abilities
 
-Each character, NPC or even monster is defined by four abilities.
+Each character, NPC or even monster is defined by four abilities and describe
+their physical and mental capabilities.
 
-Abilities have ranks going from 1 to 10. Five (5) is the average, conferring
-neither a benefit nor a drawback. Every point below or above five grants an
-additional benefit. This benefit is called **ability modifier**:
+!!! important
+    Any character starts with 12 points which can be distributed amongst the 4
+    abilities.
 
-| Ability  |   0   |   1   |   2   |   3   |   4   |   5   |   6   |   7   |   8   |   9   |   10  |
-|----------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| Modifier |   -5  |   -4  |   -3  |   -2  |   -1  |   +0  |   +1  |   +2  |   +3  |   +4  |   +5  |
+    Abilities range from 0 to 5.
 
-If an ability drops to zero, the character dies.
+An ability rating of 0 means impairement of some
+kind, while a rating of 5 means that the character is extremely powerful with
+that ability.
+
+Abilities are used to:
+
+* determine if certain perks or flaws can be taken,
+* add bonuses to skills,
+* and if an action can be attempted or not.
 
 ### Might
 
@@ -186,52 +193,25 @@ skill check is a *failure*{.qs-f}.
 
     Skill check < Task DC ⇒ *failure*{.qs-f}
 
-### Aiding
+#### Aiding
 
 At the game masters discretion, it is possible for one or more characters to aid
-another in an upcoming task (henceforth called the *main task*). The players
-aiding must be able to declare, and be able to perform the aid before the main
-task is attempted (i.e. rolled for). Then they must perform the same skill check
-(consuming an action) within their turn. Every *success*{.qs-s} of those aiding
-translates into a tangible benefit for the main task. Such benefits could
-include (but are not limited to):
+another in an upcoming task. A character has to perform a relevant skill check,
+not necessarily the same, and beat a fixed DC of `10`. If the character's skill
+check is successful, the assisted player gains `+1` to their skill check.
 
-* Better outcome of the main task, such as less time or materials used.
-* A lowered difficulty for the main task.
-
-The actual benefits bestowed upon the main task are up to the game
-master. Players should state beforehand what they are trying to
-achieve by helping, for example making sure that the player who
-performs the main task succeeds more easily, or that the task is done
-faster. This helps the GM to design any potential benefits.
-
-Game masters may also demand that a task is not doable alone, for
-example moving furniture that is too heavy to be moved by just one
-character, or a high enough wall that requires help from another to
-successfully climb.
-
-### Competition
+#### Competing
 
 When two characters, or a character and an NPC, pitch their skills against each
 other both roll the respective skills. Whoever has the highest skill check wins.
 On a tie the participant on the defensive side wins. If there is no defensive
 participant, reroll until a winner is decided.
 
-### Multiple Successes
+#### Retrying
 
-<p style="text-decoration: line-through">If a character has more than one die
-for a specific skill available, more than one action may be attempted at the
-same time using that skill. The DM sets the amount of successes required and
-adjusts the DC accordingly. There is still only one DC for all actions, but now
-the player has roll multiple successes using the available dice.</p>
-
-!!! info "Example"
-    Mary is a good pilot and thus has 3 dice available and an ability modifier
-    of +3. Her ship is under attack, and she wants to deploy counter measures at
-    the right moment, and then make a sharp evasive manoeuver. As she has three
-    dice, she may make those two actions at the same time. The GM decides on a
-    DC of 6 and Mary rolls: 4 3 6. She expends two ability modifiers to make the
-    4 a success and thus succeeds at the task.
+A skill check can be rolled for again if a character failed at it. The character
+can attempt the skill check again. If the skill check happens shortly after the
+previous one, the skill check is rolled with a `-4` penalty.
 
 ## Perks & Flaws
 
@@ -261,25 +241,18 @@ Characters are not improved by experience but by spending time and money.
 Money can buy time at the gym, implants and most importantly training
 lessons for skills.
 
-Downgrading abilities may only be done at the GMs discretion, or as a temporary
-or permanent effect from adventuring (such as scars, wounds, etc.).
+### Abilities
 
-Improving an ability costs:
+Abilities can only be increased or lowered at the GM's discretion, or as a
+temporary or permanent effect from adventuring (such as scars, wounds, etc.).
 
-| New Rank |      Cost |
-|----------|----------:|
-| 1        |  -512 000 |
-| 2        |  -162 000 |
-| 3        |   -32 000 |
-| 4        |    -2 000 |
-| 5        |         0 |
-| 6        |     2 000 |
-| 7        |    32 000 |
-| 8        |   162 000 |
-| 9        |   512 000 |
-| 10       | 1 250 000 |
+Improving an ability costs `100 000` Credits per point added. You don't gain
+Credits from an ability being lowered.
 
-Formula: `cost = abs(mod) ^ 4 * 2000`
+### Skills
+
+Improving skills can usually be done at any time in the adventure, while the
+character has some downtime, i.e. while resting or in between adventures.
 
 Improving a skill costs:
 
@@ -300,37 +273,16 @@ description lists the price.
 
 ### Actions in Combat
 
-#### Take Aim #### {.dt}
+#### Kneel Down #### {.dt}
 
-converts the lowest *1d6*{.qs-1d6} of your weapon attack to a six, resuling in a
-critical hit, if the attack hits. If two ones are rolled, the negative effect of
-the failed skill still apply, if the attack misses.
+gives a +1 bonus to ranged [attacks](#attack).
 <br>
-**Requires**: 2 actions, multiple uses stack
-
-#### Use Skill #### {.dt}
-
-allows you to use any skill in combat.
-<br>
-**Requires**: usually 1 action, depends on the skill use.
+**Requires**: 1 action
 
 #### Move #### {.dt}
 
 allows you to change your position on the battlefield, unless otherwise
 impaired.
-<br>
-**Requires**: 1 action
-
-#### Take Cover #### {.dt}
-
-gives you additional bonuses based on the [cover](#cover) the character is
-behind.
-<br>
-**Requires**: usually part of a move action
-
-#### Kneel Down #### {.dt}
-
-gives a +1 bonus to ranged [attacks](#attack).
 <br>
 **Requires**: 1 action
 
@@ -341,11 +293,44 @@ gives a +2 bonus to ranged [attacks](#attack).
 **Requires**: 1 action to lie down and 2 actions to change stance from being
 prone.
 
+#### Take Aim #### {.dt}
+
+converts the lowest *1d6*{.qs-1d6} of your weapon attack to a six, resuling in a
+critical hit, if the attack hits. If two ones are rolled, the negative effect of
+the failed skill still apply, if the attack *misses*{.qs-f}. If the target
+moves, all accumulated bonuses are lost.
+<br> **Requires**: 2 actions, multiple uses stack
+
+#### Take Cover #### {.dt}
+
+gives you additional bonuses based on the [cover](#cover) the character is
+behind.
+<br>
+**Requires**: usually part of a move action
+
+#### Use Item #### {.dt}
+
+allows you to perform the action defined by the item.
+<br>
+**Requires**: variable, defined by item
+
+#### Use Skill #### {.dt}
+
+allows you to use any skill in combat.
+<br>
+**Requires**: usually 1 action, depends on the skill use.
+
 ### Conditions
 
 #### Drunk #### {.dt}
 
 gives a -2 penalty to all skill checks.
+
+#### Incapacitated #### {.dt}
+
+makes a character unable to act and interact, usually acquired through the
+characters [endurance](#endurance) dropping to 0. Incapacitated doesn't
+necessarily mean, that the character is unconcious.
 
 #### In cover #### {.dt}
 
@@ -360,12 +345,6 @@ defensive or offensive melee skill checks.
 #### Stunned #### {.dt}
 
 gives a -5 penalty to all checks.
-
-#### Incapacitated #### {.dt}
-
-makes a character unable to act and interact, usually acquired through the
-characters [endurance](#endurance) dropping to 0. Incapacitated doesn't
-necessarily mean, that the character is unconcious.
 
 ### Defence
 
