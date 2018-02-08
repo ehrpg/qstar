@@ -1,21 +1,18 @@
-# Abilities
+# Character
+## Abilities
 - 12 Points
 - Might, Speed, Intelligence, Charisma
 - ranges: 0-5
-
-# Race
+## Race
 - Base stats
 - Ability modifications
 - Inherent features
-
-# Pools
+## Pools
 - Health
 - Endurance
-
-# Skills
+## Skills
 - 3d6 + Ability + Skill Rank +- Description
-
-# Perks & Flaws
+## Perks & Flaws
 - require ability ranks
 - require skill ranks
 - standing as a perk/flaw (default "commoner")
