@@ -389,18 +389,24 @@ Any attack roll is done using a weapon and its related skill. Attacks beyond a
 weapons effective range impose penalties to the attack roll.
 
 Some weapons allow multiple shots to be fired, denoted by the
-[RoF](./equipment?rof#stats) value of a weapon. If a weapons
-[RoF](./equipment?rof#stats) value is higher than one, additional shots **may**
-be fired to increase the hit chance and [critical hit](#critical-hit) chance.
+[RoF](./equipment?rof#stats) value of a weapon. If a weapon's
+[RoF](./equipment?rof#stats) value is higher than one, additional dice **may**
+be rolled to increase the hit chance and [critical hit](#critical-hit) chance.
+
+If a weapon's [RoF](./equipment?rof#stats) value is `1`, the skill check can
+only be rolled with **3d6**.
+
+If a weapon's [RoF](./equipment?rof#stats) value is zero or less, you can't
+attack with it.
 
 !!! note "RoF Example"
-    If a weapon has a [RoF](./equipment?rof#stats) value of 2, you may fire an
-    extra bullet and add **1d6** to your attack, resulting in **4d6** total.
+    If a weapon has a [RoF](./equipment?rof#stats) value of 2, you may roll an
+    extra die and add **1d6** to your attack, resulting in **4d6** total.
 
-If the [attack](#attack) is equal to or higher than the targets **defence**
+If the [attack](#attack) is equal to or higher than the target's **defence**
 attack is *successful*{.qs-s}.
 
-If the [attack](#attack) is less than the targets **defence** value the attack
+If the [attack](#attack) is less than the target's **defence** value the attack
 *fails*{.qs-f}.
 
 On a hit you can deal [damage](#damage) and potential [critical
