@@ -1,18 +1,52 @@
+# Glossary
+
+| Name     | Description                                                                       |
+|----------|-----------------------------------------------------------------------------------|
+| Downtime | Expendable time gained when resting for longer time periods or between adventures |
+| Firearm  | A firearm is a portable gun (a barreled ranged weapon)                            |
+
 # Character
-## Abilities
-- 12 Points
-- Might, Speed, Intelligence, Charisma
-- ranges: 0-5
-## Race
-- Base stats
-- Ability modifications
+## Stats
+### Primary
+*12 points; ranges: 0-5*
+- Might
+  - physical power and condition
+- Speed
+  - reflexes, hand-to-eye coordination
+- Intelligence
+  - knowing things, infer things
+- Charisma
+  - influence others
+
+- Experience
+  - gained by adventuring
+
+### Secondary
+- Resources `[0, 30]`
+  - Items cost resources
+  - Acquired by selling trade goods and adventuring
+- Influence `[0, 18]`
+  - Fame and infamy
+  - Acquired by actions
+- Downtime `[0, 12]`
+  - Allows equipment modification, heal damage, etc.
+  - gain +1 each game session
+- Trade Goods `[0, X]`
+  - Gained by trading/adventuring/looting
+  - require storage space
+- Research `[0, 12]`
+  - Improve skills, weapons, tech, etc.
+  - +1: Downtime Roll DC 12
+
+### Race
+- Change Stats: Primary & Secondary
 - Inherent features
-## Pools
-- Health
+### Pools
+- Abilities
 - Endurance
-## Skills
-- 3d6 + Ability + Skill Rank +- Description
-## Perks & Flaws
+### Skills
+- `3d6 + Ability + Skill Rank +- Description`
+### Perks & Flaws
 - require ability ranks
 - require skill ranks
 - standing as a perk/flaw (default "commoner")
