@@ -1,3 +1,25 @@
+@font-face {
+  font-family: 'Mainframe-Opto';
+  src:
+  url('../fonts/Mainframe-Opto.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Mainframe-Opto.woff') format('woff'),
+  url('../fonts/Mainframe-Opto.ttf')  format('truetype'),
+  url('../fonts/Mainframe-Opto.svg#Mainframe-Opto') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Mainframe-Opto';
+  letter-spacing: 0.3rem !important;
+  padding-left: 5px;
+}
+
+h4 {
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+}
+
 [data-bracket-bottom],
 [data-bracket-top] {
   display: inline-block;

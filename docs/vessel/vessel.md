@@ -29,11 +29,11 @@ shield generators, sensors, fuel, etc.
 
 #### Storage
 
-####
+#### Fuel
 
 ## Origin
 
-Every vessel manifacturer creates special versions of vessels.
+Every vessel manufacturer creates special versions of vessels.
 
 An origin modifies:
 

@@ -29,47 +29,66 @@ an ability score at -5 means that the character is dead.
 
 #### Might
 
-Might represents the character's physical strength and resilience. The
-damage of some weapons is derived from might.
+> Might represents the character's physical strength and resilience.
+
+The damage of some weapons is derived from might.
 
 #### Speed
 
-Speed measures the character's reflexes and hand-eye coordination. Adds a bonus
-to most weapon attacks.
+> Speed measures the character's reflexes and hand-eye coordination.
+
+Speed adds a bonus to most weapon attacks.
 
 #### Intelligence
 
-Intelligence describes how well your character learns new things, and how well
+> Intelligence describes how well your character learns new things, and how well
 he remembers already existing things.
 
 #### Charisma
 
-Charisma represents the character's physical attractiveness, force of personality
-and his ability to lead. It is mostly used in social interactions between
-characters and NPCs.
+> Charisma represents the character's physical attractiveness, force of personality
+and his ability to lead.
+
+Charisma is mostly used in social interactions between characters and NPCs.
 
 ### Secondary
 
 #### Influence
 
-Influence is gained by making a name for yourself in the cosmos, i.e. by helping
+> Influence represents connections, owed favours by others, fame and infamy.
+
+**GAIN** Influence by making a name for yourself in the cosmos, i.e. by helping
 people and factions. Influence is lost by harming and disappointing others.
+
+**USED** for accessing and buying items, vessels, meetings with high ranking
+characters, etc.
 
 #### Resources
 
-Resources are looted from enemies, gained from adventuring and quests.
+> Resources represent materials used for creating, repairing and upgrading.
+
+**GAIN** Resources by looting enemies, or completing missions, adventures and
+quests.
+
+**USED** to create, repair and upgrade items and vessels.
 
 #### Time
 
-Spare time represents the time a character can invest in downtime activities.
+> Spare time represents the time a character can invest in downtime activities.
 
-A character acummuluates spare time the course of time. A character gains more
-spare in between adventures and longer periods of downtime during adventures.
+**GAIN** spare time in the course of time. A character gains more spare in
+between adventures and longer periods of downtime during adventures.
+
+**USED** to recuperate, craft, repair and upgrade items and vessels.
 
 #### Goods
 
-Trading goods that are looted from enemies, gained from adventuring and quests,
-and sold for profit.
+> Goods are traded for money.
+
+**GAIN** trading goods by looting enemies, or gain them from adventuring and
+quests.
+
+**USED** to sell for profits.
 
 ## Experience
 

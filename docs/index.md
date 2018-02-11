@@ -11,7 +11,13 @@
 # Mechanisms
 
 Anything that represents a character, creature, operational vessel, etc. is
-defined by 4 primary stats and 4 secondary stats.
+defined by:
+
+* primary and secondary stats,
+* pools,
+* races and origins,
+* skills,
+* perks and flaws.
 
 # Improving your character
 ## Abilities
