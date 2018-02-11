@@ -57,6 +57,18 @@ Charisma is mostly used in social interactions between characters and NPCs.
 
 ### Secondary
 
+#### Goods
+
+> Goods are traded for money.
+
+**GAINED**{.hf} by looting enemies, or from adventuring and quests.
+
+**USED**{.hf} to sell for profits.
+
+Every character can only carry one singular unit of goods. Transporting more
+goods at a time requires vessels or some other type of storage. Trading goods
+that exceed this storage limit are lost.
+
 #### Influence
 
 > Influence represents connections, owed favours by others, fame and infamy.
@@ -67,14 +79,32 @@ people and factions. Influence is lost by harming and disappointing others.
 **USED**{.hf} for accessing and buying items, vessels, meetings with high
 ranking characters, etc.
 
+!!! summary "Maximum Influence"
+    <div class="formula formula-top formula-bottom">
+      <a href="#Resources">Maximum Influence</a> =
+      <span data-bracket-bottom="Experience">XP</span> +
+      <span data-bracket-top="Base">2</span> +
+      <span data-bracket-bottom="Circumstance">other bonuses</span>
+    </div>
+
 #### Resources
 
-> Resources represent materials used for creating, repairing and upgrading.
+> Resources represent materials used for creating, repairing, upgrading and
+> acquiring equipment.
 
 **GAINED**{.hf} by looting enemies, or completing missions, adventures and
 quests.
 
-**USED**{.hf} to create, repair and upgrade items and vessels.
+**USED**{.hf} to creating, repairing, upgrading and acquiring equipment and
+vessels.
+
+!!! summary "Maximum Resources"
+    <div class="formula formula-top formula-bottom">
+      <a href="#Resources">Maximum Resources</a> =
+      <span data-bracket-bottom="Experience">XP</span> +
+      <span data-bracket-top="Base">2</span> +
+      <span data-bracket-bottom="Circumstance">other bonuses</span>
+    </div>
 
 #### Time
 
@@ -85,24 +115,24 @@ between adventures and longer periods of downtime during adventures.
 
 **USED**{.hf} to recuperate, craft, repair and upgrade items and vessels.
 
-#### Goods
-
-> Goods are traded for money.
-
-**GAINED**{.hf} looting enemies, or gained from adventuring and quests.
-
-**USED**{.hf} to sell for profits.
+!!! summary "Maximum Time"
+    <div class="formula formula-bottom">
+      <a href="#Resources">Maximum Time</a> =
+      <span data-bracket-bottom="Base">10</span>
+    </div>
 
 ## Experience
 
 > Experience is gained throughout a character's adventuring career.
 
-**GAINED**{.hf} due to noteable achievements or story completions *may* provide
-a character with experience points, usually 1.
+**GAINED**{.hf} due to noteable achievements or story completions. Experience
+*may* provide a character with experience points, usually 1 at a time.
 
 **USED**{.hf} automatically, improving the maximum values of your secondary
 stats. This does not necessarily make your character stronger, but make the
 character more resourceful and adaptable.
+
+Every character has 1 experience upon creation.
 
 ## Race
 
@@ -125,6 +155,20 @@ asd
 ## Skills
 
 * `3d6 + Ability + Skill Rank +- Description`
+
+!!! summary "Skill checks"
+    <div class="formula formula-top formula-bottom">
+    <a href="#Skills">Skill check</a> =
+    <span data-bracket-bottom="base">3d6</span>
+    ±
+    <span data-bracket-top="Ability">
+      <a href="#primary">ability</a>
+    </span>
+    ±
+    <span data-bracket-bottom="bonus">skill</span>
+    ±
+    <span data-bracket-top="-2 to +2">roleplay</span>
+    </div>
 
 ## Perks & Flaws
 
