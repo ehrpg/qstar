@@ -106,7 +106,7 @@ nav.md-nav--primary > ul.md-nav__list > li:not(:first-child) {
     position: absolute;
     left:0;
     right:0;
-    top: 12px;
+    top: 13px;
     // border: 1px solid #444;
     // border-top: none;
   }
@@ -119,7 +119,7 @@ nav.md-nav--primary > ul.md-nav__list > li:not(:first-child) {
     height: 12px;
     // border: 1px solid #444;
     position: absolute;
-    top: -14px;
+    top: -15px;
     left: -2px;
     right:0;
     // border-bottom: none;
@@ -139,7 +139,7 @@ nav.md-nav--primary > ul.md-nav__list > li:not(:first-child) {
 
 .formula {
   text-align: center;
-  margin: 20px 0;
+  margin: 10px 0;
 
   &.formula-top {
     margin-top: 35px;

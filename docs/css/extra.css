@@ -104,7 +104,7 @@ nav.md-nav--primary > ul.md-nav__list > li:not(:first-child) {
   position: absolute;
   left: 0;
   right: 0;
-  top: 12px;
+  top: 13px;
 }
 
 [data-bracket-top]:before {
@@ -112,7 +112,7 @@ nav.md-nav--primary > ul.md-nav__list > li:not(:first-child) {
   display: block;
   height: 12px;
   position: absolute;
-  top: -14px;
+  top: -15px;
   left: -2px;
   right: 0;
 }
@@ -130,7 +130,7 @@ nav.md-nav--primary > ul.md-nav__list > li:not(:first-child) {
 
 .formula {
   text-align: center;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .formula.formula-top {

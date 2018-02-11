@@ -90,7 +90,6 @@ ranking characters, etc.
 
 !!! summary "Maximum Influence"
     <div class="formula formula-top formula-bottom">
-      <a href="#Resources">Maximum Influence</a> =
       <span data-bracket-bottom="Experience">XP</span> +
       <span data-bracket-top="Base">2</span> +
       <span data-bracket-bottom="Circumstance">other bonuses</span>
@@ -109,7 +108,6 @@ vessels.
 
 !!! summary "Maximum Resources"
     <div class="formula formula-top formula-bottom">
-      <a href="#Resources">Maximum Resources</a> =
       <span data-bracket-bottom="Experience">XP</span> +
       <span data-bracket-top="Base">2</span> +
       <span data-bracket-bottom="Circumstance">other bonuses</span>
@@ -126,7 +124,6 @@ between adventures and longer periods of downtime during adventures.
 
 !!! summary "Maximum Time"
     <div class="formula formula-bottom">
-      <a href="#Resources">Maximum Time</a> =
       <span data-bracket-bottom="Base">10</span>
     </div>
 
@@ -173,17 +170,11 @@ round.
 
 ## Skills
 
-
-
 !!! summary "Skill checks"
     <div class="formula formula-top formula-bottom">
-    <a href="#Skills">Skill check</a> =
     <span data-bracket-bottom="base">3d6</span> ±
-    <span data-bracket-top="Ability">
-      <a href="#primary">ability</a>
-    </span> ±
-    <span data-bracket-bottom="bonus">skill</span> ±
-    <span data-bracket-top="-2 to +2">roleplay</span>
+    <span data-bracket-top="bonus">skill</span> ±
+    <span data-bracket-bottom="-2 to +2">roleplay</span>
     </div>
 
 ## Perks & Flaws
