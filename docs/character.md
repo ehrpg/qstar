@@ -71,9 +71,10 @@ Charisma is mostly used in social interactions between characters and NPCs.
 
 **USED**{.hf} to sell for profits.
 
-Every character can only carry one singular unit of goods. Transporting more
-goods at a time requires vessels or some other type of storage. Trading goods
-that exceed this storage limit are lost.
+Any character with a [Might](#might) value of 3 or higher is just strong enough
+to carry one singular unit of goods. Transporting more goods at a time requires
+vessels or some other type of storage. Trading goods that exceed this storage
+limit are lost.
 
 #### Influence
 
@@ -188,7 +189,3 @@ round.
 * require ability ranks
 * require skill ranks
 * standing as a perk/flaw (default "commoner")
-
-| Name                                                        | Description |
-|-------------------------------------------------------------|-------------|
-| Weapon1 *Tag1*{.tag} *Tag2*{.tag} *Tag3*{.tag} *Tag4*{.tag} |             |
