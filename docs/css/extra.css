@@ -5,46 +5,64 @@
   font-style: normal;
 }
 
-strong.hf {
+.tag {
+  font-weight: 300;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #3f51b5;
+  border-radius: 2px;
+  font-style: normal;
+  min-width: 3rem;
+  padding: 0 6px;
+  margin-left: 4px;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 22px;
+  height: 22px;
+  float: right;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.md-typeset:not(.md-search-result__item) strong.hf {
   /* header-font */
   font-family: 'Mainframe-Opto';
   letter-spacing: 0.1rem !important;
 }
 
-h1, h2, h3, h4, h5 {
+.md-typeset:not(.md-search-result__item) h1, .md-typeset:not(.md-search-result__item) h2, .md-typeset:not(.md-search-result__item) h3, .md-typeset:not(.md-search-result__item) h4, .md-typeset:not(.md-search-result__item) h5 {
   font-family: 'Mainframe-Opto';
   letter-spacing: 0.3rem !important;
-  padding-left: 5px;
+  padding-left: 10px;
 }
 
-h4 {
+.md-typeset:not(.md-search-result__item) h4 {
   border-bottom: 2px solid grey;
 }
 
-.md-typeset h2 {
-  margin: 2rem 0 0.8rem;
+.md-typeset:not(.md-search-result__item) h2 {
+  margin: 4rem 0 1.6rem;
 }
 
-.md-typeset h3 {
-  margin: 1.6rem 0 0.8rem;
+.md-typeset:not(.md-search-result__item) h3 {
+  margin: 3.2rem 0 1.6rem;
 }
 
-.md-typeset h4, .md-typeset h5, .md-typeset h6 {
-  margin: 1.1rem 0;
-  margin-top: 1.6rem;
+.md-typeset:not(.md-search-result__item) h4, .md-typeset:not(.md-search-result__item) h5, .md-typeset:not(.md-search-result__item) h6 {
+  margin: 2rem 0 1.1rem;
 }
 
-.md-typeset blockquote, .md-typeset ol, .md-typeset p, .md-typeset ul {
+.md-typeset:not(.md-search-result__item) blockquote, .md-typeset:not(.md-search-result__item) ol, .md-typeset:not(.md-search-result__item) p, .md-typeset:not(.md-search-result__item) ul {
   margin: 0.5em 0;
 }
 
-.md-typeset ul {
+.md-typeset:not(.md-search-result__item) ul {
   position: relative;
   list-style: none;
   margin-left: 1rem !important;
 }
 
-.md-typeset ul li:before {
+.md-typeset:not(.md-search-result__item) ul li:before {
   content: "\25B9";
   position: absolute;
   left: 0rem;
@@ -251,10 +269,10 @@ i[f]:before {
   content: "\E14C";
 }
 
-*:not(.md-search-result__item) > h2#might-skills,
-*:not(.md-search-result__item) > h2#speed-skills,
-*:not(.md-search-result__item) > h2#intelligence-skills,
-*:not(.md-search-result__item) > h2#charisma-skills {
+*:not(.md-search-result__item) > *#might-skills,
+*:not(.md-search-result__item) > *#speed-skills,
+*:not(.md-search-result__item) > *#intelligence-skills,
+*:not(.md-search-result__item) > *#charisma-skills {
   z-index: 1;
   padding-top: 1em;
   margin-bottom: 0.8rem;
@@ -274,47 +292,46 @@ i[f]:before {
   vertical-align: top;
 }
 
-*:not(.md-search-result__item) > h3#endurance:after,
-*:not(.md-search-result__item) > h4#endurance:after,
+*:not(.md-search-result__item) > *#endurance:after,
 *:not(.md-search-result__item) > a[href*="#endurance"]:after {
   content: "\EB5C";
 }
 
-*:not(.md-search-result__item) > h3#health:after,
+*:not(.md-search-result__item) > *#health:after,
 *:not(.md-search-result__item) > a[href*="#health"]:after {
   content: "\E4B0";
 }
 
-*:not(.md-search-result__item) > h3#perks:after,
+*:not(.md-search-result__item) > *#perks:after,
 *:not(.md-search-result__item) > a[href$="#perks"]:after {
   content: "\E78F";
 }
 
-*:not(.md-search-result__item) > h3#flaws:after,
+*:not(.md-search-result__item) > *#flaws:after,
 *:not(.md-search-result__item) > a[href*="#flaws"]:after {
   content: "\E840";
 }
 
-*:not(.md-search-result__item) > h3#might:after,
-*:not(.md-search-result__item) > h2#might-skills:after,
+*:not(.md-search-result__item) > *#might:after,
+*:not(.md-search-result__item) > *#might-skills:after,
 *:not(.md-search-result__item) > a[href*="#might"]:after {
   content: "\E696";
 }
 
-*:not(.md-search-result__item) > h3#speed:after,
-*:not(.md-search-result__item) > h2#speed-skills:after,
+*:not(.md-search-result__item) > *#speed:after,
+*:not(.md-search-result__item) > *#speed-skills:after,
 *:not(.md-search-result__item) > a[href*="#speed"]:after {
   content: "\E543";
 }
 
-*:not(.md-search-result__item) > h3#intelligence:after,
-*:not(.md-search-result__item) > h2#intelligence-skills:after,
+*:not(.md-search-result__item) > *#intelligence:after,
+*:not(.md-search-result__item) > *#intelligence-skills:after,
 *:not(.md-search-result__item) > a[href*="#intelligence"]:after {
   content: "\E5E6";
 }
 
-*:not(.md-search-result__item) > h3#charisma:after,
-*:not(.md-search-result__item) > h2#charisma-skills:after,
+*:not(.md-search-result__item) > *#charisma:after,
+*:not(.md-search-result__item) > *#charisma-skills:after,
 *:not(.md-search-result__item) > a[href*="#charisma"]:after {
   content: "\E6CC";
 }
@@ -354,9 +371,8 @@ i[f]:before {
   content: "\E094";
 }
 
-*:not(.md-search-result__item) > h1#skills:after,
-*:not(.md-search-result__item) > h2#skills:after,
-*:not(.md-search-result__item) > h2#available-skills:after,
+*:not(.md-search-result__item) > *#skills:after,
+*:not(.md-search-result__item) > *#available-skills:after,
 *:not(.md-search-result__item) > a[href*="#skills"]:after {
   content: "\E71A";
 }
@@ -365,13 +381,12 @@ i[f]:before {
   content: "\E77F";
 }
 
-*:not(.md-search-result__item) > h2#armour:after,
+*:not(.md-search-result__item) > *#armour:after,
 *:not(.md-search-result__item) > a[href*="#armour"]:after {
   content: "\EA22";
 }
 
-*:not(.md-search-result__item) > h3#turn-order:after,
-*:not(.md-search-result__item) > h4#turn-order:after,
+*:not(.md-search-result__item) > *#turn-order:after,
 *:not(.md-search-result__item) > a[href*="#turn-order"]:after {
   content: "\E385";
 }

@@ -9,33 +9,52 @@
   font-style: normal;
 }
 
-strong.hf {
-  /* header-font */
-  font-family: 'Mainframe-Opto';
-  letter-spacing: 0.1rem !important;
+.tag {
+  font-weight: 300;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #3f51b5;
+  border-radius: 2px;
+  // display: inline-block;
+  font-style: normal;
+  min-width: 3rem;
+  padding: 0 6px;
+  margin-left: 4px;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 22px;
+  height: 22px;
+  float: right;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5 {
-  font-family: 'Mainframe-Opto';
-  letter-spacing: 0.3rem !important;
-  padding-left: 5px;
-}
+.md-typeset:not(.md-search-result__item) {
+  strong.hf {
+    /* header-font */
+    font-family: 'Mainframe-Opto';
+    letter-spacing: 0.1rem !important;
+  }
 
-h4 {
-  // border-top: 2px solid grey;
-  border-bottom: 2px solid grey;
-}
+  h1, h2, h3, h4, h5 {
+    font-family: 'Mainframe-Opto';
+    letter-spacing: 0.3rem !important;
+    padding-left: 10px;
+  }
 
-.md-typeset {
+  h4 {
+    // border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+  }
+
   h2 {
-    margin: 2rem 0 0.8rem;
+    margin: 4rem 0 1.6rem;
   }
   h3 {
-    margin: 1.6rem 0 0.8rem;
+    margin: 3.2rem 0 1.6rem;
   }
   h4, h5, h6 {
-    margin: 1.1rem 0;
-    margin-top: 1.6rem;
+    margin: 2rem 0 1.1rem;
   }
   blockquote, ol, p, ul {
     margin: 0.5em 0;
@@ -272,10 +291,10 @@ i[f] {
 }
 
 *:not(.md-search-result__item) > {
-  h2#might-skills,
-  h2#speed-skills,
-  h2#intelligence-skills,
-  h2#charisma-skills {
+  *#might-skills,
+  *#speed-skills,
+  *#intelligence-skills,
+  *#charisma-skills {
     z-index: 1;
     padding-top: 1em;
     margin-bottom: 0.8rem;
@@ -295,47 +314,46 @@ i[f] {
     vertical-align: top;
   }
 
-  h3#endurance:after,
-  h4#endurance:after,
+  *#endurance:after,
   a[href*="#endurance"]:after {
     content: "\EB5C";
   }
 
-  h3#health:after,
+  *#health:after,
   a[href*="#health"]:after {
     content: "\E4B0";
   }
 
-  h3#perks:after,
+  *#perks:after,
   a[href$="#perks"]:after {
     content: "\E78F";
   }
 
-  h3#flaws:after,
+  *#flaws:after,
   a[href*="#flaws"]:after {
     content: "\E840";
   }
 
-  h3#might:after,
-  h2#might-skills:after,
+  *#might:after,
+  *#might-skills:after,
   a[href*="#might"]:after {
     content: "\E696";
   }
 
-  h3#speed:after,
-  h2#speed-skills:after,
+  *#speed:after,
+  *#speed-skills:after,
   a[href*="#speed"]:after {
     content: "\E543";
   }
 
-  h3#intelligence:after,
-  h2#intelligence-skills:after,
+  *#intelligence:after,
+  *#intelligence-skills:after,
   a[href*="#intelligence"]:after {
     content: "\E5E6";
   }
 
-  h3#charisma:after,
-  h2#charisma-skills:after,
+  *#charisma:after,
+  *#charisma-skills:after,
   a[href*="#charisma"]:after {
     content: "\E6CC";
   }
@@ -375,9 +393,8 @@ i[f] {
     content: "\E094";
   }
 
-  h1#skills:after,
-  h2#skills:after,
-  h2#available-skills:after,
+  *#skills:after,
+  *#available-skills:after,
   a[href*="#skills"]:after {
     content: "\E71A";
   }
@@ -386,13 +403,12 @@ i[f] {
     content: "\E77F";
   }
 
-  h2#armour:after,
+  *#armour:after,
   a[href*="#armour"]:after {
     content: "\EA22";
   }
 
-  h3#turn-order:after,
-  h4#turn-order:after,
+  *#turn-order:after,
   a[href*="#turn-order"]:after {
     content: "\E385";
   }

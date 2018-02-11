@@ -51,6 +51,7 @@ pages:
         - Draft: 'index.md'
         - Character: 'character.md'
         - Combat: 'combat.md'
+        - Equipment: 'equipment.md'
         - Vehicles & Vessels:
             - Vessel: 'vessel/vessel.md'
             - Combat: 'vessel/combat.md'

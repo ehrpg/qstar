@@ -144,7 +144,7 @@ Every character has 1 experience upon creation.
 ## Race
 
 Every creature has a race, or at least a type that groups similar creatures into
-the same category, e.g. animals.
+the same category, e.g. animals or robots.
 
 A race modifies:
 
@@ -155,11 +155,22 @@ A race modifies:
 
 ## Pools
 
+> Each creature has health and endurance pools. A robot may be defined as a
+> character, but instead of health and endurance it has the pools integrity and
+> battery, acting just the same.
+
+### Health
+
+???
+
 ### Endurance
 
-asd
+A character at zero endurance is incapacitated and can only make one action per
+round.
 
 ## Skills
+
+
 
 !!! summary "Skill checks"
     <div class="formula formula-top formula-bottom">
@@ -177,3 +188,7 @@ asd
 * require ability ranks
 * require skill ranks
 * standing as a perk/flaw (default "commoner")
+
+| Name                                                        | Description |
+|-------------------------------------------------------------|-------------|
+| Weapon1 *Tag1*{.tag} *Tag2*{.tag} *Tag3*{.tag} *Tag4*{.tag} |             |
