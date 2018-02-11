@@ -118,14 +118,13 @@ vessels.
 > Spare time represents the time a character can invest in downtime activities.
 
 **GAINED**{.hf} in the course of time. A character gains more spare time in
-between adventures and longer periods of downtime during adventures.
+between adventures and longer periods of downtime during adventures. A character
+gains 1 spare time each session.
 
 **USED**{.hf} to recuperate, craft, repair and upgrade items and vessels.
 
-!!! summary "Maximum Time"
-    <div class="formula formula-bottom">
-      <span data-bracket-bottom="Base">10</span>
-    </div>
+A character can never have more than 10 spare time at any time. Spare time
+gained, if the maximum is reached, is lost.
 
 ## Experience
 
