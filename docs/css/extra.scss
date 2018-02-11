@@ -1,9 +1,13 @@
-[data-bracket-bottom] {
+[data-bracket-bottom],
+[data-bracket-top] {
   display: inline-block;
   vertical-align: top;
   position: relative;
-  margin-bottom: 10px;
   margin-left: 10px;
+}
+
+[data-bracket-bottom] {
+  margin-bottom: 10px;
 
   &:before {
     content: attr(data-bracket-bottom);
@@ -25,13 +29,7 @@
   }
 }
 
-
 [data-bracket-top] {
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
-  margin-left: 10px;
-
   &:before {
     content: "";
     display: block;
@@ -58,24 +56,25 @@
 
 .formula {
   text-align: center;
+
+  &.formula-top {
+    margin-top: 55px;
+  }
+
+  &.formula-bottom {
+    margin-bottom: 55px;
+  }
+
   span {
     margin: 0 8px;
   }
 }
 
-.formula-top {
-  margin-top: 55px;
-}
-
-.formula-bottom {
-  margin-bottom: 55px;
-}
-
 .admonition {
-  .formula-bottom {
+  .formula.formula-bottom {
     margin-bottom: 30px;
   }
-  .formula-top {
+  .formula.formula-top {
     margin-top: 40px;
   }
 }
@@ -108,10 +107,10 @@ tr:nth-child(even) {
   background-color: #efefef
 }
 
-.md-typeset h2,
-.md-typeset h3 {
-  margin: 1.6rem 0 1.6rem;
-}
+// .md-typeset h2,
+// .md-typeset h3 {
+//   margin: 1.6rem 0 1.6rem;
+// }
 
 .admonition  {
   overflow: hidden !important;
@@ -140,44 +139,60 @@ p.dt + ul {
   color: #444;
 }
 
-h4.dt,
-p.dt {
+@media only screen and (min-width: 60em)  {
+  h4.dt,
+  p.dt {
+    float: left;
+    width: 140px;
+    overflow: hidden;
+    clear: left;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 
-  float: left;
-  width: 140px;
-  overflow: hidden;
-  clear: left;
-  text-align: right;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-
-  margin: 0 !important;
-
-  + p {
     margin: 0 !important;
-    margin-left: 150px !important;
-    margin-bottom: 0.3em !important;
+
+    + p {
+      margin: 0 !important;
+      margin-left: 150px !important;
+      margin-bottom: 0.3em !important;
+    }
+  }
+
+  p.dt {
+    width: 180px;
+
+    + ul {
+      margin-left: 190px !important;
+    }
+  }
+
+  h4.dt {
+    margin-top: -3em !important;
+    padding-top: 3em !important;
+
+    + p {
+      padding-top: 0.4em !important;
+    }
+
+    a {
+      display: none !important;
+    }
   }
 }
 
-p.dt {
-  width: 180px;
-
-  + ul {
-    margin-left: 190px !important;
+.md-typeset {
+  h2 {
+    margin: 2rem 0 0.8rem;
   }
-}
-
-h4.dt {
-  margin-top: -2em !important;
-  padding-top: 2.4em !important;
-
-  + p {
-    padding-top: 0.4em !important;
+  h3 {
+    margin: 1.6rem 0 0.8rem;
   }
-
-  a {
-    display: none !important;
+  h4, h5, h6 {
+    margin: 1.1rem 0;
+  }
+  blockquote, ol, p, ul {
+    margin: 0.5em 0;
   }
 }
 
@@ -234,6 +249,7 @@ i[f] {
   }
 
   h3#endurance:after,
+  h4#endurance:after,
   a[href*="#endurance"]:after {
     content: "\EB5C";
   }
@@ -328,6 +344,7 @@ i[f] {
     content: "\EA22";
   }
 
+  h3#turn-order:after,
   h4#turn-order:after,
   a[href*="#turn-order"]:after {
     content: "\E385";

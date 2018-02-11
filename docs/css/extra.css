@@ -1,9 +1,13 @@
-[data-bracket-bottom] {
+[data-bracket-bottom],
+[data-bracket-top] {
   display: inline-block;
   vertical-align: top;
   position: relative;
-  margin-bottom: 10px;
   margin-left: 10px;
+}
+
+[data-bracket-bottom] {
+  margin-bottom: 10px;
 }
 
 [data-bracket-bottom]:before {
@@ -23,13 +27,6 @@
   height: 6px;
   border: 2px solid black;
   border-top: none;
-}
-
-[data-bracket-top] {
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
-  margin-left: 10px;
 }
 
 [data-bracket-top]:before {
@@ -59,23 +56,23 @@
   text-align: center;
 }
 
+.formula.formula-top {
+  margin-top: 55px;
+}
+
+.formula.formula-bottom {
+  margin-bottom: 55px;
+}
+
 .formula span {
   margin: 0 8px;
 }
 
-.formula-top {
-  margin-top: 55px;
-}
-
-.formula-bottom {
-  margin-bottom: 55px;
-}
-
-.admonition .formula-bottom {
+.admonition .formula.formula-bottom {
   margin-bottom: 30px;
 }
 
-.admonition .formula-top {
+.admonition .formula.formula-top {
   margin-top: 40px;
 }
 
@@ -107,11 +104,6 @@ tr:nth-child(even) {
   background-color: #efefef;
 }
 
-.md-typeset h2,
-.md-typeset h3 {
-  margin: 1.6rem 0 1.6rem;
-}
-
 .admonition {
   overflow: hidden !important;
 }
@@ -140,44 +132,56 @@ p.dt + ul li:not(:first-child):before {
   color: #444;
 }
 
-h4.dt,
-p.dt {
-  float: left;
-  width: 140px;
-  overflow: hidden;
-  clear: left;
-  text-align: right;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  margin: 0 !important;
+@media only screen and (min-width: 60em) {
+  h4.dt,
+  p.dt {
+    float: left;
+    width: 140px;
+    overflow: hidden;
+    clear: left;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0 !important;
+  }
+  h4.dt + p,
+  p.dt + p {
+    margin: 0 !important;
+    margin-left: 150px !important;
+    margin-bottom: 0.3em !important;
+  }
+  p.dt {
+    width: 180px;
+  }
+  p.dt + ul {
+    margin-left: 190px !important;
+  }
+  h4.dt {
+    margin-top: -3em !important;
+    padding-top: 3em !important;
+  }
+  h4.dt + p {
+    padding-top: 0.4em !important;
+  }
+  h4.dt a {
+    display: none !important;
+  }
 }
 
-h4.dt + p,
-p.dt + p {
-  margin: 0 !important;
-  margin-left: 150px !important;
-  margin-bottom: 0.3em !important;
+.md-typeset h2 {
+  margin: 2rem 0 0.8rem;
 }
 
-p.dt {
-  width: 180px;
+.md-typeset h3 {
+  margin: 1.6rem 0 0.8rem;
 }
 
-p.dt + ul {
-  margin-left: 190px !important;
+.md-typeset h4, .md-typeset h5, .md-typeset h6 {
+  margin: 1.1rem 0;
 }
 
-h4.dt {
-  margin-top: -2em !important;
-  padding-top: 2.4em !important;
-}
-
-h4.dt + p {
-  padding-top: 0.4em !important;
-}
-
-h4.dt a {
-  display: none !important;
+.md-typeset blockquote, .md-typeset ol, .md-typeset p, .md-typeset ul {
+  margin: 0.5em 0;
 }
 
 html {
@@ -232,6 +236,7 @@ i[f]:before {
 }
 
 *:not(.md-search-result__item) > h3#endurance:after,
+*:not(.md-search-result__item) > h4#endurance:after,
 *:not(.md-search-result__item) > a[href*="#endurance"]:after {
   content: "\EB5C";
 }
@@ -326,6 +331,7 @@ i[f]:before {
   content: "\EA22";
 }
 
+*:not(.md-search-result__item) > h3#turn-order:after,
 *:not(.md-search-result__item) > h4#turn-order:after,
 *:not(.md-search-result__item) > a[href*="#turn-order"]:after {
   content: "\E385";

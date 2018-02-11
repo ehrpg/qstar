@@ -1,57 +1,17 @@
 # Glossary
 
-| Name     | Description                                                                       |
-|----------|-----------------------------------------------------------------------------------|
-| Downtime | Expendable time gained when resting for longer time periods or between adventures |
-| Firearm  | A firearm is a portable gun (a barreled ranged weapon)                            |
+<dl>
+<dt>Downtime</dt>
+<dd>Expendable time gained when resting for longer time periods or between adventures</dd>
 
+<dt>Firearm</dt>
+<dd>A firearm is a portable gun (a barreled ranged weapon)</dd>
+</dl>
 
+# Mechanisms
 
-# Character
-## Stats
-### Primary
-*12 points; ranges: 0-5*
-- Might `[-5, 5]`
-  - physical power and condition
-- Speed `[-5, 5]`
-  - reflexes, hand-to-eye coordination
-- Intelligence `[-5, 5]`
-  - knowing things, infer things
-- Charisma `[-5, 5]`
-  - influence others
-
-- Experience `[1, X]`
-  - gained by adventuring
-
-### Secondary
-- Resources `[0, 30]`
-  - Items cost resources
-  - Acquired by selling trade goods and adventuring
-- Influence `[0, 30]`
-  - Fame and infamy
-  - Acquired by actions
-- Downtime `[0, 10]`
-  - Allows equipment modification, heal damage, etc.
-  - gain +1 each game session
-- Trade Goods `[0, X]`
-  - Gained by trading/adventuring/looting
-  - require storage space
-- Research `[0, 10]`
-  - Improve skills, weapons, tech, etc.
-  - +1 through spending downtime / resources etc.
-
-### Race
-- Change Stats: Primary & Secondary
-- Inherent features
-### Pools
-- Abilities
-- Endurance
-### Skills
-- `3d6 + Ability + Skill Rank +- Description`
-### Perks & Flaws
-- require ability ranks
-- require skill ranks
-- standing as a perk/flaw (default "commoner")
+Anything that represents a character, creature, operational vessel, etc. is
+defined by 4 primary stats and 4 secondary stats.
 
 # Improving your character
 ## Abilities

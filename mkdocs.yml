@@ -48,3 +48,8 @@ markdown_extensions:
 pages:
     - Q*:
         - Draft: 'index.md'
+        - Character: 'character.md'
+        - Combat: 'combat.md'
+        - Vehicles & Vessels:
+            - Vessel: 'vessel/vessel.md'
+            - Combat: 'vessel/combat.md'
