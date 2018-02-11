@@ -27,6 +27,12 @@ Any ability score at 5 means that the character is almost superhuman in that
 ability. An ability score at 0 means that the character is somehow impaired, and
 an ability score at -5 means that the character is dead.
 
+!!! tip "Tracking primary stats"
+    Always write the current primary stat value down separately from your
+    character's maximum. Damage decreases abilities, but the damage can be
+    healed with resources and time. Healing can never increase the ability stat
+    above the maximum value.
+
 #### Might
 
 > Might represents the character's physical strength and resilience.
@@ -125,12 +131,13 @@ between adventures and longer periods of downtime during adventures.
 
 > Experience is gained throughout a character's adventuring career.
 
-**GAINED**{.hf} due to noteable achievements or story completions. Experience
-*may* provide a character with experience points, usually 1 at a time.
+Experience is gained due to noteable achievements or story completions.
+Experience *may* provide a character with experience points, usually 1 at a
+time.
 
-**USED**{.hf} automatically, improving the maximum values of your secondary
-stats. This does not necessarily make your character stronger, but make the
-character more resourceful and adaptable.
+Experience improves the maximum values of your secondary stats. This does not
+necessarily make your character stronger, but make the character more
+resourceful and adaptable.
 
 Every character has 1 experience upon creation.
 
@@ -154,19 +161,14 @@ asd
 
 ## Skills
 
-* `3d6 + Ability + Skill Rank +- Description`
-
 !!! summary "Skill checks"
     <div class="formula formula-top formula-bottom">
     <a href="#Skills">Skill check</a> =
-    <span data-bracket-bottom="base">3d6</span>
-    ±
+    <span data-bracket-bottom="base">3d6</span> ±
     <span data-bracket-top="Ability">
       <a href="#primary">ability</a>
-    </span>
-    ±
-    <span data-bracket-bottom="bonus">skill</span>
-    ±
+    </span> ±
+    <span data-bracket-bottom="bonus">skill</span> ±
     <span data-bracket-top="-2 to +2">roleplay</span>
     </div>
 

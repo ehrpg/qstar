@@ -90,7 +90,7 @@ h4 {
   display: block;
   height: 12px;
   position: absolute;
-  bottom: 100%;
+  top: -14px;
   left: -2px;
   right: 0;
 }
