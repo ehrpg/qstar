@@ -7,7 +7,7 @@ following rules.
 ## Stats
 
 Primary stats are fixed values every character has. These stats are only
-modified by fatal events while adventuring, or by taking damage
+modified by fatal events while adventuring, or by taking damage.
 
 ### Primary
 
@@ -31,7 +31,8 @@ an ability score at -5 means that the character is dead.
 
 > Might represents the character's physical strength and resilience.
 
-The damage of some weapons is derived from might.
+The damage of some weapons is derived from might. Also improves a character's
+toughness.
 
 #### Speed
 
@@ -43,6 +44,9 @@ Speed adds a bonus to most weapon attacks.
 
 > Intelligence describes how well your character learns new things, and how well
 he remembers already existing things.
+
+Intelligence improves a character's ability to assess situations and skills
+related to knowing things.
 
 #### Charisma
 
@@ -57,48 +61,48 @@ Charisma is mostly used in social interactions between characters and NPCs.
 
 > Influence represents connections, owed favours by others, fame and infamy.
 
-**GAIN** Influence by making a name for yourself in the cosmos, i.e. by helping
+**GAINED**{.hf} by making a name for yourself in the cosmos, i.e. by helping
 people and factions. Influence is lost by harming and disappointing others.
 
-**USED** for accessing and buying items, vessels, meetings with high ranking
-characters, etc.
+**USED**{.hf} for accessing and buying items, vessels, meetings with high
+ranking characters, etc.
 
 #### Resources
 
 > Resources represent materials used for creating, repairing and upgrading.
 
-**GAIN** Resources by looting enemies, or completing missions, adventures and
+**GAINED**{.hf} by looting enemies, or completing missions, adventures and
 quests.
 
-**USED** to create, repair and upgrade items and vessels.
+**USED**{.hf} to create, repair and upgrade items and vessels.
 
 #### Time
 
 > Spare time represents the time a character can invest in downtime activities.
 
-**GAIN** spare time in the course of time. A character gains more spare in
+**GAINED**{.hf} in the course of time. A character gains more spare time in
 between adventures and longer periods of downtime during adventures.
 
-**USED** to recuperate, craft, repair and upgrade items and vessels.
+**USED**{.hf} to recuperate, craft, repair and upgrade items and vessels.
 
 #### Goods
 
 > Goods are traded for money.
 
-**GAIN** trading goods by looting enemies, or gain them from adventuring and
-quests.
+**GAINED**{.hf} looting enemies, or gained from adventuring and quests.
 
-**USED** to sell for profits.
+**USED**{.hf} to sell for profits.
 
 ## Experience
 
-Experience is gained throughout a character's adventuring career. Noteable
-achievements or story completions *may* provide a character with experience
-points, usually 1.
+> Experience is gained throughout a character's adventuring career.
 
-Experience improves the maximum values of the secondary stats, not necessarily
-making your character stronger, but making the character more resourceful and
-adaptable.
+**GAINED**{.hf} due to noteable achievements or story completions *may* provide
+a character with experience points, usually 1.
+
+**USED**{.hf} automatically, improving the maximum values of your secondary
+stats. This does not necessarily make your character stronger, but make the
+character more resourceful and adaptable.
 
 ## Race
 
