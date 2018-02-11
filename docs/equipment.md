@@ -9,6 +9,3 @@
 ### Weapon Stats
 
 ### Weapon Tags
-
-
-

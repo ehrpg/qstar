@@ -65,16 +65,18 @@ Charisma is mostly used in social interactions between characters and NPCs.
 
 #### Goods
 
-> Goods are traded for money.
+TODO
+
+<!-- > Goods are traded for money.
 
 **GAINED**{.hf} by looting enemies, or from adventuring and quests.
 
 **USED**{.hf} to sell for profits.
 
-Any character with a [Might](#might) value of 3 or higher is just strong enough
-to carry one singular unit of goods. Transporting more goods at a time requires
-vessels or some other type of storage. Trading goods that exceed this storage
-limit are lost.
+Any character with a [Might](#might) value of 3 or higher is just strong
+enough to carry one singular unit of goods. Transporting more goods at a time
+requires vessels or some other type of storage. Trading goods that exceed this
+storage limit are lost. -->
 
 #### Influence
 
