@@ -52,6 +52,9 @@ pages:
         - Character: 'character.md'
         - Combat: 'combat.md'
         - Equipment: 'equipment.md'
-        - Vehicles & Vessels:
-            - Vessel: 'vessel/vessel.md'
-            - Combat: 'vessel/combat.md'
+    - Vehicles & Vessels:
+        - Vessel: 'vessel/vessel.md'
+        - Combat: 'vessel/combat.md'
+        - Equipment: 'vessel/equipment.md'
+    - S.T.A.L.K.E.R. — Setting Rules:
+        - Placeholder: 'index.md'

@@ -9,6 +9,10 @@
   font-style: normal;
 }
 
+.md-sidebar__inner > nav.md-nav > ul.md-nav__list > li:not(:first-child) {
+  padding-top: 3rem;
+}
+
 .tag {
   font-weight: 300;
   font-size: 1rem;
