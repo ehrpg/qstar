@@ -50,18 +50,18 @@ nav.md-nav--primary > ul.md-nav__list > li:not(:first-child) {
     border-bottom: 2px solid grey;
   }
 
-  h2 {
-    margin: 4rem 0 1.6rem;
-  }
-  h3 {
-    margin: 3.2rem 0 1.6rem;
-  }
-  h4, h5, h6 {
-    margin: 2rem 0 1.1rem;
-  }
-  blockquote, ol, p, ul {
-    margin: 0.5em 0;
-  }
+  // h2 {
+  //   margin: 4rem 0 1.6rem;
+  // }
+  // h3 {
+  //   margin: 3.2rem 0 1.6rem;
+  // }
+  // h4, h5, h6 {
+  //   margin: 2rem 0 1.1rem;
+  // }
+  // blockquote, ol, p, ul {
+  //   margin: 0.5em 0;
+  // }
   ul {
     position: relative;
     list-style: none;
@@ -303,6 +303,7 @@ i[f] {
     margin-bottom: 0.8rem;
   }
 
+
   a[href="./equipment"]:after,
   a[href*="#"]:after {
     font-family: "game-icons";
@@ -431,6 +432,10 @@ i[f] {
 
 .qstar-2sixes:after {
   content: "\E90F \E90F";
+}
+
+.qs-d6:after {
+  content: "\E90F";
 }
 
 $headers: h1, h2, h3, h4;

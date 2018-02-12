@@ -44,22 +44,6 @@ nav.md-nav--primary > ul.md-nav__list > li:not(:first-child) {
   border-bottom: 2px solid grey;
 }
 
-.md-typeset:not(.md-search-result__item) h2 {
-  margin: 4rem 0 1.6rem;
-}
-
-.md-typeset:not(.md-search-result__item) h3 {
-  margin: 3.2rem 0 1.6rem;
-}
-
-.md-typeset:not(.md-search-result__item) h4, .md-typeset:not(.md-search-result__item) h5, .md-typeset:not(.md-search-result__item) h6 {
-  margin: 2rem 0 1.1rem;
-}
-
-.md-typeset:not(.md-search-result__item) blockquote, .md-typeset:not(.md-search-result__item) ol, .md-typeset:not(.md-search-result__item) p, .md-typeset:not(.md-search-result__item) ul {
-  margin: 0.5em 0;
-}
-
 .md-typeset:not(.md-search-result__item) ul {
   position: relative;
   list-style: none;
@@ -409,6 +393,10 @@ i[f]:before {
 
 .qstar-2sixes:after {
   content: "\E90F \E90F";
+}
+
+.qs-d6:after {
+  content: "\E90F";
 }
 
 h1 {

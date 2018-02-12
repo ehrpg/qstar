@@ -19,15 +19,13 @@ Primary stats or abilities are used for a number of things:
 * enable certain action, e.g. carrying heavy stuff requires a minimal strength
   value.
 
-Abilities have ranks going from 1 to 10. 5 is the average, conferring neither a
-benefit nor a drawback. Every point below or above five grants an additional
-benefit. This benefit is called ability modifier:
+Every character has 12 points to spend between the four primary stats upon
+creation. Each primary stat has the initial value of 0. Points can only be
+added, not subtracted from the ability. Abilities can never be higher than 5.
 
-| Ability  |   0   |   1   |   2   |   3   |   4   |   5   |   6   |   7   |   8   |   9   |   10  |
-|----------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| Modifier |   -5  |   -4  |   -3  |   -2  |   -1  |   +0  |   +1  |   +2  |   +3  |   +4  |   +5  |
-
-If an ability drops to zero, the character dies.
+Any ability score at 5 means that the character is almost superhuman in that
+ability. An ability score at 0 means that the character is somehow impaired, and
+an ability score at -5 means that the character is dead.
 
 !!! tip "Tracking primary stats"
     Always write the current primary stat value down separately from your
@@ -174,9 +172,8 @@ round.
 !!! summary "Skill checks"
     <div class="formula formula-top formula-bottom">
     <span data-bracket-bottom="base">3d6</span> ±
-    <span data-bracket-top="ability modifier">ability</span> ±
-    <span data-bracket-bottom="skill rank">skill</span> ±
-    <span data-bracket-top="-2 to +2">roleplay</span>
+    <span data-bracket-top="bonus">skill</span> ±
+    <span data-bracket-bottom="-2 to +2">roleplay</span>
     </div>
 
 ## Perks & Flaws

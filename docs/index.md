@@ -11,13 +11,38 @@
 # Mechanisms
 
 Anything that represents a character, creature, operational vessel, etc. is
-defined by:
+defined by a set of features. The features listed here assume characters:
 
-* primary and secondary stats,
-* pools,
-* races and origins,
-* skills,
-* perks and flaws.
+* primary stats:
+    * Might (Combat > Skills)
+    * Speed (Combat > Skills)
+    * Intelligence (Skills > Combat)
+    * Charisma (Skills > Combat)
+* secondary stats:
+    * Downtime (Healing, Acquisition)
+    * Resources (Upgrades)
+    * Goods (Loot, Trading)
+    * Technology (Upgrades)
+* pools:
+    * Health
+    * Endurance
+* race (ethnic) / origin:
+    * primary stats
+    * secondary stats
+    * pools
+    * inherent features
+    * skills
+    * perks/flaws
+* skills
+    * ranks 0-5
+* perks and flaws
+
+## Stunts
+
+Rolling a **6**{.qs-d6} with any roll on a check enables so called **stunts**.
+
+Every character can use some generally available stunts. Special stunts require
+**perks**.
 
 # Improving your character
 ## Abilities
@@ -46,48 +71,48 @@ defined by:
 
 ## Conditions
 - Dead
-  - dead :(
+    - dead :(
 - Impaired
-  - e.g. drunk: unable to move, -2 to checks, etc.
+    - e.g. drunk: unable to move, -2 to checks, etc.
 - Incapacitated
-  - unable to act or interact
+    - unable to act or interact
 - In cover
-  - +X Defence, no armour hitpoints lost on hit
+    - +X Defence, no armour hitpoints lost on hit
 - Prone
-  - +2 ranged attack, no bonuses to melee checks
+    - +2 ranged attack, no bonuses to melee checks
 - Stunned
-  - -5 all checks
+    - -5 all checks
 
 ## Actions
 
 ### Tactical
 - Attack
-  - Use your weapon, with `RoF - 1` optional extra dice
+    - Use your weapon, with `RoF - 1` optional extra dice
 - Shoot while Moving
-  - Use your weapon once that round, no RoF allowed
+    - Use your weapon once that round, no RoF allowed
 - Overwatch
-  - 2 Actions, shoot once at any target leaving its cover
+    - 2 Actions, shoot once at any target leaving its cover
 - Take Aim
-  - 2 Actions, lowest 1d6 -> 6, stacks, target moving resets
-  - next round: resolve attack or *take aim* again
+    - 2 Actions, lowest 1d6 -> 6, stacks, target moving resets
+    - next round: resolve attack or *take aim* again
 
 ### Movement
 - Kneel Down
-  - 1 Action, +1 ranged attack
+    - 1 Action, +1 ranged attack
 - Move
-  - 1 Action, move some distance
+    - 1 Action, move some distance
 - Prone
-  - 1 Action to lie down, 2 Actions to get up, +2 ranged attack
+    - 1 Action to lie down, 2 Actions to get up, +2 ranged attack
 - Take Cover
-  - Usually part of move action, 1 Action otherwise
+    - Usually part of move action, 1 Action otherwise
 - Use Item
-  - variable, defined by item, 1 Action otherwise
+    - variable, defined by item, 1 Action otherwise
 - Use Skill
-  - variable, defined by skill use, 1 Action otherwise
+    - variable, defined by skill use, 1 Action otherwise
 
 ### Free Actions
 - quick actions that don't take (a lot of) time
-  - 0 Actions
+    - 0 Actions
 
 ### Reaction
 - Speed check vs DC 12 +- bonuses/penalties
