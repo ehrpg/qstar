@@ -15,9 +15,8 @@ modified by *fatal events* while adventuring, or by *taking damage*.
 
 Primary stats or abilities are used for a number of things:
 
-* add a bonus to various checks,
 * define how much damage the character can sustain,
-* enable perks
+* enable perks and upgrades
 * enable certain action, e.g. carrying heavy stuff requires a minimal strength
   value.
 
@@ -66,6 +65,11 @@ Charisma is mostly used in social interactions between characters and NPCs.
 <div class="col-layout-end"></div>
 
 ### Secondary
+
+Secondary stats are bound to change quite often. Every secondary stat has a
+maximum value modified by circumstances, perks, and permanently due to
+[experience](#experience). The current value of a secondary stat can **never**
+exceed the maximum value. All exceeding points are usually lost.
 
 #### Goods
 

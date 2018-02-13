@@ -58,6 +58,7 @@ pages:
 
     - Vehicles & Vessels:
         - Vessels: 'vessel/index.md'
+        - Perks & Flaws: 'vessel/perks_flaws.md'
         - Combat: 'vessel/combat.md'
         - Equipment: 'vessel/equipment.md'
 
