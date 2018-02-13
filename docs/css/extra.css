@@ -28,6 +28,18 @@ nav.md-nav--primary > ul.md-nav__list > li:not(:first-child) {
   box-sizing: border-box;
 }
 
+h1[id]:target:before {
+  margin-top: -5.8rem;
+  padding-top: 5.8rem;
+}
+
+h1[id]:before {
+  display: block;
+  margin-top: -.8rem;
+  padding-top: .8rem;
+  content: "";
+}
+
 .md-typeset:not(.md-search-result__item) strong.hf {
   /* header-font */
   font-family: 'Mainframe-Opto';

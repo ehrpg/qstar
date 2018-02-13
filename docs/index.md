@@ -1,6 +1,9 @@
 # Glossary
 
 <dl>
+<dt>Stats</dt>
+<dd>Stats refer to primary and secondary attributes of a subject (character or vessel).</dd>
+
 <dt>Downtime</dt>
 <dd>Expendable time gained when resting for longer time periods or between adventures</dd>
 
