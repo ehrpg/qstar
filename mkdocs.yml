@@ -48,13 +48,20 @@ markdown_extensions:
 
 pages:
     - Q*:
-        - Draft: 'index.md'
+        - Introduction: 'index.md'
         - Character: 'character.md'
+        - Skills: 'skills.md'
+        - Perks & Flaws: 'perks_flaws.md'
         - Combat: 'combat.md'
         - Equipment: 'equipment.md'
+
     - Vehicles & Vessels:
         - Vessel: 'vessel/vessel.md'
         - Combat: 'vessel/combat.md'
         - Equipment: 'vessel/equipment.md'
-    - S.T.A.L.K.E.R. — Setting Rules:
-        - Placeholder: 'index.md'
+
+    - Setting — Q*:
+        - Introduction: 'settings/qstar/index.md'
+
+    - Setting — S.T.A.L.K.E.R.:
+        - Introduction: 'settings/stalker/index.md'

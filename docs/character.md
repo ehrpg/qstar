@@ -6,6 +6,8 @@ following rules.
 
 ## Stats
 
+<div class="col-layout-start"></div>
+
 Primary stats are fixed values every character has. These stats are only
 modified by fatal events while adventuring, or by taking damage.
 
@@ -60,6 +62,8 @@ related to knowing things.
 and his ability to lead.
 
 Charisma is mostly used in social interactions between characters and NPCs.
+
+<div class="col-layout-end"></div>
 
 ### Secondary
 
@@ -166,18 +170,3 @@ A race modifies:
 
 A character at zero endurance is incapacitated and can only make one action per
 round.
-
-## Skills
-
-!!! summary "Skill checks"
-    <div class="formula formula-top formula-bottom">
-    <span data-bracket-bottom="base">3d6</span> ±
-    <span data-bracket-top="bonus">skill</span> ±
-    <span data-bracket-bottom="-2 to +2">roleplay</span>
-    </div>
-
-## Perks & Flaws
-
-* require ability ranks
-* require skill ranks
-* standing as a perk/flaw (default "commoner")
