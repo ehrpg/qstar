@@ -18,7 +18,7 @@ skill check.
     <span data-bracket-bottom="Circumstance">other bonuses</span>
     </div>
 
-### Skill Ranks
+## Skill Ranks
 
 Every skill has a skill rank, initially being at **Untrained**. Untrained skills
 impose a penalty on skill checks, or can't be used at all.
@@ -26,9 +26,9 @@ impose a penalty on skill checks, or can't be used at all.
 | Skill Rank | Bonus |
 |------------|------:|
 | Untrained  |    -2 |
-| Trained    |    +1 |
-| Proficient |    +2 |
-| Skilled    |    +4 |
+| Trained    |    +0 |
+| Proficient |    +1 |
+| Skilled    |    +3 |
 | Master     |    +6 |
 
 Any character can only have a maximum of 3 master rank skill at any given time.
