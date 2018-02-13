@@ -8,7 +8,7 @@ following rules.
 
 <div class="col-layout-start"></div>
 
-Primary stats are *fixed* values every character has. These stats are only
+Primary stats are **fixed** values every character has. These stats are only
 modified by *fatal events* while adventuring, or by *taking damage*.
 
 ### Primary

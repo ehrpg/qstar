@@ -6,7 +6,7 @@
 }
 
 nav.md-nav--primary > ul.md-nav__list > li:not(:first-child) {
-  padding-top: 3rem;
+  padding-top: 2rem;
 }
 
 .tag {

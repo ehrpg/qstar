@@ -1,4 +1,4 @@
-site_name: Q* - RPG
+site_name: Q* — RPG System
 repo_url: https://github.com/ehrpg/qstar
 site_author: "@n0la, @johannes-z"
 dev_addr: 127.0.0.1:8001
@@ -27,7 +27,7 @@ theme:
         code: Roboto Mono
     favicon: assets/images/favicon.png
     logo:
-        icon: "\uE80C"
+        icon: "\u269D"
 
 extra_css:
     - css/extra.css
@@ -53,6 +53,7 @@ pages:
         - Skills: 'skills.md'
         - Perks & Flaws: 'perks_flaws.md'
         - Combat: 'combat.md'
+        - Stunts: 'stunts.md'
         - Equipment: 'equipment.md'
 
     - Vehicles & Vessels:
