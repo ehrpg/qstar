@@ -25,11 +25,11 @@ shield generators, sensors, fuel, etc.
 
 ### Secondary
 
-#### Technology
+#### Fuel
 
 #### Storage
 
-#### Fuel
+#### Technology
 
 ## Origin
 
@@ -43,6 +43,8 @@ An origin modifies:
 * and may add roleplaying circumstances.
 
 ## Pools
+
+### Hull
 
 ### Shields
 

@@ -57,7 +57,7 @@ pages:
         - Equipment: 'equipment.md'
 
     - Vehicles & Vessels:
-        - Vessel: 'vessel/vessel.md'
+        - Vessels: 'vessel/index.md'
         - Combat: 'vessel/combat.md'
         - Equipment: 'vessel/equipment.md'
 
