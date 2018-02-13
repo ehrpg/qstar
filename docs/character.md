@@ -121,18 +121,18 @@ vessels.
       <span data-bracket-bottom="Circumstance">other bonuses</span>
     </div>
 
-#### Time
+#### Downtime
 
-> Spare time represents the time a character can invest in downtime activities.
+> Downtime represents the time a character can invest in downtime activities.
 
-**GAINED**{.hf} in the course of time. A character gains more spare time in
+**GAINED**{.hf} in the course of time. A character gains more downtime in
 between adventures and longer periods of downtime during adventures. A character
-gains 1 spare time each session.
+gains 1 downtime each session.
 
 **USED**{.hf} to recuperate, craft, repair and upgrade items and vessels.
 
-A character can never have more than 10 spare time at any time. Spare time
-gained, if the maximum is reached, is lost.
+A character can never have more than 10 downtime at any time. Downtime gained,
+if the maximum is reached, is lost.
 
 ## Experience
 

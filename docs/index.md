@@ -20,29 +20,58 @@ usually perks and equipment.</dd>
 Anything that represents a character, creature, operational vessel, etc. is
 defined by a set of features. The features listed here assume characters:
 
+## Stats
+
+All characters and vessels have primary stats, and secondary stats:
+
 * primary stats:
-    * Might (Combat > Skills)
-    * Speed (Combat > Skills)
-    * Intelligence (Skills > Combat)
-    * Charisma (Skills > Combat)
+    * Might / Firepower
+    * Speed / Maneuverability
+    * Intelligence / Subsystems
+    * Charisma / Power-Level
 * secondary stats:
-    * Downtime (Healing, Acquisition)
-    * Resources (Upgrades)
-    * Goods (Loot, Trading)
-    * Technology (Upgrades)
+    * Downtime / Fuel
+    * Goods / Storage
+    * Resources / Resources
+    * Technology / Technology
+
+## Pools
+
+All characters and vessels have two pools.
+
+One for its health - if this pool drops to zero or below, the character dies or
+vessel is destroyed.
+
+Another one that serves the role of a secondary pool, that's easily
+replenishable. If this pool drops to zero, all subsequent damage is dealth to
+the first pool instead. The secondary pool dropping to zero has fatal
+consequences in itself.
+
 * pools:
     * Health
     * Endurance
-* race (ethnic) / origin:
-    * primary stats
-    * secondary stats
-    * pools
-    * inherent features
-    * skills
-    * perks/flaws
+
+## Race / Origin
+
+All characters and vessels have a race or origin (for vessels). A race or origin
+modify:
+
+* primary stats
+* secondary stats
+* pools
 * skills
-    * ranks 0-5
-* perks and flaws
+* inherent perks/flaws
+
+## Skills
+
+All characters and vessels have skills. These skills are ranked from 0 to 5. A
+skill at rank 0 imposes a penalty, and the others add bonuses.
+
+
+## Perks & Flaws
+
+Perks & Flaws require certain primary abilities, and provide bonuses to skills.
+Also, some perks add the ability to use [stunts](#stunts).
 
 ## Stunts
 
@@ -50,6 +79,12 @@ Rolling a **6**{.qs-d6} with any roll on a check enables so called **stunts**.
 
 Every character can use some generally available stunts. Special stunts require
 **perks**.
+
+
+## Equipment
+
+All characters and vessels can be outfitted with equipment. Equipment makes a
+character/vessel tougher, stronger, and add a bonus to skill checks.
 
 # Improving your character
 ## Abilities

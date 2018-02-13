@@ -8,4 +8,12 @@
 
 ## Exploring
 
+| Name | Requirement | Description |
+|------|-------------|-------------|
+| X    | -           | ...         |
+
 ## Interaction
+
+| Name | Requirement | Description |
+|------|-------------|-------------|
+| Y    | -           | ...         |

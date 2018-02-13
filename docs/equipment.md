@@ -1,5 +1,9 @@
 # Equipment
 
+## Armour
+
+## Utility
+
 ## Weapons
 
 | Name                                                        | Description |
