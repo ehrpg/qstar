@@ -38,6 +38,8 @@ extra_javascript:
     - js/extra.js
 
 markdown_extensions:
+    - pymdownx.details
+    - pymdownx.smartsymbols
     - codehilite
     - admonition
     - attr_list

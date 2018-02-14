@@ -31,9 +31,16 @@ All characters and vessels have primary stats, and secondary stats:
     * Charisma / Power-Level
 * secondary stats:
     * Downtime / Fuel
-    * Goods / Storage
+        * Downtime --> Improving character, healing damage
+        * Fuel --> Travel from origin to destination
+    * Y / Storage
+        * Y --> ...
+        * Storage --> Storage space for trading goods
     * Resources / Resources
-    * Technology / Technology
+        * Resources --> Used for powerful equipment
+    * X / Technology
+        * X --> ...
+        * Technology --> Adding upgrades to a vessel requires technology
 
 ## Pools
 

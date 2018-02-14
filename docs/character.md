@@ -6,10 +6,13 @@ following rules.
 
 ## Stats
 
-<div class="col-layout-start"></div>
-
 Primary stats are **fixed** values every character has. These stats are only
 modified by *fatal events* while adventuring, or by *taking damage*.
+
+!!! tip "Tracking stats"
+    Always write the current primary and secondary stat value down separately
+    from your character's maximum. Certain actions decrease and increase those
+    stats very often, while the maximum doesn't change that frequently.
 
 ### Primary
 
@@ -27,12 +30,6 @@ added, not subtracted from the ability. Abilities can never be higher than 5.
 Any ability score at 5 means that the character is almost superhuman in that
 ability. An ability score at 0 means that the character is somehow impaired, and
 an ability score at -5 means that the character is dead.
-
-!!! tip "Tracking primary stats"
-    Always write the current primary stat value down separately from your
-    character's maximum. Damage decreases abilities, but the damage can be
-    healed with resources and time. Healing can never increase the ability stat
-    above the maximum value.
 
 #### Might
 
@@ -61,8 +58,6 @@ related to knowing things.
 and his ability to lead.
 
 Charisma is mostly used in social interactions between characters and NPCs.
-
-<div class="col-layout-end"></div>
 
 ### Secondary
 
