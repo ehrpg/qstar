@@ -89,8 +89,15 @@ One storage space splits up to 4 parcels. One unit of loot equals one parcels,
 so 4 units of loot equal one storage unit.
 
 A character can carry loot up to his [might](#might) value. Transporting more
-loot at a time requires vessels or some other type of storage. Loot that exceed
+loot at a time requires vessels or some other type of storage. Loot that exceeds
 this storage limit is lost.
+
+!!! summary "Maximum Loot"
+    <div class="formula formula-top formula-bottom">
+      <span data-bracket-bottom="character">Might</span> +
+      <span data-bracket-top="Upgrades">other bonuses</span>
+    </div>
+
 
 !!! info "Loot and storage example"
     Max is a character with a [might](#might) value of 5. He stumbles about a
