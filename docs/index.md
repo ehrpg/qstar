@@ -82,9 +82,10 @@ Also, some perks add the ability to use [stunts](#stunts).
 ## Stunts
 
 Rolling a **6**{.qs-d6} with any roll on a check enables so called **stunts**.
+Some **stunts** require two or even three **6**{.qs-d6} on a check to be used.
 
-Every character can use some generally available stunts. Special stunts require
-**perks**.
+Every character has access to some generally available stunts. Special stunts
+require [perks](/perks-flaws) and [equipment](/equipment).
 
 
 ## Equipment

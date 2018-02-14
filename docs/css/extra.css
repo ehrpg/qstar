@@ -412,7 +412,7 @@ i[f]:before {
 }
 
 .qs-d6:after {
-  content: "\E90F";
+  content: "\E90F" !important;
 }
 
 h1 {

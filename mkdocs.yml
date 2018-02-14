@@ -54,14 +54,14 @@ pages:
         - Introduction: 'index.md'
         - Character: 'character.md'
         - Skills: 'skills.md'
-        - Perks & Flaws: 'perks_flaws.md'
+        - Perks & Flaws: 'perks-flaws.md'
         - Combat: 'combat.md'
         - Stunts: 'stunts.md'
         - Equipment: 'equipment.md'
 
     - Vehicles & Vessels:
         - Vessels: 'vessel/index.md'
-        - Perks & Flaws: 'vessel/perks_flaws.md'
+        - Perks & Flaws: 'vessel/perks-flaws.md'
         - Combat: 'vessel/combat.md'
         - Stunts: 'vessel/stunts.md'
         - Equipment: 'vessel/equipment.md'
