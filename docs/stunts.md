@@ -2,18 +2,18 @@
 
 ## Combat
 
-| Name            | Requirement | Description |
-|-----------------|-------------|-------------|
-| Critical Damage | -           | ...         |
+| Name         | Repetition | Requirement | Description                                                 |
+|--------------|-----------:|-------------|-------------------------------------------------------------|
+| Critical Hit |          - | -           | Deal the weapons critical damage to the targets health pool |
 
 ## Exploring
 
-| Name | Requirement | Description |
-|------|-------------|-------------|
-| X    | -           | ...         |
+| Name | Repetition | Requirement | Description |
+|------|-----------:|-------------|-------------|
+| X    |          - | -           | ...         |
 
 ## Interaction
 
-| Name | Requirement | Description |
-|------|-------------|-------------|
-| Y    | -           | ...         |
+| Name | Repetition | Requirement | Description |
+|------|-----------:|-------------|-------------|
+| Y    |          - | -           | ...         |

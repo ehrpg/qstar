@@ -63,6 +63,7 @@ pages:
         - Vessels: 'vessel/index.md'
         - Perks & Flaws: 'vessel/perks_flaws.md'
         - Combat: 'vessel/combat.md'
+        - Stunts: 'vessel/stunts.md'
         - Equipment: 'vessel/equipment.md'
 
     - Setting — Q*:
