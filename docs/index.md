@@ -87,6 +87,15 @@ All characters and vessels can be outfitted with equipment. Equipment makes a
 character/vessel tougher, stronger, and add a bonus to skill checks.
 
 # Improving your character
+
+| Attribute    | Downtime |
+|--------------|---------:|
+| Primary stat |       10 |
+| Skill        |        3 |
+| Get Perk     |        2 |
+| Remove Flaw  |        2 |
+| Trade        |        1 |
+
 ## Abilities
   - while playing, only if GM agrees, `100 000` Cr. per point
 ## Skills

@@ -129,7 +129,8 @@ vessels.
 between adventures and longer periods of downtime during adventures. A character
 gains 1 downtime each session.
 
-**USED**{.hf} to recuperate, craft, repair and upgrade items and vessels.
+**USED**{.hf} to recuperate, craft, repair and upgrade items and vessels and to
+improve a character.
 
 A character can never have more than 10 downtime at any time. Downtime gained,
 if the maximum is reached, is lost.
