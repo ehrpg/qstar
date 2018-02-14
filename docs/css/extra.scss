@@ -13,6 +13,10 @@ nav.md-nav--primary > ul.md-nav__list > li:not(:first-child) {
   padding-top: 2rem;
 }
 
+.md-header-nav__button.md-logo {
+  margin: 0;
+}
+
 .tag {
   font-weight: 300;
   font-size: 1rem;

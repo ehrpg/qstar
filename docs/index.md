@@ -30,17 +30,16 @@ All characters and vessels have primary stats, and secondary stats:
     * Intelligence / Subsystems
     * Charisma / Power-Level
 * secondary stats:
-    * Downtime / Fuel
+    * Downtime / Fuel (spent)
         * Downtime --> Improving character, healing damage
         * Fuel --> Travel from origin to destination
-    * Y / Storage
-        * Y --> ...
+    * Goods / Storage
+        * Goods --> Goods are looted and stored in storage
         * Storage --> Storage space for trading goods
-    * Resources / Resources
-        * Resources --> Used for powerful equipment
-    * X / Technology
-        * X --> ...
-        * Technology --> Adding upgrades to a vessel requires technology
+    * Resources / Resources (acquired)
+        * Resources --> Used to buy and maintain powerful equipment
+    * Technology / Technology (spent)
+        * Technology --> Used to unlock uncommon upgrades
 
 ## Pools
 
@@ -95,6 +94,8 @@ character/vessel tougher, stronger, and add a bonus to skill checks.
 
 # Improving your character
 
+Improving your character takes time.
+
 | Attribute    | Downtime |
 |--------------|---------:|
 | Primary stat |       10 |
@@ -102,6 +103,14 @@ character/vessel tougher, stronger, and add a bonus to skill checks.
 | Get Perk     |        2 |
 | Remove Flaw  |        2 |
 | Trade        |        1 |
+
+!!! note "Cheaper improvements"
+    Sometimes, a GM can decide that an improvement doesn't require as much
+    downtime as listed above. For example, a character that focused on strength
+    rather than charisma, may be attending a political party. Even if he didn't
+    accomplish anything during the event, he may still have learned a trick or
+    two. The GM could now reduce the downtime cost to 7 instead of 10 for
+    improving the characters charisma.
 
 ## Abilities
   - while playing, only if GM agrees, `100 000` Cr. per point

@@ -66,20 +66,61 @@ maximum value modified by circumstances, perks, and permanently due to
 [experience](#experience). The current value of a secondary stat can **never**
 exceed the maximum value. All exceeding points are usually lost.
 
-#### Goods
+#### Loot
 
-TODO
+> Loot is traded for money and resources. One unit of loot is called a parcel. 4
+> parcels make up one storage unit.
 
-<!-- > Goods are traded for money.
+**GAINED**{.hf} by looting enemies, or as reward from adventures and quests.
 
-**GAINED**{.hf} by looting enemies, or from adventuring and quests.
+**USED**{.hf} to sell for profits and acquiring resources.
 
-**USED**{.hf} to sell for profits.
+**SELLING**{.hf} loot nets `500 Cr.` per parcel sold. Selling 4 parcels at once
+nets an extra `500 Cr.` on top (resulting in `2 500 Cr.` total).
 
-Any character with a [Might](#might) value of 3 or higher is just strong
-enough to carry one singular unit of goods. Transporting more goods at a time
-requires vessels or some other type of storage. Trading goods that exceed this
-storage limit are lost. -->
+**BUYING**{.hf} loot usually implies some kind of trade run. Buying loot this
+way costs `250 Cr.` per parcel. If no trade run is done, the parcel costs `500
+Cr.` instead.
+
+**EXCHANGING**{.hf} loot for [resources](#resources) is done at an exchange rate
+of 12 loot parcels per resource point.
+
+One storage space splits up to 4 parcels. One unit of loot equals one parcels,
+so 4 units of loot equal one storage unit.
+
+A character can carry loot up to his [might](#might) value. Transporting more
+loot at a time requires vessels or some other type of storage. Loot that exceed
+this storage limit is lost.
+
+!!! info "Loot and storage example"
+    Max is a character with a [might](#might) value of 5. He stumbles about a
+    secret stash containing 10 units of loot. Since he is on his own, he can
+    only carry 5 units of loot. The other 5 units are still in the cash. He
+    decides to go back to his transporter and loads the loot onto it. The
+    transporter has a storage capacity of 4, resulting in a maximum storage of
+    16 parcels (or units of loot). The transporter now uses 5 of its 16 parcels.
+    Max goes back to the stash, and gets the other 5 units of loot, loading it
+    on the transporter, resulting in 10 of 16 total parcels used.
+
+#### Downtime
+
+> Downtime represents the time a character can invest in downtime activities.
+
+**GAINED**{.hf} in the course of time. A character gains more downtime in
+between adventures and longer periods of downtime during adventures. A character
+gains 1 downtime each session.
+
+**USED**{.hf} to recuperate, craft, repair and upgrade items and vessels and to
+improve a character.
+
+A character can never have more than 10 downtime at any time. Downtime gained,
+if the maximum is reached, is lost.
+
+Actions that take longer, like repairing a damaged vessel consume downtime.
+Usually, a task that consumes downtime has a DC of 12. Better skill checks can
+reduce downtime and/or resources used, while bad skill checks can increase
+downtime and/or resources used. This DC *may* be lowered or increased depending
+on the situation the characters are in.
 
 #### Influence
 
@@ -118,19 +159,18 @@ Resources are mainly used for equipment that are very powerful and usually add
       <span data-bracket-bottom="Circumstance">other bonuses</span>
     </div>
 
-#### Downtime
+#### Technology
 
-> Downtime represents the time a character can invest in downtime activities.
+Certain ugprades require technology in order to be unlocked. Upgrades have to be
+unlocked only once, and *can* be shared between characters. Unlocking upgrades
+enables the acquisition of better equipment.
 
-**GAINED**{.hf} in the course of time. A character gains more downtime in
-between adventures and longer periods of downtime during adventures. A character
-gains 1 downtime each session.
-
-**USED**{.hf} to recuperate, craft, repair and upgrade items and vessels and to
-improve a character.
-
-A character can never have more than 10 downtime at any time. Downtime gained,
-if the maximum is reached, is lost.
+!!! summary "Maximum Technology"
+    <div class="formula formula-top formula-bottom">
+      <span data-bracket-bottom="Experience">XP</span> +
+      <span data-bracket-top="Base">2</span> +
+      <span data-bracket-bottom="Circumstance">other bonuses</span>
+    </div>
 
 ## Experience
 
