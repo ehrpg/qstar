@@ -111,8 +111,10 @@ ranking characters, etc.
 **GAINED**{.hf} by looting enemies, or completing missions, adventures and
 quests.
 
-**USED**{.hf} to creating, repairing, upgrading and acquiring equipment and
-vessels.
+**USED**{.hf} to create, repair, upgrade and acquire equipment and vessels.
+
+Resources are mainly used for equipment that are very powerful and usually add
+[stunts](/stunts).
 
 !!! summary "Maximum Resources"
     <div class="formula formula-top formula-bottom">
