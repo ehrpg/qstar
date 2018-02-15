@@ -5,42 +5,49 @@
 > disregarded altogether. If something is unclear, look up the full rules!
 
 You play a character, and the GM manages non-player characters. Every character
-is defined by a set of attributes:
+is defined by a set of attributes. Attributes include stats, experience, race,
+perks, flaws, skills etc.
 
 ## Stats
 
-Stats are split into three categories:
+Stats, are split into three categories:
 
-* Abilities, which describe what acharacter can do,
-* ABC, which describe what means a character has to do something,
-* and XYZ, which describe the health and well-being of a character.
+* **Primary** stats, which describe what a character can do,
+* **Secondary** stats, which describe what means a character has to do something,
+* and **Pools**, which describe the health and well-being of a character.
 
-Abilities are fixed and only changed due to fatal events or accomplishments. ABC
-are another sort of currency and are subject to frequent changes. XYZ are used
-for combat, environmental hazards, etc.
+Primary stats are fixed and only changed due to fatal events or accomplishments.
+Secondary stats are in essence another sort of currency and are subject to
+frequent changes. XYZ are used for combat, environmental hazards, etc.
 
 ### Primary
 
+Primary stats are mainly used to meet perk, flaw, equipment and upgrade
+requirements.
+
 Every character has 12 points to distribute between any of the four following
-stats. The initial value of a stat is at 0, and cannot be raised higher than 5.
-If a character somehow were to drop to -5 in a primary ability, the character
-instantly dies.
+stats. The initial value of a stat is at 0, and can never be raised higher than
+5, not even with bonuses from e.g. equipment. If a character somehow were to
+drop to -5 in a primary stat, the character instantly dies.
+
+Primary stats cannot be easily changed, so think before distributing primary
+stat points.
 
 #### Might
 
-**USED**{.hf} to increase the character's strength and toughness.
+**USED**{.hf} to determine the character's strength and toughness.
 
 #### Speed
 
-**USED**{.hf} to increase the character's reflexes and speed.
+**USED**{.hf} to determine the character's reflexes and speed.
 
 #### Intelligence
 
-**USED**{.hf} to increase the character's ability to remember and learn things.
+**USED**{.hf} to determine the character's ability to remember and learn things.
 
 #### Charisma
 
-**USED**{.hf} to increase the character's ability to interact with others.
+**USED**{.hf} to determine the character's ability to interact with others.
 
 ### Secondary
 
@@ -102,13 +109,27 @@ quests.
 **USED**{.hf} to unlock upgrades and equipment for characters and vessels. Also
 can be used to unlock bleeding edge vessels.
 
+**EXCHANGING**{.hf} research points for technology (see vessels) is done at an
+exchange rate of 12 research points per technology point.
+
 Upgrades and equipment require blueprints to be researched first (e.g.
 experimental weapons). Spending research unlocks the blueprint for the whole
 party. Afterwards, the upgrade or equipment can be acquired. Also, vessels, and
 vessel ugprades and equipment require technology. Research can be exchanged for
 technology.
 
-### Experience
+!!! tip "Research applications"
+    Research isn't limited to vessels. Finding a cure for a disease for example
+    requires research points. Finding a way to administer the cure effectively
+    may require technology points.
+
+### Pools
+
+#### Health
+
+#### Endurance
+
+## Experience
 
 **GAINED**{.hf} by noticeable achievements and story completions.
 
@@ -116,7 +137,7 @@ technology.
 
 Every character starts with 0 experience points.
 
-### Race
+## Race
 
 Every character has a race or category (e.g. animals, robots). A race modifies:
 
@@ -125,8 +146,9 @@ Every character has a race or category (e.g. animals, robots). A race modifies:
 * enables access to inherent abilities,
 * and may add roleplaying circumstances
 
-### Pools
+## Perks & Flaws
 
-#### Health
-
-#### Endurance
+Perks have a primary stat requirement that has to be met. If this requirement is
+not met, the perk cannot be taken. If the perk was taken in the past, but the
+primary stat drops below the requirement, you do not gain any benefits from the
+perk, but still suffer penalties from it.
