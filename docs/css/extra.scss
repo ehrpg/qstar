@@ -17,6 +17,20 @@ nav.md-nav--primary > ul.md-nav__list > li:not(:first-child) {
   margin: 0;
 }
 
+@media only screen and (min-width: 60em)  {
+  .cols-wrapper {
+    column-count: 2;
+    column-gap: 25px;
+
+    & > div {
+      display: inline-block;
+      -webkit-column-break-inside: avoid;
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+  }
+}
+
 .tag {
   font-weight: 300;
   font-size: 1rem;
@@ -169,6 +183,9 @@ h1[id]:before {
 }
 
 .admonition {
+  overflow: hidden !important;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2) !important;
+
   .formula.formula-bottom {
     margin-bottom: 30px;
   }
@@ -209,10 +226,6 @@ tr:nth-child(even) {
 // .md-typeset h3 {
 //   margin: 1.6rem 0 1.6rem;
 // }
-
-.admonition  {
-  overflow: hidden !important;
-}
 
 .md-typeset dd {
   margin: 0.1em 0 1em 1.875em

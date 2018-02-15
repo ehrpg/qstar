@@ -13,6 +13,19 @@ nav.md-nav--primary > ul.md-nav__list > li:not(:first-child) {
   margin: 0;
 }
 
+@media only screen and (min-width: 60em) {
+  .cols-wrapper {
+    column-count: 2;
+    column-gap: 25px;
+  }
+  .cols-wrapper > div {
+    display: inline-block;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+}
+
 .tag {
   font-weight: 300;
   font-size: 1rem;
@@ -145,6 +158,11 @@ h1[id]:before {
   margin: 0 8px;
 }
 
+.admonition {
+  overflow: hidden !important;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2) !important;
+}
+
 .admonition .formula.formula-bottom {
   margin-bottom: 30px;
 }
@@ -179,10 +197,6 @@ tr.targetted {
 
 tr:nth-child(even) {
   background-color: #efefef;
-}
-
-.admonition {
-  overflow: hidden !important;
 }
 
 .md-typeset dd {

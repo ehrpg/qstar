@@ -41,6 +41,7 @@
 
     let element = start
     let nodes = []
+    let divWrapper = document.createElement('div')
     while ((element = element.nextElementSibling) !== end) {
       nodes.push(element)
     }
@@ -54,7 +55,6 @@
         div.appendChild(node)
       }
       if (div) div.appendChild(node)
-      else wrapper.appendChild(node)
     })
     console.log(divs)
 
