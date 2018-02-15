@@ -9,15 +9,21 @@ is defined by a set of attributes:
 
 ## Stats
 
-Stats are split in two categories: primary and secondary stats. Primary stats
-are fixed values that define a character roughly. Secondary stats are subject to
-frequent changes and improve a character.
+Stats are split into three categories:
+
+* Abilities, which describe what acharacter can do,
+* ABC, which describe what means a character has to do something,
+* and XYZ, which describe the health and well-being of a character.
+
+Abilities are fixed and only changed due to fatal events or accomplishments. ABC
+are another sort of currency and are subject to frequent changes. XYZ are used
+for combat, environmental hazards, etc.
 
 ### Primary
 
-Every character has 12 points to distribute to any of the four following stats.
-The initial value of a stat is at 0, and cannot be raised higher than 5. If a
-character somehow were to drop to -5 in a primary ability, the character
+Every character has 12 points to distribute between any of the four following
+stats. The initial value of a stat is at 0, and cannot be raised higher than 5.
+If a character somehow were to drop to -5 in a primary ability, the character
 instantly dies.
 
 #### Might
@@ -88,11 +94,19 @@ ranking characters, etc. Actions may require influence to be spent.
 
 **USED**{.hf} to create, repair, upgrade and acquire equipment and vessels.
 
-#### Technology
+#### Research
+
+**GAINED**{.hf} by researching in downtime, or as a reward from adventures and
+quests.
+
+**USED**{.hf} to unlock upgrades and equipment for characters and vessels. Also
+can be used to unlock bleeding edge vessels.
 
 Upgrades and equipment require blueprints to be researched first (e.g.
-experimental weapons). Spending technology unlocks the blueprint for the whole
-party. Afterwards, the upgrade or equipment can be acquired.
+experimental weapons). Spending research unlocks the blueprint for the whole
+party. Afterwards, the upgrade or equipment can be acquired. Also, vessels, and
+vessel ugprades and equipment require technology. Research can be exchanged for
+technology.
 
 ### Experience
 
