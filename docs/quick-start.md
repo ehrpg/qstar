@@ -181,8 +181,8 @@ reduced at anytime, but the credits the upgrade cost is lost.
 |------------|------------:|
 | Untrained  |          -2 |
 | Trained    |          +0 |
-| Proficient |          +1 |
-| Skilled    |          +3 |
+| Proficient |          +2 |
+| Skilled    |          +4 |
 | Master     |          +6 |
 
 !!! summary "How to make a **skill check**"
