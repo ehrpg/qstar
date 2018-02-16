@@ -32,3 +32,38 @@ impose a penalty on skill checks, or can't be used at all.
 | Master     |    +6 |
 
 Any character can only have a maximum of 3 master rank skill at any given time.
+
+## Available Skills
+
+### Might Skills
+
+* Athletics
+* Breaching
+* Melee
+* Micro Gravity
+
+### Speed Skills
+
+* Driving
+* Heavy Weapons
+* Light Weapons
+* Lockpicking
+* Piloting
+* Stealth
+
+### Intelligence Skills
+
+* Engineering
+* Explosives
+* First Aid
+* Hacking
+* Knowledge
+* Notice
+* Science
+
+### Charisma Skills
+
+* Back story
+* Oratory
+* Sense Motive
+* Tactics

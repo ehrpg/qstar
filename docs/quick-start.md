@@ -140,16 +140,16 @@ Every character starts with 0 experience points.
 
 **USED**{.hf} to improve the maximum value of secondary stats.
 
-### Pools
+## Pools
 
 Each creature has two pools: [health](#health) and [endurance](#endurance).
 Objects only have a [health](#health) pool.
 
-#### Health
+### Health
 
 If [health](#health) drops to zero, the character is killed.
 
-#### Endurance
+### Endurance
 
 A character that reaches zero [endurance](#endurance) can only make a single
 action each round. If any other condition were to reduce the amount of actions
@@ -169,8 +169,8 @@ Every character has a race or category (e.g. animals, robots). A race modifies:
 
 Perks have a primary stat requirement that has to be met. If this requirement is
 not met, the perk cannot be taken. If the perk was taken in the past, but the
-primary stat drops below the requirement, you do not gain any benefits from the
-perk, but still suffer penalties from it.
+requirement is not met anymore, you do not gain any benefits from the perk, but
+still suffer penalties, if any, from it.
 
 ## Skills
 
@@ -185,7 +185,6 @@ reduced at anytime, but the credits the upgrade cost is lost.
 | Skilled    |          +3 |
 | Master     |          +6 |
 
-
 !!! summary "How to make a **skill check**"
     <div class="formula formula-top formula-bottom">
     <span data-bracket-bottom="base">3d6</span>
@@ -197,9 +196,50 @@ reduced at anytime, but the credits the upgrade cost is lost.
     <span data-bracket-top="circumstance">other bonuses</span>
     </div>
 
+### Available Skills
+
+<div class="col-layout-start"></div>
+
+#### Might Skills
+
+* Athletics
+* Breaching
+* Melee
+* Micro Gravity
+
+#### Speed Skills
+
+* Driving
+* Heavy Weapons
+* Light Weapons
+* Lockpicking
+* Piloting
+* Stealth
+
+#### Intelligence Skills
+
+* Engineering
+* Explosives
+* First Aid
+* Hacking
+* Knowledge
+* Notice
+* Science
+
+#### Charisma Skills
+
+* Back story
+* Oratory
+* Sense Motive
+* Tactics
+
+<div class="col-layout-end"></div>
+
 ## Improving your character
 
 <div class="col-layout-start"></div>
+
+### Downtime
 
 Characters require time and money in order to be improved:
 
@@ -213,6 +253,8 @@ Characters require time and money in order to be improved:
 
 Downgrading abilities may only be done at the GMs discretion, or as a temporary
 or permanent effect from adventuring (such as scars, wounds, etc.).
+
+### Primary stats
 
 Improving a primary stat costs:
 
@@ -231,6 +273,8 @@ Formula: `cost = abs(mod) ^ 4 * 2000`
 | 9        |   512 000 |
 | 10       | 1 250 000 |
 
+### Skills
+
 Improving a skill costs:
 
 Formula: `cost = ((x - 1) ^ 3) * 3000 + 1000`
@@ -245,6 +289,6 @@ Formula: `cost = ((x - 1) ^ 3) * 3000 + 1000`
 
 Buying a perk:
 
-The [perks](#perks) description lists the price.
+The [perks](/perks-flaws) description lists the price.
 
 <div class="col-layout-end"></div>

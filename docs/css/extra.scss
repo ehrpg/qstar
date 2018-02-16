@@ -24,6 +24,7 @@ nav.md-nav--primary > ul.md-nav__list > li:not(:first-child) {
 
     & > div {
       display: inline-block;
+      width: 100%;
       -webkit-column-break-inside: avoid;
       page-break-inside: avoid;
       break-inside: avoid;
@@ -182,6 +183,7 @@ h1[id]:before {
   }
 }
 
+details,
 .admonition {
   overflow: hidden !important;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2) !important;
