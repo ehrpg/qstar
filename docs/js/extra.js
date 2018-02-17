@@ -1,60 +1,61 @@
+'use strict'
+
 ;(function () {
   if (window.location.href.indexOf('/settings/stalker/equipment/') > -1) {
-    let previousTr
-    let cartridges = document.querySelector('h3#cartridges')
+    var hashUpdated = function hashUpdated () {
+      var hash = window.location.hash
 
-    hashUpdated()
-    window.onhashchange = hashUpdated
-
-    function hashUpdated () {
-      let hash = window.location.hash
-
-      let span = document.getElementById(hash.substr(1))
+      var span = document.getElementById(hash.substr(1))
       if (previousTr) {
         previousTr.classList.remove('targetted')
       }
       if (!span) return
 
-      let tr = span.parentNode.parentNode
+      var tr = span.parentNode.parentNode
       if (tr.tagName !== 'TR') return
       tr.classList.add('targetted')
       previousTr = tr
       cartridges.scrollIntoView(true)
       window.scrollBy(0, -60) // offset for topnav
     }
+
+    var previousTr = void 0
+    var cartridges = document.querySelector('h3#cartridges')
+
+    hashUpdated()
+    window.onhashchange = hashUpdated
   }
 
-  let starts = document.querySelectorAll('.col-layout-start')
-  let ends = document.querySelectorAll('.col-layout-end')
+  var starts = document.querySelectorAll('.col-layout-start')
+  var ends = document.querySelectorAll('.col-layout-end')
 
   if (starts.length !== ends.length) {
     console.warn('col-layout not properly started/terminated.')
     return
   }
 
-  for (let i = 0, len = starts.length; i < len; i++) {
-    let start = starts[i]
-    let end = ends[i]
+  var _loop = function _loop (i, len) {
+    var start = starts[i]
+    var end = ends[i]
 
-    let wrapper = document.createElement('div')
+    var wrapper = document.createElement('div')
     wrapper.className = 'cols-wrapper'
 
-    let element = start
-    let nodes = []
+    var element = start
+    var nodes = []
     while ((element = element.nextElementSibling) !== end) {
       nodes.push(element)
     }
 
-    let divs = []
-    let div
+    var divs = []
+    var div = void 0
     nodes.forEach(function (node) {
       if (node.nodeName.search(/H\d/i) > -1) {
         div = document.createElement('div')
         divs.push(div)
         div.appendChild(node)
       }
-      if (div) div.appendChild(node)
-      else wrapper.appendChild(node)
+      if (div) div.appendChild(node); else wrapper.appendChild(node)
     })
     console.log(divs)
 
@@ -62,7 +63,11 @@
       wrapper.appendChild(div)
     })
 
-    let parent = element.parentNode
+    var parent = element.parentNode
     parent.insertBefore(wrapper, element)
+  }
+
+  for (var i = 0, len = starts.length; i < len; i++) {
+    _loop(i, len)
   }
 })()
