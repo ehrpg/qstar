@@ -282,18 +282,18 @@ Improving a primary stat costs:
 
 Formula: `cost = abs(mod) ^ 3 * 2000`
 
-| New Rank |      Cost |
-|----------|----------:|
-| 1        |  -128 000 |
-| 2        |   -54 000 |
-| 3        |   -16 000 |
-| 4        |    -2 000 |
-| 5        |         0 |
-| 6        |     2 000 |
-| 7        |    16 000 |
-| 8        |    54 000 |
-| 9        |   128 000 |
-| 10       |   250 000 |
+| New Rank |     Cost |
+|----------|---------:|
+| 1        | -128 000 |
+| 2        |  -54 000 |
+| 3        |  -16 000 |
+| 4        |   -2 000 |
+| 5        |        0 |
+| 6        |    2 000 |
+| 7        |   16 000 |
+| 8        |   54 000 |
+| 9        |  128 000 |
+| 10       |  250 000 |
 
 ### Skills
 
@@ -317,4 +317,34 @@ The [perks](/perks-flaws) description lists the price.
 
 ## Perks & Flaws List
 
+| Name      | Requirements                     | Description                                                    |
+|-----------|----------------------------------|----------------------------------------------------------------|
+| Mule      | 6 [Might](/#might)               | Increase your [maximum loot](/character#loot) value by 1       |
+| Scientist | 6 [Intelligence](/#intelligence) | Increase your [maximum technology](/character#technology) by 1 |
+| Diplomat  | 6 [Charisma](/#charisma)         | Increase your [maximum influence](/character#influence) by 1   |
+
+| Name   | Requirements                                                                 | Description                                                                                                                                                                                                   |
+|--------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Leader | 8 [Charisma](/#charisma), 2 [Small Unit Tactics](/skills#small-unit-tactics) | Increases [Oratory](/skills#oratory) and  [Small Unit Tactics](#/skills#small-unit-tactics) skill checks by 1<br>Stunt: **6**{.qs-d6} Effected characters heal 1d6 [endurance](/#endurance) damage [^Leader]. |
+
+[^Leader]:
+    Can only be used once until the effected character has been fully healed.
+
+
 ## Equipment
+
+### Credits
+
+### Armour
+
+
+
+### Weapons
+
+| Weapon  |  Hit |  DMG | Crit |  RoF | Cap. | Clips | Reload | Range |  Cost | Mag. |
+|---------|-----:|-----:|-----:|-----:|-----:|------:|-------:|-------|------:|-----:|
+| Pistol  |   +1 |   10 |    5 |    1 |    8 |     4 |      1 | Close | 1 000 |  250 |
+| Shotgun |   +3 |   15 |   10 |    1 |    2 |     5 |      2 | Close | 1 000 |  100 |
+
+### Utility
+
