@@ -113,6 +113,12 @@ costs `500 Cr.` instead.
 **EXCHANGING**{.hf} loot for [resources](#resources) is done at an exchange rate
 of 12 loot parcels per resource point.
 
+!!! summary "Maximum Loot"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="character">Might</span> +
+        <span data-bracket-top="Upgrades">other bonuses</span>
+    </div>
+
 #### Downtime
 
 The maximum downtime any character can accumulate is 10. This maximum can never
@@ -133,11 +139,25 @@ people and factions. Influence is lost by harming and disappointing others.
 **USED**{.hf} for accessing and buying items, vessels, meetings with high
 ranking characters, etc. Actions may require influence to be spent.
 
+!!! summary "Maximum Influence"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Experience">XP</span> +
+        <span data-bracket-top="Base">2</span> +
+        <span data-bracket-bottom="Circumstance">other bonuses</span>
+    </div>
+
 #### Resources
 
 **GAINED**{.hf} by looting enemies, or as reward from adventures and quests.
 
 **USED**{.hf} to create, repair, upgrade and acquire equipment and vessels.
+
+!!! summary "Maximum Resources"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Experience">XP</span> +
+        <span data-bracket-top="Base">2</span> +
+        <span data-bracket-bottom="Circumstance">other bonuses</span>
+    </div>
 
 #### Research
 
@@ -156,7 +176,14 @@ can be used to unlock bleeding edge vessels.
 **EXCHANGING**{.hf} research points for technology (see vessels) is done at an
 exchange rate of 12 research points per technology point.
 
-??? tip "Research applications"
+!!! summary "Maximum Research"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Experience">XP</span> +
+        <span data-bracket-top="Base">2</span> +
+        <span data-bracket-bottom="Circumstance">other bonuses</span>
+    </div>
+
+!!! tip "Research applications"
     Research isn't limited to vessels. Finding a cure for a disease for example
     requires research points. Finding a way to administer the cure effectively
     may require technology points.
@@ -176,13 +203,14 @@ If [health](#health) drops to zero, the character is killed.
 
 A character that reaches zero [endurance](#endurance) can only make a single
 action each round. If any other condition were to reduce the amount of actions
-in any ways the character could take, the character becomes **incapacitated**
+the character could take in any ways, the character becomes **incapacitated**
 instead.
+
 ## Race
 
 Every character has a race or category (e.g. animals, robots). A race modifies:
 
-* primary and secondary stats,
+* primary stats, secondary stats and pools
 * adds perks or flaws,
 * enables access to inherent Primary stats,
 * and may add roleplaying circumstances
@@ -209,13 +237,10 @@ reduced at anytime, but the credits the upgrade cost is lost.
 
 !!! summary "How to make a **skill check**"
     <div class="formula formula-top formula-bottom">
-    <span data-bracket-bottom="base">3d6</span>
-    ±
-    <span data-bracket-top="modifier">ability</span>
-    ±
-    <span data-bracket-bottom="rank bonus">skill</span>
-    ±
-    <span data-bracket-top="circumstance">other bonuses</span>
+        <span data-bracket-bottom="base">3d6</span> ±
+        <span data-bracket-top="modifier">ability</span> ±
+        <span data-bracket-bottom="rank bonus">skill</span> ±
+        <span data-bracket-top="circumstance">other bonuses</span>
     </div>
 
 ### Available Skills
@@ -267,14 +292,11 @@ Characters require time and money in order to be improved:
 
 | Attribute    | Downtime |
 |--------------|---------:|
-| Primary stat |       10 |
-| Skill        |        3 |
+| Primary stat |        8 |
+| Skill        |        2 |
 | Get Perk     |        2 |
 | Remove Flaw  |        2 |
 | Trade        |        1 |
-
-Downgrading abilities may only be done at the GMs discretion, or as a temporary
-or permanent effect from adventuring (such as scars, wounds, etc.).
 
 ### Primary stats
 
@@ -295,23 +317,26 @@ Formula: `cost = abs(mod) ^ 3 * 2000`
 | 9        |  128 000 |
 | 10       |  250 000 |
 
+
+### Perks
+
+Buying a perk costs:
+
+The [perks](/perks-flaws) description lists the price.
+
 ### Skills
 
 Improving a skill costs:
 
 Formula: `cost = ((x - 1) ^ 3) * 3000 + 1000`
 
-| New Rank    | Rank level |   Cost |
+| Rank        | Rank level |   Cost |
 |-------------|-----------:|-------:|
 | Untrained   |          0 |      0 |
 | Proficient  |          1 |  1 000 |
 | Trained     |          2 |  4 000 |
 | Experienced |          3 | 25 000 |
 | Master      |          4 | 82 000 |
-
-Buying a perk:
-
-The [perks](/perks-flaws) description lists the price.
 
 <div class="col-layout-end"></div>
 
@@ -329,7 +354,6 @@ The [perks](/perks-flaws) description lists the price.
 
 [^Leader]:
     Can only be used once until the effected character has been fully healed.
-
 
 ## Equipment
 
