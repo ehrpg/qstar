@@ -8,6 +8,33 @@ You play a character, and the GM manages non-player characters. Every character
 is defined by a set of attributes. Attributes include stats, experience, race,
 perks, flaws, skills etc.
 
+## Character Creation
+
+> The quick rules explain the rules in a different order than the steps you'd
+> take to create a character. This is because the rules are builiding up on each
+> other.
+
+Before creating a character, you should create a backstory for you character.
+Talk to your GM about the roles needed by the party. Also, your backstory may
+award you perks or impose penalties in form of flaws.
+
+1. Choose a [race](#race)
+2. Assign [primary stats](#primary)
+3. Determine [pools](#pools)
+4. *Buy*:
+    * [Primary stats](#primary)
+    * [Perks](#perks-flaws) (see [perks & flaws list](#perks-flaws-list))
+    * [Skills](#skills) (see [available skills](#available-skills))
+    * [Equipment](#equipment)
+
+## Experience
+
+Every character starts with 0 experience points.
+
+**GAINED**{.hf} by noticeable achievements and story completions.
+
+**USED**{.hf} to improve the maximum value of [secondary stats](#secondary).
+
 ## Stats
 
 Stats, are split into three categories:
@@ -18,19 +45,23 @@ Stats, are split into three categories:
 
 Primary stats are mostly fixed and only changed due to fatal events or
 accomplishments. Secondary stats are in essence another sort of currency and are
-subject to frequent changes. XYZ are used for combat, environmental hazards,
+subject to frequent changes. Pools are used for combat, environmental hazards,
 etc.
 
 ### Primary
 
 Primary stats have ranks going from 1 to 10. Five (5) is the average, conferring
 neither a benefit nor a drawback. Every point below or above five grants an
-additional benefit or drawback. This benefit or drawback is called **ability
-modifier**{.hf}:
+additional benefit or drawback to various checks. This benefit or drawback is
+called **ability modifier**{.hf}:
 
 | Primary stat |   0   |   1   |   2   |   3   |   4   |   5   |   6   |   7   |   8   |   9   |   10  |
 |--------------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| Modifier     |   -5  |   -4  |   -3  |   -2  |   -1  |   +0  |   +1  |   +2  |   +3  |   +4  |   +5  |
+| Modifier     |   -3  |   -2  |   -2  |   -1  |   -1  |   +0  |   +1  |   +1  |   +2  |   +2  |   +3  |
+
+Every character starts with each primary stat on 5. On character creation you
+gain 12 points you can distribute to your primary stats. A primary stat can
+never be higher than 10.
 
 If a primary stat drops to zero, the character dies.
 
@@ -132,30 +163,21 @@ exchange rate of 12 research points per technology point.
 
 <div class="col-layout-end"></div>
 
-## Experience
-
-Every character starts with 0 experience points.
-
-**GAINED**{.hf} by noticeable achievements and story completions.
-
-**USED**{.hf} to improve the maximum value of secondary stats.
-
-## Pools
+### Pools
 
 Each creature has two pools: [health](#health) and [endurance](#endurance).
 Objects only have a [health](#health) pool.
 
-### Health
+#### Health
 
 If [health](#health) drops to zero, the character is killed.
 
-### Endurance
+#### Endurance
 
 A character that reaches zero [endurance](#endurance) can only make a single
 action each round. If any other condition were to reduce the amount of actions
 in any ways the character could take, the character becomes **incapacitated**
 instead.
-
 ## Race
 
 Every character has a race or category (e.g. animals, robots). A race modifies:
@@ -258,20 +280,20 @@ or permanent effect from adventuring (such as scars, wounds, etc.).
 
 Improving a primary stat costs:
 
-Formula: `cost = abs(mod) ^ 4 * 2000`
+Formula: `cost = abs(mod) ^ 3 * 2000`
 
 | New Rank |      Cost |
 |----------|----------:|
-| 1        |  -512 000 |
-| 2        |  -162 000 |
-| 3        |   -32 000 |
+| 1        |  -128 000 |
+| 2        |   -54 000 |
+| 3        |   -16 000 |
 | 4        |    -2 000 |
 | 5        |         0 |
 | 6        |     2 000 |
-| 7        |    32 000 |
-| 8        |   162 000 |
-| 9        |   512 000 |
-| 10       | 1 250 000 |
+| 7        |    16 000 |
+| 8        |    54 000 |
+| 9        |   128 000 |
+| 10       |   250 000 |
 
 ### Skills
 
@@ -292,3 +314,7 @@ Buying a perk:
 The [perks](/perks-flaws) description lists the price.
 
 <div class="col-layout-end"></div>
+
+## Perks & Flaws List
+
+## Equipment
