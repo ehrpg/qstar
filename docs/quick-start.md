@@ -210,7 +210,7 @@ instead.
 
 Every character has a race or category (e.g. animals, robots). A race modifies:
 
-* primary stats, secondary stats and pools
+* secondary stats and pools
 * adds perks or flaws,
 * enables access to inherent Primary stats,
 * and may add roleplaying circumstances
