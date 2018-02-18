@@ -52,6 +52,7 @@ markdown_extensions:
 pages:
     - Q*:
         - Introduction: 'index.md'
+        - notes: 'notes.md'
         - Quick Start Rules: 'quick-start.md'
         - Character: 'character.md'
         - Skills: 'skills.md'

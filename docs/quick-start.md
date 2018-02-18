@@ -317,7 +317,6 @@ Formula: `cost = abs(mod) ^ 3 * 2000`
 | 9        |  128 000 |
 | 10       |  250 000 |
 
-
 ### Perks
 
 Buying a perk costs:

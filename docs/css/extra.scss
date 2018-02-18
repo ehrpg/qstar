@@ -467,7 +467,7 @@ i[f] {
   content: "\E90F" !important;
 }
 
-$headers: h1, h2, h3, h4;
+$headers: h1, h2, h3, h4, h5;
 
 @each $header in $headers {
   #{$header} {

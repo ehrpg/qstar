@@ -536,4 +536,30 @@ h4 > a {
 h4 > a:after {
   content: "" !important;
 }
+
+h5 {
+  position: relative !important;
+}
+
+h5:after {
+  font-family: "game-icons";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  margin-left: 0.5rem !important;
+  vertical-align: top;
+}
+
+h5 > a {
+  position: absolute;
+  right: 0;
+}
+
+h5 > a:after {
+  content: "" !important;
+}
 /*# sourceMappingURL=extra.css.map */
