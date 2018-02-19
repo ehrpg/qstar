@@ -1,27 +1,33 @@
+## Character
+
 <div class="col-layout-start"></div>
 
 #### Primary stats
 
-* Might `[0, 5, 10]`
+`MAX = 10 - race penalties`
+
+* Might `[0, 5, MAX]`
     * Melee, Toughness
-* Speed `[0, 5, 10]`
+* Speed `[0, 5, MAX]`
     * Ranged, Stealth
-* Intelligence `[0, 5, 10]`
+* Intelligence `[0, 5, MAX]`
     * Turn order, Knowledge
-* Charisma `[0, 5, 10]`
+* Charisma `[0, 5, MAX]`
     * Interaction, Leadership
 
 #### Secondary stats
 
-* Loot `[0, <Might>]`
-
-* Downtime `[0, 10]`
-
 `MAX = XP + 2 + other bonuses`
 
+* Downtime `[0, 10]`
 * Influence `[0, MAX]`
 * Resources `[0, MAX]`
 * Research `[0, MAX]`
+
+#### Pools
+
+* Health: `10 + <Might>`
+* Endurance: `10 + (<Might> - 5) * 5`
 
 #### Race
 
@@ -34,8 +40,9 @@ Every character has a race or category (e.g. animals, robots). A race modifies:
 
 #### Human
 
-* Health: `10 + <Might> * d6`
-* Endurance: `10 + <Might> * d6`
+##### Human - Standard
+
+No changes to anything.
 
 ##### Human - Earther
 
@@ -50,8 +57,6 @@ Athletics +2, Science +2, Back Story -2, Flaw:
 Micro Gravity +2, Oratory -2, Knowledge -2, Perk: Hardy
 
 #### Perks
-
-
 
 #### Skills
 
@@ -92,5 +97,55 @@ Micro Gravity +2, Oratory -2, Knowledge -2, Perk: Hardy
     * Melee
     * Ranged
 * Utility
+
+<div class="col-layout-end"></div>
+
+## Vessel
+
+<div class="col-layout-start"></div>
+
+#### Primary stats
+
+All stats defined by vessel base.
+
+`MAX = 10 - origin penalties`
+
+* Firepower `[0, 5, MAX]`
+* Maneuverablity `[0, 5, MAX]`
+* Subsystems `[0, 5, MAX]`
+* Energy `[0, 5, MAX]`
+
+#### Secondary stats
+
+`MAX = vessel base + other bonuses`
+
+* ???
+* Fuel `[0, MAX]`
+* Resources `[0, MAX]`
+* Trade Goods `[0, MAX]`
+
+#### Pools
+
+* Hull: `10 + <Firepower>`
+* Shields: `10 + (<Firepower> - 5) * 5`
+
+#### Skills
+
+* Firepower skills
+* Maneuverability skills
+* Subsystem skills
+* Energy skills
+
+#### Origin
+
+##### Vessels - Standard
+
+No changes to anything.
+
+##### Vessels - Earther
+
+##### Vessels - Martian
+
+##### Vessels - Belter
 
 <div class="col-layout-end"></div>
