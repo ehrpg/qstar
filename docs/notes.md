@@ -119,7 +119,7 @@ All stats defined by vessel base.
 
 `MAX = vessel base + other bonuses`
 
-* ???
+* Size `<vessel base>`
 * Fuel `[0, MAX]`
 * Resources `[0, MAX]`
 * Trade Goods `[0, MAX]`
