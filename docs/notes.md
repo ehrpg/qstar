@@ -118,7 +118,7 @@ All stats defined by vessel base.
 * Firepower `[0, 5, MAX]`
 * Maneuverablity `[0, 5, MAX]`
 * Subsystems `[0, 5, MAX]`
-* Energy `[0, 5, MAX]`
+* Crew`[0, 5, MAX]`
 
 #### Secondary stats
 
@@ -139,7 +139,7 @@ All stats defined by vessel base.
 * Firepower skills
 * Maneuverability skills
 * Subsystem skills
-* Energy skills
+* Crew skills
 
 #### Origin
 
