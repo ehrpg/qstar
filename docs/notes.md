@@ -60,6 +60,11 @@ Micro Gravity +2, Oratory -2, Knowledge -2, Perk: Hardy
 
 #### Skills
 
+Untrained <= 0
+Trained > 0
+Skilled > 1
+Master > 2
+
 4 Skill ranks `[-2, +1, +3, +6]`: Untrained, Trained, Skilled, Master (max. 3)
 
 * Might skills
