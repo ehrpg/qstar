@@ -79,7 +79,6 @@ Master > 2
     * Stealth
 * Intelligence skills
     * Engineering
-    * Explosives
     * First Aid
     * Hacking
     * Knowledge
