@@ -37,7 +37,10 @@
     let end = ends[i]
 
     let wrapper = document.createElement('div')
-    wrapper.className = 'cols-wrapper'
+    wrapper.classList.add('cols-wrapper')
+    if (i % 2) {
+      wrapper.classList.add('cols-wrapper-right')
+    }
 
     let element = start
     let nodes = []

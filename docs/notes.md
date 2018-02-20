@@ -1,8 +1,20 @@
 ## Character
 
+#### Race
+
+Every character has a race or category (e.g. animals, robots). A race modifies:
+
+* primary stats, secondary stats, pools and skills
+* adds perks or flaws,
+* enables access to inherent stunts,
+* and may add roleplaying circumstances
+
 <div class="col-layout-start"></div>
 
 #### Primary stats
+
+Primary stat starts at 5. Distribute 12 points to primary stats upon character
+creation.
 
 | Primary stat |    0 |    1 |    2 |    3 |    4 |    5 |    6 |    7 |    8 |    9 |   10 |
 |--------------|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
@@ -15,6 +27,9 @@
 * Intelligence `[0, 5, MAX]`
 * Charisma `[0, 5, MAX]`
 
+<div class="col-layout-end"></div>
+<div class="col-layout-start"></div>
+
 #### Secondary stats
 
 `MAX = XP + 2 + other bonuses`
@@ -24,19 +39,12 @@
 * Resources `[0, MAX]`
 * Research `[0, MAX]`
 
+<div class="col-layout-end clearfix"></div>
+
 #### Pools
 
-* Health: `10 + <Might>`
-* Endurance: `10 + (<Might> - 5) * 5`
-
-#### Race
-
-Every character has a race or category (e.g. animals, robots). A race modifies:
-
-* secondary stats, pools and skills
-* adds perks or flaws,
-* enables access to inherent stunts,
-* and may add roleplaying circumstances
+* Health: `5 + <Might>`
+* Endurance: `10 + (<Might> - 5) * 4`
 
 #### Skills
 
@@ -46,6 +54,11 @@ Every character has a race or category (e.g. animals, robots). A race modifies:
 | Trained         |                     6 |          +1 |
 | Skilled         |                     8 |          +3 |
 | Master (max. 3) |                    10 |          +6 |
+
+If the requirement is not met anymore, reduce the skill rank temporarily to the
+next best valid skill rank that fulfills the requirement.
+
+<div class="col-layout-start"></div>
 
 * Might skills
     * Athletics
@@ -57,6 +70,10 @@ Every character has a race or category (e.g. animals, robots). A race modifies:
     * Light Weapons
     * Stealth (+ Lockpicking)
     * **Operate**
+
+<div class="col-layout-end"></div>
+<div class="col-layout-start"></div>
+
 * Intelligence skills
     * Perception
     * Science (*)
@@ -72,10 +89,18 @@ Every character has a race or category (e.g. animals, robots). A race modifies:
     * Tactics
     * **Command**
 
+<div class="col-layout-end clearfix"></div>
+
 (*) Science: Choose two fields instead of one when training this skill the first
 time. Additional fields can be trained following normal skill learning rules.
 
 #### Perks
+
+asdf
+
+#### Flaws
+
+asdf
 
 #### Equipment
 
@@ -87,9 +112,11 @@ time. Additional fields can be trained following normal skill learning rules.
     * Ranged
 * Utility
 
-<div class="col-layout-end"></div>
-
 ## Vessel
+
+#### Origin
+
+Like race, only for vessels.
 
 <div class="col-layout-start"></div>
 
@@ -104,54 +131,37 @@ All stats defined by vessel base.
 * Subsystems `[0, 5, MAX]`
 * Crew `[0, 5, MAX]`
 
+<div class="col-layout-end"></div>
+<div class="col-layout-start"></div>
+
 #### Secondary stats
 
 `MAX = vessel base + other bonuses`
 
 * Size `<vessel base>`
-* Cargo `[0, <Size> * 5 + other bonuses]`
+* Cargo `[0, <Size> * 4 + other bonuses]`
 * Resources `[0, MAX]`
 * Supply `[0, MAX]`
+
+<div class="col-layout-end clearfix"></div>
 
 #### Pools
 
 * Hull: `10 + <Size> * 2 + <Firepower>`
 * Shields: `10 + <Size> * 4 + <Firepower>`
 
-#### Skills
-
-Vessels have skills to abstract meta actions (e.g. boarding).
-
-* Firepower skills
-* Maneuverability skills
-* Subsystem skills
-* Crew skills
-    * Boarding
-
-#### Origin
-
-##### Vessels - Standard
-
-No changes to anything.
-
-##### Vessels - Earther
-
-* Engineering +2
-
-##### Vessels - Martian
-
-* Command +2
-* Silent Running +2
-* Flaw: Expensive
-
-##### Vessels - Belter
-
-* Max. Trade Goods +2
-
 #### Perks
+
+| Perk               | Requirement                 | Description   |
+|--------------------|-----------------------------|---------------|
+| Emergency reserves | [Subsystems](#subsystems) 6 | Max Supply +2 |
+
+#### Flaws
+
+| Flaw      | Requirement | Description |
+|-----------|-------------|-------------|
+| Cluttered | -           | Cargo -2    |
 
 #### Equipment
 
 * Weapons
-
-<div class="col-layout-end"></div>

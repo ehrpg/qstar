@@ -15,16 +15,18 @@ nav.md-nav--primary > ul.md-nav__list > li:not(:first-child) {
 
 @media only screen and (min-width: 60em) {
   .cols-wrapper {
-    column-count: 2;
-    column-gap: 25px;
+    float: left;
+    width: 48%;
+    margin-right: 2%;
   }
-  .cols-wrapper > div {
-    display: inline-block;
-    width: 100%;
-    -webkit-column-break-inside: avoid;
-    page-break-inside: avoid;
-    break-inside: avoid;
+  .cols-wrapper-right {
+    margin-right: 0;
+    margin-left: 2%;
   }
+}
+
+.clearfix {
+  clear: both;
 }
 
 .tag {
@@ -324,8 +326,8 @@ i[f]:before {
   content: "\E4B0";
 }
 
-*:not(.md-search-result__item) > *#perks:after,
-*:not(.md-search-result__item) > a[href$="#perks"]:after {
+*:not(.md-search-result__item) > *[id*="perks"]:after,
+*:not(.md-search-result__item) > a[href*="#perks"]:after {
   content: "\E78F";
 }
 

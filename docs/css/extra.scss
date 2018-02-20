@@ -19,17 +19,28 @@ nav.md-nav--primary > ul.md-nav__list > li:not(:first-child) {
 
 @media only screen and (min-width: 60em)  {
   .cols-wrapper {
-    column-count: 2;
-    column-gap: 25px;
+    float: left;
+    width: 48%;
+    margin-right: 2%;
+      //   column-count: 2;
+  //   column-gap: 25px;
 
-    & > div {
-      display: inline-block;
-      width: 100%;
-      -webkit-column-break-inside: avoid;
-      page-break-inside: avoid;
-      break-inside: avoid;
-    }
+  //   & > div {
+  //     display: inline-block;
+  //     width: 100%;
+  //     -webkit-column-break-inside: avoid;
+  //     page-break-inside: avoid;
+  //     break-inside: avoid;
+  //   }
   }
+  .cols-wrapper-right {
+    margin-right: 0;
+    margin-left: 2%;
+  }
+}
+
+.clearfix {
+  clear: both;
 }
 
 .tag {
@@ -357,8 +368,8 @@ i[f] {
     content: "\E4B0";
   }
 
-  *#perks:after,
-  a[href$="#perks"]:after {
+  *[id*="perks"]:after,
+  a[href*="#perks"]:after {
     content: "\E78F";
   }
 
