@@ -4,9 +4,9 @@
 
 #### Primary stats
 
-| Primary stat |   0   |   1   |   2   |   3   |   4   |   5   |   6   |   7   |   8   |   9   |   10  |
-|--------------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| Modifier     |   -3  |   -2  |   -2  |   -1  |   -1  |   +0  |   +1  |   +1  |   +2  |   +2  |   +3  |
+| Primary stat |    0 |    1 |    2 |    3 |    4 |    5 |    6 |    7 |    8 |    9 |   10 |
+|--------------|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
+| Modifier     |   -3 |   -2 |   -2 |   -1 |   -1 |   +0 |   +1 |   +1 |   +2 |   +2 |   +3 |
 
 `MAX = 10 - race penalties`
 
@@ -38,57 +38,42 @@ Every character has a race or category (e.g. animals, robots). A race modifies:
 * enables access to inherent stunts,
 * and may add roleplaying circumstances
 
-#### Human
-
-##### Human - Standard
-
-No changes to anything.
-
-##### Human - Earther
-
-Oratory +2, Knowledge +2, Micro Gravity -2, Flaw: Greedy
-
-##### Human - Martian
-
-Athletics +2, Science +2, Back Story -2, Flaw:
-
-##### Human - Belter
-
-Micro Gravity +2, Oratory -2, Knowledge -2, Perk: Hardy
-
 #### Skills
 
-Untrained <= 0
-Trained > 0
-Skilled > 1
-Master > 2
-
-4 Skill ranks `[-2, +1, +3, +6]`: Untrained, Trained, Skilled, Master (max. 3)
+| Skill rank      | Requires primary stat | Skill bonus |
+|-----------------|----------------------:|------------:|
+| Untrained       |                     - |          -2 |
+| Trained         |                     6 |          +1 |
+| Skilled         |                     8 |          +3 |
+| Master (max. 3) |                    10 |          +6 |
 
 * Might skills
     * Athletics
-    * Breaching
+    * Force
     * Melee
-    * Micro Gravity
+    * **Heavy Weapons**
 * Speed skills
-    * Driving
-    * Heavy Weapons
+    * Acrobatics (+ Micro Gravity)
     * Light Weapons
-    * Lockpicking
-    * Piloting
-    * Stealth
+    * Stealth (+ Lockpicking)
+    * **Operate**
 * Intelligence skills
-    * Engineering
-    * First Aid
-    * Hacking
-    * Knowledge
-    * Notice
-    * Science
+    * Perception
+    * Science (*)
+        * Biology
+        * Chemistry
+        * Computer
+        * Medicine
+        * Physics
+    * **Engineering**
 * Charisma skills
     * Back story
-    * Oratory
-    * Sense Motive
+    * Oratory (+ Sense Motive)
     * Tactics
+    * **Command**
+
+(*) Science: Choose two fields instead of one when training this skill the first
+time. Additional fields can be trained following normal skill learning rules.
 
 #### Perks
 
@@ -117,7 +102,7 @@ All stats defined by vessel base.
 * Firepower `[0, 5, MAX]`
 * Maneuverablity `[0, 5, MAX]`
 * Subsystems `[0, 5, MAX]`
-* Crew`[0, 5, MAX]`
+* Crew `[0, 5, MAX]`
 
 #### Secondary stats
 
@@ -130,17 +115,18 @@ All stats defined by vessel base.
 
 #### Pools
 
-* Hull: `10 + <Firepower>`
-* Shields: `10 + (<Firepower> - 5) * 5`
+* Hull: `10 + <Size> * 2 + <Firepower>`
+* Shields: `10 + <Size> * 4 + <Firepower>`
 
 #### Skills
 
-Adds bonus to character skill checks.
+Vessels have skills to abstract meta actions (e.g. boarding).
 
 * Firepower skills
 * Maneuverability skills
 * Subsystem skills
 * Crew skills
+    * Boarding
 
 #### Origin
 
