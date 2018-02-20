@@ -4,16 +4,16 @@
 
 #### Primary stats
 
+| Primary stat |   0   |   1   |   2   |   3   |   4   |   5   |   6   |   7   |   8   |   9   |   10  |
+|--------------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| Modifier     |   -3  |   -2  |   -2  |   -1  |   -1  |   +0  |   +1  |   +1  |   +2  |   +2  |   +3  |
+
 `MAX = 10 - race penalties`
 
 * Might `[0, 5, MAX]`
-    * Melee, Toughness
 * Speed `[0, 5, MAX]`
-    * Ranged, Stealth
 * Intelligence `[0, 5, MAX]`
-    * Turn order, Knowledge
 * Charisma `[0, 5, MAX]`
-    * Interaction, Leadership
 
 #### Secondary stats
 
@@ -56,8 +56,6 @@ Athletics +2, Science +2, Back Story -2, Flaw:
 
 Micro Gravity +2, Oratory -2, Knowledge -2, Perk: Hardy
 
-#### Perks
-
 #### Skills
 
 Untrained <= 0
@@ -93,6 +91,8 @@ Master > 2
     * Sense Motive
     * Tactics
 
+#### Perks
+
 #### Equipment
 
 * Outfit
@@ -125,9 +125,9 @@ All stats defined by vessel base.
 `MAX = vessel base + other bonuses`
 
 * Size `<vessel base>`
-* Fuel `[0, MAX]`
 * Resources `[0, MAX]`
-* Trade Goods `[0, MAX]`
+* Supply `[0, MAX]`
+* Trade Goods `[0, <Size> * 5 + other bonuses]`
 
 #### Pools
 
@@ -135,6 +135,8 @@ All stats defined by vessel base.
 * Shields: `10 + (<Firepower> - 5) * 5`
 
 #### Skills
+
+Adds bonus to character skill checks.
 
 * Firepower skills
 * Maneuverability skills
@@ -149,8 +151,22 @@ No changes to anything.
 
 ##### Vessels - Earther
 
+* Engineering +2
+
 ##### Vessels - Martian
 
+* Command +2
+* Silent Running +2
+* Flaw: Expensive
+
 ##### Vessels - Belter
+
+* Max. Trade Goods +2
+
+#### Perks
+
+#### Equipment
+
+* Weapons
 
 <div class="col-layout-end"></div>
