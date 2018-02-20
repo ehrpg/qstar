@@ -125,9 +125,9 @@ All stats defined by vessel base.
 `MAX = vessel base + other bonuses`
 
 * Size `<vessel base>`
+* Cargo `[0, <Size> * 5 + other bonuses]`
 * Resources `[0, MAX]`
 * Supply `[0, MAX]`
-* Trade Goods `[0, <Size> * 5 + other bonuses]`
 
 #### Pools
 
