@@ -102,11 +102,35 @@ time. Additional fields can be trained following normal skill learning rules.
 
 #### Perks
 
-asdf
+<div class="col-layout-start"></div>
+
+##### Scientist {.dt}
+
+Max. Research +1
+<br>
+**Requires:** 8 [Intelligence](#intelligence)
+
+<div class="col-layout-end"></div>
+<div class="col-layout-start"></div>
+
+##### Wealthy {.dt}
+
+Max. Influence +1
+<br>
+**Requires:** 6 [Charisma](#charisma)
+
+<div class="col-layout-end clearfix"></div>
+
+| Perk      | Requirement                     | Description      |
+|-----------|---------------------------------|------------------|
+| Scientist | 8 [Intelligence](#intelligence) | Max Reserach +1  |
+| Wealthy   | 6 [Charisma](#charisma)         | Max Influence +1 |
 
 #### Flaws
 
-asdf
+| Flaw      | Requirement | Description       |
+|-----------|-------------|-------------------|
+| Extrovert | -           | Max. Influence -1 |
 
 #### Equipment
 

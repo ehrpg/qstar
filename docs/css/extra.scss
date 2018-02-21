@@ -77,16 +77,16 @@ h1[id]:before {
   strong.hf {
     /* header-font */
     font-family: 'Mainframe-Opto';
-    letter-spacing: 0.1rem !important;
+    letter-spacing: 0.1rem;
   }
 
   h1, h2, h3, h4, h5 {
     font-family: 'Mainframe-Opto';
-    letter-spacing: 0.3rem !important;
+    letter-spacing: 0.3rem;
     padding-left: 10px;
   }
 
-  h4 {
+  h4:not(.dt) {
     // border-top: 2px solid grey;
     border-bottom: 2px solid grey;
   }
@@ -263,44 +263,33 @@ p.dt + ul {
   color: #444;
 }
 
-@media only screen and (min-width: 60em)  {
-  h4.dt,
-  p.dt {
-    float: left;
-    width: 140px;
-    overflow: hidden;
-    clear: left;
-    text-align: right;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+@media only screen and (min-width: 60em) {
+  .md-typeset:not(.md-search-result__item) {
+    h5.dt {
+      float: left;
+      width: 110px;
+      padding-left: 0;
+      text-align: right;
 
-    margin: 0 !important;
+      line-height: 2;
 
-    + p {
+      letter-spacing: 0 !important;
+
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+
       margin: 0 !important;
-      margin-left: 150px !important;
-      margin-bottom: 0.3em !important;
-    }
-  }
 
-  p.dt {
-    width: 180px;
+      + p {
+        margin: 0 !important;
+        margin-left: 120px !important;
+        margin-bottom: 0.5em !important;
+      }
 
-    + ul {
-      margin-left: 190px !important;
-    }
-  }
-
-  h4.dt {
-    margin-top: -3em !important;
-    padding-top: 3em !important;
-
-    + p {
-      padding-top: 0.4em !important;
-    }
-
-    a {
-      display: none !important;
+      a {
+        display: none !important;
+      }
     }
   }
 }
