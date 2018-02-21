@@ -1,5 +1,11 @@
 ## Character
 
+1. Choose a race
+2. Assign primary stats
+3. Determine secondary stats
+4. Buy skills, perks and equipment
+5. Adjust character values
+
 #### Race
 
 Every character has a race or category (e.g. animals, robots). A race modifies:
@@ -44,7 +50,7 @@ creation.
 #### Pools
 
 * Health: `5 + <Might>`
-* Endurance: `10 + (<Might> - 5) * 4`
+* Endurance: `10 + (<Might> - 5) * 5`
 
 #### Skills
 
@@ -139,7 +145,7 @@ All stats defined by vessel base.
 `MAX = vessel base + other bonuses`
 
 * Size `<vessel base>`
-* Cargo `[0, <Size> * 4 + other bonuses]`
+* Cargo `[0, <Size> * 5 + other bonuses]`
 * Resources `[0, MAX]`
 * Supply `[0, MAX]`
 
@@ -147,8 +153,8 @@ All stats defined by vessel base.
 
 #### Pools
 
-* Hull: `10 + <Size> * 2 + <Firepower>`
-* Shields: `10 + <Size> * 4 + <Firepower>`
+* Hull: `5 + <Size> * 5`
+* Shields: `10 + <Size> * 5 + <Firepower>`
 
 #### Perks
 
@@ -164,4 +170,6 @@ All stats defined by vessel base.
 
 #### Equipment
 
+* Outfit
 * Weapons
+* Utility
