@@ -60,7 +60,6 @@
       }
       if (div) div.appendChild(node); else wrapper.appendChild(node)
     })
-    console.log(divs)
 
     divs.forEach(function (div) {
       wrapper.appendChild(div)

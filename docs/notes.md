@@ -45,12 +45,12 @@ creation.
 * Resources `[0, MAX]`
 * Research `[0, MAX]`
 
-<div class="col-layout-end clearfix"></div>
-
 #### Pools
 
 * Health: `5 + <Might>`
 * Endurance: `10 + (<Might> - 5) * 5`
+
+<div class="col-layout-end clearfix"></div>
 
 #### Skills
 
@@ -130,6 +130,10 @@ Like race, only for vessels.
 
 All stats defined by vessel base.
 
+| Primary stat |    0 |    1 |    2 |    3 |    4 |    5 |    6 |    7 |    8 |    9 |   10 |
+|--------------|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
+| Modifier     |   -3 |   -2 |   -2 |   -1 |   -1 |   +0 |   +1 |   +1 |   +2 |   +2 |   +3 |
+
 `MAX = 10 - origin penalties`
 
 * Firepower `[0, 5, MAX]`
@@ -138,6 +142,7 @@ All stats defined by vessel base.
 * Crew `[0, 5, MAX]`
 
 <div class="col-layout-end"></div>
+
 <div class="col-layout-start"></div>
 
 #### Secondary stats
@@ -149,12 +154,20 @@ All stats defined by vessel base.
 * Resources `[0, MAX]`
 * Supply `[0, MAX]`
 
-<div class="col-layout-end clearfix"></div>
-
 #### Pools
 
 * Hull: `5 + <Size> * 5`
-* Shields: `10 + <Size> * 5 + <Firepower>`
+* Shields: `10 + <Size> * <Firepower>`
+
+<div class="col-layout-end clearfix"></div>
+
+#### Skills
+
+A vessel has no skills.
+
+Modifiers from the vessel's primary stats are added to the character's
+*vessel*-skills (**Heavy Weapons**, **Operate**, **Engineering**,
+**Command**).
 
 #### Perks
 
