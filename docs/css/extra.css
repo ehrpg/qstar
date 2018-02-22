@@ -235,17 +235,28 @@ p.dt + ul li:not(:first-child):before {
     width: 110px;
     padding-left: 0;
     text-align: right;
-    line-height: 2;
+    line-height: 1.3;
+    padding-top: 0.1em;
     letter-spacing: 0 !important;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
     margin: 0 !important;
   }
-  .md-typeset:not(.md-search-result__item) h5.dt + p {
+  .md-typeset:not(.md-search-result__item) h5.dt ~ p {
     margin: 0 !important;
     margin-left: 120px !important;
-    margin-bottom: 0.5em !important;
+    margin-bottom: 0.3em !important;
+    font-size: 1.4rem;
+    line-height: 1.3;
+  }
+  .md-typeset:not(.md-search-result__item) h5.dt ~ p.dt-sub {
+    margin-bottom: 1em !important;
+    font-size: 1.3rem;
+  }
+  .md-typeset:not(.md-search-result__item) h5.dt ~ p.dt-sub strong:not(:first-child) {
+    display: inline;
+  }
+  .md-typeset:not(.md-search-result__item) h5.dt ~ p.dt-sub strong:not(:first-child):before {
+    content: "\A";
+    white-space: pre;
   }
   .md-typeset:not(.md-search-result__item) h5.dt a {
     display: none !important;
@@ -414,6 +425,7 @@ i[f]:before {
   content: "\E90E \E90E";
 }
 
+.qs-2d6:after,
 .qstar-2sixes:after {
   content: "\E90F \E90F";
 }

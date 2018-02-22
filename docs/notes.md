@@ -100,6 +100,10 @@ next best valid skill rank that fulfills the requirement.
 (*) Science: Choose two fields instead of one when training this skill the first
 time. Additional fields can be trained following normal skill learning rules.
 
+##### Skill checks
+
+`Skill check = 3d6 + <Primary stat mod> + <Skill>`
+
 #### Perks
 
 <div class="col-layout-start"></div>
@@ -107,8 +111,16 @@ time. Additional fields can be trained following normal skill learning rules.
 ##### Scientist {.dt}
 
 Max. Research +1
-<br>
+
 **Requires:** 8 [Intelligence](#intelligence)
+{.dt-sub}
+
+##### Gunslinger {.dt}
+
+Draw any handheld weapon as a free action.
+
+**Requires:** 10 [Speed](#speed)
+{.dt-sub}
 
 <div class="col-layout-end"></div>
 <div class="col-layout-start"></div>
@@ -116,8 +128,9 @@ Max. Research +1
 ##### Wealthy {.dt}
 
 Max. Influence +1
-<br>
+
 **Requires:** 6 [Charisma](#charisma)
+{.dt-sub}
 
 <div class="col-layout-end clearfix"></div>
 
@@ -146,7 +159,11 @@ Max. Influence +1
 
 ### Attacking
 
-`Attack = 3d6 + <Weapon Hit> + <Skill> - <Range>`
+```
+Attack = <Weapon skill check> + <Weapon Hit> - <Range penalty>
+<==>
+Attack = 3d6 + <Weapon Hit> + <Primary stat mod> + <Skill> - <Range penalty>
+```
 
 If the attack hits, deal endurance damage. If the **stunt** *critical hit* is
 used, deal additional critical damage.
@@ -156,7 +173,7 @@ used, deal additional critical damage.
 ```
 Defence = 10 + <Speed mod> + cover + other bonuses
 
-Defence vs melee = 10 + <Speed mod> + <Melee> + other bonuses
+Defence vs melee = <Melee> + other bonuses
 ```
 
 Every enemy in melee range reduces *defence vs melee* by 2. This only applies if
