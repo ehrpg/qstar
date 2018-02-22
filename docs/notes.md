@@ -142,6 +142,34 @@ Max. Influence +1
     * Ranged
 * Utility
 
+## Combat
+
+### Attacking
+
+`Attack = 3d6 + <Weapon Hit> + <Skill> - <Range>`
+
+If the attack hits, deal endurance damage. If the **stunt** *critical hit* is
+used, deal additional critical damage.
+
+### Defence
+
+```
+Defence = 10 + <Speed mod> + cover + other bonuses
+
+Defence vs melee = 10 + <Speed mod> + <Melee> + other bonuses
+```
+
+Every enemy in melee range reduces *defence vs melee* by 2. This only applies if
+there is more than one enemy in range.
+
+### Cover
+
+Can't melee attack targets in total cover.
+
+* Cover `defence +2`
+* Heavy Cover `defence +5`
+* Total Cover `unhittable`
+
 ## Vessel
 
 #### Origin
