@@ -1,3 +1,17 @@
+## Glossary
+
+
+Action point
+:   Does stuff
+
+Roleplaying circumstance
+:   Does different stuff.
+:   Does different stuff.
+
+Apple
+:   Pomaceous fruit of plants of the genus Malus in
+    the family Rosaceae.
+
 ## Character
 
 1. Choose a race
@@ -11,7 +25,7 @@
 Every character has a race or category (e.g. animals, robots). A race modifies:
 
 * primary stats, secondary stats, pools and skills
-* adds perks or flaws,
+* adds perks and flaws,
 * enables access to inherent stunts,
 * and may add roleplaying circumstances
 
@@ -19,19 +33,20 @@ Every character has a race or category (e.g. animals, robots). A race modifies:
 
 #### Primary stats
 
-Primary stat starts at 5. Distribute 12 points to primary stats upon character
+Primary stats start at 0. Distribute 12 points to primary stats upon character
 creation.
 
-| Primary stat |    0 |    1 |    2 |    3 |    4 |    5 |    6 |    7 |    8 |    9 |   10 |
+| Primary stat |   -5 |   -4 |   -3 |   -2 |   -1 |    0 |    1 |    2 |    3 |    4 |    5 |
 |--------------|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
 | Modifier     |   -3 |   -2 |   -2 |   -1 |   -1 |   +0 |   +1 |   +1 |   +2 |   +2 |   +3 |
 
-`MAX = 10 - race penalties`
+```
+Modifier = ceil(Stat / 2)
 
-* Might `[0, 5, MAX]`
-* Speed `[0, 5, MAX]`
-* Intelligence `[0, 5, MAX]`
-* Charisma `[0, 5, MAX]`
+MAX = 5 - race penalties
+
+Stat interval = [-5, MAX]
+```
 
 <div class="col-layout-end"></div>
 <div class="col-layout-start"></div>
@@ -52,7 +67,7 @@ creation.
 
 <div class="col-layout-end clearfix"></div>
 
-#### Skills
+### Skills
 
 | Skill rank      | Requires primary stat | Skill bonus |
 |-----------------|----------------------:|------------:|
@@ -66,47 +81,78 @@ next best valid skill rank that fulfills the requirement.
 
 <div class="col-layout-start"></div>
 
-* Might skills
-    * Athletics
-    * Force
-    * Melee
-    * **Heavy Weapons**
-* Speed skills
-    * Acrobatics (+ Micro Gravity)
-    * Light Weapons
-    * Stealth (+ Lockpicking)
-    * **Operate**
+#### Might skills
+
+* Athletics
+* Force
+* Melee
+* **Heavy Weapons**
+
+#### Speed skills
+
+* Acrobatics (+ Micro Gravity)
+* Light Weapons
+* Stealth (+ Lockpicking)
+* **Operate**
 
 <div class="col-layout-end"></div>
 <div class="col-layout-start"></div>
 
-* Intelligence skills
-    * Perception
-    * Science (*)
-        * Biology
-        * Chemistry
-        * Computer
-        * Medicine
-        * Physics
-    * **Engineering**
-* Charisma skills
-    * Back story
-    * Oratory (+ Sense Motive)
-    * Tactics
-    * **Command**
+#### Intelligence skills
+
+* Perception
+* Science (*)
+    * Biology
+    * Chemistry
+    * Computer
+    * Medicine
+    * Physics
+* **Engineering**
+
+#### Charisma skills
+
+* Back story
+* Oratory (+ Sense Motive)
+* Tactics
+* **Command**
 
 <div class="col-layout-end clearfix"></div>
 
 (*) Science: Choose two fields instead of one when training this skill the first
 time. Additional fields can be trained following normal skill learning rules.
 
-##### Skill checks
+### Skill checks
 
 `Skill check = 3d6 + <Primary stat mod> + <Skill>`
 
-#### Perks
+### Perks
+
+Perks unlock abilities, improve stats or change roleplayining circumstances.
+
+This list of perks is just a list of examples. Individual perks can be removed
+or added. Even you as a player, provided you GM is OK with it, may add perks.
+
+While perks state their costs, your GM can require additional things before you
+can *buy* a perk, i.e. you first have to:
+
+* find someone how can train you,
+* make acquiantances with important NPCs,
+* use skills related to the perk,
+* etc.
+
+Also, if the perk is not reasonable at all for your character, the perk simply
+isn't available to you.
 
 <div class="col-layout-start"></div>
+
+##### Brute {.dt}
+
+Deal double damage with a melee attack.
+
+**AP cost:** 3
+**Requires:** 8 [Might](#might)
+**Cost:** 1 [Cr.](#credits)
+{.dt-sub}
 
 ##### Scientist {.dt}
 
@@ -117,7 +163,7 @@ Max. Research +1
 
 ##### Gunslinger {.dt}
 
-Draw any handheld weapon as a free action.
+Draw any handheld weapon without AP cost.
 
 **Requires:** 10 [Speed](#speed)
 {.dt-sub}
@@ -154,6 +200,51 @@ Max. Influence +1
     * Melee
     * Ranged
 * Utility
+
+## Crisis
+
+### Turn Order
+
+`Turn order = Intelligence + Speed + other bonuses`
+
+On conflicts, the target with the higher intelligence comes first. If there is
+still a tie, the target with the higher speed comes first. If there is still
+another tie, each character rolls a d6. The higher roll wins. On a tie, roll
+again.
+
+### Actions
+
+Actions within a crisis require **action points** (AP) to be spent.
+
+Each character has a maximum of 6 action points. At the start of each turn,
+including the beginning of a crisis, the character gains 4 action points. Action
+points can never exceed 6 or deceed 0. Exceeding action points are lost, while
+actions that require more than the remain action points are disabled until
+enough action points are accumulated.
+
+!!! info "Tracking action points"
+    Tracking action points is very easy. Get a d6, put it front of you, and let
+    it face the number of action points your character has. If you are at zero
+    action points, put the die aside to reflect that.
+
+#### Actions gained from Items
+
+Items can enable certain actions, that are unavailable otherwise. For example, a
+mighty two-handed sword could enable the whirlwind action, which allows a
+character to attack all targets in melee range with a single attack.
+
+#### Available Actions
+
+This table provides a guideline for actions and their AP cost. These apply
+unless stated otherwise.
+
+| Action |   AP | Description                                                                |
+|--------|-----:|----------------------------------------------------------------------------|
+| Move   |    1 | Move up to the character's [Speed](#speed) in meters.                      |
+| Sneak  |    1 | Move up to half the character's [Speed](#speed) in meters.                 |
+| Hide   |    3 | Hide from others, provided they have no direct vision of you.              |
+| Attack |    2 | Attack with a *normal* weapon.                                             |
+| Draw   |    1 | Draw a weapon and make it ready for combat use, e.g. release safety catch. |
 
 ## Combat
 

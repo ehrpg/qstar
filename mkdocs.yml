@@ -41,6 +41,9 @@ markdown_extensions:
     - pymdownx.details
     - pymdownx.smartsymbols
     - pymdownx.tilde
+    - pymdownx.caret
+    - pymdownx.extrarawhtml
+    - markdown.extensions.def_list
     - codehilite
     - admonition
     - attr_list
