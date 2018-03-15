@@ -20,7 +20,7 @@ Perks are represented in the following way:
 
 <div class="col-layout-start qs-list"></div>
 
-##### Perk name {.dt}
+##### Perk name
 
 Description or benefit of the perk.
 
@@ -62,7 +62,7 @@ perks in bold are usually associated - but not limited to - vessel operation.
 
 <!-- A-N -->
 
-##### Brute {.dt}
+##### Brute
 
 Deal double damage with a melee attack.
 
@@ -75,7 +75,7 @@ Requires
 Cost
 :   `1` [Cr.](#credits)
 
-##### Gunslinger {.dt}
+##### Gunslinger
 
 Draw any handheld weapon without AP cost.
 
@@ -85,7 +85,7 @@ Requires
 Cost
 :   `1` [Cr.](#credits)
 
-##### Leader {.dt}
+##### Leader
 
 Draw any handheld weapon without AP cost.
 
@@ -107,7 +107,7 @@ Cost
 
 <!-- O-Z -->
 
-##### Scientist {.dt}
+##### Scientist
 
 Maximum Research +1
 
@@ -117,7 +117,7 @@ Requires
 Cost
 :   `1` [Cr.](#credits)
 
-##### Wealthy {.dt}
+##### Wealthy
 
 Maximum Influence +1
 
