@@ -16,6 +16,36 @@ can *buy* a perk, i.e. you first have to:
 Also, if the perk is not reasonable at all for your character, the perk simply
 isn't available to you.
 
+Perks are represented in the following way:
+
+<div class="col-layout-start qs-list"></div>
+
+##### Perk name {.dt}
+
+Description or benefit of the perk.
+
+AP cost
+:   If the perk enables a new ability, the AP cost for this ability is stated
+here.
+
+Skill {.qs-d6}
+:   A perk may provide additional stunts for certain skills. The number of dice
+next to the skill name determine how many sixes have to be rolled to use the
+stunt.
+
+Requires
+:   Requirements that have to be met in order for the perk to be available or
+providing its benefits.
+
+Cost
+:   Costs for the perk, usually in [Cr.](#credits), but can also require
+expanditure of a secondary stat.
+
+
+<div class="col-layout-end"></div>
+<div class="col-layout-start"></div>
+<div class="col-layout-end clearfix"></div>
+
 ### Available Perks
 
 Below is a list of possible perks, provided by the Q* RPG system. Note, that
@@ -27,9 +57,8 @@ perks in bold are usually associated - but not limited to - vessel operation.
     you require different perks to suite your needs, then add them to your
     game.
 
----
 
-<div class="col-layout-start"></div>
+<div class="col-layout-start qs-list"></div>
 
 <!-- A-N -->
 
@@ -37,51 +66,68 @@ perks in bold are usually associated - but not limited to - vessel operation.
 
 Deal double damage with a melee attack.
 
-**AP cost:** 3
-**Requires:** 4 [Might](#might)
-**Cost:** 1 [Cr.](#credits)
-{.dt-sub}
+AP cost
+:   3
+
+Requires
+:   4 [Might](#might)
+
+Cost
+:   `1` [Cr.](#credits)
 
 ##### Gunslinger {.dt}
 
 Draw any handheld weapon without AP cost.
 
-**Requires:** 4 [Speed](#speed)
-{.dt-sub}
+Requires
+:   4 [Speed](#speed)
+
+Cost
+:   `1` [Cr.](#credits)
 
 ##### Leader {.dt}
 
-Max. Influence +1
+Draw any handheld weapon without AP cost.
 
-**Stunt - Oratory**: Effected characters heal 1d6 [endurance](/#endurance) damage [^Leader].
-**Requires:** 4 [Charisma](#charisma), [2 Small Unit Tactics](/skills#small-unit-tactics)
-{.dt-sub}
+Oratory {.qs-d6}
+:   Effected characters heal 1d6 [endurance](/#endurance) damage [^Leader].
 
+Requires
+:   4 [Charisma](#charisma)
+:   2 [Tactics](/skills#available-skills)
+
+Cost
+:   `1` [Cr.](#credits)
+
+[^Leader]:
+    Can only be used once until the effected character has been fully healed
 
 <div class="col-layout-end"></div>
-<div class="col-layout-start"></div>
+<div class="col-layout-start qs-list"></div>
 
 <!-- O-Z -->
 
 ##### Scientist {.dt}
 
-Max. Research +1
+Maximum Research +1
 
-**Requires:** 3 [Intelligence](#intelligence)
-{.dt-sub}
+Requires
+:   3 [Intelligence](#intelligence)
+
+Cost
+:   `1` [Cr.](#credits)
 
 ##### Wealthy {.dt}
 
-Max. Influence +1
+Maximum Influence +1
 
-**Requires:** 3 [Charisma](#charisma)
-{.dt-sub}
+Requires
+:   3 [Charisma](#charisma)
 
+Cost
+:   `1` [Cr.](#credits)
 
 <div class="col-layout-end clearfix"></div>
-
-[^Leader]:
-    Can only be used once until the effected character has been fully healed
 
 ## Flaws
 
