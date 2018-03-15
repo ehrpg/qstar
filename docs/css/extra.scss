@@ -378,8 +378,8 @@ i[f] {
     content: "\E4B0";
   }
 
-  *[id*="perks"]:after,
-  a[href*="#perks"]:after {
+  *[id$="perks"]:after,
+  a[href$="#perks"]:after {
     content: "\E78F";
   }
 

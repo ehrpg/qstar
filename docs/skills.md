@@ -43,11 +43,12 @@ If you improved a skill, and the corresponding primary stat was to be reduced
 below its requirement, you also lose the benefit of the skill being improved.
 
 !!! example "Skill improvements and losing primary stat points"
-    Jack has a [Speed](#speed) of 3 and *Acrobatics* improved to `+3` (his
-    maximum). He is heavily wounded in combat and temporarily has to reduce his
-    [Speed](#speed) to 2. The level of improvement of his *Acrobatics* stays at
-    `+3`, the bonus drops to `+2` however until his primary stat is high enough
-    again.
+    Jack has a [Speed](#speed) of 3 and *Acrobatics* improved to `+2`. He is
+    heavily wounded in combat and temporarily has to reduce his [Speed](#speed)
+    to 1. The level of improvement of his *Acrobatics* stays at `+2`, the bonus
+    drops to `+1` however until his primary stat is high enough again. While the
+    primary stat is temporarily lowered, he also cannot improve *Acrobatics* any
+    further (to e.g. `+3`).
 
 <div class="col-layout-start"></div>
 
@@ -85,49 +86,50 @@ the same skill is used for both parties.
 ## Available Skills
 
 Below is a list of possible skills, provided by the Q* RPG system. Note, that
-skills in bold are usually associated, but not limited to with vessel operation.
+skills in bold are usually associated - but not limited to - vessel operation.
 
 !!! tip "Available skills"
-    Like any other system, Q* provides the GM and player with a set of skills.
-    Neither the system nor characters are limited to these skills: if you
-    require different skills to suite your needs, then add them to your game.
+    Like any other  RPG system, Q* provides the GM and player with a set of
+    skills. Neither the system nor characters are limited to these skills: if
+    you require different skills to suite your needs, then add them to your
+    game.
 
 <div class="col-layout-start"></div>
 
 ### Might skills
 
-Athletics
+* Athletics
 :   This skill used for climbing, running, jumping, etc.
 
-Force
+* Force
 :   This skill is used for breaching doors, break down treasure chests, holding
 doors shut etc.
 
-Melee
+* Melee
 :   This skill is used when using melee weapons or defending against a melee
 attack.
 
-**Heavy Weapons**
+* **Heavy Weapons**
 :   This skill is used when using heavy weapons such as rocket launchers,
 vehicle mounted machine guns, or firing any vessel's weapons.
 
 ### Intelligence skills
 
-Perception
+* Perception
 :   This skill is used to spot hidden things, and counters the *Stealth* skill.
 
-Science[^Science]
+* Science[^Science]
 :   This skill is used to see if a character knows certain things about their
 field of expertise. Some scientific fields have a direct application too, e.g.
 *Science - Computer* to hack a terminal.
 
-* Biology
-* Chemistry
-* Computer
-* Medicine
-* Physics
+    * Biology
+    * Chemistry
+    * Computer
+    * Medicine
+    * Physics
 
-**Engineering**
+* **Engineering**
 :   This skill is used for repairing mechanical or electronical motors, operate
 advanced machinery, etc.
 
@@ -136,19 +138,19 @@ advanced machinery, etc.
 
 ### Speed skills
 
-Acrobatics
+* Acrobatics
 :   This skill is used for tumbling, dodging away from falling debris, balance
-over a rope, *jump* some distance in zero gravity environments etc.
+over a rope, *jump* in zero gravity environments etc.
 
-Light Weapons
+* Light Weapons
 :   This skill is used for ranged weapon attacks. This skill is opposed by the
 character's defensive value.
 
-Stealth
+* Stealth
 :   This skill is used to hide from others, sneak around, lockpicking, etc. It's
 opposed by the *Perception* skill.
 
-**Operate**
+* **Operate**
 :   This skill is used for piloting or steering a vessel.
 
 
@@ -159,7 +161,7 @@ opposed by the *Perception* skill.
 meeting a trader, you could roll a back story check to determine if you owe the
 trader money, or if the trader owes you!
 
-* Oratory (+ Sense Motive)
+* Oratory
 :   This skill is used to lie, deliver speeches, persuade etc. It's also used to
 determine if someone is lying or being nervous while talking.
 

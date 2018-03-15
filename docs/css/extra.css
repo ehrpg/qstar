@@ -326,8 +326,8 @@ i[f]:before {
   content: "\E4B0";
 }
 
-*:not(.md-search-result__item) > *[id*="perks"]:after,
-*:not(.md-search-result__item) > a[href*="#perks"]:after {
+*:not(.md-search-result__item) > *[id$="perks"]:after,
+*:not(.md-search-result__item) > a[href$="#perks"]:after {
   content: "\E78F";
 }
 

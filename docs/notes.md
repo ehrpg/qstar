@@ -71,71 +71,9 @@ Stat interval = [-5, MAX]
 
 Moved to [Skills](/skills).
 
-### Perks
+### Perks & Flaws
 
-Perks unlock abilities, improve stats or change roleplayining circumstances.
-
-This list of perks is just a list of examples. Individual perks can be removed
-or added. Even you as a player, provided you GM is OK with it, may add perks.
-
-While perks state their costs, your GM can require additional things before you
-can *buy* a perk, i.e. you first have to:
-
-* find someone how can train you,
-* make acquiantances with important NPCs,
-* use skills related to the perk,
-* etc.
-
-Also, if the perk is not reasonable at all for your character, the perk simply
-isn't available to you.
-
-<div class="col-layout-start"></div>
-
-##### Brute {.dt}
-
-Deal double damage with a melee attack.
-
-**AP cost:** 3
-**Requires:** 8 [Might](#might)
-**Cost:** 1 [Cr.](#credits)
-{.dt-sub}
-
-##### Scientist {.dt}
-
-Max. Research +1
-
-**Requires:** 8 [Intelligence](#intelligence)
-{.dt-sub}
-
-##### Gunslinger {.dt}
-
-Draw any handheld weapon without AP cost.
-
-**Requires:** 10 [Speed](#speed)
-{.dt-sub}
-
-<div class="col-layout-end"></div>
-<div class="col-layout-start"></div>
-
-##### Wealthy {.dt}
-
-Max. Influence +1
-
-**Requires:** 6 [Charisma](#charisma)
-{.dt-sub}
-
-<div class="col-layout-end clearfix"></div>
-
-| Perk      | Requirement                     | Description      |
-|-----------|---------------------------------|------------------|
-| Scientist | 8 [Intelligence](#intelligence) | Max Reserach +1  |
-| Wealthy   | 6 [Charisma](#charisma)         | Max Influence +1 |
-
-#### Flaws
-
-| Flaw      | Requirement | Description       |
-|-----------|-------------|-------------------|
-| Extrovert | -           | Max. Influence -1 |
+Moved to [Perks & Flaws](/perks-flaws)
 
 #### Equipment
 
