@@ -50,7 +50,7 @@
 
     let divs = []
     let div
-    nodes.forEach(function (node) {
+    nodes.forEach(node => {
       if (node.nodeName.search(/H\d/i) > -1) {
         div = document.createElement('div')
         divs.push(div)
@@ -61,7 +61,7 @@
     })
     console.log(divs)
 
-    divs.forEach(function (div) {
+    divs.forEach(div => {
       wrapper.appendChild(div)
     })
 

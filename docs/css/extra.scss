@@ -17,6 +17,10 @@ nav.md-nav--primary > ul.md-nav__list > li:not(:first-child) {
   margin: 0;
 }
 
+.md-typeset dd {
+  margin: 0.1em 0 0.2em 1.875em;
+}
+
 @media only screen and (min-width: 60em)  {
   .cols-wrapper {
     float: left;
@@ -240,10 +244,6 @@ tr:nth-child(even) {
 //   margin: 1.6rem 0 1.6rem;
 // }
 
-.md-typeset dd {
-  margin: 0.1em 0 1em 1.875em
-}
-
 p.dt + ul {
   margin: 0 !important;
   margin-left: 150px !important;
@@ -266,6 +266,7 @@ p.dt + ul {
 @media only screen and (min-width: 60em) {
   .md-typeset:not(.md-search-result__item) {
     h5.dt {
+
       float: left;
       width: 110px;
       padding-left: 0;
@@ -280,7 +281,10 @@ p.dt + ul {
       // text-overflow: ellipsis;
       // white-space: nowrap;
 
-      margin: 0 !important;
+      // margin: 0 !important;
+      padding-top: 6rem;
+      margin: 0;
+      margin-top: -6rem;
 
       ~ p {
         margin: 0 !important;

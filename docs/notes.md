@@ -29,8 +29,6 @@ Every character has a race or category (e.g. animals, robots). A race modifies:
 * enables access to inherent stunts,
 * and may add roleplaying circumstances
 
-<div class="col-layout-start"></div>
-
 #### Primary stats
 
 Primary stats start at 0. Distribute 12 points to primary stats upon character
@@ -48,7 +46,6 @@ MAX = 5 - race penalties
 Stat interval = [-5, MAX]
 ```
 
-<div class="col-layout-end"></div>
 <div class="col-layout-start"></div>
 
 #### Secondary stats
@@ -60,6 +57,9 @@ Stat interval = [-5, MAX]
 * Resources `[0, MAX]`
 * Research `[0, MAX]`
 
+<div class="col-layout-end"></div>
+<div class="col-layout-start"></div>
+
 #### Pools
 
 * Health: `5 + <Might>`
@@ -69,61 +69,7 @@ Stat interval = [-5, MAX]
 
 ### Skills
 
-| Skill rank      | Requires primary stat | Skill bonus |
-|-----------------|----------------------:|------------:|
-| Untrained       |                     - |          -2 |
-| Trained         |                     6 |          +1 |
-| Skilled         |                     8 |          +3 |
-| Master (max. 3) |                    10 |          +6 |
-
-If the requirement is not met anymore, reduce the skill rank temporarily to the
-next best valid skill rank that fulfills the requirement.
-
-<div class="col-layout-start"></div>
-
-#### Might skills
-
-* Athletics
-* Force
-* Melee
-* **Heavy Weapons**
-
-#### Speed skills
-
-* Acrobatics (+ Micro Gravity)
-* Light Weapons
-* Stealth (+ Lockpicking)
-* **Operate**
-
-<div class="col-layout-end"></div>
-<div class="col-layout-start"></div>
-
-#### Intelligence skills
-
-* Perception
-* Science (*)
-    * Biology
-    * Chemistry
-    * Computer
-    * Medicine
-    * Physics
-* **Engineering**
-
-#### Charisma skills
-
-* Back story
-* Oratory (+ Sense Motive)
-* Tactics
-* **Command**
-
-<div class="col-layout-end clearfix"></div>
-
-(*) Science: Choose two fields instead of one when training this skill the first
-time. Additional fields can be trained following normal skill learning rules.
-
-### Skill checks
-
-`Skill check = 3d6 + <Primary stat mod> + <Skill>`
+Moved to [Skills](/skills).
 
 ### Perks
 
