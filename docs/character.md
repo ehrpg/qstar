@@ -4,17 +4,16 @@ Every player character, non-player character (NPC) and creature such as animals,
 monsters or even robots, etc. fall under this category and are created using the
 following rules.
 
-## Stats
-
-Primary stats are **fixed** values every character has. These stats are only
-modified by *fatal events* while adventuring, or by *taking damage*.
+## Primary Stats
 
 !!! tip "Tracking stats"
     Always write the current primary and secondary stat value down separately
-    from your character's maximum. Certain actions decrease and increase those
-    stats very often, while the maximum doesn't change that frequently.
+    from your character's maximum. Certain actions decrease and increase
+    secondary stats very often, while the maximum doesn't change that
+    frequently.
 
-### Primary
+Primary stats are **fixed** values every character has. These stats are only
+modified by *fatal events* while adventuring.
 
 Primary stats or abilities are used for a number of things:
 
@@ -31,20 +30,23 @@ Any ability score at 5 means that the character is almost superhuman in that
 ability. An ability score at 0 means that the character is somehow impaired, and
 an ability score at -5 means that the character is dead.
 
-#### Might
+Good or bad primary stats also add bonuses or impose penalties on skill checks
+corresponding to the primary stat.
+
+| Primary stat   |   -5 |   -4 |   -3 |   -2 |   -1 |    0 |    1 |    2 |    3 |    4 |    5 |
+|----------------|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
+| Skill modifier |   -3 |   -2 |   -2 |   -1 |   -1 |   +0 |   +1 |   +1 |   +2 |   +2 |   +3 |
+
+<div class="col-layout-start"></div>
+
+### Might
 
 > Might represents the character's physical strength and resilience.
 
 The damage of some weapons is derived from might. Also improves a character's
 toughness.
 
-#### Speed
-
-> Speed measures the character's reflexes and hand-eye coordination.
-
-Speed adds a bonus to most weapon attacks.
-
-#### Intelligence
+### Intelligence
 
 > Intelligence describes how well your character learns new things, and how well
 he remembers already existing things.
@@ -52,19 +54,44 @@ he remembers already existing things.
 Intelligence improves a character's ability to assess situations and skills
 related to knowing things.
 
-#### Charisma
+<div class="col-layout-end"></div>
+<div class="col-layout-start"></div>
+
+### Speed
+
+> Speed measures the character's reflexes and hand-eye coordination.
+
+Speed adds a bonus to most weapon attacks and lets you act in a
+[Crisis](/#crisis) sooner.
+
+### Charisma
 
 > Charisma represents the character's physical attractiveness, force of personality
 and his ability to lead.
 
 Charisma is mostly used in social interactions between characters and NPCs.
 
-### Secondary
+<div class="col-layout-end clearfix"></div>
+
+## Secondary Stats
 
 Secondary stats are bound to change quite often. Every secondary stat has a
 maximum value modified by circumstances, perks, and permanently due to
 [experience](#experience). The current value of a secondary stat can **never**
 exceed the maximum value. All exceeding points are usually lost.
+
+<div class="col-layout-start"></div>
+
+### Downtime
+### Resources
+
+<div class="col-layout-end"></div>
+<div class="col-layout-start"></div>
+
+### Influence
+### Research
+
+<div class="col-layout-end clearfix"></div>
 
 #### Loot
 
