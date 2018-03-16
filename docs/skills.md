@@ -62,8 +62,8 @@ bonus by one. Improving a skill costs 2 [Downtime](#downtime) per skill bonus.
     Jack has *Light weapons* trained (not improved yet), a [Speed](#speed) rank
     of 3, and wants to improve this skill to `+2`. Since his [Speed](#speed)
     rank is equal or higher than the new primary stat requirement of 2, he can
-    do, provided he has enough resources: Upgrading this skill would cost him `4
-    000` [Cr.](#credits), and 4 [Downtime](#downtime).
+    do so, provided he has enough resources: Upgrading this skill would cost him
+    4 [Downtime](#downtime).
 
 <div class="col-layout-end"></div>
 <div class="col-layout-start"></div>

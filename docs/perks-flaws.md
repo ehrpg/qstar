@@ -16,11 +16,24 @@ can *buy* a perk, i.e. you first have to:
 Also, if the perk is not reasonable at all for your character, the perk simply
 isn't available to you.
 
-Perks are represented in the following way:
+### Available Perks
 
+<div class="col-layout-start"></div>
+
+Below is a list of possible perks, provided by the Q* RPG system.
+
+!!! tip "Available perks"
+    Like any other  RPG system, Q* provides the GM and player with a set of
+    perks. Neither the system nor characters are limited to these perks: if
+    you require different perks to suite your needs, then add them to your
+    game.
+
+<div class="col-layout-end"></div>
 <div class="col-layout-start qs-list"></div>
 
-##### Perk name
+Perks are represented in the following way:
+
+##### Example Perk
 
 Description or benefit of the perk.
 
@@ -41,22 +54,7 @@ Cost
 :   Costs for the perk, usually in [Cr.](#credits), but can also require
 expanditure of a secondary stat.
 
-
-<div class="col-layout-end"></div>
-<div class="col-layout-start"></div>
 <div class="col-layout-end clearfix"></div>
-
-### Available Perks
-
-Below is a list of possible perks, provided by the Q* RPG system. Note, that
-perks in bold are usually associated - but not limited to - vessel operation.
-
-!!! tip "Available perks"
-    Like any other  RPG system, Q* provides the GM and player with a set of
-    perks. Neither the system nor characters are limited to these perks: if
-    you require different perks to suite your needs, then add them to your
-    game.
-
 
 <div class="col-layout-start qs-list"></div>
 
@@ -89,7 +87,7 @@ Cost
 
 Draw any handheld weapon without AP cost.
 
-Oratory {.qs-d6}
+Oratory {.qs-2d6}
 :   Effected characters heal 1d6 [endurance](/#endurance) damage [^Leader].
 
 Requires
@@ -131,7 +129,7 @@ Cost
 
 ## Flaws
 
-Flaws add quirks, outline behavior, weaknesses to your character or change
+Flaws outline behavior, add quirks or weaknesses to your character or change
 roleplaying circumstances in a negative way.
 
 <!-- TODO add flaw additional requirements text -->
@@ -141,8 +139,9 @@ isn't available to you.
 
 ### Available Flaws
 
-Below is a list of possible flaws, provided by the Q* RPG system. Note, that
-flaws in bold are usually associated - but not limited to - vessel operation.
+<div class="col-layout-start"></div>
+
+Below is a list of possible flaws, provided by the Q* RPG system.
 
 !!! tip "Available flaws"
     Like any other  RPG system, Q* provides the GM and player with a set of
@@ -150,20 +149,30 @@ flaws in bold are usually associated - but not limited to - vessel operation.
     you require different flaws to suite your needs, then add them to your
     game.
 
----
+<div class="col-layout-end"></div>
+<div class="col-layout-start qs-list"></div>
 
-<div class="col-layout-start"></div>
+Flaws are represented in the following way:
+
+##### Example Flaw
+
+Description or drawback of the flaw.
+
+Requires
+:   Requirements that have to be met in order for the flaw to be available.
+
+<div class="col-layout-end clearfix"></div>
+
+<div class="col-layout-start qs-list"></div>
 
 <!-- A-N -->
 
-##### Introvert {.dt}
+##### Introvert
 
-Max. Influence -1
+Maximum Influence -1
 
-**Requires:** -
-{.dt-sub}
-
-
+Requires
+:   -
 
 <div class="col-layout-end"></div>
 <div class="col-layout-start"></div>
