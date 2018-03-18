@@ -4,6 +4,14 @@ Every player character, non-player character (NPC) and creature such as animals,
 monsters or even robots, etc. fall under this category and are created using the
 following rules.
 
+A character is defined by:
+
+* A race,
+* primary stats,
+* secondary stats,
+* experience, and
+* pools.
+
 ## Primary Stats
 
 !!! tip "Tracking stats"
@@ -22,13 +30,10 @@ Primary stats or abilities are used for a number of things:
 * enable certain action, e.g. carrying heavy stuff requires a minimal strength
   value.
 
-Every character has 12 points to spend between the four primary stats upon
-creation. Each primary stat has the initial value of 0. Points can only be
-added, not subtracted from the ability. Abilities can never be higher than 5.
-
-Any ability score at 5 means that the character is almost superhuman in that
-ability. An ability score at 0 means that the character is somehow impaired, and
-an ability score at -5 means that the character is dead.
+Primary stats reach from -5 to 5. Any primary stats score at 5 means that the
+character is almost superhuman in that primary stats. An primary stats score at
+0 means that the character is somehow impaired, and an primary stats score at -5
+means that the character is dead.
 
 Good or bad primary stats also add bonuses or impose penalties on skill checks
 corresponding to the primary stat.
@@ -37,13 +42,19 @@ corresponding to the primary stat.
 |----------------|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
 | Skill modifier |   -3 |   -2 |   -2 |   -1 |   -1 |   +0 |   +1 |   +1 |   +2 |   +2 |   +3 |
 
+Every character has 12 points to spend between the four primary stats upon
+creation. Each primary stat has the initial value of 0. Points can only be
+added, not subtracted from the primary stat. Primary stats can **never** be
+higher than 5. Some races also reduce the maximum value for certain primary
+stats.
+
 <div class="col-layout-start"></div>
 
 ### Might
 
 > Might represents the character's physical strength and resilience.
 
-The damage of some weapons is derived from might. Also improves a character's
+The damage of melee weapons is derived from might. Also improves a character's
 toughness.
 
 ### Intelligence
@@ -61,7 +72,7 @@ related to knowing things.
 
 > Speed measures the character's reflexes and hand-eye coordination.
 
-Speed adds a bonus to most weapon attacks and lets you act in a
+Speed adds a bonus to ranged weaopn attacks and lets you act in a
 [Crisis](/#crisis) sooner.
 
 ### Charisma
@@ -75,10 +86,11 @@ Charisma is mostly used in social interactions between characters and NPCs.
 
 ## Secondary Stats
 
-Secondary stats are bound to change quite often. Every secondary stat has a
+Secondary stats are bound to frequent changes. Every secondary stat has a
 maximum value modified by circumstances, perks, and permanently due to
 [experience](#experience). The current value of a secondary stat can **never**
 exceed the maximum value. All exceeding points are usually lost.
+
 
 <div class="col-layout-start"></div>
 
@@ -92,49 +104,6 @@ exceed the maximum value. All exceeding points are usually lost.
 ### Research
 
 <div class="col-layout-end clearfix"></div>
-
-#### Loot
-
-> Loot is traded for money and resources. One unit of loot is called a parcel. 4
-> parcels make up one storage unit.
-
-**GAINED**{.hf} by looting enemies, or as reward from adventures and quests.
-
-**USED**{.hf} to sell for profits and acquiring resources.
-
-**SELLING**{.hf} loot nets `500 Cr.` per parcel sold. Selling 4 parcels at once
-nets an extra `500 Cr.` on top (resulting in `2 500 Cr.` total).
-
-**BUYING**{.hf} loot usually implies some kind of trade run. Buying loot this
-way costs `250 Cr.` per parcel. If no trade run is done, the parcel costs `500
-Cr.` instead.
-
-**EXCHANGING**{.hf} loot for [resources](#resources) is done at an exchange rate
-of 12 loot parcels per resource point.
-
-One storage space splits up to 4 parcels. One unit of loot equals one parcels,
-so 4 units of loot equal one storage unit.
-
-A character can carry loot up to his [might](#might) value. Transporting more
-loot at a time requires vessels or some other type of storage. Loot that exceeds
-this storage limit is lost.
-
-!!! summary "Maximum Loot"
-    <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="character">Might</span> +
-      <span data-bracket-top="Upgrades">other bonuses</span>
-    </div>
-
-
-!!! info "Loot and storage example"
-    Max is a character with a [might](#might) value of 5. He stumbles about a
-    secret stash containing 10 units of loot. Since he is on his own, he can
-    only carry 5 units of loot. The other 5 units are still in the cash. He
-    decides to go back to his transporter and loads the loot onto it. The
-    transporter has a storage capacity of 4, resulting in a maximum storage of
-    16 parcels (or units of loot). The transporter now uses 5 of its 16 parcels.
-    Max goes back to the stash, and gets the other 5 units of loot, loading it
-    on the transporter, resulting in 10 of 16 total parcels used.
 
 #### Downtime
 
