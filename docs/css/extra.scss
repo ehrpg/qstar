@@ -16,6 +16,12 @@ a[href*="example-"] {
   font-style: normal;
 }
 
+@media only screen and (min-width: 76.25em) {
+  .md-tabs--active~.md-main .md-nav--primary>.md-nav__list>.md-nav__item--nested {
+    display: block;
+  }
+}
+
 nav.md-nav--primary > ul.md-nav__list > li:not(:first-child) {
   padding-top: 2rem;
 }
