@@ -28,7 +28,14 @@ nav.md-nav--primary > ul.md-nav__list > li:not(:first-child) {
   margin: 0.1em 0 0.2em 1.875em;
 }
 
+@media only screen and (max-width: 60em)  {
+  .is-mobile {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 60em)  {
+
   .cols-wrapper {
     float: left;
     width: 48%;

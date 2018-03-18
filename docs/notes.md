@@ -1,6 +1,5 @@
 ## Glossary
 
-
 Action point
 :   Does stuff
 
@@ -14,58 +13,7 @@ Apple
 
 ## Character
 
-1. Choose a race
-2. Assign primary stats
-3. Determine secondary stats
-4. Buy skills, perks and equipment
-5. Adjust character values
-
-#### Race
-
-Every character has a race or category (e.g. animals, robots). A race modifies:
-
-* primary stats, secondary stats, pools and skills
-* adds perks and flaws,
-* enables access to inherent stunts,
-* and may add roleplaying circumstances
-
-#### Primary stats
-
-Primary stats start at 0. Distribute 12 points to primary stats upon character
-creation.
-
-| Primary stat |   -5 |   -4 |   -3 |   -2 |   -1 |    0 |    1 |    2 |    3 |    4 |    5 |
-|--------------|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
-| Modifier     |   -3 |   -2 |   -2 |   -1 |   -1 |   +0 |   +1 |   +1 |   +2 |   +2 |   +3 |
-
-```
-Modifier = ceil(Stat / 2)
-
-MAX = 5 - race penalties
-
-Stat interval = [-5, MAX]
-```
-
-<div class="col-layout-start"></div>
-
-#### Secondary stats
-
-`MAX = XP + 2 + other bonuses`
-
-* Downtime `[0, 10]`
-* Influence `[0, MAX]`
-* Resources `[0, MAX]`
-* Research `[0, MAX]`
-
-<div class="col-layout-end"></div>
-<div class="col-layout-start"></div>
-
-#### Pools
-
-* Health: `5 + <Might>`
-* Endurance: `10 + (<Might> - 5) * 5`
-
-<div class="col-layout-end clearfix"></div>
+Moved to [Character](/character)
 
 ### Skills
 

@@ -1,4 +1,26 @@
+<!--
+Use traits with benefits and drawbacks instead of Perks & Flaws
+ -->
+
 # Perks & Flaws
+
+## Traits
+
+### Available Traits
+
+<div class="col-layout-start qs-list"></div>
+
+##### Scientist
+
+Maximum Research +1, Maximum Resources -2
+
+Requires
+:   4 [Intelligence](#intelligence)
+
+Cost
+:   `1,000` [Cr.](#credits)
+
+<div class="col-layout-end clearfix"></div>
 
 ## Perks
 
@@ -169,7 +191,7 @@ Requires
 
 ##### Introvert
 
-Maximum Influence -1
+Maximum Influence -2
 
 Requires
 :   -

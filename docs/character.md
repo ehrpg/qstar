@@ -12,6 +12,18 @@ A character is defined by:
 * experience, and
 * pools.
 
+## Race
+
+Every creature has a race, or at least a type that groups similar creatures into
+the same category, e.g. animals or robots.
+
+A race modifies:
+
+* primary stats, secondary stats, pools and skills
+* adds perks and flaws,
+* enables access to inherent stunts,
+* and may add roleplaying circumstances
+
 ## Primary Stats
 
 !!! tip "Tracking stats"
@@ -72,8 +84,8 @@ related to knowing things.
 
 > Speed measures the character's reflexes and hand-eye coordination.
 
-Speed adds a bonus to ranged weaopn attacks and lets you act in a
-[Crisis](/#crisis) sooner.
+Speed adds a bonus to ranged weaopn attacks, is used for stealth and lets you
+act in a [Crisis](/#crisis) sooner.
 
 ### Charisma
 
@@ -95,17 +107,6 @@ exceed the maximum value. All exceeding points are usually lost.
 <div class="col-layout-start"></div>
 
 ### Downtime
-### Resources
-
-<div class="col-layout-end"></div>
-<div class="col-layout-start"></div>
-
-### Influence
-### Research
-
-<div class="col-layout-end clearfix"></div>
-
-#### Downtime
 
 > Downtime represents the time a character can invest in downtime activities.
 
@@ -116,33 +117,18 @@ gains 1 downtime each session.
 **USED**{.hf} to recuperate, craft, repair and upgrade items and vessels and to
 improve a character.
 
-A character can never have more than 10 downtime at any time. Downtime gained,
-if the maximum is reached, is lost.
-
 Actions that take longer, like repairing a damaged vessel consume downtime.
-Usually, a task that consumes downtime has a DC of 12. Better skill checks can
-reduce downtime and/or resources used, while bad skill checks can increase
-downtime and/or resources used. This DC *may* be lowered or increased depending
-on the situation the characters are in.
+Usually, a task that consumes downtime has at least a DC of 12. Better skill
+checks can reduce downtime and/or resources used, while bad skill checks can
+increase downtime and/or resources used. This DC *may* be lowered or increased
+depending on the situation the characters are in.
 
-#### Influence
-
-> Influence represents connections, owed favours by others, fame and infamy.
-
-**GAINED**{.hf} by making a name for yourself in the cosmos, i.e. by helping
-people and factions. Influence is lost by harming and disappointing others.
-
-**USED**{.hf} for accessing and buying items, vessels, meetings with high
-ranking characters, etc.
-
-!!! summary "Maximum Influence"
+!!! summary "Maximum Downtime"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Experience">XP</span> +
-      <span data-bracket-top="Base">2</span> +
-      <span data-bracket-bottom="Circumstance">other bonuses</span>
+      <span data-bracket-top="Base">10</span>
     </div>
 
-#### Resources
+### Resources
 
 > Resources represent materials used for creating, repairing, upgrading and
 > acquiring equipment.
@@ -152,28 +138,69 @@ quests.
 
 **USED**{.hf} to create, repair, upgrade and acquire equipment and vessels.
 
-Resources are mainly used for equipment that are very powerful and usually add
-[stunts](/stunts).
+Resources can be used to repair vessels, in which case the resources are spent
+on the repair. If resources are spent on equipment, your maximum resources are
+temporary lowered by that amount. This abstracts the upkeep of a powerful item.
+
+Resources spent on very powerful equipment usually add [stunts](/stunts).
 
 !!! summary "Maximum Resources"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Experience">XP</span> +
       <span data-bracket-top="Base">2</span> +
-      <span data-bracket-bottom="Circumstance">other bonuses</span>
+      <span data-bracket-bottom="Circumstance / Perks / Race">other bonuses</span>
     </div>
 
-#### Technology
+<div class="col-layout-end"></div>
+<div class="col-layout-start"></div>
+
+### Influence
+
+> Influence represents connections, owed favours by others, fame and infamy.
+
+**GAINED**{.hf} by making a name for yourself in the cosmos, i.e. by helping
+people and factions. Influence is lost by harming and disappointing others.
+
+**USED**{.hf} for accessing and buying items, vessels, meetings with high
+ranking characters, etc.
+
+Higher influence unlocks better equipment and better vessels. Traders may also
+give you better prices.
+
+!!! summary "Maximum Influence"
+    <div class="formula formula-top formula-bottom">
+      <span data-bracket-bottom="Experience">XP</span> +
+      <span data-bracket-top="Base">2</span> +
+      <span data-bracket-bottom="Circumstance / Perks / Race">other bonuses</span>
+    </div>
+
+<div class="is-mobile">
+  <br><br><br><br><br><br>
+</div>
+
+### Research
+
+> Research represents the party's knowledge, which on the other hand allows to
+> unlock new technology.
+
+**GAINED**{.hf} by aiding science missions, acquiring blueprints, spending time
+on researching certain technology, etc.
+
+**USED**{.hf} for unlocking experimental equipment and vessels. Once unlocked,
+the experimental equipment or vessel can be acquired.
 
 Certain ugprades require technology in order to be unlocked. Upgrades have to be
 unlocked only once, and *can* be shared between characters. Unlocking upgrades
-enables the acquisition of better equipment.
+enables the acquisition of better equipment and vessels.
 
 !!! summary "Maximum Technology"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Experience">XP</span> +
       <span data-bracket-top="Base">2</span> +
-      <span data-bracket-bottom="Circumstance">other bonuses</span>
+      <span data-bracket-bottom="Circumstance / Perks / Race">other bonuses</span>
     </div>
+
+<div class="col-layout-end clearfix"></div>
 
 ## Experience
 
@@ -189,23 +216,11 @@ resourceful and adaptable.
 
 Every character has 1 experience upon creation.
 
-## Race
-
-Every creature has a race, or at least a type that groups similar creatures into
-the same category, e.g. animals or robots.
-
-A race modifies:
-
-* primary and secondary stats,
-* adds perks or flaws,
-* enables access to inherent abilities,
-* and may add roleplaying circumstances.
-
 ## Pools
 
 > Each creature has health and endurance pools. A robot may be defined as a
 > character, but instead of health and endurance it has the pools integrity and
-> battery, acting just the same.
+> power, acting just the same.
 
 ### Health
 
@@ -213,5 +228,12 @@ A race modifies:
 
 ### Endurance
 
-A character at zero endurance is incapacitated and can only make one action per
-round.
+???
+
+## Character creation
+
+1. Choose a race
+2. Assign primary stats
+3. Determine secondary stats
+4. Buy skills, perks and equipment
+5. Adjust character values
