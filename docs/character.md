@@ -32,7 +32,7 @@ A race modifies:
 * abilities, currencies, pools and skills
 * adds perks and flaws,
 * enables access to inherent stunts,
-* and may add roleplaying circumstances
+* and may add roleplaying Circumstances
 
 ## Abilities
 
@@ -116,7 +116,7 @@ Charisma is mostly used in social interactions between characters and NPCs.
 > Currencies abstract the resources available to a character.
 
 Currencies are limited by a maximum value, and are used to improve your
-character. This maximum value is modified by circumstances, perks, and
+character. This maximum value is modified by Circumstances, perks, and
 permanently due to [experience](#experience).
 
 The current value for a currency can **never** exceed the maximum value. All
@@ -171,7 +171,7 @@ Traders may also give you better prices.
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Experience">XP</span> +
       <span data-bracket-top="Base">2</span> ±
-      <span data-bracket-bottom="Perks / Flaws / Race">circumstance</span>
+      <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
     </div>
 
 </div>
@@ -200,7 +200,7 @@ Powerful equipment requiring [Resources](#resources) usually adds
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Experience">XP</span> +
       <span data-bracket-top="Base">2</span> ±
-      <span data-bracket-bottom="Perks / Flaws / Race">circumstance</span>
+      <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
     </div>
 
 </div>
@@ -225,7 +225,7 @@ upgrades enables the acquisition of better equipment and vessels.
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Experience">XP</span> +
       <span data-bracket-top="Base">2</span> ±
-      <span data-bracket-bottom="Perks / Flaws / Race">circumstance</span>
+      <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
     </div>
 
 </div>

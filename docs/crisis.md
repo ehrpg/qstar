@@ -19,7 +19,7 @@ higher [intelligence](/character#intelligence) acts first. If they have the same
       <span data-bracket-bottom="Base">3d6</span> +
       <span data-bracket-top="Ability Score">Intelligence</span> +
       <span data-bracket-bottom="Ability Score">Speed</span> +
-      <span data-bracket-top="Circumstance / Perks / Race">other bonuses</span>
+      <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>
 
 ## Actions
