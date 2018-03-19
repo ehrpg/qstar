@@ -57,7 +57,16 @@ Combat is the most common kind of a crisis.
 
 ### Cover
 
-Cover provides additional defensive bonuses for melee and ranged combat.
+> Cover provides additional defensive bonuses for melee and ranged combat.
+
+Cover is always relative to other targets. A character can be in total cover for
+an enemy, but in plain sight for another.
+
+Can't melee attack targets in total cover.
+
+* Cover `defence +2`
+* Heavy Cover `defence +5`
+* Total Cover `unhittable`
 
 ### Melee Combat
 

@@ -23,7 +23,7 @@ Moved to [Skills](/skills).
 
 Moved to [Perks & Flaws](/perks-flaws).
 
-#### Equipment
+### Equipment
 
 * Outfit
     * Armour
@@ -35,80 +35,7 @@ Moved to [Perks & Flaws](/perks-flaws).
 
 ## Crisis
 
-### Turn Order
-
-`Turn order = Intelligence + Speed + other bonuses`
-
-On conflicts, the target with the higher intelligence comes first. If there is
-still a tie, the target with the higher speed comes first. If there is still
-another tie, each character rolls a d6. The higher roll wins. On a tie, roll
-again.
-
-### Actions
-
-Actions within a crisis require **action points** (AP) to be spent.
-
-Each character has a maximum of 6 action points. At the start of each turn,
-including the beginning of a crisis, the character gains 4 action points. Action
-points can never exceed 6 or deceed 0. Exceeding action points are lost, while
-actions that require more than the remain action points are disabled until
-enough action points are accumulated.
-
-!!! info "Tracking action points"
-    Tracking action points is very easy. Get a d6, put it front of you, and let
-    it face the number of action points your character has. If you are at zero
-    action points, put the die aside to reflect that.
-
-#### Actions gained from Items
-
-Items can enable certain actions, that are unavailable otherwise. For example, a
-mighty two-handed sword could enable the whirlwind action, which allows a
-character to attack all targets in melee range with a single attack.
-
-#### Available Actions
-
-This table provides a guideline for actions and their AP cost. These apply
-unless stated otherwise.
-
-| Action |   AP | Description                                                                |
-|--------|-----:|----------------------------------------------------------------------------|
-| Move   |    1 | Move up to the character's [Speed](#speed) in meters.                      |
-| Sneak  |    1 | Move up to half the character's [Speed](#speed) in meters.                 |
-| Hide   |    3 | Hide from others, provided they have no direct vision of you.              |
-| Attack |    2 | Attack with a *normal* weapon.                                             |
-| Draw   |    1 | Draw a weapon and make it ready for combat use, e.g. release safety catch. |
-
-## Combat
-
-### Attacking
-
-```
-Attack = <Weapon skill check> + <Weapon Hit> - <Range penalty>
-<==>
-Attack = 3d6 + <Weapon Hit> + <Primary stat mod> + <Skill> - <Range penalty>
-```
-
-If the attack hits, deal endurance damage. If the **stunt** *critical hit* is
-used, deal additional critical damage.
-
-### Defence
-
-```
-Defence = 10 + <Speed mod> + cover + other bonuses
-
-Defence vs melee = <Melee> + other bonuses
-```
-
-Every enemy in melee range reduces *defence vs melee* by 2. This only applies if
-there is more than one enemy in range.
-
-### Cover
-
-Can't melee attack targets in total cover.
-
-* Cover `defence +2`
-* Heavy Cover `defence +5`
-* Total Cover `unhittable`
+Moved to [Crisis](/crisis).
 
 ## Vessel
 

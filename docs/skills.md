@@ -58,9 +58,11 @@ the ability requirement was not met anymore. A trained skill stays at
 
 ### Improving Skills
 
-Trained skills can be improved. Improving a skill costs 2 [Downtime](#downtime)
-per rank. Upgrading a **trained** skill to **master** rank would cost 4
-[Downtime](#downtime).
+Skills can be improved. Improving a **trained** skill costs 2
+[Downtime](#downtime). Improving a skill at **skilled** rank costs 4
+[Downtime](#downtime). Upgrading a **trained** skill to **skilled** rank would
+cost 2 [Downtime](#downtime), while upgrading a **skilled** rank to **master**
+rank would cost 4 [Downtime](#downtime).
 
 !!! example "Improving a skill"
     Jack has *Light weapons* trained (not improved yet), a [Speed](#speed) rank
@@ -76,8 +78,8 @@ per rank. Upgrading a **trained** skill to **master** rank would cost 4
 
 If you have less trained skills than you are allowed to have, you can train new
 skills. If you already have the maximum amount of trained skills you are allowed
-to have, you can unlearn a trained one in order to gain a new one. Swapping any
-trained skill for an untrained one, or learning a new one costs 2
+to have, you can unlearn a previously trained one in order to gain a new one.
+Swapping any trained skill for an untrained one, or learning a new one costs 2
 [Downtime](#downtime).
 
 <div class="col-layout-end clearfix"></div>
@@ -92,11 +94,12 @@ the same skill is used for both parties.
 Below is a list of possible skills, provided by the Q* RPG system. Note, that
 skills in bold are usually associated - but not limited to - vessel operation.
 
-!!! tip "Available skills"
+!!! tip "Available [skills](#skills)"
     Like any other  RPG system, Q* provides the GM and player with a set of
     skills. Neither the system nor characters are limited to these skills: if
     you require different skills to suite your needs, then add them to your
-    game.
+    game. For balancing reasons try to restrict yourself to only 4 available
+    skills per ability.
 
 <div class="col-layout-start"></div>
 

@@ -1,3 +1,133 @@
+h1 {
+  position: relative !important;
+}
+
+h1:after {
+  font-family: "game-icons";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  margin-left: 0.5rem !important;
+  vertical-align: top;
+}
+
+h1 > a {
+  position: absolute;
+  right: 0;
+}
+
+h1 > a:after {
+  content: "" !important;
+}
+
+h2 {
+  position: relative !important;
+}
+
+h2:after {
+  font-family: "game-icons";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  margin-left: 0.5rem !important;
+  vertical-align: top;
+}
+
+h2 > a {
+  position: absolute;
+  right: 0;
+}
+
+h2 > a:after {
+  content: "" !important;
+}
+
+h3 {
+  position: relative !important;
+}
+
+h3:after {
+  font-family: "game-icons";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  margin-left: 0.5rem !important;
+  vertical-align: top;
+}
+
+h3 > a {
+  position: absolute;
+  right: 0;
+}
+
+h3 > a:after {
+  content: "" !important;
+}
+
+h4 {
+  position: relative !important;
+}
+
+h4:after {
+  font-family: "game-icons";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  margin-left: 0.5rem !important;
+  vertical-align: top;
+}
+
+h4 > a {
+  position: absolute;
+  right: 0;
+}
+
+h4 > a:after {
+  content: "" !important;
+}
+
+h5 {
+  position: relative !important;
+}
+
+h5:after {
+  font-family: "game-icons";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  margin-left: 0.5rem !important;
+  vertical-align: top;
+}
+
+h5 > a {
+  position: absolute;
+  right: 0;
+}
+
+h5 > a:after {
+  content: "" !important;
+}
+
 *:not(.md-search-result__item) > *#might-skills,
 *:not(.md-search-result__item) > *#speed-skills,
 *:not(.md-search-result__item) > *#intelligence-skills,
@@ -101,7 +231,6 @@
 }
 
 *:not(.md-search-result__item) > *#skills:after,
-*:not(.md-search-result__item) > *#available-skills:after,
 *:not(.md-search-result__item) > a[href*="#skills"]:after {
   content: "\E71A";
 }

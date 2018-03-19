@@ -132,7 +132,6 @@ $headers: h1, h2, h3, h4, h5;
   }
 
   *#skills:after,
-  *#available-skills:after,
   a[href*="#skills"]:after {
     content: "\E71A";
   }
