@@ -46,13 +46,13 @@ more AP.
 
 | Action   |   AP | Description                                                                |
 |----------|-----:|----------------------------------------------------------------------------|
-| Move     |    1 | Move up to the character's [Speed](#speed) in meters.                      |
-| Sneak    |    1 | Move up to half the character's [Speed](#speed) in meters.                 |
-| Hide     |    3 | Hide from others, provided they have no direct vision of you.              |
 | Attack   |    2 | Attack with a *normal* weapon.                                             |
 | Draw     |    1 | Draw a weapon and make it ready for combat use, e.g. release safety catch. |
-| Use Item |    2 | Use an item in a crisis. The item usually specifies the AP required.       |
+| Hide     |    3 | Hide from others, provided they have no direct vision of you.              |
+| Move     |    1 | Move up to the character's [Speed](#speed) in meters.                      |
+| Sneak    |    1 | Move up to half the character's [Speed](#speed) in meters.                 |
 | Stand Up |    2 | Standing up when being prone.                                              |
+| Use Item |    2 | Use an item in a crisis. The item usually specifies the AP required.       |
 
 ## Conditions
 
