@@ -189,6 +189,13 @@ Requires
 
 <!-- A-N -->
 
+##### Brittle Bones
+
+Maximum Strength -1
+
+Requires
+:   -
+
 ##### Introvert
 
 Maximum Influence -2

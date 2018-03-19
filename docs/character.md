@@ -7,8 +7,8 @@ following rules.
 A character is defined by:
 
 * A race,
-* primary stats,
-* secondary stats,
+* abilities,
+* currencies,
 * experience, and
 * pools.
 
@@ -19,46 +19,45 @@ the same category, e.g. animals or robots.
 
 A race modifies:
 
-* primary stats, secondary stats, pools and skills
+* abilities, currencies, pools and skills
 * adds perks and flaws,
 * enables access to inherent stunts,
 * and may add roleplaying circumstances
 
-## Primary Stats
+## Abilities
 
 !!! tip "Tracking stats"
-    Always write the current primary and secondary stat value down separately
-    from your character's maximum. Certain actions decrease and increase
-    secondary stats very often, while the maximum doesn't change that
+    Always write the current ability and currency value down separately
+    from your character's maximum. Certain actions decrease and increase e.g.
+    currencies very often, while the maximum doesn't change that
     frequently.
 
-Primary stats are **fixed** values every character has. These stats are only
-modified by *fatal events* while adventuring.
+Abilities are **fixed** values every character has. They are only modified by
+*fatal events* while adventuring.
 
-Primary stats or abilities are used for a number of things:
+Abilities are used for a number of things:
 
-* define how much damage the character can sustain,
+* they define how much damage the character can sustain,
 * enable perks and upgrades
 * enable certain action, e.g. carrying heavy stuff requires a minimal strength
-  value.
+  score.
 
-Primary stats reach from -5 to 5. Any primary stats score at 5 means that the
-character is almost superhuman in that primary stats. An primary stats score at
-0 means that the character is somehow impaired, and an primary stats score at -5
-means that the character is dead.
+Abilities reach from -5 to 5. Any ability score at 5 means that the character is
+almost superhuman regarding this ability. An ability score at 0 means that the
+character is somehow impaired, and an ability score at -5 means that the
+character is dead.
 
-Good or bad primary stats also add bonuses or impose penalties on skill checks
-corresponding to the primary stat.
+Good or bad abilities also add bonuses or impose penalties on skill checks
+corresponding to the ability.
 
-| Primary stat   |   -5 |   -4 |   -3 |   -2 |   -1 |    0 |    1 |    2 |    3 |    4 |    5 |
+| Ability        |   -5 |   -4 |   -3 |   -2 |   -1 |    0 |    1 |    2 |    3 |    4 |    5 |
 |----------------|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
 | Skill modifier |   -3 |   -2 |   -2 |   -1 |   -1 |   +0 |   +1 |   +1 |   +2 |   +2 |   +3 |
 
-Every character has 12 points to spend between the four primary stats upon
-creation. Each primary stat has the initial value of 0. Points can only be
-added, not subtracted from the primary stat. Primary stats can **never** be
-higher than 5. Some races also reduce the maximum value for certain primary
-stats.
+Every character has 12 points to spend between the four abilities upon
+creation. Each ability has the initial value of 0. Points can only be
+added, not subtracted from the ability. Abilities can **never** be
+higher than 5. Some races also reduce the maximum value for certain abilities.
 
 <div class="col-layout-start"></div>
 
@@ -96,55 +95,64 @@ Charisma is mostly used in social interactions between characters and NPCs.
 
 <div class="col-layout-end clearfix"></div>
 
-## Secondary Stats
+## Currency
 
-Secondary stats are bound to frequent changes. Every secondary stat has a
-maximum value modified by circumstances, perks, and permanently due to
-[experience](#experience). The current value of a secondary stat can **never**
-exceed the maximum value. All exceeding points are usually lost.
+Currencies abstract the resources available to a character. They are limited by
+a maximum value, and are used to improve your character. This maximum value is
+modified by circumstances, perks, and permanently due to
+[experience](#experience).
 
+The current value for a currency can **never** exceed the maximum value. All
+exceeding points are usually lost.
 
 <div class="col-layout-start"></div>
 
 ### Downtime
 
-> Downtime represents the time a character can invest in downtime activities.
+> [Downtime](#downtime) represents the time a character can invest in
+> [downtime](#downtime) activities.
 
-**GAINED**{.hf} in the course of time. A character gains more downtime in
-between adventures and longer periods of downtime during adventures. A character
-gains 1 downtime each session.
+**GAINED**{.hf} in the course of time. A character gains more
+[downtime](#downtime) in between adventures and longer periods of
+[downtime](#downtime) during adventures. A character gains at least 1
+[downtime](#downtime) each session automatically.
 
 **USED**{.hf} to recuperate, craft, repair and upgrade items and vessels and to
 improve a character.
 
-Actions that take longer, like repairing a damaged vessel consume downtime.
-Usually, a task that consumes downtime has at least a DC of 12. Better skill
-checks can reduce downtime and/or resources used, while bad skill checks can
-increase downtime and/or resources used. This DC *may* be lowered or increased
-depending on the situation the characters are in.
+Actions that take longer, like repairing a damaged vessel consume
+[downtime](#downtime). Usually, a task that consumes [downtime](#downtime) has
+at least a DC of 12. Better skill checks can reduce [downtime](#downtime) and/or
+resources used, while bad skill checks can increase [downtime](#downtime) and/or
+resources used. This DC *may* be lowered or increased depending on the situation
+the characters are in.
 
-!!! summary "Maximum Downtime"
+!!! summary "Maximum [Downtime](#downtime)"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-top="Base">10</span>
     </div>
 
 ### Resources
 
-> Resources represent materials used for creating, repairing, upgrading and
-> acquiring equipment.
+> [Resources](#resources) represent materials used for creating, repairing,
+> upgrading and acquiring equipment.
 
 **GAINED**{.hf} by looting enemies, or completing missions, adventures and
 quests.
 
 **USED**{.hf} to create, repair, upgrade and acquire equipment and vessels.
 
-Resources can be used to repair vessels, in which case the resources are spent
-on the repair. If resources are spent on equipment, your maximum resources are
-temporary lowered by that amount. This abstracts the upkeep of a powerful item.
+[Resources](#resources) can be used to repair vessels, in which case the
+[resources](#resources) are spent on the repair.
 
-Resources spent on very powerful equipment usually add [stunts](/stunts).
+If [resources](#resources) are spent on equipment, your maximum
+[resources](#resources) are *temporarily lowered* by that amount. This abstracts
+the upkeep of a powerful item.
 
-!!! summary "Maximum Resources"
+Powerful equipment requiring [resources](#resources) usually adds
+[stunts](/stunts).
+
+!!! summary "Maximum [Resources](#resources)"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Experience">XP</span> +
       <span data-bracket-top="Base">2</span> +
@@ -156,18 +164,20 @@ Resources spent on very powerful equipment usually add [stunts](/stunts).
 
 ### Influence
 
-> Influence represents connections, owed favours by others, fame and infamy.
+> [Influence](#influence) represents connections, owed favours by others, fame
+> and infamy.
 
 **GAINED**{.hf} by making a name for yourself in the cosmos, i.e. by helping
-people and factions. Influence is lost by harming and disappointing others.
+people and factions. [Influence](#influence) is lost by harming and
+disappointing others.
 
 **USED**{.hf} for accessing and buying items, vessels, meetings with high
 ranking characters, etc.
 
-Higher influence unlocks better equipment and better vessels. Traders may also
-give you better prices.
+More [influence](#influence) unlocks better equipment and better vessels.
+Traders may also give you better prices.
 
-!!! summary "Maximum Influence"
+!!! summary "Maximum [Influence](#influence)"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Experience">XP</span> +
       <span data-bracket-top="Base">2</span> +
@@ -175,25 +185,25 @@ give you better prices.
     </div>
 
 <div class="is-mobile">
-  <br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br>
 </div>
 
 ### Research
 
-> Research represents the party's knowledge, which on the other hand allows to
-> unlock new technology.
+> [Research](#research) represents the party's knowledge, which on the other
+> hand allows to unlock new [research](#research).
 
 **GAINED**{.hf} by aiding science missions, acquiring blueprints, spending time
-on researching certain technology, etc.
+on researching certain scientific fields, etc.
 
 **USED**{.hf} for unlocking experimental equipment and vessels. Once unlocked,
 the experimental equipment or vessel can be acquired.
 
-Certain ugprades require technology in order to be unlocked. Upgrades have to be
-unlocked only once, and *can* be shared between characters. Unlocking upgrades
-enables the acquisition of better equipment and vessels.
+Certain ugprades require [research](#research) in order to be unlocked. Upgrades
+have to be unlocked only once, and *can* be shared between characters. Unlocking
+upgrades enables the acquisition of better equipment and vessels.
 
-!!! summary "Maximum Technology"
+!!! summary "Maximum [Research](#research)"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Experience">XP</span> +
       <span data-bracket-top="Base">2</span> +
@@ -206,15 +216,15 @@ enables the acquisition of better equipment and vessels.
 
 > Experience is gained throughout a character's adventuring career.
 
-Experience is gained due to noteable achievements or story completions.
+Experience (XP) is gained due to noteable achievements or story completions.
 Experience *may* provide a character with experience points, usually 1 at a
 time.
 
-Experience improves the maximum values of your secondary stats. This does not
+Experience improves the maximum values of your currencies. This does not
 necessarily make your character stronger, but make the character more
 resourceful and adaptable.
 
-Every character has 1 experience upon creation.
+Every character has 0 experience upon creation.
 
 ## Pools
 
@@ -233,7 +243,7 @@ Every character has 1 experience upon creation.
 ## Character creation
 
 1. Choose a race
-2. Assign primary stats
-3. Determine secondary stats
+2. Assign abilities
+3. Determine currencies
 4. Buy skills, perks and equipment
 5. Adjust character values
