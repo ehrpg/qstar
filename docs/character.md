@@ -140,9 +140,9 @@ improve a character.
 Actions that take longer, like repairing a damaged vessel consume
 [Downtime](#downtime). Usually, a task that consumes [Downtime](#downtime) has
 at least a DC of 12. Better skill checks can reduce [Downtime](#downtime) and/or
-resources used, while bad skill checks can increase [Downtime](#downtime) and/or
-resources used. This DC *may* be lowered or increased depending on the situation
-the characters are in.
+[Resources](/character#resources)  used, while bad skill checks can increase
+[Downtime](#downtime) and/or [Resources](/character#resources)  used. This DC
+*may* be lowered or increased depending on the situation.
 
 !!! summary "Maximum [Downtime](#downtime)"
     <div class="formula formula-top formula-bottom">

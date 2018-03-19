@@ -27,11 +27,33 @@
 		],
 		"description": "Insert Charisma Link"
 	},
+
 	"Insert Downtime Link": {
-		"prefix": "dt",
+		"prefix": "downtime",
 		"body": [
 			"[Downtime](/character#downtime)$1 "
 		],
 		"description": "Insert Downtime Link"
+	},
+	"Insert Influence Link": {
+		"prefix": "influence",
+		"body": [
+			"[Influence](/character#influence)$1 "
+		],
+		"description": "Insert Influence Link"
+	},
+	"Insert Resources Link": {
+		"prefix": "resources",
+		"body": [
+			"[Resources](/character#resources)$1 "
+		],
+		"description": "Insert Resources Link"
+	},
+	"Insert Research Link": {
+		"prefix": "research",
+		"body": [
+			"[Research](/character#research)$1 "
+		],
+		"description": "Insert Research Link"
 	}
 }
