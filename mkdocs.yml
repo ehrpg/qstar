@@ -57,12 +57,14 @@ pages:
         - Introduction: 'index.md'
         - notes: 'notes.md'
         - Quick Start Rules: 'quick-start.md'
-        - Character: 'character.md'
-        - Skills: 'skills.md'
-        - Perks & Flaws: 'perks-flaws.md'
         - Combat: 'combat.md'
         - Stunts: 'stunts.md'
         - Equipment: 'equipment.md'
+
+        - Character: 'character.md'
+        - Skills: 'skills.md'
+        - Perks & Flaws: 'perks-flaws.md'
+        - Crisis: 'crisis.md'
 
     - Vehicles & Vessels:
         - Vessels: 'vessel/index.md'

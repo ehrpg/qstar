@@ -13,7 +13,7 @@ Apple
 
 ## Character
 
-Moved to [Character](/character)
+Moved to [Character](/character).
 
 ### Skills
 
@@ -21,7 +21,7 @@ Moved to [Skills](/skills).
 
 ### Perks & Flaws
 
-Moved to [Perks & Flaws](/perks-flaws)
+Moved to [Perks & Flaws](/perks-flaws).
 
 #### Equipment
 

@@ -87,12 +87,12 @@ Cost
 
 Draw any handheld weapon without AP cost.
 
-Oratory {.qs-2d6}
+Command {.qs-2d6}
 :   Effected characters heal 1d6 [endurance](/#endurance) damage [^Leader].
 
 Requires
 :   4 [Charisma](#charisma)
-:   2 [Tactics](/skills#available-skills)
+:   [Command](/skills#available-skills) Trained
 
 Cost
 :   `1` [Cr.](#credits)
@@ -137,6 +137,10 @@ roleplaying circumstances in a negative way.
 Also, if the flaw is not reasonable at all for your character, the flaw simply
 isn't available to you.
 
+Flaws can **never** be removed. If you don't play your weaknesses, you shouldn't
+pick the flaw in the first place, e.g. when playing a character with the
+introvert flaw like an extrovert person.
+
 ### Available Flaws
 
 <div class="col-layout-start"></div>
@@ -176,15 +180,28 @@ Requires
 
 ##### Introvert
 
-Maximum Influence -2
+Maximum Charisma  -1
 
 Requires
 :   -
 
 <div class="col-layout-end"></div>
-<div class="col-layout-start"></div>
+<div class="col-layout-start qs-list"></div>
 
 <!-- O-Z -->
 
+##### Uneducated
+
+Maximum Intelligence -1
+
+Requires
+:   -
+
+##### Slow
+
+Maximum Speed -1
+
+Requires
+:   -
 
 <div class="col-layout-end clearfix"></div>
