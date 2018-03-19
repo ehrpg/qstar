@@ -189,6 +189,14 @@ Maximum Charisma  -1
 Requires
 :   -
 
+##### Illiterate
+
+You are unable to read any texts. You can however recognise common names, e.g.
+"Tavern"
+
+Requires
+:   -
+
 <div class="col-layout-end"></div>
 <div class="col-layout-start qs-list"></div>
 

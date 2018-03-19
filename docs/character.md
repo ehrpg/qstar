@@ -164,7 +164,7 @@ disappointing others.
 **USED**{.hf} for accessing and buying items, vessels, meetings with high
 ranking characters, etc.
 
-More [influence](#influence) unlocks better equipment and better vessels.
+More [Influence](#influence) unlocks better equipment and better vessels.
 Traders may also give you better prices.
 
 !!! summary "Maximum [Influence](#influence)"
@@ -187,13 +187,13 @@ Traders may also give you better prices.
 **USED**{.hf} to create, repair, upgrade and acquire equipment and vessels.
 
 [Resources](#resources) can be used to repair vessels, in which case the
-[resources](#resources) are spent on the repair.
+[Resources](#resources) are spent on the repair.
 
-If [resources](#resources) are spent on equipment, your maximum
-[resources](#resources) are *temporarily lowered* by that amount. This abstracts
+If [Resources](#resources) are spent on equipment, your maximum
+[Resources](#resources) are *temporarily lowered* by that amount. This abstracts
 the upkeep of a powerful item.
 
-Powerful equipment requiring [resources](#resources) usually adds
+Powerful equipment requiring [Resources](#resources) usually adds
 [stunts](/stunts).
 
 !!! summary "Maximum [Resources](#resources)"
@@ -209,7 +209,7 @@ Powerful equipment requiring [resources](#resources) usually adds
 ### Research
 
 > [Research](#research) represents the party's knowledge, which on the other
-> hand allows to unlock new [research](#research).
+> hand allows to unlock new [Research](#research).
 
 **GAINED**{.hf} by aiding science missions, acquiring blueprints, spending time
 on researching certain scientific fields, etc.
@@ -217,7 +217,7 @@ on researching certain scientific fields, etc.
 **USED**{.hf} for unlocking experimental equipment and vessels. Once unlocked,
 the experimental equipment or vessel can be acquired.
 
-Certain ugprades require [research](#research) in order to be unlocked. Upgrades
+Certain ugprades require [Research](#research) in order to be unlocked. Upgrades
 have to be unlocked only once, and *can* be shared between characters. Unlocking
 upgrades enables the acquisition of better equipment and vessels.
 
