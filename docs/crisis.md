@@ -14,11 +14,11 @@ higher [Intelligence](/character#intelligence) acts first. If they have the same
 [Intelligence](/character#intelligence) score, the character with the higher
 [Speed](/character#speed) acts first. If there is still a tie, roll again.
 
-!!! summary "[Turn order](#turn-order)"
+!!! summary "[Turn Order](#turn-order)"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Base">3d6</span> +
-      <span data-bracket-top="Ability Score">Intelligence</span> +
-      <span data-bracket-bottom="Ability Score">Speed</span> +
+      <span data-bracket-bottom="Base">3d6</span> ±
+      <span data-bracket-top="Ability Score">Intelligence</span> ±
+      <span data-bracket-bottom="Ability Score">Speed</span> ±
       <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>
 
@@ -37,11 +37,12 @@ remain AP are disabled until enough AP are accumulated.
 
 ### Available Actions
 
-All character can perform basic actions. Perks and equipment can make additional
-actions available.
+All character can perform basic actions. [Perks](/perks-flaws#perks) and
+equipment can make additional actions available.
 
 This table provides a guideline for actions and their AP cost. These apply
-unless stated otherwise, e.g. attacking with a big weapon may require more AP.
+unless stated otherwise, e.g. attacking with an oversized weapon may require
+more AP.
 
 | Action   |   AP | Description                                                                |
 |----------|-----:|----------------------------------------------------------------------------|
@@ -94,11 +95,11 @@ Attacking in melee is done using the *Melee* skill.
 
 !!! summary "Melee attack"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Base">3d6</span> +
-      <span data-bracket-top="Skill modifier">Melee</span> +
-      <span data-bracket-bottom="Skill modifier">Might</span> +
-      <span data-bracket-top="Weapon modifier">Hit</span> +
-      <span data-bracket-bottom="Circumstance / Perks / Race">other bonuses</span>
+      <span data-bracket-bottom="Base">3d6</span> ±
+      <span data-bracket-top="Skill modifier">Melee</span> ±
+      <span data-bracket-bottom="Skill modifier">Might</span> ±
+      <span data-bracket-top="Weapon modifier">Hit</span> ±
+      <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
     </div>
 
 #### Defence
@@ -108,11 +109,11 @@ stats.
 
 !!! summary "Defence vs melee"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Base">10</span> +
-      <span data-bracket-top="Skill modifier">Melee</span> +
+      <span data-bracket-bottom="Base">10</span> ±
+      <span data-bracket-top="Skill modifier">Melee</span> ±
       <span data-bracket-bottom="Skill modifier">Might</span> +
-      <span data-bracket-top="Defence modifier">Armour</span> +
-      <span data-bracket-bottom="Circumstance / Perks / Race">other bonuses</span>
+      <span data-bracket-top="Defence modifier">Armour</span> ±
+      <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
       <span data-bracket-top="per additional enemy">-2</span>
     </div>
 

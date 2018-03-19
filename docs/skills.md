@@ -9,10 +9,10 @@ effected by noticeable outside factors, the character has to roll a skill check.
 
 !!! summary "Skill checks"
     <div class="formula formula-top formula-bottom">
-    <span data-bracket-bottom="base">3d6</span> ±
-    <span data-bracket-top="skill modifier">ability</span> ±
-    <span data-bracket-bottom="bonus">skill</span> ±
-    <span data-bracket-top="circumstance / perks / flaws">other bonuses</span>
+    <span data-bracket-bottom="Base">3d6</span> ±
+    <span data-bracket-top="Skill modifier">Ability</span> ±
+    <span data-bracket-bottom="Skill modifier">Skill</span> ±
+    <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>
 
 ## Skill Ranks

@@ -2,7 +2,7 @@
 
 ## Glossary
 
-Action point
+[Action point](/crisis#actions)
 :   AP, used for atomic actions in a crisis.
 
 Base
