@@ -138,8 +138,7 @@ the characters are in.
 > [Resources](#resources) represent materials used for creating, repairing,
 > upgrading and acquiring equipment.
 
-**GAINED**{.hf} by looting enemies, or completing missions, adventures and
-quests.
+**GAINED**{.hf} by looting, or completing missions, adventures and quests.
 
 **USED**{.hf} to create, repair, upgrade and acquire equipment and vessels.
 

@@ -56,6 +56,8 @@ expanditure of a secondary stat.
 
 <div class="col-layout-end clearfix"></div>
 
+---
+
 <div class="col-layout-start qs-list"></div>
 
 <!-- A-N -->
@@ -166,6 +168,8 @@ Requires
 :   Requirements that have to be met in order for the flaw to be available.
 
 <div class="col-layout-end clearfix"></div>
+
+---
 
 <div class="col-layout-start qs-list"></div>
 

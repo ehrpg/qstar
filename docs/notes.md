@@ -23,7 +23,11 @@ Moved to [Skills](/skills).
 
 Moved to [Perks & Flaws](/perks-flaws).
 
-### Equipment
+### Crisis
+
+Moved to [Crisis](/crisis).
+
+## Equipment
 
 * Outfit
     * Armour
@@ -33,11 +37,7 @@ Moved to [Perks & Flaws](/perks-flaws).
     * Ranged
 * Utility
 
-## Crisis
-
-Moved to [Crisis](/crisis).
-
-## Vessel
+# Vessel
 
 #### Origin
 
