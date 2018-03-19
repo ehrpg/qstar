@@ -1,19 +1,20 @@
-# Glossary
+# Introduction
 
-<dl>
-<dt>Stats</dt>
-<dd>Stats refer to primary and secondary attributes of a subject (character or vessel).</dd>
+## Glossary
 
-<dt>Upgrade</dt>
-<dd>An upgrade refers to something that makes a character or vessel better,
-usually perks and equipment.</dd>
+Action point
+:   AP, used for atomic actions in a crisis.
 
-<dt>Downtime</dt>
-<dd>Expendable time gained when resting for longer time periods or between adventures</dd>
+Base
+:   A base value that's used for rolls or to determine values. It's the same for
+all characters and creatures.
 
-<dt>Firearm</dt>
-<dd>A firearm is a portable gun (a barreled ranged weapon)</dd>
-</dl>
+Roleplaying circumstance
+:   Usually added by a race, perk or flaws. Roleplaying circumstances include
+prejudice, others liking or disliking you, being a known criminal, etc.
+
+Firearm
+:   A firearm is a portable gun (a barreled ranged weapon)
 
 # Mechanisms
 

@@ -3,13 +3,13 @@
 Action point
 :   Does stuff
 
+Base
+:   A base value that's used for rolls or to determine values. It's the same for
+all characters and creatures.
+
 Roleplaying circumstance
 :   Does different stuff.
 :   Does different stuff.
-
-Apple
-:   Pomaceous fruit of plants of the genus Malus in
-    the family Rosaceae.
 
 ## Character
 

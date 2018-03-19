@@ -10,9 +10,9 @@ The character with the highest result acts first. Once every character has
 acted, a new **turn** begins.
 
 If two or more characters have rolled the same result, the character with the
-higher [intelligence](/character#intelligence) acts first. If they have the same
-[intelligence](/character#intelligence) score, the character with the higher
-[speed](/character#speed) acts first. If there is still a tie, roll again.
+higher [Intelligence](/character#intelligence) acts first. If they have the same
+[Intelligence](/character#intelligence) score, the character with the higher
+[Speed](/character#speed) acts first. If there is still a tie, roll again.
 
 !!! summary "[Turn order](#turn-order)"
     <div class="formula formula-top formula-bottom">

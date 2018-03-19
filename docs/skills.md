@@ -5,7 +5,7 @@ Skills abstract your character's education, hobbies and fields of expertise.
 ## Skill Checks
 
 Whenever it's uncertain if a character can do an action, or if the outcome is
-affected by noticeable outside factors, the character has to roll a skill check.
+effected by noticeable outside factors, the character has to roll a skill check.
 
 !!! summary "Skill checks"
     <div class="formula formula-top formula-bottom">
