@@ -81,7 +81,7 @@ related to knowing things.
 
 ### Speed
 
-> Speed measures the character's reflexes and hand-eye coordination.
+> Speed measures the character's reflexes and eye-hand coordination.
 
 Speed adds a bonus to ranged weaopn attacks, is used for stealth and lets you
 act in a [Crisis](/#crisis) sooner.
@@ -97,10 +97,11 @@ Charisma is mostly used in social interactions between characters and NPCs.
 
 ## Currency
 
-Currencies abstract the resources available to a character. They are limited by
-a maximum value, and are used to improve your character. This maximum value is
-modified by circumstances, perks, and permanently due to
-[experience](#experience).
+> Currencies abstract the resources available to a character.
+
+Currencies are limited by a maximum value, and are used to improve your
+character. This maximum value is modified by circumstances, perks, and
+permanently due to [experience](#experience).
 
 The current value for a currency can **never** exceed the maximum value. All
 exceeding points are usually lost.
@@ -245,5 +246,7 @@ Every character has 0 experience upon creation.
 1. Choose a race
 2. Assign abilities
 3. Determine currencies
-4. Buy skills, perks and equipment
-5. Adjust character values
+4. Assign skills
+5. Assign flaws
+6. Buy perks and equipment
+7. Adjust character values
