@@ -4,16 +4,15 @@ Skills abstract your character's education, hobbies and fields of expertise.
 
 ## Skill Checks
 
-Whenever it's uncertain if a character can do a certain action, or if the
-outcome is affected by noticeable outside factors, the character has to roll a
-skill check.
+Whenever it's uncertain if a character can do an action, or if the outcome is
+affected by noticeable outside factors, the character has to roll a skill check.
 
 !!! summary "Skill checks"
     <div class="formula formula-top formula-bottom">
     <span data-bracket-bottom="base">3d6</span> ±
-    <span data-bracket-top="modifier">primary stat</span> ±
+    <span data-bracket-top="skill modifier">primary stat</span> ±
     <span data-bracket-bottom="bonus">skill</span> ±
-    <span data-bracket-top="circumstance">other bonuses</span>
+    <span data-bracket-top="circumstance / perks / flaws">other bonuses</span>
     </div>
 
 ## Skill Ranks
@@ -29,41 +28,45 @@ skills available to them.
 
 A character has at least 5 and at most 10 trained skills. Negative
 [Intelligence](#intelligence) doesn't change the amount of trained skills
-available.
+available. A character can only have up to his [Intelligence](#intelligence)
+skills at master rank. Also, temporary [Intelligence](#intelligence) damage
+doesn't reduce the amount of trained skills available, nor the amount of master
+rank skills.
 
 Training a skill requires the corresponding primary stat to be at least 1.
 
-| Skill rank      | Requires primary stat | Skill bonus |
-|-----------------|----------------------:|------------:|
-| Untrained       |                     - |          -2 |
-| Trained (+1)    |                     1 |          +1 |
-| Trained +X      |                     X |          +X |
+| Skill rank | Requires primary stat | Skill bonus |
+|------------|----------------------:|------------:|
+| Untrained  |                     - |          -2 |
+| Trained    |                     1 |          +1 |
+| Skilled    |                     3 |          +3 |
+| Master     |                     5 |          +6 |
 
 If you improved a skill, and the corresponding primary stat was to be reduced
 below its requirement, you also lose the benefit of the skill being improved.
 
 !!! example "Skill improvements and losing primary stat points"
-    Jack has a [Speed](#speed) of 3 and *Acrobatics* improved to `+2`. He is
-    heavily wounded in combat and temporarily has to reduce his [Speed](#speed)
-    to 1. The level of improvement of his *Acrobatics* stays at `+2`, the bonus
-    drops to `+1` however until his primary stat is high enough again. While the
-    primary stat is temporarily lowered, he also cannot improve *Acrobatics* any
-    further (to e.g. `+3`).
+    Jack has a [Speed](#speed) of 5 and *Acrobatics* at skill rank **skilled**.
+    He is heavily wounded in combat and temporarily has to reduce his
+    [Speed](#speed) to 2. The level of improvement of his *Acrobatics* stays at
+    **skilled**, the bonus drops to **trained** however until his primary stat
+    is high enough again. While the primary stat is temporarily lowered, he also
+    cannot improve *Acrobatics* any further (to **master** rank).
 
 <div class="col-layout-start"></div>
 
 ### Improving Skills
 
-Skills can be improved, to a maximum of +5 (capped by maximum primary stat
-value). Each skill improvement increases the primary stat requirement and skill
-bonus by one. Improving a skill costs 2 [Downtime](#downtime) per skill bonus.
+Trained skills can be improved. Improving a skill costs 2 [Downtime](#downtime)
+per rank. Upgrading a **trained** skill to **master** rank would cost 4
+[Downtime](#downtime).
 
 !!! example "Improving a skill"
     Jack has *Light weapons* trained (not improved yet), a [Speed](#speed) rank
-    of 3, and wants to improve this skill to `+2`. Since his [Speed](#speed)
-    rank is equal or higher than the new primary stat requirement of 2, he can
-    do so, provided he has enough resources: Upgrading this skill would cost him
-    4 [Downtime](#downtime).
+    of 3, and wants to improve this skill to **skilled**. Since his
+    [Speed](#speed) rank is equal or higher than the new primary stat
+    requirement of 3, he can do so, provided he has enough resources: Upgrading
+    this skill would cost him 2 [Downtime](#downtime).
 
 <div class="col-layout-end"></div>
 <div class="col-layout-start"></div>

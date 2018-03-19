@@ -1,3 +1,32 @@
+$headers: h1, h2, h3, h4, h5;
+
+@each $header in $headers {
+  #{$header} {
+    position: relative !important;
+  }
+
+  #{$header}:after {
+    font-family: "game-icons";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+    margin-left: 0.5rem !important;
+    vertical-align: top;
+  }
+
+  #{$header} > a {
+    position: absolute;
+    right: 0;
+    &:after {
+      content: "" !important;
+    }
+  }
+}
+
 *:not(.md-search-result__item) > {
   *#might-skills,
   *#speed-skills,
