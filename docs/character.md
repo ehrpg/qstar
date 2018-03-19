@@ -26,14 +26,14 @@ A race modifies:
 
 ## Abilities
 
+Abilities are **fixed** values every character has. They are only modified by
+*fatal events* while adventuring.
+
 !!! tip "Tracking stats"
     Always write the current ability and currency value down separately
     from your character's maximum. Certain actions decrease and increase e.g.
     currencies very often, while the maximum doesn't change that
     frequently.
-
-Abilities are **fixed** values every character has. They are only modified by
-*fatal events* while adventuring.
 
 Abilities are used for a number of things:
 
@@ -54,10 +54,10 @@ corresponding to the ability.
 |----------------|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
 | Skill modifier |   -3 |   -2 |   -2 |   -1 |   -1 |   +0 |   +1 |   +1 |   +2 |   +2 |   +3 |
 
-Every character has 12 points to spend between the four abilities upon
-creation. Each ability has the initial value of 0. Points can only be
-added, not subtracted from the ability. Abilities can **never** be
-higher than 5. Some races also reduce the maximum value for certain abilities.
+Every character has 12 ability points to spend between the four abilities upon
+creation. Each ability has the initial value of 0. Points can only be added, not
+subtracted from the ability. Abilities can **never** be higher than 5. Some
+races also reduce the maximum value for certain abilities.
 
 <div class="col-layout-start"></div>
 
@@ -217,15 +217,14 @@ upgrades enables the acquisition of better equipment and vessels.
 
 > Experience is gained throughout a character's adventuring career.
 
-Experience (XP) is gained due to noteable achievements or story completions.
-Experience *may* provide a character with experience points, usually 1 at a
-time.
+Experience (XP) is gained due to noteable achievements or story completions. XP
+*may* provide a character with XP, usually 1 at a time.
 
-Experience improves the maximum values of your currencies. This does not
-necessarily make your character stronger, but make the character more
-resourceful and adaptable.
+XP improves the maximum values of your currencies. This does not necessarily
+make your character stronger, but make the character more resourceful and
+adaptable.
 
-Every character has 0 experience upon creation.
+Every character has 0 XP upon creation.
 
 ## Pools
 
