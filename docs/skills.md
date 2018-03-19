@@ -101,7 +101,7 @@ skills in bold are usually associated - but not limited to - vessel operation.
     game. For balancing reasons try to restrict yourself to only 4 available
     skills per ability.
 
-<div class="col-layout-start"></div>
+<div class="left" markdown="1">
 
 ### Might skills
 
@@ -119,6 +119,29 @@ attack.
 * **Heavy Weapons**
 :   This skill is used when using heavy weapons such as rocket launchers,
 vehicle mounted machine guns, or firing any vessel's weapons.
+
+</div>
+<div class="right" markdown="1">
+
+### Speed skills
+
+* Acrobatics
+:   This skill is used for tumbling, dodging away from falling debris, balance
+over a rope, *jump* in zero gravity environments etc.
+
+* Light Weapons
+:   This skill is used for ranged weapon attacks. This skill is opposed by the
+character's defensive value.
+
+* Stealth
+:   This skill is used to hide from others, sneak around, lockpicking, etc. It's
+opposed by the *Perception* skill.
+
+* **Operate**
+:   This skill is used for piloting or steering a vessel.
+
+</div>
+<div class="left" markdown="1">
 
 ### Intelligence skills
 
@@ -140,26 +163,13 @@ field of expertise. Some scientific fields have a direct application too, e.g.
 :   This skill is used for repairing mechanical or electronical motors, operate
 advanced machinery, etc.
 
-<div class="col-layout-end"></div>
-<div class="col-layout-start"></div>
+[^Science]:
+    Choose two fields instead of one when training this skill the first time.
+    Improving any of these two fields also improves the other one you chose.
+    Additional fields can be trained following normal skill learning rules.
 
-### Speed skills
-
-* Acrobatics
-:   This skill is used for tumbling, dodging away from falling debris, balance
-over a rope, *jump* in zero gravity environments etc.
-
-* Light Weapons
-:   This skill is used for ranged weapon attacks. This skill is opposed by the
-character's defensive value.
-
-* Stealth
-:   This skill is used to hide from others, sneak around, lockpicking, etc. It's
-opposed by the *Perception* skill.
-
-* **Operate**
-:   This skill is used for piloting or steering a vessel.
-
+</div>
+<div class="right" markdown="1">
 
 ### Charisma skills
 
@@ -179,10 +189,5 @@ tactically breach into buildings or rooms, etc.
 * **Command**
 :   This skill is used to command crews, give orders on a vessel, etc.
 
-
-<div class="col-layout-end clearfix"></div>
-
-[^Science]:
-    Choose two fields instead of one when training this skill the first time.
-    Improving any of these two fields also improves the other one you chose.
-    Additional fields can be trained following normal skill learning rules.
+</div>
+<div class="clearfix"></div>

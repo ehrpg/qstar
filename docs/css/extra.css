@@ -447,6 +447,22 @@ details .formula.formula-top,
   margin-top: 35px;
 }
 
+@media only screen and (min-width: 60em) {
+  .left {
+    float: left;
+    width: 48%;
+    padding-right: 2%;
+  }
+  .right {
+    float: left;
+    width: 48%;
+    padding-left: 2%;
+  }
+  .right + * {
+    clear: both;
+  }
+}
+
 a[href*="example-"] {
   display: none;
 }

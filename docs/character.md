@@ -12,6 +12,16 @@ A character is defined by:
 * experience, and
 * pools.
 
+## Character creation
+
+1. Choose a race
+2. Assign abilities
+3. Determine currencies
+4. Assign skills
+5. Assign flaws
+6. Buy perks and equipment
+7. Adjust character values
+
 ## Race
 
 Every creature has a race, or at least a type that groups similar creatures into
@@ -59,7 +69,7 @@ creation. Each ability has the initial value of 0. Points can only be added, not
 subtracted from the ability. Abilities can **never** be higher than 5. Some
 races also reduce the maximum value for certain abilities.
 
-<div class="col-layout-start"></div>
+<div class="left" markdown="1">
 
 ### Might
 
@@ -67,6 +77,19 @@ races also reduce the maximum value for certain abilities.
 
 The damage of melee weapons is derived from might. Also improves a character's
 toughness.
+
+</div>
+<div class="right" markdown="1">
+
+### Speed
+
+> Speed measures the character's reflexes and eye-hand coordination.
+
+Speed adds a bonus to ranged weaopn attacks, is used for stealth and lets you
+act in a [Crisis](/#crisis) sooner.
+
+</div>
+<div class="left" markdown="1">
 
 ### Intelligence
 
@@ -76,15 +99,8 @@ he remembers already existing things.
 Intelligence improves a character's ability to assess situations and skills
 related to knowing things.
 
-<div class="col-layout-end"></div>
-<div class="col-layout-start"></div>
-
-### Speed
-
-> Speed measures the character's reflexes and eye-hand coordination.
-
-Speed adds a bonus to ranged weaopn attacks, is used for stealth and lets you
-act in a [Crisis](/#crisis) sooner.
+</div>
+<div class="right" markdown="1">
 
 ### Charisma
 
@@ -93,7 +109,7 @@ and his ability to lead.
 
 Charisma is mostly used in social interactions between characters and NPCs.
 
-<div class="col-layout-end clearfix"></div>
+</div>
 
 ## Currency
 
@@ -106,25 +122,25 @@ permanently due to [experience](#experience).
 The current value for a currency can **never** exceed the maximum value. All
 exceeding points are usually lost.
 
-<div class="col-layout-start"></div>
+<div class="left" markdown="1">
 
 ### Downtime
 
 > [Downtime](#downtime) represents the time a character can invest in
-> [downtime](#downtime) activities.
+> [Downtime](#downtime) activities.
 
 **GAINED**{.hf} in the course of time. A character gains more
-[downtime](#downtime) in between adventures and longer periods of
-[downtime](#downtime) during adventures. A character gains at least 1
-[downtime](#downtime) each session automatically.
+[Downtime](#downtime) in between adventures and longer periods of
+[Downtime](#downtime) during adventures. A character gains at least 1
+[Downtime](#downtime) each session automatically.
 
 **USED**{.hf} to recuperate, craft, repair and upgrade items and vessels and to
 improve a character.
 
 Actions that take longer, like repairing a damaged vessel consume
-[downtime](#downtime). Usually, a task that consumes [downtime](#downtime) has
-at least a DC of 12. Better skill checks can reduce [downtime](#downtime) and/or
-resources used, while bad skill checks can increase [downtime](#downtime) and/or
+[Downtime](#downtime). Usually, a task that consumes [Downtime](#downtime) has
+at least a DC of 12. Better skill checks can reduce [Downtime](#downtime) and/or
+resources used, while bad skill checks can increase [Downtime](#downtime) and/or
 resources used. This DC *may* be lowered or increased depending on the situation
 the characters are in.
 
@@ -132,6 +148,34 @@ the characters are in.
     <div class="formula formula-top formula-bottom">
       <span data-bracket-top="Base">10</span>
     </div>
+
+</div>
+<div class="right" markdown="1">
+
+### Influence
+
+> [Influence](#influence) represents connections, owed favours by others, fame
+> and infamy.
+
+**GAINED**{.hf} by making a name for yourself in the cosmos, i.e. by helping
+people and factions. [Influence](#influence) is lost by harming and
+disappointing others.
+
+**USED**{.hf} for accessing and buying items, vessels, meetings with high
+ranking characters, etc.
+
+More [influence](#influence) unlocks better equipment and better vessels.
+Traders may also give you better prices.
+
+!!! summary "Maximum [Influence](#influence)"
+    <div class="formula formula-top formula-bottom">
+      <span data-bracket-bottom="Experience">XP</span> +
+      <span data-bracket-top="Base">2</span> ±
+      <span data-bracket-bottom="Perks / Flaws / Race">circumstance</span>
+    </div>
+
+</div>
+<div class="left" markdown="1">
 
 ### Resources
 
@@ -155,38 +199,12 @@ Powerful equipment requiring [resources](#resources) usually adds
 !!! summary "Maximum [Resources](#resources)"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Experience">XP</span> +
-      <span data-bracket-top="Base">2</span> +
-      <span data-bracket-bottom="Circumstance / Perks / Race">other bonuses</span>
+      <span data-bracket-top="Base">2</span> ±
+      <span data-bracket-bottom="Perks / Flaws / Race">circumstance</span>
     </div>
 
-<div class="col-layout-end"></div>
-<div class="col-layout-start"></div>
-
-### Influence
-
-> [Influence](#influence) represents connections, owed favours by others, fame
-> and infamy.
-
-**GAINED**{.hf} by making a name for yourself in the cosmos, i.e. by helping
-people and factions. [Influence](#influence) is lost by harming and
-disappointing others.
-
-**USED**{.hf} for accessing and buying items, vessels, meetings with high
-ranking characters, etc.
-
-More [influence](#influence) unlocks better equipment and better vessels.
-Traders may also give you better prices.
-
-!!! summary "Maximum [Influence](#influence)"
-    <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Experience">XP</span> +
-      <span data-bracket-top="Base">2</span> +
-      <span data-bracket-bottom="Circumstance / Perks / Race">other bonuses</span>
-    </div>
-
-<div class="is-mobile">
-  <br><br><br><br><br><br><br><br>
 </div>
+<div class="right" markdown="1">
 
 ### Research
 
@@ -206,11 +224,12 @@ upgrades enables the acquisition of better equipment and vessels.
 !!! summary "Maximum [Research](#research)"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Experience">XP</span> +
-      <span data-bracket-top="Base">2</span> +
-      <span data-bracket-bottom="Circumstance / Perks / Race">other bonuses</span>
+      <span data-bracket-top="Base">2</span> ±
+      <span data-bracket-bottom="Perks / Flaws / Race">circumstance</span>
     </div>
 
-<div class="col-layout-end clearfix"></div>
+</div>
+<div class="clearfix"></div>
 
 ## Experience
 
@@ -239,12 +258,10 @@ Every character has 0 XP upon creation.
 
 ???
 
-## Character creation
+## Skills
 
-1. Choose a race
-2. Assign abilities
-3. Determine currencies
-4. Assign skills
-5. Assign flaws
-6. Buy perks and equipment
-7. Adjust character values
+See [Skills](/skills).
+
+## Perks & Flaws
+
+See [Perks & Flaws](/perks-flaws).

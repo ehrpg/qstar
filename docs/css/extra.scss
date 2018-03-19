@@ -2,6 +2,26 @@
 @import './modules/perks-flaws';
 @import './modules/data-brackets';
 
+
+@media only screen and (min-width: 60em)  {
+  .left {
+    // display: inline-block;
+    float: left;
+    width: 48%;
+    padding-right: 2%;
+  }
+
+  .right {
+    float: left;
+    width: 48%;
+    padding-left: 2%;
+
+    & + * {
+      clear: both;
+    }
+  }
+}
+
 a[href*="example-"] {
   display: none;
 }

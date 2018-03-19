@@ -1,0 +1,37 @@
+{
+	"Insert Might Link": {
+		"prefix": "might",
+		"body": [
+			"[Might](/character#might)$1 "
+		],
+		"description": "Insert Might Link"
+	},
+	"Insert Speed Link": {
+		"prefix": "speed",
+		"body": [
+			"[Speed](/character#speed)$1 "
+		],
+		"description": "Insert Speed Link"
+	},
+	"Insert Intelligence Link": {
+		"prefix": "intelligence",
+		"body": [
+			"[Intelligence](/character#intelligence)$1 "
+		],
+		"description": "Insert Intelligence Link"
+	},
+	"Insert Charisma Link": {
+		"prefix": "charisma",
+		"body": [
+			"[Charisma](/character#charisma)$1 "
+		],
+		"description": "Insert Charisma Link"
+	},
+	"Insert Downtime Link": {
+		"prefix": "dt",
+		"body": [
+			"[Downtime](/character#downtime)$1 "
+		],
+		"description": "Insert Downtime Link"
+	}
+}
