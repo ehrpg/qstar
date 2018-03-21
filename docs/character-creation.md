@@ -10,8 +10,8 @@
 !!! example "Example character idea"
     In this example we use the scifi Q* setting. Our character is a human
     bio-engineer, who has been trained for off-world operations. As such, he
-    knows how to handle pistols and alike. He has a lot of connections from his
-    earlier life at the research institute he was working for.
+    knows how to handle light weapons. He has a lot of connections from his
+    earlier life at the research institute he was working at.
 
     The following sections show how this idea translates into the Q* - RPG
     System.
