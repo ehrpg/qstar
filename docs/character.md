@@ -236,7 +236,8 @@ upgrades enables the acquisition of better equipment and vessels.
 > Experience is gained throughout a character's adventuring career.
 
 Experience (XP) is gained due to noteable achievements or story completions. XP
-*may* provide a character with XP, usually 1 at a time.
+usually is only given out one at a time. The GM can decide to give out more for
+completing a longer adventure though.
 
 XP improves the maximum values of your currencies. This does not necessarily
 make your character stronger, but make the character more resourceful and
@@ -252,10 +253,11 @@ Every character has 0 XP upon creation.
 
 ### Health
 
-Health represents the character's overall condition. If health drops to zero,
-the character dies. A GM may even reduce certain values of the character such as
-abilities when a lot of health is lost. Also, a GM may give the character a
-flaw if damaged badly, e.g. when losing an eye.
+[Health](/character#health) represents the character's overall condition. If
+[Health](/character#health) drops to zero, the character dies. A GM may even
+reduce certain values of the character such as abilities when a lot of
+[Health](/character#health) is lost. Also, a GM may give the character a flaw if
+damaged badly, e.g. when losing an eye.
 
 !!! summary "Maximum [Health](/character#health)"
     <div class="formula formula-top formula-bottom">
@@ -267,9 +269,9 @@ flaw if damaged badly, e.g. when losing an eye.
 
 ### Endurance
 
-Endurance represents the character's power. Damage from weapons, other
-characters, environments and certain actions such as sprinting cause stress on a
-character and reduce his endurance.
+[Endurance](/character#endurance) represents the character's power. Damage from
+weapons, other characters, environments and certain actions such as sprinting
+cause stress on a character and reduce his [Endurance](/character#endurance).
 
 !!! summary "Maximum [Endurance](/character#endurance)"
     <div class="formula formula-top formula-bottom">
