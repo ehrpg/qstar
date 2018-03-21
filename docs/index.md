@@ -9,6 +9,10 @@ Base
 :   A base value that's used for rolls or to determine values. It's the same for
 all characters and creatures.
 
+Difficulty Class
+:   DC. A check equal or higher than the DC is a success, or a failure
+otherwise.
+
 Roleplaying circumstance
 :   Usually added by a race, perk or flaws. Roleplaying circumstances include
 prejudice, others liking or disliking you, being a known criminal, etc.
