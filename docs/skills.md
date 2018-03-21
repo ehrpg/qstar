@@ -15,23 +15,33 @@ effected by noticeable outside factors, the character has to roll a skill check.
     <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>
 
+## Skill Points
+
+A skill point is used to upgrade any skill rank by 1 step. Upgrading an
+untrained skill to trained costs 1 skill point. Upgrading an untrained skill to
+skilled rank costs 2 skill points, and upgrading to master rank costs 3 skill
+points.
+
+<blockquote class="important" markdown="1">
+
+Upon character creation every character has 5 skill points. The
+[Intelligence](/character#intelligence) ability modifier adds or substracts
+further skill points. This results in every character having at least 2 to 8
+skill points available to them. Perks and flaws can increase or decrease skill
+points.
+
+</blockquote>
+
 ## Skill Ranks
 
 All skills are untrained initially. Untrained skills impose a penalty on the
 skill check or disable the skill check altogether. Trained skills add bonuses to
 the skill check.
 
-Upon character creation every character can train 5 skills for free.
-Additionally, for each [Intelligence](#intelligence) point exceeding 0 you can
-train another skill for free. This results in every character having 5 to 10
-skills available to them.
-
-A character has at least 5 and at most 10 trained skills. Negative
-[Intelligence](#intelligence) doesn't change the amount of trained skills
-available. A character can only have up to his [Intelligence](#intelligence)
-skills at master rank. Also, temporary [Intelligence](#intelligence) damage
-doesn't reduce the amount of trained skills available, nor the amount of master
-rank skills.
+A character can only have master rank skills up to his
+[Intelligence](/character#intelligence) ability modifier. If the
+[Intelligence](/character#intelligence) is less than 0, the character can have
+no master rank skills.
 
 Training a skill requires the corresponding ability to be at least 1.
 
@@ -42,9 +52,33 @@ Training a skill requires the corresponding ability to be at least 1.
 | Skilled    |                3 |          +3 |
 | Master     |                5 |          +6 |
 
+<div class="left" markdown="1">
+!!! summary "Trained Skills"
+    <div class="formula formula-top formula-bottom">
+    <span data-bracket-bottom="Base">5</span> ±
+    <span data-bracket-top="Ability modifier">Intelligence</span>
+    </div>
+</div>
+<div class="right" markdown="1">
+!!! summary "Maximum Master Rank Skills"
+    <div class="formula formula-top formula-bottom">
+    <span data-bracket-bottom="Ability modifier">Intelligence</span>
+    </div>
+</div>
+
+### Skill Ranks and Ability Damage
+
+Temporary [Intelligence](/character#intelligence) damage **does not** reduce the
+amount of trained skills available, nor the amount of master rank skills.
+Permanent [Intelligence](/character#intelligence) damage **does** change those
+values.
+
 A character can lose his benefits from **skilled** and **master** rank skills if
-the ability requirement was not met anymore. A trained skill stays at
-**trained**, no matter the current ability value.
+the ability requirement is not met anymore. Only the skill bonus changes, the
+skill rank stays unchanged.
+
+A **trained** skill always provides its bonus, no matter the current ability
+value.
 
 !!! example "Skill improvements and losing ability points"
     Jack has a [Speed](#speed) of 5 and *Acrobatics* at skill rank **skilled**.
@@ -58,18 +92,17 @@ the ability requirement was not met anymore. A trained skill stays at
 
 ### Improving Skills
 
-Skills can be improved. Improving a **trained** skill costs 2
-[Downtime](#downtime). Improving a skill at **skilled** rank costs 4
-[Downtime](#downtime). Upgrading a **trained** skill to **skilled** rank would
-cost 2 [Downtime](#downtime), while upgrading a **skilled** rank to **master**
-rank would cost 4 [Downtime](#downtime).
+Skills can be improved mid-game at the cost of [Downtime](/character#downtime).
+Improving a **trained** skill costs 2 [Downtime](/character#downtime). Improving
+a skill at **skilled** rank costs 4 [Downtime](/character#downtime).
 
-!!! example "Improving a skill"
-    Jack has *Light weapons* trained (not improved yet), a [Speed](#speed) rank
-    of 3, and wants to improve this skill to **skilled**. Since his
-    [Speed](#speed) rank is equal or higher than the new ability
-    requirement of 3, he can do so, provided he has enough resources: Upgrading
-    this skill would cost him 2 [Downtime](#downtime).
+!!! summary "Improving Skills"
+    **Untrained** Rank --> **Trained** Rank = 2 [Downtime](/character#downtime)
+
+    **Trained** Rank --> **Skilled** Rank = 2 [Downtime](/character#downtime)
+    **Skilled** Rank --> **Master** Rank = 4 [Downtime](/character#downtime)
+
+    **Trained** Rank --> **Master** Rank = 6 [Downtime](/character#downtime)
 
 <div class="col-layout-end"></div>
 <div class="col-layout-start"></div>
@@ -79,8 +112,9 @@ rank would cost 4 [Downtime](#downtime).
 If you have less trained skills than you are allowed to have, you can train new
 skills. If you already have the maximum amount of trained skills you are allowed
 to have, you can unlearn a previously trained one in order to gain a new one.
+
 Swapping any trained skill for an untrained one, or learning a new one costs 2
-[Downtime](#downtime).
+[Downtime](/character#downtime).
 
 <div class="col-layout-end clearfix"></div>
 
@@ -94,8 +128,8 @@ the same skill is used for both parties.
 Below is a list of possible skills, provided by the Q* RPG system. Note, that
 skills in bold are usually associated - but not limited to - vessel operation.
 
-!!! tip "Available [skills](#skills)"
-    Like any other  RPG system, Q* provides the GM and player with a set of
+!!! tip "Available [Skills](#skills)"
+    Like any other RPG system, Q* provides the GM and player with a set of
     skills. Neither the system nor characters are limited to these skills: if
     you require different skills to suite your needs, then add them to your
     game. For balancing reasons try to restrict yourself to only 4 available

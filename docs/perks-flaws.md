@@ -2,13 +2,20 @@
 
 Perks and flaws further customize your character and make them stand out more.
 
+Perks and flaws that change values like maximum currencies use adjectives.
+
+Perks that add abilities or improve abilities use nouns.
+
 ## Perks
 
 Perks unlock abilities, improve stats or change roleplayining circumstances in a
 positive way.
 
-While perks state their costs, your GM can require additional things before you
-can *buy* a perk, i.e. you first have to:
+Perks are usually restricted by ability scores, skill ranks, or other stats.
+Races providing perks ignore the perk requirement.
+
+While perks state their requirements and costs, your GM can require additional
+things before you can *buy* a perk, i.e. you first have to:
 
 * find someone who can train you,
 * make acquiantances with important NPCs,
@@ -129,6 +136,16 @@ Requires
 Cost
 :   `1` [Cr.](#credits)
 
+##### Versatile
+
+You gain +1 [Skill Points](/skills#skill-points)
+
+Requires
+:   5 [Intelligence](#intelligence)
+
+Cost
+:   `1` [Cr.](#credits)
+
 ##### Wealthy
 
 Maximum Influence +1
@@ -187,9 +204,9 @@ Requires
 
 <!-- A-N -->
 
-##### Brittle Bones
+##### Incurious
 
-Maximum Strength -1
+Maximum Research -1
 
 Requires
 :   -
@@ -214,6 +231,13 @@ Requires
 
 <!-- O-Z -->
 
+##### Poor
+
+Maximum Influence -1
+
+Requires
+:   -
+
 ##### Uneducated
 
 Maximum Intelligence -1
@@ -224,6 +248,13 @@ Requires
 ##### Slow
 
 Maximum Speed -1
+
+Requires
+:   -
+
+##### Weak
+
+Maximum Strength -1
 
 Requires
 :   -

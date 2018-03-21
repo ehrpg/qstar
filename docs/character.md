@@ -12,16 +12,6 @@ A character is defined by:
 * experience, and
 * pools.
 
-## Character creation
-
-1. Choose a race
-2. Assign abilities
-3. Determine currencies
-4. Assign skills
-5. Assign flaws
-6. Buy perks and equipment
-7. Adjust character values
-
 ## Race
 
 Every creature has a race, or at least a type that groups similar creatures into
@@ -60,9 +50,9 @@ character is dead.
 Good or bad abilities also add bonuses or impose penalties on skill checks
 corresponding to the ability.
 
-| Ability        |   -5 |   -4 |   -3 |   -2 |   -1 |    0 |    1 |    2 |    3 |    4 |    5 |
-|----------------|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
-| Skill modifier |   -3 |   -2 |   -2 |   -1 |   -1 |   +0 |   +1 |   +1 |   +2 |   +2 |   +3 |
+| Ability          |   -5 |   -4 |   -3 |   -2 |   -1 |    0 |    1 |    2 |    3 |    4 |    5 |
+|------------------|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
+| Ability modifier |   -3 |   -2 |   -2 |   -1 |   -1 |   +0 |   +1 |   +1 |   +2 |   +2 |   +3 |
 
 <blockquote class="important" markdown="1">
 Every character has 12 ability points to spend between the four abilities upon
