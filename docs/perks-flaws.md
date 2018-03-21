@@ -1,5 +1,7 @@
 # Perks & Flaws
 
+Perks and flaws further customize your character and make them stand out more.
+
 ## Perks
 
 Perks unlock abilities, improve stats or change roleplayining circumstances in a

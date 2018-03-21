@@ -252,11 +252,32 @@ Every character has 0 XP upon creation.
 
 ### Health
 
-???
+Health represents the character's overall condition. If health drops to zero,
+the character dies. A GM may even reduce certain values of the character such as
+abilities when a lot of health is lost. Also, a GM may give the character a
+flaw if damaged badly, e.g. when losing an eye.
+
+!!! summary "Maximum [Health](/character#health)"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Base">25</span> +
+        <span data-bracket-top="Ability score">Might</span> x
+        <span data-bracket-bottom="Base">5</span> ±
+        <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
+    </div>
 
 ### Endurance
 
-???
+Endurance represents the character's power. Damage from weapons, other
+characters, environments and certain actions such as sprinting cause stress on a
+character and reduce his endurance.
+
+!!! summary "Maximum [Endurance](/character#endurance)"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Base">50</span> +
+        <span data-bracket-top="Ability score">Might</span> x
+        <span data-bracket-bottom="Base">10</span> ±
+        <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
+    </div>
 
 ## Skills
 
