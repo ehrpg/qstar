@@ -2,26 +2,6 @@
 @import './modules/perks-flaws';
 @import './modules/data-brackets';
 
-
-@media only screen and (min-width: 60em)  {
-  .left {
-    // display: inline-block;
-    float: left;
-    width: 48%;
-    padding-right: 2%;
-  }
-
-  .right {
-    float: left;
-    width: 48%;
-    padding-left: 2%;
-
-    & + * {
-      clear: both;
-    }
-  }
-}
-
 a[href*="example-"] {
   display: none;
 }
@@ -61,7 +41,23 @@ nav.md-nav--primary > ul.md-nav__list > li:not(:first-child) {
   }
 }
 
-@media only screen and (min-width: 60em)  {
+@media only screen and (min-width: 50em)  {
+  .left {
+    // display: inline-block;
+    float: left;
+    width: 48%;
+    padding-right: 2%;
+  }
+
+  .right {
+    float: left;
+    width: 48%;
+    padding-left: 2%;
+
+    & + * {
+      clear: both;
+    }
+  }
 
   .cols-wrapper {
     float: left;
@@ -256,4 +252,9 @@ i[f] {
 
 .qs-d6:after {
   content: "\E90F" !important;
+}
+
+blockquote.important {
+  border-left: .4rem solid #3f51b5;
+  color: rgba(0,0,0,.87);
 }

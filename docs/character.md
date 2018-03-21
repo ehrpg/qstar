@@ -64,10 +64,12 @@ corresponding to the ability.
 |----------------|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
 | Skill modifier |   -3 |   -2 |   -2 |   -1 |   -1 |   +0 |   +1 |   +1 |   +2 |   +2 |   +3 |
 
+<blockquote class="important" markdown="1">
 Every character has 12 ability points to spend between the four abilities upon
 creation. Each ability has the initial value of 0. Points can only be added, not
 subtracted from the ability. Abilities can **never** be higher than 5. Some
 races also reduce the maximum value for certain abilities.
+</blockquote>
 
 <div class="left" markdown="1">
 
@@ -110,6 +112,7 @@ and his ability to lead.
 Charisma is mostly used in social interactions between characters and NPCs.
 
 </div>
+<div class="clearfix"></div>
 
 ## Currency
 
@@ -243,18 +246,29 @@ XP improves the maximum values of your currencies. This does not necessarily
 make your character stronger, but make the character more resourceful and
 adaptable.
 
+<blockquote class="important" markdown="1">
 Every character has 0 XP upon creation.
+</blockquote>
 
 ## Pools
 
-> Each creature has health and endurance pools. A robot may be defined as a
-> character, but instead of health and endurance it has the pools integrity and
-> power, acting just the same.
+> Each creature has [Health](/character#health) and
+> [Endurance](/character#endurance) pools. A robot is defined as a character,
+> but instead of [Health](/character#health) and
+> [Endurance](/character#endurance) has the pools [Integrity](/character#health)
+> and [Power](/character#endurance), acting just the same.
+
+[Endurance](/character#endurance) serves as an easily replenishable pool that's
+usually targetted by damage first. Once depleted, the health pool is targetted.
+[Health](/character#health) is very hard to replenish.
+
+<div class="left" markdown="1">
 
 ### Health
 
-[Health](/character#health) represents the character's overall condition. If
-[Health](/character#health) drops to zero, the character dies. A GM may even
+> [Health](/character#health) represents the character's overall condition.
+
+If [Health](/character#health) drops to zero, the character dies. A GM may even
 reduce certain values of the character such as abilities when a lot of
 [Health](/character#health) is lost. Also, a GM may give the character a flaw if
 damaged badly, e.g. when losing an eye.
@@ -267,11 +281,16 @@ damaged badly, e.g. when losing an eye.
         <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>
 
+</div>
+<div class="right" markdown="1">
+
 ### Endurance
 
-[Endurance](/character#endurance) represents the character's power. Damage from
-weapons, other characters, environments and certain actions such as sprinting
-cause stress on a character and reduce his [Endurance](/character#endurance).
+> [Endurance](/character#endurance) represents the character's power.
+
+Damage from weapons, other characters, environments and certain actions such as
+sprinting cause stress on a character and reduce his
+[Endurance](/character#endurance).
 
 !!! summary "Maximum [Endurance](/character#endurance)"
     <div class="formula formula-top formula-bottom">
@@ -280,6 +299,9 @@ cause stress on a character and reduce his [Endurance](/character#endurance).
         <span data-bracket-bottom="Base">10</span> ±
         <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>
+
+</div>
+<div class="clearfix"></div>
 
 ## Skills
 

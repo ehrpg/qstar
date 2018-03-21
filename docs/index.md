@@ -20,6 +20,15 @@ prejudice, others liking or disliking you, being a known criminal, etc.
 Firearm
 :   A firearm is a portable gun (a barreled ranged weapon)
 
+## Reading the Rules
+
+### Example Section
+
+> Descriptive text that provides further information but can be omitted for the
+> sake of simplicity.
+
+The body of a section describes the topic, rules .
+
 # Mechanisms
 
 Anything that represents a character, creature, operational vessel, etc. is
