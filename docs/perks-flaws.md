@@ -87,6 +87,16 @@ Requires
 Cost
 :   `1` [Cr.](#credits)
 
+##### Healthy
+
+You gain 10 additional [Health](/character#health) points.
+
+Requires
+:   5 [Might](#might)
+
+Cost
+:   `1` [Cr.](#credits)
+
 ##### Leader
 
 Draw any handheld weapon without AP cost.

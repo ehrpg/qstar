@@ -157,7 +157,7 @@ h5 > a:after {
 }
 
 *:not(.md-search-result__item) > *#health:after,
-*:not(.md-search-result__item) > a[href*="#health"]:after {
+*:not(.md-search-result__item) > a[href$="#health"]:after {
   content: "\E4B0";
 }
 

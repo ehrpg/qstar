@@ -58,7 +58,7 @@ $headers: h1, h2, h3, h4, h5;
   }
 
   *#health:after,
-  a[href*="#health"]:after {
+  a[href$="#health"]:after {
     content: "\E4B0";
   }
 
