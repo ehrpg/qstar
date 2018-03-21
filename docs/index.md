@@ -29,6 +29,16 @@ Firearm
 
 The body of a section describes the topic, rules .
 
+## Design Guidelines
+
+
+### Value Adjuments
+
+| Value      | Description                                               |
+|------------|-----------------------------------------------------------|
+| Currencies | Maximum Currency values are modified by flat values only. |
+| Pools      | Pools are modified by flat values only.                   |
+
 # Mechanisms
 
 Anything that represents a character, creature, operational vessel, etc. is

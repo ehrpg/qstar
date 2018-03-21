@@ -13,7 +13,7 @@
     knows how to handle light weapons. He has a lot of connections from his
     earlier life at the research institute he was working at.
 
-    The following sections show how this idea translates into the Q* - RPG
+    The following sub-sections show how this idea translates into the Q* - RPG
     System.
 
 ## Step-by-Step
