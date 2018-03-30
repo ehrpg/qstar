@@ -7,6 +7,29 @@
 > with either the Q* rules or P&P RPG Systems in general. For detailed rules see
 > the corresponding sections.
 
+At character creation, and while gameplay, each improvment costs
+[Downtime](/character#downtime). The [Downtime](/character#downtime) costs are
+listed in the corresponding sections, e.g. [Abilities](/character#abilities) and
+[Skills](/skills#skill-ranks).
+
+Every creature starts with an amount of [Downtime](/character#downtime) that can
+be used to improve your character. Decreasing your character's power through
+lowering ranks or *buying* flaws nets you [Downtime](/character#downtime), but
+only to an extent. E.g. a GM can restrict you in how far you can lower an
+ability or a skill.
+
+**During** character creation, the global maximum for
+[Downtime](/character#downtime) can exceed 10.
+
+The [Downtime](/character#downtime) received for character creation is
+determined by the creature's race and flaws.
+
+Also, while creating a character [Downtime](/character#downtime) can be traded
+for any other Currency. One [Downtime](/character#downtime) provides two of any
+other Currency, or one of two Currencies each. E.g. a rich businessman could
+trade some of his [Downtime](/character#downtime) for
+[Resources](/character#resources) or [Influence](/character#influence)
+
 !!! example "Example character idea"
     In this example we use the scifi Q* setting. Our character is a human
     bio-engineer, who has been trained for off-world operations. As such, he
@@ -15,6 +38,55 @@
 
     The following sub-sections show how this idea translates into the Q* - RPG
     System.
+
+## Buying / Reducing Downtime
+
+[Downtime](#downtime) cost can be reduced for improvements by spending
+[Credits](#credits). The [Downtime](#downtime) cost can never be lower than 1.
+
+In addition to [Credits](/equipment#credits) cost, lowering the
+[Downtime](/character#downtime) can also require additional circumstances, such
+as trainers, shops, items, etc.
+
+<div class="left" markdown="1">
+
+| Downtime reduced | Cost [Cr.] |
+|:----------------:|-----------:|
+|                1 |      5 000 |
+|                2 |     20 000 |
+|                3 |     45 000 |
+|                4 |     80 000 |
+|                5 |    125 000 |
+
+</div>
+<div class="right" markdown="1">
+
+!!! info "Downtime reduction formular"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Downtime reduced">(Downtime</span> ^
+        <span data-bracket-top="Base">2)</span> *
+        <span data-bracket-bottom="Base">5 000</span>
+    </div>
+
+</div>
+
+## Abilities
+
+Every creature starts with its Ability ranks set to [Ability -
+Poor](#abilities), unless otherwise noted by its [Race](#race) and
+[Flaws](/perks-flaws#flaws).
+
+## Skills
+
+Every creature starts with its Skill ranks set to [Skill - Poor](#skills),
+unless otherwise noted by its [Race](#race) and [Flaws](/perks-flaws#flaws).
+
+Additionally, Skill ranks can never be higher than their corresponding Ability
+ranks.
+
+!!! example "Example"
+    A character with [Strength - Good](#abilities) can never have a strength
+    skill at rank [Skill - Great](/skills#skill-ranks) or better.
 
 ## Step-by-Step
 

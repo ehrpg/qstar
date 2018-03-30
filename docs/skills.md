@@ -9,114 +9,59 @@ effected by noticeable outside factors, the character has to roll a skill check.
 
 !!! summary "Skill checks"
     <div class="formula formula-top formula-bottom">
-    <span data-bracket-bottom="Base">3d6</span> ±
-    <span data-bracket-top="Skill modifier">Ability</span> ±
-    <span data-bracket-bottom="Skill modifier">Skill</span> ±
-    <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
+        <span data-bracket-bottom="Base">3d6</span> ±
+        <span data-bracket-top="Ability modifier">Ability</span> ±
+        <span data-bracket-bottom="Skill modifier">Skill</span> ±
+        <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>
-
-## Skill Points
-
-A skill point is used to upgrade any skill rank by 1 step. Upgrading an
-untrained skill to trained costs 1 skill point. Upgrading an untrained skill to
-skilled rank costs 2 skill points, and upgrading to master rank costs 3 skill
-points.
-
-<blockquote class="important" markdown="1">
-
-Upon character creation every character has 5 skill points. The
-[Intelligence](/character#intelligence) ability modifier adds or substracts
-further skill points. This results in every character having at least 2 to 8
-skill points available to them. Perks and flaws can increase or decrease skill
-points.
 
 </blockquote>
 
 ## Skill Ranks
 
-All skills are untrained initially. Untrained skills impose a penalty on the
-skill check or disable the skill check altogether. Trained skills add bonuses to
-the skill check.
-
-A character can only have master rank skills up to his
-[Intelligence](/character#intelligence) ability modifier. If the
+A character can only have skills at rank [Skill - Superb](/skills#skill-ranks)
+up to his [Intelligence](/character#intelligence) ability modifier. If the
 [Intelligence](/character#intelligence) is less than 0, the character can have
-no master rank skills.
+no rank [Skill - Superb](/skills#skill-ranks) skills.
 
-Training a skill requires the corresponding ability to be at least 1.
+| Skill Rank | Skill Modifier | Downtime cost |
+|------------|---------------:|--------------:|
+| Terrible   |             -3 |            -4 |
+| Poor       |             -2 |            -2 |
+| Mediocre   |             -1 |            -1 |
+| Fair       |              0 |             0 |
+| Good       |             +1 |             1 |
+| Great      |             +2 |             2 |
+| Superb     |             +3 |             4 |
 
-| Skill rank | Requires ability | Skill bonus |
-|------------|-----------------:|------------:|
-| Untrained  |                - |          -2 |
-| Trained    |                1 |          +1 |
-| Skilled    |                3 |          +3 |
-| Master     |                5 |          +6 |
 
-<div class="left" markdown="1">
-!!! summary "Trained Skills"
+!!! summary "Maximum [Skill - Superb](/skills#skill-ranks) rank skills"
     <div class="formula formula-top formula-bottom">
-    <span data-bracket-bottom="Base">5</span> ±
-    <span data-bracket-top="Ability modifier">Intelligence</span>
+        <span data-bracket-bottom="Ability modifier">Intelligence</span>
     </div>
-</div>
-<div class="right" markdown="1">
-!!! summary "Maximum Master Rank Skills"
-    <div class="formula formula-top formula-bottom">
-    <span data-bracket-bottom="Ability modifier">Intelligence</span>
-    </div>
-</div>
 
 ### Skill Ranks and Ability Damage
 
-Temporary [Intelligence](/character#intelligence) damage **does not** reduce the
-amount of trained skills available, nor the amount of master rank skills.
-Permanent [Intelligence](/character#intelligence) damage **does** change those
-values.
+Temporary [Intelligence](/character#intelligence) damage **does not** change the
+maximum [Skill - Superb](/skills#skill-ranks) rank skills. Permanent
+[Intelligence](/character#intelligence) damage **does** change those values.
 
-A character can lose his benefits from **skilled** and **master** rank skills if
-the ability requirement is not met anymore. Only the skill bonus changes, the
-skill rank stays unchanged.
+A character can lose his benefits from skills if the ability requirement is not
+met anymore. Only the skill bonus changes, the skill rank stays unchanged.
 
-A **trained** skill always provides its bonus, no matter the current ability
-value.
+A skill that has reached [Skill - Fair](/skills#skill-ranks) always provides its
+bonus, no matter the current ability value.
 
-!!! example "Skill improvements and losing ability points"
-    Jack has a [Speed](#speed) of 5 and *Acrobatics* at skill rank **skilled**.
-    He is heavily wounded in combat and temporarily has to reduce his
-    [Speed](#speed) to 2. The level of improvement of his *Acrobatics* stays at
-    **skilled**, the bonus drops to **trained** however until his ability
-    is high enough again. While the ability is temporarily lowered, he also
-    cannot improve *Acrobatics* any further (to **master** rank).
+!!! example "Example"
+    Jack has skilled [Athletics - Great](/skills#skill-ranks), and his ability
+    is [Strength - Great](/character#abilities). He loses strength and his rank
+    is reduced to [Strength - Fair](/character#abilities). His skill also drops
+    to [Athletics - Fair](/skills#skill-ranks) temporarily until his strength is
+    restored.
 
-<div class="col-layout-start"></div>
-
-### Improving Skills
-
-Skills can be improved mid-game at the cost of [Downtime](/character#downtime).
-Improving a **trained** skill costs 2 [Downtime](/character#downtime). Improving
-a skill at **skilled** rank costs 4 [Downtime](/character#downtime).
-
-!!! summary "Improving Skills"
-    **Untrained** Rank --> **Trained** Rank = 2 [Downtime](/character#downtime)
-
-    **Trained** Rank --> **Skilled** Rank = 2 [Downtime](/character#downtime)
-    **Skilled** Rank --> **Master** Rank = 4 [Downtime](/character#downtime)
-
-    **Trained** Rank --> **Master** Rank = 6 [Downtime](/character#downtime)
-
-<div class="col-layout-end"></div>
-<div class="col-layout-start"></div>
-
-### Training new skills
-
-If you have less trained skills than you are allowed to have, you can train new
-skills. If you already have the maximum amount of trained skills you are allowed
-to have, you can unlearn a previously trained one in order to gain a new one.
-
-Swapping any trained skill for an untrained one, or learning a new one costs 2
-[Downtime](/character#downtime).
-
-<div class="col-layout-end clearfix"></div>
+    If his [Strength - Fair](/character#abilities) was further reduced to
+    [Strength - Poor](/character#abilities), he would still have his skill at
+    [Athletics - Fair](/skills#skill-ranks).
 
 ## Skill competitions
 
@@ -164,12 +109,12 @@ vehicle mounted machine guns, or firing any vessel's weapons.
 over a rope, *jump* in zero gravity environments etc.
 
 * Light Weapons
-:   This skill is used for ranged weapon attacks. This skill is opposed by the
-character's defensive value.
+:   This skill is used for ranged weapon attacks.
+:   This skill is opposed by the character's defensive value.
 
 * Stealth
-:   This skill is used to hide from others, sneak around, lockpicking, etc. It's
-opposed by the *Perception* skill.
+:   This skill is used to hide from others, sneak around, lockpicking, etc.
+:   It's opposed by the **Perception** skill.
 
 * **Operate**
 :   This skill is used for piloting or steering a vessel.
@@ -180,7 +125,8 @@ opposed by the *Perception* skill.
 ### Intelligence skills
 
 * Perception
-:   This skill is used to spot hidden things, and counters the *Stealth* skill.
+:   This skill is used to spot hidden things.
+:   This skill counters the **Stealth** skill.
 
 * Science[^Science]
 :   This skill is used to see if a character knows certain things about their

@@ -11,6 +11,16 @@ Roleplaying circumstance
 :   Does different stuff.
 :   Does different stuff.
 
+| Rank     | Modifier |
+|----------|---------:|
+| Terrible |       |
+| Poor     |       |
+| Mediocre |       |
+| Fair     |       |
+| Good     |       |
+| Great    |       |
+| Superb   |       |
+
 ## Character
 
 Moved to [Character](/character).

@@ -230,8 +230,15 @@ h5 > a:after {
   content: "\E094";
 }
 
+*:not(.md-search-result__item) > *#abilities:after,
+*:not(.md-search-result__item) > a[href*="#abilities"]:after {
+  content: "\E6C0";
+}
+
 *:not(.md-search-result__item) > *#skills:after,
-*:not(.md-search-result__item) > a[href*="#skills"]:after {
+*:not(.md-search-result__item) > a[href*="#skills"]:after,
+*:not(.md-search-result__item) > *#skill-ranks:after,
+*:not(.md-search-result__item) > a[href*="#skill-ranks"]:after {
   content: "\E71A";
 }
 

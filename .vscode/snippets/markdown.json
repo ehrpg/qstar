@@ -2,28 +2,28 @@
 	"Insert Might Link": {
 		"prefix": "might",
 		"body": [
-			"[Might](/character#might)$1 "
+			"[Might](/character#might) "
 		],
 		"description": "Insert Might Link"
 	},
 	"Insert Speed Link": {
 		"prefix": "speed",
 		"body": [
-			"[Speed](/character#speed)$1 "
+			"[Speed](/character#speed) "
 		],
 		"description": "Insert Speed Link"
 	},
 	"Insert Intelligence Link": {
 		"prefix": "intelligence",
 		"body": [
-			"[Intelligence](/character#intelligence)$1 "
+			"[Intelligence](/character#intelligence) "
 		],
 		"description": "Insert Intelligence Link"
 	},
 	"Insert Charisma Link": {
 		"prefix": "charisma",
 		"body": [
-			"[Charisma](/character#charisma)$1 "
+			"[Charisma](/character#charisma) "
 		],
 		"description": "Insert Charisma Link"
 	},
@@ -31,29 +31,36 @@
 	"Insert Downtime Link": {
 		"prefix": "downtime",
 		"body": [
-			"[Downtime](/character#downtime)$1 "
+			"[Downtime](/character#downtime) "
 		],
 		"description": "Insert Downtime Link"
 	},
 	"Insert Influence Link": {
 		"prefix": "influence",
 		"body": [
-			"[Influence](/character#influence)$1 "
+			"[Influence](/character#influence) "
 		],
 		"description": "Insert Influence Link"
 	},
 	"Insert Resources Link": {
 		"prefix": "resources",
 		"body": [
-			"[Resources](/character#resources)$1 "
+			"[Resources](/character#resources) "
 		],
 		"description": "Insert Resources Link"
 	},
 	"Insert Research Link": {
 		"prefix": "research",
 		"body": [
-			"[Research](/character#research)$1 "
+			"[Research](/character#research) "
 		],
 		"description": "Insert Research Link"
+	},
+	"Insert Credits Link": {
+		"prefix": "cr",
+		"body": [
+			"[Credits](/equipment#credits) "
+		],
+		"description": "Insert Credits Link"
 	}
 }

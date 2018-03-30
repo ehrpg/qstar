@@ -14,51 +14,29 @@ A character is defined by:
 
 ## Race
 
-Every creature has a race, or at least a type that groups similar creatures into
-the same category, e.g. animals or robots.
-
-A race modifies:
-
-* abilities, currencies, pools and skills
-* adds perks and flaws,
-* enables access to inherent stunts,
-* and may add roleplaying Circumstances
+See [Races](/races).
 
 ## Abilities
 
-Abilities are **fixed** values every character has. They are only modified by
-*fatal events* while adventuring.
-
-!!! tip "Tracking stats"
-    Always write the current ability and currency value down separately
-    from your character's maximum. Certain actions decrease and increase e.g.
-    currencies very often, while the maximum doesn't change that
-    frequently.
-
-Abilities are used for a number of things:
-
-* they define how much damage the character can sustain,
-* enable perks and upgrades
-* enable certain action, e.g. carrying heavy stuff requires a minimal strength
-  score.
-
-Abilities reach from -5 to 5. Any ability score at 5 means that the character is
-almost superhuman regarding this ability. An ability score at 0 means that the
-character is somehow impaired, and an ability score at -5 means that the
-character is dead.
+Abilities are *mostly fixed* values every creature has. They are only modified
+by *certain events* while adventuring.
 
 Good or bad abilities also add bonuses or impose penalties on skill checks
 corresponding to the ability.
 
-| Ability          |   -5 |   -4 |   -3 |   -2 |   -1 |    0 |    1 |    2 |    3 |    4 |    5 |
-|------------------|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
-| Ability modifier |   -3 |   -2 |   -2 |   -1 |   -1 |   +0 |   +1 |   +1 |   +2 |   +2 |   +3 |
+| Ability Rank | Ability Modifier | Downtime cost |
+|--------------|-----------------:|--------------:|
+| Terrible     |               -3 |            -6 |
+| Poor         |               -2 |            -3 |
+| Mediocre     |               -1 |            -1 |
+| Fair         |                0 |             0 |
+| Good         |               +1 |             1 |
+| Great        |               +2 |             3 |
+| Superb       |               +3 |             6 |
 
 <blockquote class="important" markdown="1">
-Every character has 12 ability points to spend between the four abilities upon
-creation. Each ability has the initial value of 0. Points can only be added, not
-subtracted from the ability. Abilities can **never** be higher than 5. Some
-races also reduce the maximum value for certain abilities.
+If an ability were to drop below [Ability - Terrible](#abilities) the
+character dies.
 </blockquote>
 
 <div class="left" markdown="1">
@@ -106,11 +84,12 @@ Charisma is mostly used in social interactions between characters and NPCs.
 
 ## Currency
 
-> Currencies abstract the resources available to a character.
+> Currencies abstract the resources available to a character. This is not to be
+> mistaken with [Credits](/equipment#credits) or money.
 
 Currencies are limited by a maximum value, and are used to improve your
-character. This maximum value is modified by Circumstances, perks, and
-permanently due to [experience](#experience).
+character. This maximum value is modified by Circumstances,
+[Perks](/perks-flaws#perks), and permanently due to [Experience](#experience).
 
 The current value for a currency can **never** exceed the maximum value. All
 exceeding points are usually lost.
@@ -214,6 +193,9 @@ Certain ugprades require [Research](#research) in order to be unlocked. Upgrades
 have to be unlocked only once, and *can* be shared between characters. Unlocking
 upgrades enables the acquisition of better equipment and vessels.
 
+Two points of [Research](#research) can also be traded for one
+[Influence](#influence).
+
 !!! summary "Maximum [Research](#research)"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Experience">XP</span> +
@@ -230,7 +212,7 @@ upgrades enables the acquisition of better equipment and vessels.
 
 Experience (XP) is gained due to noteable achievements or story completions. XP
 usually is only given out one at a time. The GM can decide to give out more for
-completing a longer adventure though.
+completing a longer adventure.
 
 XP improves the maximum values of your currencies. This does not necessarily
 make your character stronger, but make the character more resourceful and
@@ -265,8 +247,8 @@ damaged badly, e.g. when losing an eye.
 
 !!! summary "Maximum [Health](/character#health)"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">25</span> +
-        <span data-bracket-top="Ability score">Might</span> x
+        <span data-bracket-bottom="Base">25</span> ±
+        <span data-bracket-top="Ability modifier">Might</span> x
         <span data-bracket-bottom="Base">5</span> ±
         <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>
@@ -284,8 +266,8 @@ sprinting cause stress on a character and reduce his
 
 !!! summary "Maximum [Endurance](/character#endurance)"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">50</span> +
-        <span data-bracket-top="Ability score">Might</span> x
+        <span data-bracket-bottom="Base">50</span> ±
+        <span data-bracket-top="Ability modifier">Might</span> x
         <span data-bracket-bottom="Base">10</span> ±
         <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>

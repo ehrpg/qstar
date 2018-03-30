@@ -131,8 +131,15 @@ $headers: h1, h2, h3, h4, h5;
     content: "\E094";
   }
 
+  *#abilities:after,
+  a[href*="#abilities"]:after {
+    content: "\E6C0";
+  }
+
   *#skills:after,
-  a[href*="#skills"]:after {
+  a[href*="#skills"]:after,
+  *#skill-ranks:after,
+  a[href*="#skill-ranks"]:after {
     content: "\E71A";
   }
 
