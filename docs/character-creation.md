@@ -7,10 +7,10 @@
 > with either the Q* rules or P&P RPG Systems in general. For detailed rules see
 > the corresponding sections.
 
-At character creation, and while gameplay, each improvment costs
+At character creation, and while gameplay, each improvement costs
 [Downtime](/character#downtime). The [Downtime](/character#downtime) costs are
 listed in the corresponding sections, e.g. [Abilities](/character#abilities) and
-[Skills](/character/character/skills#skill-ranks). Improvements while gameplay can also require
+[Skills](/character/character/skills#skills). Improvements while gameplay can also require
 additional circumstances, e.g. upgrading strength could cost
 [Credits](/equipment#credits) to cybernatically enhance the character.
 
@@ -82,7 +82,7 @@ Poor](/character#abilities), unless otherwise noted by its
 ## Skills
 
 Every creature starts with its Skill ranks set to [Skill -
-Poor](/character/character/skills#skill-ranks), unless otherwise noted by its
+Poor](/character/character/skills#skills), unless otherwise noted by its
 [Race](/character/races) and [Flaws](/character/perks-flaws#flaws).
 
 Additionally, Skill ranks can never be higher than their corresponding Ability
@@ -90,7 +90,7 @@ ranks.
 
 !!! example "Example"
     A character with [Strength - Good](/character#abilities) can never have a
-    strength skill at rank [Skill - Great](/character/character/skills#skill-ranks) or better.
+    strength skill at rank [Skill - Great](/character/character/skills#skills) or better.
 
 ## Step-by-Step
 

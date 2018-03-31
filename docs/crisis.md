@@ -17,8 +17,8 @@ higher [Intelligence](/character#intelligence) acts first. If they have the same
 !!! summary "[Turn Order](#turn-order)"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Base">3d6</span> ±
-      <span data-bracket-top="Ability Score">Intelligence</span> ±
-      <span data-bracket-bottom="Ability Score">Speed</span> ±
+      <span data-bracket-top="Ability modifier">Intelligence</span> ±
+      <span data-bracket-bottom="Ability modifier">Speed</span> ±
       <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>
 
@@ -49,8 +49,8 @@ more AP.
 | Attack   |    2 | Attack with a *normal* weapon.                                             |
 | Draw     |    1 | Draw a weapon and make it ready for combat use, e.g. release safety catch. |
 | Hide     |    3 | Hide from others, provided they have no direct vision of you.              |
-| Move     |    1 | Move up to the character's [Speed](#speed) in meters.                      |
-| Sneak    |    1 | Move up to half the character's [Speed](#speed) in meters.                 |
+| Move     |    1 | Move up to the character's [Speed](#speed) modifier + 5 in meters.         |
+| Sneak    |    1 | Move up to half the character's [Speed](#speed) modifier + 5 in meters.    |
 | Stand Up |    2 | Standing up when being prone.                                              |
 | Use Item |    2 | Use an item in a crisis. The item usually specifies the AP required.       |
 
@@ -78,14 +78,19 @@ an enemy, but in plain sight for another.
 
 Can't melee attack targets in total cover.
 
-* Cover `defence +2`
-* Heavy Cover `defence +5`
+* Cover `defence +1`
+* Heavy Cover `defence +3`
 * Total Cover `unhittable`
 
 !!! tip "Positions and Cover"
     Being prone does not provide bonuses or penalties to enemies attacking.
     Instead, being prone and facing an enemy straight on counts as being in
     heavy cover (only head and shoulds visible).
+
+!!! tip "Cover and firearms"
+    When hiding behind materials that are penetrable by bullets or other
+    projectiles but provide total cover from sight you count as being in heavy
+    cover rather than total cover.
 
 ### Melee Combat
 
@@ -131,5 +136,29 @@ there is more than one enemy in range.
 
 #### Attacking
 
+Attacking with ranged weapons is done using the [Light
+weapons](/character/skills#light-weapons) or [Heavy
+weapons](/character/skills#heavy-weapons) skill.
+
+!!! summary "Ranged attack"
+    <div class="formula formula-top formula-bottom">
+      <span data-bracket-bottom="Base">3d6</span> ±
+      <span data-bracket-top="Skill modifier">Light/Heavy Weapons</span> ±
+      <span data-bracket-bottom="Skill modifier">Speed</span> ±
+      <span data-bracket-top="Weapon modifier">Hit</span> ±
+      <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
+    </div>
+
 #### Defence
 
+!!! summary "Defence vs melee"
+    <div class="formula formula-top formula-bottom">
+      <span data-bracket-bottom="Base">10</span> ±
+      <span data-bracket-top="Defence modifier">Armour</span> ±
+      <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
+    </div>
+
+### Suprise Round
+
+If you attack an enemy who has not noticed you and is not combat ready, you gain
+an additional turn before actual combat starts.

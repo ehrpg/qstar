@@ -6,13 +6,23 @@ Perks and flaws that change values like maximum currencies use adjectives.
 
 Perks that add abilities or improve abilities use nouns.
 
+## Requirements
+
+Perks and flaws are usually restricted by Ability ranks, Skill ranks, or other
+stats. Races or GM decisions providing perks or flaws ignore the requirement.
+
+If a perk states a Ability rank or Skill rank requirement, the character has to
+have at least that rank. If the Ability rank or Skill rank drops below the
+requirement, the character loses the benefit of the perk.
+
+If a flaw states an Ability rank or Skill rank requirement, the character may not
+exceed that rank. Also a flaw's requirement prohibits a character to improve the
+Ability or Skill above the requirement.
+
 ## Perks
 
 Perks unlock abilities, improve stats or change roleplayining circumstances in a
 positive way.
-
-Perks are usually restricted by ability scores, skill ranks, or other stats.
-Races providing perks ignore the perk requirement.
 
 While perks state their requirements and costs, your GM can require additional
 things before you can *buy* a perk, i.e. you first have to:
@@ -121,6 +131,28 @@ Cost
 [^Leader]:
     Can only be used once until the effected character has been fully healed
 
+##### Lightning Reflexes
+
+You can add your [Speed](/character#speed) modifier when defending against
+ranged attacks.
+
+Requires
+:   [Speed - Great](/character#speed)
+
+[Downtime](/character#downtime)
+:   4
+
+##### Martial Arts Master
+
+You can use [Speed](/character#speed) instead of [Might](/character#might) when
+using the [Melee](/character/skills#melee) skill either actively or passively.
+
+Requires
+:   [Speed - Great](/character#speed)
+
+[Downtime](/character#downtime)
+:   3
+
 <div class="col-layout-end"></div>
 <div class="col-layout-start qs-list"></div>
 
@@ -168,9 +200,8 @@ roleplaying circumstances in a negative way.
 Also, if the flaw is not reasonable at all for your character, the flaw simply
 isn't available to you.
 
-Flaws can **never** be removed. If you don't play your weaknesses, you shouldn't
-pick the flaw in the first place, e.g. when playing a character with the
-introvert flaw like an extrovert person.
+Some flaws can be removed, but that usually requires a lot of hard work. A GM
+may even build an adventure around the flaw removal.
 
 ### Available Flaws
 
@@ -221,7 +252,7 @@ Requires
 ##### Illiterate
 
 You are unable to read any texts. You can however recognise common names, e.g.
-"Tavern"
+"Inn"
 
 Requires
 :   -
@@ -257,6 +288,6 @@ Requires
 Maximum Strength -1
 
 Requires
-:   -
+:   [Speed - Good](/character/#speed)
 
 <div class="col-layout-end clearfix"></div>

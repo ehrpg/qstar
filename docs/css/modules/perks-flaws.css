@@ -34,6 +34,10 @@
   line-height: 1.4;
 }
 
+.md-typeset:not(.md-search-result__item) div.qs-list + div.cols-wrapper > div {
+  padding-top: 1em;
+}
+
 .md-typeset:not(.md-search-result__item) div.qs-list + div.cols-wrapper h5 {
   float: left;
   width: 110px;
@@ -62,7 +66,13 @@
 .md-typeset:not(.md-search-result__item) div.qs-list + div.cols-wrapper dl {
   margin-top: 0;
   margin-bottom: -1px;
+  padding-top: 2px;
   padding-bottom: 1em;
+  clear: both;
+}
+
+.md-typeset:not(.md-search-result__item) div.qs-list + div.cols-wrapper dl dt:first-of-type {
+  margin: 0.15em 0 0.15em 0;
 }
 
 .md-typeset:not(.md-search-result__item) div.qs-list + div.cols-wrapper dl dt {
