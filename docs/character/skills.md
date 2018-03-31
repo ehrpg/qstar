@@ -19,10 +19,10 @@ effected by noticeable outside factors, the character has to roll a skill check.
 
 ## Skill Ranks
 
-A character can only have skills at rank [Skill - Superb](/skills#skill-ranks)
-up to his [Intelligence](/character#intelligence) ability modifier. If the
-[Intelligence](/character#intelligence) is less than 0, the character can have
-no rank [Skill - Superb](/skills#skill-ranks) skills.
+A character can only have skills at rank [Skill - Superb](/character/skills/#skill-ranks)
+up to his [Intelligence](/character/#intelligence) ability modifier. If the
+[Intelligence](/character/#intelligence) is less than 0, the character can have
+no rank [Skill - Superb](/character/skills/#skill-ranks) skills.
 
 | Skill Rank | Skill Modifier | Downtime cost |
 |------------|---------------:|--------------:|
@@ -35,33 +35,33 @@ no rank [Skill - Superb](/skills#skill-ranks) skills.
 | Superb     |             +3 |             4 |
 
 
-!!! summary "Maximum [Skill - Superb](/skills#skill-ranks) rank skills"
+!!! summary "Maximum [Skill - Superb](/character/skills/#skill-ranks) rank skills"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Ability modifier">Intelligence</span>
     </div>
 
 ### Skill Ranks and Ability Damage
 
-Temporary [Intelligence](/character#intelligence) damage **does not** change the
-maximum [Skill - Superb](/skills#skill-ranks) rank skills. Permanent
-[Intelligence](/character#intelligence) damage **does** change those values.
+Temporary [Intelligence](/character/#intelligence) damage **does not** change the
+maximum [Skill - Superb](/character/skills/#skill-ranks) rank skills. Permanent
+[Intelligence](/character/#intelligence) damage **does** change those values.
 
 A character can lose his benefits from skills if the ability requirement is not
 met anymore. Only the skill bonus changes, the skill rank stays unchanged.
 
-A skill that has reached [Skill - Fair](/skills#skill-ranks) always provides its
+A skill that has reached [Skill - Fair](/character/skills/#skill-ranks) always provides its
 bonus, no matter the current ability value.
 
 !!! example "Example"
-    Jack has skilled [Athletics - Great](/skills#skill-ranks), and his ability
-    is [Strength - Great](/character#abilities). He loses strength and his rank
-    is reduced to [Strength - Fair](/character#abilities). His skill also drops
-    to [Athletics - Fair](/skills#skill-ranks) temporarily until his strength is
+    Jack has skilled [Athletics - Great](/character/skills/#skill-ranks), and his ability
+    is [Strength - Great](/character/#abilities). He loses strength and his rank
+    is reduced to [Strength - Fair](/character/#abilities). His skill also drops
+    to [Athletics - Fair](/character/skills/#skill-ranks) temporarily until his strength is
     restored.
 
-    If his [Strength - Fair](/character#abilities) was further reduced to
-    [Strength - Poor](/character#abilities), he would still have his skill at
-    [Athletics - Fair](/skills#skill-ranks).
+    If his [Strength - Fair](/character/#abilities) was further reduced to
+    [Strength - Poor](/character/#abilities), he would still have his skill at
+    [Athletics - Fair](/character/skills/#skill-ranks).
 
 ## Skill competitions
 

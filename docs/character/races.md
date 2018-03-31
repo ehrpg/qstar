@@ -10,7 +10,7 @@ A race modifies:
 * enables access to inherent stunts,
 * and may add roleplaying Circumstances
 
-A race also provides a creature with [Downtime](/character#downtime) for
+A race also provides a creature with [Downtime](/character/#downtime) for
 character creation.
 
 ## Available races
@@ -32,5 +32,5 @@ Humans are a versatile race.
 * [Flaws](/perks-flaws#flaws)
 :   -
 
-* [Downtime](/character#downtime)
+* [Downtime](/character/#downtime)
 :   20

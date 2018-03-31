@@ -14,7 +14,7 @@ A character is defined by:
 
 ## Race
 
-See [Races](/races).
+See [Races](/character/races).
 
 ## Abilities
 
@@ -101,10 +101,10 @@ exceeding points are usually lost.
 > [Downtime](#downtime) represents the time a character can invest in
 > [Downtime](#downtime) activities.
 
-**GAINED**{.hf} in the course of time. A character gains more
-[Downtime](#downtime) in between adventures and longer periods of
-[Downtime](#downtime) during adventures. A character gains at least 1
-[Downtime](#downtime) each session automatically.
+**GAINED**{.hf} over the course of time. A character gains more
+[Downtime](#downtime) in between adventures and longer periods of downtime
+during adventures. A character gains at least 1 [Downtime](#downtime) each
+session automatically.
 
 **USED**{.hf} to recuperate, craft, repair and upgrade items and vessels and to
 improve a character.
@@ -112,8 +112,8 @@ improve a character.
 Actions that take longer, like repairing a damaged vessel consume
 [Downtime](#downtime). Usually, a task that consumes [Downtime](#downtime) has
 at least a DC of 12. Better skill checks can reduce [Downtime](#downtime) and/or
-[Resources](/character#resources)  used, while bad skill checks can increase
-[Downtime](#downtime) and/or [Resources](/character#resources)  used. This DC
+[Resources](/character/#resources)  used, while bad skill checks can increase
+[Downtime](#downtime) and/or [Resources](/character/#resources)  used. This DC
 *may* be lowered or increased depending on the situation.
 
 !!! summary "Maximum [Downtime](#downtime)"
@@ -224,28 +224,28 @@ Every character has 0 XP upon creation.
 
 ## Pools
 
-> Each creature has [Health](/character#health) and
-> [Endurance](/character#endurance) pools. A robot is defined as a character,
-> but instead of [Health](/character#health) and
-> [Endurance](/character#endurance) has the pools [Integrity](/character#health)
-> and [Power](/character#endurance), acting just the same.
+> Each creature has [Health](/character/#health) and
+> [Endurance](/character/#endurance) pools. A robot is defined as a character,
+> but instead of [Health](/character/#health) and
+> [Endurance](/character/#endurance) has the pools [Integrity](/character/#health)
+> and [Power](/character/#endurance), acting just the same.
 
-[Endurance](/character#endurance) serves as an easily replenishable pool that's
+[Endurance](/character/#endurance) serves as an easily replenishable pool that's
 usually targetted by damage first. Once depleted, the health pool is targetted.
-[Health](/character#health) is very hard to replenish.
+[Health](/character/#health) is very hard to replenish.
 
 <div class="left" markdown="1">
 
 ### Health
 
-> [Health](/character#health) represents the character's overall condition.
+> [Health](/character/#health) represents the character's overall condition.
 
-If [Health](/character#health) drops to zero, the character dies. A GM may even
+If [Health](/character/#health) drops to zero, the character dies. A GM may even
 reduce certain values of the character such as abilities when a lot of
-[Health](/character#health) is lost. Also, a GM may give the character a flaw if
+[Health](/character/#health) is lost. Also, a GM may give the character a flaw if
 damaged badly, e.g. when losing an eye.
 
-!!! summary "Maximum [Health](/character#health)"
+!!! summary "Maximum [Health](/character/#health)"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Base">25</span> ±
         <span data-bracket-top="Ability modifier">Might</span> x
@@ -258,13 +258,13 @@ damaged badly, e.g. when losing an eye.
 
 ### Endurance
 
-> [Endurance](/character#endurance) represents the character's power.
+> [Endurance](/character/#endurance) represents the character's power.
 
 Damage from weapons, other characters, environments and certain actions such as
 sprinting cause stress on a character and reduce his
-[Endurance](/character#endurance).
+[Endurance](/character/#endurance).
 
-!!! summary "Maximum [Endurance](/character#endurance)"
+!!! summary "Maximum [Endurance](/character/#endurance)"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Base">50</span> ±
         <span data-bracket-top="Ability modifier">Might</span> x
@@ -277,7 +277,7 @@ sprinting cause stress on a character and reduce his
 
 ## Skills
 
-See [Skills](/skills).
+See [Skills](/character/skills/).
 
 ## Perks & Flaws
 

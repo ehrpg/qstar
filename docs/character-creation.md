@@ -10,7 +10,9 @@
 At character creation, and while gameplay, each improvment costs
 [Downtime](/character#downtime). The [Downtime](/character#downtime) costs are
 listed in the corresponding sections, e.g. [Abilities](/character#abilities) and
-[Skills](/skills#skill-ranks).
+[Skills](/character/character/skills#skill-ranks). Improvements while gameplay can also require
+additional circumstances, e.g. upgrading strength could cost
+[Credits](/equipment#credits) to cybernatically enhance the character.
 
 Every creature starts with an amount of [Downtime](/character#downtime) that can
 be used to improve your character. Decreasing your character's power through
@@ -42,7 +44,8 @@ trade some of his [Downtime](/character#downtime) for
 ## Buying / Reducing Downtime
 
 [Downtime](#downtime) cost can be reduced for improvements by spending
-[Credits](#credits). The [Downtime](#downtime) cost can never be lower than 1.
+[Credits](/equipment#credits). The [Downtime](#downtime) cost can never be lower
+than 1.
 
 In addition to [Credits](/equipment#credits) cost, lowering the
 [Downtime](/character#downtime) can also require additional circumstances, such
@@ -73,20 +76,21 @@ as trainers, shops, items, etc.
 ## Abilities
 
 Every creature starts with its Ability ranks set to [Ability -
-Poor](#abilities), unless otherwise noted by its [Race](#race) and
-[Flaws](/perks-flaws#flaws).
+Poor](/character#abilities), unless otherwise noted by its
+[Race](/character/races) and [Flaws](/character/perks-flaws#flaws).
 
 ## Skills
 
-Every creature starts with its Skill ranks set to [Skill - Poor](#skills),
-unless otherwise noted by its [Race](#race) and [Flaws](/perks-flaws#flaws).
+Every creature starts with its Skill ranks set to [Skill -
+Poor](/character/character/skills#skill-ranks), unless otherwise noted by its
+[Race](/character/races) and [Flaws](/character/perks-flaws#flaws).
 
 Additionally, Skill ranks can never be higher than their corresponding Ability
 ranks.
 
 !!! example "Example"
-    A character with [Strength - Good](#abilities) can never have a strength
-    skill at rank [Skill - Great](/skills#skill-ranks) or better.
+    A character with [Strength - Good](/character#abilities) can never have a
+    strength skill at rank [Skill - Great](/character/character/skills#skill-ranks) or better.
 
 ## Step-by-Step
 
@@ -94,8 +98,8 @@ ranks.
 
 !!! example "Example character"
     Our character is human. The human race provides us with the perk
-    [Versatile](/perks-flaws#versatile), which gives us another [Skill
-    Point](/skills#skill-points). We also gain 2 [Flaws](/perks-flaws#flaws)
+    [Versatile](/character/perks-flaws#versatile), which gives us another [Skill
+    Point](/character/skills#skill-points). We also gain 2 [Flaws](/character/perks-flaws#flaws)
     however. Let's make a mental note and pick them later.
 
 ### 2. Assign abilities
@@ -123,22 +127,22 @@ ranks.
 !!! example "Example character"
     Our character has 5 [Intelligence](/character#intelligence), resulting in an
     Ability modifier of +3. We now have a total of 9 [Skill
-    Points](/skills#skill-points): 5 Base, +3 from the positive Ability
-    modifier, and +1 from the [Versatile](/perks-flaws#versatile) perk.
+    Points](/character/skills#skill-points): 5 Base, +3 from the positive Ability
+    modifier, and +1 from the [Versatile](/character/perks-flaws#versatile) perk.
 
     We will focus on *Science - Biology*. Since it's our first Science skill
     pick, we can pick two different fields. So we'll take *Science - Biology*
     and *Science - Chemistry*. Let's upgrade this skill to master rank, reducing
-    our [Skill Points](/skills#skill-points) by 3. Also, we now can only have
+    our [Skill Points](/character/skills#skill-points) by 3. Also, we now can only have
     two more skills at master rank.
 
     Next, we'll upgrade the *Backstory* skill to skilled rank. Reducing our
-    [Skill Points](/skills#skill-points) by 2.
+    [Skill Points](/character/skills#skill-points) by 2.
 
     Let's upgrade the *Light Weapons* to trained, reducing our
-    [Skill Points](/skills#skill-points) by 1.
+    [Skill Points](/character/skills#skill-points) by 1.
 
-    With the remaining 3 [Skill Points](/skills#skill-points) we improve the
+    With the remaining 3 [Skill Points](/character/skills#skill-points) we improve the
     following skills to trained: Athletics, Perception, Oratory.
 
 ### 7. Buy equipment

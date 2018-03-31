@@ -96,7 +96,7 @@ Cost
 
 ##### Healthy
 
-You gain 10 additional [Health](/character#health) points.
+You gain 10 additional [Health](/character/#health) points.
 
 Requires
 :   5 [Might](#might)
@@ -113,7 +113,7 @@ Command {.qs-2d6}
 
 Requires
 :   4 [Charisma](#charisma)
-:   [Command](/skills#available-skills) Trained
+:   [Command](/character/skills/#available-skills) Trained
 
 Cost
 :   `1` [Cr.](#credits)
@@ -138,7 +138,7 @@ Cost
 
 ##### Versatile
 
-You gain +1 [Skill Points](/skills#skill-points)
+You gain +1 [Skill Points](/character/skills/#skill-points)
 
 Requires
 :   5 [Intelligence](#intelligence)

@@ -11,15 +11,7 @@ Roleplaying circumstance
 :   Does different stuff.
 :   Does different stuff.
 
-| Rank     | Modifier |
-|----------|---------:|
-| Terrible |       |
-| Poor     |       |
-| Mediocre |       |
-| Fair     |       |
-| Good     |       |
-| Great    |       |
-| Superb   |       |
+
 
 ## Character
 
@@ -39,13 +31,9 @@ Moved to [Crisis](/crisis).
 
 ## Equipment
 
-* Outfit
-    * Armour
-    * Skill bonuses
-* Weapons
-    * Melee
-    * Ranged
-* Utility
+Moved to [Equipment](/Equipment).
+
+
 
 # Vessel
 
