@@ -2,6 +2,16 @@
 
 ## Glossary
 
+*Success*{.qs-s}
+:   This indicates, that a check was succeeded or has to be succeeded.
+
+*Failure*{.qs-f}
+:   This indicates, that a check failed or has to be failed.
+
+*Roll*{.qs-d6}
+:   This indicates, that a die on a check is a **6**. The number of dice show
+the number of **6**s that have to be rolled.
+
 [Action point](/crisis#actions)
 :   AP, used for atomic actions in a crisis.
 
@@ -13,7 +23,7 @@ Difficulty Class
 :   DC. A check equal or higher than the DC is a success, or a failure
 otherwise.
 
-Roleplaying circumstance
+Roleplaying Circumstance
 :   Usually added by a race, perk or flaws. Roleplaying circumstances include
 prejudice, others liking or disliking you, being a known criminal, etc.
 
