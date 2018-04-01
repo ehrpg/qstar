@@ -5,13 +5,17 @@
 All entries list the price for a single item. If more items can be bougth with
 the provided price, the table shows the amount under the `#` column.
 
+* `Weight` shows the weight of items in kilogramms.
+
+* `Cost` shows the cost of items in [Credits](#credits).
+
 ## Credits [Cr.]
 
 A universal currency for buying most things.
 
 ## Equipment condition
 
-Each item has a condition, making it better or worse. As with abilities and
+An item can have a condition, making it better or worse. As with abilities and
 skills for characters, the item condition uses adjectives:
 
 |    # | Item condition | Modifier | Credits cost |
@@ -36,13 +40,27 @@ effects the item's attributes.
 All melee weapons use the *Melee* skill, while ranged weapons use the *Light
 Weapons* skill, unless otherwise noted.
 
-| Name    | Description |
-|---------|-------------|
-| Weapon1 |             |
+### Melee Weapons
 
-### Weapon Stats
+| Name           | Damage | Weight | Cost | Notes |
+|----------------|-------:|-------:|-----:|-------|
+| Brass knuckles |        |        |      |       |
+| Baton          |        |        |      |       |
+| Knife          |        |        |      |       |
+| Sword          |        |      3 | 3000 |       |
 
-### Weapon Tags
+### Ranged Weapons
+
+* **Capacity** indicates the amount of uses per magazine. The weapon has to be
+  **reloaded** if the current capacity drops to zero.
+
+* **Magazines** provides the number of magazines. A long rest refills the amount
+  of magazines you have.
+
+| Name     | Damage | Weight | Cost | Capacity | Magazines | Notes |
+|----------|-------:|-------:|-----:|---------:|----------:|-------|
+| Pistol   |        |        |      |          |           |       |
+| Revolver |        |        |      |          |           |       |
 
 ## Utility
 
@@ -60,23 +78,23 @@ Weapons* skill, unless otherwise noted.
 
 | Name       | Weight | Cost | Notes                                               |
 |------------|-------:|-----:|-----------------------------------------------------|
-| MRE        |   1 kg |  100 | One MRE provides food for one day. Long durability. |
-| Water [1L] |    1kg |    5 |                                                     |
+| MRE        |      1 |  100 | One MRE provides food for one day. Long durability. |
+| Water [1L] |      1 |    2 |                                                     |
 
 ### Medical
 
 Medical items are used to restore [Health](/character#health) and
 [Endurance](/character#endurance) in or after combat.
 
-| Name           |
-|----------------|
-| Bandages       |
-| Medikit        |
-| First Aid Kit  |
-| Adrenalin Shot |
+| Name           | Weight | Cost | Notes |
+|----------------|-------:|-----:|-------|
+| Bandages       |        |      |       |
+| Medikit        |        |      |       |
+| First Aid Kit  |        |      |       |
+| Adrenalin Shot |        |      |       |
 
 ### Tools
 
-| Name      |
-|-----------|
-| Blowtorch |
+| Name      | Weight | Cost | Notes |
+|-----------|-------:|-----:|-------|
+| Blowtorch |        |      |       |
