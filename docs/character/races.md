@@ -13,6 +13,13 @@ A race modifies:
 A race also provides a creature with [Downtime](/character/#downtime) for
 character creation.
 
+!!! tip "Race subtypes"
+    Some races have further subtypes, that change the *base* race. E.g. in a
+    cyberpunk setting there could be a bio-engineered slave race that resemble
+    humans. Such a race could provide additional [Might](/character#might), but
+    decrease [Charisma](/character#charisma) and add a roleplaying Circumstance
+    in that they are shunned by the public.
+
 ## Available races
 
 Below is a list of possible races, provided by the Q* RPG system.

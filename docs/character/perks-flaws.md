@@ -80,6 +80,16 @@ stunt.
 
 <!-- A-N -->
 
+##### Beast of Burden
+
+Increases [Carrying Capacity](/character#carrying-capacity) by 10.
+
+Requires
+:   [Might - Great](/character#might)
+
+[Downtime](/character#downtime)
+:   2
+
 ##### Brute
 
 Deal double damage with a melee attack.

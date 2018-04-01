@@ -298,4 +298,4 @@ See [Skills](/character/skills/).
 
 ## Perks & Flaws
 
-See [Perks & Flaws](/perks-flaws).
+See [Perks & Flaws](/character/perks-flaws/).

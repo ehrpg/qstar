@@ -38,7 +38,7 @@ remain AP are disabled until enough AP are accumulated.
 ### Available Actions
 
 All character can perform basic actions. [Perks](/perks-flaws#perks) and
-equipment can make additional actions available.
+[Equipment](/character/equipment) can make additional actions available.
 
 This table provides a guideline for actions and their AP cost. These apply
 unless stated otherwise, e.g. attacking with an oversized weapon may require
@@ -183,7 +183,7 @@ Damage reduces the character's [Endurance](/character#endurance).
 target's [Health](/character#health) pool. An attack that deals critical damage
 reduces the target's armour Durability by two, instead of only one.
 
-### Suprise Round
+### Surprise Round
 
 If you attack an enemy who has not noticed you and is not combat ready, you gain
 an additional turn before actual combat starts.
