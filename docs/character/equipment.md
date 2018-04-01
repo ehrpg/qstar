@@ -5,7 +5,7 @@
 All entries list the price for a single item. If more items can be bougth with
 the provided price, the table shows the amount under the `#` column.
 
-* `Weight` shows the weight of items in kilogramms.
+* `Weight` shows the weight of items in kilogramms [kg].
 
 * `Cost` shows the cost of items in [Credits](#credits).
 
@@ -76,10 +76,10 @@ Weapons* skill, unless otherwise noted.
 
 ### Food & Drinks
 
-| Name       | Weight | Cost | Notes                                               |
-|------------|-------:|-----:|-----------------------------------------------------|
-| MRE        |      1 |  100 | One MRE provides food for one day. Long durability. |
-| Water [1L] |      1 |    2 |                                                     |
+| Name  | Weight | Cost | Notes                                               |
+|-------|-------:|-----:|-----------------------------------------------------|
+| MRE   |      1 |  100 | One MRE provides food for one day. Long durability. |
+| Water |    2.5 |    5 | Provides water for one day.                         |
 
 ### Medical
 
@@ -88,13 +88,14 @@ Medical items are used to restore [Health](/character#health) and
 
 | Name           | Weight | Cost | Notes |
 |----------------|-------:|-----:|-------|
-| Bandages       |        |      |       |
-| Medikit        |        |      |       |
-| First Aid Kit  |        |      |       |
-| Adrenalin Shot |        |      |       |
+| Bandages       |    0.1 |   90 |       |
+| Medikit        |    2.5 |  750 |       |
+| First Aid Kit  |      1 |  250 |       |
+| Adrenalin Shot |    0.2 |   75 |       |
 
 ### Tools
 
-| Name      | Weight | Cost | Notes |
-|-----------|-------:|-----:|-------|
-| Blowtorch |        |      |       |
+| Name      | Weight | Cost | Notes                                               |
+|-----------|-------:|-----:|-----------------------------------------------------|
+| Blowtorch |    0.5 |  250 |                                                     |
+| Toolbox   |    7.5 |  750 | Contains a hammer, screwdrivers, a saw, tongs, etc. |
