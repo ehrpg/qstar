@@ -31,7 +31,7 @@ beginning of a crisis, the character gains 4 AP. Action points can never exceed
 6 or deceed 0. Exceeding AP are lost, while actions that require more than the
 remain AP are disabled until enough AP are accumulated.
 
-!!! info "Tracking AP"
+!!! tip "Tracking AP"
     Tracking AP is very easy. Get a d6, put it front of you, and let it face the
     number of AP your character has. If you are at zero AP, put the die aside.
 
@@ -93,20 +93,18 @@ an enemy, but in plain sight for another.
     cover rather than total cover. Hiding behind a car in a firefight would only
     provide normal cover.
 
-### Melee Combat
+### Attacking
 
-#### Attacking
-
-Attacking in melee is done using the *Melee* skill.
-
-!!! summary "Melee attack"
+!!! summary "Making an attack"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Base">3d6</span> ±
-      <span data-bracket-top="Skill Modifier">Melee</span> ±
-      <span data-bracket-bottom="Skill Modifier">Might</span> ±
+      <span data-bracket-top="Skill Modifier">Skill</span> ±
+      <span data-bracket-bottom="Ability Modifier">Ability</span> ±
       <span data-bracket-top="Weapon modifier">Hit</span> ±
       <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
     </div>
+
+### Melee Combat
 
 #### Defence
 
@@ -117,46 +115,32 @@ stats.
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Base">10</span> ±
       <span data-bracket-top="Skill Modifier">Melee</span> ±
-      <span data-bracket-bottom="Skill Modifier">Might</span> +
+      <span data-bracket-bottom="Ability Modifier">Might</span> +
       <span data-bracket-top="Defence modifier">Armour</span> ±
       <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
       <span data-bracket-top="per additional enemy">-2</span>
     </div>
 
-Every enemy in melee range reduces *defence vs melee* by 2. This only applies if
-there is more than one enemy in range.
+Every additional enemy in melee range reduces *defence vs melee* by 2. This only
+applies if there is more than one enemy in range.
 
 !!! example "Melee combat"
     Jack is attacked by 3 security drones attacking with batons. They all are in
     Jack's melee range. Jack is a good melee fighter and has a *defence vs
     melee* of 16 against a single enemy. Since there are two additional enemies
     his *defence vs melee* drops by a total of 4, resulting in a *defence vs
-    melee* of 10, making him an easy target.
+    melee* of 12, making him an easy target.
 
 ### Ranged Combat
-
-#### Attacking
-
-Attacking with ranged weapons is done using the [Light
-weapons](/character/skills#light-weapons) or [Heavy
-weapons](/character/skills#heavy-weapons) skill.
-
-!!! summary "Ranged attack"
-    <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Base">3d6</span> ±
-      <span data-bracket-top="Skill Modifier">Light/Heavy Weapons</span> ±
-      <span data-bracket-bottom="Skill Modifier">Speed</span> ±
-      <span data-bracket-top="Weapon modifier">Hit</span> ±
-      <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
-    </div>
 
 #### Defence
 
 !!! summary "Defence vs melee"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Base">10</span> ±
-      <span data-bracket-top="Defence modifier">Armour</span> ±
-      <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
+      <span data-bracket-top="Ability Modifier">Speed</span> +
+      <span data-bracket-bottom="Defence modifier">Armour</span> ±
+      <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>
 
 ### Damage

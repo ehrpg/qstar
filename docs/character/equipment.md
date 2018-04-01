@@ -82,10 +82,12 @@ Weapons* skill, unless otherwise noted.
 * **Magazines** provides the number of magazines. A long rest refills the amount
   of magazines you have.
 
-| Name     | Damage | Weight | Cost | Capacity | Magazines | Notes |
-|----------|-------:|-------:|-----:|---------:|----------:|-------|
-| Pistol   |        |        |      |          |           |       |
-| Revolver |        |        |      |          |           |       |
+| Name             | Damage | Weight | Cost | Capacity | Magazines | Notes |
+|------------------|-------:|-------:|-----:|---------:|----------:|-------|
+| Pistol           |        |        |      |          |           |       |
+| Revolver         |        |        |      |          |           |       |
+| Flintlock Pistol |        |        |      |          |           |       |
+| Flintlock Musket |        |        |      |          |           |       |
 
 ## Utility
 
