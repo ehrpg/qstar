@@ -37,7 +37,7 @@ effects the item's attributes.
 
 ### Armour
 
-Armour adds another pool to your character, called **durability**. Special
+Armour adds another pool to your character, called **Durability**. Special
 armour also provides a bonus to [Defence](/crisis#defence).
 
 | Name             |   DR | Durability | Weight | Cost | Notes |

@@ -1,4 +1,25 @@
 {
+	"Insert Ability Link": {
+		"prefix": "ability",
+		"body": [
+			"[Ability](/character#abilities) "
+		],
+		"description": "Insert Ability Link"
+	},
+	"Insert Skill Link": {
+		"prefix": "skill",
+		"body": [
+			"[Skill](/character/skills#skills) "
+		],
+		"description": "Insert Skill Link"
+	},
+	"Insert Race Link": {
+		"prefix": "race",
+		"body": [
+			"[Race](/character/races) "
+		],
+		"description": "Insert Race Link"
+	},
 	"Insert Might Link": {
 		"prefix": "might",
 		"body": [
@@ -62,5 +83,19 @@
 			"[Credits](/equipment#credits) "
 		],
 		"description": "Insert Credits Link"
+	},
+	"Insert Flaws Link": {
+		"prefix": "flaws",
+		"body": [
+			"[Flaws](/character/perks-flaws#flaws) "
+		],
+		"description": "Insert Flaws Link"
+	},
+	"Insert Perks Link": {
+		"prefix": "perks",
+		"body": [
+			"[Perks](/character/perks-flaws#perks) "
+		],
+		"description": "Insert Perks Link"
 	}
 }

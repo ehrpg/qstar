@@ -10,22 +10,23 @@
 At character creation, and while gameplay, each improvement costs
 [Downtime](/character#downtime). The [Downtime](/character#downtime) costs are
 listed in the corresponding sections, e.g. [Abilities](/character#abilities) and
-[Skills](/character/skills#skills). Improvements while gameplay can
-also require additional circumstances, e.g. upgrading [Might](/character#might)
-could cost [Credits](/equipment#credits) to cybernatically enhance the
-character.
+[Skills](/character/skills#skills). Improvements while gameplay can also require
+additional circumstances, e.g. upgrading [Might](/character#might) could cost
+[Credits](/equipment#credits) to cybernatically enhance the character.
 
 Every creature starts with an amount of [Downtime](/character#downtime) that can
 be used to improve your character. Decreasing your character's power through
-lowering ranks or *buying* flaws nets you [Downtime](/character#downtime), but
-only to an extent. E.g. a GM can restrict you in how far you can lower an
-ability or a skill.
+lowering ranks or *buying* [Flaws](/character/perks-flaws#flaws) nets you
+[Downtime](/character#downtime), but only to an extent. E.g. a GM can restrict
+you in how far you can lower an [Ability](/character#abilities) or a
+[Skill](/character/skills#skills).
 
 **During** character creation, the global maximum for
 [Downtime](/character#downtime) can exceed 10.
 
 The [Downtime](/character#downtime) received for character creation is
-determined by the creature's race and flaws.
+determined by the creature's [Race](/character/races) and
+[Flaws](/character/perks-flaws#flaws).
 
 Also, while creating a character [Downtime](/character#downtime) can be traded
 for any other Currency. One [Downtime](/character#downtime) provides two of any
