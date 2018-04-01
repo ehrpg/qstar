@@ -10,9 +10,10 @@
 At character creation, and while gameplay, each improvement costs
 [Downtime](/character#downtime). The [Downtime](/character#downtime) costs are
 listed in the corresponding sections, e.g. [Abilities](/character#abilities) and
-[Skills](/character/character/skills#skills). Improvements while gameplay can also require
-additional circumstances, e.g. upgrading strength could cost
-[Credits](/equipment#credits) to cybernatically enhance the character.
+[Skills](/character/skills#skills). Improvements while gameplay can
+also require additional circumstances, e.g. upgrading [Might](/character#might)
+could cost [Credits](/equipment#credits) to cybernatically enhance the
+character.
 
 Every creature starts with an amount of [Downtime](/character#downtime) that can
 be used to improve your character. Decreasing your character's power through
@@ -82,15 +83,15 @@ Poor](/character#abilities), unless otherwise noted by its
 ## Skills
 
 Every creature starts with its Skill ranks set to [Skill -
-Poor](/character/character/skills#skills), unless otherwise noted by its
+Poor](/character/skills#skills), unless otherwise noted by its
 [Race](/character/races) and [Flaws](/character/perks-flaws#flaws).
 
 Additionally, Skill ranks can never be higher than their corresponding Ability
 ranks.
 
 !!! example "Example"
-    A character with [Strength - Good](/character#abilities) can never have a
-    strength skill at rank [Skill - Great](/character/character/skills#skills) or better.
+    A character with [Might - Good](/character#might) can never have a might
+    skill at rank [Skill - Great](/character/skills#skills) or better.
 
 ## Step-by-Step
 

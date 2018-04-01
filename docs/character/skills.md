@@ -7,15 +7,15 @@ up to his [Intelligence](/character/#intelligence) ability modifier. If the
 [Intelligence](/character/#intelligence) is less than 0, the character can have
 no rank [Skill - Superb](/character/skills/#skills) skills.
 
-| Skill Rank | Skill Modifier | Downtime cost |
-|------------|---------------:|--------------:|
-| Terrible   |             -3 |            -4 |
-| Poor       |             -2 |            -2 |
-| Mediocre   |             -1 |            -1 |
-| Fair       |              0 |             0 |
-| Good       |             +1 |             1 |
-| Great      |             +2 |             2 |
-| Superb     |             +3 |             4 |
+|    # | Skill Rank | Skill Modifier | Downtime cost |
+|-----:|------------|---------------:|--------------:|
+|    1 | Terrible   |             -3 |            -4 |
+|    2 | Poor       |             -2 |            -2 |
+|    3 | Mediocre   |             -1 |            -1 |
+|    4 | Fair       |              0 |             0 |
+|    5 | Good       |             +1 |             1 |
+|    6 | Great      |             +2 |             2 |
+|    7 | Superb     |             +3 |             4 |
 
 
 !!! summary "Maximum [Skill - Superb](/character/skills/#skills) rank skills"
@@ -51,14 +51,14 @@ A skill that has reached [Skill - Fair](/character/skills/#skills) always provid
 bonus, no matter the current ability value.
 
 !!! example "Example"
-    Jack has skilled [Athletics - Great](/character/skills/#skills), and his ability
-    is [Strength - Great](/character/#abilities). He loses strength and his rank
-    is reduced to [Strength - Fair](/character/#abilities). His skill also drops
-    to [Athletics - Fair](/character/skills/#skills) temporarily until his strength is
+    Jack has skilled [Athletics - Great](/character/skills/#skills), and his
+    ability is [Might - Great](/character/#might). He loses might and his rank
+    is reduced to [Might - Fair](/character/#might). His skill also drops to
+    [Athletics - Fair](/character/skills/#skills) temporarily until his might is
     restored.
 
-    If his [Strength - Fair](/character/#abilities) was further reduced to
-    [Strength - Poor](/character/#abilities), he would still have his skill at
+    If his [Might - Fair](/character/#might) was further reduced to
+    [Might - Poor](/character/#might), he would still have his skill at
     [Athletics - Fair](/character/skills/#skills).
 
 ## Skill competitions

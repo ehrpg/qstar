@@ -49,6 +49,8 @@ markdown_extensions:
     - attr_list
     - smarty
     - footnotes
+    - markdown_include.include:
+        base_path: './'
     - toc:
         permalink: True
 

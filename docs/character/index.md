@@ -18,21 +18,21 @@ See [Races](/character/races).
 
 ## Abilities
 
-Abilities are *mostly fixed* values every creature has. They are only modified
+Abilities are *mostly fixed* values every creature h    as. They are only modified
 by *certain events* while adventuring.
 
 Good or bad abilities also add bonuses or impose penalties on skill checks
 corresponding to the ability.
 
-| Ability Rank | Ability Modifier | Downtime cost |
-|--------------|-----------------:|--------------:|
-| Terrible     |               -3 |            -6 |
-| Poor         |               -2 |            -3 |
-| Mediocre     |               -1 |            -1 |
-| Fair         |                0 |             0 |
-| Good         |               +1 |             1 |
-| Great        |               +2 |             3 |
-| Superb       |               +3 |             6 |
+|    # | Ability Rank | Ability Modifier | Downtime cost |
+|-----:|--------------|-----------------:|--------------:|
+|    1 | Terrible     |               -3 |            -6 |
+|    2 | Poor         |               -2 |            -3 |
+|    3 | Mediocre     |               -1 |            -1 |
+|    4 | Fair         |                0 |             0 |
+|    5 | Good         |               +1 |             1 |
+|    6 | Great        |               +2 |             3 |
+|    7 | Superb       |               +3 |             6 |
 
 <blockquote class="important" markdown="1">
 If an ability were to drop below [Ability - Terrible](#abilities) the
@@ -166,7 +166,7 @@ If [Resources](#resources) are spent on equipment, your maximum
 the upkeep of a powerful item.
 
 Powerful equipment requiring [Resources](#resources) usually adds
-[stunts](/stunts).
+[stunts](/stunts) or other benefits.
 
 !!! summary "Maximum [Resources](#resources)"
     <div class="formula formula-top formula-bottom">

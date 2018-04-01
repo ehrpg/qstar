@@ -56,7 +56,11 @@ Perks are represented in the following way:
 
 Description or benefit of the perk.
 
-AP cost
+Requires
+:   Requirements that have to be met in order for the perk to be available or
+providing its benefits.
+
+AP
 :   If the perk enables a new ability, the AP cost for this ability is stated
 here.
 
@@ -65,13 +69,8 @@ Skill {.qs-d6}
 next to the skill name determine how many sixes have to be rolled to use the
 stunt.
 
-Requires
-:   Requirements that have to be met in order for the perk to be available or
-providing its benefits.
-
-Cost
-:   Costs for the perk, usually in [Cr.](#credits), but can also require
-expanditure of a secondary stat.
+[Downtime](/character#downtime)
+:   Acquiring a perk at least costs [Downtime](/character#downtime).
 
 <div class="col-layout-end clearfix"></div>
 
@@ -85,14 +84,14 @@ expanditure of a secondary stat.
 
 Deal double damage with a melee attack.
 
-AP cost
-:   3
-
 Requires
 :   4 [Might](#might)
 
-Cost
-:   `1` [Cr.](#credits)
+[AP](/crisis#actions)
+:   3
+
+[Downtime](/character#downtime)
+:   4
 
 ##### Gunslinger
 
@@ -101,8 +100,8 @@ Draw any handheld weapon without AP cost.
 Requires
 :   4 [Speed](#speed)
 
-Cost
-:   `1` [Cr.](#credits)
+[Downtime](/character#downtime)
+:   2
 
 ##### Healthy
 
@@ -111,22 +110,22 @@ You gain 10 additional [Health](/character/#health) points.
 Requires
 :   5 [Might](#might)
 
-Cost
-:   `1` [Cr.](#credits)
+[Downtime](/character#downtime)
+:   1
 
 ##### Leader
 
 Draw any handheld weapon without AP cost.
 
-Command {.qs-2d6}
-:   Effected characters heal 1d6 [endurance](/#endurance) damage [^Leader].
-
 Requires
 :   4 [Charisma](#charisma)
 :   [Command](/character/skills/#available-skills) Trained
 
-Cost
-:   `1` [Cr.](#credits)
+Command {.qs-2d6}
+:   Effected characters heal 1d6 [endurance](/#endurance) damage [^Leader].
+
+[Downtime](/character#downtime)
+:   3
 
 [^Leader]:
     Can only be used once until the effected character has been fully healed
@@ -165,18 +164,17 @@ Maximum Research +1
 Requires
 :   3 [Intelligence](#intelligence)
 
-Cost
-:   `1` [Cr.](#credits)
+[Downtime](/character#downtime)
+:   1
 
 ##### Versatile
 
-You gain +1 [Skill Points](/character/skills/#skill-points)
 
 Requires
 :   5 [Intelligence](#intelligence)
 
-Cost
-:   `1` [Cr.](#credits)
+[Downtime](/character#downtime)
+:   1
 
 ##### Wealthy
 
@@ -185,8 +183,8 @@ Maximum Influence +1
 Requires
 :   3 [Charisma](#charisma)
 
-Cost
-:   `1` [Cr.](#credits)
+[Downtime](/character#downtime)
+:   1
 
 <div class="col-layout-end clearfix"></div>
 
@@ -242,12 +240,15 @@ Maximum Research -1
 Requires
 :   -
 
+[Downtime](/character#downtime)
+:   1
+
 ##### Introvert
 
-Maximum Charisma  -1
+[Charisma](/character/#charisma)  -1
 
-Requires
-:   -
+[Downtime](/character#downtime)
+:   2
 
 ##### Illiterate
 
@@ -256,6 +257,9 @@ You are unable to read any texts. You can however recognise common names, e.g.
 
 Requires
 :   -
+
+[Downtime](/character#downtime)
+:   2
 
 <div class="col-layout-end"></div>
 <div class="col-layout-start qs-list"></div>
@@ -269,25 +273,28 @@ Maximum Influence -1
 Requires
 :   -
 
+[Downtime](/character#downtime)
+:   1
+
 ##### Uneducated
 
-Maximum Intelligence -1
+[Intelligence](/character/#intelligence) -1
 
-Requires
-:   -
+[Downtime](/character#downtime)
+:   2
 
 ##### Slow
 
-Maximum Speed -1
+[Speed](/character/#speed) -1
 
-Requires
-:   -
+[Downtime](/character#downtime)
+:   2
 
 ##### Weak
 
-Maximum Strength -1
+[Might](/character/#might) -1
 
-Requires
-:   [Speed - Good](/character/#speed)
+[Downtime](/character#downtime)
+:   2
 
 <div class="col-layout-end clearfix"></div>
