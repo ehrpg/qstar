@@ -35,6 +35,7 @@ extra_css:
     - css/ehicons.css
     - css/game-icons.css
 extra_javascript:
+    - js/sorttable.js
     - js/extra.js
 
 markdown_extensions:

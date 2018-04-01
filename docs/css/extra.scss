@@ -258,3 +258,9 @@ blockquote.important {
   border-left: .4rem solid #3f51b5;
   color: rgba(0,0,0,.87);
 }
+
+table thead th {
+  &:hover {
+    cursor: pointer;
+  }
+}
