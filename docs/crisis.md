@@ -22,6 +22,11 @@ higher [Intelligence](/character#intelligence) acts first. If they have the same
       <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>
 
+### Surprise Round
+
+If you attack an enemy who has not noticed you and is not combat ready, you gain
+an additional turn before actual combat starts.
+
 ## Actions
 
 Actions within a crisis require **action points** (AP) to be spent.
@@ -60,38 +65,15 @@ Certain actions become available or unavailable when characters are affected by
 various conditions. Conditions can be inflicted by other characters, by
 themselves or the environment.
 
-| Condition | Description                                                                      |
-|-----------|----------------------------------------------------------------------------------|
-| Prone     | Can't melee attack. May provide bonus to *defence vs ranged* and ranged attacks. |
-| Stunned   | Can't act on current turn and does not regain AP.                                |
+| Condition | Description                                                                                |
+|-----------|--------------------------------------------------------------------------------------------|
+| Drunk     | All [Abilities](/character#abilities) and [Skills](/character#skills) impose a -2 penalty. |
+| Prone     | Can't melee attack. May provide bonus to *defence vs ranged* and ranged attacks.           |
+| Stunned   | Can't act on current turn and does not regain AP.                                          |
 
 ## Combat
 
 Combat is the most common kind of a crisis.
-
-### Cover
-
-> Cover provides additional defensive bonuses for melee and ranged combat.
-
-Cover is always relative to other targets. A character can be in total cover for
-an enemy, but in plain sight for another.
-
-| Name        |    Defence |
-|-------------|-----------:|
-| Cover       |         +1 |
-| Heavy Cover |         +3 |
-| Total Cover | unhittable |
-
-!!! tip "Positions and Cover"
-    Being prone does not provide bonuses or penalties to enemies attacking.
-    Instead, being prone and facing an enemy straight on counts as being in
-    heavy cover (only head and shoulds visible).
-
-!!! tip "Cover and firearms"
-    When hiding behind materials that are penetrable by bullets or other
-    projectiles but provide total cover from sight you count as being in heavy
-    cover rather than total cover. Hiding behind a car in a firefight would only
-    provide normal cover.
 
 ### Attacking
 
@@ -141,6 +123,37 @@ applies if there is more than one enemy in range.
       <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>
 
+#### Cover
+
+> Cover provides additional defensive bonuses for melee and ranged combat.
+
+Cover is always relative to other targets. A character can be in total cover for
+an enemy, but in plain sight for another.
+
+| Name        |    Defence |
+|-------------|-----------:|
+| Cover       |         +1 |
+| Heavy Cover |         +3 |
+| Total Cover | unhittable |
+
+<div class="left" markdown="1">
+
+!!! tip "Positions and Cover"
+    Being prone does not provide bonuses or penalties to enemies attacking.
+    Instead, being prone and facing an enemy straight on counts as being in
+    heavy cover (only head and shoulds visible).
+
+</div>
+<div class="right" markdown="1">
+
+!!! tip "Cover and firearms"
+    When hiding behind materials that are penetrable by bullets or other
+    projectiles but provide total cover from sight you count as being in heavy
+    cover rather than total cover. Hiding behind a car in a firefight would only
+    provide normal cover.
+
+</div>
+
 ### Damage
 
 If an attack hits a target, damage is dealt to it. The amount of damage done
@@ -165,8 +178,3 @@ Damage reduces the character's [Endurance](/character#endurance).
 [Critical Hits](/stunts#critical-hit) deal the weapon's critical damage to the
 target's [Health](/character#health) pool. An attack that deals critical damage
 reduces the target's armour Durability by two, instead of only one.
-
-### Surprise Round
-
-If you attack an enemy who has not noticed you and is not combat ready, you gain
-an additional turn before actual combat starts.
