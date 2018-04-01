@@ -104,9 +104,9 @@ an enemy, but in plain sight for another.
       <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
     </div>
 
-### Melee Combat
+### Defence
 
-#### Defence
+#### Melee Combat
 
 The *defence vs melee* is a fixed value determined by some character related
 stats.
@@ -131,11 +131,9 @@ applies if there is more than one enemy in range.
     his *defence vs melee* drops by a total of 4, resulting in a *defence vs
     melee* of 12, making him an easy target.
 
-### Ranged Combat
+#### Ranged Combat
 
-#### Defence
-
-!!! summary "Defence vs melee"
+!!! summary "Defence vs ranged"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Base">10</span> ±
       <span data-bracket-top="Ability Modifier">Speed</span> +
