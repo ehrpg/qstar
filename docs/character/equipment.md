@@ -35,6 +35,31 @@ effects the item's attributes.
 
 > Outfits categorize special clothing, armour and suits.
 
+### Armour
+
+Armour adds another pool to your character, called **durability**. Special
+armour also provides a bonus to [Defense](/crisis#defence).
+
+| Name             |   DR | Durability | Weight | Cost | Notes |
+|------------------|-----:|-----------:|-------:|-----:|-------|
+| Body Armour MK I |    5 |          3 |      2 |  750 |       |
+|                  |      |            |        |      |       |
+
+The armour's item condition increases or decreases the armour's Durability.
+
+!!! summary "Armour durability"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Armour Base">Durability</span> ±
+        <span data-bracket-top="Item condition">Modifier</span>
+    </div>
+
+### Outfits
+
+| Name | Weight | Cost | Notes |
+|------|-------:|-----:|-------|
+|      |        |      |       |
+|      |        |      |       |
+
 ## Weapons
 
 All melee weapons use the *Melee* skill, while ranged weapons use the *Light

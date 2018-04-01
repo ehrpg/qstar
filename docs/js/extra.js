@@ -54,7 +54,12 @@
     var div = void 0
     nodes.forEach(function (node) {
       if (node.nodeName.search(/H\d/i) > -1) {
-        div = document.createElement('div')
+        div = document.createElement('section')
+
+        var a = document.createElement('a')
+        a.id = node.id
+        node.id = '_' + node.id
+        divs.push(a)
         divs.push(div)
         div.appendChild(node)
       }

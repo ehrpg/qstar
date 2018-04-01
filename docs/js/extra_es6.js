@@ -45,6 +45,10 @@
     let element = start
     let nodes = []
     while ((element = element.nextElementSibling) !== end) {
+      if (!wrapper.id && element.id) {
+        wrapper.id = element.id
+        element.id = '_' + element.id
+      }
       nodes.push(element)
     }
 

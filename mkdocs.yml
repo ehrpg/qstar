@@ -60,7 +60,6 @@ pages:
         - Introduction: 'index.md'
         - Quick Start Rules: 'quick-start.md'
         # - notes: 'notes.md'
-        # - Stunts: 'stunts.md'
 
         - Character:
             - Character Creation: 'character-creation.md'
@@ -72,6 +71,7 @@ pages:
             - Equipment: 'character/equipment.md'
 
         - Crisis: 'crisis.md'
+        - Stunts: 'stunts.md'
 
         - Vehicles & Vessels:
             - Vessels: 'vessel/index.md'

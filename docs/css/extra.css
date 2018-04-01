@@ -320,7 +320,18 @@ h5 > a:after {
   line-height: 1.4;
 }
 
-.md-typeset:not(.md-search-result__item) div.qs-list + div.cols-wrapper > div {
+.md-typeset:not(.md-search-result__item) div.qs-list + div.cols-wrapper :target {
+  display: block;
+  position: relative;
+  top: -5rem;
+  visibility: hidden;
+}
+
+.md-typeset:not(.md-search-result__item) div.qs-list + div.cols-wrapper :target + section {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.md-typeset:not(.md-search-result__item) div.qs-list + div.cols-wrapper > section {
   padding-top: 1em;
 }
 
@@ -515,12 +526,10 @@ nav.md-nav--primary > ul.md-nav__list > li:not(:first-child) {
   }
   .cols-wrapper {
     float: left;
-    width: 48%;
-    margin-right: 2%;
+    width: 50%;
   }
-  .cols-wrapper-right {
-    margin-right: 0;
-    margin-left: 2%;
+  .cols-wrapper > section {
+    padding-right: 2%;
   }
 }
 
@@ -665,6 +674,15 @@ i[f]:before {
   content: "\E14C";
 }
 
+blockquote.important {
+  border-left: .4rem solid #3f51b5;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+table thead th:hover {
+  cursor: pointer;
+}
+
 .qstar-2ones:after {
   content: "\E90E \E90E";
 }
@@ -674,16 +692,11 @@ i[f]:before {
   content: "\E90F \E90F";
 }
 
+.qs-d6 {
+  font-style: normal;
+}
+
 .qs-d6:after {
   content: "\E90F" !important;
-}
-
-blockquote.important {
-  border-left: .4rem solid #3f51b5;
-  color: rgba(0, 0, 0, 0.87);
-}
-
-table thead th:hover {
-  cursor: pointer;
 }
 /*# sourceMappingURL=extra.css.map */

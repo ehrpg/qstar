@@ -34,7 +34,18 @@
   line-height: 1.4;
 }
 
-.md-typeset:not(.md-search-result__item) div.qs-list + div.cols-wrapper > div {
+.md-typeset:not(.md-search-result__item) div.qs-list + div.cols-wrapper :target {
+  display: block;
+  position: relative;
+  top: -5rem;
+  visibility: hidden;
+}
+
+.md-typeset:not(.md-search-result__item) div.qs-list + div.cols-wrapper :target + section {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.md-typeset:not(.md-search-result__item) div.qs-list + div.cols-wrapper > section {
   padding-top: 1em;
 }
 

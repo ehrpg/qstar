@@ -61,8 +61,11 @@ nav.md-nav--primary > ul.md-nav__list > li:not(:first-child) {
 
   .cols-wrapper {
     float: left;
-    width: 48%;
-    margin-right: 2%;
+    width: 50%;
+
+    > section {
+      padding-right: 2%;
+    }
       //   column-count: 2;
   //   column-gap: 25px;
 
@@ -74,10 +77,8 @@ nav.md-nav--primary > ul.md-nav__list > li:not(:first-child) {
   //     break-inside: avoid;
   //   }
   }
-  .cols-wrapper-right {
-    margin-right: 0;
-    margin-left: 2%;
-  }
+  // .cols-wrapper-right {
+  // }
 }
 
 .clearfix {
@@ -241,18 +242,6 @@ i[f] {
   }
 }
 
-.qstar-2ones:after {
-  content: "\E90E \E90E";
-}
-
-.qs-2d6:after,
-.qstar-2sixes:after {
-  content: "\E90F \E90F";
-}
-
-.qs-d6:after {
-  content: "\E90F" !important;
-}
 
 blockquote.important {
   border-left: .4rem solid #3f51b5;
@@ -262,5 +251,22 @@ blockquote.important {
 table thead th {
   &:hover {
     cursor: pointer;
+  }
+}
+
+.qstar-2ones:after {
+  content: "\E90E \E90E";
+}
+
+.qs-2d6:after,
+.qstar-2sixes:after {
+  content: "\E90F \E90F";
+}
+
+.qs-d6 {
+  font-style: normal;
+
+  &:after {
+    content: "\E90F" !important;
   }
 }

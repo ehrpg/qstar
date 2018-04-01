@@ -54,9 +54,21 @@
 
     // margin-top: -1px;
 
-    > div {
+    :target {
+      display: block;
+      position: relative;
+      top: -5rem;
+      visibility: hidden;
+
+      & + section {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+    }
+
+    > section {
       padding-top: 1em;
     }
+
 
     h5 {
       float: left;

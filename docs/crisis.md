@@ -158,6 +158,31 @@ weapons](/character/skills#heavy-weapons) skill.
       <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
     </div>
 
+### Damage
+
+If an attack hits a target, damage is dealt to it. The amount of damage done
+depends on the weapon used. The damage of some weapons can be influenced by
+their user, e.g. when wielding a melee weapon which is influenced by
+[Might](/character#might).
+
+!!! summary "Dealing damage"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Weapon">Damage</span> ±
+        <span data-bracket-top="Ability Modifier">Ability</span> ±
+        <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
+    </div>
+
+If a character wears an armour which still has Durability left, reduce the
+damage taken by the armour's DR value. Also, decrease the Durability by one.
+
+Damage reduces the character's [Endurance](/character#endurance).
+
+#### Critical damage
+
+[Critical Hits](/stunts#critical-hit) deal the weapon's critical damage to the
+target's [Health](/character#health) pool. An attack that deals critical damage
+reduces the target's armour Durability by two, instead of only one.
+
 ### Suprise Round
 
 If you attack an enemy who has not noticed you and is not combat ready, you gain
