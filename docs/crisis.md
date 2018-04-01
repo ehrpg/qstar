@@ -17,8 +17,8 @@ higher [Intelligence](/character#intelligence) acts first. If they have the same
 !!! summary "[Turn Order](#turn-order)"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Base">3d6</span> ±
-      <span data-bracket-top="Ability modifier">Intelligence</span> ±
-      <span data-bracket-bottom="Ability modifier">Speed</span> ±
+      <span data-bracket-top="Ability Modifier">Intelligence</span> ±
+      <span data-bracket-bottom="Ability Modifier">Speed</span> ±
       <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>
 
@@ -56,7 +56,7 @@ more AP.
 
 ## Conditions
 
-Certain actions become available or unavailable when characters are effected by
+Certain actions become available or unavailable when characters are affected by
 various conditions. Conditions can be inflicted by other characters, by
 themselves or the environment.
 
@@ -76,11 +76,11 @@ Combat is the most common kind of a crisis.
 Cover is always relative to other targets. A character can be in total cover for
 an enemy, but in plain sight for another.
 
-Can't melee attack targets in total cover.
-
-* Cover `defence +1`
-* Heavy Cover `defence +3`
-* Total Cover `unhittable`
+| Name        |    Defence |
+|-------------|-----------:|
+| Cover       |         +1 |
+| Heavy Cover |         +3 |
+| Total Cover | unhittable |
 
 !!! tip "Positions and Cover"
     Being prone does not provide bonuses or penalties to enemies attacking.
@@ -90,7 +90,8 @@ Can't melee attack targets in total cover.
 !!! tip "Cover and firearms"
     When hiding behind materials that are penetrable by bullets or other
     projectiles but provide total cover from sight you count as being in heavy
-    cover rather than total cover.
+    cover rather than total cover. Hiding behind a car in a firefight would only
+    provide normal cover.
 
 ### Melee Combat
 
@@ -101,8 +102,8 @@ Attacking in melee is done using the *Melee* skill.
 !!! summary "Melee attack"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Base">3d6</span> ±
-      <span data-bracket-top="Skill modifier">Melee</span> ±
-      <span data-bracket-bottom="Skill modifier">Might</span> ±
+      <span data-bracket-top="Skill Modifier">Melee</span> ±
+      <span data-bracket-bottom="Skill Modifier">Might</span> ±
       <span data-bracket-top="Weapon modifier">Hit</span> ±
       <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
     </div>
@@ -115,8 +116,8 @@ stats.
 !!! summary "Defence vs melee"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Base">10</span> ±
-      <span data-bracket-top="Skill modifier">Melee</span> ±
-      <span data-bracket-bottom="Skill modifier">Might</span> +
+      <span data-bracket-top="Skill Modifier">Melee</span> ±
+      <span data-bracket-bottom="Skill Modifier">Might</span> +
       <span data-bracket-top="Defence modifier">Armour</span> ±
       <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
       <span data-bracket-top="per additional enemy">-2</span>
@@ -143,8 +144,8 @@ weapons](/character/skills#heavy-weapons) skill.
 !!! summary "Ranged attack"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Base">3d6</span> ±
-      <span data-bracket-top="Skill modifier">Light/Heavy Weapons</span> ±
-      <span data-bracket-bottom="Skill modifier">Speed</span> ±
+      <span data-bracket-top="Skill Modifier">Light/Heavy Weapons</span> ±
+      <span data-bracket-bottom="Skill Modifier">Speed</span> ±
       <span data-bracket-top="Weapon modifier">Hit</span> ±
       <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
     </div>

@@ -20,7 +20,7 @@ no rank [Skill - Superb](/character/skills/#skills) skills.
 
 !!! summary "Maximum [Skill - Superb](/character/skills/#skills) rank skills"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Ability modifier">Intelligence</span>
+        <span data-bracket-bottom="Ability Modifier">Intelligence</span>
     </div>
 
 ## Skill Checks
@@ -31,8 +31,8 @@ effected by noticeable outside factors, the character has to roll a skill check.
 !!! summary "Skill checks"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Base">3d6</span> ±
-        <span data-bracket-top="Ability modifier">Ability</span> ±
-        <span data-bracket-bottom="Skill modifier">Skill</span> ±
+        <span data-bracket-top="Ability Modifier">Ability</span> ±
+        <span data-bracket-bottom="Skill Modifier">Skill</span> ±
         <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>
 

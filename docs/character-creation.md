@@ -127,7 +127,7 @@ ranks.
 
 !!! example "Example character"
     Our character has 5 [Intelligence](/character#intelligence), resulting in an
-    Ability modifier of +3. We now have a total of 9 [Skill
+    Ability Modifier of +3. We now have a total of 9 [Skill
     Points](/character/skills#skill-points): 5 Base, +3 from the positive Ability
     modifier, and +1 from the [Versatile](/character/perks-flaws#versatile) perk.
 

@@ -234,7 +234,7 @@ The carrying capacity isn't a hard limit. Exceeding it simply drains
 !!! summary "Carrying Capacity"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Base">25</span> ±
-        <span data-bracket-top="Ability modifier">Might</span> *
+        <span data-bracket-top="Ability Modifier">Might</span> *
         <span data-bracket-bottom="Base">5</span> ±
         <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>
@@ -265,7 +265,7 @@ damaged badly, e.g. when losing an eye.
 !!! summary "Maximum [Health](/character/#health)"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Base">25</span> ±
-        <span data-bracket-top="Ability modifier">Might</span> x
+        <span data-bracket-top="Ability Modifier">Might</span> x
         <span data-bracket-bottom="Base">5</span> ±
         <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>
@@ -284,7 +284,7 @@ sprinting cause stress on a character and reduce his
 !!! summary "Maximum [Endurance](/character/#endurance)"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Base">50</span> ±
-        <span data-bracket-top="Ability modifier">Might</span> x
+        <span data-bracket-top="Ability Modifier">Might</span> x
         <span data-bracket-bottom="Base">10</span> ±
         <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>
