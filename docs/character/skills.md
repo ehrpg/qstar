@@ -70,7 +70,7 @@ the same skill is used for both parties.
 
 Below is a list of possible skills, provided by the Q* RPG system.
 
-!!! tip "Available [Skills](#skills)"
+!!! info "Available [Skills](#skills)"
     Like any other RPG system, Q* provides the GM and player with a set of
     skills. Neither the system nor characters are limited to these skills: if
     you require different skills to suite your needs, then add them to your

@@ -41,7 +41,7 @@ isn't available to you.
 
 Below is a list of possible perks, provided by the Q* RPG system.
 
-!!! tip "Available perks"
+!!! info "Available perks"
     Like any other  RPG system, Q* provides the GM and player with a set of
     perks. Neither the system nor characters are limited to these perks: if
     you require different perks to suite your needs, then add them to your
@@ -227,7 +227,7 @@ may even build an adventure around the flaw removal.
 
 Below is a list of possible flaws, provided by the Q* RPG system.
 
-!!! tip "Available flaws"
+!!! info "Available flaws"
     Like any other  RPG system, Q* provides the GM and player with a set of
     flaws. Neither the system nor characters are limited to these flaws: if
     you require different flaws to suite your needs, then add them to your

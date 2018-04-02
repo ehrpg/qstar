@@ -94,6 +94,11 @@ character. This maximum value is modified by Circumstances,
 The current value for a currency can **never** exceed the maximum value. All
 exceeding points are usually lost.
 
+[Influence](/character#influence), [Resources](/character#resources) and
+[Research](/character#research) can be traded for each other. Any two currencies
+of one sort can be traded in for any other. [Downtime](/character#downtime)
+cannot be traded.
+
 <div class="left" markdown="1">
 
 ### Downtime
@@ -192,9 +197,6 @@ the experimental equipment or vessel can be acquired.
 Certain ugprades require [Research](#research) in order to be unlocked. Upgrades
 have to be unlocked only once, and *can* be shared between characters. Unlocking
 upgrades enables the acquisition of better equipment and vessels.
-
-Two points of [Research](#research) can also be traded for one
-[Influence](#influence).
 
 !!! summary "Maximum [Research](#research)"
     <div class="formula formula-top formula-bottom">

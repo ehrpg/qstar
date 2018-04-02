@@ -76,18 +76,32 @@ otherwise noted.
 
 ### Ranged Weapons
 
-* **Capacity** indicates the amount of uses per magazine. The weapon has to be
+* **DMG** shows the amount of damage dealt by the weapon.
+
+* **CRIT** shows the amount of damage dealth to the target's
+  [Health](/characte#health) pool on a critical hit.
+
+* **RNG** indicates the weapon's range increment. Each increment imposes a -2
+  penalty to the attack.
+
+* **MAG** provides the number of magazines. A long rest refills the amount of
+  magazines you have.
+
+* **CAP** indicates the amount of uses per magazine. The weapon has to be
   **reloaded** if the current capacity drops to zero.
 
-* **Magazines** provides the number of magazines. A long rest refills the amount
-  of magazines you have.
+* **RoF** indicates how many shots can be fired with each attack. A **RoF**
+  value higher than 1 allows multiple shots to be fired. Each multiple shot adds
+  1d6 to the attack.
 
-| Name             | Damage | Weight | Cost | Capacity | Magazines | Notes |
-|------------------|-------:|-------:|-----:|---------:|----------:|-------|
-| Pistol           |        |        |      |          |           |       |
-| Revolver         |        |        |      |          |           |       |
-| Flintlock Pistol |        |        |      |          |           |       |
-| Flintlock Musket |        |        |      |          |           |       |
+* **REL** indicates how much AP it takes to reload the weapon.
+
+| Name             |  DMG | CRIT |  RNG |  MAG |  CAP |  RoF |  REL | Weight | Cost | Notes |
+|------------------|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-------:|-----:|-------|
+| Pistol           |   15 |    4 |    5 |    ∞ |    7 |    1 |    2 |        | 1000 |       |
+| Revolver         |   15 |    4 |    5 |    ∞ |    6 |    1 |    4 |        |  750 |       |
+| Flintlock Pistol |   15 |    4 |    4 |    ∞ |    1 |    1 |    8 |        |  500 |       |
+| Flintlock Musket |   15 |    8 |   15 |    ∞ |    1 |    1 |   10 |        | 1000 |       |
 
 ## Utility
 

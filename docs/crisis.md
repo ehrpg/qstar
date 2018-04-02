@@ -40,6 +40,24 @@ remain AP are disabled until enough AP are accumulated.
     Tracking AP is very easy. Get a d6, put it front of you, and let it face the
     number of AP your character has. If you are at zero AP, put the die aside.
 
+If an action states an AP cost higher than 6, this indicates that the action has
+to be executed over multiple subsequent turns. Executing any other action while
+this action isn't completed yet cancels it.
+
+!!! example "Reloading a flintlock musket"
+    Reloading a flintlock musket takes 10 AP. You can immediatly spend all your
+    AP on reloading. Each subsequent turn you can spend another 4 AP on
+    reloading.
+
+    A character begins reloading a flintlock musket with 3 AP left. After 2 more
+    rounds he would have accumulated 11 AP. So after these 2 rounds he has 1 AP
+    left and his weapon is reloaded.
+
+!!! info "Actions in parallel"
+    Not all actions require your utmost attention. E.g. while reloading you can
+    still give short commands to e.g. other party members. This is up to the GM
+    however.
+
 ### Available Actions
 
 All character can perform basic actions. [Perks](/perks-flaws#perks) and
