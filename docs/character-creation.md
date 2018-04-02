@@ -1,5 +1,3 @@
-
-
 # Character creation
 
 > This section outlines the steps necessary to create a character from scratch

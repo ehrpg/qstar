@@ -103,12 +103,23 @@ Requires
 [Downtime](/character#downtime)
 :   4
 
+##### Fighter
+
+When in melee combat, the penalty to [Defence](/crisis#melee-combat) for
+additional enemies is only applied if there are more than two enemies in range.
+
+Requires
+:   [Melee - Great](/character/skills#melee)
+
+[Downtime](/character#downtime)
+:   3
+
 ##### Gunslinger
 
 Draw any handheld weapon without AP cost.
 
 Requires
-:   4 [Speed](#speed)
+:   [Speed - Good](/character#speed)
 
 [Downtime](/character#downtime)
 :   2
@@ -118,27 +129,26 @@ Requires
 You gain 10 additional [Health](/character/#health) points.
 
 Requires
-:   5 [Might](#might)
+:   [Might - Great](/character#might)
 
 [Downtime](/character#downtime)
 :   1
 
 ##### Leader
 
-Draw any handheld weapon without AP cost.
+You know how to inspire the people around you.
 
 Requires
-:   4 [Charisma](#charisma)
-:   [Command](/character/skills/#available-skills) Trained
+:   [Command - Great](/character/skills/#command)
 
 Command {.qs-2d6}
-:   Effected characters heal 1d6 [endurance](/#endurance) damage [^Leader].
+:   Effected characters heal 5 + 1d6 [Endurance](/#endurance) damage [^Leader].
 
 [Downtime](/character#downtime)
 :   3
 
 [^Leader]:
-    Can only be used once until the effected character has been fully healed
+    A character can only be effected once until fully healed.
 
 ##### Lightning Reflexes
 

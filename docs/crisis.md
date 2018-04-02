@@ -171,7 +171,17 @@ their user, e.g. when wielding a melee weapon which is influenced by
 If a character wears an armour which still has Durability left, reduce the
 damage taken by the armour's DR value. Also, decrease the Durability by one.
 
-Damage reduces the character's [Endurance](/character#endurance).
+Damage reduces the character's [Endurance](/character#endurance). When the
+[Endurance](/character#endurance) pool reaches zero, the AP gain per round is
+reduced to 2.
+
+Once [Endurance](/character#endurance) has reached 0, all subsequent damage is
+dealt to [Health](/character#health). When the [Health](/character#health) pool
+reaches zero, the character is dead.
+
+An armour's DR reduces damage to the character's [Health](/character#health)
+pool, provided it still has Durability left. This reduction reduces the armour's
+Durability by one.
 
 #### Critical damage
 
