@@ -103,3 +103,53 @@ Modifiers from the vessel's primary stats are added to the character's
 * Outfit
 * Weapons
 * Utility
+
+## Weapons
+
+### Weapon slots
+
+Underbarrel
+Scope
+Stock
+Barrel
+Ammunition
+
+### Weapon modifications
+
+#### Underbarrel
+
+Buckshot
+:   Allos the use of a single buckshot for close quarter engagements.
+
+Flashlight
+:   Provides illumination while holding a weapon with two hands.
+
+Grenade launcher
+:   Allows the use of special grenades while holding a weapon with hands,
+without having to swap weapons first.
+
+Laser pointer
+:   Shows where the weapon is pointing at. Enhances the weapon's **HIT** by one.
+
+#### Scopes
+
+2X
+:   Doubles the range increment of the weapon.
+
+4X
+:   Triples the range increment of the weapon. The first increment imposes a -4
+penalty.
+
+10X
+:   Quads the range increment of the weapon. The first increment imposes a -10
+penalty, and the second one a -4 penalty.
+
+#### Ammunition
+
+AP Ammunition
+:   Reduces the armour's durability by another one point.
+
+HP Ammunition
+:   Deals double the amount of [Endurance](/character#endurance) damage to a
+target, provided it's not wearing any armour that provides DR and has durability
+left.
