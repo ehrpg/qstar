@@ -185,8 +185,8 @@ Powerful equipment requiring [Resources](#resources) usually adds
 
 ### Research
 
-> [Research](#research) represents the party's knowledge, which on the other
-> hand allows to unlock new [Research](#research).
+> [Research](#research) represents the character's knowledge, which on the other
+> hand allows to unlock new [Equipment](/character/equipment).
 
 **GAINED**{.hf} by aiding science missions, acquiring blueprints, spending time
 on researching certain scientific fields, etc.
