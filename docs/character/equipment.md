@@ -76,9 +76,9 @@ otherwise noted.
 
 ### Ranged Weapons
 
-* **DMG** shows the amount of damage dealt by the weapon.
+* **END** shows the amount of damage dealt by the weapon.
 
-* **CRIT** shows the amount of damage dealth to the target's
+* **DMG** shows the amount of damage dealth to the target's
   [Health](/characte#health) pool on a critical hit.
 
 * **RNG** indicates the weapon's range increment. Each increment imposes a -2
@@ -96,7 +96,7 @@ otherwise noted.
 
 * **REL** indicates how much AP it takes to reload the weapon.
 
-| Name             |  DMG | CRIT |  RNG |  MAG |  CAP |  RoF |  REL | Weight | Cost | Notes |
+| Name             |  END |  DMG |  RNG |  MAG |  CAP |  RoF |  REL | Weight | Cost | Notes |
 |------------------|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-------:|-----:|-------|
 | Pistol           |   15 |    4 |    5 |    ∞ |    7 |    1 |    2 |        | 1000 |       |
 | Revolver         |   15 |    4 |    5 |    ∞ |    6 |    1 |    4 |        |  750 |       |

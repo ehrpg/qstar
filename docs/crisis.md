@@ -193,16 +193,16 @@ Damage reduces the character's [Endurance](/character#endurance). When the
 [Endurance](/character#endurance) pool reaches zero, the AP gain per round is
 reduced to 2.
 
-Once [Endurance](/character#endurance) has reached 0, all subsequent damage is
-dealt to [Health](/character#health). When the [Health](/character#health) pool
-reaches zero, the character is dead.
+Once [Endurance](/character#endurance) has reached 0, all attacks that hit are
+critical hits. When the [Health](/character#health) pool reaches zero, the
+character is dead.
 
 An armour's DR reduces damage to the character's [Health](/character#health)
-pool, provided it still has Durability left. This reduction reduces the armour's
-Durability by one.
+pool, provided it still has Durability left. Whenever an armour reduces
+[Health](/character#health) damage, it loses one Durability.
 
 #### Critical damage
 
-[Critical Hits](/stunts#critical-hit) deal the weapon's critical damage to the
-target's [Health](/character#health) pool. An attack that deals critical damage
-reduces the target's armour Durability by two, instead of only one.
+[Critical Hits](/stunts#critical-hit) deal the weapon's damage to the target's
+[Health](/character#health) pool. An attack that deals critical damage reduces
+the target's armour Durability by two, instead of only one.

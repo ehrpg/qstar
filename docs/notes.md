@@ -33,8 +33,6 @@ Moved to [Crisis](/crisis).
 
 Moved to [Equipment](/Equipment).
 
-
-
 # Vessel
 
 #### Origin
