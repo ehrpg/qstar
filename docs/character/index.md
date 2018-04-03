@@ -224,23 +224,6 @@ adaptable.
 Every character has 0 XP upon creation.
 </blockquote>
 
-## Carrying Capacity
-
-A character's carrying capacity is dervied from a character's [Might](#might).
-[Perks](/character/perks-flaws#perks), [Flaws](/character/perks-flaws#flaws) and
-[Race](/character/races) can influence the carrying capacity.
-
-The carrying capacity isn't a hard limit. Exceeding it simply drains
-[Endurance](#endurance).
-
-!!! summary "Carrying Capacity"
-    <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">25</span> ±
-        <span data-bracket-top="Ability Modifier">Might</span> *
-        <span data-bracket-bottom="Base">5</span> ±
-        <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
-    </div>
-
 ## Pools
 
 > Each creature has [Health](/character/#health) and

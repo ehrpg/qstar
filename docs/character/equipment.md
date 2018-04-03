@@ -5,13 +5,21 @@
 All entries list the price for a single item. If more items can be bougth with
 the provided price, the table shows the amount under the `#` column.
 
-* `Weight` shows the weight of items in kilogramms [kg].
-
-* `Cost` shows the cost of items in [Credits](#credits).
-
 ## Credits [Cr.]
 
-A universal currency for buying most things.
+A universal currency for buying most things. Whenever there is a cost listed
+without units, then Credits are used.
+
+## Weight
+
+The Weight column shows the weight of items. The Weight value indicates the
+[Might](/character#might) needed to carry the item. The `#` column in the
+[Ability](/character#abilities) rank table shows the rank required.
+
+### Overburdened
+
+If the Weight of an item exceeds your [Might](/character#might), reduce your
+Defence by the difference.
 
 ## Equipment condition
 

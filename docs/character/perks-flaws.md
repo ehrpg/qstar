@@ -82,7 +82,7 @@ stunt.
 
 ##### Beast of Burden
 
-Increases [Carrying Capacity](/character#carrying-capacity) by 10.
+Ignore 3 penalty points to Defence when overburdened.
 
 Requires
 :   [Might - Great](/character#might)

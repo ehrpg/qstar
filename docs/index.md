@@ -27,6 +27,9 @@ Roleplaying Circumstance
 :   Usually added by a race, perk or flaws. Roleplaying circumstances include
 prejudice, others liking or disliking you, being a known criminal, etc.
 
+Weight
+:   Items, equipment, etc. list their weight.
+
 # Combat
 ## Turn Order
 ## Attack
