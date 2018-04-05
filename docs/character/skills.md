@@ -9,13 +9,13 @@ no rank [Skill - Superb](/character/skills/#skills) skills.
 
 |    # | Skill Rank | Skill Modifier | Downtime cost |
 |-----:|------------|---------------:|--------------:|
-|    1 | Terrible   |             -3 |            -4 |
-|    2 | Poor       |             -2 |            -2 |
-|    3 | Mediocre   |             -1 |            -1 |
-|    4 | Fair       |              0 |             0 |
-|    5 | Good       |             +1 |             1 |
-|    6 | Great      |             +2 |             2 |
-|    7 | Superb     |             +3 |             4 |
+|    0 | Terrible   |             -3 |            -4 |
+|    1 | Poor       |             -2 |            -2 |
+|    2 | Mediocre   |             -1 |            -1 |
+|    3 | Fair       |              0 |             0 |
+|    4 | Good       |             +1 |             1 |
+|    5 | Great      |             +2 |             2 |
+|    6 | Superb     |             +3 |             4 |
 
 
 !!! summary "Maximum [Skill - Superb](/character/skills/#skills) rank skills"

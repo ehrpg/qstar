@@ -16,10 +16,28 @@ The Weight column shows the weight of items. The Weight value indicates the
 [Might](/character#might) needed to carry the item. The `#` column in the
 [Ability](/character#abilities) rank table shows the rank required.
 
+If the Weight column shows zero, then its Weight can be disregarded.
+
 ### Overburdened
 
 If the Weight of an item exceeds your [Might](/character#might), reduce your
 Defence by the difference.
+
+## Slots
+
+A character can only carry a number of items up to his number of slots. The
+number of slots is further influenced by [Perks](/character/perks-flaws#perks)
+and equipment.
+
+Each slot can be occupied by one type of item, whereas one slot creates room for
+a total of 10 Weight.
+
+If an item's Weight is 2, the character can carry up to 5 times the item, before
+occupying another slot.
+
+If an item's Weight is 0, a slot can still only hold 10 specimens.
+
+If an item's Weight is higher than 5, the slot can only hold 1 specimen.
 
 ## Equipment condition
 
@@ -28,13 +46,13 @@ skills for characters, the item condition uses adjectives:
 
 |    # | Item condition | Modifier | Credits cost |
 |-----:|----------------|---------:|-------------:|
-|    1 | Terrible       |       -3 |        - 50% |
-|    2 | Poor           |       -2 |        - 25% |
-|    3 | Mediocre       |       -1 |        - 10% |
-|    4 | Fair           |        0 |            0 |
-|    5 | Good           |       +1 |        + 25% |
-|    6 | Great          |       +2 |        + 50% |
-|    7 | Superb         |       +3 |       + 100% |
+|    0 | Terrible       |       -3 |        - 50% |
+|    1 | Poor           |       -2 |        - 25% |
+|    2 | Mediocre       |       -1 |        - 10% |
+|    3 | Fair           |        0 |            0 |
+|    4 | Good           |       +1 |        + 25% |
+|    5 | Great          |       +2 |        + 50% |
+|    6 | Superb         |       +3 |       + 100% |
 
 Each category of items, or even specific items, describe how this modifier
 effects the item's attributes.
@@ -77,17 +95,18 @@ otherwise noted.
 
 | Name           | Damage | Weight | Cost | Notes |
 |----------------|-------:|-------:|-----:|-------|
-| Brass knuckles |        |    0.5 |      |       |
-| Baton          |        |    0.5 |      |       |
-| Knife          |        |    0.5 |      |       |
-| Sword          |        |      3 | 3000 |       |
+| Brass knuckles |        |      2 |  100 |       |
+| Baton          |        |      3 |  250 |       |
+| Knife          |        |      2 |  100 |       |
+| Sword          |        |      5 | 3000 |       |
 
 ### Ranged Weapons
 
-* **END** shows the amount of damage dealt by the weapon.
+* **END** shows the amount of damage dealt to the target's
+  [Endurance](/character#endurance) by the weapon.
 
-* **DMG** shows the amount of damage dealth to the target's
-  [Health](/characte#health) pool on a critical hit.
+* **DMG** shows the amount of damage dealt to the target's
+  [Health](/character#health) by the weapon.
 
 * **RNG** indicates the weapon's range increment. Each increment imposes a -2
   penalty to the attack.
@@ -106,10 +125,10 @@ otherwise noted.
 
 | Name             |  END |  DMG |  RNG |  MAG |  CAP |  RoF |  REL | Weight | Cost | Notes |
 |------------------|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-------:|-----:|-------|
-| Pistol           |   15 |    4 |    5 |    ∞ |    7 |    1 |    2 |        | 1000 |       |
-| Revolver         |   15 |    4 |    5 |    ∞ |    6 |    1 |    4 |        |  750 |       |
-| Flintlock Pistol |   15 |    4 |    4 |    ∞ |    1 |    1 |    8 |        |  500 |       |
-| Flintlock Musket |   15 |    8 |   15 |    ∞ |    1 |    1 |   10 |        | 1000 |       |
+| Pistol           |   15 |    4 |    5 |    ∞ |    7 |    1 |    2 |      2 | 1000 |       |
+| Revolver         |   15 |    4 |    5 |    ∞ |    6 |    1 |    4 |      2 |  750 |       |
+| Flintlock Pistol |   15 |    4 |    4 |    ∞ |    1 |    1 |    8 |      2 |  500 |       |
+| Flintlock Musket |   15 |    8 |   15 |    ∞ |    1 |    1 |   10 |      3 | 1000 |       |
 
 ## Utility
 
@@ -117,21 +136,21 @@ otherwise noted.
 
 | Name          | Weight | Cost | Notes                                 |
 |---------------|-------:|-----:|---------------------------------------|
-| Battery       |        |    5 |                                       |
-| Flare         |        |   50 | Can be used for 15 minutes.           |
-| Flashlight    |        |  100 | 1 Battery supplies power for 4 hours. |
-| Lamp oil [1L] |        |   40 | 1L oil supplies fuel for 24 hours.    |
-| Oil lamp      |        |   60 |                                       |
-| Rope [10m]    |        |  200 |                                       |
-| Torch         |        |   10 | Can be used for 1 hour.               |
+| Battery       |      0 |    5 |                                       |
+| Flare         |      0 |   50 | Can be used for 15 minutes.           |
+| Flashlight    |      0 |  100 | 1 Battery supplies power for 4 hours. |
+| Lamp oil [1L] |      0 |   40 | 1L oil supplies fuel for 24 hours.    |
+| Oil lamp      |      0 |   60 |                                       |
+| Rope [10m]    |      0 |  200 |                                       |
+| Torch         |      0 |   10 | Can be used for 1 hour.               |
 
 ### Food & Drinks
 
 | Name        | Weight | Cost | Notes                                                        |
 |-------------|-------:|-----:|--------------------------------------------------------------|
-| MRE         |      1 |  100 | One MRE provides food for one day. Long durability.          |
-| Simple Meal |      1 |   20 | One simple meal provides food for one day. Short durability. |
-| Water       |    2.5 |    5 | Provides water for one day.                                  |
+| MRE         |      0 |  100 | One MRE provides food for one day. Long durability.          |
+| Simple Meal |      0 |   20 | One simple meal provides food for one day. Short durability. |
+| Water       |      0 |    5 | Provides water for one day.                                  |
 
 ### Medical
 
@@ -140,15 +159,15 @@ Medical items are used to restore [Health](/character#health) and
 
 | Name           | Weight | Cost | Notes |
 |----------------|-------:|-----:|-------|
-| Bandages       |    0.1 |   90 |       |
-| Medikit        |    2.5 |  750 |       |
-| First Aid Kit  |      1 |  250 |       |
-| Adrenalin Shot |    0.2 |   75 |       |
+| Bandages       |      0 |   90 |       |
+| Medikit        |      0 |  750 |       |
+| First Aid Kit  |      0 |  250 |       |
+| Adrenalin Shot |      0 |   75 |       |
 
 ### Tools
 
 | Name      | Weight | Cost | Notes                                               |
 |-----------|-------:|-----:|-----------------------------------------------------|
-| Blowtorch |    0.5 |  250 |                                                     |
-| Multitool |      1 |  150 |                                                     |
-| Toolbox   |    7.5 |  750 | Contains a hammer, screwdrivers, a saw, tongs, etc. |
+| Blowtorch |      3 |  250 |                                                     |
+| Multitool |      3 |  150 |                                                     |
+| Toolbox   |      4 |  750 | Contains a hammer, screwdrivers, a saw, tongs, etc. |
