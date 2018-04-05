@@ -99,6 +99,10 @@ exceeding points are usually lost.
 of one sort can be traded in for any other. [Downtime](/character#downtime)
 cannot be traded.
 
+[Credits](/equipment#credits) can never buy Currency directly. Exchanging
+[Credits](/equipment#credits) for Currency can usually only be done in
+conjuction with a quest or adventure - this is up to the GM.
+
 <div class="left" markdown="1">
 
 ### Downtime
