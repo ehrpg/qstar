@@ -263,3 +263,45 @@ table thead th {
     content: "\E90F" !important;
   }
 }
+
+@media only screen and (min-width: 20em)  {
+  div.dl-horizontal {
+    dl {
+      dt {
+        float: left;
+        width: 100px;
+        overflow: hidden;
+        clear: left;
+        text-align: right;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-weight: 700;
+      }
+
+      dd {
+        margin-left: 120px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 20em)  {
+  div.dl-horizontal {
+    dl {
+      dt {
+        font-weight: 700;
+      }
+      dd {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+.md-typeset table:not([class]) thead tr th {
+  font-weight: 700;
+  background-color: rgba(0, 0, 0, .1);
+  color: rgba(0,0,0,.87);
+
+  border-bottom: 2px solid #3f51b5;
+}
