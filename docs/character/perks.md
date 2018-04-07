@@ -1,25 +1,4 @@
-# Perks & Flaws
-
-Perks and flaws further customize your character and make them stand out more.
-
-Perks and flaws that change values like maximum currencies use adjectives.
-
-Perks that add abilities or improve abilities use nouns.
-
-## Requirements
-
-Perks and flaws are usually restricted by Ability ranks, Skill ranks, or other
-stats. Races or GM decisions providing perks or flaws ignore the requirement.
-
-If a perk states a Ability rank or Skill rank requirement, the character has to
-have at least that rank. If the Ability rank or Skill rank drops below the
-requirement, the character loses the benefit of the perk.
-
-If a flaw states an Ability rank or Skill rank requirement, the character may not
-exceed that rank. Also a flaw's requirement prohibits a character to improve the
-Ability or Skill above the requirement.
-
-## Perks
+# Flaws
 
 Perks unlock abilities, improve stats or change roleplayining circumstances in a
 positive way.
@@ -35,7 +14,16 @@ things before you can *buy* a perk, i.e. you first have to:
 Also, if the perk is not reasonable at all for your character, the perk simply
 isn't available to you.
 
-### Available Perks
+## Requirements
+
+Perks are usually restricted by Ability ranks, Skill ranks, or other stats.
+Races or GM decisions providing perks ignore the requirement.
+
+If a perk states a Ability rank or Skill rank requirement, the character has to
+have at least that rank. If the Ability rank or Skill rank drops below the
+requirement, the character loses the benefit of the perk.
+
+## Available Perks
 
 <div class="col-layout-start"></div>
 
@@ -205,116 +193,5 @@ Requires
 
 [Downtime](/character#downtime)
 :   1
-
-<div class="col-layout-end clearfix"></div>
-
-## Flaws
-
-Flaws outline behavior, add quirks or weaknesses to your character or change
-roleplaying circumstances in a negative way.
-
-<!-- TODO add flaw additional requirements text -->
-
-Also, if the flaw is not reasonable at all for your character, the flaw simply
-isn't available to you.
-
-Some flaws can be removed, but that usually requires a lot of hard work. A GM
-may even build an adventure around the flaw removal.
-
-### Available Flaws
-
-<div class="col-layout-start"></div>
-
-Below is a list of possible flaws, provided by the Q* RPG system.
-
-!!! info "Available flaws"
-    Like any other  RPG system, Q* provides the GM and player with a set of
-    flaws. Neither the system nor characters are limited to these flaws: if
-    you require different flaws to suite your needs, then add them to your
-    game.
-
-<div class="col-layout-end"></div>
-<div class="col-layout-start qs-list"></div>
-
-Flaws are represented in the following way:
-
-##### Example Flaw
-
-Description or drawback of the flaw.
-
-Requires
-:   Requirements that have to be met in order for the flaw to be available.
-
-<div class="col-layout-end clearfix"></div>
-
----
-
-<div class="col-layout-start qs-list"></div>
-
-<!-- A-N -->
-
-##### Incurious
-
-Maximum Technology -1
-
-Requires
-:   -
-
-[Downtime](/character#downtime)
-:   1
-
-##### Introvert
-
-[Charisma](/character/#charisma)  -1
-
-[Downtime](/character#downtime)
-:   2
-
-##### Illiterate
-
-You are unable to read any texts. You can however recognise common names, e.g.
-"Inn"
-
-Requires
-:   -
-
-[Downtime](/character#downtime)
-:   2
-
-<div class="col-layout-end"></div>
-<div class="col-layout-start qs-list"></div>
-
-<!-- O-Z -->
-
-##### Poor
-
-Maximum Influence -1
-
-Requires
-:   -
-
-[Downtime](/character#downtime)
-:   1
-
-##### Uneducated
-
-[Intelligence](/character/#intelligence) -1
-
-[Downtime](/character#downtime)
-:   2
-
-##### Slow
-
-[Speed](/character/#speed) -1
-
-[Downtime](/character#downtime)
-:   2
-
-##### Weak
-
-[Might](/character/#might) -1
-
-[Downtime](/character#downtime)
-:   2
 
 <div class="col-layout-end clearfix"></div>

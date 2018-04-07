@@ -33,10 +33,10 @@ Below is a list of possible races, provided by the Q* RPG system.
 
 Humans are a versatile race.
 
-* [Perks](/perks-flaws#perks)
+* [Perks](/perks)
 :   -
 
-* [Flaws](/perks-flaws#flaws)
+* [Flaws](/flaws)
 :   -
 
 * [Downtime](/character/#downtime)

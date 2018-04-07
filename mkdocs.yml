@@ -67,7 +67,8 @@ pages:
             - Races: 'character/races.md'
             - Character: 'character/index.md'
             - Skills: 'character/skills.md'
-            - Perks & Flaws: 'character/perks-flaws.md'
+            - Perks: 'character/perks.md'
+            - Flaws: 'character/flaws.md'
             - Equipment: 'character/equipment.md'
 
         - Crisis: 'crisis.md'

@@ -89,7 +89,7 @@ Charisma is mostly used in social interactions between characters and NPCs.
 
 Currencies are limited by a maximum value, and are used to improve your
 character. This maximum value is modified by Circumstances,
-[Perks](/perks-flaws#perks), and permanently due to [Experience](#experience).
+[Perks](/perks), and permanently due to [Experience](#experience).
 
 The current value for a currency can **never** exceed the maximum value. All
 exceeding points are usually lost.

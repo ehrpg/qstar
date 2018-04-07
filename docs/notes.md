@@ -21,9 +21,13 @@ Moved to [Character](/character).
 
 Moved to [Skills](/skills).
 
-### Perks & Flaws
+### Perks
 
-Moved to [Perks & Flaws](/perks-flaws).
+Moved to [Perks](/perks).
+
+### Flaws
+
+Moved to [Flaws](/flaws).
 
 ### Crisis
 

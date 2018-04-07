@@ -60,7 +60,7 @@ this action isn't completed yet cancels it.
 
 ### Available Actions
 
-All character can perform basic actions. [Perks](/perks-flaws#perks) and
+All character can perform basic actions. [Perks](/perks) and
 [Equipment](/character/equipment) can make additional actions available.
 
 This table provides a guideline for actions and their AP cost. These apply

@@ -63,7 +63,7 @@ Order](/crisis#turn-order) and [Defence](/crisis#defence).
 
 A character can only carry a number of items up to her number of slots. The
 number of slots is further influenced by [Might](/character#might),
-[Perks](/character/perks-flaws#perks) and equipment.
+[Perks](/character/perks) and equipment.
 
 An item occupies slots equal to its Weight. An item with a Weight of 4 occupies
 4 slots.

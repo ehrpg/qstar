@@ -14,7 +14,7 @@ additional circumstances, e.g. upgrading [Might](/character#might) could cost
 
 Every creature starts with an amount of [Downtime](/character#downtime) that can
 be used to improve your character. Decreasing your character's power through
-lowering ranks or *buying* [Flaws](/character/perks-flaws#flaws) nets you
+lowering ranks or *buying* [Flaws](/character/flaws) nets you
 [Downtime](/character#downtime), but only to an extent. E.g. a GM can restrict
 you in how far you can lower an [Ability](/character#abilities) or a
 [Skill](/character/skills#skills).
@@ -24,7 +24,7 @@ you in how far you can lower an [Ability](/character#abilities) or a
 
 The [Downtime](/character#downtime) received for character creation is
 determined by the creature's [Race](/character/races) and
-[Flaws](/character/perks-flaws#flaws).
+[Flaws](/character/flaws).
 
 Also, while creating a character [Downtime](/character#downtime) can be traded
 for any other Currency. One [Downtime](/character#downtime) provides two of any
@@ -77,13 +77,13 @@ as trainers, shops, items, etc.
 
 Every creature starts with its Ability ranks set to [Ability -
 Poor](/character#abilities), unless otherwise noted by its
-[Race](/character/races) and [Flaws](/character/perks-flaws#flaws).
+[Race](/character/races) and [Flaws](/character/flaws).
 
 ## Skills
 
 Every creature starts with its Skill ranks set to [Skill -
 Poor](/character/skills#skills), unless otherwise noted by its
-[Race](/character/races) and [Flaws](/character/perks-flaws#flaws).
+[Race](/character/races) and [Flaws](/character/flaws).
 
 Additionally, Skill ranks can never be higher than their corresponding Ability
 ranks.
@@ -99,7 +99,7 @@ ranks.
 !!! example "Example character"
     Our character is human. The human race provides us with the perk
     [Versatile](/character/perks-flaws#versatile), which gives us another [Skill
-    Point](/character/skills#skill-points). We also gain 2 [Flaws](/character/perks-flaws#flaws)
+    Point](/character/skills#skill-points). We also gain 2 [Flaws](/character/flaws)
     however. Let's make a mental note and pick them later.
 
 ### 2. Assign abilities
