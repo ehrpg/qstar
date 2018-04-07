@@ -38,9 +38,17 @@ disregarded.
 
 ### Overburdened
 
-If the Weight of an item exceeds your [Might](/character#might), everything
-speed related is reduced by the difference. This includes [Turn
+Only items that are equipped, e.g. wielded weapons, worn armour and outfits,
+etc. are subject to this rule. An item that's kept in the character's inventory
+is not influencing the character.
+
+An item's Weight exceeding the character's [Might](/character#might) reduces a
+character's [Speed](/character#speed) by the difference. This includes [Turn
 Order](/crisis#turn-order) and [Defence](/crisis#defence).
+
+!!! danger "Overburdened"
+    This penalty does not reduce the [Speed](/character#speed) rank at all. It
+    simply reduces all checks related to it.
 
 !!! example "Overburdened"
     Jack has [Might - Mediocre](/character#might) (rank 3), and picks up an item
@@ -68,13 +76,13 @@ skills for characters, the item condition uses adjectives:
 
 |    # | Item condition | Modifier | [RES](/character#resources) cost |
 |-----:|----------------|---------:|---------------------------------:|
-|    1 | Terrible       |       -3 |                               -1 |
-|    2 | Poor           |       -2 |                                0 |
+|    1 | Terrible       |       -3 |                               -2 |
+|    2 | Poor           |       -2 |                               -1 |
 |    3 | Mediocre       |       -1 |                                0 |
 |    4 | Fair           |        0 |                                0 |
 |    5 | Good           |       +1 |                                0 |
-|    6 | Great          |       +2 |                                0 |
-|    7 | Superb         |       +3 |                               +1 |
+|    6 | Great          |       +2 |                               +1 |
+|    7 | Superb         |       +3 |                               +2 |
 
 Any item can receive the modifier to any of its stats, either all on one
 modifier or split. For example, a superb weapon could receive +1 to its **HIT**
@@ -112,21 +120,21 @@ otherwise noted.
 
 ### Melee Weapons
 
-| Name           | Damage | Weight | Cost | Notes |
-|----------------|-------:|-------:|-----:|-------|
-| Brass knuckles |        |      2 |  100 |       |
-| Baton          |        |      3 |  250 |       |
-| Knife          |        |      2 |  100 |       |
-| Sword          |        |      5 | 3000 |       |
+| Name           |  END |  DMG |  RoF | Weight | Cost |
+|----------------|-----:|-----:|-----:|-------:|-----:|
+| Brass knuckles |   10 |    4 |    1 |      2 |  100 |
+| Baton          |   20 |    4 |    1 |      3 |  250 |
+| Knife          |   15 |    6 |    1 |      2 |  100 |
+| Sword          |   25 |   10 |    1 |      5 | 3000 |
 
 ### Ranged Weapons
 
-| Name             |  END |  DMG |  RNG |  MAG |  CAP |  RoF |  REL | Weight | Cost | Notes |
-|------------------|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-------:|-----:|-------|
-| Pistol           |   15 |    4 |    5 |    ∞ |    7 |    1 |    2 |      2 | 1000 |       |
-| Revolver         |   15 |    4 |    5 |    ∞ |    6 |    1 |    4 |      2 |  750 |       |
-| Flintlock Pistol |   15 |    4 |    4 |    ∞ |    1 |    1 |    8 |      2 |  500 |       |
-| Flintlock Musket |   15 |    8 |   15 |    ∞ |    1 |    1 |   10 |      3 | 1000 |       |
+| Name             |  END |  DMG |  RNG |  MAG |  CAP |  RoF |  REL | Weight | Cost |
+|------------------|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-------:|-----:|
+| Pistol           |   15 |    6 |    5 |    ∞ |    7 |    1 |    2 |      2 | 1000 |
+| Revolver         |   15 |    6 |    5 |    ∞ |    6 |    1 |    4 |      2 |  750 |
+| Flintlock Pistol |   15 |    6 |    4 |    ∞ |    1 |    1 |    8 |      2 |  500 |
+| Flintlock Musket |   15 |   12 |   15 |    ∞ |    1 |    1 |   10 |      3 | 1000 |
 
 ## Outfits
 
