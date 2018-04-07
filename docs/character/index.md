@@ -285,6 +285,10 @@ sprinting cause stress on a character and reduce his
 
 See [Skills](/character/skills/).
 
-## Perks & Flaws
+## Perks
 
-See [Perks & Flaws](/character/perks-flaws/).
+See [Perks](/character/perks/).
+
+## Flaws
+
+See [Flaws](/character/flaws/).
