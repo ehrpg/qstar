@@ -70,12 +70,12 @@
 		],
 		"description": "Insert Resources Link"
 	},
-	"Insert Research Link": {
-		"prefix": "research",
+	"Insert Technology Link": {
+		"prefix": "technology",
 		"body": [
-			"[Research](/character#research) "
+			"[Technology](/character#technology) "
 		],
-		"description": "Insert Research Link"
+		"description": "Insert Technology Link"
 	},
 	"Insert Credits Link": {
 		"prefix": "cr",

@@ -66,18 +66,67 @@ slot, unless otherwise mentioned.
 An item *can* have a condition, making it better or worse. As with abilities and
 skills for characters, the item condition uses adjectives:
 
-|    # | Item condition | Modifier |
-|-----:|----------------|---------:|
-|    1 | Terrible       |       -3 |
-|    2 | Poor           |       -2 |
-|    3 | Mediocre       |       -1 |
-|    4 | Fair           |        0 |
-|    5 | Good           |       +1 |
-|    6 | Great          |       +2 |
-|    7 | Superb         |       +3 |
+|    # | Item condition | Modifier | [RES](/character#resources) cost |
+|-----:|----------------|---------:|---------------------------------:|
+|    1 | Terrible       |       -3 |                               -1 |
+|    2 | Poor           |       -2 |                                0 |
+|    3 | Mediocre       |       -1 |                                0 |
+|    4 | Fair           |        0 |                                0 |
+|    5 | Good           |       +1 |                                0 |
+|    6 | Great          |       +2 |                                0 |
+|    7 | Superb         |       +3 |                               +1 |
 
-Each category of items, or even specific items, describe how this modifier
-effects the item's attributes.
+Any item can receive the modifier to any of its stats, either all on one
+modifier or split. For example, a superb weapon could receive +1 to its **HIT**
+stat, and +2 to its **CAP** stat.
+
+## Weapons
+
+All melee weapons use the [Melee](/character/skills#melee) skill, while ranged
+weapons use the [Light weapon](/character/skills#light-weapons) skill, unless
+otherwise noted.
+
+* **HIT** shows the bonus or penalty the attack skill roll receives.
+
+* **END** shows the amount of damage dealt to the target's
+  [Endurance](/character#endurance) by the weapon.
+
+* **DMG** shows the amount of damage dealt to the target's
+  [Health](/character#health) by the weapon.
+
+* **RNG** indicates the weapon's range increment. Each increment imposes a -2
+  penalty to the attack.
+
+* **MAG** provides the number of magazines. A long rest refills the amount of
+  magazines you have.
+
+* **CAP** indicates the amount of uses per magazine. The weapon has to be
+  **reloaded** if the current capacity drops to zero.
+
+* **RoF** indicates how many shots can be fired with each attack. A **RoF**
+  value higher than 1 allows multiple shots to be fired. Each multiple shot adds
+  1d6 to the attack.
+
+* **REL** indicates how much AP it takes to reload the weapon.
+
+
+### Melee Weapons
+
+| Name           | Damage | Weight | Cost | Notes |
+|----------------|-------:|-------:|-----:|-------|
+| Brass knuckles |        |      2 |  100 |       |
+| Baton          |        |      3 |  250 |       |
+| Knife          |        |      2 |  100 |       |
+| Sword          |        |      5 | 3000 |       |
+
+### Ranged Weapons
+
+| Name             |  END |  DMG |  RNG |  MAG |  CAP |  RoF |  REL | Weight | Cost | Notes |
+|------------------|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-------:|-----:|-------|
+| Pistol           |   15 |    4 |    5 |    ∞ |    7 |    1 |    2 |      2 | 1000 |       |
+| Revolver         |   15 |    4 |    5 |    ∞ |    6 |    1 |    4 |      2 |  750 |       |
+| Flintlock Pistol |   15 |    4 |    4 |    ∞ |    1 |    1 |    8 |      2 |  500 |       |
+| Flintlock Musket |   15 |    8 |   15 |    ∞ |    1 |    1 |   10 |      3 | 1000 |       |
 
 ## Outfits
 
@@ -107,54 +156,9 @@ The armour's item condition increases or decreases the armour's **Durability**.
 |      |        |      |       |
 |      |        |      |       |
 
-## Weapons
+## Utility Items
 
-All melee weapons use the [Melee](/character/skills#melee) skill, while ranged
-weapons use the [Light weapon](/character/skills#light-weapons) skill, unless
-otherwise noted.
-
-### Melee Weapons
-
-| Name           | Damage | Weight | Cost | Notes |
-|----------------|-------:|-------:|-----:|-------|
-| Brass knuckles |        |      2 |  100 |       |
-| Baton          |        |      3 |  250 |       |
-| Knife          |        |      2 |  100 |       |
-| Sword          |        |      5 | 3000 |       |
-
-### Ranged Weapons
-
-* **END** shows the amount of damage dealt to the target's
-  [Endurance](/character#endurance) by the weapon.
-
-* **DMG** shows the amount of damage dealt to the target's
-  [Health](/character#health) by the weapon.
-
-* **RNG** indicates the weapon's range increment. Each increment imposes a -2
-  penalty to the attack.
-
-* **MAG** provides the number of magazines. A long rest refills the amount of
-  magazines you have.
-
-* **CAP** indicates the amount of uses per magazine. The weapon has to be
-  **reloaded** if the current capacity drops to zero.
-
-* **RoF** indicates how many shots can be fired with each attack. A **RoF**
-  value higher than 1 allows multiple shots to be fired. Each multiple shot adds
-  1d6 to the attack.
-
-* **REL** indicates how much AP it takes to reload the weapon.
-
-| Name             |  END |  DMG |  RNG |  MAG |  CAP |  RoF |  REL | Weight | Cost | Notes |
-|------------------|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-------:|-----:|-------|
-| Pistol           |   15 |    4 |    5 |    ∞ |    7 |    1 |    2 |      2 | 1000 |       |
-| Revolver         |   15 |    4 |    5 |    ∞ |    6 |    1 |    4 |      2 |  750 |       |
-| Flintlock Pistol |   15 |    4 |    4 |    ∞ |    1 |    1 |    8 |      2 |  500 |       |
-| Flintlock Musket |   15 |    8 |   15 |    ∞ |    1 |    1 |   10 |      3 | 1000 |       |
-
-## Utility
-
-### Miscellaneous
+## Miscellaneous Items
 
 | Name          | Weight | Cost | Notes                                 |
 |---------------|-------:|-----:|---------------------------------------|

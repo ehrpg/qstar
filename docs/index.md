@@ -2,16 +2,6 @@
 
 ## Glossary
 
-*Success*{.qs-s}
-:   This indicates, that a check was succeeded or has to be succeeded.
-
-*Failure*{.qs-f}
-:   This indicates, that a check failed or has to be failed.
-
-*Roll*{.qs-d6}
-:   This indicates, that a die on a check is a **6**. The number of dice show
-the number of **6**s that have to be rolled.
-
 [Action point](/crisis#actions)
 :   AP, used for atomic actions in a crisis.
 
@@ -20,15 +10,102 @@ Base
 all characters and creatures.
 
 Difficulty Class
-:   DC. A check equal or higher than the DC is a success, or a failure
+:   DC, a check equal or higher than the DC is a success, or a failure
 otherwise.
+
+*Failure*{.qs-f}
+:   This indicates, that a check failed or has to be failed.
 
 Roleplaying Circumstance
 :   Usually added by a race, perk or flaws. Roleplaying circumstances include
 prejudice, others liking or disliking you, being a known criminal, etc.
 
+*Roll*{.qs-d6}
+:   This indicates, that a die on a check is a **6**. The number of dice show
+the number of **6**s that have to be rolled.
+
+*Success*{.qs-s}
+:   This indicates, that a check was succeeded or has to be succeeded.
+
 Weight
-:   Items, equipment, etc. list their weight.
+:   The minimum requirement for [Might](/character#might). Weight exceeding a
+character's [Might](/character#might) imposes penalties.
+
+## Abbrevations
+
+<div class="dl-horizontal" markdown="1">
+<div class="col-layout-start"></div>
+
+* Abilities
+
+MI
+:   [Might](/character#might)
+
+SP
+:   [Speed](/character#speed)
+
+IN
+:   [Intelligence](/character#intelligence)
+
+CH
+:   [Charisma](/character#charisma)
+
+* Currency
+
+DT
+:   [Downtime](/character#downtime)
+
+INF
+:   [Influence](/character#influence)
+
+RES
+:   [Resources](/character#resources)
+
+TECH
+:   [Technology](/character#technology)
+
+<div class="col-layout-end"></div>
+<div class="col-layout-start"></div>
+
+* Equipment
+
+CR
+:   [Credits](/character/equipment#credits)
+
+DR
+:   [Damage Reduction](/character/equipment/#armour)
+
+HIT
+:   [Hit bonus](/character/equipment/#weapons)
+
+END
+:   [Endurance damage](/character/equipment/#weapons)
+
+DMG
+:   [Health damage](/character/equipment/#weapons)
+
+RNG
+:   [Range](/character/equipment/#weapons)
+
+MAG
+:   [Magazines](/character/equipment/#weapons)
+
+CAP
+:   [Capacity](/character/equipment/#weapons)
+
+RoF
+:   [Rate of fire](/character/equipment/#weapons)
+
+REL
+:   [Reload](/character/equipment/#weapons)
+
+* Crisis
+
+AP
+: [Action point](/crisis#actions)
+
+<div class="col-layout-end clearfix"></div>
+</div>
 
 # Combat
 ## Turn Order

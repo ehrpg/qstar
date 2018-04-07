@@ -61,13 +61,14 @@ pages:
         - Quick Start Rules: 'quick-start.md'
         # - notes: 'notes.md'
 
-        - Character Creation: 'character-creation.md'
+        - Character:
+            - Character Creation: 'character-creation.md'
 
-        - Races: 'character/races.md'
-        - Character: 'character/index.md'
-        - Skills: 'character/skills.md'
-        - Perks & Flaws: 'character/perks-flaws.md'
-        - Equipment: 'character/equipment.md'
+            - Races: 'character/races.md'
+            - Character: 'character/index.md'
+            - Skills: 'character/skills.md'
+            - Perks & Flaws: 'character/perks-flaws.md'
+            - Equipment: 'character/equipment.md'
 
         - Crisis: 'crisis.md'
         - Stunts: 'stunts.md'
