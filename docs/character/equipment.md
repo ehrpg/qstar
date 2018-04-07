@@ -21,9 +21,11 @@ A universal currency for buying most things.
 
 Looting items that only cost [Credits](/equipment#credits) can be used normally.
 
-
-Items that required [Resources](/character#resources) stop functioning after a
-while. For example the magazines of weapons cannot be restocked when resting.
+If a looted item requires [Resources](/character#resources) a character may
+spend his available [Resources](/character#resources) on it to keep it. If he
+doesn't have enough [Resources](/character#resources) to keep it or doesn't want
+to keep it, it stops functioning after a while. For example the magazines of a
+weapon cannot be restocked when resting.<br>
 These items can be sold for the usual [Credits](/equipment#credits) though. They
 do not give you extra [Resources](/character#resources) however.
 
@@ -140,14 +142,14 @@ otherwise noted.
 
 ### Ranged Weapons
 
-| Name             |  END |  DMG |  RNG |  MAG |  CAP |  RoF |  REL | Weight | Cost |
+| Name             |  END |  DMG |  RNG |  RoF |  MAG |  CAP |  REL | Weight | Cost |
 |------------------|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-------:|-----:|
-| Pistol           |   15 |    6 |    5 |    ∞ |    7 |    1 |    2 |      2 | 1000 |
-| Revolver         |   15 |    6 |    5 |    ∞ |    6 |    1 |    4 |      2 |  750 |
-| Flintlock Pistol |   15 |    6 |    4 |    ∞ |    1 |    1 |    8 |      2 |  500 |
-| Flintlock Musket |   15 |   12 |   15 |    ∞ |    1 |    1 |   10 |      3 | 1000 |
+| Pistol           |   15 |    6 |    5 |    1 |    ∞ |    7 |    2 |      2 | 1000 |
+| Revolver         |   15 |    6 |    5 |    1 |    ∞ |    6 |    4 |      2 |  750 |
+| Flintlock Pistol |   15 |    6 |    4 |    1 |    ∞ |    1 |    8 |      2 |  500 |
+| Flintlock Musket |   15 |   12 |   15 |    1 |    ∞ |    1 |   10 |      3 | 1000 |
 
-## Outfits
+## Armour & Outfits
 
 > Outfits categorize special clothing, armour and suits.
 
@@ -158,15 +160,9 @@ armour can also provide a bonus to [Defence](/crisis#defence).
 
 | Name             |   DR | Durability | Weight | Cost | Notes |
 |------------------|-----:|-----------:|-------:|-----:|-------|
-| Body Armour MK I |    5 |          3 |      2 |  750 |       |
+| Body Armour MK I |    5 |          3 |      3 |  750 |       |
 
 The armour's item condition increases or decreases the armour's **Durability**.
-
-!!! summary "Armour durability"
-    <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Armour Base">Durability</span> ±
-        <span data-bracket-top="Item condition">Modifier</span>
-    </div>
 
 ### Outfits
 
