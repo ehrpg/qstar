@@ -69,6 +69,13 @@ An item occupies slots equal to its Weight. An item with a Weight of 4 occupies
 If the item's Weight is 0 or is not specified, then the items still requires one
 slot, unless otherwise mentioned.
 
+!!! summary "Amount of slots"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Base">10</span> ±
+        <span data-bracket-top="Modifier">Might * 2</span> ±
+        <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
+    </div>
+
 ## Equipment condition
 
 An item *can* have a condition, making it better or worse. As with abilities and
@@ -84,9 +91,13 @@ skills for characters, the item condition uses adjectives:
 |    6 | Great          |       +2 |                               +1 |
 |    7 | Superb         |       +3 |                               +2 |
 
-Any item can receive the modifier to any of its stats, either all on one
-modifier or split. For example, a superb weapon could receive +1 to its **HIT**
-stat, and +2 to its **CAP** stat.
+Any item can receive the modifier to **any** of its stats. The modifier can also
+be split between multiple stats. For example, a superb weapon could receive +1
+to its **HIT** stat, and +2 to its **CAP** stat.
+
+Better items need more [Resources](/character#resources) and inferior items need
+less [Resources](/character#resources) to be maintained. The Modifier of an item
+however can reduce the [Resources](/character#resources) cost, if any, too.
 
 ## Weapons
 
