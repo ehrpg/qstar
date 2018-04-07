@@ -6,14 +6,14 @@
 
 ##### Critical Hit
 
-Deals the used weapon's critical damage to your target's
-[Health](/character#health) pool.
+Deals the used weapon's damage to your target's [Health](/character#health)
+pool.
 
 Uses
-:   Once per rolled **6**{.qs-d6}
+:   Up to RoF used and rolled **6**{.qs-d6}
 
 Requires
-:   *Attack skill*{.qs-d6}
+:   Attack skill
 
 <div class="col-layout-end"></div>
 <div class="col-layout-start qs-list"></div>

@@ -1,7 +1,7 @@
 # Crisis
 
 Whenever characters compete against each other or the environment a so-called
-crisis begins. In a crisis time slows down, and actions become more atomic.
+crisis begins. In a crisis time slows down and actions become more atomic.
 
 ## Turn Order
 
@@ -9,10 +9,10 @@ Every involved character in a crisis has to roll to determine the turn order.
 The character with the highest result acts first. Once every character has
 acted, a new **turn** begins.
 
-If two or more characters have rolled the same result, the character with the
+If two or more characters have rolled the same result the character with the
 higher [Intelligence](/character#intelligence) acts first. If they have the same
-[Intelligence](/character#intelligence) score, the character with the higher
-[Speed](/character#speed) acts first. If there is still a tie, roll again.
+[Intelligence](/character#intelligence) score the character with the higher
+[Speed](/character#speed) acts first. If there is still a tie roll again.
 
 !!! summary "[Turn Order](#turn-order)"
     <div class="formula formula-top formula-bottom">
@@ -60,22 +60,21 @@ this action isn't completed yet cancels it.
 
 ### Available Actions
 
-All character can perform basic actions. [Perks](/perks) and
+All characters can perform basic actions. [Perks](/perks) and
 [Equipment](/character/equipment) can make additional actions available.
 
 This table provides a guideline for actions and their AP cost. These apply
 unless stated otherwise, e.g. attacking with an oversized weapon may require
 more AP.
 
-| Action   |   AP | Description                                                                |
-|----------|-----:|----------------------------------------------------------------------------|
-| Attack   |    2 | Attack with a *normal* weapon.                                             |
-| Draw     |    1 | Draw a weapon and make it ready for combat use, e.g. release safety catch. |
-| Hide     |    3 | Hide from others, provided they have no direct vision of you.              |
-| Move     |    1 | Move up to the character's [Speed](#speed) modifier + 5 in meters.         |
-| Sneak    |    1 | Move up to half the character's [Speed](#speed) modifier + 5 in meters.    |
-| Stand Up |    2 | Standing up when being prone.                                              |
-| Use Item |    2 | Use an item in a crisis. The item usually specifies the AP required.       |
+| Action   |   AP | Description                                                             |
+|----------|-----:|-------------------------------------------------------------------------|
+| Attack   |    2 | Attack with a *normal* weapon.                                          |
+| Hide     |    3 | Hide from others, provided they have no direct vision of you.           |
+| Move     |    1 | Move up to the character's [Speed](#speed) modifier + 5 in meters.      |
+| Sneak    |    1 | Move up to half the character's [Speed](#speed) modifier + 5 in meters. |
+| Stand Up |    2 | Standing up when being prone.                                           |
+| Use Item |    2 | Use an item in a crisis. The item usually specifies the AP required.    |
 
 ## Conditions
 
@@ -83,11 +82,12 @@ Certain actions become available or unavailable when characters are affected by
 various conditions. Conditions can be inflicted by other characters, by
 themselves or the environment.
 
-| Condition | Description                                                                                |
-|-----------|--------------------------------------------------------------------------------------------|
-| Drunk     | All [Abilities](/character#abilities) and [Skills](/character#skills) impose a -2 penalty. |
-| Prone     | Can't melee attack. May provide bonus to *defence vs ranged* and ranged attacks.           |
-| Stunned   | Can't act on current turn and does not regain AP.                                          |
+| Condition | Description                                                                                       |
+|-----------|---------------------------------------------------------------------------------------------------|
+| Drunk     | All [Abilities](/character#abilities) and [Skills](/character#skills) checks impose a -3 penalty. |
+| Exhausted | You only regain 2 AP per round.                                                                   |
+| Prone     | Can't melee attack. May provide bonus to *defence vs ranged* and ranged attacks.                  |
+| Stunned   | Can't act on current turn and does not regain AP.                                                 |
 
 ## Combat
 
@@ -179,6 +179,9 @@ depends on the weapon used. The damage of some weapons can be influenced by
 their user, e.g. when wielding a melee weapon which is influenced by
 [Might](/character#might).
 
+**END** indicates the [Endurance](/character#endurance) damage, and **DMG**
+indicates the critical damage dealt by the weapon.
+
 !!! summary "Dealing damage"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Weapon">Damage</span> ±
@@ -186,16 +189,14 @@ their user, e.g. when wielding a melee weapon which is influenced by
         <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
     </div>
 
-If a character wears an armour which still has Durability left, reduce the
-damage taken by the armour's DR value. Also, decrease the Durability by one.
-
 Damage reduces the character's [Endurance](/character#endurance). When the
 [Endurance](/character#endurance) pool reaches zero, the AP gain per round is
 reduced to 2.
 
 Once [Endurance](/character#endurance) has reached 0, all attacks that hit are
-critical hits. When the [Health](/character#health) pool reaches zero, the
-character is dead.
+critical hits. Exceeding [Endurance](/character#endurance) doesn't have any
+effect. When the [Health](/character#health) pool reaches zero, the character is
+dead.
 
 An armour's DR reduces damage to the character's [Health](/character#health)
 pool, provided it still has Durability left. Whenever an armour reduces
