@@ -2,21 +2,21 @@
 
 > Skills abstract your character's education, hobbies and fields of expertise.
 
-A character can only have skills at rank [Skill - Superb](/character/skills/#skills)
-up to his [Intelligence](/character/#intelligence) ability modifier. If the
+A character can only have skills at rank [Skill -
+Superb](/character/skills/#skills) up to his
+[Intelligence](/character/#intelligence) ability modifier. If the
 [Intelligence](/character/#intelligence) is less than 0, the character can have
 no rank [Skill - Superb](/character/skills/#skills) skills.
 
 |    # | Skill Rank | Skill Modifier | Downtime cost |
 |-----:|------------|---------------:|--------------:|
-|    0 | Terrible   |             -3 |            -4 |
-|    1 | Poor       |             -2 |            -2 |
-|    2 | Mediocre   |             -1 |            -1 |
-|    3 | Fair       |              0 |             0 |
-|    4 | Good       |             +1 |             1 |
-|    5 | Great      |             +2 |             2 |
-|    6 | Superb     |             +3 |             4 |
-
+|    1 | Terrible   |             -3 |        -4 (0) |
+|    2 | Poor       |             -2 |        -2 (2) |
+|    3 | Mediocre   |             -1 |        -1 (3) |
+|    4 | Fair       |              0 |         0 (4) |
+|    5 | Good       |             +1 |         1 (5) |
+|    6 | Great      |             +2 |         2 (6) |
+|    7 | Superb     |             +3 |         4 (8) |
 
 !!! summary "Maximum [Skill - Superb](/character/skills/#skills) rank skills"
     <div class="formula formula-top formula-bottom">

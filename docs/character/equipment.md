@@ -13,10 +13,11 @@ without units, then Credits are used.
 ## Weight
 
 The Weight column shows the weight of items. The Weight value indicates the
-[Might](/character#might) needed to carry the item. The `#` column in the
-[Ability](/character#abilities) rank table shows the rank required.
+minimum [Might](/character#might) needed to carry the item. The `#` column in
+the [Ability](/character#abilities) rank table shows the rank required.
 
-If the Weight column shows zero, then its Weight can be disregarded.
+If the Weight column shows zero, then its Weight can be disregarded in terms of
+overburdening.
 
 ### Overburdened
 
@@ -26,18 +27,14 @@ Defence by the difference.
 ## Slots
 
 A character can only carry a number of items up to his number of slots. The
-number of slots is further influenced by [Perks](/character/perks-flaws#perks)
-and equipment.
+number of slots is further influenced by [Might](/character#might),
+[Perks](/character/perks-flaws#perks) and equipment.
 
-Each slot can be occupied by one type of item, whereas one slot creates room for
-a total of 10 Weight.
+An item occupies slots equal to its Weight. An item with a Weight of 4 occupies
+4 slots.
 
-If an item's Weight is 2, the character can carry up to 5 times the item, before
-occupying another slot.
-
-If an item's Weight is 0, a slot can still only hold 10 specimens.
-
-If an item's Weight is higher than 5, the slot can only hold 1 specimen.
+For items with a Weight of 0, only large quantities occupy a slot. Usually 10
+items with a Weight of 0 occupy 1 slot.
 
 ## Equipment condition
 
@@ -46,13 +43,13 @@ skills for characters, the item condition uses adjectives:
 
 |    # | Item condition | Modifier | Credits cost |
 |-----:|----------------|---------:|-------------:|
-|    0 | Terrible       |       -3 |        - 50% |
-|    1 | Poor           |       -2 |        - 25% |
-|    2 | Mediocre       |       -1 |        - 10% |
-|    3 | Fair           |        0 |            0 |
-|    4 | Good           |       +1 |        + 25% |
-|    5 | Great          |       +2 |        + 50% |
-|    6 | Superb         |       +3 |       + 100% |
+|    1 | Terrible       |       -3 |        - 50% |
+|    2 | Poor           |       -2 |        - 25% |
+|    3 | Mediocre       |       -1 |        - 10% |
+|    4 | Fair           |        0 |            0 |
+|    5 | Good           |       +1 |        + 25% |
+|    6 | Great          |       +2 |        + 50% |
+|    7 | Superb         |       +3 |       + 100% |
 
 Each category of items, or even specific items, describe how this modifier
 effects the item's attributes.
