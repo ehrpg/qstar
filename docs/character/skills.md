@@ -40,26 +40,21 @@ effected by noticeable outside factors, the character has to roll a skill check.
 
 ### Skill Ranks and Ability Damage
 
-Temporary [Intelligence](/character/#intelligence) damage **does not** change the
-maximum [Skill - Superb](/character/skills/#skills) rank skills. Permanent
+Temporary [Intelligence](/character/#intelligence) damage **does not** change
+the maximum [Skill - Superb](/character/skills/#skills) rank skills. Permanent
 [Intelligence](/character/#intelligence) damage **does** change those values.
 
 A character can lose his benefits from skills if the ability requirement is not
 met anymore. Only the skill bonus changes, the skill rank stays unchanged.
 
-A skill that has reached [Skill - Fair](/character/skills/#skills) always provides its
-bonus, no matter the current ability value.
 
 !!! example "Example"
     Jack has skilled [Athletics - Great](/character/skills/#skills), and his
-    ability is [Might - Great](/character/#might). He loses might and his rank
-    is reduced to [Might - Fair](/character/#might). His skill also drops to
-    [Athletics - Fair](/character/skills/#skills) temporarily until his might is
-    restored.
-
-    If his [Might - Fair](/character/#might) was further reduced to
-    [Might - Poor](/character/#might), he would still have his skill at
-    [Athletics - Fair](/character/skills/#skills).
+    ability is [Might - Great](/character/#might). He loses
+    [Might](/character#might) and his rank is reduced to [Might -
+    Fair](/character/#might). His skill also drops to [Athletics -
+    Fair](/character/skills/#skills) temporarily until his
+    [Might](/character#might) is restored.
 
 ## Skill competitions
 
@@ -123,7 +118,8 @@ It's opposed by the [Perception](#perception) skill.
 
 #### Operate
 
-This skill is used for piloting or steering a vessel.
+This skill is used for piloting or steering a vessel and remote controlling
+drones.
 
 </div>
 <div class="left" markdown="1">

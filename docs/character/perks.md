@@ -70,7 +70,7 @@ stunt.
 
 ##### Beast of Burden
 
-Ignore 3 penalty points to Defence when overburdened.
+You receive 3 more [Slots](/character/equipment#slots).
 
 Requires
 :   [Might - Great](/character#might)
@@ -196,4 +196,4 @@ Requires
 
 <div class="col-layout-end clearfix"></div>
 
-## Weapon Perks
+## Item Perks

@@ -118,4 +118,4 @@ Requires
 
 <div class="col-layout-end clearfix"></div>
 
-## Weapon Flaws
+## Item Flaws

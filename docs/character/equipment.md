@@ -130,15 +130,16 @@ otherwise noted.
 
 * **REL** indicates how much AP it takes to reload the weapon.
 
-
 ### Melee Weapons
 
-| Name           |  END |  DMG |  RoF | Weight | Cost |
-|----------------|-----:|-----:|-----:|-------:|-----:|
-| Brass knuckles |   10 |    4 |    1 |      2 |  100 |
-| Baton          |   20 |    4 |    1 |      3 |  250 |
-| Knife          |   15 |    6 |    1 |      2 |  100 |
-| Sword          |   25 |   10 |    1 |      5 | 3000 |
+| Name                    |  END |  DMG |  RoF | Weight | Cost |
+|-------------------------|-----:|-----:|-----:|-------:|-----:|
+| Improvised blunt weapon |    8 |    3 |    1 |      - |    - |
+| Improvised sharp weapon |    5 |    5 |    1 |      - |    - |
+| Brass knuckles          |    8 |    4 |    1 |      2 |  100 |
+| Baton                   |   15 |    4 |    1 |      3 |  250 |
+| Knife                   |   12 |    6 |    1 |      2 |  100 |
+| Sword                   |   20 |   10 |    1 |      5 | 3000 |
 
 ### Ranged Weapons
 
@@ -155,12 +156,17 @@ otherwise noted.
 
 ### Armour
 
+Worn armour does not occupy [Slots](#slots).
+
 Armour adds another pool to your character, called **Durability**. Special
 armour can also provide a bonus to [Defence](/crisis#defence).
 
-| Name             |   DR | Durability | Weight | Cost | Notes |
-|------------------|-----:|-----------:|-------:|-----:|-------|
-| Body Armour MK I |    5 |          3 |      3 |  750 |       |
+| Name               |   DR | Durability | Weight | Cost |
+|--------------------|-----:|-----------:|-------:|-----:|
+| Body Armour MK I   |    5 |          3 |      3 |  750 |
+| Body Armour MK II  |    5 |          6 |      4 | 1250 |
+| Body Armour MK III |    7 |         12 |      5 | 2500 |
+| Juggernaut MK I    |   10 |         20 |      7 | 7500 |
 
 The armour's item condition increases or decreases the armour's **Durability**.
 
