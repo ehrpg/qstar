@@ -1,4 +1,4 @@
-# Flaws
+# Perks
 
 Perks unlock abilities, improve stats or change roleplayining circumstances in a
 positive way.
@@ -23,7 +23,7 @@ If a perk states a Ability rank or Skill rank requirement, the character has to
 have at least that rank. If the Ability rank or Skill rank drops below the
 requirement, the character loses the benefit of the perk.
 
-## Available Perks
+## Character Perks
 
 <div class="col-layout-start"></div>
 
@@ -195,3 +195,5 @@ Requires
 :   1
 
 <div class="col-layout-end clearfix"></div>
+
+## Weapon Perks

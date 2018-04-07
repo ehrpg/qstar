@@ -20,7 +20,7 @@ If a flaw states an Ability rank or Skill rank requirement, the character may no
 exceed that rank. Also a flaw's requirement prohibits a character to improve the
 Ability or Skill above the requirement.
 
-## Available Flaws
+## Character Flaws
 
 <div class="col-layout-start"></div>
 
@@ -117,3 +117,5 @@ Requires
 :   2
 
 <div class="col-layout-end clearfix"></div>
+
+## Weapon Flaws
