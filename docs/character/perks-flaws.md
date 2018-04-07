@@ -179,7 +179,7 @@ Requires
 
 ##### Scientist
 
-Maximum Research +1
+Maximum Technology +1
 
 Requires
 :   3 [Intelligence](#intelligence)
@@ -255,7 +255,7 @@ Requires
 
 ##### Incurious
 
-Maximum Research -1
+Maximum Technology -1
 
 Requires
 :   -

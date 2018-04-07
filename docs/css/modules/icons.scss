@@ -58,7 +58,7 @@ $headers: h1, h2, h3, h4, h5;
   }
 
   *#health:after,
-  a[href$="#health"]:after {
+  a[href*="#health"]:after {
     content: "\E4B0";
   }
 
@@ -172,8 +172,8 @@ $headers: h1, h2, h3, h4, h5;
     content: "\E5B0";
   }
 
-  *#research:after,
-  a[href*="#research"]:after {
+  *#technology:after,
+  a[href*="#technology"]:after {
     content: "\EB3B";
   }
 

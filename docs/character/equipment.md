@@ -5,51 +5,76 @@
 All entries list the price for a single item. If more items can be bougth with
 the provided price, the table shows the amount under the `#` column.
 
-## Credits [Cr.]
+## Cost
 
-A universal currency for buying most things. Whenever there is a cost listed
-without units, then Credits are used.
+All items cost [Credits](/equipment#credits), while some items may also cost
+[Resources](/character#resources) to maintain the upkeep, e.g. ammo, cleaning,
+restocking etc.
+
+Whenever there is a cost listed without units, then Credits are used.
+
+### Credits
+
+A universal currency for buying most things.
+
+### Looting items
+
+Looting items that only cost [Credits](/equipment#credits) can be used normally.
+
+
+Items that required [Resources](/character#resources) stop functioning after a
+while. For example the magazines of weapons cannot be restocked when resting.
+These items can be sold for the usual [Credits](/equipment#credits) though. They
+do not give you extra [Resources](/character#resources) however.
 
 ## Weight
 
-The Weight column shows the weight of items. The Weight value indicates the
-minimum [Might](/character#might) needed to carry the item. The `#` column in
-the [Ability](/character#abilities) rank table shows the rank required.
+An item can specify its Weight. The Weight value indicates the minimum
+[Might](/character#might) needed to carry the item. The `#` column in the
+[Ability](/character#abilities) rank table shows the rank required.
 
-If the Weight column shows zero, then its Weight can be disregarded in terms of
-overburdening.
+If the Weight column shows zero or has no Weight, then its Weight can be
+disregarded.
 
 ### Overburdened
 
-If the Weight of an item exceeds your [Might](/character#might), reduce your
-Defence by the difference.
+If the Weight of an item exceeds your [Might](/character#might), everything
+speed related is reduced by the difference. This includes [Turn
+Order](/crisis#turn-order) and [Defence](/crisis#defence).
+
+!!! example "Overburdened"
+    Jack has [Might - Mediocre](/character#might) (rank 3), and picks up an item
+    with Weight 5. The difference is 2, so all his [Speed](/character#speed)
+    checks (including skill checks that require [Speed](/character#speed)),
+    [Turn Order](/crisis#turn-order) and [Defence](/crisis#defence) are reduced
+    by 2.
 
 ## Slots
 
-A character can only carry a number of items up to his number of slots. The
+A character can only carry a number of items up to her number of slots. The
 number of slots is further influenced by [Might](/character#might),
 [Perks](/character/perks-flaws#perks) and equipment.
 
 An item occupies slots equal to its Weight. An item with a Weight of 4 occupies
 4 slots.
 
-For items with a Weight of 0, only large quantities occupy a slot. Usually 10
-items with a Weight of 0 occupy 1 slot.
+If the item's Weight is 0 or is not specified, then the items still requires one
+slot, unless otherwise mentioned.
 
 ## Equipment condition
 
-An item can have a condition, making it better or worse. As with abilities and
+An item *can* have a condition, making it better or worse. As with abilities and
 skills for characters, the item condition uses adjectives:
 
-|    # | Item condition | Modifier | Credits cost |
-|-----:|----------------|---------:|-------------:|
-|    1 | Terrible       |       -3 |        - 50% |
-|    2 | Poor           |       -2 |        - 25% |
-|    3 | Mediocre       |       -1 |        - 10% |
-|    4 | Fair           |        0 |            0 |
-|    5 | Good           |       +1 |        + 25% |
-|    6 | Great          |       +2 |        + 50% |
-|    7 | Superb         |       +3 |       + 100% |
+|    # | Item condition | Modifier |
+|-----:|----------------|---------:|
+|    1 | Terrible       |       -3 |
+|    2 | Poor           |       -2 |
+|    3 | Mediocre       |       -1 |
+|    4 | Fair           |        0 |
+|    5 | Good           |       +1 |
+|    6 | Great          |       +2 |
+|    7 | Superb         |       +3 |
 
 Each category of items, or even specific items, describe how this modifier
 effects the item's attributes.

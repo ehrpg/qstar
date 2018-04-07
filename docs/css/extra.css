@@ -157,7 +157,7 @@ h5 > a:after {
 }
 
 *:not(.md-search-result__item) > *#health:after,
-*:not(.md-search-result__item) > a[href$="#health"]:after {
+*:not(.md-search-result__item) > a[href*="#health"]:after {
   content: "\E4B0";
 }
 
@@ -271,8 +271,8 @@ h5 > a:after {
   content: "\E5B0";
 }
 
-*:not(.md-search-result__item) > *#research:after,
-*:not(.md-search-result__item) > a[href*="#research"]:after {
+*:not(.md-search-result__item) > *#technology:after,
+*:not(.md-search-result__item) > a[href*="#technology"]:after {
   content: "\EB3B";
 }
 

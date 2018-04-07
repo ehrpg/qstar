@@ -41,7 +41,7 @@ character dies.
 
 <div class="left" markdown="1">
 
-### Might
+### Might (MI)
 
 > Might represents the character's physical strength and resilience.
 
@@ -51,7 +51,7 @@ toughness.
 </div>
 <div class="right" markdown="1">
 
-### Speed
+### Speed (SP)
 
 > Speed measures the character's reflexes and eye-hand coordination.
 
@@ -61,7 +61,7 @@ act in a [Crisis](/#crisis) sooner.
 </div>
 <div class="left" markdown="1">
 
-### Intelligence
+### Intelligence (IN)
 
 > Intelligence describes how well your character learns new things, and how well
 he remembers already existing things.
@@ -72,7 +72,7 @@ related to knowing things.
 </div>
 <div class="right" markdown="1">
 
-### Charisma
+### Charisma (CH)
 
 > Charisma represents the character's physical attractiveness, force of personality
 and his ability to lead.
@@ -95,7 +95,7 @@ The current value for a currency can **never** exceed the maximum value. All
 exceeding points are usually lost.
 
 [Influence](/character#influence), [Resources](/character#resources) and
-[Research](/character#research) can be traded for each other. Any two currencies
+[Technology](/character#technology) can be traded for each other. Any two currencies
 of one sort can be traded in for any other. [Downtime](/character#downtime)
 cannot be traded.
 
@@ -105,7 +105,7 @@ conjuction with a quest or adventure - this is up to the GM.
 
 <div class="left" markdown="1">
 
-### Downtime
+### Downtime (DT)
 
 > [Downtime](#downtime) represents the time a character can invest in
 > [Downtime](#downtime) activities.
@@ -133,7 +133,7 @@ at least a DC of 12. Better skill checks can reduce [Downtime](#downtime) and/or
 </div>
 <div class="right" markdown="1">
 
-### Influence
+### Influence (INF)
 
 > [Influence](#influence) represents connections, owed favours by others, fame
 > and infamy.
@@ -158,7 +158,7 @@ Traders may also give you better prices.
 </div>
 <div class="left" markdown="1">
 
-### Resources
+### Resources (RES)
 
 > [Resources](#resources) represent materials used for creating, repairing,
 > upgrading and acquiring equipment.
@@ -187,9 +187,9 @@ Powerful equipment requiring [Resources](#resources) usually adds
 </div>
 <div class="right" markdown="1">
 
-### Research
+### Technology (TECH)
 
-> [Research](#research) represents the character's knowledge, which on the other
+> [Technology](#technology) represents the character's knowledge, which on the other
 > hand allows to unlock new [Equipment](/character/equipment).
 
 **GAINED**{.hf} by aiding science missions, acquiring blueprints, spending time
@@ -198,11 +198,11 @@ on researching certain scientific fields, etc.
 **USED**{.hf} for unlocking experimental equipment and vessels. Once unlocked,
 the experimental equipment or vessel can be acquired.
 
-Certain ugprades require [Research](#research) in order to be unlocked. Upgrades
+Certain ugprades require [Technology](#technology) in order to be unlocked. Upgrades
 have to be unlocked only once, and *can* be shared between characters. Unlocking
 upgrades enables the acquisition of better equipment and vessels.
 
-!!! summary "Maximum [Research](#research)"
+!!! summary "Maximum [Technology](#technology)"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Experience">XP</span> +
       <span data-bracket-top="Base">2</span> ±
@@ -242,7 +242,7 @@ usually targetted by damage first. Once depleted, the health pool is targetted.
 
 <div class="left" markdown="1">
 
-### Health
+### Health (HP)
 
 > [Health](/character/#health) represents the character's overall condition.
 
@@ -262,7 +262,7 @@ damaged badly, e.g. when losing an eye.
 </div>
 <div class="right" markdown="1">
 
-### Endurance
+### Endurance (EP)
 
 > [Endurance](/character/#endurance) represents the character's power.
 
