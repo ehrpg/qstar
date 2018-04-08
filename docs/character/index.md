@@ -9,8 +9,9 @@ A character is defined by:
 * A race,
 * abilities,
 * currencies,
-* experience, and
-* pools.
+* experience,
+* pools, and
+* traits, such as perks and flaws.
 
 ## Race
 
@@ -89,14 +90,14 @@ Charisma is mostly used in social interactions between characters and NPCs.
 
 Currencies are limited by a maximum value, and are used to improve your
 character. This maximum value is modified by Circumstances,
-[Perks](/perks), and permanently due to [Experience](#experience).
+[Perks](/perks), and permanently due to [Experience](#experience-xp).
 
 The current value for a currency can **never** exceed the maximum value. All
 exceeding points are usually lost.
 
-[Influence](/character#influence), [Resources](/character#resources) and
-[Technology](/character#technology) can be traded for each other. Any two currencies
-of one sort can be traded in for any other. [Downtime](/character#downtime)
+[Influence](/character#influence-inf), [Resources](/character#resources-res) and
+[Technology](/character#technology-tech) can be traded for each other. Any two currencies
+of one sort can be traded in for any other. [Downtime](/character#downtime-dt)
 cannot be traded.
 
 [Credits](/equipment#credits) can never buy Currency directly. Exchanging
@@ -107,25 +108,25 @@ conjuction with a quest or adventure - this is up to the GM.
 
 ### Downtime (DT)
 
-> [Downtime](#downtime) represents the time a character can invest in
-> [Downtime](#downtime) activities.
+> [Downtime](#downtime-dt) represents the time a character can invest in
+> [Downtime](#downtime-dt) activities.
 
 **GAINED**{.hf} over the course of time. A character gains more
-[Downtime](#downtime) in between adventures and longer periods of downtime
-during adventures. A character gains at least 1 [Downtime](#downtime) each
+[Downtime](#downtime-dt) in between adventures and longer periods of downtime
+during adventures. A character gains at least 1 [Downtime](#downtime-dt) each
 session automatically.
 
 **USED**{.hf} to recuperate, craft, repair and upgrade items and vessels and to
 improve a character.
 
 Actions that take longer, like repairing a damaged vessel consume
-[Downtime](#downtime). Usually, a task that consumes [Downtime](#downtime) has
-at least a DC of 12. Better skill checks can reduce [Downtime](#downtime) and/or
-[Resources](/character/#resources)  used, while bad skill checks can increase
-[Downtime](#downtime) and/or [Resources](/character/#resources)  used. This DC
-*may* be lowered or increased depending on the situation.
+[Downtime](#downtime-dt). Usually, a task that consumes [Downtime](#downtime-dt)
+has at least a DC of 12. Better skill checks can reduce [Downtime](#downtime-dt)
+and/or [Resources](/character/#resources-res)  used, while bad skill checks can
+increase [Downtime](#downtime-dt) and/or [Resources](/character/#resources-res)
+used. This DC *may* be lowered or increased depending on the situation.
 
-!!! summary "Maximum [Downtime](#downtime)"
+!!! summary "Maximum [Downtime](#downtime-dt)"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-top="Base">10</span>
     </div>
@@ -135,20 +136,20 @@ at least a DC of 12. Better skill checks can reduce [Downtime](#downtime) and/or
 
 ### Influence (INF)
 
-> [Influence](#influence) represents connections, owed favours by others, fame
-> and infamy.
+> [Influence](#influence-inf) represents connections, owed favours by others,
+> fame and infamy.
 
 **GAINED**{.hf} by making a name for yourself in the cosmos, i.e. by helping
-people and factions. [Influence](#influence) is lost by harming and
+people and factions. [Influence](#influence-inf) is lost by harming and
 disappointing others.
 
 **USED**{.hf} for accessing and buying items, vessels, meetings with high
 ranking characters, etc.
 
-More [Influence](#influence) unlocks better equipment and better vessels.
+More [Influence](#influence-inf) unlocks better equipment and better vessels.
 Traders may also give you better prices.
 
-!!! summary "Maximum [Influence](#influence)"
+!!! summary "Maximum [Influence](#influence-inf)"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Experience">XP</span> +
       <span data-bracket-top="Base">2</span> ±
@@ -160,24 +161,24 @@ Traders may also give you better prices.
 
 ### Resources (RES)
 
-> [Resources](#resources) represent materials used for creating, repairing,
+> [Resources](#resources-res) represent materials used for creating, repairing,
 > upgrading and acquiring equipment.
 
 **GAINED**{.hf} by looting, or completing missions, adventures and quests.
 
 **USED**{.hf} to create, repair, upgrade and acquire equipment and vessels.
 
-[Resources](#resources) can be used to repair vessels, in which case the
-[Resources](#resources) are spent on the repair.
+[Resources](#resources-res) can be used to repair vessels, in which case the
+[Resources](#resources-res) are spent on the repair.
 
-If [Resources](#resources) are spent on equipment, your maximum
-[Resources](#resources) are *temporarily lowered* by that amount. This abstracts
-the upkeep of a powerful item.
+If [Resources](#resources-res) are spent on equipment, your maximum
+[Resources](#resources-res) are *temporarily lowered* by that amount. This
+abstracts the upkeep of a powerful item.
 
-Powerful equipment requiring [Resources](#resources) usually adds
+Powerful equipment requiring [Resources](#resources-res) usually adds
 [stunts](/stunts) or other benefits.
 
-!!! summary "Maximum [Resources](#resources)"
+!!! summary "Maximum [Resources](#resources-res)"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Experience">XP</span> +
       <span data-bracket-top="Base">2</span> ±
@@ -189,8 +190,9 @@ Powerful equipment requiring [Resources](#resources) usually adds
 
 ### Technology (TECH)
 
-> [Technology](#technology) represents the character's knowledge, which on the other
-> hand allows to unlock new [Equipment](/character/equipment).
+> [Technology](#technology-tech) represents the character's technological
+> knowledge, which on the other hand allows to unlock new
+> [Equipment](/character/equipment).
 
 **GAINED**{.hf} by aiding science missions, acquiring blueprints, spending time
 on researching certain scientific fields, etc.
@@ -198,11 +200,11 @@ on researching certain scientific fields, etc.
 **USED**{.hf} for unlocking experimental equipment and vessels. Once unlocked,
 the experimental equipment or vessel can be acquired.
 
-Certain ugprades require [Technology](#technology) in order to be unlocked. Upgrades
-have to be unlocked only once, and *can* be shared between characters. Unlocking
-upgrades enables the acquisition of better equipment and vessels.
+Certain ugprades require [Technology](#technology-tech) in order to be unlocked.
+Upgrades have to be unlocked only once, and *can* be shared between characters.
+Unlocking upgrades enables the acquisition of better equipment and vessels.
 
-!!! summary "Maximum [Technology](#technology)"
+!!! summary "Maximum [Technology](#technology-tech)"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Experience">XP</span> +
       <span data-bracket-top="Base">2</span> ±
@@ -212,7 +214,7 @@ upgrades enables the acquisition of better equipment and vessels.
 </div>
 <div class="clearfix"></div>
 
-## Experience
+## Experience (XP)
 
 > Experience is gained throughout a character's adventuring career.
 
@@ -230,28 +232,29 @@ Every character has 0 XP upon creation.
 
 ## Pools
 
-> Each creature has [Health](/character/#health) and
-> [Endurance](/character/#endurance) pools. A robot is defined as a character,
-> but instead of [Health](/character/#health) and
-> [Endurance](/character/#endurance) has the pools [Integrity](/character/#health)
-> and [Power](/character/#endurance), acting just the same.
+> Each creature has [Health](/character/#health-hp) and
+> [Endurance](/character/#endurance-ep) pools. A robot is defined as a
+> character, but instead of [Health](/character/#health-hp) and
+> [Endurance](/character/#endurance-ep) has the pools
+> [Integrity](/character/#health-hp) and [Power](/character/#endurance-ep),
+> acting just the same.
 
-[Endurance](/character/#endurance) serves as an easily replenishable pool that's
+[Endurance](/character/#endurance-ep) serves as an easily replenishable pool that's
 usually targetted by damage first. Once depleted, the health pool is targetted.
-[Health](/character/#health) is very hard to replenish.
+[Health](/character/#health-hp) is very hard to replenish.
 
 <div class="left" markdown="1">
 
 ### Health (HP)
 
-> [Health](/character/#health) represents the character's overall condition.
+> [Health](/character/#health-hp) represents the character's overall condition.
 
-If [Health](/character/#health) drops to zero, the character dies. A GM may even
-reduce certain values of the character such as abilities when a lot of
-[Health](/character/#health) is lost. Also, a GM may give the character a flaw if
-damaged badly, e.g. when losing an eye.
+If [Health](/character/#health-hp) drops to zero, the character dies. A GM may
+even reduce certain values of the character such as abilities when a lot of
+[Health](/character/#health-hp) is lost. Also, a GM may give the character a
+flaw if damaged badly, e.g. when losing an eye.
 
-!!! summary "Maximum [Health](/character/#health)"
+!!! summary "Maximum [Health](/character/#health-hp)"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Base">40</span> ±
         <span data-bracket-top="Ability Modifier">Might</span> x
@@ -264,13 +267,13 @@ damaged badly, e.g. when losing an eye.
 
 ### Endurance (EP)
 
-> [Endurance](/character/#endurance) represents the character's power.
+> [Endurance](/character/#endurance-ep) represents the character's power.
 
 Damage from weapons, other characters, environments and certain actions such as
 sprinting cause stress on a character and reduce his
-[Endurance](/character/#endurance).
+[Endurance](/character/#endurance-ep).
 
-!!! summary "Maximum [Endurance](/character/#endurance)"
+!!! summary "Maximum [Endurance](/character/#endurance-ep)"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Base">100</span> ±
         <span data-bracket-top="Ability Modifier">Might</span> x

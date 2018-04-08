@@ -8,7 +8,7 @@ the provided price, the table shows the amount under the `#` column.
 ## Cost
 
 All items cost [Credits](/equipment#credits), while some items may also cost
-[Resources](/character#resources) to maintain the upkeep, e.g. ammo, cleaning,
+[Resources](/character#resources-res) to maintain the upkeep, e.g. ammo, cleaning,
 restocking etc.
 
 Whenever there is a cost listed without units, then Credits are used.
@@ -21,18 +21,18 @@ A universal currency for buying most things.
 
 Looting items that only cost [Credits](/equipment#credits) can be used normally.
 
-If a looted item requires [Resources](/character#resources) a character may
-spend his available [Resources](/character#resources) on it to keep it. If he
-doesn't have enough [Resources](/character#resources) to keep it or doesn't want
+If a looted item requires [Resources](/character#resources-res) a character may
+spend his available [Resources](/character#resources-res) on it to keep it. If he
+doesn't have enough [Resources](/character#resources-res) to keep it or doesn't want
 to keep it, it stops functioning after a while. For example the magazines of a
 weapon cannot be restocked when resting.<br>
 These items can be sold for the usual [Credits](/equipment#credits) though. They
-do not give you extra [Resources](/character#resources) however.
+do not give you extra [Resources](/character#resources-res) however.
 
 ## Weight
 
 An item can specify its Weight. The Weight value indicates the minimum
-[Might](/character#might) needed to carry the item. The `#` column in the
+[Might](/character#might-mi) needed to carry the item. The `#` column in the
 [Ability](/character#abilities) rank table shows the rank required.
 
 If the Weight column shows zero or has no Weight, then its Weight can be
@@ -44,25 +44,25 @@ Only items that are equipped, e.g. wielded weapons, worn armour and outfits,
 etc. are subject to this rule. An item that's kept in the character's inventory
 is not influencing the character.
 
-An item's Weight exceeding the character's [Might](/character#might) reduces a
-character's [Speed](/character#speed) by the difference. This includes [Turn
+An item's Weight exceeding the character's [Might](/character#might-mi) reduces a
+character's [Speed](/character#speed-sp) by the difference. This includes [Turn
 Order](/crisis#turn-order) and [Defence](/crisis#defence).
 
 !!! danger "Overburdened"
-    This penalty does not reduce the [Speed](/character#speed) rank at all. It
+    This penalty does not reduce the [Speed](/character#speed-sp) rank at all. It
     simply reduces all checks related to it.
 
 !!! example "Overburdened"
-    Jack has [Might - Mediocre](/character#might) (rank 3), and picks up an item
-    with Weight 5. The difference is 2, so all his [Speed](/character#speed)
-    checks (including skill checks that require [Speed](/character#speed)),
+    Jack has [Might - Mediocre](/character#might-mi) (rank 3), and picks up an item
+    with Weight 5. The difference is 2, so all his [Speed](/character#speed-sp)
+    checks (including skill checks that require [Speed](/character#speed-sp)),
     [Turn Order](/crisis#turn-order) and [Defence](/crisis#defence) are reduced
     by 2.
 
 ## Slots
 
 A character can only carry a number of items up to her number of slots. The
-number of slots is further influenced by [Might](/character#might),
+number of slots is further influenced by [Might](/character#might-mi),
 [Perks](/character/perks) and equipment.
 
 An item occupies slots equal to its Weight. An item with a Weight of 4 occupies
@@ -83,7 +83,7 @@ slot, unless otherwise mentioned.
 An item *can* have a condition, making it better or worse. As with abilities and
 skills for characters, the item condition uses adjectives:
 
-|    # | Item condition | Modifier | [RES](/character#resources) cost |
+|    # | Item condition | Modifier | [RES](/character#resources-res) cost |
 |-----:|----------------|---------:|---------------------------------:|
 |    1 | Terrible       |       -3 |                               -2 |
 |    2 | Poor           |       -2 |                               -1 |
@@ -97,9 +97,9 @@ Any item can receive the modifier to **any** of its stats. The modifier can also
 be split between multiple stats. For example, a superb weapon could receive +1
 to its **HIT** stat, and +2 to its **CAP** stat.
 
-Better items need more [Resources](/character#resources) and inferior items need
-less [Resources](/character#resources) to be maintained. The Modifier of an item
-however can reduce the [Resources](/character#resources) cost, if any, too.
+Better items need more [Resources](/character#resources-res) and inferior items need
+less [Resources](/character#resources-res) to be maintained. The Modifier of an item
+however can reduce the [Resources](/character#resources-res) cost, if any, too.
 
 ## Weapons
 
@@ -110,10 +110,10 @@ otherwise noted.
 * **HIT** shows the bonus or penalty the attack skill roll receives.
 
 * **END** shows the amount of damage dealt to the target's
-  [Endurance](/character#endurance) by the weapon.
+  [Endurance](/character#endurance-ep) by the weapon.
 
 * **DMG** shows the amount of damage dealt to the target's
-  [Health](/character#health) by the weapon.
+  [Health](/character#health-hp) by the weapon.
 
 * **RNG** indicates the weapon's range increment. Each increment imposes a -2
   penalty to the attack.
@@ -201,8 +201,8 @@ The armour's item condition increases or decreases the armour's **Durability**.
 
 ### Medical
 
-Medical items are used to restore [Health](/character#health) and
-[Endurance](/character#endurance) in or after combat.
+Medical items are used to restore [Health](/character#health-hp) and
+[Endurance](/character#endurance-ep) in or after combat.
 
 | Name           | Weight | Cost | Notes |
 |----------------|-------:|-----:|-------|

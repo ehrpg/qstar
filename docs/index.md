@@ -28,8 +28,8 @@ the number of **6**s that have to be rolled.
 :   This indicates, that a check was succeeded or has to be succeeded.
 
 Weight
-:   The minimum requirement for [Might](/character#might). Weight exceeding a
-character's [Might](/character#might) imposes penalties.
+:   The minimum requirement for [Might](/character#might-mi). Weight exceeding a
+character's [Might](/character#might-mi) imposes penalties.
 
 ## Abbrevations
 
@@ -39,30 +39,41 @@ character's [Might](/character#might) imposes penalties.
 * Abilities
 
 MI
-:   [Might](/character#might)
+:   [Might](/character#might-mi)
 
 SP
-:   [Speed](/character#speed)
+:   [Speed](/character#speed-sp)
 
 IN
-:   [Intelligence](/character#intelligence)
+:   [Intelligence](/character#intelligence-in)
 
 CH
-:   [Charisma](/character#charisma)
+:   [Charisma](/character#charisma-ch)
 
 * Currency
 
 DT
-:   [Downtime](/character#downtime)
+:   [Downtime](/character#downtime-dt)
 
 INF
-:   [Influence](/character#influence)
+:   [Influence](/character#influence-inf)
 
 RES
-:   [Resources](/character#resources)
+:   [Resources](/character#resources-res)
 
 TECH
-:   [Technology](/character#technology)
+:   [Technology](/character#technology-tech)
+
+* Character
+
+XP
+:   [Experience](/character#experience-xp)
+
+EP
+:   [Endurance points](/character#endurance-ep)
+
+HP
+:   [Health points](/character#health-hp)
 
 <div class="col-layout-end"></div>
 <div class="col-layout-start"></div>
@@ -102,7 +113,7 @@ REL
 * Crisis
 
 AP
-: [Action point](/crisis#actions)
+: [Action points](/crisis#actions)
 
 <div class="col-layout-end clearfix"></div>
 </div>

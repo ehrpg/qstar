@@ -4,8 +4,8 @@
 
 A character can only have skills at rank [Skill -
 Superb](/character/skills/#skills) up to his
-[Intelligence](/character/#intelligence) ability modifier. If the
-[Intelligence](/character/#intelligence) is less than 0, the character can have
+[Intelligence](/character/#intelligence-in) ability modifier. If the
+[Intelligence](/character/#intelligence-in) is less than 0, the character can have
 no rank [Skill - Superb](/character/skills/#skills) skills.
 
 |    # | Skill Rank | Skill Modifier | Downtime cost |
@@ -40,9 +40,9 @@ effected by noticeable outside factors, the character has to roll a skill check.
 
 ### Skill Ranks and Ability Damage
 
-Temporary [Intelligence](/character/#intelligence) damage **does not** change
+Temporary [Intelligence](/character/#intelligence-in) damage **does not** change
 the maximum [Skill - Superb](/character/skills/#skills) rank skills. Permanent
-[Intelligence](/character/#intelligence) damage **does** change those values.
+[Intelligence](/character/#intelligence-in) damage **does** change those values.
 
 A character can lose his benefits from skills if the ability requirement is not
 met anymore. Only the skill bonus changes, the skill rank stays unchanged.
@@ -50,11 +50,11 @@ met anymore. Only the skill bonus changes, the skill rank stays unchanged.
 
 !!! example "Example"
     Jack has skilled [Athletics - Great](/character/skills/#skills), and his
-    ability is [Might - Great](/character/#might). He loses
-    [Might](/character#might) and his rank is reduced to [Might -
-    Fair](/character/#might). His skill also drops to [Athletics -
+    ability is [Might - Great](/character/#might-mi). He loses
+    [Might](/character#might-mi) and his rank is reduced to [Might -
+    Fair](/character/#might-mi). His skill also drops to [Athletics -
     Fair](/character/skills/#skills) temporarily until his
-    [Might](/character#might) is restored.
+    [Might](/character#might-mi) is restored.
 
 ## Skill competitions
 

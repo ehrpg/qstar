@@ -59,14 +59,14 @@ Maximum Technology -1
 Requires
 :   -
 
-[Downtime](/character#downtime)
+[Downtime](/character#downtime-dt)
 :   1
 
 ##### Introvert
 
-[Charisma](/character/#charisma)  -1
+[Charisma](/character/#charisma-ch)  -1
 
-[Downtime](/character#downtime)
+[Downtime](/character#downtime-dt)
 :   2
 
 ##### Illiterate
@@ -77,7 +77,7 @@ You are unable to read any texts. You can however recognise common names, e.g.
 Requires
 :   -
 
-[Downtime](/character#downtime)
+[Downtime](/character#downtime-dt)
 :   2
 
 <div class="col-layout-end"></div>
@@ -92,28 +92,28 @@ Maximum Influence -1
 Requires
 :   -
 
-[Downtime](/character#downtime)
+[Downtime](/character#downtime-dt)
 :   1
 
 ##### Uneducated
 
-[Intelligence](/character/#intelligence) -1
+[Intelligence](/character/#intelligence-in) -1
 
-[Downtime](/character#downtime)
+[Downtime](/character#downtime-dt)
 :   2
 
 ##### Slow
 
-[Speed](/character/#speed) -1
+[Speed](/character/#speed-sp) -1
 
-[Downtime](/character#downtime)
+[Downtime](/character#downtime-dt)
 :   2
 
 ##### Weak
 
-[Might](/character/#might) -1
+[Might](/character/#might-mi) -1
 
-[Downtime](/character#downtime)
+[Downtime](/character#downtime-dt)
 :   2
 
 <div class="col-layout-end clearfix"></div>

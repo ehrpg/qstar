@@ -152,6 +152,6 @@ AP Ammunition
 :   Reduces the armour's durability by another one point.
 
 HP Ammunition
-:   Deals double the amount of [Endurance](/character#endurance) damage to a
+:   Deals double the amount of [Endurance](/character#endurance-ep) damage to a
 target, provided it's not wearing any armour that provides DR and has durability
 left.

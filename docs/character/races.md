@@ -10,14 +10,14 @@ A race modifies:
 * enables access to inherent stunts,
 * and may add roleplaying Circumstances
 
-A race also provides a creature with [Downtime](/character/#downtime) for
+A race also provides a creature with [Downtime](/character/#downtime-dt) for
 character creation.
 
 !!! tip "Race subtypes"
     Some races have further subtypes, that change the *base* race. E.g. in a
     cyberpunk setting there could be a bio-engineered slave race that resemble
-    humans. Such a race could provide additional [Might](/character#might), but
-    decrease [Charisma](/character#charisma) and add a roleplaying Circumstance
+    humans. Such a race could provide additional [Might](/character#might-mi), but
+    decrease [Charisma](/character#charisma-ch) and add a roleplaying Circumstance
     in that they are shunned by the public.
 
 ## Available races
@@ -39,5 +39,5 @@ Humans are a versatile race.
 * [Flaws](/character/flaws#flaws)
 :   -
 
-* [Downtime](/character/character#downtime)
+* [Downtime](/character#downtime-dt)
 :   20

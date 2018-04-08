@@ -6,31 +6,31 @@
 > the corresponding sections.
 
 At character creation, and while gameplay, each improvement costs
-[Downtime](/character#downtime). The [Downtime](/character#downtime) costs are
+[Downtime](/character#downtime-dt). The [Downtime](/character#downtime-dt) costs are
 listed in the corresponding sections, e.g. [Abilities](/character#abilities) and
 [Skills](/character/skills#skills). Improvements while gameplay can also require
-additional circumstances, e.g. upgrading [Might](/character#might) could cost
+additional circumstances, e.g. upgrading [Might](/character#might-mi) could cost
 [Credits](/equipment#credits) to cybernatically enhance the character.
 
-Every creature starts with an amount of [Downtime](/character#downtime) that can
+Every creature starts with an amount of [Downtime](/character#downtime-dt) that can
 be used to improve your character. Decreasing your character's power through
 lowering ranks or *buying* [Flaws](/character/flaws) nets you
-[Downtime](/character#downtime), but only to an extent. E.g. a GM can restrict
+[Downtime](/character#downtime-dt), but only to an extent. E.g. a GM can restrict
 you in how far you can lower an [Ability](/character#abilities) or a
 [Skill](/character/skills#skills).
 
 **During** character creation, the global maximum for
-[Downtime](/character#downtime) can exceed 10.
+[Downtime](/character#downtime-dt) can exceed 10.
 
-The [Downtime](/character#downtime) received for character creation is
+The [Downtime](/character#downtime-dt) received for character creation is
 determined by the creature's [Race](/character/races) and
 [Flaws](/character/flaws).
 
-Also, while creating a character [Downtime](/character#downtime) can be traded
-for any other Currency. One [Downtime](/character#downtime) provides two of any
+Also, while creating a character [Downtime](/character#downtime-dt) can be traded
+for any other Currency. One [Downtime](/character#downtime-dt) provides two of any
 other Currency, or one of two Currencies each. E.g. a rich businessman could
-trade some of his [Downtime](/character#downtime) for
-[Resources](/character#resources) or [Influence](/character#influence)
+trade some of his [Downtime](/character#downtime-dt) for
+[Resources](/character#resources-res) or [Influence](/character#influence-inf)
 
 !!! example "Example character idea"
     In this example we use the scifi Q* setting. Our character is a human
@@ -43,12 +43,12 @@ trade some of his [Downtime](/character#downtime) for
 
 ## Buying / Reducing Downtime
 
-[Downtime](#downtime) cost can be reduced for improvements by spending
-[Credits](/equipment#credits). The [Downtime](#downtime) cost can never be lower
+[Downtime](#downtime-dt) cost can be reduced for improvements by spending
+[Credits](/equipment#credits). The [Downtime](#downtime-dt) cost can never be lower
 than 1.
 
 In addition to [Credits](/equipment#credits) cost, lowering the
-[Downtime](/character#downtime) can also require additional circumstances, such
+[Downtime](/character#downtime-dt) can also require additional circumstances, such
 as trainers, shops, items, etc.
 
 <div class="left" markdown="1">
@@ -89,7 +89,7 @@ Additionally, Skill ranks can never be higher than their corresponding Ability
 ranks.
 
 !!! example "Example"
-    A character with [Might - Good](/character#might) can never have a might
+    A character with [Might - Good](/character#might-mi) can never have a might
     skill at rank [Skill - Great](/character/skills#skills) or better.
 
 ## Step-by-Step
@@ -105,14 +105,14 @@ ranks.
 ### 2. Assign abilities
 
 !!! example "Example character"
-    Our character focuses on [Intelligence](/character#intelligence), then
-    [Charisma](/character#charisma), then [Speed](/character#speed), and last
-    but not least [Might](/character#might).
+    Our character focuses on [Intelligence](/character#intelligence-in), then
+    [Charisma](/character#charisma-ch), then [Speed](/character#speed-sp), and last
+    but not least [Might](/character#might-mi).
 
     We have 12 [Ability Points](/character#abilities) to spend. We'll assign 5
-    to [Intelligence](/character#intelligence), 3 to
-    [Charisma](/character#charisma), 2 to [Speed](/character#speed) and 2 to
-    [Might](/character#might).
+    to [Intelligence](/character#intelligence-in), 3 to
+    [Charisma](/character#charisma-ch), 2 to [Speed](/character#speed-sp) and 2 to
+    [Might](/character#might-mi).
 
 ### 3. Assign flaws
 
@@ -125,7 +125,7 @@ ranks.
 ### 4. Assign skills
 
 !!! example "Example character"
-    Our character has 5 [Intelligence](/character#intelligence), resulting in an
+    Our character has 5 [Intelligence](/character#intelligence-in), resulting in an
     Ability Modifier of +3. We now have a total of 9 [Skill
     Points](/character/skills#skill-points): 5 Base, +3 from the positive Ability
     modifier, and +1 from the [Versatile](/character/perks-flaws#versatile) perk.

@@ -10,9 +10,9 @@ The character with the highest result acts first. Once every character has
 acted, a new **turn** begins.
 
 If two or more characters have rolled the same result the character with the
-higher [Intelligence](/character#intelligence) acts first. If they have the same
-[Intelligence](/character#intelligence) score the character with the higher
-[Speed](/character#speed) acts first. If there is still a tie roll again.
+higher [Intelligence](/character#intelligence-in) acts first. If they have the same
+[Intelligence](/character#intelligence-in) score the character with the higher
+[Speed](/character#speed-sp) acts first. If there is still a tie roll again.
 
 !!! summary "[Turn Order](#turn-order)"
     <div class="formula formula-top formula-bottom">
@@ -71,8 +71,8 @@ more AP.
 |----------|-----:|-------------------------------------------------------------------------|
 | Attack   |    2 | Attack with a *normal* weapon.                                          |
 | Hide     |    3 | Hide from others, provided they have no direct vision of you.           |
-| Move     |    1 | Move up to the character's [Speed](#speed) modifier + 5 in meters.      |
-| Sneak    |    1 | Move up to half the character's [Speed](#speed) modifier + 5 in meters. |
+| Move     |    1 | Move up to the character's [Speed](#speed-sp) modifier + 5 in meters.      |
+| Sneak    |    1 | Move up to half the character's [Speed](#speed-sp) modifier + 5 in meters. |
 | Stand Up |    2 | Standing up when being prone.                                           |
 | Use Item |    2 | Use an item in a crisis. The item usually specifies the AP required.    |
 
@@ -177,10 +177,10 @@ an enemy, but in plain sight for another.
 If an attack hits a target, damage is dealt to it. The amount of damage done
 depends on the weapon used. The damage of some weapons can be influenced by the
 character using them, e.g. when wielding a melee weapon which is influenced by
-[Might](/character#might).
+[Might](/character#might-mi).
 
-There are two types of damage: [Endurance](/character#endurance) damage,
-indicated by a weapon's **END** stat, and [Health](/character#health) damage,
+There are two types of damage: [Endurance](/character#endurance-ep) damage,
+indicated by a weapon's **END** stat, and [Health](/character#health-hp) damage,
 indicated by the **DMG** stat.
 
 !!! summary "Dealing damage"
@@ -190,21 +190,21 @@ indicated by the **DMG** stat.
         <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
     </div>
 
-Damage reduces the character's [Endurance](/character#endurance). When the
-[Endurance](/character#endurance) pool reaches zero, the AP gain per round is
+Damage reduces the character's [Endurance](/character#endurance-ep). When the
+[Endurance](/character#endurance-ep) pool reaches zero, the AP gain per round is
 reduced to 2.
 
-Once [Endurance](/character#endurance) has reached 0, all attacks that hit are
-critical hits. Exceeding [Endurance](/character#endurance) doesn't have any
-effect. When the [Health](/character#health) pool reaches zero, the character is
+Once [Endurance](/character#endurance-ep) has reached 0, all attacks that hit are
+critical hits. Exceeding [Endurance](/character#endurance-ep) doesn't have any
+effect. When the [Health](/character#health-hp) pool reaches zero, the character is
 dead.
 
-An armour's DR reduces damage to the character's [Health](/character#health)
+An armour's DR reduces damage to the character's [Health](/character#health-hp)
 pool, provided it still has Durability left. Whenever an armour reduces
-[Health](/character#health) damage, it loses one Durability.
+[Health](/character#health-hp) damage, it loses one Durability.
 
 #### Critical damage
 
 [Critical Hits](/stunts#critical-hit) deal the weapon's damage to the target's
-[Health](/character#health) pool. An attack that deals critical damage reduces
+[Health](/character#health-hp) pool. An attack that deals critical damage reduces
 the target's armour Durability by two, instead of only one.

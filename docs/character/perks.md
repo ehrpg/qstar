@@ -57,8 +57,8 @@ Skill {.qs-d6}
 next to the skill name determine how many sixes have to be rolled to use the
 stunt.
 
-[Downtime](/character#downtime)
-:   Acquiring a perk at least costs [Downtime](/character#downtime).
+[Downtime](/character#downtime-dt)
+:   Acquiring a perk at least costs [Downtime](/character#downtime-dt).
 
 <div class="col-layout-end clearfix"></div>
 
@@ -73,9 +73,9 @@ stunt.
 You receive 3 more [Slots](/character/equipment#slots).
 
 Requires
-:   [Might - Great](/character#might)
+:   [Might - Great](/character#might-mi)
 
-[Downtime](/character#downtime)
+[Downtime](/character#downtime-dt)
 :   2
 
 ##### Brute
@@ -83,12 +83,12 @@ Requires
 Deal double damage with a melee attack.
 
 Requires
-:   4 [Might](#might)
+:   4 [Might](#might-mi)
 
 [AP](/crisis#actions)
 :   3
 
-[Downtime](/character#downtime)
+[Downtime](/character#downtime-dt)
 :   4
 
 ##### Fighter
@@ -99,7 +99,7 @@ additional enemies is only applied if there are more than two enemies in range.
 Requires
 :   [Melee - Great](/character/skills#melee)
 
-[Downtime](/character#downtime)
+[Downtime](/character#downtime-dt)
 :   3
 
 ##### Gunslinger
@@ -107,19 +107,19 @@ Requires
 Draw any handheld weapon without AP cost.
 
 Requires
-:   [Speed - Good](/character#speed)
+:   [Speed - Good](/character#speed-sp)
 
-[Downtime](/character#downtime)
+[Downtime](/character#downtime-dt)
 :   2
 
 ##### Healthy
 
-You gain 10 additional [Health](/character/#health) points.
+You gain 10 additional [Health](/character/#health-hp) points.
 
 Requires
-:   [Might - Great](/character#might)
+:   [Might - Great](/character#might-mi)
 
-[Downtime](/character#downtime)
+[Downtime](/character#downtime-dt)
 :   1
 
 ##### Leader
@@ -130,9 +130,9 @@ Requires
 :   [Command - Great](/character/skills/#command)
 
 Command {.qs-2d6}
-:   Effected characters heal 5 + 1d6 [Endurance](/#endurance) damage [^Leader].
+:   Effected characters heal 5 + 1d6 [Endurance](/#endurance-ep) damage [^Leader].
 
-[Downtime](/character#downtime)
+[Downtime](/character#downtime-dt)
 :   3
 
 [^Leader]:
@@ -140,24 +140,24 @@ Command {.qs-2d6}
 
 ##### Lightning Reflexes
 
-You can add your [Speed](/character#speed) modifier when defending against
+You can add your [Speed](/character#speed-sp) modifier when defending against
 ranged attacks.
 
 Requires
-:   [Speed - Great](/character#speed)
+:   [Speed - Great](/character#speed-sp)
 
-[Downtime](/character#downtime)
+[Downtime](/character#downtime-dt)
 :   4
 
 ##### Martial Arts Master
 
-You can use [Speed](/character#speed) instead of [Might](/character#might) when
+You can use [Speed](/character#speed-sp) instead of [Might](/character#might-mi) when
 using the [Melee](/character/skills#melee) skill either actively or passively.
 
 Requires
-:   [Speed - Great](/character#speed)
+:   [Speed - Great](/character#speed-sp)
 
-[Downtime](/character#downtime)
+[Downtime](/character#downtime-dt)
 :   3
 
 <div class="col-layout-end"></div>
@@ -170,18 +170,18 @@ Requires
 Maximum Technology +1
 
 Requires
-:   3 [Intelligence](#intelligence)
+:   3 [Intelligence](#intelligence-in)
 
-[Downtime](/character#downtime)
+[Downtime](/character#downtime-dt)
 :   1
 
 ##### Versatile
 
 
 Requires
-:   5 [Intelligence](#intelligence)
+:   5 [Intelligence](#intelligence-in)
 
-[Downtime](/character#downtime)
+[Downtime](/character#downtime-dt)
 :   1
 
 ##### Wealthy
@@ -189,9 +189,9 @@ Requires
 Maximum Influence +1
 
 Requires
-:   3 [Charisma](#charisma)
+:   3 [Charisma](#charisma-ch)
 
-[Downtime](/character#downtime)
+[Downtime](/character#downtime-dt)
 :   1
 
 <div class="col-layout-end clearfix"></div>
