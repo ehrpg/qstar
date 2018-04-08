@@ -14,7 +14,8 @@ rolled, the stunt can only be used once per check and requires a single
 Whenever someone rolls three *sixes*{.qstar-3sixes} on a check the action is
 considered a legendary stunt. Three *ones*{.qstar-3ones} are considered an epic
 fail. People in the RPG's cosmos will talk about this. They may not know the
-nature of legend or epic fail, but they will have heard about it.
+nature of the legend or epic fail, but they will have heard about it (provided
+that they **can** hear about it sometime).
 
 Legendary stunts **always** succeed, no matter the result. In addition, a player
 can describe some course of action that becomes a legend.
@@ -22,8 +23,8 @@ can describe some course of action that becomes a legend.
 Epic fails **always** fail, no matter the result. The GM can describe how the
 check fails.
 
-These stunts and fails have a chance of `0.4%` so they justify of over the top
-actions.
+These stunts and fails have a chance of `0.4%` so they justify the use of over
+the top actions.
 
 <div class="left" markdown="1">
 
@@ -56,17 +57,17 @@ actions.
 </div>
 
 !!! danger "The use of legendary stunts & epic fails"
-    Legendary stunts & epic fails should never break quests or adventures etc.
+    Legendary stunts & epic fails should never break quests or adventures, etc.
     An epic fail doesn't kill the player character, nor does a legendary stunt
-    complete a quest (e.g. you can't blow up a death star with a legendary
-    action).
+    complete a quest (e.g. you can't blow up a death star with a single
+    legendary action).
 
     Legendary stunts should make things a bit easier, if at all, but most of all
     provide a memorable event for both the players and the GM.
 
     Epic fails should provide the possibility to creatively solve new problems
     and circumstances. E.g. the example above might result in the party being
-    imprisoned by the enemy, and they have work for them or escape a prison.
+    imprisoned by the enemy, and they have to work for them or escape a prison.
 
 ## Available Stunts
 
