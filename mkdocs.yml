@@ -36,7 +36,7 @@ extra_css:
     - css/game-icons.css
 extra_javascript:
     - js/sorttable.js
-    - js/extra.js
+    - js/extra_es6.js
 
 markdown_extensions:
     - pymdownx.details

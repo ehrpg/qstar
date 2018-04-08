@@ -772,4 +772,76 @@ table thead th:hover {
   color: rgba(0, 0, 0, 0.87);
   border-bottom: 2px solid #3f51b5;
 }
+
+@media only screen and (min-width: 50em) {
+  div.qs-list-test {
+    column-count: 2;
+    column-gap: 25px;
+  }
+  div.qs-list-test :target {
+    display: block;
+    position: relative;
+    top: -5rem;
+    visibility: hidden;
+  }
+  div.qs-list-test :target + section {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  div.qs-list-test section {
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+  }
+  div.qs-list-test section h5 {
+    float: left;
+    width: 110px;
+    padding-left: 0;
+    text-align: right;
+    line-height: 1.4;
+    padding-top: 0.1em;
+    letter-spacing: 0 !important;
+    padding-top: 6rem;
+    margin: 0;
+    margin-top: -6rem;
+    z-index: 0;
+    position: relative;
+  }
+  div.qs-list-test section h5 + p {
+    margin: 0 !important;
+    margin-left: 120px !important;
+    margin-bottom: 0.15em !important;
+    font-size: 1.4rem;
+    line-height: 1.3;
+  }
+  div.qs-list-test section h5 a {
+    display: none !important;
+  }
+  div.qs-list-test section dl {
+    margin-top: 0;
+    margin-bottom: -1px;
+    padding-top: 2px;
+    padding-bottom: 1em;
+    clear: both;
+  }
+  div.qs-list-test section dl dt:first-of-type {
+    margin: 0.15em 0 0.15em 0;
+  }
+  div.qs-list-test section dl dt {
+    float: left;
+    width: 110px;
+    text-align: right;
+    letter-spacing: 0 !important;
+    font-size: 1.3rem;
+    line-height: 1.3;
+    font-weight: bold;
+  }
+  div.qs-list-test section dl dd {
+    font-size: 1.3rem;
+    line-height: 1.3;
+    margin: 0.15em 0 0.15em 120px;
+  }
+}
 /*# sourceMappingURL=extra.css.map */

@@ -190,7 +190,7 @@ The armour's item condition increases or decreases the armour's **Durability**.
     packs consist of multiple items. Using a pack doesn't use up the items, e.g.
     climbing doesn't make you run out of ropes or bolts to secure the ropes.
 
-<div class="col-layout-start qs-list"></div>
+<div class="qs-list-test" markdown="1">
 
 ##### Climbing Gear
 
@@ -224,9 +224,7 @@ automatically refilled (for free) in civilization, e.g. trading outposts etc.
 [Weight](#weight)
 :   4
 
-<div class="col-layout-end"></div>
-<div class="col-layout-start qs-list"></div>
-<div class="col-layout-end clearfix"></div>
+</div>
 
 ### Medical
 
