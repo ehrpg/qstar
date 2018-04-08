@@ -1,0 +1,1321 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+        <meta name="author" content="@n0la, @johannes-z">
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-0.17.3, mkdocs-material-2.7.0">
+    
+    
+      
+        <title>Crisis - Q* - RPG System</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.78aab2dc.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.6079476c.css">
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.1aa3b519.js"></script>
+    
+    
+      <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+      
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+      <link rel="stylesheet" href="../css/extra.css">
+    
+      <link rel="stylesheet" href="../css/font-awesome.min.css">
+    
+      <link rel="stylesheet" href="../css/ehicons.css">
+    
+      <link rel="stylesheet" href="../css/game-icons.css">
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+      <a href="#crisis" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="Q* - RPG System" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon">⚝</i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                Q* - RPG System
+              </span>
+              <span class="md-header-nav__topic">
+                Crisis
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+
+  <a href="https://github.com/ehrpg/qstar/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      GitHub
+    </div>
+  </a>
+
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+        
+
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href=".." title="Q*" class="md-tabs__link md-tabs__link--active">
+          Q*
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../settings/qstar/" title="Setting — Q*" class="md-tabs__link">
+          Setting — Q*
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../settings/stalker/" title="Setting — S.T.A.L.K.E.R." class="md-tabs__link">
+          Setting — S.T.A.L.K.E.R.
+        </a>
+      
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="drawer">
+    <span class="md-nav__button md-logo">
+      
+        <i class="md-icon">⚝</i>
+      
+    </span>
+    Q* - RPG System
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+
+  <a href="https://github.com/ehrpg/qstar/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      GitHub
+    </div>
+  </a>
+
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" checked>
+    
+    <label class="md-nav__link" for="nav-1">
+      Q*
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        Q*
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Introduction" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../quick-start/" title="Quick Start Rules" class="md-nav__link">
+      Quick Start Rules
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-3" type="checkbox" id="nav-1-3">
+    
+    <label class="md-nav__link" for="nav-1-3">
+      Character
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-1-3">
+        Character
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../character-creation/" title="Character Creation" class="md-nav__link">
+      Character Creation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../character/races/" title="Races" class="md-nav__link">
+      Races
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../character/" title="Character" class="md-nav__link">
+      Character
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../character/skills/" title="Skills" class="md-nav__link">
+      Skills
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../character/perks/" title="Perks" class="md-nav__link">
+      Perks
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../character/flaws/" title="Flaws" class="md-nav__link">
+      Flaws
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../character/traits/" title="Traits" class="md-nav__link">
+      Traits
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../character/equipment/" title="Equipment" class="md-nav__link">
+      Equipment
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Crisis
+      </label>
+    
+    <a href="./" title="Crisis" class="md-nav__link md-nav__link--active">
+      Crisis
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  <!-- 
+  
+    
+   -->
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#crisis" title="Crisis" class="md-nav__link">
+    Crisis
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#turn-order" title="Turn Order" class="md-nav__link">
+    Turn Order
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#surprise-round" title="Surprise Round" class="md-nav__link">
+    Surprise Round
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#actions" title="Actions" class="md-nav__link">
+    Actions
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#available-actions" title="Available Actions" class="md-nav__link">
+    Available Actions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conditions" title="Conditions" class="md-nav__link">
+    Conditions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#combat" title="Combat" class="md-nav__link">
+    Combat
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#attacking" title="Attacking" class="md-nav__link">
+    Attacking
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defence" title="Defence" class="md-nav__link">
+    Defence
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#melee-combat" title="Melee Combat" class="md-nav__link">
+    Melee Combat
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ranged-combat" title="Ranged Combat" class="md-nav__link">
+    Ranged Combat
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cover" title="Cover" class="md-nav__link">
+    Cover
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#damage" title="Damage" class="md-nav__link">
+    Damage
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#critical-damage" title="Critical damage" class="md-nav__link">
+    Critical damage
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../stunts/" title="Stunts" class="md-nav__link">
+      Stunts
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-6" type="checkbox" id="nav-1-6">
+    
+    <label class="md-nav__link" for="nav-1-6">
+      Vehicles & Vessels
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-1-6">
+        Vehicles & Vessels
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../vessel/" title="Vessels" class="md-nav__link">
+      Vessels
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../vessel/perks-flaws/" title="Perks & Flaws" class="md-nav__link">
+      Perks & Flaws
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../vessel/combat/" title="Combat" class="md-nav__link">
+      Combat
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../vessel/stunts/" title="Stunts" class="md-nav__link">
+      Stunts
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../vessel/equipment/" title="Equipment" class="md-nav__link">
+      Equipment
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Setting — Q*
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Setting — Q*
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../settings/qstar/" title="Introduction" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Setting — S.T.A.L.K.E.R.
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Setting — S.T.A.L.K.E.R.
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../settings/stalker/" title="Introduction" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  <!-- 
+  
+    
+   -->
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#crisis" title="Crisis" class="md-nav__link">
+    Crisis
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#turn-order" title="Turn Order" class="md-nav__link">
+    Turn Order
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#surprise-round" title="Surprise Round" class="md-nav__link">
+    Surprise Round
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#actions" title="Actions" class="md-nav__link">
+    Actions
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#available-actions" title="Available Actions" class="md-nav__link">
+    Available Actions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conditions" title="Conditions" class="md-nav__link">
+    Conditions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#combat" title="Combat" class="md-nav__link">
+    Combat
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#attacking" title="Attacking" class="md-nav__link">
+    Attacking
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defence" title="Defence" class="md-nav__link">
+    Defence
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#melee-combat" title="Melee Combat" class="md-nav__link">
+    Melee Combat
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ranged-combat" title="Ranged Combat" class="md-nav__link">
+    Ranged Combat
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cover" title="Cover" class="md-nav__link">
+    Cover
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#damage" title="Damage" class="md-nav__link">
+    Damage
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#critical-damage" title="Critical damage" class="md-nav__link">
+    Critical damage
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/ehrpg/qstar/edit/master/docs/crisis.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="crisis">Crisis<a class="headerlink" href="#crisis" title="Permanent link">&para;</a></h1>
+<p>Whenever characters compete against each other or the environment a so-called
+crisis begins. In a crisis time slows down and actions become more atomic.</p>
+<h2 id="turn-order">Turn Order<a class="headerlink" href="#turn-order" title="Permanent link">&para;</a></h2>
+<p>Every involved character in a crisis has to roll to determine the turn order.
+The character with the highest result acts first. Once every character has
+acted, a new <strong>turn</strong> begins.</p>
+<p>If two or more characters have rolled the same result the character with the
+higher <a href="../character#intelligence-in">Intelligence</a> acts first. If they have the same
+<a href="../character#intelligence-in">Intelligence</a> score the character with the higher
+<a href="../character#speed-sp">Speed</a> acts first. If there is still a tie roll again.</p>
+<div class="admonition summary">
+<p class="admonition-title"><a href="#turn-order">Turn Order</a></p>
+<p><div class="formula formula-top formula-bottom">
+  <span data-bracket-bottom="Base">3d6</span> ±
+  <span data-bracket-top="Ability Modifier">Intelligence</span> ±
+  <span data-bracket-bottom="Ability Modifier">Speed</span> ±
+  <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
+</div></p>
+</div>
+<h3 id="surprise-round">Surprise Round<a class="headerlink" href="#surprise-round" title="Permanent link">&para;</a></h3>
+<p>If you attack an enemy who has not noticed you and is not combat ready, you gain
+an additional turn before actual combat starts.</p>
+<h2 id="actions">Actions<a class="headerlink" href="#actions" title="Permanent link">&para;</a></h2>
+<p>Actions within a crisis require <strong>action points</strong> (AP) to be spent.</p>
+<p>Each character has a maximum of 6 AP. At the start of each turn, including the
+beginning of a crisis, the character gains 4 AP. Action points can never exceed
+6 or deceed 0. Exceeding AP are lost, while actions that require more than the
+remain AP are disabled until enough AP are accumulated.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tracking AP</p>
+<p>Tracking AP is very easy. Get a d6, put it front of you, and let it face the
+number of AP your character has. If you are at zero AP, put the die aside.</p>
+</div>
+<div class="admonition danger">
+<p class="admonition-title">Actions reduce <a href="../character#endurance">Endurance</a></p>
+<p>Spending AP reduces the character&rsquo;s current
+<a href="../character#endurance">Endurance</a> by the amount of AP spent.</p>
+</div>
+<p>If an action states an AP cost higher than 6, this indicates that the action has
+to be executed over multiple subsequent turns. Executing any other action while
+this action isn&rsquo;t completed yet cancels it.</p>
+<div class="admonition example">
+<p class="admonition-title">Reloading a flintlock musket</p>
+<p>Reloading a flintlock musket takes 10 AP. You can immediatly spend all your
+AP on reloading. Each subsequent turn you can spend another 4 AP on
+reloading.</p>
+<p>A character begins reloading a flintlock musket with 3 AP left. After 2 more
+rounds he would have accumulated 11 AP. So after these 2 rounds he has 1 AP
+left and his weapon is reloaded.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Actions in parallel</p>
+<p>Not all actions require your utmost attention. E.g. while reloading you can
+still give short commands to e.g. other party members. This is up to the GM
+however.</p>
+</div>
+<h3 id="available-actions">Available Actions<a class="headerlink" href="#available-actions" title="Permanent link">&para;</a></h3>
+<p>All characters can perform basic actions. <a href="../character/perks">Perks</a> and
+<a href="../character/equipment">Equipment</a> can make additional actions available.</p>
+<p>This table provides a guideline for actions and their AP cost. These apply
+unless stated otherwise, e.g. attacking with an oversized weapon may require
+more AP.</p>
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th align="right">AP</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Attack</td>
+<td align="right">2</td>
+<td>Attack with a <em>normal</em> weapon.</td>
+</tr>
+<tr>
+<td>Hide</td>
+<td align="right">3</td>
+<td>Hide from others, provided they have no direct vision of you.</td>
+</tr>
+<tr>
+<td>Move</td>
+<td align="right">1</td>
+<td>Move up to the character&rsquo;s <a href="../character#speed-sp">Speed</a> modifier + 2 (at least 1) in meters.</td>
+</tr>
+<tr>
+<td>Sneak</td>
+<td align="right">1</td>
+<td>Move up to half the character&rsquo;s <a href="../character#speed-sp">Speed</a> modifier + 2 (at least 1) in meters.</td>
+</tr>
+<tr>
+<td>Stand Up</td>
+<td align="right">2</td>
+<td>Standing up when being prone.</td>
+</tr>
+<tr>
+<td>Use Item</td>
+<td align="right">2</td>
+<td>Use an item in a crisis. The item usually specifies the AP required.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="conditions">Conditions<a class="headerlink" href="#conditions" title="Permanent link">&para;</a></h2>
+<p>Certain actions become available or unavailable when characters are affected by
+various conditions. Conditions can be inflicted by other characters, by
+themselves or the environment.</p>
+<table>
+<thead>
+<tr>
+<th>Condition</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Drunk</td>
+<td>All <a href="../character#abilities">Abilities</a> and <a href="../character#skills">Skills</a> checks impose a -3 penalty.</td>
+</tr>
+<tr>
+<td>Exhausted</td>
+<td>You only regain 2 AP per round.</td>
+</tr>
+<tr>
+<td>Prone</td>
+<td>Can&rsquo;t melee attack. May provide bonus to <em>defence vs ranged</em> and ranged attacks.</td>
+</tr>
+<tr>
+<td>Stunned</td>
+<td>Can&rsquo;t act on current turn and does not regain AP.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="combat">Combat<a class="headerlink" href="#combat" title="Permanent link">&para;</a></h2>
+<p>Combat is the most common kind of a crisis.</p>
+<h3 id="attacking">Attacking<a class="headerlink" href="#attacking" title="Permanent link">&para;</a></h3>
+<div class="admonition summary">
+<p class="admonition-title">Making an attack</p>
+<p><div class="formula formula-top formula-bottom">
+  <span data-bracket-bottom="Base">3d6</span> ±
+  <span data-bracket-top="Skill Modifier">Skill</span> ±
+  <span data-bracket-bottom="Ability Modifier">Ability</span> ±
+  <span data-bracket-top="Weapon modifier">Hit</span> ±
+  <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
+</div></p>
+</div>
+<h3 id="defence">Defence<a class="headerlink" href="#defence" title="Permanent link">&para;</a></h3>
+<h4 id="melee-combat">Melee Combat<a class="headerlink" href="#melee-combat" title="Permanent link">&para;</a></h4>
+<p>The <em>defence vs melee</em> is a fixed value determined by some character related
+stats.</p>
+<div class="admonition summary">
+<p class="admonition-title">Defence vs melee</p>
+<p><div class="formula formula-top formula-bottom">
+  <span data-bracket-bottom="Base">10</span> ±
+  <span data-bracket-top="Skill Modifier">Melee</span> ±
+  <span data-bracket-bottom="Ability Modifier">Might</span> +
+  <span data-bracket-top="Defence modifier">Armour</span> ±
+  <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
+  <span data-bracket-top="per additional enemy">-2</span>
+</div></p>
+</div>
+<p>Every additional enemy in melee range reduces <em>defence vs melee</em> by 2. This only
+applies if there is more than one enemy in range.</p>
+<div class="admonition example">
+<p class="admonition-title">Melee combat</p>
+<p>Jack is attacked by 3 security drones attacking with batons. They all are in
+Jack&rsquo;s melee range. Jack is a good melee fighter and has a <em>defence vs
+melee</em> of 16 against a single enemy. Since there are two additional enemies
+his <em>defence vs melee</em> drops by a total of 4, resulting in a <em>defence vs
+melee</em> of 12, making him an easy target.</p>
+</div>
+<h4 id="ranged-combat">Ranged Combat<a class="headerlink" href="#ranged-combat" title="Permanent link">&para;</a></h4>
+<div class="admonition summary">
+<p class="admonition-title">Defence vs ranged</p>
+<p><div class="formula formula-top formula-bottom">
+  <span data-bracket-bottom="Base">10</span> ±
+  <span data-bracket-top="Ability Modifier">Speed</span> +
+  <span data-bracket-bottom="Defence modifier">Armour</span> ±
+  <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
+</div></p>
+</div>
+<h4 id="cover">Cover<a class="headerlink" href="#cover" title="Permanent link">&para;</a></h4>
+<blockquote>
+<p>Cover provides additional defensive bonuses for melee and ranged combat.</p>
+</blockquote>
+<p>Cover is always relative to other targets. A character can be in total cover for
+an enemy, but in plain sight for another.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th align="right">Defence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cover</td>
+<td align="right">+1</td>
+</tr>
+<tr>
+<td>Heavy Cover</td>
+<td align="right">+3</td>
+</tr>
+<tr>
+<td>Total Cover</td>
+<td align="right">unhittable</td>
+</tr>
+</tbody>
+</table>
+<div class="left">
+<div class="admonition tip">
+<p class="admonition-title">Positions and Cover</p>
+<p>Being prone does not provide bonuses or penalties to enemies attacking.
+Instead, being prone and facing an enemy straight on counts as being in
+heavy cover (only head and shoulds visible).</p>
+</div>
+</div>
+<div class="right">
+<div class="admonition tip">
+<p class="admonition-title">Cover and firearms</p>
+<p>When hiding behind materials that are penetrable by bullets or other
+projectiles but provide total cover from sight you count as being in heavy
+cover rather than total cover. Hiding behind a car in a firefight would only
+provide normal cover.</p>
+</div>
+</div>
+<h3 id="damage">Damage<a class="headerlink" href="#damage" title="Permanent link">&para;</a></h3>
+<p>If an attack hits a target, damage is dealt to it. The amount of damage done
+depends on the weapon used. The damage of some weapons can be influenced by the
+character using them, e.g. when wielding a melee weapon which is influenced by
+<a href="../character#might-mi">Might</a>.</p>
+<p>There are two types of damage: <a href="../character#endurance-ep">Endurance</a> damage,
+indicated by a weapon&rsquo;s <strong>END</strong> stat, and <a href="../character#health-hp">Health</a> damage,
+indicated by the <strong>DMG</strong> stat.</p>
+<div class="admonition summary">
+<p class="admonition-title">Dealing damage</p>
+<p><div class="formula formula-top formula-bottom">
+    <span data-bracket-bottom="Weapon">Damage</span> ±
+    <span data-bracket-top="Ability Modifier">Ability</span> ±
+    <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
+</div></p>
+</div>
+<p>Damage reduces the character&rsquo;s <a href="../character#endurance-ep">Endurance</a>. When the
+<a href="../character#endurance-ep">Endurance</a> pool reaches zero, the AP gain per round is
+reduced to 2.</p>
+<p>Once <a href="../character#endurance-ep">Endurance</a> has reached 0, all attacks that hit
+are critical hits. Exceeding <a href="../character#endurance-ep">Endurance</a> doesn&rsquo;t have
+any effect. When the <a href="../character#health-hp">Health</a> pool reaches zero, the
+character is dead.</p>
+<p>An armour&rsquo;s DR reduces damage to the character&rsquo;s <a href="../character#health-hp">Health</a>
+pool, provided it still has Durability left. Whenever an armour reduces
+<a href="../character#health-hp">Health</a> damage, it loses one Durability.</p>
+<h4 id="critical-damage">Critical damage<a class="headerlink" href="#critical-damage" title="Permanent link">&para;</a></h4>
+<p><a href="../stunts#critical-hit">Critical Hits</a> deal the weapon&rsquo;s damage to the target&rsquo;s
+<a href="../character#health-hp">Health</a> pool. An attack that deals critical damage
+reduces the target&rsquo;s armour Durability by two, instead of only one.</p>
+                
+                  
+                
+              
+              
+                
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../character/equipment/" title="Equipment" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Equipment
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../stunts/" title="Stunts" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Stunts
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="http://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.189d7058.js"></script>
+      
+      <script>app.initialize({version:"0.17.3",url:{base:".."}})</script>
+      
+        <script src="../js/sorttable.js"></script>
+      
+        <script src="../js/extra_es6.js"></script>
+      
+    
+    
+      
+    
+  </body>
+</html>

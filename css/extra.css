@@ -1,352 +1,3 @@
-[data-bracket-bottom] {
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
-  margin-bottom: 10px;
-  margin-left: 10px;
-}
-
-[data-bracket-bottom]:before {
-  content: attr(data-bracket-bottom);
-  position: absolute;
-  top: 100%;
-  font-size: 80%;
-  padding: 5px;
-  white-space: nowrap;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-[data-bracket-bottom]:after {
-  content: "";
-  display: block;
-  height: 6px;
-  border: 2px solid black;
-  border-top: none;
-}
-
-[data-bracket-top] {
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
-  margin-left: 10px;
-}
-
-[data-bracket-top]:before {
-  content: "";
-  display: block;
-  height: 6px;
-  border: 2px solid black;
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  right: 0;
-  border-bottom: none;
-}
-
-[data-bracket-top]:after {
-  content: attr(data-bracket-top);
-  position: absolute;
-  top: -30px;
-  font-size: 80%;
-  padding: 5px;
-  white-space: nowrap;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.formula {
-  text-align: center;
-}
-
-.formula span {
-  margin: 0 8px;
-}
-
-.formula-top {
-  margin-top: 55px;
-}
-
-.formula-bottom {
-  margin-bottom: 55px;
-}
-
-.admonition .formula-bottom {
-  margin-bottom: 30px;
-}
-
-.admonition .formula-top {
-  margin-top: 40px;
-}
-
-table td {
-  position: relative;
-}
-
-.md-typeset__table table td {
-  padding: 0.4rem 0.8rem !important;
-}
-
-.md-typeset__table table th {
-  padding: 0.8rem 0.8rem !important;
-}
-
-.md-typeset table:not([class]) th {
-  min-width: 3rem;
-}
-
-table tr td:first-child {
-  white-space: nowrap;
-}
-
-tr.targetted {
-  background-color: #FFF9C4 !important;
-}
-
-tr:nth-child(even) {
-  background-color: #efefef;
-}
-
-.md-typeset h2,
-.md-typeset h3 {
-  margin: 1.6rem 0 1.6rem;
-}
-
-.admonition {
-  overflow: hidden !important;
-}
-
-.md-typeset dd {
-  margin: 0.1em 0 1em 1.875em;
-}
-
-p.dt + ul {
-  margin: 0 !important;
-  margin-left: 150px !important;
-}
-
-p.dt + ul li {
-  display: inline;
-  padding-right: 3px;
-  margin: 0 !important;
-}
-
-p.dt + ul li:not(:first-child):before {
-  content: "\2022";
-  padding-right: 5px;
-}
-
-.dt {
-  color: #444;
-}
-
-h4.dt,
-p.dt {
-  float: left;
-  width: 140px;
-  overflow: hidden;
-  clear: left;
-  text-align: right;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  margin: 0 !important;
-}
-
-h4.dt + p,
-p.dt + p {
-  margin: 0 !important;
-  margin-left: 150px !important;
-  margin-bottom: 0.3em !important;
-}
-
-p.dt {
-  width: 180px;
-}
-
-p.dt + ul {
-  margin-left: 190px !important;
-}
-
-h4.dt {
-  margin-top: -2em !important;
-  padding-top: 2.4em !important;
-}
-
-h4.dt + p {
-  padding-top: 0.4em !important;
-}
-
-h4.dt a {
-  display: none !important;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-i[f],
-i[s] {
-  font-family: 'Material Icons';
-  font-style: normal;
-  vertical-align: middle;
-  line-height: 1.6;
-}
-
-i[s] {
-  color: #00c853;
-}
-
-i[s]:before {
-  content: "\E876";
-}
-
-i[f] {
-  color: #ff5252;
-}
-
-i[f]:before {
-  content: "\E14C";
-}
-
-*:not(.md-search-result__item) > h2#might-skills,
-*:not(.md-search-result__item) > h2#speed-skills,
-*:not(.md-search-result__item) > h2#intelligence-skills,
-*:not(.md-search-result__item) > h2#charisma-skills {
-  z-index: 1;
-  padding-top: 1em;
-  margin-bottom: 0.8rem;
-}
-
-*:not(.md-search-result__item) > a[href="./equipment"]:after,
-*:not(.md-search-result__item) > a[href*="#"]:after {
-  font-family: "game-icons";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  text-decoration: none;
-  text-transform: none;
-  margin-left: 2px;
-  vertical-align: top;
-}
-
-*:not(.md-search-result__item) > h3#endurance:after,
-*:not(.md-search-result__item) > a[href*="#endurance"]:after {
-  content: "\EB5C";
-}
-
-*:not(.md-search-result__item) > h3#health:after,
-*:not(.md-search-result__item) > a[href*="#health"]:after {
-  content: "\E4B0";
-}
-
-*:not(.md-search-result__item) > h3#perks:after,
-*:not(.md-search-result__item) > a[href$="#perks"]:after {
-  content: "\E78F";
-}
-
-*:not(.md-search-result__item) > h3#flaws:after,
-*:not(.md-search-result__item) > a[href*="#flaws"]:after {
-  content: "\E840";
-}
-
-*:not(.md-search-result__item) > h3#might:after,
-*:not(.md-search-result__item) > h2#might-skills:after,
-*:not(.md-search-result__item) > a[href*="#might"]:after {
-  content: "\E696";
-}
-
-*:not(.md-search-result__item) > h3#speed:after,
-*:not(.md-search-result__item) > h2#speed-skills:after,
-*:not(.md-search-result__item) > a[href*="#speed"]:after {
-  content: "\E543";
-}
-
-*:not(.md-search-result__item) > h3#intelligence:after,
-*:not(.md-search-result__item) > h2#intelligence-skills:after,
-*:not(.md-search-result__item) > a[href*="#intelligence"]:after {
-  content: "\E5E6";
-}
-
-*:not(.md-search-result__item) > h3#charisma:after,
-*:not(.md-search-result__item) > h2#charisma-skills:after,
-*:not(.md-search-result__item) > a[href*="#charisma"]:after {
-  content: "\E6CC";
-}
-
-*:not(.md-search-result__item) > a[href$="#dmg-damage"]:after,
-*:not(.md-search-result__item) > a[href$="#damage"]:after {
-  content: "\E1E8";
-}
-
-*:not(.md-search-result__item) > a[href*="#crit-critical"]:after,
-*:not(.md-search-result__item) > a[href*="#critical-damage"]:after {
-  content: "\E5E2";
-}
-
-*:not(.md-search-result__item) > h3#damage-reduction:after,
-*:not(.md-search-result__item) > a[href*="#DR"]:after,
-*:not(.md-search-result__item) > a[href*="#damage-reduction"]:after {
-  content: "\E023";
-}
-
-*:not(.md-search-result__item) > h4#hit,
-*:not(.md-search-result__item) > a[href*="#hit"]:after,
-*:not(.md-search-result__item) > a[href*="#attack"]:after {
-  content: "\E8AA";
-}
-
-*:not(.md-search-result__item) > a[href*="#rof"]:after,
-*:not(.md-search-result__item) > a[href*="rof#stats"]:after {
-  content: "\E1DA";
-}
-
-*:not(.md-search-result__item) > a[href*="#cap-capacity"]:after {
-  content: "\E1B6";
-}
-
-*:not(.md-search-result__item) > a[href*="reload#stats"]:after {
-  content: "\E094";
-}
-
-*:not(.md-search-result__item) > h1#skills:after,
-*:not(.md-search-result__item) > h2#skills:after,
-*:not(.md-search-result__item) > h2#available-skills:after,
-*:not(.md-search-result__item) > a[href*="#skills"]:after {
-  content: "\E71A";
-}
-
-*:not(.md-search-result__item) > a[href^="./equipment"]:after {
-  content: "\E77F";
-}
-
-*:not(.md-search-result__item) > h2#armour:after,
-*:not(.md-search-result__item) > a[href*="#armour"]:after {
-  content: "\EA22";
-}
-
-*:not(.md-search-result__item) > h4#turn-order:after,
-*:not(.md-search-result__item) > a[href*="#turn-order"]:after {
-  content: "\E385";
-}
-
-*:not(.md-search-result__item) > .qs-cr {
-  font-style: normal;
-}
-
-*:not(.md-search-result__item) > .qs-cr:after {
-  content: "\E8D7";
-}
-
-.qstar-2ones:after {
-  content: "\E90E \E90E";
-}
-
-.qstar-2sixes:after {
-  content: "\E90F \E90F";
-}
-
 h1 {
   position: relative !important;
 }
@@ -449,5 +100,748 @@ h4 > a {
 
 h4 > a:after {
   content: "" !important;
+}
+
+h5 {
+  position: relative !important;
+}
+
+h5:after {
+  font-family: "game-icons";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  margin-left: 0.5rem !important;
+  vertical-align: top;
+}
+
+h5 > a {
+  position: absolute;
+  right: 0;
+}
+
+h5 > a:after {
+  content: "" !important;
+}
+
+*:not(.md-search-result__item) > *#might-skills,
+*:not(.md-search-result__item) > *#speed-skills,
+*:not(.md-search-result__item) > *#intelligence-skills,
+*:not(.md-search-result__item) > *#charisma-skills {
+  z-index: 1;
+  padding-top: 1em;
+  margin-bottom: 0.8rem;
+}
+
+*:not(.md-search-result__item) > a[href="./equipment"]:after,
+*:not(.md-search-result__item) > a[href*="#"]:after {
+  font-family: "game-icons";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  margin-left: 2px;
+  vertical-align: top;
+}
+
+*:not(.md-search-result__item) > *#endurance-ep:after,
+*:not(.md-search-result__item) > a[href*="#endurance"]:after {
+  content: "\EB5C";
+}
+
+*:not(.md-search-result__item) > *#health-hp:after,
+*:not(.md-search-result__item) > a[href*="#health"]:not([href*="#healthy"]):after {
+  content: "\E4B0";
+}
+
+*:not(.md-search-result__item) > *#perks:after,
+*:not(.md-search-result__item) > a[href$="#perks"]:after {
+  content: "\E78F";
+}
+
+*:not(.md-search-result__item) > *#flaws:after,
+*:not(.md-search-result__item) > a[href*="#flaws"]:after {
+  content: "\E840";
+}
+
+*:not(.md-search-result__item) > *#might-mi:after,
+*:not(.md-search-result__item) > *#might-skills:after,
+*:not(.md-search-result__item) > a[href*="#might"]:after {
+  content: "\E696";
+}
+
+*:not(.md-search-result__item) > *#speed-sp:after,
+*:not(.md-search-result__item) > *#speed-skills:after,
+*:not(.md-search-result__item) > a[href*="#speed"]:after {
+  content: "\E543";
+}
+
+*:not(.md-search-result__item) > *#intelligence-in:after,
+*:not(.md-search-result__item) > *#intelligence-skills:after,
+*:not(.md-search-result__item) > a[href*="#intelligence"]:after {
+  content: "\E5E6";
+}
+
+*:not(.md-search-result__item) > *#charisma-ch:after,
+*:not(.md-search-result__item) > *#charisma-skills:after,
+*:not(.md-search-result__item) > a[href*="#charisma"]:after {
+  content: "\E6CC";
+}
+
+*:not(.md-search-result__item) > a[href$="#dmg-damage"]:after,
+*:not(.md-search-result__item) > a[href$="#damage"]:after {
+  content: "\E1E8";
+}
+
+*:not(.md-search-result__item) > a[href*="#crit-critical"]:after,
+*:not(.md-search-result__item) > a[href*="#critical-damage"]:after {
+  content: "\E5E2";
+}
+
+*:not(.md-search-result__item) > h3#damage-reduction:after,
+*:not(.md-search-result__item) > a[href*="#DR"]:after,
+*:not(.md-search-result__item) > a[href*="#damage-reduction"]:after {
+  content: "\E023";
+}
+
+*:not(.md-search-result__item) > h4#hit,
+*:not(.md-search-result__item) > a[href*="#hit"]:after,
+*:not(.md-search-result__item) > a[href*="#attack"]:after {
+  content: "\E8AA";
+}
+
+*:not(.md-search-result__item) > a[href*="#rof"]:after,
+*:not(.md-search-result__item) > a[href*="rof#stats"]:after {
+  content: "\E1DA";
+}
+
+*:not(.md-search-result__item) > a[href*="#cap-capacity"]:after {
+  content: "\E1B6";
+}
+
+*:not(.md-search-result__item) > a[href*="reload#stats"]:after {
+  content: "\E094";
+}
+
+*:not(.md-search-result__item) > *#abilities:after,
+*:not(.md-search-result__item) > a[href*="#abilities"]:after {
+  content: "\E6C0";
+}
+
+*:not(.md-search-result__item) > *#skills:after,
+*:not(.md-search-result__item) > a[href*="#skills"]:after,
+*:not(.md-search-result__item) > *#skill-ranks:after,
+*:not(.md-search-result__item) > a[href*="#skill-ranks"]:after {
+  content: "\E71A";
+}
+
+*:not(.md-search-result__item) > a[href^="./equipment"]:after {
+  content: "\E77F";
+}
+
+*:not(.md-search-result__item) > *#armour:after,
+*:not(.md-search-result__item) > a[href*="#armour"]:after {
+  content: "\EA22";
+}
+
+*:not(.md-search-result__item) > *#turn-order:after,
+*:not(.md-search-result__item) > a[href*="#turn-order"]:after {
+  content: "\E385";
+}
+
+*:not(.md-search-result__item) > *#downtime-dt:after,
+*:not(.md-search-result__item) > a[href*="#downtime"]:after {
+  content: "\E355";
+}
+
+*:not(.md-search-result__item) > *#influence-inf:after,
+*:not(.md-search-result__item) > a[href*="#influence"]:after {
+  content: "\E368";
+}
+
+*:not(.md-search-result__item) > *#resources-res:after,
+*:not(.md-search-result__item) > a[href*="#resources"]:after {
+  content: "\E5B0";
+}
+
+*:not(.md-search-result__item) > *#technology-tech:after,
+*:not(.md-search-result__item) > a[href*="#technology"]:after {
+  content: "\EB3B";
+}
+
+*:not(.md-search-result__item) > .qs-cr {
+  font-style: normal;
+}
+
+*:not(.md-search-result__item) > .qs-cr:after {
+  content: "\E8D7";
+}
+
+.md-typeset:not(.md-search-result__item) div.perk dl {
+  margin-top: 0;
+  margin-bottom: -1px;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.md-typeset:not(.md-search-result__item) div.perk dl dt {
+  float: left;
+  width: 110px;
+  text-align: right;
+  letter-spacing: 0 !important;
+  font-size: 1.3rem;
+  line-height: 1.3;
+  font-weight: bold;
+}
+
+.md-typeset:not(.md-search-result__item) div.perk dl dt:first-of-type {
+  line-height: 1.8;
+  letter-spacing: 0 !important;
+  font-family: 'Mainframe-Opto';
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 1.28rem;
+}
+
+.md-typeset:not(.md-search-result__item) div.perk dl dd {
+  font-size: 1.3rem;
+  line-height: 1.3;
+  margin: 0.15em 0 0.15em 120px;
+}
+
+.md-typeset:not(.md-search-result__item) div.perk dl dd:first-of-type {
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+.md-typeset:not(.md-search-result__item) div.qs-list + div.cols-wrapper :target {
+  display: block;
+  position: relative;
+  top: -5rem;
+  visibility: hidden;
+}
+
+.md-typeset:not(.md-search-result__item) div.qs-list + div.cols-wrapper :target + section {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.md-typeset:not(.md-search-result__item) div.qs-list + div.cols-wrapper > section {
+  padding-top: 1em;
+}
+
+.md-typeset:not(.md-search-result__item) div.qs-list + div.cols-wrapper h5 {
+  float: left;
+  width: 110px;
+  padding-left: 0;
+  text-align: right;
+  line-height: 1.4;
+  padding-top: 0.1em;
+  letter-spacing: 0 !important;
+  padding-top: 6rem;
+  margin: 0;
+  margin-top: -6rem;
+  z-index: 0;
+  position: relative;
+}
+
+.md-typeset:not(.md-search-result__item) div.qs-list + div.cols-wrapper h5 + p {
+  margin: 0 !important;
+  margin-left: 120px !important;
+  margin-bottom: 0.15em !important;
+  font-size: 1.4rem;
+  line-height: 1.3;
+}
+
+.md-typeset:not(.md-search-result__item) div.qs-list + div.cols-wrapper h5 a {
+  display: none !important;
+}
+
+.md-typeset:not(.md-search-result__item) div.qs-list + div.cols-wrapper dl {
+  margin-top: 0;
+  margin-bottom: -1px;
+  padding-top: 2px;
+  padding-bottom: 1em;
+  clear: both;
+}
+
+.md-typeset:not(.md-search-result__item) div.qs-list + div.cols-wrapper dl dt:first-of-type {
+  margin: 0.15em 0 0.15em 0;
+}
+
+.md-typeset:not(.md-search-result__item) div.qs-list + div.cols-wrapper dl dt {
+  float: left;
+  width: 110px;
+  text-align: right;
+  letter-spacing: 0 !important;
+  font-size: 1.3rem;
+  line-height: 1.3;
+  font-weight: bold;
+}
+
+.md-typeset:not(.md-search-result__item) div.qs-list + div.cols-wrapper dl dd {
+  font-size: 1.3rem;
+  line-height: 1.3;
+  margin: 0.15em 0 0.15em 120px;
+}
+
+[data-bracket-bottom],
+[data-bracket-top] {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  margin-left: 10px;
+}
+
+[data-bracket-bottom] {
+  margin-bottom: 10px;
+}
+
+[data-bracket-bottom]:before {
+  content: attr(data-bracket-bottom);
+  position: absolute;
+  top: 100%;
+  font-size: 80%;
+  padding: 5px;
+  white-space: nowrap;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+[data-bracket-bottom]:after {
+  content: "\25B5";
+  display: block;
+  height: 12px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 13px;
+}
+
+[data-bracket-top]:before {
+  content: "\25BF";
+  display: block;
+  height: 12px;
+  position: absolute;
+  top: -15px;
+  left: -2px;
+  right: 0;
+}
+
+[data-bracket-top]:after {
+  content: attr(data-bracket-top);
+  position: absolute;
+  top: -30px;
+  font-size: 80%;
+  padding: 5px;
+  white-space: nowrap;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.formula {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.formula.formula-top {
+  margin-top: 35px;
+}
+
+.formula.formula-bottom {
+  margin-bottom: 35px;
+}
+
+.formula span {
+  margin: 0 8px;
+}
+
+details,
+.admonition {
+  overflow: hidden !important;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2) !important;
+}
+
+details .formula.formula-bottom,
+.admonition .formula.formula-bottom {
+  margin-bottom: 30px;
+}
+
+details .formula.formula-top,
+.admonition .formula.formula-top {
+  margin-top: 35px;
+}
+
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 400;
+}
+
+/**
+ * Firefox specific rule
+ */
+@-moz-document url-prefix() {
+  body {
+    font-weight: lighter;
+  }
+}
+
+.qs-sep {
+  font-weight: bold;
+  font-style: normal;
+}
+
+.qs-sep,
+.qs-sep + * {
+  padding-top: 5px;
+}
+
+a[href*="example-"] {
+  display: none;
+}
+
+.admonition-title a {
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Mainframe-Opto';
+  src: url("../fonts/Mainframe-Opto.eot?#iefix") format("embedded-opentype"), url("../fonts/Mainframe-Opto.woff") format("woff"), url("../fonts/Mainframe-Opto.ttf") format("truetype"), url("../fonts/Mainframe-Opto.svg#Mainframe-Opto") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media only screen and (min-width: 76.25em) {
+  .md-tabs--active ~ .md-main .md-nav--primary > .md-nav__list > .md-nav__item--nested {
+    display: block;
+  }
+}
+
+nav.md-nav--primary > ul.md-nav__list > li:not(:first-child) {
+  padding-top: 2rem;
+}
+
+.md-header-nav__button.md-logo {
+  margin: 0;
+}
+
+.md-typeset dd {
+  margin: 0.1em 0 0.2em 1.875em;
+}
+
+@media only screen and (max-width: 60em) {
+  .is-mobile {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 50em) {
+  .left,
+  .right {
+    float: left;
+    width: 50%;
+  }
+  .left {
+    padding-right: 2%;
+  }
+  .right {
+    padding-left: 2%;
+  }
+  .right + * {
+    clear: both;
+  }
+  .cols-wrapper {
+    float: left;
+    width: 50%;
+  }
+  .cols-wrapper > section {
+    padding-right: 2%;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+  }
+}
+
+.clearfix {
+  clear: both;
+}
+
+.tag {
+  font-weight: 300;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #3f51b5;
+  border-radius: 2px;
+  font-style: normal;
+  min-width: 3rem;
+  padding: 0 6px;
+  margin-left: 4px;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 22px;
+  height: 22px;
+  float: right;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1[id]:target:before {
+  margin-top: -5.8rem;
+  padding-top: 5.8rem;
+}
+
+h1[id]:before {
+  display: block;
+  margin-top: -.8rem;
+  padding-top: .8rem;
+  content: "";
+}
+
+.md-typeset:not(.md-search-result__item) strong.hf {
+  /* header-font */
+  font-family: 'Mainframe-Opto';
+  letter-spacing: 0.1rem;
+}
+
+.md-typeset:not(.md-search-result__item) h1, .md-typeset:not(.md-search-result__item) h2, .md-typeset:not(.md-search-result__item) h3, .md-typeset:not(.md-search-result__item) h4, .md-typeset:not(.md-search-result__item) h5 {
+  font-family: 'Mainframe-Opto';
+  letter-spacing: 0.3rem;
+  padding-left: 10px;
+}
+
+.md-typeset:not(.md-search-result__item) h4:not(.dt) {
+  border-bottom: 2px solid grey;
+}
+
+.md-typeset:not(.md-search-result__item) ul {
+  position: relative;
+  list-style: none;
+  margin-left: 1rem !important;
+}
+
+.md-typeset:not(.md-search-result__item) ul li:before {
+  content: "\25B9";
+  position: absolute;
+  left: 0rem;
+  font-size: 2rem;
+  line-height: 2.7rem;
+}
+
+table td {
+  position: relative;
+}
+
+.md-typeset__table table td {
+  padding: 0.4rem 0.8rem !important;
+}
+
+.md-typeset__table table th {
+  padding: 0.8rem 0.8rem !important;
+}
+
+.md-typeset table:not([class]) th {
+  min-width: 3rem;
+}
+
+table tr td:first-child {
+  white-space: nowrap;
+}
+
+tr.targetted {
+  background-color: #FFF9C4 !important;
+}
+
+tr:nth-child(even) {
+  background-color: #efefef;
+}
+
+p.dt + ul {
+  margin: 0 !important;
+  margin-left: 150px !important;
+}
+
+p.dt + ul li {
+  display: inline;
+  padding-right: 3px;
+  margin: 0 !important;
+}
+
+p.dt + ul li:not(:first-child):before {
+  content: "\2022";
+  padding-right: 5px;
+}
+
+.dt {
+  color: #444;
+}
+
+i[f],
+i[s] {
+  font-family: 'Material Icons';
+  font-style: normal;
+  vertical-align: middle;
+  line-height: 1.6;
+}
+
+i[s] {
+  color: #00c853;
+}
+
+i[s]:before {
+  content: "\E876";
+}
+
+i[f] {
+  color: #ff5252;
+}
+
+i[f]:before {
+  content: "\E14C";
+}
+
+blockquote.important {
+  border-left: .4rem solid #3f51b5;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+table thead th:hover {
+  cursor: pointer;
+}
+
+.qstar-2ones:after {
+  content: "\E90E \E90E";
+}
+
+.qstar-3ones:after {
+  content: "\E90E \E90E \E90E";
+}
+
+.qs-2d6:after,
+.qstar-2sixes:after {
+  content: "\E90F \E90F";
+}
+
+.qs-3d6:after,
+.qstar-3sixes:after {
+  content: "\E90F \E90F \E90F";
+}
+
+.qs-d6 {
+  font-style: normal;
+}
+
+.qs-d6:after {
+  content: "\E90F" !important;
+}
+
+@media only screen and (min-width: 20em) {
+  div.dl-horizontal dl dt {
+    float: left;
+    width: 100px;
+    overflow: hidden;
+    clear: left;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 700;
+  }
+  div.dl-horizontal dl dd {
+    margin-left: 120px;
+  }
+}
+
+@media only screen and (max-width: 20em) {
+  div.dl-horizontal dl dt {
+    font-weight: 700;
+  }
+  div.dl-horizontal dl dd {
+    margin-left: 0;
+  }
+}
+
+.md-typeset table:not([class]) thead tr th {
+  font-weight: 700;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.87);
+  border-bottom: 2px solid #3f51b5;
+}
+
+@media only screen and (min-width: 50em) {
+  div.qs-list-test {
+    column-count: 2;
+    column-gap: 25px;
+  }
+  div.qs-list-test :target {
+    display: block;
+    position: relative;
+    top: -5rem;
+    visibility: hidden;
+  }
+  div.qs-list-test :target + section {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  div.qs-list-test section {
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+  }
+  div.qs-list-test section h5 {
+    float: left;
+    width: 110px;
+    padding-left: 0;
+    text-align: right;
+    line-height: 1.4;
+    padding-top: 0.1em;
+    letter-spacing: 0 !important;
+    padding-top: 6rem;
+    margin: 0;
+    margin-top: -6rem;
+    z-index: 0;
+    position: relative;
+  }
+  div.qs-list-test section h5 + p {
+    margin: 0 !important;
+    margin-left: 120px !important;
+    margin-bottom: 0.15em !important;
+    font-size: 1.4rem;
+    line-height: 1.3;
+  }
+  div.qs-list-test section h5 a {
+    display: none !important;
+  }
+  div.qs-list-test section dl {
+    margin-top: 0;
+    margin-bottom: -1px;
+    padding-top: 2px;
+    padding-bottom: 1em;
+    clear: both;
+  }
+  div.qs-list-test section dl dt:first-of-type {
+    margin: 0.15em 0 0.15em 0;
+  }
+  div.qs-list-test section dl dt {
+    float: left;
+    width: 110px;
+    text-align: right;
+    letter-spacing: 0 !important;
+    font-size: 1.3rem;
+    line-height: 1.3;
+    font-weight: bold;
+  }
+  div.qs-list-test section dl dd {
+    font-size: 1.3rem;
+    line-height: 1.3;
+    margin: 0.15em 0 0.15em 120px;
+  }
 }
 /*# sourceMappingURL=extra.css.map */

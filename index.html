@@ -21,6 +21,10 @@
       
         <meta name="lang:search.language" content="en">
       
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
         <meta name="lang:search.result.none" content="No matching documents">
       
         <meta name="lang:search.result.one" content="1 matching document">
@@ -30,23 +34,24 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="./assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-0.17.2, mkdocs-material-2.3.0">
+      <meta name="generator" content="mkdocs-0.17.3, mkdocs-material-2.7.0">
     
     
       
-        <title>Q* - RPG</title>
+        <title>Q* - RPG System</title>
       
     
     
-      <link rel="stylesheet" href="./assets/stylesheets/application.0e9c8aca.css">
+      <link rel="stylesheet" href="./assets/stylesheets/application.78aab2dc.css">
       
-        <link rel="stylesheet" href="./assets/stylesheets/application-palette.792431c1.css">
+        <link rel="stylesheet" href="./assets/stylesheets/application-palette.6079476c.css">
       
     
     
       <script src="./assets/javascripts/modernizr.1aa3b519.js"></script>
     
     
+      <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
       
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
@@ -67,15 +72,30 @@
   
     
     
-    
-      <body data-md-color-primary="indigo" data-md-color-accent="indigo">
-    
+    <body dir="ltr" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
     <svg class="md-svg">
       <defs>
         
         
-          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
         
       </defs>
     </svg>
@@ -83,13 +103,18 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
     <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
     
+      <a href="#introduction" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="." title="Q* - RPG" class="md-header-nav__button md-logo">
+        <a href="." title="Q* - RPG System" class="md-header-nav__button md-logo">
           
-            <i class="md-icon"></i>
+            <i class="md-icon">⚝</i>
           
         </a>
       </div>
@@ -101,10 +126,10 @@
           
             
               <span class="md-header-nav__topic">
-                Q* - RPG
+                Q* - RPG System
               </span>
               <span class="md-header-nav__topic">
-                Rules
+                Introduction
               </span>
             
           
@@ -117,11 +142,13 @@
             
 <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="search"></label>
-  <div class="md-search__inner">
+  <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" required placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
       <label class="md-icon md-search__icon" for="search"></label>
-      <button type="reset" class="md-icon md-search__icon" data-md-component="reset">&#xE5CD;</button>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
@@ -198,8 +225,21 @@
   
     <li class="md-tabs__item">
       
-        <a href="settings/stalker/rules/" title="S.T.A.L.K.E.R. Setting" class="md-tabs__link">
-          S.T.A.L.K.E.R. Setting
+        <a href="settings/qstar/" title="Setting — Q*" class="md-tabs__link">
+          Setting — Q*
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="settings/stalker/" title="Setting — S.T.A.L.K.E.R." class="md-tabs__link">
+          Setting — S.T.A.L.K.E.R.
         </a>
       
     </li>
@@ -221,10 +261,10 @@
   <label class="md-nav__title md-nav__title--site" for="drawer">
     <span class="md-nav__button md-logo">
       
-        <i class="md-icon"></i>
+        <i class="md-icon">⚝</i>
       
     </span>
-    Q* - RPG
+    Q* - RPG System
   </label>
   
     <div class="md-nav__source">
@@ -287,19 +327,19 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="toc">
-        Rules
+        Introduction
       </label>
     
-    <a href="." title="Rules" class="md-nav__link md-nav__link--active">
-      Rules
+    <a href="." title="Introduction" class="md-nav__link md-nav__link--active">
+      Introduction
     </a>
     
       
 <nav class="md-nav md-nav--secondary">
-  
+  <!-- 
   
     
-  
+   -->
   
     <label class="md-nav__title" for="toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
@@ -309,168 +349,19 @@
     Introduction
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#abilities" title="Abilities" class="md-nav__link">
-    Abilities
-  </a>
-  
     <nav class="md-nav">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#might" title="Might" class="md-nav__link">
-    Might
+  <a href="#glossary" title="Glossary" class="md-nav__link">
+    Glossary
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#speed" title="Speed" class="md-nav__link">
-    Speed
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#intelligence" title="Intelligence" class="md-nav__link">
-    Intelligence
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#charisma" title="Charisma" class="md-nav__link">
-    Charisma
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#pools" title="Pools" class="md-nav__link">
-    Pools
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#endurance" title="Endurance" class="md-nav__link">
-    Endurance
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#health" title="Health" class="md-nav__link">
-    Health
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#skills" title="Skills" class="md-nav__link">
-    Skills
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#tasks" title="Tasks" class="md-nav__link">
-    Tasks
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#aiding" title="Aiding" class="md-nav__link">
-    Aiding
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#competing" title="Competing" class="md-nav__link">
-    Competing
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#retrying" title="Retrying" class="md-nav__link">
-    Retrying
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#perks-flaws" title="Perks &amp; Flaws" class="md-nav__link">
-    Perks &amp; Flaws
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#perks" title="Perks" class="md-nav__link">
-    Perks
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#flaws" title="Flaws" class="md-nav__link">
-    Flaws
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#improving-your-character" title="Improving your character" class="md-nav__link">
-    Improving your character
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#abilities_1" title="Abilities" class="md-nav__link">
-    Abilities
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#skills_1" title="Skills" class="md-nav__link">
-    Skills
+  <a href="#abbrevations" title="Abbrevations" class="md-nav__link">
+    Abbrevations
   </a>
   
 </li>
@@ -489,132 +380,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#actions-in-combat" title="Actions in Combat" class="md-nav__link">
-    Actions in Combat
+  <a href="#turn-order" title="Turn Order" class="md-nav__link">
+    Turn Order
   </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#kneel-down" title="Kneel Down" class="md-nav__link">
-    Kneel Down
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#move" title="Move" class="md-nav__link">
-    Move
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#prone" title="Prone" class="md-nav__link">
-    Prone
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#take-aim" title="Take Aim" class="md-nav__link">
-    Take Aim
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#take-cover" title="Take Cover" class="md-nav__link">
-    Take Cover
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#use-item" title="Use Item" class="md-nav__link">
-    Use Item
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#use-skill" title="Use Skill" class="md-nav__link">
-    Use Skill
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#conditions" title="Conditions" class="md-nav__link">
-    Conditions
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#drunk" title="Drunk" class="md-nav__link">
-    Drunk
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#incapacitated" title="Incapacitated" class="md-nav__link">
-    Incapacitated
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#in-cover" title="In cover" class="md-nav__link">
-    In cover
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#prone_1" title="Prone" class="md-nav__link">
-    Prone
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#stunned" title="Stunned" class="md-nav__link">
-    Stunned
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#defence" title="Defence" class="md-nav__link">
-    Defence
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#cover" title="Cover" class="md-nav__link">
-    Cover
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
         
@@ -626,91 +394,54 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#damage" title="Damage" class="md-nav__link">
-    Damage
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#critical-hit" title="Critical Hit" class="md-nav__link">
-    Critical Hit
+  <a href="#defence" title="Defence" class="md-nav__link">
+    Defence
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#critical-damage" title="Critical Damage" class="md-nav__link">
-    Critical Damage
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#status" title="Status" class="md-nav__link">
-    Status
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#incapacitated_1" title="Incapacitated" class="md-nav__link">
-    Incapacitated
+  <a href="#healing" title="Healing" class="md-nav__link">
+    Healing
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#dead" title="Dead" class="md-nav__link">
-    Dead
+  <a href="#surprise-round" title="Surprise round" class="md-nav__link">
+    Surprise round
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#crisis" title="Crisis" class="md-nav__link">
-    Crisis
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#turn-order" title="Turn order" class="md-nav__link">
-    Turn order
+  <a href="#conditions" title="Conditions" class="md-nav__link">
+    Conditions
   </a>
   
 </li>
         
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
+          <li class="md-nav__item">
   <a href="#actions" title="Actions" class="md-nav__link">
     Actions
   </a>
   
     <nav class="md-nav">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tactical" title="Tactical" class="md-nav__link">
+    Tactical
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#movement" title="Movement" class="md-nav__link">
+    Movement
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#free-actions" title="Free Actions" class="md-nav__link">
@@ -720,9 +451,14 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#reactions" title="Reactions" class="md-nav__link">
-    Reactions
+  <a href="#reaction" title="Reaction" class="md-nav__link">
+    Reaction
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -731,59 +467,7 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#making-a-character" title="Making a character" class="md-nav__link">
-    Making a character
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#first-choose-a-race" title="First: Choose a race" class="md-nav__link">
-    First: Choose a race
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#human" title="Human" class="md-nav__link">
-    Human
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#second-make-adaptions" title="Second: Make adaptions" class="md-nav__link">
-    Second: Make adaptions
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#third-roll-endurance-and-health" title="Third: Roll Endurance and Health" class="md-nav__link">
-    Third: Roll Endurance and Health
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fourth-buy-equipment" title="Fourth: Buy equipment" class="md-nav__link">
-    Fourth: Buy equipment
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
+      
       
       
       
@@ -800,7 +484,74 @@
 
 
   <li class="md-nav__item">
-    <a href="skills/" title="Skills" class="md-nav__link">
+    <a href="quick-start/" title="Quick Start Rules" class="md-nav__link">
+      Quick Start Rules
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-3" type="checkbox" id="nav-1-3">
+    
+    <label class="md-nav__link" for="nav-1-3">
+      Character
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-1-3">
+        Character
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="character-creation/" title="Character Creation" class="md-nav__link">
+      Character Creation
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="character/races/" title="Races" class="md-nav__link">
+      Races
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="character/" title="Character" class="md-nav__link">
+      Character
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="character/skills/" title="Skills" class="md-nav__link">
       Skills
     </a>
   </li>
@@ -812,7 +563,7 @@
 
 
   <li class="md-nav__item">
-    <a href="perks/" title="Perks" class="md-nav__link">
+    <a href="character/perks/" title="Perks" class="md-nav__link">
       Perks
     </a>
   </li>
@@ -824,7 +575,7 @@
 
 
   <li class="md-nav__item">
-    <a href="flaws/" title="Flaws" class="md-nav__link">
+    <a href="character/flaws/" title="Flaws" class="md-nav__link">
       Flaws
     </a>
   </li>
@@ -836,20 +587,37 @@
 
 
   <li class="md-nav__item">
-    <a href="equipment/" title="Equipment" class="md-nav__link">
+    <a href="character/traits/" title="Traits" class="md-nav__link">
+      Traits
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="character/equipment/" title="Equipment" class="md-nav__link">
       Equipment
     </a>
   </li>
 
         
+      </ul>
+    </nav>
+  </li>
+
+        
           
           
           
 
 
   <li class="md-nav__item">
-    <a href="taskdcs/" title="Task DCs" class="md-nav__link">
-      Task DCs
+    <a href="crisis/" title="Crisis" class="md-nav__link">
+      Crisis
     </a>
   </li>
 
@@ -860,9 +628,93 @@
 
 
   <li class="md-nav__item">
-    <a href="vessels/" title="Vessels" class="md-nav__link">
+    <a href="stunts/" title="Stunts" class="md-nav__link">
+      Stunts
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1-6" type="checkbox" id="nav-1-6">
+    
+    <label class="md-nav__link" for="nav-1-6">
+      Vehicles & Vessels
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-1-6">
+        Vehicles & Vessels
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="vessel/" title="Vessels" class="md-nav__link">
       Vessels
     </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="vessel/perks-flaws/" title="Perks & Flaws" class="md-nav__link">
+      Perks & Flaws
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="vessel/combat/" title="Combat" class="md-nav__link">
+      Combat
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="vessel/stunts/" title="Stunts" class="md-nav__link">
+      Stunts
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="vessel/equipment/" title="Equipment" class="md-nav__link">
+      Equipment
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
         
@@ -881,11 +733,11 @@
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
     
     <label class="md-nav__link" for="nav-2">
-      S.T.A.L.K.E.R. Setting
+      Setting — Q*
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
       <label class="md-nav__title" for="nav-2">
-        S.T.A.L.K.E.R. Setting
+        Setting — Q*
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -896,11 +748,35 @@
 
 
   <li class="md-nav__item">
-    <a href="settings/stalker/rules/" title="Rules" class="md-nav__link">
-      Rules
+    <a href="settings/qstar/" title="Introduction" class="md-nav__link">
+      Introduction
     </a>
   </li>
 
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Setting — S.T.A.L.K.E.R.
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Setting — S.T.A.L.K.E.R.
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
         
           
           
@@ -908,68 +784,8 @@
 
 
   <li class="md-nav__item">
-    <a href="settings/stalker/equipment/" title="Equipment" class="md-nav__link">
-      Equipment
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="settings/stalker/perks/" title="Perks" class="md-nav__link">
-      Perks
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="settings/stalker/anomalies/" title="Anomalies" class="md-nav__link">
-      Anomalies
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="settings/stalker/artifacts/" title="Artifacts" class="md-nav__link">
-      Artifacts
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="settings/stalker/enemies/" title="Enemies" class="md-nav__link">
-      Enemies
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="settings/stalker/mutants/" title="Mutants" class="md-nav__link">
-      Mutants
+    <a href="settings/stalker/" title="Introduction" class="md-nav__link">
+      Introduction
     </a>
   </li>
 
@@ -991,10 +807,10 @@
                   <div class="md-sidebar__inner">
                     
 <nav class="md-nav md-nav--secondary">
-  
+  <!-- 
   
     
-  
+   -->
   
     <label class="md-nav__title" for="toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
@@ -1004,168 +820,19 @@
     Introduction
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#abilities" title="Abilities" class="md-nav__link">
-    Abilities
-  </a>
-  
     <nav class="md-nav">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#might" title="Might" class="md-nav__link">
-    Might
+  <a href="#glossary" title="Glossary" class="md-nav__link">
+    Glossary
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#speed" title="Speed" class="md-nav__link">
-    Speed
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#intelligence" title="Intelligence" class="md-nav__link">
-    Intelligence
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#charisma" title="Charisma" class="md-nav__link">
-    Charisma
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#pools" title="Pools" class="md-nav__link">
-    Pools
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#endurance" title="Endurance" class="md-nav__link">
-    Endurance
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#health" title="Health" class="md-nav__link">
-    Health
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#skills" title="Skills" class="md-nav__link">
-    Skills
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#tasks" title="Tasks" class="md-nav__link">
-    Tasks
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#aiding" title="Aiding" class="md-nav__link">
-    Aiding
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#competing" title="Competing" class="md-nav__link">
-    Competing
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#retrying" title="Retrying" class="md-nav__link">
-    Retrying
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#perks-flaws" title="Perks &amp; Flaws" class="md-nav__link">
-    Perks &amp; Flaws
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#perks" title="Perks" class="md-nav__link">
-    Perks
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#flaws" title="Flaws" class="md-nav__link">
-    Flaws
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#improving-your-character" title="Improving your character" class="md-nav__link">
-    Improving your character
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#abilities_1" title="Abilities" class="md-nav__link">
-    Abilities
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#skills_1" title="Skills" class="md-nav__link">
-    Skills
+  <a href="#abbrevations" title="Abbrevations" class="md-nav__link">
+    Abbrevations
   </a>
   
 </li>
@@ -1184,132 +851,9 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#actions-in-combat" title="Actions in Combat" class="md-nav__link">
-    Actions in Combat
+  <a href="#turn-order" title="Turn Order" class="md-nav__link">
+    Turn Order
   </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#kneel-down" title="Kneel Down" class="md-nav__link">
-    Kneel Down
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#move" title="Move" class="md-nav__link">
-    Move
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#prone" title="Prone" class="md-nav__link">
-    Prone
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#take-aim" title="Take Aim" class="md-nav__link">
-    Take Aim
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#take-cover" title="Take Cover" class="md-nav__link">
-    Take Cover
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#use-item" title="Use Item" class="md-nav__link">
-    Use Item
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#use-skill" title="Use Skill" class="md-nav__link">
-    Use Skill
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#conditions" title="Conditions" class="md-nav__link">
-    Conditions
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#drunk" title="Drunk" class="md-nav__link">
-    Drunk
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#incapacitated" title="Incapacitated" class="md-nav__link">
-    Incapacitated
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#in-cover" title="In cover" class="md-nav__link">
-    In cover
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#prone_1" title="Prone" class="md-nav__link">
-    Prone
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#stunned" title="Stunned" class="md-nav__link">
-    Stunned
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#defence" title="Defence" class="md-nav__link">
-    Defence
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#cover" title="Cover" class="md-nav__link">
-    Cover
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
         
@@ -1321,91 +865,54 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#damage" title="Damage" class="md-nav__link">
-    Damage
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#critical-hit" title="Critical Hit" class="md-nav__link">
-    Critical Hit
+  <a href="#defence" title="Defence" class="md-nav__link">
+    Defence
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#critical-damage" title="Critical Damage" class="md-nav__link">
-    Critical Damage
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#status" title="Status" class="md-nav__link">
-    Status
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#incapacitated_1" title="Incapacitated" class="md-nav__link">
-    Incapacitated
+  <a href="#healing" title="Healing" class="md-nav__link">
+    Healing
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#dead" title="Dead" class="md-nav__link">
-    Dead
+  <a href="#surprise-round" title="Surprise round" class="md-nav__link">
+    Surprise round
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#crisis" title="Crisis" class="md-nav__link">
-    Crisis
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#turn-order" title="Turn order" class="md-nav__link">
-    Turn order
+  <a href="#conditions" title="Conditions" class="md-nav__link">
+    Conditions
   </a>
   
 </li>
         
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
+          <li class="md-nav__item">
   <a href="#actions" title="Actions" class="md-nav__link">
     Actions
   </a>
   
     <nav class="md-nav">
       <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tactical" title="Tactical" class="md-nav__link">
+    Tactical
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#movement" title="Movement" class="md-nav__link">
+    Movement
+  </a>
+  
+</li>
         
           <li class="md-nav__item">
   <a href="#free-actions" title="Free Actions" class="md-nav__link">
@@ -1415,9 +922,14 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#reactions" title="Reactions" class="md-nav__link">
-    Reactions
+  <a href="#reaction" title="Reaction" class="md-nav__link">
+    Reaction
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -1426,59 +938,7 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#making-a-character" title="Making a character" class="md-nav__link">
-    Making a character
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#first-choose-a-race" title="First: Choose a race" class="md-nav__link">
-    First: Choose a race
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#human" title="Human" class="md-nav__link">
-    Human
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#second-make-adaptions" title="Second: Make adaptions" class="md-nav__link">
-    Second: Make adaptions
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#third-roll-endurance-and-health" title="Third: Roll Endurance and Health" class="md-nav__link">
-    Third: Roll Endurance and Health
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#fourth-buy-equipment" title="Fourth: Buy equipment" class="md-nav__link">
-    Fourth: Buy equipment
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
+      
       
       
       
@@ -1497,619 +957,213 @@
                   <a href="https://github.com/ehrpg/qstar/edit/master/docs/index.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="q">Q*<a class="headerlink" href="#q" title="Permanent link">&para;</a></h1>
-<p>Q* is the working title for a bunch of modifications for the Endless Horizons
-Pen &amp; Paper game.</p>
-<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
-<p>You will need a game master, someone who is willing to run and guide the game,
-and at least two other players. Furthermore you will need a pencil, eraser, and
-some paper. To play you also need a few six sided dice (d6).</p>
-<h2 id="abilities">Abilities<a class="headerlink" href="#abilities" title="Permanent link">&para;</a></h2>
-<p>Each character, NPC or even monster is defined by four abilities and describe
-their physical and mental capabilities.</p>
-<div class="admonition important">
-<p class="admonition-title">Important</p>
-<p>Any character starts with 12 points which can be distributed amongst the 4
-abilities.</p>
-<p>Abilities range from 0 to 5.</p>
-</div>
-<p>An ability rating of 0 means impairement of some
-kind, while a rating of 5 means that the character is extremely powerful with
-that ability.</p>
-<p>Abilities are used to:</p>
+                <h1 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h1>
+<h2 id="glossary">Glossary<a class="headerlink" href="#glossary" title="Permanent link">&para;</a></h2>
+<dl>
+<dt><a href="./crisis#actions">Action point</a></dt>
+<dd>AP, used for atomic actions in a crisis.</dd>
+<dt>Base</dt>
+<dd>A base value that&rsquo;s used for rolls or to determine values. It&rsquo;s the same for
+all characters and creatures.</dd>
+<dt>Difficulty Class</dt>
+<dd>DC, a check equal or higher than the DC is a success, or a failure
+otherwise.</dd>
+<dt><em class="qs-f">Failure</em></dt>
+<dd>This indicates, that a check failed or has to be failed.</dd>
+<dt>Roleplaying Circumstance</dt>
+<dd>Usually added by a race, perk or flaws. Roleplaying circumstances include
+prejudice, others liking or disliking you, being a known criminal, etc.</dd>
+<dt><em class="qs-d6">Roll</em></dt>
+<dd>This indicates, that a die on a check is a <strong>6</strong>. The number of dice show
+the number of <strong>6</strong>s that have to be rolled.</dd>
+<dt><em class="qs-s">Success</em></dt>
+<dd>This indicates, that a check was succeeded or has to be succeeded.</dd>
+<dt>Weight</dt>
+<dd>The minimum requirement for <a href="./character#might-mi">Might</a>. Weight exceeding a
+character&rsquo;s <a href="./character#might-mi">Might</a> imposes penalties.</dd>
+</dl>
+<h2 id="abbrevations">Abbrevations<a class="headerlink" href="#abbrevations" title="Permanent link">&para;</a></h2>
+<div class="dl-horizontal">
+<p><div class="col-layout-start"></div></p>
 <ul>
-<li>determine if certain perks or flaws can be taken,</li>
-<li>add bonuses to skills,</li>
-<li>and if an action can be attempted or not.</li>
+<li>Abilities</li>
 </ul>
-<h3 id="might">Might<a class="headerlink" href="#might" title="Permanent link">&para;</a></h3>
-<p><strong>Might</strong> (MI) represents the characters physical <strong>strength</strong> and
-<strong>resilience</strong>. <a href="#endurance">Endurance</a> and <a href="#health">health</a> are derived from
-might. Your melee weapon damage also derives from might.</p>
-<h3 id="speed">Speed<a class="headerlink" href="#speed" title="Permanent link">&para;</a></h3>
-<p><strong>Speed</strong> (SP) measures the characters reflexes and hand-eye coordination. It is
-used for subversive actions (such as sneaking, or lock picking) and is used to
-<strong>better hit</strong> with melee weapons and ranged weapons.</p>
-<h3 id="intelligence">Intelligence<a class="headerlink" href="#intelligence" title="Permanent link">&para;</a></h3>
-<p><strong>Intelligence</strong> (IN) describes how well your character learns new things, and
-how well he remembers already existing things. It is a key factor in skills like
-hacking, medicine or engineering.</p>
-<h3 id="charisma">Charisma<a class="headerlink" href="#charisma" title="Permanent link">&para;</a></h3>
-<p><strong>Charisma</strong> (CA) represents the characters physical attractiveness, force of
-personality and his ability to lead. It is mostly used in <strong>social
-interactions</strong> between characters and NPCs.</p>
-<h2 id="pools">Pools<a class="headerlink" href="#pools" title="Permanent link">&para;</a></h2>
-<p>Each creature has two pools: <a href="#endurance">Endurance</a> and <a href="#health">health</a>.
-Objects only have a <a href="#health">health</a> pool.</p>
-<h3 id="endurance">Endurance<a class="headerlink" href="#endurance" title="Permanent link">&para;</a></h3>
-<p><em>Endurance represents the characters short time well being and constitution.</em></p>
-<p><a href="#endurance">Endurance</a> is determined by rolling a number of dice equal to your
-<a href="#might">Might</a> <strong>rank</strong> and then adding the base <a href="#endurance">endurance</a> pool
-of your race to the results. Which dice are rolled is also determined by the
-race.</p>
-<p><a href="#endurance">Endurance</a> recovers completely once the character has had enough
-time to rest (usually resting eight hours) without interruptions. Whenever you
-permanently increase or decrease <a href="#might">Might</a> you must roll the
-<a href="#endurance">endurance</a> dice and add or subtract that value from your
-<a href="#endurance">endurance</a> pool.</p>
-<p>A character that reaches zero <a href="#endurance">endurance</a> is <strong>incapacitated</strong>.</p>
-<div class="admonition summary">
-<p class="admonition-title">How to determine <em>Endurance</em></p>
-<p>This formular uses the <a href="#human">Human</a> race as an example.
-<div class="formula formula-top formula-bottom">
-<a href="#endurance" class="qstar-electric">Endurance</a>
-=
-<span data-bracket-bottom="base (race)">15</span>
-<span style="margin-left: 12px;">+</span>
-<span data-bracket-top="might rank" style="margin-left: 12px;">n</span>
-*
-<span data-bracket-bottom="endurance die (race)">d10</span>
-</div></p>
+<dl>
+<dt>MI</dt>
+<dd><a href="./character#might-mi">Might</a></dd>
+<dt>SP</dt>
+<dd><a href="./character#speed-sp">Speed</a></dd>
+<dt>IN</dt>
+<dd><a href="./character#intelligence-in">Intelligence</a></dd>
+<dt>CH</dt>
+<dd><a href="./character#charisma-ch">Charisma</a></dd>
+</dl>
+<ul>
+<li>Currency</li>
+</ul>
+<dl>
+<dt>DT</dt>
+<dd><a href="./character#downtime-dt">Downtime</a></dd>
+<dt>INF</dt>
+<dd><a href="./character#influence-inf">Influence</a></dd>
+<dt>RES</dt>
+<dd><a href="./character#resources-res">Resources</a></dd>
+<dt>TECH</dt>
+<dd><a href="./character#technology-tech">Technology</a></dd>
+</dl>
+<ul>
+<li>Character</li>
+</ul>
+<dl>
+<dt>XP</dt>
+<dd><a href="./character#experience-xp">Experience</a></dd>
+<dt>EP</dt>
+<dd><a href="./character#endurance-ep">Endurance points</a></dd>
+<dt>HP</dt>
+<dd><a href="./character#health-hp">Health points</a></dd>
+</dl>
+<div class="col-layout-end"></div>
+<div class="col-layout-start"></div>
+
+<ul>
+<li>Equipment</li>
+</ul>
+<dl>
+<dt>CR</dt>
+<dd><a href="./character/equipment#credits">Credits</a></dd>
+<dt>DR</dt>
+<dd><a href="./character/equipment/#armour">Damage Reduction</a></dd>
+<dt>HIT</dt>
+<dd><a href="./character/equipment/#weapons">Hit bonus</a></dd>
+<dt>END</dt>
+<dd><a href="./character/equipment/#weapons">Endurance damage</a></dd>
+<dt>DMG</dt>
+<dd><a href="./character/equipment/#weapons">Health damage</a></dd>
+<dt>RNG</dt>
+<dd><a href="./character/equipment/#weapons">Range</a></dd>
+<dt>MAG</dt>
+<dd><a href="./character/equipment/#weapons">Magazines</a></dd>
+<dt>CAP</dt>
+<dd><a href="./character/equipment/#weapons">Capacity</a></dd>
+<dt>RoF</dt>
+<dd><a href="./character/equipment/#weapons">Rate of fire</a></dd>
+<dt>REL</dt>
+<dd><a href="./character/equipment/#weapons">Reload</a></dd>
+</dl>
+<ul>
+<li>Crisis</li>
+</ul>
+<dl>
+<dt>AP</dt>
+<dd><a href="./crisis#actions">Action points</a></dd>
+</dl>
+<div class="col-layout-end clearfix"></div>
+
+
 </div>
-<h3 id="health">Health<a class="headerlink" href="#health" title="Permanent link">&para;</a></h3>
-<p><em>Health represents the overall long-term physical health and well being of a
-character. Severe wounds, illness and temporary handicaps (such as broken arms
-or legs) are abstracted away in the health pool.</em></p>
-<p><a href="#health">Health</a> is determined by rolling a number of dice equal to your
-<a href="#might">Might</a> <strong>rank</strong> and then adding the base <a href="#health">health</a> pool of your
-race to the results. Which dice are rolled is also determined by race.</p>
-<p><a href="#health">Health</a> cannot recovered by resting, and requires external methods
-(medicine, first aid etc.) to recover. Whenever you permanently increase or
-decrease <a href="#might">Might</a> you must roll the <a href="#health">health</a> dice and add or
-subtract that value from your <a href="#health">health</a> pool.</p>
-<p>If <a href="#health">health</a> drops to zero, the character is killed.</p>
-<div class="admonition summary">
-<p class="admonition-title">How to determine <em>Health</em></p>
-<p>This formular uses the <a href="#human">Human</a> race as an example.
-<div class="formula formula-top formula-bottom">
-<a href="#health" class="qstar-heart-beats">Health</a>
-=
-<span data-bracket-bottom="base (race)">5</span>
-<span style="margin-left: 12px;">+</span>
-<span data-bracket-top="might rank" style="margin-left: 12px;">n</span>
-*
-<span data-bracket-bottom="health die (race)">d6</span>
-</div></p>
-</div>
-<h2 id="skills">Skills<a class="headerlink" href="#skills" title="Permanent link">&para;</a></h2>
-<p>Skills are areas of expertise a character may acquire throughout the
-course of gameplay. Whenever a character attempts a task a skill roll
-is involved.</p>
-<p>A skill has five ranks: <strong>untrained</strong>, <strong>proficient</strong>, <strong>trained</strong>,
-<strong>experienced</strong>, <strong>master</strong>. Each rank provides additional bonuses to skill
-checks and allows the selection of additional <a href="#perks">perks</a>.</p>
-<table>
-<thead>
-<tr>
-<th>Rank</th>
-<th align="right">Skill Bonus</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Untrained</td>
-<td align="right">-2</td>
-</tr>
-<tr>
-<td>Proficient</td>
-<td align="right">+0</td>
-</tr>
-<tr>
-<td>Trained</td>
-<td align="right">+1</td>
-</tr>
-<tr>
-<td>Experienced</td>
-<td align="right">+2</td>
-</tr>
-<tr>
-<td>Master</td>
-<td align="right">+4</td>
-</tr>
-</tbody>
-</table>
-<p>Each skill is associated with an attribute. Ability modifiers are used
-from the corresponding associated skill. Every character starts with
-every skill at the untrained level.</p>
-<p>In addition to abilities and skills, skill checks also receive a bonus or
-drawback from roleplaying. Good roleplay should be rewarded by awarding a bonus
-to the skill check, while bad roleplay or none at all should impose a penalty.</p>
-<p>Skills impose penalties or add bonuses to the outcome when you either roll two
-ones or two sixes on any skill check. These only apply however, if the skill
-itself fails or succeeds. Rolling two ones or sixes does not automatically make
-you fail or succeed on the task. The <a href="#available-skills">available skills</a> list
-some examples of additional outcomes.</p>
-<div class="admonition summary">
-<p class="admonition-title">How to make a <strong>skill check</strong></p>
-<p><div class="formula formula-top formula-bottom">
-Skill check =
-<span data-bracket-bottom="base">3d6</span>
-±
-<span data-bracket-top="modifier">ability</span>
-±
-<span data-bracket-bottom="bonus">skill</span>
-±
-<span data-bracket-top="-2 to +2">roleplay</span>
-</div></p>
-</div>
-<div class="admonition tip">
-<p class="admonition-title">Roleplaying bonuses</p>
-<p>You, as a DM, can allow players to completely ignore a skill check / DC if
-they are roleplaying very well and/or playing to their characters strengths
-and weaknesses.</p>
-<p>Also, a task that&rsquo;s trivial or that&rsquo;s so easy for a character that she
-doesn&rsquo;t have to roll if the roleplay bonus was 0, can be skipped as well,
-even if no roleplaying is done.</p>
-</div>
-<h3 id="tasks">Tasks<a class="headerlink" href="#tasks" title="Permanent link">&para;</a></h3>
-<p>Often characters perform tasks such as repairing, shooting or flying a space
-craft. It is the game masters job to come up with a difficulty check (<strong>DC</strong>).
-These DCs are recognized by the following categories:</p>
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th align="right">DC</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Very easy</td>
-<td align="right">1-8</td>
-</tr>
-<tr>
-<td>Easy</td>
-<td align="right">9-12</td>
-</tr>
-<tr>
-<td>Moderate</td>
-<td align="right">13-15</td>
-</tr>
-<tr>
-<td>Hard</td>
-<td align="right">16-17</td>
-</tr>
-<tr>
-<td>Very Hard</td>
-<td align="right">18+</td>
-</tr>
-</tbody>
-</table>
-<p>If a skill check meets or exceeds the set <strong>DC</strong> the skill check is
-<em class="qs-s">successful</em>. If the skill check is less than the <strong>DC</strong> the
-skill check is a <em class="qs-f">failure</em>.</p>
-<div class="admonition summary">
-<p class="admonition-title">Succeeding and failing a task</p>
-<p>Skill check ≥ Task DC ⇒ <em class="qs-s">success</em></p>
-<p>Skill check &lt; Task DC ⇒ <em class="qs-f">failure</em></p>
-</div>
-<h4 id="aiding">Aiding<a class="headerlink" href="#aiding" title="Permanent link">&para;</a></h4>
-<p>At the game masters discretion, it is possible for one or more characters to aid
-another in an upcoming task. A character has to perform a relevant skill check,
-not necessarily the same, and beat a fixed DC of <code>10</code>. If the character&rsquo;s skill
-check is successful, the assisted player gains <code>+1</code> to their skill check.</p>
-<h4 id="competing">Competing<a class="headerlink" href="#competing" title="Permanent link">&para;</a></h4>
-<p>When two characters, or a character and an NPC, pitch their skills against each
-other both roll the respective skills. Whoever has the highest skill check wins.
-On a tie the participant on the defensive side wins. If there is no defensive
-participant, reroll until a winner is decided.</p>
-<h4 id="retrying">Retrying<a class="headerlink" href="#retrying" title="Permanent link">&para;</a></h4>
-<p>A skill check can be rolled for again if a character failed at it. The character
-can attempt the skill check again. If the skill check happens shortly after the
-previous one, the skill check is rolled with a <code>-4</code> penalty.</p>
-<h2 id="perks-flaws">Perks &amp; Flaws<a class="headerlink" href="#perks-flaws" title="Permanent link">&para;</a></h2>
-<p><a href="#perks">Perks</a>, and <a href="#flaws">flaws</a>, are gained through your race and give your
-character special abilities or drawbacks. <a href="#perks">Perks</a> and <a href="#flaws">flaws</a>
-aim at making a character more unique. It is up to the game master whether
-<a href="#perks">perks</a> or <a href="#flaws">flaws</a> can be freely purchased.</p>
-<h3 id="perks">Perks<a class="headerlink" href="#perks" title="Permanent link">&para;</a></h3>
-<p><a href="#perks">Perks</a> add positive modifiers, make a character better or enable
-certain actions. <a href="#perks">Perks</a> have requirements and require Credits to be
-unlocked. A game master may also give them out based on experience throughout
-game play, or based on a characters background story.</p>
-<h3 id="flaws">Flaws<a class="headerlink" href="#flaws" title="Permanent link">&para;</a></h3>
-<p><a href="#flaws">Flaws</a> reduce values, make a character weaker or disable certain
-actions. Usually <a href="#flaws">flaws</a> can&rsquo;t be taken freely while playing.
-<a href="#flaws">Flaws</a> should be chosen during character creation with the GMs help, or
-assigned to by the character while playing. Also, each <a href="#flaws">flaw</a> awards a
-benefit in return, but can also give Credits to the character instead.</p>
-<h2 id="improving-your-character">Improving your character<a class="headerlink" href="#improving-your-character" title="Permanent link">&para;</a></h2>
-<p>Characters are not improved by experience but by spending time and money.
-Money can buy time at the gym, implants and most importantly training
-lessons for skills.</p>
-<h3 id="abilities_1">Abilities<a class="headerlink" href="#abilities_1" title="Permanent link">&para;</a></h3>
-<p>Abilities can only be increased or lowered at the GM&rsquo;s discretion, or as a
-temporary or permanent effect from adventuring (such as scars, wounds, etc.).</p>
-<p>Improving an ability costs <code>100 000</code> Credits per point added. You don&rsquo;t gain
-Credits from an ability being lowered.</p>
-<h3 id="skills_1">Skills<a class="headerlink" href="#skills_1" title="Permanent link">&para;</a></h3>
-<p>Improving skills can usually be done at any time in the adventure, while the
-character has some downtime, i.e. while resting or in between adventures.</p>
-<p>Improving a skill costs:</p>
-<table>
-<thead>
-<tr>
-<th>New Rank</th>
-<th align="right">Rank level</th>
-<th align="right">Cost</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Untrained</td>
-<td align="right">0</td>
-<td align="right">0</td>
-</tr>
-<tr>
-<td>Proficient</td>
-<td align="right">1</td>
-<td align="right">1 000</td>
-</tr>
-<tr>
-<td>Trained</td>
-<td align="right">2</td>
-<td align="right">4 000</td>
-</tr>
-<tr>
-<td>Experienced</td>
-<td align="right">3</td>
-<td align="right">25 000</td>
-</tr>
-<tr>
-<td>Master</td>
-<td align="right">4</td>
-<td align="right">82 000</td>
-</tr>
-</tbody>
-</table>
-<p>Formula: <code>cost = ((x - 1) ^ 3) * 3000 + 1000</code></p>
-<p>Buying <a href="#perks">perks</a> may be done at any time, and the <a href="#perks">perks</a>
-description lists the price.</p>
-<h2 id="combat">Combat<a class="headerlink" href="#combat" title="Permanent link">&para;</a></h2>
-<h3 id="actions-in-combat">Actions in Combat<a class="headerlink" href="#actions-in-combat" title="Permanent link">&para;</a></h3>
-<h4 class="dt" id="kneel-down">Kneel Down<a class="headerlink" href="#kneel-down" title="Permanent link">&para;</a></h4>
-<p>gives a +1 bonus to ranged <a href="#attack">attacks</a>.
-<br>
-<strong>Requires</strong>: 1 action</p>
-<h4 class="dt" id="move">Move<a class="headerlink" href="#move" title="Permanent link">&para;</a></h4>
-<p>allows you to change your position on the battlefield, unless otherwise
-impaired.
-<br>
-<strong>Requires</strong>: 1 action</p>
-<h4 class="dt" id="prone">Prone<a class="headerlink" href="#prone" title="Permanent link">&para;</a></h4>
-<p>gives a +2 bonus to ranged <a href="#attack">attacks</a>.
-<br>
-<strong>Requires</strong>: 1 action to lie down and 2 actions to change stance from being
-prone.</p>
-<h4 class="dt" id="take-aim">Take Aim<a class="headerlink" href="#take-aim" title="Permanent link">&para;</a></h4>
-<p>converts the lowest <em class="qs-1d6">1d6</em> of your weapon attack to a six, resuling in a
-critical hit, if the attack hits. If two ones are rolled, the negative effect of
-the failed skill still apply, if the attack <em class="qs-f">misses</em>. If the target
-moves, all accumulated bonuses are lost.
-<br> <strong>Requires</strong>: 2 actions, multiple uses stack</p>
-<h4 class="dt" id="take-cover">Take Cover<a class="headerlink" href="#take-cover" title="Permanent link">&para;</a></h4>
-<p>gives you additional bonuses based on the <a href="#cover">cover</a> the character is
-behind.
-<br>
-<strong>Requires</strong>: usually part of a move action</p>
-<h4 class="dt" id="use-item">Use Item<a class="headerlink" href="#use-item" title="Permanent link">&para;</a></h4>
-<p>allows you to perform the action defined by the item.
-<br>
-<strong>Requires</strong>: variable, defined by item</p>
-<h4 class="dt" id="use-skill">Use Skill<a class="headerlink" href="#use-skill" title="Permanent link">&para;</a></h4>
-<p>allows you to use any skill in combat.
-<br>
-<strong>Requires</strong>: usually 1 action, depends on the skill use.</p>
-<h3 id="conditions">Conditions<a class="headerlink" href="#conditions" title="Permanent link">&para;</a></h3>
-<h4 class="dt" id="drunk">Drunk<a class="headerlink" href="#drunk" title="Permanent link">&para;</a></h4>
-<p>gives a -2 penalty to all skill checks.</p>
-<h4 class="dt" id="incapacitated">Incapacitated<a class="headerlink" href="#incapacitated" title="Permanent link">&para;</a></h4>
-<p>makes a character unable to act and interact, usually acquired through the
-characters <a href="#endurance">endurance</a> dropping to 0. Incapacitated doesn&rsquo;t
-necessarily mean, that the character is unconcious.</p>
-<h4 class="dt" id="in-cover">In cover<a class="headerlink" href="#in-cover" title="Permanent link">&para;</a></h4>
-<p>gives you additional bonuses based on the <a href="#cover">cover</a> the character is
-behind.</p>
-<h4 class="dt" id="prone_1">Prone<a class="headerlink" href="#prone_1" title="Permanent link">&para;</a></h4>
-<p>gives a +2 bonus to ranged <a href="#attack">attacks</a>. You do not gain any bonuses to
-defensive or offensive melee skill checks.</p>
-<h4 class="dt" id="stunned">Stunned<a class="headerlink" href="#stunned" title="Permanent link">&para;</a></h4>
-<p>gives a -5 penalty to all checks.</p>
-<h3 id="defence">Defence<a class="headerlink" href="#defence" title="Permanent link">&para;</a></h3>
-<p>Any attack roll has to be equal to or exceed a creatures defence value. The
-defence value of a creature is described by its speed and cover. If the target
-is attacked in melee combat, the defence value equals the targets melee skill
-check result.</p>
-<div class="admonition summary">
-<p class="admonition-title">How to determine <em>Defence</em></p>
-<p><div class="formula formula-top formula-bottom">
-Defence = <span data-bracket-bottom="base">10</span>
-+
-<span data-bracket-top="modifier">Speed</span>
-+
-<span>Cover</span>
-</div>
-<div style="text-align: center;">or</div>
-<div class="formula formula-top formula-bottom">
-Defence (melee) = <span data-bracket-top="skill check">3d6 + skill modifiers</span>
-</div></p>
-</div>
-<h4 id="cover">Cover<a class="headerlink" href="#cover" title="Permanent link">&para;</a></h4>
-<p>Cover provides vital bonuses to the creatures defence.</p>
-<table>
-<thead>
-<tr>
-<th>Cover</th>
-<th align="right">Bonus</th>
-<th>Notes</th>
-<th>Example</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Light Cover</td>
-<td align="right">+2</td>
-<td>-2 <a href="#damage">endurance damage</a><br>Allows Stealth</td>
-<td>Foliage, Smoke, Low Light</td>
-</tr>
-<tr>
-<td>Heavy Cover</td>
-<td align="right">+4</td>
-<td>-4 <a href="#damage">endurance damage</a></td>
-<td>Complete darkness, Chest high inpenetrable wall</td>
-</tr>
-<tr>
-<td>Entrenched</td>
-<td align="right">+6</td>
-<td>-6 <a href="#damage">endurance damage</a><br>immunity to <a href="#critical-hit">critical hits</a></td>
-<td>Combined through Low and Heavy Cover, behind solid metal doors</td>
-</tr>
-</tbody>
-</table>
-<div class="admonition info">
-<p class="admonition-title">Immunity to <a href="#critical-hit">critical hits</a></p>
-<p>The immunity does not apply for weapons that bypass cover, such as grenades
-thrown right into the cover. The bonus from cover still applies to defence
-however.</p>
-<p>The DM may decide that the bonus to cover does not apply.</p>
-</div>
-<h3 id="attack">Attack <img alt="" class="qstar-crosshair" src="" /><a class="headerlink" href="#attack" title="Permanent link">&para;</a></h3>
-<p>Any attack roll is done using a weapon and its related skill. Attacks beyond a
-weapons effective range impose penalties to the attack roll.</p>
-<p>Some weapons allow multiple shots to be fired, denoted by the
-<a href="./equipment?rof#stats">RoF</a> value of a weapon. If a weapon&rsquo;s
-<a href="./equipment?rof#stats">RoF</a> value is higher than one, additional dice <strong>may</strong>
-be rolled to increase the hit chance and <a href="#critical-hit">critical hit</a> chance.</p>
-<p>If a weapon&rsquo;s <a href="./equipment?rof#stats">RoF</a> value is <code>1</code>, the skill check can
-only be rolled with <strong>3d6</strong>.</p>
-<p>If a weapon&rsquo;s <a href="./equipment?rof#stats">RoF</a> value is zero or less, you can&rsquo;t
-attack with it.</p>
-<div class="admonition note">
-<p class="admonition-title">RoF Example</p>
-<p>If a weapon has a <a href="./equipment?rof#stats">RoF</a> value of 2, you may roll an
-extra die and add <strong>1d6</strong> to your attack, resulting in <strong>4d6</strong> total.</p>
-</div>
-<p>If the <a href="#attack">attack</a> is equal to or higher than the target&rsquo;s <strong>defence</strong>
-attack is <em class="qs-s">successful</em>.</p>
-<p>If the <a href="#attack">attack</a> is less than the target&rsquo;s <strong>defence</strong> value the attack
-<em class="qs-f">fails</em>.</p>
-<p>On a hit you can deal <a href="#damage">damage</a> and potential <a href="#critical-damage">critical
-damage</a>.</p>
-<div class="admonition summary">
-<p class="admonition-title">How to roll an <em>Attack</em></p>
-<p><div class="formula formula-top formula-bottom">
-Attack = <span data-bracket-bottom="base">3d6</span>
-+
-<span data-bracket-top="'hit' value">weapon</span>
-+
-<span data-bracket-bottom="for the used weapon">skill</span>
-+
-<span data-bracket-top="per RoF &gt; 1">1d6</span>
--
-<span>range penalty</span>
-</div></p>
-</div>
-<h3 id="damage">Damage <img alt="" class="qstar-gunshot" src="" /><a class="headerlink" href="#damage" title="Permanent link">&para;</a></h3>
-<p><em>Damage is dealt by environment, traps or simply by successful attacks from
-creatures and characters.</em></p>
-<p>Armour provides <a href="./equipment#damage-reduction">DR</a> (damage reduction). If a
-targets <a href="./equipment#damage-reduction">DR</a> is higher than the inflicted damage,
-they don&rsquo;t take any damage at all (except for <a href="#critical-damage">critical
-damage</a>).</p>
-<p>Normal damage always targets <a href="#endurance">endurance</a> first, called <a href="#damage">endurance
-damage</a>. If <a href="#endurance">endurance</a> is zero, all exceeding and
-subsequent damage is dealt to <a href="#health">health</a> instead, called <a href="#damage">health
-damage</a>.</p>
-<p>Damaging objects is the same as damaging another player or NPC, except that
-inanimate objects have no <a href="#endurance">endurance</a>, just <a href="#health">health</a>.</p>
-<div class="admonition summary">
-<p class="admonition-title">Damaged characters</p>
-<p>If <a href="#endurance">endurance</a> drops to zero the character becomes
-<strong>incapacitated</strong>.<br> If <a href="#health">health</a> drops to zero the character is
-<strong>dead</strong>.</p>
-</div>
-<h4 id="critical-hit">Critical Hit<a class="headerlink" href="#critical-hit" title="Permanent link">&para;</a></h4>
-<p>Whenever you roll for an attack and <strong>hit</strong>, every <strong>6</strong> you rolled with a
-<strong>d6</strong>, including extra dice from <a href="./equipment?rof#stats">RoF</a>, causes
-additional <a href="#critical-damage">critical damage</a>.</p>
-<h4 id="critical-damage">Critical Damage <img alt="" class="qstar-headshot-2" src="" /><a class="headerlink" href="#critical-damage" title="Permanent link">&para;</a></h4>
-<p><a href="#critical-damage">Critical damage</a> inflicts additional damage to the health
-pool, even if the targets <a href="#endurance">endurance</a> isn&rsquo;t at 0 yet.</p>
-<p><a href="#critical-damage">Critical damage</a> is also reduced by the targets
-<a href="./equipment#damage-reduction">DR</a>, but cannot be less than 1. Every critical
-hit deals at least 1 damage, disregarding any armour the target may have.</p>
-<p>Each weapon specifies its own <a href="#critical-damage">critical damage</a>.</p>
-<h3 id="status">Status<a class="headerlink" href="#status" title="Permanent link">&para;</a></h3>
-<h4 id="incapacitated_1">Incapacitated<a class="headerlink" href="#incapacitated_1" title="Permanent link">&para;</a></h4>
-<p>A creature becomes incapacitated once its
-<a href="#endurance">endurance</a> drops to zero. An incapacitated
-creature needs some time (at least a few minutes, up to hours) to become
-concious again.</p>
-<p>Most of the time an incapacitated creature needs medical attention to regain
-conciousness.</p>
-<h4 id="dead">Dead<a class="headerlink" href="#dead" title="Permanent link">&para;</a></h4>
-<p>A creature is dead if its <a href="#health">health</a> drops to zero.</p>
-<h2 id="crisis">Crisis<a class="headerlink" href="#crisis" title="Permanent link">&para;</a></h2>
-<p>Whenever time and order of action is of critical concern a <strong>crisis</strong> starts.
-Combat is always a crisis, but other dangerous situation are also considered
-a crisis, such as escaping a space ship that is about to explode. What
-constitutes a crisis is always up the game master.</p>
-<h3 id="turn-order">Turn order <img alt="" class="qstar-sprint" src="" /><a class="headerlink" href="#turn-order" title="Permanent link">&para;</a></h3>
-<p>When a crisis starts, all involved have to determine their turn order. Roll 3d6
-and add your <a class="qstar-wingfoot" href="#speed">Speed</a> and
-<a class="qstar-brain" href="#intelligence">Intelligence</a> modifiers to the result.
-<a href="#perks">Perks</a> and <a href="#flaws">flaws</a> may give additional bonuses or penalties to
-<a class="qstar-sprint" href="#turn-order">initiative</a>. Players, NPCs and monsters start in
-the order of the highest <a class="qstar-sprint" href="#turn-order">initiative</a> to lowest.
-In case of a tie the person with the highest die result wins. If there is still
-a tie roll again.</p>
-<div class="admonition summary">
-<p class="admonition-title">How to determine <em>turn order</em></p>
-<p><div class="formula formula-top formula-bottom">
-<a class="qstar-sprint" href="#turn-order">Turn Order</a>
-=
-<span data-bracket-bottom="base">3d6</span>
-±
-<span data-bracket-top="modifier">
-  <a href="#speed" class="qstar-wingfoot">Speed</a>
-</span>
-±
-<span data-bracket-bottom="modifier">
-  <a href="#intelligence" class="qstar-brain">Intelligence</a>
-</span>
-±
-<span data-bracket-top="external factors">
-  Circumstance
-</span>
-</div></p>
-</div>
+<h1 id="combat">Combat<a class="headerlink" href="#combat" title="Permanent link">&para;</a></h1>
+<h2 id="turn-order">Turn Order<a class="headerlink" href="#turn-order" title="Permanent link">&para;</a></h2>
+<h2 id="attack">Attack<a class="headerlink" href="#attack" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Damage</li>
+<li>Critical Hit</li>
+<li>Critical Damage</li>
+</ul>
+<h2 id="defence">Defence<a class="headerlink" href="#defence" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Cover</li>
+</ul>
+<h2 id="healing">Healing<a class="headerlink" href="#healing" title="Permanent link">&para;</a></h2>
+<h2 id="surprise-round">Surprise round<a class="headerlink" href="#surprise-round" title="Permanent link">&para;</a></h2>
+<ul>
+<li>1 Action extra before combat starts</li>
+</ul>
+<h2 id="conditions">Conditions<a class="headerlink" href="#conditions" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Dead<ul>
+<li>dead :(</li>
+</ul>
+</li>
+<li>Impaired<ul>
+<li>e.g. drunk: unable to move, -2 to checks, etc.</li>
+</ul>
+</li>
+<li>Incapacitated<ul>
+<li>unable to act or interact</li>
+</ul>
+</li>
+<li>In cover<ul>
+<li>+X Defence, no armour hitpoints lost on hit</li>
+</ul>
+</li>
+<li>Prone<ul>
+<li>+2 ranged attack, no bonuses to melee checks</li>
+</ul>
+</li>
+<li>Stunned<ul>
+<li>-5 all checks</li>
+</ul>
+</li>
+</ul>
 <h2 id="actions">Actions<a class="headerlink" href="#actions" title="Permanent link">&para;</a></h2>
-<p>Once it is a players turn in a crisis, he or she may do <strong>two actions</strong>. An
-action takes a small amount of time, and may involve a skill check. The game
-master may decide that a task takes more than one action, or even takes a couple
-of rounds. Any number of actions may be converted to <strong>ready actions</strong>. These
-are specific conditions set by the player that trigger when an external event
-occurs. If the condition does not occur before his or her next turn, the <strong>ready
-action</strong> is lost.</p>
-<p>Everything you do in a crisis as part of an action is almost all of the time
-solvable through a skill check. Movement in combat is done through
-<strong>Athletics</strong>, hitting an enemy with a sword through <strong>Melee</strong> or getting a
-blast door open uses <strong>Hacking</strong>.</p>
+<h3 id="tactical">Tactical<a class="headerlink" href="#tactical" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Attack<ul>
+<li>Use your weapon, with <code>RoF - 1</code> optional extra dice</li>
+</ul>
+</li>
+<li>Shoot while Moving<ul>
+<li>Use your weapon once that round, no RoF allowed</li>
+</ul>
+</li>
+<li>Overwatch<ul>
+<li>2 Actions, shoot once at any target leaving its cover</li>
+</ul>
+</li>
+<li>Take Aim<ul>
+<li>2 Actions, lowest 1d6 -&gt; 6, stacks, target moving resets</li>
+<li>next round: resolve attack or <em>take aim</em> again</li>
+</ul>
+</li>
+</ul>
+<h3 id="movement">Movement<a class="headerlink" href="#movement" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Kneel Down<ul>
+<li>1 Action, +1 ranged attack</li>
+</ul>
+</li>
+<li>Move<ul>
+<li>1 Action, move some distance</li>
+</ul>
+</li>
+<li>Prone<ul>
+<li>1 Action to lie down, 2 Actions to get up, +2 ranged attack</li>
+</ul>
+</li>
+<li>Take Cover<ul>
+<li>Usually part of move action, 1 Action otherwise</li>
+</ul>
+</li>
+<li>Use Item<ul>
+<li>variable, defined by item, 1 Action otherwise</li>
+</ul>
+</li>
+<li>Use Skill<ul>
+<li>variable, defined by skill use, 1 Action otherwise</li>
+</ul>
+</li>
+</ul>
 <h3 id="free-actions">Free Actions<a class="headerlink" href="#free-actions" title="Permanent link">&para;</a></h3>
-<p>A game master may also decide that something takes so little time, that it does
-not count towards the players amount of actions in that round. These actions are
-called <strong>free actions</strong>. For example, the game master may decide that letting go
-of a ledge takes no time and is thus a <strong>free action</strong>.</p>
-<h3 id="reactions">Reactions<a class="headerlink" href="#reactions" title="Permanent link">&para;</a></h3>
-<p>Reactions are skill checks that a player or NPC must make upon the
-request of the game master. Reactions are triggered by external
-events, and may happen out of turn for the player. The game master
-sets a DC and a skill, which the player has to succeed or face certain
-consequences. These reactions do not detract from the player or NPCs
-available actions on his turn.</p>
-<div class="admonition note">
-<p class="admonition-title">Example</p>
-<p>Two players climb a mountain side. One player fails his athletics check,
-slips and falls. The other player may receive a reaction to catch him.
-Should he fail his friend falls, and if he succeeds he may help is friend to
-gain footing again.</p>
-</div>
-<h2 id="making-a-character">Making a character<a class="headerlink" href="#making-a-character" title="Permanent link">&para;</a></h2>
-<h3 id="first-choose-a-race">First: Choose a race<a class="headerlink" href="#first-choose-a-race" title="Permanent link">&para;</a></h3>
-<p>Q* supports multiple races, but your game master may restrict them as necessary.
-Races define basic attributes, and may grant you perks from the get go. All
-races are balanced, with some having slight benefits which are weighed out by
-drawbacks in other areas.</p>
-<p>Select a race, and note their starting abilities, perks and flaws on your sheet
-of paper.</p>
-<h4 id="human">Human<a class="headerlink" href="#human" title="Permanent link">&para;</a></h4>
-<p>Humans are the versatile race of Q*, with having no obvious benefits or
-drawbacks. They are suitable for all kinds of game play.</p>
-<table>
-<thead>
-<tr>
-<th>Human</th>
-<th align="right">Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Might</td>
-<td align="right">5</td>
-</tr>
-<tr>
-<td>Speed</td>
-<td align="right">5</td>
-</tr>
-<tr>
-<td>Intelligence</td>
-<td align="right">5</td>
-</tr>
-<tr>
-<td>Charisma</td>
-<td align="right">5</td>
-</tr>
-<tr>
-<td>Base Endurance</td>
-<td align="right">15</td>
-</tr>
-<tr>
-<td>Base Health</td>
-<td align="right">5</td>
-</tr>
-<tr>
-<td>Endurance</td>
-<td align="right">d10</td>
-</tr>
-<tr>
-<td>Health</td>
-<td align="right">d6</td>
-</tr>
-<tr>
-<td>Perks</td>
-<td align="right">-</td>
-</tr>
-<tr>
-<td>Flaws</td>
-<td align="right">-</td>
-</tr>
-</tbody>
-</table>
-<h3 id="second-make-adaptions">Second: Make adaptions<a class="headerlink" href="#second-make-adaptions" title="Permanent link">&para;</a></h3>
-<p>The game master hands out starting money to all players. Use these funds to
-purchase increases in abilities, skills or even <a href="#perks">perks</a>. If your game
-master allows it, you can take <a href="#flaws">flaws</a> and decrease abilities to
-increase your starting fund. If you decrease an ability you gain as much money
-as it would have cost you to increase that ability to the old value.</p>
-<p>You should increase relevant attributes, and buy ranks in the skills that best
-suit your character.</p>
-<h3 id="third-roll-endurance-and-health">Third: Roll Endurance and Health<a class="headerlink" href="#third-roll-endurance-and-health" title="Permanent link">&para;</a></h3>
-<p>Use your races <a href="#endurance">endurance</a> and <a href="#health">health</a> die, and your new
-<a href="#might">Might</a> <strong>rank</strong> to roll <a href="#endurance">endurance</a> and <a href="#health">health</a>.
-Note these values on your character sheet.</p>
-<h3 id="fourth-buy-equipment">Fourth: Buy equipment<a class="headerlink" href="#fourth-buy-equipment" title="Permanent link">&para;</a></h3>
-<p>Last but not least buy equipment that suits your character. See
-<a href="./equipment">equipment</a>.</p>
+<ul>
+<li>quick actions that don&rsquo;t take (a lot of) time<ul>
+<li>0 Actions</li>
+</ul>
+</li>
+</ul>
+<h3 id="reaction">Reaction<a class="headerlink" href="#reaction" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Speed check vs DC 12 +- bonuses/penalties</li>
+</ul>
                 
                   
                 
@@ -2129,13 +1183,13 @@ Note these values on your character sheet.</p>
       <nav class="md-footer-nav__inner md-grid">
         
         
-          <a href="skills/" title="Skills" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="quick-start/" title="Quick Start Rules" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Skills
+                Quick Start Rules
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
@@ -2165,11 +1219,13 @@ Note these values on your character sheet.</p>
       
     </div>
     
-      <script src="./assets/javascripts/application.206c856d.js"></script>
+      <script src="./assets/javascripts/application.189d7058.js"></script>
       
-      <script>app.initialize({version:"0.17.2",url:{base:"."}})</script>
+      <script>app.initialize({version:"0.17.3",url:{base:"."}})</script>
       
-        <script src="./js/extra.js"></script>
+        <script src="./js/sorttable.js"></script>
+      
+        <script src="./js/extra_es6.js"></script>
       
     
     
