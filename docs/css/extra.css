@@ -788,6 +788,7 @@ table thead th:hover {
     background-color: rgba(0, 0, 0, 0.1);
   }
   div.qs-list-test section {
+    padding-top: 1em;
     -webkit-column-break-inside: avoid;
     page-break-inside: avoid;
     break-inside: avoid;
