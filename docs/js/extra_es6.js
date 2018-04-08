@@ -27,35 +27,37 @@
   let lists = document.querySelectorAll('.qs-list-test')
 
   lists.forEach(list => {
-    console.log(list);
     let headers = list.querySelectorAll('h5')
-    console.log(headers);
+    let children = list.childNodes
 
-    let sections = []
     let section
-    for (let i = 0; i < list.childNodes.length; i++) {
-      let node = list.childNodes[i]
+    let div
+    let divs = []
+    children.forEach(node => {
       if (node.nodeName.search(/H\d/i) > -1) {
-        if (section != null) {
-          sections.push(section)
+        if (div != null) {
+          divs.push(div)
         }
+        div = document.createElement('div')
         section = document.createElement('section')
         var a = document.createElement('a')
         a.id = node.id
         node.id = '_' + node.id
-        section.appendChild(node)
+        div.appendChild(a)
+        div.appendChild(section)
       }
+
       if (section != null) {
         section.appendChild(node)
       }
-    }
-    sections.push(section)
-
-    console.log(sections);
-    list.innerHTML = ''
-    sections.forEach(section => {
-      list.appendChild(section)
     })
+    divs.push(div)
+
+    let wrapper = document.createElement('div')
+    divs.forEach(div => wrapper.appendChild(div))
+
+
+    list.innerHTML = wrapper.innerHTML
   })
 
   let starts = document.querySelectorAll('.col-layout-start')
