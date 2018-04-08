@@ -175,12 +175,13 @@ an enemy, but in plain sight for another.
 ### Damage
 
 If an attack hits a target, damage is dealt to it. The amount of damage done
-depends on the weapon used. The damage of some weapons can be influenced by
-their user, e.g. when wielding a melee weapon which is influenced by
+depends on the weapon used. The damage of some weapons can be influenced by the
+character using them, e.g. when wielding a melee weapon which is influenced by
 [Might](/character#might).
 
-**END** indicates the [Endurance](/character#endurance) damage, and **DMG**
-indicates the critical damage dealt by the weapon.
+There are two types of damage: [Endurance](/character#endurance) damage,
+indicated by a weapon's **END** stat, and [Health](/character#health) damage,
+indicated by the **DMG** stat.
 
 !!! summary "Dealing damage"
     <div class="formula formula-top formula-bottom">

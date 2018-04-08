@@ -253,7 +253,7 @@ damaged badly, e.g. when losing an eye.
 
 !!! summary "Maximum [Health](/character/#health)"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">25</span> ±
+        <span data-bracket-bottom="Base">40</span> ±
         <span data-bracket-top="Ability Modifier">Might</span> x
         <span data-bracket-bottom="Base">5</span> ±
         <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
@@ -272,7 +272,7 @@ sprinting cause stress on a character and reduce his
 
 !!! summary "Maximum [Endurance](/character/#endurance)"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">50</span> ±
+        <span data-bracket-bottom="Base">100</span> ±
         <span data-bracket-top="Ability Modifier">Might</span> x
         <span data-bracket-bottom="Base">10</span> ±
         <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
