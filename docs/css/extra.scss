@@ -96,6 +96,9 @@ nav.md-nav--primary > ul.md-nav__list > li:not(:first-child) {
 
     > section {
       padding-right: 2%;
+      z-index: 1;
+      overflow: hidden;
+      position: relative;
     }
       //   column-count: 2;
   //   column-gap: 25px;

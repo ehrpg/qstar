@@ -7,9 +7,9 @@ the provided price, the table shows the amount under the `#` column.
 
 ## Cost
 
-All items cost [Credits](/equipment#credits), while some items may also cost
-[Resources](/character#resources-res) to maintain the upkeep, e.g. ammo, cleaning,
-restocking etc.
+All items cost [Credits](#credits), while some items may also cost
+[Resources](/character#resources-res) to maintain the upkeep, e.g. ammo,
+cleaning, restocking etc.
 
 Whenever there is a cost listed without units, then Credits are used.
 
@@ -19,15 +19,15 @@ A universal currency for buying most things.
 
 ### Looting items
 
-Looting items that only cost [Credits](/equipment#credits) can be used normally.
+Looting items that only cost [Credits](#credits) can be used normally.
 
 If a looted item requires [Resources](/character#resources-res) a character may
-spend his available [Resources](/character#resources-res) on it to keep it. If he
-doesn't have enough [Resources](/character#resources-res) to keep it or doesn't want
-to keep it, it stops functioning after a while. For example the magazines of a
-weapon cannot be restocked when resting.<br>
-These items can be sold for the usual [Credits](/equipment#credits) though. They
-do not give you extra [Resources](/character#resources-res) however.
+spend his available [Resources](/character#resources-res) on it to keep it. If
+he doesn't have enough [Resources](/character#resources-res) to keep it or
+doesn't want to keep it, it stops functioning after a while. For example the
+magazines of a weapon cannot be restocked when resting.<br>
+These items can be sold for the usual [Credits](#credits) though. They do not
+give you extra [Resources](/character#resources-res) however.
 
 ## Weight
 
@@ -44,20 +44,20 @@ Only items that are equipped, e.g. wielded weapons, worn armour and outfits,
 etc. are subject to this rule. An item that's kept in the character's inventory
 is not influencing the character.
 
-An item's Weight exceeding the character's [Might](/character#might-mi) reduces a
-character's [Speed](/character#speed-sp) by the difference. This includes [Turn
-Order](/crisis#turn-order) and [Defence](/crisis#defence).
+An item's Weight exceeding the character's [Might](/character#might-mi) reduces
+a character's [Speed](/character#speed-sp) by the difference. This includes
+[Turn Order](/crisis#turn-order) and [Defence](/crisis#defence).
 
 !!! danger "Overburdened"
-    This penalty does not reduce the [Speed](/character#speed-sp) rank at all. It
-    simply reduces all checks related to it.
+    This penalty does not reduce the [Speed](/character#speed-sp) rank at all.
+    It simply reduces all checks related to it.
 
 !!! example "Overburdened"
-    Jack has [Might - Mediocre](/character#might-mi) (rank 3), and picks up an item
-    with Weight 5. The difference is 2, so all his [Speed](/character#speed-sp)
-    checks (including skill checks that require [Speed](/character#speed-sp)),
-    [Turn Order](/crisis#turn-order) and [Defence](/crisis#defence) are reduced
-    by 2.
+    Jack has [Might - Mediocre](/character#might-mi) (rank 3), and picks up a
+    weapon with Weight 5 and decides to use it. The difference is 2, so all his
+    [Speed](/character#speed-sp) checks (including skill checks that require
+    [Speed](/character#speed-sp)), [Turn Order](/crisis#turn-order) and
+    [Defence](/crisis#defence) are reduced by 2.
 
 ## Slots
 
@@ -73,7 +73,7 @@ slot, unless otherwise mentioned.
 
 !!! summary "Amount of slots"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">10</span> ±
+        <span data-bracket-bottom="Base">15</span> ±
         <span data-bracket-top="Modifier">Might * 2</span> ±
         <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
     </div>
@@ -97,9 +97,13 @@ Any item can receive the modifier to **any** of its stats. The modifier can also
 be split between multiple stats. For example, a superb weapon could receive +1
 to its **HIT** stat, and +2 to its **CAP** stat.
 
-Better items need more [Resources](/character#resources-res) and inferior items need
-less [Resources](/character#resources-res) to be maintained. The Modifier of an item
-however can reduce the [Resources](/character#resources-res) cost, if any, too.
+Better items need more [Resources](/character#resources-res) and inferior items
+need less [Resources](/character#resources-res) to be maintained. The Modifier
+of an item however can reduce the [Resources](/character#resources-res) cost, if
+any, too.
+
+If an item's condition were to drop below Terrible, the item is destroyed or
+otherwise rendered useless.
 
 ## Weapons
 
@@ -181,23 +185,48 @@ The armour's item condition increases or decreases the armour's **Durability**.
 
 ## Miscellaneous Items
 
-| Name          | Weight | Cost | Notes                                 |
-|---------------|-------:|-----:|---------------------------------------|
-| Battery       |      0 |    5 |                                       |
-| Flare         |      0 |   50 | Can be used for 15 minutes.           |
-| Flashlight    |      0 |  100 | 1 Battery supplies power for 4 hours. |
-| Lamp oil [1L] |      0 |   40 | 1L oil supplies fuel for 24 hours.    |
-| Oil lamp      |      0 |   60 |                                       |
-| Rope [10m]    |      0 |  200 |                                       |
-| Torch         |      0 |   10 | Can be used for 1 hour.               |
+!!! tip "Using miscellaneous items"
+    Most items are sold in packs to serve a purpose, e.g. climbing gear. These
+    packs consist of multiple items. Using a pack doesn't use up the items, e.g.
+    climbing doesn't make you run out of ropes or bolts to secure the ropes.
 
-### Food & Drinks
+<div class="col-layout-start qs-list"></div>
 
-| Name        | Weight | Cost | Notes                                                        |
-|-------------|-------:|-----:|--------------------------------------------------------------|
-| MRE         |      0 |  100 | One MRE provides food for one day. Long durability.          |
-| Simple Meal |      0 |   20 | One simple meal provides food for one day. Short durability. |
-| Water       |      0 |    5 | Provides water for one day.                                  |
+##### Climbing Gear
+
+A climbing gear consists of ropes, ice picks, bolts to secure the ropes, etc.
+
+[Credits](#credits)
+:   750
+
+[Weight](#weight)
+:   5
+
+##### Flashlight / Lamp / Flares
+
+A flashlight or other source of light, used to illuminate dark spaces. The light
+source includes fuel or batteries, that are usually always available.
+
+[Credits](#credits)
+:   250
+
+[Weight](#weight)
+:   1
+
+##### Food Supplies
+
+Food supplies provide food and water for a full week (7 days). Food supplies are
+automatically refilled (for free) in civilization, e.g. trading outposts etc.
+
+[Credits](#credits)
+:   1 000
+
+[Weight](#weight)
+:   4
+
+<div class="col-layout-end"></div>
+<div class="col-layout-start qs-list"></div>
+<div class="col-layout-end clearfix"></div>
 
 ### Medical
 

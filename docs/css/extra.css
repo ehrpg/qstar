@@ -346,6 +346,8 @@ h5 > a:after {
   padding-top: 6rem;
   margin: 0;
   margin-top: -6rem;
+  z-index: 0;
+  position: relative;
 }
 
 .md-typeset:not(.md-search-result__item) div.qs-list + div.cols-wrapper h5 + p {
@@ -561,6 +563,9 @@ nav.md-nav--primary > ul.md-nav__list > li:not(:first-child) {
   }
   .cols-wrapper > section {
     padding-right: 2%;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
   }
 }
 
