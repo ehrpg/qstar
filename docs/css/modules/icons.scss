@@ -52,13 +52,13 @@ $headers: h1, h2, h3, h4, h5;
     vertical-align: top;
   }
 
-  *#endurance:after,
+  *#endurance-ep:after,
   a[href*="#endurance"]:after {
     content: "\EB5C";
   }
 
-  *#health:after,
-  a[href*="#health"]:after {
+  *#health-hp:after,
+  a[href*="#health"]:not([href*="#healthy"]):after {
     content: "\E4B0";
   }
 
@@ -72,25 +72,25 @@ $headers: h1, h2, h3, h4, h5;
     content: "\E840";
   }
 
-  *#might:after,
+  *#might-mi:after,
   *#might-skills:after,
   a[href*="#might"]:after {
     content: "\E696";
   }
 
-  *#speed:after,
+  *#speed-sp:after,
   *#speed-skills:after,
   a[href*="#speed"]:after {
     content: "\E543";
   }
 
-  *#intelligence:after,
+  *#intelligence-in:after,
   *#intelligence-skills:after,
   a[href*="#intelligence"]:after {
     content: "\E5E6";
   }
 
-  *#charisma:after,
+  *#charisma-ch:after,
   *#charisma-skills:after,
   a[href*="#charisma"]:after {
     content: "\E6CC";
@@ -157,22 +157,22 @@ $headers: h1, h2, h3, h4, h5;
     content: "\E385";
   }
 
-  *#downtime:after,
+  *#downtime-dt:after,
   a[href*="#downtime"]:after {
     content: "\E355";
   }
 
-  *#influence:after,
+  *#influence-inf:after,
   a[href*="#influence"]:after {
     content: "\E368";
   }
 
-  *#resources:after,
+  *#resources-res:after,
   a[href*="#resources"]:after {
     content: "\E5B0";
   }
 
-  *#technology:after,
+  *#technology-tech:after,
   a[href*="#technology"]:after {
     content: "\EB3B";
   }

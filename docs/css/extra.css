@@ -151,13 +151,13 @@ h5 > a:after {
   vertical-align: top;
 }
 
-*:not(.md-search-result__item) > *#endurance:after,
+*:not(.md-search-result__item) > *#endurance-ep:after,
 *:not(.md-search-result__item) > a[href*="#endurance"]:after {
   content: "\EB5C";
 }
 
-*:not(.md-search-result__item) > *#health:after,
-*:not(.md-search-result__item) > a[href*="#health"]:after {
+*:not(.md-search-result__item) > *#health-hp:after,
+*:not(.md-search-result__item) > a[href*="#health"]:not([href*="#healthy"]):after {
   content: "\E4B0";
 }
 
@@ -171,25 +171,25 @@ h5 > a:after {
   content: "\E840";
 }
 
-*:not(.md-search-result__item) > *#might:after,
+*:not(.md-search-result__item) > *#might-mi:after,
 *:not(.md-search-result__item) > *#might-skills:after,
 *:not(.md-search-result__item) > a[href*="#might"]:after {
   content: "\E696";
 }
 
-*:not(.md-search-result__item) > *#speed:after,
+*:not(.md-search-result__item) > *#speed-sp:after,
 *:not(.md-search-result__item) > *#speed-skills:after,
 *:not(.md-search-result__item) > a[href*="#speed"]:after {
   content: "\E543";
 }
 
-*:not(.md-search-result__item) > *#intelligence:after,
+*:not(.md-search-result__item) > *#intelligence-in:after,
 *:not(.md-search-result__item) > *#intelligence-skills:after,
 *:not(.md-search-result__item) > a[href*="#intelligence"]:after {
   content: "\E5E6";
 }
 
-*:not(.md-search-result__item) > *#charisma:after,
+*:not(.md-search-result__item) > *#charisma-ch:after,
 *:not(.md-search-result__item) > *#charisma-skills:after,
 *:not(.md-search-result__item) > a[href*="#charisma"]:after {
   content: "\E6CC";
@@ -256,22 +256,22 @@ h5 > a:after {
   content: "\E385";
 }
 
-*:not(.md-search-result__item) > *#downtime:after,
+*:not(.md-search-result__item) > *#downtime-dt:after,
 *:not(.md-search-result__item) > a[href*="#downtime"]:after {
   content: "\E355";
 }
 
-*:not(.md-search-result__item) > *#influence:after,
+*:not(.md-search-result__item) > *#influence-inf:after,
 *:not(.md-search-result__item) > a[href*="#influence"]:after {
   content: "\E368";
 }
 
-*:not(.md-search-result__item) > *#resources:after,
+*:not(.md-search-result__item) > *#resources-res:after,
 *:not(.md-search-result__item) > a[href*="#resources"]:after {
   content: "\E5B0";
 }
 
-*:not(.md-search-result__item) > *#technology:after,
+*:not(.md-search-result__item) > *#technology-tech:after,
 *:not(.md-search-result__item) > a[href*="#technology"]:after {
   content: "\EB3B";
 }
@@ -486,7 +486,7 @@ html {
  * Firefox specific rule
  */
 @-moz-document url-prefix() {
-  body, * {
+  body {
     font-weight: lighter;
   }
 }
@@ -541,14 +541,15 @@ nav.md-nav--primary > ul.md-nav__list > li:not(:first-child) {
 }
 
 @media only screen and (min-width: 50em) {
-  .left {
+  .left,
+  .right {
     float: left;
-    width: 48%;
+    width: 50%;
+  }
+  .left {
     padding-right: 2%;
   }
   .right {
-    float: left;
-    width: 48%;
     padding-left: 2%;
   }
   .right + * {
@@ -713,9 +714,18 @@ table thead th:hover {
   content: "\E90E \E90E";
 }
 
+.qstar-3ones:after {
+  content: "\E90E \E90E \E90E";
+}
+
 .qs-2d6:after,
 .qstar-2sixes:after {
   content: "\E90F \E90F";
+}
+
+.qs-3d6:after,
+.qstar-3sixes:after {
+  content: "\E90F \E90F \E90F";
 }
 
 .qs-d6 {

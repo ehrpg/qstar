@@ -48,6 +48,23 @@ Requires {.qs-sep}
 <div class="col-layout-end"></div>
 <div class="col-layout-start qs-list"></div>
 
+##### Specialized
+
+You spend more time on a particular skill, so you have less time for another.
+
+Benefit
+:   +1 to [Any Skill](/character/skills#available-skills)
+
+Drawback
+:   -2 to [Any Skill](/character/skills#available-skills)
+
+Requires {.qs-sep}
+:   [Ability](/character#abilities) of benefitted skill [Ability -
+Great](/character#abilities)
+
+[Downtime](/character#downtime-dt)
+:   1
+
 ##### Vigilant
 
 You're always on the lookout for potential threats. Packing light helps you act

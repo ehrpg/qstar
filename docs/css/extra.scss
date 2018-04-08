@@ -14,7 +14,7 @@ html {
  */
 
 @-moz-document url-prefix() {
-  body, * {
+  body {
     font-weight: lighter;
   }
 }
@@ -73,16 +73,16 @@ nav.md-nav--primary > ul.md-nav__list > li:not(:first-child) {
 }
 
 @media only screen and (min-width: 50em)  {
-  .left {
-    // display: inline-block;
+  .left,
+  .right {
     float: left;
-    width: 48%;
+    width: 50%;
+  }
+  .left {
     padding-right: 2%;
   }
 
   .right {
-    float: left;
-    width: 48%;
     padding-left: 2%;
 
     & + * {
@@ -281,10 +281,17 @@ table thead th {
 .qstar-2ones:after {
   content: "\E90E \E90E";
 }
+.qstar-3ones:after {
+  content: "\E90E \E90E \E90E";
+}
 
 .qs-2d6:after,
 .qstar-2sixes:after {
   content: "\E90F \E90F";
+}
+.qs-3d6:after,
+.qstar-3sixes:after {
+  content: "\E90F \E90F \E90F";
 }
 
 .qs-d6 {
