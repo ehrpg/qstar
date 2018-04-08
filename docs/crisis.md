@@ -40,6 +40,10 @@ remain AP are disabled until enough AP are accumulated.
     Tracking AP is very easy. Get a d6, put it front of you, and let it face the
     number of AP your character has. If you are at zero AP, put the die aside.
 
+!!! danger "Actions reduce [Endurance](/character#endurance)"
+    Spending AP reduces the character's current
+    [Endurance](/character#endurance) by the amount of AP spent.
+
 If an action states an AP cost higher than 6, this indicates that the action has
 to be executed over multiple subsequent turns. Executing any other action while
 this action isn't completed yet cancels it.
@@ -60,21 +64,21 @@ this action isn't completed yet cancels it.
 
 ### Available Actions
 
-All characters can perform basic actions. [Perks](/perks) and
+All characters can perform basic actions. [Perks](/character/perks) and
 [Equipment](/character/equipment) can make additional actions available.
 
 This table provides a guideline for actions and their AP cost. These apply
 unless stated otherwise, e.g. attacking with an oversized weapon may require
 more AP.
 
-| Action   |   AP | Description                                                             |
-|----------|-----:|-------------------------------------------------------------------------|
-| Attack   |    2 | Attack with a *normal* weapon.                                          |
-| Hide     |    3 | Hide from others, provided they have no direct vision of you.           |
-| Move     |    1 | Move up to the character's [Speed](#speed-sp) modifier + 5 in meters.      |
-| Sneak    |    1 | Move up to half the character's [Speed](#speed-sp) modifier + 5 in meters. |
-| Stand Up |    2 | Standing up when being prone.                                           |
-| Use Item |    2 | Use an item in a crisis. The item usually specifies the AP required.    |
+| Action   |   AP | Description                                                                                       |
+|----------|-----:|---------------------------------------------------------------------------------------------------|
+| Attack   |    2 | Attack with a *normal* weapon.                                                                    |
+| Hide     |    3 | Hide from others, provided they have no direct vision of you.                                     |
+| Move     |    1 | Move up to the character's [Speed](/character#speed-sp) modifier + 2 (at least 1) in meters.      |
+| Sneak    |    1 | Move up to half the character's [Speed](/character#speed-sp) modifier + 2 (at least 1) in meters. |
+| Stand Up |    2 | Standing up when being prone.                                                                     |
+| Use Item |    2 | Use an item in a crisis. The item usually specifies the AP required.                              |
 
 ## Conditions
 
@@ -194,10 +198,10 @@ Damage reduces the character's [Endurance](/character#endurance-ep). When the
 [Endurance](/character#endurance-ep) pool reaches zero, the AP gain per round is
 reduced to 2.
 
-Once [Endurance](/character#endurance-ep) has reached 0, all attacks that hit are
-critical hits. Exceeding [Endurance](/character#endurance-ep) doesn't have any
-effect. When the [Health](/character#health-hp) pool reaches zero, the character is
-dead.
+Once [Endurance](/character#endurance-ep) has reached 0, all attacks that hit
+are critical hits. Exceeding [Endurance](/character#endurance-ep) doesn't have
+any effect. When the [Health](/character#health-hp) pool reaches zero, the
+character is dead.
 
 An armour's DR reduces damage to the character's [Health](/character#health-hp)
 pool, provided it still has Durability left. Whenever an armour reduces
@@ -206,5 +210,5 @@ pool, provided it still has Durability left. Whenever an armour reduces
 #### Critical damage
 
 [Critical Hits](/stunts#critical-hit) deal the weapon's damage to the target's
-[Health](/character#health-hp) pool. An attack that deals critical damage reduces
-the target's armour Durability by two, instead of only one.
+[Health](/character#health-hp) pool. An attack that deals critical damage
+reduces the target's armour Durability by two, instead of only one.
