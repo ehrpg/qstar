@@ -358,12 +358,13 @@ table thead th {
       top: -5rem;
       visibility: hidden;
 
-      & + section {
+      + section {
         background-color: rgba(0, 0, 0, 0.1);
       }
     }
 
     section {
+      padding-top: 1em;
       -webkit-column-break-inside: avoid;
       page-break-inside: avoid;
       break-inside: avoid;
