@@ -89,6 +89,8 @@ doors shut etc.
 
 This skill is used when using melee weapons or defending against a melee attack.
 
+This skill is opposed by the character's defensive value.
+
 #### Heavy Weapons
 
 This skill is used when using heavy weapons such as rocket launchers, vehicle

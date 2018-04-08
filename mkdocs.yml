@@ -69,6 +69,7 @@ pages:
             - Skills: 'character/skills.md'
             - Perks: 'character/perks.md'
             - Flaws: 'character/flaws.md'
+            - Traits: 'character/traits.md'
             - Equipment: 'character/equipment.md'
 
         - Crisis: 'crisis.md'

@@ -475,8 +475,38 @@ details .formula.formula-top,
   margin-top: 35px;
 }
 
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 400;
+}
+
+/**
+ * Firefox specific rule
+ */
+@-moz-document url-prefix() {
+  body, * {
+    font-weight: lighter;
+  }
+}
+
+.qs-sep {
+  font-weight: bold;
+  font-style: normal;
+}
+
+.qs-sep,
+.qs-sep + * {
+  padding-top: 5px;
+}
+
 a[href*="example-"] {
   display: none;
+}
+
+.admonition-title a {
+  font-weight: 700;
 }
 
 @font-face {

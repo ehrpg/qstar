@@ -20,6 +20,8 @@ character creation.
     decrease [Charisma](/character#charisma-ch) and add a roleplaying Circumstance
     in that they are shunned by the public.
 
+    Subtypes share all other characteristics of the base race.
+
 ## Available races
 
 Below is a list of possible races, provided by the Q* RPG system.
