@@ -30,13 +30,13 @@ theme:
         icon: "\u269D"
 
 extra_css:
-    - css/extra.css
-    - css/font-awesome.min.css
-    - css/ehicons.css
-    - css/game-icons.css
+    - _css/extra.css
+    - _css/font-awesome.min.css
+    - _css/ehicons.css
+    - _css/game-icons.css
 extra_javascript:
-    - js/sorttable.js
-    - js/extra.js
+    - _js/sorttable.js
+    - _js/extra.js
 
 markdown_extensions:
     - pymdownx.details

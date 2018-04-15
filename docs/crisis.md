@@ -104,14 +104,16 @@ This table provides a guideline for actions and their AP cost. These apply
 unless stated otherwise, e.g. attacking with an oversized weapon may require
 more AP.
 
-| Action   |   AP | Description                                                                                       |
-|----------|-----:|---------------------------------------------------------------------------------------------------|
-| Attack   |    2 | Attack with a *normal* weapon.                                                                    |
-| Hide     |    3 | Hide from others, provided they have no direct vision of you.                                     |
-| Move     |    1 | Move up to the character's [Speed](/character#speed-sp) modifier + 2 (at least 1) in meters.      |
-| Sneak    |    1 | Move up to half the character's [Speed](/character#speed-sp) modifier + 2 (at least 1) in meters. |
-| Stand Up |    2 | Standing up when being prone.                                                                     |
-| Use Item |    2 | Use an item in a crisis. The item usually specifies the AP required.                              |
+| Action    |   AP | Description                                                                                       |
+|-----------|-----:|---------------------------------------------------------------------------------------------------|
+| Attack    |    2 | Attack with a *normal* weapon.                                                                    |
+| Hide      |    3 | Hide from others, provided they have no direct vision of you.                                     |
+| Move      |    1 | Move up to the character's [Speed](/character#speed-sp) modifier + 2 (at least 1) in meters.      |
+| Overwatch |    - | You can delay your turn and use your AP for Attack actions in somebody else's turn.               |
+| Take Aim  |    2 | Lowers the Difficulty Level by 1. Can be used multiple times.                                     |
+| Sneak     |    1 | Move up to half the character's [Speed](/character#speed-sp) modifier + 2 (at least 1) in meters. |
+| Stand Up  |    2 | Standing up when being prone.                                                                     |
+| Use Item  |    2 | Use an item in a crisis. The item usually specifies the AP required.                              |
 
 ## Conditions
 
@@ -148,16 +150,18 @@ Combat is the most common kind of a crisis.
 
 ### Defence
 
-#### Melee Combat
+When a character is attacked, the character has to roll a Defence check. On a
+tie the defender wins the contest.
 
-The *defence vs melee* is a fixed value determined by some character related
-stats.
+NPCs have a fixed defence value (Difficulty Level) and do not have to roll.
+
+#### Melee Combat
 
 !!! summary "Defence vs melee"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Base">10</span> ±
+      <span data-bracket-bottom="Base">3d6</span> ±
       <span data-bracket-top="Skill Modifier">Melee</span> ±
-      <span data-bracket-bottom="Ability Modifier">Might</span> +
+      <span data-bracket-bottom="Ability Modifier">Might or Speed</span> +
       <span data-bracket-top="Defence modifier">Armour</span> ±
       <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
       <span data-bracket-top="per additional enemy">-2</span>
@@ -177,7 +181,7 @@ applies if there is more than one enemy in range.
 
 !!! summary "Defence vs ranged"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Base">10</span> ±
+      <span data-bracket-bottom="Base">3d6</span> ±
       <span data-bracket-top="Ability Modifier">Speed</span> +
       <span data-bracket-bottom="Defence modifier">Armour</span> ±
       <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
@@ -269,8 +273,19 @@ point of [Health](/character#health-hp) damage every day they can take a rest.
 Resting means that the character can only do light downtime activities, like
 reading.
 
+!!! summary "Natural healing"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Base">1 per day</span>
+    </div>
+
 Medical installations, doctors and medical supplies increase the amount of
 [Health](/character#health-hp) healed. Per day a **Science (Medicine)** check
 can be attempted for a single character. Translate the result of the check to
 the **Difficulty Level** of the [Difficulty](#difficulty) table. The character
-heals that amount that single day, given they can take a rest.
+heals that amount additionally that single day, given they can take a rest.
+
+!!! summary "Healing"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Base">1 per day</span> +
+        <span data-bracket-top="X - Difficulty Level">X per day</span>
+    </div>
