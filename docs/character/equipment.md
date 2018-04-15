@@ -81,17 +81,17 @@ slot, unless otherwise mentioned.
 ## Equipment condition
 
 An item *can* have a condition, making it better or worse. As with abilities and
-skills for characters, the item condition uses adjectives:
+skills for characters, the item condition uses these adjectives:
 
 |    # | Item condition | Modifier | [RES](/character#resources-res) cost |
-|-----:|----------------|---------:|---------------------------------:|
-|    1 | Terrible       |       -3 |                               -2 |
-|    2 | Poor           |       -2 |                               -1 |
-|    3 | Mediocre       |       -1 |                                0 |
-|    4 | Fair           |        0 |                                0 |
-|    5 | Good           |       +1 |                                0 |
-|    6 | Great          |       +2 |                               +1 |
-|    7 | Superb         |       +3 |                               +2 |
+|-----:|----------------|---------:|-------------------------------------:|
+|    1 | Terrible       |       -3 |                                   -2 |
+|    2 | Poor           |       -2 |                                   -1 |
+|    3 | Mediocre       |       -1 |                                    0 |
+|    4 | Fair           |        0 |                                    0 |
+|    5 | Good           |       +1 |                                    0 |
+|    6 | Great          |       +2 |                                   +1 |
+|    7 | Superb         |       +3 |                                   +2 |
 
 Any item can receive the modifier to **any** of its stats. The modifier can also
 be split between multiple stats. For example, a superb weapon could receive +1
@@ -165,14 +165,12 @@ Worn armour does not occupy [Slots](#slots).
 Armour adds another pool to your character, called **Durability**. Special
 armour can also provide a bonus to [Defence](/crisis#defence).
 
-| Name               |   DR | Durability | Weight | Cost |
-|--------------------|-----:|-----------:|-------:|-----:|
-| Body Armour MK I   |    5 |          3 |      3 |  750 |
-| Body Armour MK II  |    5 |          6 |      4 | 1250 |
-| Body Armour MK III |    7 |         12 |      5 | 2500 |
-| Juggernaut MK I    |   10 |         20 |      7 | 7500 |
-
-The armour's item condition increases or decreases the armour's **Durability**.
+| Name               | Durability | Weight | Cost |
+|--------------------|-----------:|-------:|-----:|
+| Body Armour MK I   |          2 |      3 |  750 |
+| Body Armour MK II  |          4 |      4 | 1250 |
+| Body Armour MK III |          8 |      5 | 2500 |
+| Juggernaut MK I    |         15 |      7 | 7500 |
 
 ### Outfits
 
@@ -190,14 +188,25 @@ The armour's item condition increases or decreases the armour's **Durability**.
     packs consist of multiple items. Using a pack doesn't use up the items, e.g.
     climbing doesn't make you run out of ropes or bolts to secure the ropes.
 
+!!! tip "Assets"
+    Some miscellaneous items count as Assets, which can be used to reduce the
+    [Difficulty](/crisis#difficulty) for related checks. Usually an item states
+    if it's an Asset, but creative use can always turn other items into Assets
+    as well!
+
+### Food, Mundane & Tools
+
 <div class="qs-list-test" markdown="1">
 
 ##### Climbing Gear
 
 A climbing gear consists of ropes, ice picks, bolts to secure the ropes, etc.
 
+[Asset](/crisis#difficulty-modifier)
+:   Climbing.
+
 [Credits](#credits)
-:   750
+:   1 000
 
 [Weight](#weight)
 :   5
@@ -219,10 +228,36 @@ Food supplies provide food and water for a full week (7 days). Food supplies are
 automatically refilled (for free) in civilization, e.g. trading outposts etc.
 
 [Credits](#credits)
-:   1 000
+:   1 250
 
 [Weight](#weight)
 :   4
+
+##### Ration
+
+A ration provides food and water for a single day. Rations are automatically
+refilled (for free) in civilization, e.g. trading outposts etc.
+
+[Credits](#credits)
+:   150
+
+[Weight](#weight)
+:   1
+
+##### Toolbox
+
+Contains items like a blowtorch, multitool, screwdrivers, hammers, nails,
+screws, etc.
+
+[Asset](/crisis#difficulty-modifier)
+:   Building, Engineering.
+
+[Credits](#credits)
+:   1 000
+
+[Weight](#weight)
+:   5
+
 
 </div>
 
@@ -231,17 +266,38 @@ automatically refilled (for free) in civilization, e.g. trading outposts etc.
 Medical items are used to restore [Health](/character#health-hp) and
 [Endurance](/character#endurance-ep) in or after combat.
 
-| Name           | Weight | Cost | Notes |
-|----------------|-------:|-----:|-------|
-| Bandages       |      0 |   90 |       |
-| Medikit        |      0 |  750 |       |
-| First Aid Kit  |      0 |  250 |       |
-| Adrenalin Shot |      0 |   75 |       |
+<div class="qs-list-test" markdown="1">
 
-### Tools
+##### Adrenalin Shot
 
-| Name      | Weight | Cost | Notes                                               |
-|-----------|-------:|-----:|-----------------------------------------------------|
-| Blowtorch |      3 |  250 |                                                     |
-| Multitool |      3 |  150 |                                                     |
-| Toolbox   |      4 |  750 | Contains a hammer, screwdrivers, a saw, tongs, etc. |
+Instantly restores 15 points of [Endurance](/character#endurance-ep).
+
+[Credits](#credits)
+:   100
+
+[Weight](#weight)
+:   0
+
+[AP](/crisis#actions)
+:   1
+
+Uses
+:   1
+
+##### Medical Supplies
+
+Consists of scissors, bandages, disinfectant, alcohol, painkillers etc.
+
+[Asset](/crisis#difficulty-modifier)
+:   Science (Medicine).
+
+[Credits](#credits)
+:   500
+
+[RES](/character#resources-res)
+:   1
+
+[Weight](#weight)
+:   1
+
+</div>

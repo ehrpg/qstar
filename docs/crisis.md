@@ -77,10 +77,6 @@ remain AP are disabled until enough AP are accumulated.
     Tracking AP is very easy. Get a d6, put it front of you, and let it face the
     number of AP your character has. If you are at zero AP, put the die aside.
 
-!!! danger "Actions reduce [Endurance](/character#endurance)"
-    Spending AP reduces the character's current
-    [Endurance](/character#endurance) by the amount of AP spent.
-
 If an action states an AP cost higher than 6, this indicates that the action has
 to be executed over multiple subsequent turns. Executing any other action while
 this action isn't completed yet cancels it.
@@ -123,16 +119,21 @@ Certain actions become available or unavailable when characters are affected by
 various conditions. Conditions can be inflicted by other characters, by
 themselves or the environment.
 
-| Condition | Description                                                                                       |
-|-----------|---------------------------------------------------------------------------------------------------|
-| Drunk     | All [Abilities](/character#abilities) and [Skills](/character#skills) checks impose a -3 penalty. |
-| Exhausted | You only regain 2 AP per round.                                                                   |
-| Prone     | Can't melee attack. May provide bonus to *defence vs ranged* and ranged attacks.                  |
-| Stunned   | Can't act on current turn and does not regain AP.                                                 |
+| Condition | Description                                                                      |
+|-----------|----------------------------------------------------------------------------------|
+| Drunk     | All checks impose a +1 [Difficulty](#difficulty-modifer) penalty.                |
+| Exhausted | You only regain 2 AP per round. All hits against you become critical hits.       |
+| Prone     | Can't melee attack. May provide bonus to *defence vs ranged* and ranged attacks. |
+| Stunned   | Can't act or react on current turn and does not regain AP.                       |
 
 ## Combat
 
 Combat is the most common kind of a crisis.
+
+!!! danger "Combat reduces [Endurance](/character#endurance)"
+    A combat crisis strains your character no matter the outcome. Each combat
+    reduces the character's current [Endurance](/character#endurance) by 10,
+    which can be restored as usual.
 
 ### Attacking
 
@@ -189,10 +190,10 @@ applies if there is more than one enemy in range.
 Cover is always relative to other targets. A character can be in total cover for
 an enemy, but in plain sight for another.
 
-| Name        |    Defence |
+| Name        | Difficulty |
 |-------------|-----------:|
 | Cover       |         +1 |
-| Heavy Cover |         +3 |
+| Heavy Cover |         +2 |
 | Total Cover | unhittable |
 
 <div class="left" markdown="1">
@@ -216,13 +217,17 @@ an enemy, but in plain sight for another.
 ### Damage
 
 If an attack hits a target, damage is dealt to it. The amount of damage done
-depends on the weapon used. The damage of some weapons can be influenced by the
+depends on the weapon used. The damage of weapons can be influenced by the
 character using them, e.g. when wielding a melee weapon which is influenced by
 [Might](/character#might-mi).
 
 There are two types of damage: [Endurance](/character#endurance-ep) damage,
 indicated by a weapon's **END** stat, and [Health](/character#health-hp) damage,
 indicated by the **DMG** stat.
+
+A character's [Endurance](/character#endurance-ep) has to be depleted or
+[Critical Hits](/stunts#critical-hit) have to be dealt to the character in order
+to deal damage to the character's [Health](/character#health-hp) pool.
 
 !!! summary "Dealing damage"
     <div class="formula formula-top formula-bottom">
@@ -232,20 +237,40 @@ indicated by the **DMG** stat.
     </div>
 
 Damage reduces the character's [Endurance](/character#endurance-ep). When the
-[Endurance](/character#endurance-ep) pool reaches zero, the AP gain per round is
-reduced to 2.
+[Endurance](/character#endurance-ep) pool reaches zero, the character becomes
+exhausted.
 
 Once [Endurance](/character#endurance-ep) has reached 0, all attacks that hit
-are critical hits. Exceeding [Endurance](/character#endurance-ep) doesn't have
-any effect. When the [Health](/character#health-hp) pool reaches zero, the
-character is dead.
+are critical hits. Damage that first exceeds
+[Endurance](/character#endurance-ep) doesn't have any special effect.<br> When
+the [Health](/character#health-hp) pool reaches zero, the character is dead.
 
-An armour's DR reduces damage to the character's [Health](/character#health-hp)
-pool, provided it still has Durability left. Whenever an armour reduces
-[Health](/character#health-hp) damage, it loses one Durability.
+An armour prevents damage to the character's [Health](/character#health-hp)
+pool, provided it still has Durability left. Whenever an armour prevents
+[Health](/character#health-hp) damage, it loses one Durability. E.g. two
+critical hits would reduce an amour's Durability by 2.
 
 #### Critical damage
 
 [Critical Hits](/stunts#critical-hit) deal the weapon's damage to the target's
-[Health](/character#health-hp) pool. An attack that deals critical damage
-reduces the target's armour Durability by two, instead of only one.
+[Health](/character#health-hp) pool.
+
+### Healing
+
+[Endurance](/character#endurance-ep) is restored over time. Items such as
+[Adrenalin Shots](/character/equipment#adrenalin-shot) increase
+[Endurance](/character#endurance-ep) instantly. Usually, taking a 10 minute
+break restores all [Endurance](/character#endurance-ep). The time required
+varies, as e.g. a long march requires more time to restore
+[Endurance](/character#endurance-ep).
+
+[Health](/character#health-hp) is restored slowly over time. A character heals 1
+point of [Health](/character#health-hp) damage every day they can take a rest.
+Resting means that the character can only do light downtime activities, like
+reading.
+
+Medical installations, doctors and medical supplies increase the amount of
+[Health](/character#health-hp) healed. Per day a **Science (Medicine)** check
+can be attempted for a single character. Translate the result of the check to
+the **Difficulty Level** of the [Difficulty](#difficulty) table. The character
+heals that amount that single day, given they can take a rest.
