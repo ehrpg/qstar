@@ -1,7 +1,45 @@
 # Crisis
 
-Whenever characters compete against each other or the environment a so-called
-crisis begins. In a crisis time slows down and actions become more atomic.
+A crisis requires the character to make a roll. This happens, whenever the
+outcome of a task is unclear or subject to chance (e.g. a character has to roll
+for a certain outcome).
+
+Whenever characters compete against each other or the environment the crisis
+lasts longer. In a crisis time slows down and actions become more atomic.
+
+## Difficulty
+
+Every task has a difficulty level. Any check has to be equal or above the
+**Target #** of the difficulty level in order to succeed, otherwise the check
+fails.
+
+Not all tasks require a check however. For example, finding some information
+inside books can be done without a skill check given enough time.
+
+| Difficulty Level | Name        | Target # | Description                                                      |
+|-----------------:|-------------|---------:|------------------------------------------------------------------|
+|                0 | Mundane     |        3 | Everyday tasks, which can be done by almost everyone.            |
+|                1 | Simple      |        6 | Most people can do this without much effort.                     |
+|                2 | Easy        |        9 | Even untrained people still can do these tasks most of the time. |
+|                3 | Normal      |       12 | You need at least some training to complete these kind of tasks. |
+|                4 | Demanding   |       15 | You either need gear or good training for these tasks.           |
+|                5 | Challenging |       18 | You need a lot of training and good gear.                        |
+|                6 | Hard        |       21 | You need to be a specialist for these tasks.                     |
+|                7 | Very Hard   |       24 | You require help from others to achieve this.                    |
+|                8 | Impossible  |       27 | A once in a lifetime achievement.                                |
+
+### Difficulty Modifier
+
+Certain circumstances modify the difficulty level, either positively or
+negatively.
+
+Multiple modifiers stack, but can never modify the difficulty level more than 2
+in any direction.
+
+| Name                     | Diffculty Level | Description                               |
+|--------------------------|----------------:|-------------------------------------------|
+| Asset                    |              -1 | Having the correct tools at hand.         |
+| Unfavorable Circumstance |              +1 | E.g. climbing a cliff while it's raining. |
 
 ## Turn Order
 
@@ -9,10 +47,9 @@ Every involved character in a crisis has to roll to determine the turn order.
 The character with the highest result acts first. Once every character has
 acted, a new **turn** begins.
 
-If two or more characters have rolled the same result the character with the
-higher [Intelligence](/character#intelligence-in) acts first. If they have the same
-[Intelligence](/character#intelligence-in) score the character with the higher
-[Speed](/character#speed-sp) acts first. If there is still a tie roll again.
+If two or more characters have rolled the same result roll again. The characters
+retain their original roll, but rolls to resolve the conflict change the turn
+order.
 
 !!! summary "[Turn Order](#turn-order)"
     <div class="formula formula-top formula-bottom">

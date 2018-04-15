@@ -50,6 +50,17 @@ IN
 CH
 :   [Charisma](/character#charisma-ch)
 
+* Character
+
+XP
+:   [Experience](/character#experience-xp)
+
+EP
+:   [Endurance points](/character#endurance-ep)
+
+HP
+:   [Health points](/character#health-hp)
+
 * Currency
 
 DT
@@ -63,17 +74,6 @@ RES
 
 TECH
 :   [Technology](/character#technology-tech)
-
-* Character
-
-XP
-:   [Experience](/character#experience-xp)
-
-EP
-:   [Endurance points](/character#endurance-ep)
-
-HP
-:   [Health points](/character#health-hp)
 
 <div class="col-layout-end"></div>
 <div class="col-layout-start"></div>

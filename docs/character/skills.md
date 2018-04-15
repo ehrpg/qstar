@@ -5,8 +5,8 @@
 A character can only have skills at rank [Skill -
 Superb](/character/skills/#skills) up to his
 [Intelligence](/character/#intelligence-in) ability modifier. If the
-[Intelligence](/character/#intelligence-in) is less than 0, the character can have
-no rank [Skill - Superb](/character/skills/#skills) skills.
+[Intelligence](/character/#intelligence-in) is less than 0, the character can
+have no rank [Skill - Superb](/character/skills/#skills) skills.
 
 |    # | Skill Rank | Skill Modifier | Downtime cost |
 |-----:|------------|---------------:|--------------:|
@@ -37,6 +37,11 @@ effected by noticeable outside factors, the character has to roll a skill check.
     </div>
 
 </blockquote>
+
+### Skill difficulty
+
+Skill checks have to be equal or higher to the **Target #** specified by its
+[Difficulty](/crisis#difficulty), in order to succeed.
 
 ### Skill Ranks and Ability Damage
 
