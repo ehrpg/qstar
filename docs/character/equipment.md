@@ -93,6 +93,9 @@ skills for characters, the item condition uses these adjectives:
 |    6 | Great          |       +2 |                                   +1 |
 |    7 | Superb         |       +3 |                                   +2 |
 
+Buying items that have a positive modifier usually costs 1
+[Influence](/character#influence-inf).
+
 Any item can receive the modifier to **any** of its stats. The modifier can also
 be split between multiple stats. For example, a superb weapon could receive +1
 to its **HIT** stat, and +2 to its **CAP** stat.
@@ -100,10 +103,15 @@ to its **HIT** stat, and +2 to its **CAP** stat.
 Better items need more [Resources](/character#resources-res) and inferior items
 need less [Resources](/character#resources-res) to be maintained. The Modifier
 of an item however can reduce the [Resources](/character#resources-res) cost, if
-any, too.
+any, too. The [Resources](/character#resources-res) cost can never be lower than
+1.
 
 If an item's condition were to drop below Terrible, the item is destroyed or
 otherwise rendered useless.
+
+!!! tip "Looting and Item Condition"
+    When looting items the GM can roll **1d6**{.qs-d6} and substract the result from the
+    item's condition.
 
 ## Weapons
 

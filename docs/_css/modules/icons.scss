@@ -106,11 +106,11 @@ $headers: h1, h2, h3, h4, h5;
     content: "\E5E2";
   }
 
-  h3#damage-reduction:after,
-  a[href*="#DR"]:after,
-  a[href*="#damage-reduction"]:after {
-    content: "\E023";
-  }
+  // h3#damage-reduction:after,
+  // a[href*="#DR"]:after,
+  // a[href*="#damage-reduction"]:after {
+  //   content: "\E023";
+  // }
 
   h4#hit,
   a[href*="#hit"]:after,
@@ -147,10 +147,10 @@ $headers: h1, h2, h3, h4, h5;
     content: "\E77F";
   }
 
-  *#armour:after,
-  a[href*="#armour"]:after {
-    content: "\EA22";
-  }
+  // *#armour:after,
+  // a[href*="#armour"]:after {
+  //   content: "\EA22";
+  // }
 
   *#turn-order:after,
   a[href*="#turn-order"]:after {

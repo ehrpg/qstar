@@ -205,12 +205,6 @@ h5 > a:after {
   content: "\E5E2";
 }
 
-*:not(.md-search-result__item) > h3#damage-reduction:after,
-*:not(.md-search-result__item) > a[href*="#DR"]:after,
-*:not(.md-search-result__item) > a[href*="#damage-reduction"]:after {
-  content: "\E023";
-}
-
 *:not(.md-search-result__item) > h4#hit,
 *:not(.md-search-result__item) > a[href*="#hit"]:after,
 *:not(.md-search-result__item) > a[href*="#attack"]:after {
@@ -244,11 +238,6 @@ h5 > a:after {
 
 *:not(.md-search-result__item) > a[href^="./equipment"]:after {
   content: "\E77F";
-}
-
-*:not(.md-search-result__item) > *#armour:after,
-*:not(.md-search-result__item) > a[href*="#armour"]:after {
-  content: "\EA22";
 }
 
 *:not(.md-search-result__item) > *#turn-order:after,
