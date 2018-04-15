@@ -111,12 +111,12 @@ All melee weapons use the [Melee](/character/skills#melee) skill, while ranged
 weapons use the [Light weapon](/character/skills#light-weapons) skill, unless
 otherwise noted.
 
-* **HIT** shows the bonus or penalty the attack skill roll receives.
+* **HIT** indicates the bonus or penalty the attack skill roll receives.
 
-* **END** shows the amount of damage dealt to the target's
+* **END** indicates the amount of damage dealt to the target's
   [Endurance](/character#endurance-ep) by the weapon.
 
-* **DMG** shows the amount of damage dealt to the target's
+* **DMG** indicates the amount of damage dealt to the target's
   [Health](/character#health-hp) by the weapon.
 
 * **RNG** indicates the weapon's range increment. Each increment imposes a -2
@@ -136,23 +136,23 @@ otherwise noted.
 
 ### Melee Weapons
 
-| Name                    |  END |  DMG |  RoF | Weight | Cost |
-|-------------------------|-----:|-----:|-----:|-------:|-----:|
-| Improvised blunt weapon |    8 |    3 |    1 |      - |    - |
-| Improvised sharp weapon |    5 |    5 |    1 |      - |    - |
-| Brass knuckles          |    8 |    4 |    1 |      2 |  100 |
-| Baton                   |   15 |    4 |    1 |      3 |  250 |
-| Knife                   |   12 |    6 |    1 |      2 |  100 |
-| Sword                   |   20 |   10 |    1 |      5 | 3000 |
+| Name                    |  HIT |  END |  DMG |  RoF | Weight | Cost |
+|-------------------------|-----:|-----:|-----:|-----:|-------:|-----:|
+| Improvised blunt weapon |    0 |    8 |    3 |    1 |      - |    - |
+| Improvised sharp weapon |    0 |    5 |    5 |    1 |      - |    - |
+| Brass knuckles          |    0 |    8 |    4 |    1 |      2 |  100 |
+| Baton                   |    0 |   15 |    4 |    1 |      3 |  250 |
+| Knife                   |    0 |   12 |    6 |    1 |      2 |  100 |
+| Sword                   |    1 |   20 |   10 |    1 |      5 | 3000 |
 
 ### Ranged Weapons
 
-| Name             |  END |  DMG |  RNG |  RoF |  MAG |  CAP |  REL | Weight | Cost |
-|------------------|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-------:|-----:|
-| Pistol           |   15 |    6 |    5 |    1 |    ∞ |    7 |    2 |      2 | 1000 |
-| Revolver         |   15 |    6 |    5 |    1 |    ∞ |    6 |    4 |      2 |  750 |
-| Flintlock Pistol |   15 |    6 |    4 |    1 |    ∞ |    1 |    8 |      2 |  500 |
-| Flintlock Musket |   15 |   12 |   15 |    1 |    ∞ |    1 |   10 |      3 | 1000 |
+| Name             |  HIT |  END |  DMG |  RNG |  RoF |  MAG |  CAP |  REL | Weight | Cost |
+|------------------|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-------:|-----:|
+| Pistol           |    0 |   15 |    6 |    5 |    1 |    ∞ |    7 |    2 |      2 | 1000 |
+| Revolver         |    0 |   15 |    6 |    5 |    1 |    ∞ |    6 |    4 |      2 |  750 |
+| Flintlock Pistol |    0 |   15 |    6 |    4 |    1 |    ∞ |    1 |    8 |      2 |  500 |
+| Flintlock Musket |    1 |   15 |   12 |   15 |    1 |    ∞ |    1 |   10 |      3 | 1000 |
 
 ## Armour & Outfits
 
