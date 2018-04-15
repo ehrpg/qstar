@@ -284,6 +284,11 @@ adaptable.
 Every character has 0 XP upon creation.
 </blockquote>
 
+## Race
+
+See [Races](/character/races/).
+
+
 ## Skills
 
 See [Skills](/character/skills/).

@@ -363,6 +363,10 @@ table thead th {
 }
 
 @media only screen and (min-width: 50em)  {
+  div.qs-list-test.full-width {
+    column-count: 1 !important;
+  }
+
   div.qs-list-test {
     column-count: 2;
     column-gap: 25px;

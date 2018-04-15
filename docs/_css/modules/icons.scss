@@ -177,6 +177,12 @@ $headers: h1, h2, h3, h4, h5;
     content: "\EB3B";
   }
 
+  *#credits:after,
+  a[href*="#credits"]:after {
+    font-style: normal;
+    content: "\FFE0";
+  }
+
   .qs-cr {
     font-style: normal;
     &:after {

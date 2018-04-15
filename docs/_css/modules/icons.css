@@ -276,6 +276,12 @@ h5 > a:after {
   content: "\EB3B";
 }
 
+*:not(.md-search-result__item) > *#credits:after,
+*:not(.md-search-result__item) > a[href*="#credits"]:after {
+  font-style: normal;
+  content: "\FFE0";
+}
+
 *:not(.md-search-result__item) > .qs-cr {
   font-style: normal;
 }
