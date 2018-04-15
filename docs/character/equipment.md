@@ -203,7 +203,7 @@ armour can also provide a bonus to [Defence](/crisis#defence).
 A climbing gear consists of ropes, ice picks, bolts to secure the ropes, etc.
 
 [Asset](/crisis#difficulty-modifier)
-:   Climbing.
+:   Athletics (Climbing).
 
 [Credits](#credits)
 :   1 000
@@ -250,7 +250,7 @@ Contains items like a blowtorch, multitool, screwdrivers, hammers, nails,
 screws, etc.
 
 [Asset](/crisis#difficulty-modifier)
-:   Building, Engineering.
+:   Engineering.
 
 [Credits](#credits)
 :   1 000

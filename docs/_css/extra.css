@@ -484,6 +484,12 @@ html {
   font-weight: 400;
 }
 
+h4.bold {
+  border-color: black !important;
+  border-bottom-width: 3px !important;
+  border-left-width: 2px !important;
+}
+
 /**
  * Firefox specific rule
  */
@@ -617,7 +623,16 @@ h1[id]:before {
 }
 
 .md-typeset:not(.md-search-result__item) h4:not(.dt) {
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid #808080;
+  border-left: 1px solid #808080;
+  border-radius: 20px 20px 0px;
+  line-height: 20px;
+  padding-bottom: 8px;
+}
+
+.md-typeset:not(.md-search-result__item) h4[id]:not(.dt):target:before {
+  margin-top: -.9rem !important;
+  padding-top: .9rem !important;
 }
 
 .md-typeset:not(.md-search-result__item) ul {

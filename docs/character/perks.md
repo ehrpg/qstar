@@ -64,9 +64,7 @@ stunt.
 
 ---
 
-<div class="col-layout-start qs-list"></div>
-
-<!-- A-N -->
+<div class="qs-list-test" markdown="1">
 
 ##### Beast of Burden
 
@@ -160,11 +158,6 @@ Requires
 [Downtime](/character#downtime-dt)
 :   3
 
-<div class="col-layout-end"></div>
-<div class="col-layout-start qs-list"></div>
-
-<!-- O-Z -->
-
 ##### Scientist
 
 Maximum Technology +1
@@ -194,6 +187,6 @@ Requires
 [Downtime](/character#downtime-dt)
 :   1
 
-<div class="col-layout-end clearfix"></div>
+</div>
 
 ## Item Perks
