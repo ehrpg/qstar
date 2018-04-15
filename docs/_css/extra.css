@@ -195,35 +195,6 @@ h5 > a:after {
   content: "\E6CC";
 }
 
-*:not(.md-search-result__item) > a[href$="#dmg-damage"]:after,
-*:not(.md-search-result__item) > a[href$="#damage"]:after {
-  content: "\E1E8";
-}
-
-*:not(.md-search-result__item) > a[href*="#crit-critical"]:after,
-*:not(.md-search-result__item) > a[href*="#critical-damage"]:after {
-  content: "\E5E2";
-}
-
-*:not(.md-search-result__item) > h4#hit,
-*:not(.md-search-result__item) > a[href*="#hit"]:after,
-*:not(.md-search-result__item) > a[href*="#attack"]:after {
-  content: "\E8AA";
-}
-
-*:not(.md-search-result__item) > a[href*="#rof"]:after,
-*:not(.md-search-result__item) > a[href*="rof#stats"]:after {
-  content: "\E1DA";
-}
-
-*:not(.md-search-result__item) > a[href*="#cap-capacity"]:after {
-  content: "\E1B6";
-}
-
-*:not(.md-search-result__item) > a[href*="reload#stats"]:after {
-  content: "\E094";
-}
-
 *:not(.md-search-result__item) > *#abilities:after,
 *:not(.md-search-result__item) > a[href*="#abilities"]:after {
   content: "\E6C0";
@@ -234,10 +205,6 @@ h5 > a:after {
 *:not(.md-search-result__item) > *#skill-ranks:after,
 *:not(.md-search-result__item) > a[href*="#skill-ranks"]:after {
   content: "\E71A";
-}
-
-*:not(.md-search-result__item) > a[href^="./equipment"]:after {
-  content: "\E77F";
 }
 
 *:not(.md-search-result__item) > *#turn-order:after,

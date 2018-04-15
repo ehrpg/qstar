@@ -96,15 +96,15 @@ $headers: h1, h2, h3, h4, h5;
     content: "\E6CC";
   }
 
-  a[href$="#dmg-damage"]:after,
-  a[href$="#damage"]:after {
-    content: "\E1E8";
-  }
+  // a[href$="#dmg-damage"]:after,
+  // a[href$="#damage"]:after {
+  //   content: "\E1E8";
+  // }
 
-  a[href*="#crit-critical"]:after,
-  a[href*="#critical-damage"]:after {
-    content: "\E5E2";
-  }
+  // a[href*="#crit-critical"]:after,
+  // a[href*="#critical-damage"]:after {
+  //   content: "\E5E2";
+  // }
 
   // h3#damage-reduction:after,
   // a[href*="#DR"]:after,
@@ -112,24 +112,24 @@ $headers: h1, h2, h3, h4, h5;
   //   content: "\E023";
   // }
 
-  h4#hit,
-  a[href*="#hit"]:after,
-  a[href*="#attack"]:after {
-    content: "\E8AA";
-  }
+  // h4#hit,
+  // a[href*="#hit"]:after,
+  // a[href*="#attack"]:after {
+  //   content: "\E8AA";
+  // }
 
-  a[href*="#rof"]:after,
-  a[href*="rof#stats"]:after {
-    content: "\E1DA";
-  }
+  // a[href*="#rof"]:after,
+  // a[href*="rof#stats"]:after {
+  //   content: "\E1DA";
+  // }
 
-  a[href*="#cap-capacity"]:after {
-    content: "\E1B6";
-  }
+  // a[href*="#cap-capacity"]:after {
+  //   content: "\E1B6";
+  // }
 
-  a[href*="reload#stats"]:after {
-    content: "\E094";
-  }
+  // a[href*="reload#stats"]:after {
+  //   content: "\E094";
+  // }
 
   *#abilities:after,
   a[href*="#abilities"]:after {
@@ -143,9 +143,9 @@ $headers: h1, h2, h3, h4, h5;
     content: "\E71A";
   }
 
-  a[href^="./equipment"]:after {
-    content: "\E77F";
-  }
+  // a[href^="./equipment"]:after {
+  //   content: "\E77F";
+  // }
 
   // *#armour:after,
   // a[href*="#armour"]:after {

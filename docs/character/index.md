@@ -14,7 +14,6 @@ A character is defined by:
 * traits, such as perks and flaws.
 
 ## Race
-
 See [Races](/character/races).
 
 ## Abilities
@@ -283,11 +282,6 @@ adaptable.
 <blockquote class="important" markdown="1">
 Every character has 0 XP upon creation.
 </blockquote>
-
-## Race
-
-See [Races](/character/races/).
-
 
 ## Skills
 

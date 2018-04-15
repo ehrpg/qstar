@@ -16,23 +16,23 @@ is.
 
 ## Abilities & Skills
 
-An NPC has each [Ability](/character#abilities) and [Skill](/skills#skills) at
-rank **Mediocre**. Any of those values can be shifted by one (either increased
-or decreasing the value). Decreasing an [Ability](/character#abilities) allows
-the NPC to increase another [Ability](/character#abilities). Decreasing a
-[Skill](/skills#skills) allows the NPC to increase another
-[Skill](/skills#skills).
+An NPC can make an [Ability](/character#abilities) or [Skill](/skills#skills)
+check with its [Difficulty Level](/crisis#difficulty) as modifier.
 
-In addition, a NPC receives a number of extra *points* to further increase
-[Abilities](/character#abilities) and [Skills](/skills#skills). An NPC's
-[Difficulty Level](/crisis#difficulty) allows them to change any of the two
-without lowering any other first.
+!!! summary "[Ability](/character#abilities) and [Skill](/skills#skills) checks"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Base">3d6</span> +
+        <span data-bracket-top="Base">Difficulty Level</span> +
+        <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
+    </div>
 
 ## Defence
 
+NPCs don't have to roll for defending.
+
 !!! summary "NPC Defence"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">10</span> +
+        <span data-bracket-bottom="Base">12</span> +
         <span data-bracket-top="Base">Difficulty Level</span> +
         <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
     </div>
@@ -58,3 +58,52 @@ without lowering any other first.
         <span data-bracket-bottom="Base">10</span> ±
         <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>
+
+## Damage
+
+An NPC can use weapons normally, dealing their respective **END** and **DMG**
+values as damage.
+
+!!! summary "Simplified [Health](/npc/#health-hp) damage"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Base">(1 + Difficulty Level)</span> x
+        <span data-bracket-top="Base">2</span>
+    </div>
+
+!!! summary "Simplified [Endurance](/npc/#endurance-ep) damage"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Base">(1 + Difficulty Level)</span> x
+        <span data-bracket-top="Base">5</span>
+    </div>
+
+## Loot
+
+An NPC can drop items, but doesn't have to. E.g. animals do not drop items, but
+can be butchered for food, or skinned to make a profit later.
+
+[Credits](/equipment#credits) only make a small portion of the loot, if any at
+all. The most valuable kind of loot are [Resources](/character#resources-res).
+
+### Credits
+
+If an NPC can drop [Credits](/equipment#credits), they can also have a
+**Wealth** descriptor. The **Wealth** of an NPC adjusts the
+[Credits](/equipment#credits) that can be looted.
+
+!!! summary "[Credits](/equipment#credits) loot"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Base">50</span> x
+        <span data-bracket-top="Base">(2 + Difficulty Level)</span> x
+        <span data-bracket-bottom="Wealth">(0.5 or 1 or 2)</span>
+    </div>
+
+### Items
+
+Items an NPC was using can also be looted. Depending on the combat, most items
+have a bad [Equipment Condition](/character/equipment#equipment-condition)
+though.
+
+#### Equipment Condition
+
+Stronger NPCs with a higher [Difficulty Level](/crisis#difficulty) use better
+items.
