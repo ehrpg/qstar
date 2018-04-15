@@ -24,7 +24,7 @@ Epic fails **always** fail, no matter the result. The GM can describe how the
 check fails.
 
 These stunts and fails have a chance of `0.4%` so they justify the use of over
-the top actions.
+the top actions, although they cannot break physics or realism.
 
 <div class="left" markdown="1">
 

@@ -258,7 +258,6 @@ screws, etc.
 [Weight](#weight)
 :   5
 
-
 </div>
 
 ### Medical
