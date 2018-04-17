@@ -132,3 +132,14 @@ Some pools cannot be negative, e.g. [Resources](/character#resources-res),
 [Endurance](/character#endurance) or [Health](/character#health). If such a
 value where to drop to below 0, it either prohibits certain actions, it has
 consequences or it's simply ignored and the value set to 0.
+
+### Difficulty Level
+
+NPCs are abstracted by a [Difficulty Level](/crisis#difficulty).
+
+Some conditions, that are also used by player characters, may provide a positive
+or negative modifier to the [Difficulty Level](/crisis#difficulty). If a value
+is effected by a difficulty modifier, but the effected value requires a roll,
+e.g. a player character's [Defence](/crisis#defence), the modifier simply adds a
+bonus or penalty to the check. A difficulty modifier of `+1` adds a `+3` bonus,
+and a difficulty modifier of `-1` adds a `-3` penalty.
