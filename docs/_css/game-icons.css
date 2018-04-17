@@ -26,6 +26,11 @@
   content: "\E918";
 }
 
+.qs-s,
+.qs-f {
+  font-style: normal;
+}
+
 .qs-s:after,
 .qstar-success:after {
   font-family: 'Material Icons';
@@ -9311,7 +9316,7 @@
 }
 
 .qstar-dice-six-faces-one:after {
-  content: "\E90E \E90E";
+  content: "\E90E";
 }
 
 .qstar-dice-six-faces-six:after {

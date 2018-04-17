@@ -692,11 +692,19 @@ table thead th:hover {
   cursor: pointer;
 }
 
-.qstar-2ones:after {
+.qs-one {
+  font-style: normal;
+}
+
+.qs-one:after {
+  content: "\E90E";
+}
+
+.qs-2ones:after {
   content: "\E90E \E90E";
 }
 
-.qstar-3ones:after {
+.qs-3ones:after {
   content: "\E90E \E90E \E90E";
 }
 

@@ -20,6 +20,10 @@ Roleplaying Circumstance
 :   Usually added by a race, perk or flaws. Roleplaying circumstances include
 prejudice, others liking or disliking you, being a known criminal, etc.
 
+*Roll*{.qs-one}
+:   This indicates, that a die on a check is a **1**. The number of dice show
+the number of **1**s that have to be rolled.
+
 *Roll*{.qs-d6}
 :   This indicates, that a die on a check is a **6**. The number of dice show
 the number of **6**s that have to be rolled.
@@ -28,8 +32,8 @@ the number of **6**s that have to be rolled.
 :   This indicates, that a check was succeeded or has to be succeeded.
 
 Weight
-:   The minimum requirement for [Might](/character#might-mi). Weight exceeding a
-character's [Might](/character#might-mi) imposes penalties.
+:   The minimum requirement of [Might](/character#might-mi) to *use* items.
+Weight exceeding a character's [Might](/character#might-mi) imposes penalties.
 
 ## Abbrevations
 
