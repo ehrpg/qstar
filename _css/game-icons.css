@@ -1,10 +1,10 @@
 @font-face {
   font-family: "game-icons";
-  src: url('../fonts/game-icons.eot');
-  src: url('../fonts/game-icons.eot?#iefix') format('eot'),
-    url('../fonts/game-icons.woff') format('woff'),
-    url('../fonts/game-icons.ttf') format('truetype'),
-    url('../fonts/game-icons.svg#game-icons') format('svg');
+  src: url('../_fonts/game-icons.eot');
+  src: url('../_fonts/game-icons.eot?#iefix') format('eot'),
+    url('../_fonts/game-icons.woff') format('woff'),
+    url('../_fonts/game-icons.ttf') format('truetype'),
+    url('../_fonts/game-icons.svg#game-icons') format('svg');
 }
 
 *[class^="qs-"]:after,

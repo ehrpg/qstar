@@ -9,6 +9,12 @@ html {
   font-weight: 400;
 }
 
+h4.bold {
+  border-color: black !important;
+  border-bottom-width: 3px !important;
+  border-left-width: 2px !important;
+}
+
 /**
  * Firefox specific rule
  */
@@ -40,10 +46,10 @@ a[href*="example-"] {
 @font-face {
   font-family: 'Mainframe-Opto';
   src:
-    url('../fonts/Mainframe-Opto.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Mainframe-Opto.woff') format('woff'),
-    url('../fonts/Mainframe-Opto.ttf')  format('truetype'),
-    url('../fonts/Mainframe-Opto.svg#Mainframe-Opto') format('svg');
+    url('../_fonts/Mainframe-Opto.eot?#iefix') format('embedded-opentype'),
+    url('../_fonts/Mainframe-Opto.woff') format('woff'),
+    url('../_fonts/Mainframe-Opto.ttf')  format('truetype'),
+    url('../_fonts/Mainframe-Opto.svg#Mainframe-Opto') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -164,7 +170,16 @@ h1[id]:before {
 
   h4:not(.dt) {
     // border-top: 2px solid grey;
-    border-bottom: 2px solid grey;
+    border-bottom: 2px solid #808080;
+    border-left: 1px solid #808080;
+    border-radius: 20px 20px 0px;
+    line-height: 20px;
+    padding-bottom: 8px;
+  }
+
+  h4[id]:not(.dt):target:before {
+    margin-top: -.9rem !important;
+    padding-top: .9rem !important;
   }
   // h2 {
   //   margin: 4rem 0 1.6rem;
@@ -348,6 +363,10 @@ table thead th {
 }
 
 @media only screen and (min-width: 50em)  {
+  div.qs-list-test.full-width {
+    column-count: 1 !important;
+  }
+
   div.qs-list-test {
     column-count: 2;
     column-gap: 25px;
