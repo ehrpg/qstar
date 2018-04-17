@@ -28,9 +28,6 @@ inside books can be done without a skill check given enough time.
 |                7 | Very Hard   |       24 | You require help from others to achieve this.                    |
 |                8 | Impossible  |       27 | A once in a lifetime achievement.                                |
 
-!!! tip "Difficulty Levels"
-    A difficulty level basically adds a +3 bonus or a -3 penalty to a check.
-
 ### Difficulty Modifier
 
 Certain circumstances modify the difficulty level, either positively or
@@ -43,6 +40,9 @@ in any direction.
 |--------------------------|----------------:|-------------------------------------------|
 | Asset                    |              -1 | Having the correct tools at hand.         |
 | Unfavorable Circumstance |              +1 | E.g. climbing a cliff while it's raining. |
+
+!!! tip "Difficulty Modifier"
+    A difficulty modifier basically adds a +3 bonus or a -3 penalty to a check.
 
 ## Turn Order
 
@@ -290,5 +290,5 @@ heals that amount additionally that single day, given they can take a rest.
 !!! summary "Healing"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Base">1 per day</span> +
-        <span data-bracket-top="X - Difficulty Level">X per day</span>
+        <span data-bracket-top="X = Difficulty Level">X per day</span>
     </div>
