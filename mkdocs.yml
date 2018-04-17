@@ -30,13 +30,13 @@ theme:
         icon: "\u269D"
 
 extra_css:
-    - css/extra.css
-    - css/font-awesome.min.css
-    - css/ehicons.css
-    - css/game-icons.css
+    - _css/extra.css
+    - _css/font-awesome.min.css
+    - _css/ehicons.css
+    - _css/game-icons.css
 extra_javascript:
-    - js/sorttable.js
-    - js/extra.js
+    - _js/sorttable.js
+    - _js/extra.js
 
 markdown_extensions:
     - pymdownx.details
@@ -59,16 +59,20 @@ pages:
         - Quick Start Rules: 'quick-start.md'
         # - notes: 'notes.md'
 
-        - Character:
-            - Character Creation: 'character-creation.md'
+        - Characters:
 
-            - Races: 'character/races.md'
             - Character: 'character/index.md'
+            - Races: 'character/races.md'
             - Skills: 'character/skills.md'
             - Perks: 'character/perks.md'
             - Flaws: 'character/flaws.md'
             - Traits: 'character/traits.md'
             - Equipment: 'character/equipment.md'
+            - Character Creation: 'character-creation.md'
+
+
+        - NPCs:
+            - NPC: 'npc/index.md'
 
         - Crisis: 'crisis.md'
         - Stunts: 'stunts.md'

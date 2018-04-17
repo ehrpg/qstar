@@ -1,18 +1,3 @@
-## Glossary
-
-Action point
-:   Does stuff
-
-Base
-:   A base value that's used for rolls or to determine values. It's the same for
-all characters and creatures.
-
-Roleplaying circumstance
-:   Does different stuff.
-:   Does different stuff.
-
-
-
 ## Character
 
 Moved to [Character](/character).
@@ -110,11 +95,11 @@ Modifiers from the vessel's primary stats are added to the character's
 
 ### Weapon slots
 
-Underbarrel
-Scope
-Stock
-Barrel
-Ammunition
+* Underbarrel
+* Scope
+* Stock
+* Barrel
+* Ammunition
 
 ### Weapon modifications
 
@@ -149,9 +134,33 @@ penalty, and the second one a -4 penalty.
 #### Ammunition
 
 AP Ammunition
-:   Reduces the armour's durability by another one point.
+:   Reduces the armour's durability by another point.
 
 HP Ammunition
 :   Deals double the amount of [Endurance](/character#endurance-ep) damage to a
 target, provided it's not wearing any armour that provides DR and has durability
 left.
+
+
+## Tasks
+
+### Difficulty
+
+| Difficulty Level | Name        | Target # | Description |
+|-----------------:|-------------|---------:|-------------|
+|                0 | Mundane     |        3 |             |
+|                1 | Simple      |        6 |             |
+|                2 | Easy        |        9 |             |
+|                3 | Demanding   |       12 |             |
+|                4 | Normal      |       15 |             |
+|                5 | Challenging |       18 |             |
+|                6 | Hard        |       21 |             |
+|                7 | Very Hard   |       24 |             |
+|                8 | Impossible  |       27 |             |
+
+#### Difficulty Modifier
+
+| Name                     | Diffculty Level | Description                               |
+|--------------------------|----------------:|-------------------------------------------|
+| Asset                    |              -1 | Having the correct tools at hand.         |
+| Unfavorable Circumstance |              +1 | E.g. climbing a cliff while it's raining. |

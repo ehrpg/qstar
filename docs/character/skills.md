@@ -5,8 +5,8 @@
 A character can only have skills at rank [Skill -
 Superb](/character/skills/#skills) up to his
 [Intelligence](/character/#intelligence-in) ability modifier. If the
-[Intelligence](/character/#intelligence-in) is less than 0, the character can have
-no rank [Skill - Superb](/character/skills/#skills) skills.
+[Intelligence](/character/#intelligence-in) is less than 0, the character can
+have no rank [Skill - Superb](/character/skills/#skills) skills.
 
 |    # | Skill Rank | Skill Modifier | Downtime cost |
 |-----:|------------|---------------:|--------------:|
@@ -37,6 +37,11 @@ effected by noticeable outside factors, the character has to roll a skill check.
     </div>
 
 </blockquote>
+
+### Skill difficulty
+
+Skill checks have to be equal or higher to the **Target #** specified by its
+[Difficulty](/crisis#difficulty), in order to succeed.
 
 ### Skill Ranks and Ability Damage
 
@@ -91,7 +96,7 @@ This skill is used when using melee weapons or defending against a melee attack.
 
 This skill is opposed by the character's defensive value.
 
-#### Heavy Weapons
+#### Heavy Weapons {.bold}
 
 This skill is used when using heavy weapons such as rocket launchers, vehicle
 mounted machine guns, or firing any vessel's weapons.
@@ -118,7 +123,7 @@ This skill is used to hide from others, sneak around, lockpicking, etc.
 
 It's opposed by the [Perception](#perception) skill.
 
-#### Operate
+#### Operate {.bold}
 
 This skill is used for piloting or steering a vessel and remote controlling
 drones.
@@ -150,7 +155,7 @@ Choose two fields instead of one when training this skill the first time.
 Improving any of these two fields also improves the other one you chose.
 Additional fields can be trained following normal skill learning rules.
 
-#### Engineering
+#### Engineering {.bold}
 
 This skill is used for repairing mechanical or electronical motors, operate
 advanced machinery, etc.
@@ -176,7 +181,7 @@ determine if someone is lying or being nervous while talking.
 This skill is used to non-verbally communicate with party members in combat,
 tactically breach into buildings or rooms, etc.
 
-#### Command
+#### Command {.bold}
 
 This skill is used to command crews, give orders on a vessel, lead others, etc.
 

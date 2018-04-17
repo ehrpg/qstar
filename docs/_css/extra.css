@@ -195,41 +195,6 @@ h5 > a:after {
   content: "\E6CC";
 }
 
-*:not(.md-search-result__item) > a[href$="#dmg-damage"]:after,
-*:not(.md-search-result__item) > a[href$="#damage"]:after {
-  content: "\E1E8";
-}
-
-*:not(.md-search-result__item) > a[href*="#crit-critical"]:after,
-*:not(.md-search-result__item) > a[href*="#critical-damage"]:after {
-  content: "\E5E2";
-}
-
-*:not(.md-search-result__item) > h3#damage-reduction:after,
-*:not(.md-search-result__item) > a[href*="#DR"]:after,
-*:not(.md-search-result__item) > a[href*="#damage-reduction"]:after {
-  content: "\E023";
-}
-
-*:not(.md-search-result__item) > h4#hit,
-*:not(.md-search-result__item) > a[href*="#hit"]:after,
-*:not(.md-search-result__item) > a[href*="#attack"]:after {
-  content: "\E8AA";
-}
-
-*:not(.md-search-result__item) > a[href*="#rof"]:after,
-*:not(.md-search-result__item) > a[href*="rof#stats"]:after {
-  content: "\E1DA";
-}
-
-*:not(.md-search-result__item) > a[href*="#cap-capacity"]:after {
-  content: "\E1B6";
-}
-
-*:not(.md-search-result__item) > a[href*="reload#stats"]:after {
-  content: "\E094";
-}
-
 *:not(.md-search-result__item) > *#abilities:after,
 *:not(.md-search-result__item) > a[href*="#abilities"]:after {
   content: "\E6C0";
@@ -240,15 +205,6 @@ h5 > a:after {
 *:not(.md-search-result__item) > *#skill-ranks:after,
 *:not(.md-search-result__item) > a[href*="#skill-ranks"]:after {
   content: "\E71A";
-}
-
-*:not(.md-search-result__item) > a[href^="./equipment"]:after {
-  content: "\E77F";
-}
-
-*:not(.md-search-result__item) > *#armour:after,
-*:not(.md-search-result__item) > a[href*="#armour"]:after {
-  content: "\EA22";
 }
 
 *:not(.md-search-result__item) > *#turn-order:after,
@@ -274,6 +230,12 @@ h5 > a:after {
 *:not(.md-search-result__item) > *#technology-tech:after,
 *:not(.md-search-result__item) > a[href*="#technology"]:after {
   content: "\EB3B";
+}
+
+*:not(.md-search-result__item) > *#credits:after,
+*:not(.md-search-result__item) > a[href*="#credits"]:after {
+  font-style: normal;
+  content: "\FFE0";
 }
 
 *:not(.md-search-result__item) > .qs-cr {
@@ -484,6 +446,12 @@ html {
   font-weight: 400;
 }
 
+h4.bold {
+  border-color: black !important;
+  border-bottom-width: 3px !important;
+  border-left-width: 2px !important;
+}
+
 /**
  * Firefox specific rule
  */
@@ -513,7 +481,7 @@ a[href*="example-"] {
 
 @font-face {
   font-family: 'Mainframe-Opto';
-  src: url("../fonts/Mainframe-Opto.eot?#iefix") format("embedded-opentype"), url("../fonts/Mainframe-Opto.woff") format("woff"), url("../fonts/Mainframe-Opto.ttf") format("truetype"), url("../fonts/Mainframe-Opto.svg#Mainframe-Opto") format("svg");
+  src: url("../_fonts/Mainframe-Opto.eot?#iefix") format("embedded-opentype"), url("../_fonts/Mainframe-Opto.woff") format("woff"), url("../_fonts/Mainframe-Opto.ttf") format("truetype"), url("../_fonts/Mainframe-Opto.svg#Mainframe-Opto") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -617,7 +585,16 @@ h1[id]:before {
 }
 
 .md-typeset:not(.md-search-result__item) h4:not(.dt) {
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid #808080;
+  border-left: 1px solid #808080;
+  border-radius: 20px 20px 0px;
+  line-height: 20px;
+  padding-bottom: 8px;
+}
+
+.md-typeset:not(.md-search-result__item) h4[id]:not(.dt):target:before {
+  margin-top: -.9rem !important;
+  padding-top: .9rem !important;
 }
 
 .md-typeset:not(.md-search-result__item) ul {
@@ -774,6 +751,9 @@ table thead th:hover {
 }
 
 @media only screen and (min-width: 50em) {
+  div.qs-list-test.full-width {
+    column-count: 1 !important;
+  }
   div.qs-list-test {
     column-count: 2;
     column-gap: 25px;

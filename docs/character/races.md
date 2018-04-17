@@ -31,15 +31,22 @@ Below is a list of possible races, provided by the Q* RPG system.
     races. Neither the system nor characters are limited to these races: if you
     require different races to suite your needs, then add them to your game.
 
-### Human
+<div class="qs-list-test full-width" markdown="1">
+
+##### Human
 
 Humans are a versatile race.
 
-* [Perks](/character/perks#perks)
+[Perks](/character/perks#perks)
 :   -
 
-* [Flaws](/character/flaws#flaws)
+[Flaws](/character/flaws#flaws)
 :   -
 
-* [Downtime](/character#downtime-dt)
+[Downtime](/character#downtime-dt)
 :   20
+
+[Credits](/character/equipment#credits)
+:   10 000
+
+</div>

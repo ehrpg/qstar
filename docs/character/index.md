@@ -14,7 +14,6 @@ A character is defined by:
 * traits, such as perks and flaws.
 
 ## Race
-
 See [Races](/character/races).
 
 ## Abilities
@@ -79,6 +78,60 @@ related to knowing things.
 and his ability to lead.
 
 Charisma is mostly used in social interactions between characters and NPCs.
+
+</div>
+<div class="clearfix"></div>
+
+## Pools
+
+> Each creature has [Health](/character/#health-hp) and
+> [Endurance](/character/#endurance-ep) pools. A robot is defined as a
+> character, but instead of [Health](/character/#health-hp) and
+> [Endurance](/character/#endurance-ep) has the pools
+> [Integrity](/character/#health-hp) and [Power](/character/#endurance-ep),
+> acting just the same.
+
+[Endurance](/character/#endurance-ep) serves as an easily replenishable pool that's
+usually targetted by damage first. Once depleted, the health pool is targetted.
+[Health](/character/#health-hp) is very hard to replenish.
+
+<div class="left" markdown="1">
+
+### Health (HP)
+
+> [Health](/character/#health-hp) represents the character's overall condition.
+
+If [Health](/character/#health-hp) drops to zero, the character dies. A GM may
+even reduce certain values of the character such as abilities when a lot of
+[Health](/character/#health-hp) is lost. Also, a GM may give the character a
+flaw if damaged badly, e.g. when losing an eye.
+
+!!! summary "Maximum [Health](/character/#health-hp)"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Base">40</span> ±
+        <span data-bracket-top="Ability Modifier">Might</span> x
+        <span data-bracket-bottom="Base">5</span> ±
+        <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
+    </div>
+
+</div>
+<div class="right" markdown="1">
+
+### Endurance (EP)
+
+> [Endurance](/character/#endurance-ep) represents the character's power.
+
+Damage from weapons, other characters, environments and certain actions such as
+sprinting cause stress on a character and reduce his
+[Endurance](/character/#endurance-ep).
+
+!!! summary "Maximum [Endurance](/character/#endurance-ep)"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Base">100</span> ±
+        <span data-bracket-top="Ability Modifier">Might</span> x
+        <span data-bracket-bottom="Base">10</span> ±
+        <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
+    </div>
 
 </div>
 <div class="clearfix"></div>
@@ -229,60 +282,6 @@ adaptable.
 <blockquote class="important" markdown="1">
 Every character has 0 XP upon creation.
 </blockquote>
-
-## Pools
-
-> Each creature has [Health](/character/#health-hp) and
-> [Endurance](/character/#endurance-ep) pools. A robot is defined as a
-> character, but instead of [Health](/character/#health-hp) and
-> [Endurance](/character/#endurance-ep) has the pools
-> [Integrity](/character/#health-hp) and [Power](/character/#endurance-ep),
-> acting just the same.
-
-[Endurance](/character/#endurance-ep) serves as an easily replenishable pool that's
-usually targetted by damage first. Once depleted, the health pool is targetted.
-[Health](/character/#health-hp) is very hard to replenish.
-
-<div class="left" markdown="1">
-
-### Health (HP)
-
-> [Health](/character/#health-hp) represents the character's overall condition.
-
-If [Health](/character/#health-hp) drops to zero, the character dies. A GM may
-even reduce certain values of the character such as abilities when a lot of
-[Health](/character/#health-hp) is lost. Also, a GM may give the character a
-flaw if damaged badly, e.g. when losing an eye.
-
-!!! summary "Maximum [Health](/character/#health-hp)"
-    <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">40</span> ±
-        <span data-bracket-top="Ability Modifier">Might</span> x
-        <span data-bracket-bottom="Base">5</span> ±
-        <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
-    </div>
-
-</div>
-<div class="right" markdown="1">
-
-### Endurance (EP)
-
-> [Endurance](/character/#endurance-ep) represents the character's power.
-
-Damage from weapons, other characters, environments and certain actions such as
-sprinting cause stress on a character and reduce his
-[Endurance](/character/#endurance-ep).
-
-!!! summary "Maximum [Endurance](/character/#endurance-ep)"
-    <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">100</span> ±
-        <span data-bracket-top="Ability Modifier">Might</span> x
-        <span data-bracket-bottom="Base">10</span> ±
-        <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
-    </div>
-
-</div>
-<div class="clearfix"></div>
 
 ## Skills
 

@@ -50,6 +50,17 @@ IN
 CH
 :   [Charisma](/character#charisma-ch)
 
+* Character
+
+XP
+:   [Experience](/character#experience-xp)
+
+EP
+:   [Endurance points](/character#endurance-ep)
+
+HP
+:   [Health points](/character#health-hp)
+
 * Currency
 
 DT
@@ -64,17 +75,6 @@ RES
 TECH
 :   [Technology](/character#technology-tech)
 
-* Character
-
-XP
-:   [Experience](/character#experience-xp)
-
-EP
-:   [Endurance points](/character#endurance-ep)
-
-HP
-:   [Health points](/character#health-hp)
-
 <div class="col-layout-end"></div>
 <div class="col-layout-start"></div>
 
@@ -82,9 +82,6 @@ HP
 
 CR
 :   [Credits](/character/equipment#credits)
-
-DR
-:   [Damage Reduction](/character/equipment/#armour)
 
 HIT
 :   [Hit bonus](/character/equipment/#weapons)
@@ -118,62 +115,31 @@ AP
 <div class="col-layout-end clearfix"></div>
 </div>
 
-# Combat
-## Turn Order
-## Attack
-  - Damage
-  - Critical Hit
-  - Critical Damage
-## Defence
-  - Cover
-## Healing
-## Surprise round
-  - 1 Action extra before combat starts
+## Mechanics
 
-## Conditions
-- Dead
-    - dead :(
-- Impaired
-    - e.g. drunk: unable to move, -2 to checks, etc.
-- Incapacitated
-    - unable to act or interact
-- In cover
-    - +X Defence, no armour hitpoints lost on hit
-- Prone
-    - +2 ranged attack, no bonuses to melee checks
-- Stunned
-    - -5 all checks
+### Rolls & Checks
 
-## Actions
+Whenever someone has to roll or make a check, you roll **3d6** and add any
+bonuses or subtract any penalties from it.
 
-### Tactical
-- Attack
-    - Use your weapon, with `RoF - 1` optional extra dice
-- Shoot while Moving
-    - Use your weapon once that round, no RoF allowed
-- Overwatch
-    - 2 Actions, shoot once at any target leaving its cover
-- Take Aim
-    - 2 Actions, lowest 1d6 -> 6, stacks, target moving resets
-    - next round: resolve attack or *take aim* again
+### Fractions
 
-### Movement
-- Kneel Down
-    - 1 Action, +1 ranged attack
-- Move
-    - 1 Action, move some distance
-- Prone
-    - 1 Action to lie down, 2 Actions to get up, +2 ranged attack
-- Take Cover
-    - Usually part of move action, 1 Action otherwise
-- Use Item
-    - variable, defined by item, 1 Action otherwise
-- Use Skill
-    - variable, defined by skill use, 1 Action otherwise
+All fractions are **always** rounded down.
 
-### Free Actions
-- quick actions that don't take (a lot of) time
-    - 0 Actions
+### Negative Values
 
-### Reaction
-- Speed check vs DC 12 +- bonuses/penalties
+Some pools cannot be negative, e.g. [Resources](/character#resources-res),
+[Endurance](/character#endurance) or [Health](/character#health). If such a
+value where to drop to below 0, it either prohibits certain actions, it has
+consequences or it's simply ignored and the value set to 0.
+
+### Difficulty Level
+
+NPCs are abstracted by a [Difficulty Level](/crisis#difficulty).
+
+Some conditions, that are also used by player characters, may provide a positive
+or negative modifier to the [Difficulty Level](/crisis#difficulty). If a value
+is effected by a difficulty modifier, but the effected value requires a roll,
+e.g. a player character's [Defence](/crisis#defence), the modifier simply adds a
+bonus or penalty to the check. A difficulty modifier of `+1` adds a `+3` bonus,
+and a difficulty modifier of `-1` adds a `-3` penalty.
