@@ -114,3 +114,21 @@ AP
 
 <div class="col-layout-end clearfix"></div>
 </div>
+
+## Mechanics
+
+### Rolls & Checks
+
+Whenever someone has to roll or make a check, you roll **3d6** and add any
+bonuses or subtract any penalties from it.
+
+### Fractions
+
+All fractions are **always** rounded down.
+
+### Negative Values
+
+Some pools cannot be negative, e.g. [Resources](/character#resources-res),
+[Endurance](/character#endurance) or [Health](/character#health). If such a
+value where to drop to below 0, it either prohibits certain actions, it has
+consequences or it's simply ignored and the value set to 0.

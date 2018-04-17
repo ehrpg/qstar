@@ -16,15 +16,32 @@ is.
 
 ## Abilities & Skills
 
-An NPC can make an [Ability](/character#abilities) or [Skill](/skills#skills)
-check with its [Difficulty Level](/crisis#difficulty) as modifier.
+An NPC can make all [Ability](/character#abilities) or [Skill](/skills#skills)
+checks with its [Difficulty Level](/crisis#difficulty) divided by 2 as a
+modifier.
 
 !!! summary "[Ability](/character#abilities) and [Skill](/skills#skills) checks"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Base">3d6</span> +
-        <span data-bracket-top="Base">Difficulty Level</span> +
+        <span data-bracket-top="Base">Difficulty Level / 2</span> +
         <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
     </div>
+
+### Specialized NPCs
+
+Specialized NPCs receive their full [Difficulty Level](/crisis#difficulty) on a
+set amount of [Skills](/skills#skills). All other skills do not gain a bonus
+from [Difficulty Level](/crisis#difficulty). The formular below shows how many
+specialized [Skills](/skills#skills) a specialized NPC has.
+
+!!! summary "Specialized NPCs and [Skills](/skills#skills)"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Base">1</span> +
+        <span data-bracket-top="Base">Difficulty Level / 2</span> +
+        <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
+    </div>
+
+[Abilities](/character#abilities) are not effected by this.
 
 ## Defence
 

@@ -28,6 +28,9 @@ inside books can be done without a skill check given enough time.
 |                7 | Very Hard   |       24 | You require help from others to achieve this.                    |
 |                8 | Impossible  |       27 | A once in a lifetime achievement.                                |
 
+!!! tip "Difficulty Levels"
+    A difficulty level basically adds a +3 bonus or a -3 penalty to a check.
+
 ### Difficulty Modifier
 
 Certain circumstances modify the difficulty level, either positively or
