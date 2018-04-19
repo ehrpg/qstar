@@ -44,8 +44,8 @@ trade some of his [Downtime](/character#downtime-dt) for
 ## Buying / Reducing Downtime
 
 [Downtime](#downtime-dt) cost can be reduced for improvements by spending
-[Credits](/equipment#credits). The [Downtime](#downtime-dt) cost can never be lower
-than 1.
+[Credits](/equipment#credits). The [Downtime](#downtime-dt) cost can never be
+lower than 1.
 
 In addition to [Credits](/equipment#credits) cost, lowering the
 [Downtime](/character#downtime-dt) can also require additional circumstances, such

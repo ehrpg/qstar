@@ -8,15 +8,15 @@ Superb](/character/skills/#skills) up to his
 [Intelligence](/character/#intelligence-in) is less than 0, the character can
 have no rank [Skill - Superb](/character/skills/#skills) skills.
 
-|    # | Skill Rank | Skill Modifier | Downtime cost |
-|-----:|------------|---------------:|--------------:|
-|    1 | Terrible   |             -3 |        -4 (0) |
-|    2 | Poor       |             -2 |        -2 (2) |
-|    3 | Mediocre   |             -1 |        -1 (3) |
-|    4 | Fair       |              0 |         0 (4) |
-|    5 | Good       |             +1 |         1 (5) |
-|    6 | Great      |             +2 |         2 (6) |
-|    7 | Superb     |             +3 |         4 (8) |
+|    # | Skill Rank | Skill Modifier | Downtime cost | ∑ Downtime cost |
+|-----:|------------|---------------:|--------------:|----------------:|
+|    1 | Terrible   |             -3 |             0 |               0 |
+|    2 | Poor       |             -2 |             1 |               1 |
+|    3 | Mediocre   |             -1 |             1 |               2 |
+|    4 | Fair       |              0 |             2 |               4 |
+|    5 | Good       |             +1 |             2 |               6 |
+|    6 | Great      |             +2 |             3 |               9 |
+|    7 | Superb     |             +3 |             3 |              12 |
 
 !!! summary "Maximum [Skill - Superb](/character/skills/#skills) rank skills"
     <div class="formula formula-top formula-bottom">

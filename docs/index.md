@@ -126,11 +126,13 @@ AP
 Whenever someone has to roll or make a check, you roll **3d6** and add any
 bonuses or subtract any penalties from it.
 
-### Fractions
+### Results
+
+#### Fractions
 
 All fractions are **always** rounded down.
 
-### Negative Values
+#### Negative Values
 
 Some pools cannot be negative, e.g. [Resources](/character#resources-res),
 [Endurance](/character#endurance) or [Health](/character#health). If such a
@@ -139,7 +141,16 @@ consequences or it's simply ignored and the value set to 0.
 
 ### Difficulty Level
 
-NPCs are abstracted by a [Difficulty Level](/crisis#difficulty).
+Every roll or check has to beat a set [Difficulty Level](/crisis#difficulty) in
+order to be successful. The [Difficulty Level](/crisis#difficulty) is influenced
+by circumstances, increasing or decreasing the difficulty.
+
+*Contests* don't use [Difficulty Levels](/crisis#difficulty). *Contests* are
+used, when both parties are *active* (rather than one party being *passive*) and
+have to make a check and compare the results to see who is successful.
+
+NPCs are abstracted by a [Difficulty Level](/crisis#difficulty), and use this
+level for almost all checks, stats, etc.
 
 Some conditions, that are also used by player characters, may provide a positive
 or negative modifier to the [Difficulty Level](/crisis#difficulty). If a value
@@ -147,3 +158,22 @@ is effected by a difficulty modifier, but the effected value requires a roll,
 e.g. a player character's [Defence](/crisis#defence), the modifier simply adds a
 bonus or penalty to the check. A difficulty modifier of `+1` adds a `+3` bonus,
 and a difficulty modifier of `-1` adds a `-3` penalty.
+
+#### Difficulty Modifier
+
+A [Difficulty Level](/crisis#difficulty) can **never** shift more than 2 levels
+in any direction.
+
+If a creative idea of a player would accomplish the same task and leaves little
+to no room of error, then the GM *can* decide what to do. Here are some ideas:
+
+* accept the creative solution as is,
+* require the character to roll if he would come up with the idea himself,
+* require the character to roll to see *how well* the solution is executed,
+* etc.
+
+#### Contests
+
+When two parties enter a *contest*, they both have to roll on a skill or stat.
+E.g. a sneaking character has to roll *Stealth*, while a guard would roll on
+*Perception*.
