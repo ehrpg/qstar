@@ -10,13 +10,13 @@ have no rank [Skill - Superb](/character/skills/#skills) skills.
 
 |    # | Skill Rank | Skill Modifier | Downtime cost | ∑ Downtime cost |
 |-----:|------------|---------------:|--------------:|----------------:|
-|    1 | Terrible   |             -3 |             0 |               0 |
-|    2 | Poor       |             -2 |             1 |               1 |
-|    3 | Mediocre   |             -1 |             1 |               2 |
-|    4 | Fair       |              0 |             2 |               4 |
-|    5 | Good       |             +1 |             2 |               6 |
-|    6 | Great      |             +2 |             3 |               9 |
-|    7 | Superb     |             +3 |             3 |              12 |
+|    0 | Terrible   |             -3 |             0 |               0 |
+|    1 | Poor       |             -2 |             1 |               1 |
+|    2 | Mediocre   |             -1 |             1 |               2 |
+|    3 | Fair       |              0 |             2 |               4 |
+|    4 | Good       |             +1 |             2 |               6 |
+|    5 | Great      |             +2 |             3 |               9 |
+|    6 | Superb     |             +3 |             3 |              12 |
 
 !!! summary "Maximum [Skill - Superb](/character/skills/#skills) rank skills"
     <div class="formula formula-top formula-bottom">

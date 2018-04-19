@@ -26,13 +26,13 @@ corresponding to the ability.
 
 |    # | Ability Rank | Ability Modifier | Downtime cost | ∑ Downtime cost |
 |-----:|--------------|-----------------:|--------------:|----------------:|
-|    1 | Terrible     |               -3 |             0 |               0 |
-|    2 | Poor         |               -2 |             4 |               4 |
-|    3 | Mediocre     |               -1 |             2 |               6 |
-|    4 | Fair         |                0 |             2 |               8 |
-|    5 | Good         |               +1 |             2 |              10 |
-|    6 | Great        |               +2 |             4 |              14 |
-|    7 | Superb       |               +3 |             8 |              22 |
+|    0 | Terrible     |               -3 |             0 |               0 |
+|    1 | Poor         |               -2 |             4 |               4 |
+|    2 | Mediocre     |               -1 |             2 |               6 |
+|    3 | Fair         |                0 |             2 |               8 |
+|    4 | Good         |               +1 |             2 |              10 |
+|    5 | Great        |               +2 |             4 |              14 |
+|    6 | Superb       |               +3 |             8 |              22 |
 
 <blockquote class="important" markdown="1">
 If an ability were to drop below [Ability - Terrible](#abilities) the
