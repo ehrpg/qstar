@@ -27,12 +27,12 @@ corresponding to the ability.
 |    # | Ability Rank | Ability Modifier | Downtime cost | ∑ Downtime cost |
 |-----:|--------------|-----------------:|--------------:|----------------:|
 |    1 | Terrible     |               -3 |             0 |               0 |
-|    2 | Poor         |               -2 |             1 |               1 |
-|    3 | Mediocre     |               -1 |             1 |               2 |
-|    4 | Fair         |                0 |             2 |               4 |
-|    5 | Good         |               +1 |             3 |               7 |
-|    6 | Great        |               +2 |             5 |              12 |
-|    7 | Superb       |               +3 |             8 |              20 |
+|    2 | Poor         |               -2 |             4 |               4 |
+|    3 | Mediocre     |               -1 |             2 |               6 |
+|    4 | Fair         |                0 |             2 |               8 |
+|    5 | Good         |               +1 |             2 |              10 |
+|    6 | Great        |               +2 |             4 |              14 |
+|    7 | Superb       |               +3 |             8 |              22 |
 
 <blockquote class="important" markdown="1">
 If an ability were to drop below [Ability - Terrible](#abilities) the
@@ -135,6 +135,48 @@ sprinting cause stress on a character and reduce his
 
 </div>
 <div class="clearfix"></div>
+
+## Experience (XP)
+
+> Experience is gained throughout a character's adventuring career.
+
+Experience (XP) is gained due to noteable achievements or story completions. XP
+usually is only given out one at a time. The GM can decide to give out more for
+completing a longer adventure.
+
+XP improves the maximum values of your currencies. This does not necessarily
+make your character stronger, but make the character more resourceful and
+adaptable.
+
+<blockquote class="important" markdown="1">
+Every character has 0 XP upon creation.
+</blockquote>
+
+### Fate
+
+> A character can change the course of action and his fate.
+
+Every character has the same amount of fate rolls available as he has
+[Experience](/character#experience-xp). A fate roll allows a character to
+*re-roll* the entire check (all 3d6). Using a fate roll reduces the amount of
+fate rolls a character has, but not his [Experience](/character#experience-xp).
+Fate cannot be restored.
+
+!!! example "Fate, Experience, and changing Fate"
+    Jack has 3 [Experience](/character#experience-xp), but only 2
+    [Fate](/character#fate) left, since he already spent one fate roll some time
+    ago.
+
+    He is piloting a space craft through an asteroid field mid-combat. Failing
+    the Skill check for Operate would result in death. He messes up his check,
+    and decides to use one of his remaining 2 [Fate](/character#fate) rolls. He
+    re-rolls the entire Operate check, rolls something better and now succeeds.
+    Now there is only 1 [Fate](/character#fate) left. If he gained
+    [Experience](/character#experience-xp), he'd now have 4
+    [Experience](/character#experience-xp), and 2 [Fate](/character#fate).
+
+Fate is to help powerful character survive moments that are subject to a lot of
+chance. But at the same time, it's not an ex machina.
 
 ## Currency
 
@@ -266,22 +308,6 @@ Unlocking upgrades enables the acquisition of better equipment and vessels.
 
 </div>
 <div class="clearfix"></div>
-
-## Experience (XP)
-
-> Experience is gained throughout a character's adventuring career.
-
-Experience (XP) is gained due to noteable achievements or story completions. XP
-usually is only given out one at a time. The GM can decide to give out more for
-completing a longer adventure.
-
-XP improves the maximum values of your currencies. This does not necessarily
-make your character stronger, but make the character more resourceful and
-adaptable.
-
-<blockquote class="important" markdown="1">
-Every character has 0 XP upon creation.
-</blockquote>
 
 ## Skills
 
