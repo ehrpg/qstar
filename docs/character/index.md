@@ -175,8 +175,14 @@ Fate cannot be restored.
     [Experience](/character#experience-xp), he'd now have 4
     [Experience](/character#experience-xp), and 2 [Fate](/character#fate).
 
-Fate is to help powerful character survive moments that are subject to a lot of
-chance. But at the same time, it's not an ex machina.
+Fate helps powerful characters to get a better outcome when faced with dire
+consequences, but only a **limited** number of times.
+
+!!! summary "Fate rolls available"
+    <div class="formula formula-top formula-bottom">
+      <span data-bracket-bottom="XP">Experience</span> -
+      <span data-bracket-top="already spent">Fate</span>
+    </div>
 
 ## Currency
 
@@ -223,7 +229,7 @@ used. This DC *may* be lowered or increased depending on the situation.
 
 !!! summary "Maximum [Downtime](#downtime-dt)"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-top="Base">10</span>
+      <span data-bracket-bottom="Base">10</span>
     </div>
 
 </div>
