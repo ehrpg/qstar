@@ -59,6 +59,9 @@ CH
 XP
 :   [Experience](/character#experience-xp)
 
+LVL
+:   [Level](/character#level-lvl)
+
 EP
 :   [Endurance points](/character#endurance-ep)
 
