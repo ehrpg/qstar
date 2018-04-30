@@ -35,7 +35,7 @@ Weight
 :   The minimum requirement of [Might](/character#might-mi) to *use* items.
 Weight exceeding a character's [Might](/character#might-mi) imposes penalties.
 
-## Abbrevations
+## Abbreviations
 
 <div class="dl-horizontal" markdown="1">
 <div class="col-layout-start"></div>
