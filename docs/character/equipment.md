@@ -138,7 +138,7 @@ otherwise noted.
 
 * **RoF** indicates how many shots can be fired with each attack. A **RoF**
   value higher than 1 allows multiple shots to be fired. Each multiple shot adds
-  1d6 to the attack.
+  1d6 to the attack, and the chance to score additional critical hits.
 
 * **REL** indicates how much AP it takes to reload the weapon.
 
