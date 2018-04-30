@@ -473,6 +473,33 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#experience-xp" title="Experience (XP)" class="md-nav__link">
+    Experience (XP)
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#level-lvl" title="Level (LVL)" class="md-nav__link">
+    Level (LVL)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fate" title="Fate" class="md-nav__link">
+    Fate
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#currency" title="Currency" class="md-nav__link">
     Currency
   </a>
@@ -510,13 +537,6 @@
         
       </ul>
     </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#experience-xp" title="Experience (XP)" class="md-nav__link">
-    Experience (XP)
-  </a>
   
 </li>
         
@@ -971,6 +991,33 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#experience-xp" title="Experience (XP)" class="md-nav__link">
+    Experience (XP)
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#level-lvl" title="Level (LVL)" class="md-nav__link">
+    Level (LVL)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fate" title="Fate" class="md-nav__link">
+    Fate
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#currency" title="Currency" class="md-nav__link">
     Currency
   </a>
@@ -1008,13 +1055,6 @@
         
       </ul>
     </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#experience-xp" title="Experience (XP)" class="md-nav__link">
-    Experience (XP)
-  </a>
   
 </li>
         
@@ -1079,7 +1119,7 @@ following rules.</p>
 <h2 id="race">Race<a class="headerlink" href="#race" title="Permanent link">&para;</a></h2>
 <p>See <a href="../character/races">Races</a>.</p>
 <h2 id="abilities">Abilities<a class="headerlink" href="#abilities" title="Permanent link">&para;</a></h2>
-<p>Abilities are <em>mostly fixed</em> values every creature h    as. They are only modified
+<p>Abilities are <em>mostly fixed</em> values every creature has. They are only modified
 by <em>certain events</em> while adventuring.</p>
 <p>Good or bad abilities also add bonuses or impose penalties on skill checks
 corresponding to the ability.</p>
@@ -1087,53 +1127,61 @@ corresponding to the ability.</p>
 <thead>
 <tr>
 <th align="right">#</th>
-<th>Ability Rank</th>
-<th align="right">Ability Modifier</th>
+<th>Rank</th>
+<th align="right">Modifier</th>
 <th align="right">Downtime cost</th>
+<th align="right">∑ Downtime cost</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="right">1</td>
+<td align="right">0</td>
 <td>Terrible</td>
 <td align="right">-3</td>
-<td align="right">-6 (0)</td>
+<td align="right">0</td>
+<td align="right">0</td>
+</tr>
+<tr>
+<td align="right">1</td>
+<td>Poor</td>
+<td align="right">-2</td>
+<td align="right">3</td>
+<td align="right">3</td>
 </tr>
 <tr>
 <td align="right">2</td>
-<td>Poor</td>
-<td align="right">-2</td>
-<td align="right">-3 (3)</td>
+<td>Mediocre</td>
+<td align="right">-1</td>
+<td align="right">2</td>
+<td align="right">5</td>
 </tr>
 <tr>
 <td align="right">3</td>
-<td>Mediocre</td>
-<td align="right">-1</td>
-<td align="right">-1 (5)</td>
+<td>Fair</td>
+<td align="right">0</td>
+<td align="right">2</td>
+<td align="right">7</td>
 </tr>
 <tr>
 <td align="right">4</td>
-<td>Fair</td>
-<td align="right">0</td>
-<td align="right">0 (6)</td>
+<td>Good</td>
+<td align="right">+1</td>
+<td align="right">2</td>
+<td align="right">9</td>
 </tr>
 <tr>
 <td align="right">5</td>
-<td>Good</td>
-<td align="right">+1</td>
-<td align="right">1 (7)</td>
+<td>Great</td>
+<td align="right">+2</td>
+<td align="right">3</td>
+<td align="right">12</td>
 </tr>
 <tr>
 <td align="right">6</td>
-<td>Great</td>
-<td align="right">+2</td>
-<td align="right">3 (9)</td>
-</tr>
-<tr>
-<td align="right">7</td>
 <td>Superb</td>
 <td align="right">+3</td>
-<td align="right">6 (12)</td>
+<td align="right">6</td>
+<td align="right">18</td>
 </tr>
 </tbody>
 </table>
@@ -1227,6 +1275,39 @@ sprinting cause stress on a character and reduce his
 </div>
 <div class="clearfix"></div>
 
+<h2 id="experience-xp">Experience (XP)<a class="headerlink" href="#experience-xp" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>Experience is gained throughout a character&rsquo;s adventuring career.</p>
+</blockquote>
+<p>Experience (XP) is gained due to noteable achievements or story completions. XP
+usually is only given out one at a time. The GM can decide to give out more for
+completing a longer adventure.</p>
+<blockquote class="important">
+<p>Every character has 0 XP upon creation.</p>
+</blockquote>
+<h3 id="level-lvl">Level (LVL)<a class="headerlink" href="#level-lvl" title="Permanent link">&para;</a></h3>
+<p>A character&rsquo;s level improves the maximum values of his currencies. This does not
+necessarily make the character stronger, but make the character more resourceful
+and adaptable.</p>
+<h3 id="fate">Fate<a class="headerlink" href="#fate" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p>A character can change the course of action and his fate.</p>
+</blockquote>
+<p>Every character has the same amount of fate rolls available as he has
+<a href="../character#experience-xp">Experience</a>. A fate roll allows a character to
+<em>re-roll</em> the entire check (all 3d6). Using a fate roll consumes one
+<a href="../character#experience-xp">Experience</a>. Using fate cannot be used if you have
+zero <a href="../character#experience-xp">Experience</a> at the moment. Also, you can&rsquo;t lose
+a level through using fate.</p>
+<p>Fate helps powerful characters to get a better outcome when faced with dire
+consequences, but comes with a cost.</p>
+<div class="admonition summary">
+<p class="admonition-title">Fate rolls available</p>
+<p><div class="formula formula-top formula-bottom">
+  <span data-bracket-bottom="XP">Experience</span> -
+  <span data-bracket-top="already spent">Fate</span>
+</div></p>
+</div>
 <h2 id="currency">Currency<a class="headerlink" href="#currency" title="Permanent link">&para;</a></h2>
 <blockquote>
 <p>Currencies abstract the resources available to a character. This is not to be
@@ -1265,7 +1346,7 @@ used. This DC <em>may</em> be lowered or increased depending on the situation.</
 <div class="admonition summary">
 <p class="admonition-title">Maximum <a href="#downtime-dt">Downtime</a></p>
 <p><div class="formula formula-top formula-bottom">
-  <span data-bracket-top="Base">10</span>
+  <span data-bracket-bottom="Base">10</span>
 </div></p>
 </div>
 </div>
@@ -1340,19 +1421,6 @@ Unlocking upgrades enables the acquisition of better equipment and vessels.</p>
 </div>
 <div class="clearfix"></div>
 
-<h2 id="experience-xp">Experience (XP)<a class="headerlink" href="#experience-xp" title="Permanent link">&para;</a></h2>
-<blockquote>
-<p>Experience is gained throughout a character&rsquo;s adventuring career.</p>
-</blockquote>
-<p>Experience (XP) is gained due to noteable achievements or story completions. XP
-usually is only given out one at a time. The GM can decide to give out more for
-completing a longer adventure.</p>
-<p>XP improves the maximum values of your currencies. This does not necessarily
-make your character stronger, but make the character more resourceful and
-adaptable.</p>
-<blockquote class="important">
-<p>Every character has 0 XP upon creation.</p>
-</blockquote>
 <h2 id="skills">Skills<a class="headerlink" href="#skills" title="Permanent link">&para;</a></h2>
 <p>See <a href="../character/skills/">Skills</a>.</p>
 <h2 id="perks">Perks<a class="headerlink" href="#perks" title="Permanent link">&para;</a></h2>

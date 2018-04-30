@@ -382,6 +382,14 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#results" title="Results" class="md-nav__link">
+    Results
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#fractions" title="Fractions" class="md-nav__link">
     Fractions
   </a>
@@ -395,10 +403,35 @@
   
 </li>
         
+      </ul>
+    </nav>
+  
+</li>
+        
           <li class="md-nav__item">
   <a href="#difficulty-level" title="Difficulty Level" class="md-nav__link">
     Difficulty Level
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#difficulty-modifier" title="Difficulty Modifier" class="md-nav__link">
+    Difficulty Modifier
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contests" title="Contests" class="md-nav__link">
+    Contests
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -834,6 +867,14 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#results" title="Results" class="md-nav__link">
+    Results
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#fractions" title="Fractions" class="md-nav__link">
     Fractions
   </a>
@@ -847,10 +888,35 @@
   
 </li>
         
+      </ul>
+    </nav>
+  
+</li>
+        
           <li class="md-nav__item">
   <a href="#difficulty-level" title="Difficulty Level" class="md-nav__link">
     Difficulty Level
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#difficulty-modifier" title="Difficulty Modifier" class="md-nav__link">
+    Difficulty Modifier
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contests" title="Contests" class="md-nav__link">
+    Contests
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -933,6 +999,8 @@ Weight exceeding a character&rsquo;s <a href="./character#might-mi">Might</a> im
 <dl>
 <dt>XP</dt>
 <dd><a href="./character#experience-xp">Experience</a></dd>
+<dt>LVL</dt>
+<dd><a href="./character#level-lvl">Level</a></dd>
 <dt>EP</dt>
 <dd><a href="./character#endurance-ep">Endurance points</a></dd>
 <dt>HP</dt>
@@ -992,21 +1060,44 @@ Weight exceeding a character&rsquo;s <a href="./character#might-mi">Might</a> im
 <h3 id="rolls-checks">Rolls &amp; Checks<a class="headerlink" href="#rolls-checks" title="Permanent link">&para;</a></h3>
 <p>Whenever someone has to roll or make a check, you roll <strong>3d6</strong> and add any
 bonuses or subtract any penalties from it.</p>
-<h3 id="fractions">Fractions<a class="headerlink" href="#fractions" title="Permanent link">&para;</a></h3>
+<h3 id="results">Results<a class="headerlink" href="#results" title="Permanent link">&para;</a></h3>
+<h4 id="fractions">Fractions<a class="headerlink" href="#fractions" title="Permanent link">&para;</a></h4>
 <p>All fractions are <strong>always</strong> rounded down.</p>
-<h3 id="negative-values">Negative Values<a class="headerlink" href="#negative-values" title="Permanent link">&para;</a></h3>
+<h4 id="negative-values">Negative Values<a class="headerlink" href="#negative-values" title="Permanent link">&para;</a></h4>
 <p>Some pools cannot be negative, e.g. <a href="./character#resources-res">Resources</a>,
 <a href="./character#endurance">Endurance</a> or <a href="./character#health">Health</a>. If such a
 value where to drop to below 0, it either prohibits certain actions, it has
 consequences or it&rsquo;s simply ignored and the value set to 0.</p>
 <h3 id="difficulty-level">Difficulty Level<a class="headerlink" href="#difficulty-level" title="Permanent link">&para;</a></h3>
-<p>NPCs are abstracted by a <a href="./crisis#difficulty">Difficulty Level</a>.</p>
+<p>Every roll or check has to beat a set <a href="./crisis#difficulty">Difficulty Level</a> in
+order to be successful. The <a href="./crisis#difficulty">Difficulty Level</a> is influenced
+by circumstances, increasing or decreasing the difficulty.</p>
+<p><em>Contests</em> don&rsquo;t use <a href="./crisis#difficulty">Difficulty Levels</a>. <em>Contests</em> are
+used, when both parties are <em>active</em> (rather than one party being <em>passive</em>) and
+have to make a check and compare the results to see who is successful.</p>
+<p>NPCs are abstracted by a <a href="./crisis#difficulty">Difficulty Level</a>, and use this
+level for almost all checks, stats, etc.</p>
 <p>Some conditions, that are also used by player characters, may provide a positive
 or negative modifier to the <a href="./crisis#difficulty">Difficulty Level</a>. If a value
 is effected by a difficulty modifier, but the effected value requires a roll,
 e.g. a player character&rsquo;s <a href="./crisis#defence">Defence</a>, the modifier simply adds a
 bonus or penalty to the check. A difficulty modifier of <code>+1</code> adds a <code>+3</code> bonus,
 and a difficulty modifier of <code>-1</code> adds a <code>-3</code> penalty.</p>
+<h4 id="difficulty-modifier">Difficulty Modifier<a class="headerlink" href="#difficulty-modifier" title="Permanent link">&para;</a></h4>
+<p>A <a href="./crisis#difficulty">Difficulty Level</a> can <strong>never</strong> shift more than 2 levels
+in any direction.</p>
+<p>If a creative idea of a player would accomplish the same task and leaves little
+to no room of error, then the GM <em>can</em> decide what to do. Here are some ideas:</p>
+<ul>
+<li>accept the creative solution as is,</li>
+<li>require the character to roll if he would come up with the idea himself,</li>
+<li>require the character to roll to see <em>how well</em> the solution is executed,</li>
+<li>etc.</li>
+</ul>
+<h4 id="contests">Contests<a class="headerlink" href="#contests" title="Permanent link">&para;</a></h4>
+<p>When two parties enter a <em>contest</em>, they both have to roll on a skill or stat.
+E.g. a sneaking character has to roll <em>Stealth</em>, while a guard would roll on
+<em>Perception</em>.</p>
                 
                   
                 
