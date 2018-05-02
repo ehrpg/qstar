@@ -171,7 +171,7 @@ NPCs have a fixed defence value (Difficulty Level) and do not have to roll.
 
 !!! summary "Defence vs melee"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">3d6</span> ±
+        <span data-bracket-bottom="Base">3d6</span>
         <span>≤</span>
         <span data-bracket-bottom="Ability Rank">Might or Speed</span> ±
         <span data-bracket-top="Skill Rank">Melee</span> +
@@ -187,7 +187,7 @@ applies if there is more than one enemy in range.
 
 !!! summary "Defence vs ranged"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">3d6</span> ±
+        <span data-bracket-bottom="Base">3d6</span>
         <span>≤</span>
         <span data-bracket-bottom="Ability Rank">Speed</span> ±
         <span data-bracket-top="Defence modifier">Armour</span> ±

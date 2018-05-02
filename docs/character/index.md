@@ -96,6 +96,13 @@ A character's Initiative is determined by adding [Speed](/character#speed) and
 [Intelligence](/character#intelligence) together, and then device the result by
 4.
 
+!!! summary "Initiative"
+    <div class="formula formula-top formula-bottom">
+      (<span data-bracket-bottom="Speed">SP</span> +
+      <span data-bracket-top="Might">MI</span>)
+      <span data-bracket-bottom="Base">x0.25</span>
+    </div>
+
 ### Perception
 
 Perception is a passive value that represents the character's alertness. It's
