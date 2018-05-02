@@ -53,7 +53,7 @@ retain their original roll, but resolve the tie.
 
 !!! summary "[Turn Order](#turn-order)"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Base">3d6</span> ±
+      <span>3d6</span> ±
       <span data-bracket-top="Initiative">Init</span>
     </div>
 
@@ -150,12 +150,12 @@ however.
 
 !!! summary "Making an attack"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">3d6</span>
+        <span>3d6</span>
         <span>≤</span>
-        <span data-bracket-top="Ability Rank">[ Ability</span> ±
-        <span data-bracket-bottom="Skill Rank">Skill</span> ±
-        <span data-bracket-top="Weapon modifier">Hit</span> ±
-        <span data-bracket-bottom="Perks / Flaws / Race">Circumstance ]</span>
+        <span data-bracket-bottom="Ability Rank">[ Ability</span> ±
+        <span data-bracket-top="Skill Rank">Skill</span> ±
+        <span data-bracket-bottom="Weapon modifier">Hit</span> ±
+        <span data-bracket-top="Perks / Flaws / Race">Circumstance ]</span>
     </div>
 
 ### Defence
@@ -171,13 +171,13 @@ NPCs have a fixed defence value (Difficulty Level) and do not have to roll.
 
 !!! summary "Defence vs melee"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">3d6</span>
+        <span>3d6</span>
         <span>≤</span>
         <span data-bracket-bottom="Ability Rank">Might or Speed</span> ±
         <span data-bracket-top="Skill Rank">Melee</span> +
-        <span data-bracket-top="Defence modifier">Armour</span> ±
-        <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
-        <span data-bracket-top="per additional enemy">-2</span>
+        <span data-bracket-bottom="Defence modifier">Armour</span> ±
+        <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
+        <span data-bracket-bottom="per additional enemy">-2</span>
     </div>
 
 Every additional enemy in melee range reduces *defence vs melee* by 2. This only
@@ -187,7 +187,7 @@ applies if there is more than one enemy in range.
 
 !!! summary "Defence vs ranged"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">3d6</span>
+        <span>3d6</span>
         <span>≤</span>
         <span data-bracket-bottom="Ability Rank">Speed</span> ±
         <span data-bracket-top="Defence modifier">Armour</span> ±

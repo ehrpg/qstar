@@ -11,20 +11,20 @@ rolled, the stunt can only be used once per check and requires a single
 
 ## Legendary stunts & fumbles
 
-Whenever someone rolls three *sixes*{.qstar-3sixes} on a check the action is
-considered a legendary stunt. Three *ones*{.qstar-3ones} are considered an epic
-fail. People in the RPG's cosmos will talk about this. They may not know the
-nature of the legend or fumble, but they will have heard about it (provided
-that they **can** hear about it sometime).
+Whenever someone rolls three *ones*{.qstar-3ones} on a check the action is
+considered a legendary stunt. Three *sixes*{.qstar-3sixes} are considered a
+fumble. People in the RPG's cosmos will talk about this. They may not know the
+nature of the legend or fumble, but they will have heard about it (provided that
+they **can** hear about it at some point).
 
 Legendary stunts **always** succeed, no matter the result. In addition, a player
 can describe some course of action that becomes a legend.
 
-Fumbles **always** fail, no matter the result. The GM can describe how the
-check fails.
+Fumbles **always** fail, no matter the result. The GM describes how the check
+fails.
 
 These stunts and fails have a chance of `0.4%` so they justify the use of over
-the top actions, although they cannot break physics or realism.
+the top actions, although they shouldn't and cannot break physics or realism.
 
 <div class="left" markdown="1">
 

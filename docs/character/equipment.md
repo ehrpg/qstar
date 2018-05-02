@@ -68,13 +68,14 @@ number of slots is further influenced by [Might](/character#might-mi),
 An item occupies slots equal to its Weight. An item with a Weight of 4 occupies
 4 slots.
 
-If the item's Weight is 0 or is not specified, then the items still requires one
-slot, unless otherwise mentioned.
+If the item's Weight is not specified, then the item still requires one slot.
+
+If the item's Weight lists 0, then the item doesn't occupy a slot.
 
 !!! summary "Amount of slots"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">15</span> ±
-        <span data-bracket-top="Modifier">Might * 2</span> ±
+        <span data-bracket-bottom="Ability Rank">Might</span>
+        <span data-bracket-top="Base">x2</span> ±
         <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
     </div>
 
