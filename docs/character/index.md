@@ -90,6 +90,12 @@ Charisma is mostly used in social interactions between characters and NPCs.
 
 ## Secondary Characteristics
 
+### Initiative
+
+A character's Initiative is determined by adding [Speed](/character#speed) and
+[Intelligence](/character#intelligence) together, and then device the result by
+4.
+
 ### Perception
 
 Perception is a passive value that represents the character's alertness. It's
@@ -99,7 +105,7 @@ Skill](/character/skills#stealth), etc.
 !!! summary "Perception"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Base">10</span> +
-        <span data-bracket-top="Experience">XP</span> +
+        <span data-bracket-top="Level">LVL</span> +
         <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
     </div>
 
@@ -129,9 +135,7 @@ flaw if damaged badly, e.g. when losing an eye.
 
 !!! summary "Maximum [Health](/character/#health-hp)"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">40</span> ±
-        <span data-bracket-top="Ability Modifier">Might</span> x
-        <span data-bracket-bottom="Base">5</span> ±
+        <span data-bracket-bottom="Ability Rank">Might</span> +
         <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>
 
@@ -148,10 +152,9 @@ sprinting cause stress on a character and reduce his
 
 !!! summary "Maximum [Endurance](/character/#endurance-ep)"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">100</span> ±
-        <span data-bracket-top="Ability Modifier">Might</span> x
-        <span data-bracket-bottom="Base">10</span> ±
-        <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
+        <span data-bracket-bottom="Ability Rank">Might</span>
+        <span data-bracket-top="Base">x4</span> +
+        <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
     </div>
 
 </div>
@@ -169,7 +172,9 @@ completing a longer adventure.
 Every character has 0 XP upon creation.
 </blockquote>
 
-### Level (LVL)
+Every three Experience Points (XP) increase a character's level by one.
+
+#### Level (LVL)
 
 A character's level improves the maximum values of his currencies. This does not
 necessarily make the character stronger, but make the character more resourceful
@@ -182,18 +187,12 @@ and adaptable.
 Every character has the same amount of fate rolls available as he has
 [Experience](/character#experience-xp). A fate roll allows a character to
 *re-roll* the entire check (all 3d6). Using a fate roll consumes one
-[Experience](/character#experience-xp). Using fate cannot be used if you have
-zero [Experience](/character#experience-xp) at the moment. Also, you can't lose
-a level through using fate.
+[Experience](/character#experience-xp). Using fate can reduce a character's
+level. Fate cannot be used if you have zero
+[Experience](/character#experience-xp) Points.
 
 Fate helps powerful characters to get a better outcome when faced with dire
-consequences, but comes with a cost.
-
-!!! summary "Fate rolls available"
-    <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="XP">Experience</span> -
-      <span data-bracket-top="already spent">Fate</span>
-    </div>
+consequences, but changing fate always comes with a cost.
 
 ### Means
 
@@ -211,9 +210,12 @@ exceeding points are usually lost.
 Means of one sort can be traded in for any other.
 [Downtime](/character#downtime-dt) cannot be traded.
 
-[Credits](/equipment#credits) can never buy Means directly. Exchanging
-[Credits](/equipment#credits) for Means can usually only be done in
-conjuction with a quest or adventure - this is up to the GM.
+!!! tip "Buying Means"
+    A GM may disallow exchanging [Credits](/equipment#credits-cr) for Means
+    directly. Instead, he may require a character or the party to go on a quest
+    or adventure in order to exchange [Credits](/equipment#credits-cr). E.g. the
+    party has to find a wealthy trader, or rescue a trader from pirates first,
+    etc.
 
 <div class="left" markdown="1">
 
@@ -336,3 +338,17 @@ See [Perks](/character/perks/).
 ## Flaws
 
 See [Flaws](/character/flaws/).
+
+## Improving your character
+
+Improving your character happens automatically due completing missions, quests,
+fighting and adventuring and eventually earning [Experience](#experience-xp),
+which will increase the character's [Level](#level-lvl).
+
+[Abilities](/character#abilities) and [Skills](/character/skills#skills) can be
+improved too, but require [Downtime](/character#downtime) which in general is
+hard to come by.
+
+Any characters skills and expertise are greatly enhanced by the equipment they
+own. Hard training may give a character a permanent bonus, but the right item is
+often cheaper and acquired more easily.

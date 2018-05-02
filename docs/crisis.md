@@ -9,41 +9,38 @@ lasts longer. In a crisis time slows down and actions become more atomic.
 
 ## Difficulty
 
-Every task has a difficulty level. Any check has to be equal or above the
-**Target #** of the difficulty level in order to succeed, otherwise the check
-fails.
+Every task has a difficulty level. A difficulty level imposes penalties on a
+check, or can even add bonuses for certain easy checks.
 
 Not all tasks require a check however. For example, finding some information
-inside books can be done without a skill check given enough time.
+inside books can be done without a skill check given enough time. Using a Skill
+in this case is only needed if you want to determine how much time your
+character needs to find the information.
 
 | Difficulty Level | Name        | Target # | Description                                                        |
 |-----------------:|-------------|---------:|--------------------------------------------------------------------|
-|                1 | Mundane     |        3 | Everyday tasks, which can be done by almost everyone.              |
-|                2 | Routine     |        6 | Tasks you do every few days, which can be done by almost everyone. |
-|                3 | Simple      |        9 | Most people can do this without much effort.                       |
-|                4 | Easy        |       12 | Even untrained people still can do these tasks most of the time.   |
-|                5 | Normal      |       15 | You need at least some training to complete these kind of tasks.   |
-|                6 | Demanding   |       18 | You either need gear or good training for these tasks.             |
-|                7 | Challenging |       21 | You need a lot of training and good gear.                          |
-|                8 | Hard        |       24 | You need to be a specialist for these tasks.                       |
-|                9 | Very Hard   |       27 | You require help from others to achieve this.                      |
-|               10 | Impossible  |       30 | A once in a lifetime achievement.                                  |
+|                1 | Mundane     |       +3 | Everyday tasks, which can be done by almost everyone.              |
+|                2 | Routine     |       +2 | Tasks you do every few days, which can be done by almost everyone. |
+|                3 | Simple      |       +1 | Most people can do this without much effort.                       |
+|                4 | Easy        |        0 | Even untrained people still can do these tasks most of the time.   |
+|                5 | Normal      |       -2 | You need at least some training to complete these kind of tasks.   |
+|                6 | Demanding   |       -4 | You either need gear or good training for these tasks.             |
+|                7 | Challenging |       -6 | You need a lot of training and good gear.                          |
+|                8 | Hard        |       -8 | You need to be a specialist for these tasks.                       |
+|                9 | Very Hard   |      -10 | You require help from others to achieve this.                      |
+|               10 | Impossible  |      -12 | A once in a lifetime achievement.                                  |
 
 ### Difficulty Modifier
 
 Certain circumstances modify the difficulty level, either positively or
 negatively.
 
-Multiple modifiers stack, but can never modify the difficulty level more than 2
-in any direction.
+Multiple modifiers stack.
 
 | Name                     | Diffculty Level | Description                               |
 |--------------------------|----------------:|-------------------------------------------|
-| Asset                    |              -1 | Having the correct tools at hand.         |
-| Unfavorable Circumstance |              +1 | E.g. climbing a cliff while it's raining. |
-
-!!! tip "Difficulty Modifier"
-    A difficulty modifier basically adds a +3 bonus or a -3 penalty to a check.
+| Asset                    |              +1 | Having the correct tools at hand.         |
+| Unfavorable Circumstance |              -1 | E.g. climbing a cliff while it's raining. |
 
 ## Turn Order
 
@@ -52,15 +49,12 @@ The character with the highest result acts first. Once every character has
 acted, a new **turn** begins.
 
 If two or more characters have rolled the same result roll again. The characters
-retain their original roll, but rolls to resolve the conflict change the turn
-order.
+retain their original roll, but resolve the tie.
 
 !!! summary "[Turn Order](#turn-order)"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Base">3d6</span> ±
-      <span data-bracket-top="Ability Modifier">Intelligence</span> ±
-      <span data-bracket-bottom="Ability Modifier">Speed</span> ±
-      <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
+      <span data-bracket-top="Initiative">Init</span>
     </div>
 
 ### Surprise Round
@@ -127,10 +121,16 @@ themselves or the environment.
 
 | Condition | Description                                                                      |
 |-----------|----------------------------------------------------------------------------------|
-| Drunk     | All checks impose a +1 [Difficulty](#difficulty-modifer) penalty.                |
+| Drunk     | All checks impose a -2 penalty.                                                  |
 | Exhausted | You only regain 2 AP per round. All hits against you become critical hits.       |
 | Prone     | Can't melee attack. May provide bonus to *defence vs ranged* and ranged attacks. |
 | Stunned   | Can't act or react on current turn and does not regain AP.                       |
+
+## Contests
+
+When two parties enter a Contest, they both have to roll on a skill or stat.
+E.g. two characters running towards something would enter a contest using the
+Athletics Skill.
 
 ## Combat
 
@@ -143,13 +143,19 @@ Combat is the most common kind of a crisis.
 
 ### Attacking
 
+In order to attack, the character has to succeed on its attack roll. If the
+attack roll fails, the attack misses without requiring the opponent to make a
+roll. If Stunts are rolled on the attack, they can still be used when applicable
+however.
+
 !!! summary "Making an attack"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Base">3d6</span> ±
-      <span data-bracket-top="Skill Modifier">Skill</span> ±
-      <span data-bracket-bottom="Ability Modifier">Ability</span> ±
-      <span data-bracket-top="Weapon modifier">Hit</span> ±
-      <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
+        <span data-bracket-bottom="Base">3d6</span>
+        <span>≤</span>
+        <span data-bracket-top="Ability Rank">[ Ability</span> ±
+        <span data-bracket-bottom="Skill Rank">Skill</span> ±
+        <span data-bracket-top="Weapon modifier">Hit</span> ±
+        <span data-bracket-bottom="Perks / Flaws / Race">Circumstance ]</span>
     </div>
 
 ### Defence
@@ -157,38 +163,35 @@ Combat is the most common kind of a crisis.
 When a character is attacked, the character has to roll a Defence check. On a
 tie the defender wins the contest.
 
+If the attacked character is surprised, he cannot make a defence roll.
+
 NPCs have a fixed defence value (Difficulty Level) and do not have to roll.
 
 #### Melee Combat
 
 !!! summary "Defence vs melee"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Base">3d6</span> ±
-      <span data-bracket-top="Skill Modifier">Melee</span> ±
-      <span data-bracket-bottom="Ability Modifier">Might or Speed</span> +
-      <span data-bracket-top="Defence modifier">Armour</span> ±
-      <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
-      <span data-bracket-top="per additional enemy">-2</span>
+        <span data-bracket-bottom="Base">3d6</span> ±
+        <span>≤</span>
+        <span data-bracket-bottom="Ability Rank">Might or Speed</span> ±
+        <span data-bracket-top="Skill Rank">Melee</span> +
+        <span data-bracket-top="Defence modifier">Armour</span> ±
+        <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
+        <span data-bracket-top="per additional enemy">-2</span>
     </div>
 
 Every additional enemy in melee range reduces *defence vs melee* by 2. This only
 applies if there is more than one enemy in range.
 
-!!! example "Melee combat"
-    Jack is attacked by 3 security drones attacking with batons. They all are in
-    Jack's melee range. Jack is a good melee fighter and has a *defence vs
-    melee* of 16 against a single enemy. Since there are two additional enemies
-    his *defence vs melee* drops by a total of 4, resulting in a *defence vs
-    melee* of 12, making him an easy target.
-
 #### Ranged Combat
 
 !!! summary "Defence vs ranged"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Base">3d6</span> ±
-      <span data-bracket-top="Ability Modifier">Speed</span> +
-      <span data-bracket-bottom="Defence modifier">Armour</span> ±
-      <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
+        <span data-bracket-bottom="Base">3d6</span> ±
+        <span>≤</span>
+        <span data-bracket-bottom="Ability Rank">Speed</span> ±
+        <span data-bracket-top="Defence modifier">Armour</span> ±
+        <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
     </div>
 
 #### Cover
@@ -200,8 +203,8 @@ an enemy, but in plain sight for another.
 
 | Name        | Difficulty |
 |-------------|-----------:|
-| Cover       |         +1 |
-| Heavy Cover |         +2 |
+| Cover       |         -2 |
+| Heavy Cover |         -4 |
 | Total Cover | unhittable |
 
 <div class="left" markdown="1">

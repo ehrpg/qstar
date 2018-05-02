@@ -146,6 +146,7 @@ otherwise noted.
 
 | Name                    |  HIT |  END |  DMG |  RoF | Weight | Cost |
 |-------------------------|-----:|-----:|-----:|-----:|-------:|-----:|
+| Unarmed                 |   -2 |    5 |    2 |    2 |      - |    - |
 | Improvised blunt weapon |    0 |    8 |    3 |    1 |      - |    - |
 | Improvised sharp weapon |    0 |    5 |    5 |    1 |      - |    - |
 | Brass knuckles          |    0 |    8 |    4 |    1 |      2 |  100 |
