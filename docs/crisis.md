@@ -16,17 +16,18 @@ fails.
 Not all tasks require a check however. For example, finding some information
 inside books can be done without a skill check given enough time.
 
-| Difficulty Level | Name        | Target # | Description                                                      |
-|-----------------:|-------------|---------:|------------------------------------------------------------------|
-|                0 | Mundane     |        3 | Everyday tasks, which can be done by almost everyone.            |
-|                1 | Simple      |        6 | Most people can do this without much effort.                     |
-|                2 | Easy        |        9 | Even untrained people still can do these tasks most of the time. |
-|                3 | Normal      |       12 | You need at least some training to complete these kind of tasks. |
-|                4 | Demanding   |       15 | You either need gear or good training for these tasks.           |
-|                5 | Challenging |       18 | You need a lot of training and good gear.                        |
-|                6 | Hard        |       21 | You need to be a specialist for these tasks.                     |
-|                7 | Very Hard   |       24 | You require help from others to achieve this.                    |
-|                8 | Impossible  |       27 | A once in a lifetime achievement.                                |
+| Difficulty Level | Name        | Target # | Description                                                        |
+|-----------------:|-------------|---------:|--------------------------------------------------------------------|
+|                1 | Mundane     |        3 | Everyday tasks, which can be done by almost everyone.              |
+|                2 | Routine     |        6 | Tasks you do every few days, which can be done by almost everyone. |
+|                3 | Simple      |        9 | Most people can do this without much effort.                       |
+|                4 | Easy        |       12 | Even untrained people still can do these tasks most of the time.   |
+|                5 | Normal      |       15 | You need at least some training to complete these kind of tasks.   |
+|                6 | Demanding   |       18 | You either need gear or good training for these tasks.             |
+|                7 | Challenging |       21 | You need a lot of training and good gear.                          |
+|                8 | Hard        |       24 | You need to be a specialist for these tasks.                       |
+|                9 | Very Hard   |       27 | You require help from others to achieve this.                      |
+|               10 | Impossible  |       30 | A once in a lifetime achievement.                                  |
 
 ### Difficulty Modifier
 

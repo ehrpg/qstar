@@ -85,13 +85,13 @@ skills for characters, the item condition uses these adjectives:
 
 |    # | Item condition | Modifier | [RES](/character#resources-res) cost |
 |-----:|----------------|---------:|-------------------------------------:|
-|    1 | Terrible       |       -3 |                                   -2 |
-|    2 | Poor           |       -2 |                                   -1 |
-|    3 | Mediocre       |       -1 |                                    0 |
-|    4 | Fair           |        0 |                                    0 |
-|    5 | Good           |       +1 |                                    0 |
-|    6 | Great          |       +2 |                                   +1 |
-|    7 | Superb         |       +3 |                                   +2 |
+|    0 | Terrible       |       -3 |                                   -2 |
+|    1 | Poor           |       -2 |                                   -1 |
+|    2 | Mediocre       |       -1 |                                    0 |
+|    3 | Fair           |        0 |                                    0 |
+|    4 | Good           |       +1 |                                    0 |
+|    5 | Great          |       +2 |                                   +1 |
+|    6 | Superb         |       +3 |                                   +2 |
 
 Buying items that have a positive modifier usually costs 1
 [Influence](/character#influence-inf).
@@ -138,7 +138,7 @@ otherwise noted.
 
 * **RoF** indicates how many shots can be fired with each attack. A **RoF**
   value higher than 1 allows multiple shots to be fired. Each multiple shot adds
-  1d6 to the attack.
+  1d6 to the attack, and the chance to score additional critical hits.
 
 * **REL** indicates how much AP it takes to reload the weapon.
 

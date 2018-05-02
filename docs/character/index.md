@@ -14,6 +14,7 @@ A character is defined by:
 * traits, such as perks and flaws.
 
 ## Race
+
 See [Races](/character/races).
 
 ## Abilities
@@ -164,39 +165,29 @@ Experience (XP) is gained due to noteable achievements or story completions. XP
 usually is only given out one at a time. The GM can decide to give out more for
 completing a longer adventure.
 
-XP improves the maximum values of your Means. This does not necessarily
-make your character stronger, but make the character more resourceful and
-adaptable.
-
 <blockquote class="important" markdown="1">
 Every character has 0 XP upon creation.
 </blockquote>
 
-#### Fate
+### Level (LVL)
+
+A character's level improves the maximum values of his currencies. This does not
+necessarily make the character stronger, but make the character more resourceful
+and adaptable.
+
+### Fate
 
 > A character can change the course of action and his fate.
 
 Every character has the same amount of fate rolls available as he has
 [Experience](/character#experience-xp). A fate roll allows a character to
-*re-roll* the entire check (all 3d6). Using a fate roll reduces the amount of
-fate rolls a character has, but not his [Experience](/character#experience-xp).
-Fate cannot be restored.
-
-!!! example "Fate, Experience, and changing Fate"
-    Jack has 3 [Experience](/character#experience-xp), but only 2
-    [Fate](/character#fate) left, since he already spent one fate roll some time
-    ago.
-
-    He is piloting a space craft through an asteroid field mid-combat. Failing
-    the Skill check for Operate would result in death. He messes up his check,
-    and decides to use one of his remaining 2 [Fate](/character#fate) rolls. He
-    re-rolls the entire Operate check, rolls something better and now succeeds.
-    Now there is only 1 [Fate](/character#fate) left. If he gained
-    [Experience](/character#experience-xp), he'd now have 4
-    [Experience](/character#experience-xp), and 2 [Fate](/character#fate).
+*re-roll* the entire check (all 3d6). Using a fate roll consumes one
+[Experience](/character#experience-xp). Using fate cannot be used if you have
+zero [Experience](/character#experience-xp) at the moment. Also, you can't lose
+a level through using fate.
 
 Fate helps powerful characters to get a better outcome when faced with dire
-consequences, but only a **limited** number of times.
+consequences, but comes with a cost.
 
 !!! summary "Fate rolls available"
     <div class="formula formula-top formula-bottom">

@@ -64,7 +64,7 @@ When two parties enter a *contest*, they both have to roll on a skill or stat.
 E.g. a sneaking character has to roll *Stealth*, while a guard would roll on
 *Perception*.
 
-## Abbrevations
+## Abbreviations
 
 <div class="dl-horizontal" markdown="1">
 <div class="col-layout-start"></div>
@@ -87,6 +87,9 @@ CH
 
 XP
 :   [Experience](/character#experience-xp)
+
+LVL
+:   [Level](/character#level-lvl)
 
 EP
 :   [Endurance points](/character#endurance-ep)
