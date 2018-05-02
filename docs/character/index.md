@@ -8,7 +8,7 @@ A character is defined by:
 
 * A race,
 * abilities,
-* currencies,
+* Means,
 * experience,
 * pools, and
 * traits, such as perks and flaws.
@@ -19,24 +19,29 @@ See [Races](/character/races).
 ## Abilities
 
 Abilities are *mostly fixed* values every creature has. They are only modified
-by *certain events* while adventuring.
+by *certain events* while adventuring, or by improvements using
+[Downtime](/character#downtime-dt) and [Credits](/equipment#credits-cr).
 
-Good or bad abilities also add bonuses or impose penalties on skill checks
-corresponding to the ability.
+Every character starts with all four abilities on Rank 10. Upon character
+creation, this rank can be adjusted following the character improvement rules.
 
-|    # | Ability Rank | Ability Modifier | Downtime cost | ∑ Downtime cost |
-|-----:|--------------|-----------------:|--------------:|----------------:|
-|    1 | Terrible     |               -3 |             0 |               0 |
-|    2 | Poor         |               -2 |             4 |               4 |
-|    3 | Mediocre     |               -1 |             2 |               6 |
-|    4 | Fair         |                0 |             2 |               8 |
-|    5 | Good         |               +1 |             2 |              10 |
-|    6 | Great        |               +2 |             4 |              14 |
-|    7 | Superb       |               +3 |             8 |              22 |
+Improving an ability by 1 Rank costs 6 [Downtime](/character#downtime-dt).
+Decreasing an ability can only be done at character creation at nets 6
+[Downtime](/character#downtime-dt) per Rank decreased.
+
+|   Rank | Downtime cost |
+|-------:|--------------:|
+|    ... |           ... |
+|      8 |           -12 |
+|      9 |            -6 |
+| **10** |         **-** |
+|     11 |             6 |
+|     12 |            12 |
+|    ... |           ... |
+
 
 <blockquote class="important" markdown="1">
-If an ability were to drop below [Ability - Terrible](#abilities) the
-character dies.
+If an ability were to drop to Rank 0 or below, the character dies.
 </blockquote>
 
 <div class="left" markdown="1">
@@ -82,7 +87,22 @@ Charisma is mostly used in social interactions between characters and NPCs.
 </div>
 <div class="clearfix"></div>
 
-## Pools
+## Secondary Characteristics
+
+### Perception
+
+Perception is a passive value that represents the character's alertness. It's
+used to counter creatures that used the [Stealth
+Skill](/character/skills#stealth), etc.
+
+!!! summary "Perception"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Base">10</span> +
+        <span data-bracket-top="Experience">XP</span> +
+        <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
+    </div>
+
+### Pools
 
 > Each creature has [Health](/character/#health-hp) and
 > [Endurance](/character/#endurance-ep) pools. A robot is defined as a
@@ -97,7 +117,7 @@ usually targetted by damage first. Once depleted, the health pool is targetted.
 
 <div class="left" markdown="1">
 
-### Health (HP)
+#### Health (HP)
 
 > [Health](/character/#health-hp) represents the character's overall condition.
 
@@ -117,7 +137,7 @@ flaw if damaged badly, e.g. when losing an eye.
 </div>
 <div class="right" markdown="1">
 
-### Endurance (EP)
+#### Endurance (EP)
 
 > [Endurance](/character/#endurance-ep) represents the character's power.
 
@@ -136,7 +156,7 @@ sprinting cause stress on a character and reduce his
 </div>
 <div class="clearfix"></div>
 
-## Experience (XP)
+### Experience (XP)
 
 > Experience is gained throughout a character's adventuring career.
 
@@ -144,7 +164,7 @@ Experience (XP) is gained due to noteable achievements or story completions. XP
 usually is only given out one at a time. The GM can decide to give out more for
 completing a longer adventure.
 
-XP improves the maximum values of your currencies. This does not necessarily
+XP improves the maximum values of your Means. This does not necessarily
 make your character stronger, but make the character more resourceful and
 adaptable.
 
@@ -152,7 +172,7 @@ adaptable.
 Every character has 0 XP upon creation.
 </blockquote>
 
-### Fate
+#### Fate
 
 > A character can change the course of action and his fate.
 
@@ -184,25 +204,24 @@ consequences, but only a **limited** number of times.
       <span data-bracket-top="already spent">Fate</span>
     </div>
 
-## Currency
+### Means
 
-> Currencies abstract the resources available to a character. This is not to be
-> mistaken with [Credits](/equipment#credits) or money.
+> Means abstract the resources available to a character.
 
-Currencies are limited by a maximum value, and are used to improve your
-character. This maximum value is modified by Circumstances,
-[Perks](/perks), and permanently due to [Experience](#experience-xp).
+Means are limited by a maximum value, and are used to improve your character.
+This maximum value is modified by Circumstances, [Perks](/perks), and
+permanently due to [Experience](#experience-xp).
 
-The current value for a currency can **never** exceed the maximum value. All
+The current value for Means can **never** exceed the maximum value. All
 exceeding points are usually lost.
 
 [Influence](/character#influence-inf), [Resources](/character#resources-res) and
-[Technology](/character#technology-tech) can be traded for each other. Any two currencies
-of one sort can be traded in for any other. [Downtime](/character#downtime-dt)
-cannot be traded.
+[Technology](/character#technology-tech) can be traded for each other. Any two
+Means of one sort can be traded in for any other.
+[Downtime](/character#downtime-dt) cannot be traded.
 
-[Credits](/equipment#credits) can never buy Currency directly. Exchanging
-[Credits](/equipment#credits) for Currency can usually only be done in
+[Credits](/equipment#credits) can never buy Means directly. Exchanging
+[Credits](/equipment#credits) for Means can usually only be done in
 conjuction with a quest or adventure - this is up to the GM.
 
 <div class="left" markdown="1">

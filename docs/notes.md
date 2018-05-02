@@ -1,3 +1,22 @@
+* <6
+* 7
+* 8-9
+* 10
+* 11-12
+* 13-14
+* \> 15
+
+| Skill Level   | Easy | Average | Hard |
+|---------------|-----:|--------:|-----:|
+| Attribute - 3 |    - |       - |    - |
+| Attribute - 2 |    - |       - |    1 |
+| Attribute - 1 |    - |       1 |    2 |
+| Attribute + 0 |    1 |       2 |    4 |
+| Attribute + 1 |    2 |       4 |    8 |
+| Attribute + 2 |    4 |       8 |   12 |
+| Attribute + 3 |    8 |      12 |   16 |
+| Extra + 1     |   +4 |      +4 |   +4 |
+
 ## Character
 
 Moved to [Character](/character).

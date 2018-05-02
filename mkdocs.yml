@@ -57,7 +57,7 @@ pages:
     - Q*:
         - Introduction: 'index.md'
         - Quick Start Rules: 'quick-start.md'
-        # - notes: 'notes.md'
+        - notes: 'notes.md'
 
         - Characters:
 

@@ -1,39 +1,68 @@
 # Introduction
 
-## Glossary
+## Mechanics
 
-[Action point](/crisis#actions)
-:   AP, used for atomic actions in a crisis.
+### Rolls & Checks
 
-Base
-:   A base value that's used for rolls or to determine values. It's the same for
-all characters and creatures.
+Whenever someone has to roll or make a check, you roll **3d6**. Add all dice
+together. The resulting number **has** to be less than or equal to the target
+number. A higher target number means a better chance of success.
 
-Difficulty Class
-:   DC, a check equal or higher than the DC is a success, or a failure
-otherwise.
+A target number is usually a creature's [Ability](/character#abilities),
+modified by a task's difficulty, circumstances such as equipment, and the
+creature's [Skill](/character/skills#skills) Rank.
 
-*Failure*{.qs-f}
-:   This indicates, that a check failed or has to be failed.
+### Results
 
-Roleplaying Circumstance
-:   Usually added by a race, perk or flaws. Roleplaying circumstances include
-prejudice, others liking or disliking you, being a known criminal, etc.
+#### Fractions
 
-*Roll*{.qs-one}
-:   This indicates, that a die on a check is a **1**. The number of dice show
-the number of **1**s that have to be rolled.
+All fractions are **always** rounded down.
 
-*Roll*{.qs-d6}
-:   This indicates, that a die on a check is a **6**. The number of dice show
-the number of **6**s that have to be rolled.
+#### Negative Values
 
-*Success*{.qs-s}
-:   This indicates, that a check was succeeded or has to be succeeded.
+Some pools cannot be negative, e.g. [Resources](/character#resources-res),
+[Endurance](/character#endurance) or [Health](/character#health). If such a
+value where to drop to below 0, it either prohibits certain actions, it has
+consequences or it's simply ignored and the value set to 0.
 
-Weight
-:   The minimum requirement of [Might](/character#might-mi) to *use* items.
-Weight exceeding a character's [Might](/character#might-mi) imposes penalties.
+### Difficulty Level
+
+Every roll or check has to beat a set [Difficulty Level](/crisis#difficulty) in
+order to be successful. The [Difficulty Level](/crisis#difficulty) is influenced
+by circumstances, increasing or decreasing the difficulty.
+
+*Contests* don't use [Difficulty Levels](/crisis#difficulty). *Contests* are
+used, when both parties are *active* (rather than one party being *passive*) and
+have to make a check and compare the results to see who is successful.
+
+NPCs are abstracted by a [Difficulty Level](/crisis#difficulty), and use this
+level for almost all checks, stats, etc.
+
+Some conditions, that are also used by player characters, may provide a positive
+or negative modifier to the [Difficulty Level](/crisis#difficulty). If a value
+is effected by a difficulty modifier, but the effected value requires a roll,
+e.g. a player character's [Defence](/crisis#defence), the modifier simply adds a
+bonus or penalty to the check. A difficulty modifier of `+1` adds a `+3` bonus,
+and a difficulty modifier of `-1` adds a `-3` penalty.
+
+#### Difficulty Modifier
+
+A [Difficulty Level](/crisis#difficulty) can **never** shift more than 2 levels
+in any direction.
+
+If a creative idea of a player would accomplish the same task and leaves little
+to no room of error, then the GM *can* decide what to do. Here are some ideas:
+
+* accept the creative solution as is,
+* require the character to roll if he would come up with the idea himself,
+* require the character to roll to see *how well* the solution is executed,
+* etc.
+
+#### Contests
+
+When two parties enter a *contest*, they both have to roll on a skill or stat.
+E.g. a sneaking character has to roll *Stealth*, while a guard would roll on
+*Perception*.
 
 ## Abbrevations
 
@@ -119,61 +148,37 @@ AP
 <div class="col-layout-end clearfix"></div>
 </div>
 
-## Mechanics
+## Glossary
 
-### Rolls & Checks
+[Action point](/crisis#actions)
+:   AP, used for atomic actions in a crisis.
 
-Whenever someone has to roll or make a check, you roll **3d6** and add any
-bonuses or subtract any penalties from it.
+Base
+:   A base value that's used for rolls or to determine values. It's the same for
+all characters and creatures.
 
-### Results
+Difficulty Class
+:   DC, a check equal or higher than the DC is a success, or a failure
+otherwise.
 
-#### Fractions
+*Failure*{.qs-f}
+:   This indicates, that a check failed or has to be failed.
 
-All fractions are **always** rounded down.
+Roleplaying Circumstance
+:   Usually added by a race, perk or flaws. Roleplaying circumstances include
+prejudice, others liking or disliking you, being a known criminal, etc.
 
-#### Negative Values
+*Roll*{.qs-one}
+:   This indicates, that a die on a check is a **1**. The number of dice show
+the number of **1**s that have to be rolled.
 
-Some pools cannot be negative, e.g. [Resources](/character#resources-res),
-[Endurance](/character#endurance) or [Health](/character#health). If such a
-value where to drop to below 0, it either prohibits certain actions, it has
-consequences or it's simply ignored and the value set to 0.
+*Roll*{.qs-d6}
+:   This indicates, that a die on a check is a **6**. The number of dice show
+the number of **6**s that have to be rolled.
 
-### Difficulty Level
+*Success*{.qs-s}
+:   This indicates, that a check was succeeded or has to be succeeded.
 
-Every roll or check has to beat a set [Difficulty Level](/crisis#difficulty) in
-order to be successful. The [Difficulty Level](/crisis#difficulty) is influenced
-by circumstances, increasing or decreasing the difficulty.
-
-*Contests* don't use [Difficulty Levels](/crisis#difficulty). *Contests* are
-used, when both parties are *active* (rather than one party being *passive*) and
-have to make a check and compare the results to see who is successful.
-
-NPCs are abstracted by a [Difficulty Level](/crisis#difficulty), and use this
-level for almost all checks, stats, etc.
-
-Some conditions, that are also used by player characters, may provide a positive
-or negative modifier to the [Difficulty Level](/crisis#difficulty). If a value
-is effected by a difficulty modifier, but the effected value requires a roll,
-e.g. a player character's [Defence](/crisis#defence), the modifier simply adds a
-bonus or penalty to the check. A difficulty modifier of `+1` adds a `+3` bonus,
-and a difficulty modifier of `-1` adds a `-3` penalty.
-
-#### Difficulty Modifier
-
-A [Difficulty Level](/crisis#difficulty) can **never** shift more than 2 levels
-in any direction.
-
-If a creative idea of a player would accomplish the same task and leaves little
-to no room of error, then the GM *can* decide what to do. Here are some ideas:
-
-* accept the creative solution as is,
-* require the character to roll if he would come up with the idea himself,
-* require the character to roll to see *how well* the solution is executed,
-* etc.
-
-#### Contests
-
-When two parties enter a *contest*, they both have to roll on a skill or stat.
-E.g. a sneaking character has to roll *Stealth*, while a guard would roll on
-*Perception*.
+Weight
+:   The minimum requirement of [Might](/character#might-mi) to *use* items.
+Weight exceeding a character's [Might](/character#might-mi) imposes penalties.
