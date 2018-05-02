@@ -22,7 +22,9 @@ modifier.
 
 !!! summary "[Ability](/character#abilities) and [Skill](/skills#skills) checks"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">3d6</span> +
+        <span data-bracket-bottom="Base">3d6</span>
+        <span>≤</span>
+        <span data-bracket-bottom="Base">10</span> +
         <span data-bracket-top="Base">Difficulty Level / 2</span> +
         <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
     </div>
@@ -49,7 +51,7 @@ NPCs don't have to roll for defending.
 
 !!! summary "NPC Defence"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">12</span> +
+        <span data-bracket-bottom="Base">10</span> +
         <span data-bracket-top="Base">Difficulty Level</span> +
         <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
     </div>
@@ -60,19 +62,18 @@ NPCs don't have to roll for defending.
 
 !!! summary "Maximum [Health](/npc/#health-hp)"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">20</span> ±
-        <span data-bracket-top="Base">Difficulty Level</span> x
-        <span data-bracket-bottom="Base">5</span> ±
-        <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
+        <span data-bracket-bottom="Base">10</span> +
+        <span data-bracket-top="Base">Difficulty Level</span> +
+        <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
     </div>
 
 ### Endurance (EP)
 
 !!! summary "Maximum [Endurance](/npc/#endurance-ep)"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">50</span> ±
-        <span data-bracket-top="Ability Modifier">Difficulty Level</span> x
-        <span data-bracket-bottom="Base">10</span> ±
+        (<span data-bracket-bottom="Base">10</span> +
+        <span data-bracket-top="Base">Difficulty Level</span>)
+        <span data-bracket-bottom="Base">x4</span> +
         <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>
 
@@ -83,14 +84,12 @@ values as damage.
 
 !!! summary "Simplified [Health](/npc/#health-hp) damage"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">(1 + Difficulty Level)</span> x
-        <span data-bracket-top="Base">2</span>
+        <span data-bracket-bottom="Base">5 + Difficulty Level</span>
     </div>
 
 !!! summary "Simplified [Endurance](/npc/#endurance-ep) damage"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">(1 + Difficulty Level)</span> x
-        <span data-bracket-top="Base">5</span>
+        <span data-bracket-bottom="Base">10 + Difficulty Level</span>
     </div>
 
 ## Loot

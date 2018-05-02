@@ -285,14 +285,39 @@ reading.
         <span data-bracket-bottom="Base">1 per day</span>
     </div>
 
+#### Healing a dying character
+
+A *dying* character requires medical attention from any other character or even
+himself. Using the **Science (Medicine)** skill is required to treat a *dying*
+character. The check is penalized by the amount of negative HP the target has.
+
+If a character tries to medically treat himself, the check receives a penalty of
+5 points.
+
+First Aid requires one minute. If the check fails, the character loses one HP
+due to *dying*. First Aid can be attempted multiple times, until the character
+is healer or *dead*.
+
+A *dying* character can be administered a medical item instead of rolling for
+First Aid.
+
+#### Healing a wounded character
+
 Medical installations, doctors and medical supplies increase the amount of
 [Health](/character#health-hp) healed. Per day a **Science (Medicine)** check
-can be attempted for a single character. Translate the result of the check to
-the **Difficulty Level** of the [Difficulty](#difficulty) table. The character
-heals that amount additionally that single day, given they can take a rest.
+can be attempted for a single character.
+
+The character receiving medical attention additionally heals the positive margin
+of the **Science (Medicine)** check.
 
 !!! summary "Healing"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Base">1 per day</span> +
-        <span data-bracket-top="X = Difficulty Level">X per day</span>
+        <span data-bracket-top="X = positive margin">X per day</span>
     </div>
+
+Medical installation, medibots, etc. make **Science (Medicine)** check with
+their respective modifiers likewise.
+
+Medical items heal a fixed amount of HP without requiring a **Science
+(Medicine)** check.

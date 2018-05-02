@@ -135,10 +135,16 @@ usually targetted by damage first. Once depleted, the health pool is targetted.
 
 > [Health](/character/#health-hp) represents the character's overall condition.
 
-If [Health](/character/#health-hp) drops to zero, the character dies. A GM may
-even reduce certain values of the character such as abilities when a lot of
-[Health](/character/#health-hp) is lost. Also, a GM may give the character a
-flaw if damaged badly, e.g. when losing an eye.
+If [Health](/character/#health-hp) drops to zero or below, the character is
+*dying*. A *dying* character has to make a [Might](/character#might) check the
+first time he drops to or below zero, and every time he receives damage while in
+a *dying* state. On a failed check the character falls unconcious. If the check
+succeeds, the character retains conciousnes.
+
+Outside of combat, a *dying* character loses one HP per minute, until he
+receives medical attention.
+
+A character that drops to or below his HP in negative dies.
 
 !!! summary "Maximum [Health](/character/#health-hp)"
     <div class="formula formula-top formula-bottom">
@@ -151,7 +157,7 @@ flaw if damaged badly, e.g. when losing an eye.
 
 #### Endurance (EP)
 
-> [Endurance](/character/#endurance-ep) represents the character's power.
+> [Endurance](/character/#endurance-ep) represents the character's resilience.
 
 Damage from weapons, other characters, environments and certain actions such as
 sprinting cause stress on a character and reduce his
