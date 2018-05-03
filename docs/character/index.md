@@ -102,16 +102,23 @@ usually targetted by damage first. Once depleted, the health pool is targetted.
 
 > [Health](/character/#health-hp) represents the character's overall condition.
 
-If [Health](/character/#health-hp) drops to zero, the character dies. A GM may
-even reduce certain values of the character such as abilities when a lot of
-[Health](/character/#health-hp) is lost. Also, a GM may give the character a
-flaw if damaged badly, e.g. when losing an eye.
+If [Health](/character/#health-hp) drops to zero or below, the character is
+*dying*. A *dying* character has to make a [Might](/character#might) check the
+first time he drops to or below zero, and every time he receives damage while in
+a *dying* state. On a failed check the character falls unconcious. If the check
+succeeds, the character retains conciousnes.
+
+Outside of combat, a *dying* character loses one HP per minute, until he
+receives medical attention.
+
+A character that drops to or below his HP in negative dies.
 
 !!! summary "Maximum [Health](/character/#health-hp)"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">40</span> ±
-        <span data-bracket-top="Ability Modifier">Might</span> x
-        <span data-bracket-bottom="Base">5</span> ±
+        <span data-bracket-bottom="Base">12</span> ±
+        <span data-bracket-top="Ability Modifier">Might</span>
+        <span data-bracket-bottom="Base">x2</span>
+        <span></span> ±
         <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>
 
@@ -128,9 +135,10 @@ sprinting cause stress on a character and reduce his
 
 !!! summary "Maximum [Endurance](/character/#endurance-ep)"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">100</span> ±
-        <span data-bracket-top="Ability Modifier">Might</span> x
-        <span data-bracket-bottom="Base">10</span> ±
+        <span data-bracket-bottom="Base">36</span> ±
+        <span data-bracket-top="Ability Modifier">Might</span>
+        <span data-bracket-bottom="Base">x6</span>
+        <span></span> ±
         <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>
 

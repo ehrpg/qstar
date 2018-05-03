@@ -1,5 +1,77 @@
 # Introduction
 
+## Prerequisites
+
+## Mechanics
+
+### Checks
+
+Checks are made if the outcome of a task is uncertain or subject to chance. A
+check involves rolling **3d6** (three six-sided dice). All dice and modifiers,
+positive and negative ones, are added together. The higher the resulting number
+the better.
+
+A check has to be equal to or higher a target number in order to succeed.
+Otherwise, the check fails. The target number is derived from the task and the
+check made. Most checks are made for [Skills](/character/skills#skills) and
+[Abilities](/character#abilities).
+
+A task's difficulty and the final target number are modified by:
+
+* The [Ability](/character#abilities) Modifier,
+* the [Skill](/character/skills#skills) Modifier,
+* perks and flaws,
+* used equipment,
+* and other circumstances.
+
+#### Contests
+
+When two parties compete with each other in the same or even different skills
+and stats, both parties have to make a check. The party with the higher result
+wins the contest. On a tie, the defending party wins. If there is no defending
+party, the tie is unresolved and nothing happens to either party.
+
+#### Difficulty Level
+
+Every Check has to beat a set [Difficulty Level](/crisis#difficulty) in order to
+be successful. The [Difficulty Level](/crisis#difficulty) is influenced by
+circumstances, increasing or decreasing the difficulty.
+
+*Contests* don't use [Difficulty Levels](/crisis#difficulty). *Contests* are
+used, when both parties are *active* (rather than one party being *passive*) and
+have to make a check and compare the results to see who is successful.
+
+NPCs are abstracted by a [Difficulty Level](/crisis#difficulty), and use this
+level for almost all checks, stats, etc.
+
+A difficulty modifier on a Check basically counts as a bonus or penalty. For
+example, a difficulty modifier of `+1` adds a `+3` bonus, and a difficulty
+modifier of `-1` adds a `-3` penalty.
+
+#### Difficulty Modifier
+
+A [Difficulty Level](/crisis#difficulty) can **never** shift more than 2 levels
+in any direction.
+
+If a creative idea of a player would accomplish the same task and leaves little
+to no room of error, then the GM *can* decide what to do. Here are some ideas:
+
+* accept the creative solution as is,
+* require the character to roll if he would come up with the idea himself,
+* require the character to roll to see *how well* the solution is executed,
+* etc.
+
+### Fractions
+
+All fractions are **always** rounded down.
+
+### Negative Values
+
+Some pools cannot be negative, e.g. [Resources](/character#resources-res) and
+[Endurance](/character#endurance). If such a value where to drop to below 0, it
+either prohibits certain actions, it has consequences or it's simply ignored and
+the value set to 0.
+
 ## Glossary
 
 [Action point](/crisis#actions)
@@ -121,62 +193,3 @@ AP
 
 <div class="col-layout-end clearfix"></div>
 </div>
-
-## Mechanics
-
-### Rolls & Checks
-
-Whenever someone has to roll or make a check, you roll **3d6** and add any
-bonuses or subtract any penalties from it.
-
-### Results
-
-#### Fractions
-
-All fractions are **always** rounded down.
-
-#### Negative Values
-
-Some pools cannot be negative, e.g. [Resources](/character#resources-res),
-[Endurance](/character#endurance) or [Health](/character#health). If such a
-value where to drop to below 0, it either prohibits certain actions, it has
-consequences or it's simply ignored and the value set to 0.
-
-### Difficulty Level
-
-Every roll or check has to beat a set [Difficulty Level](/crisis#difficulty) in
-order to be successful. The [Difficulty Level](/crisis#difficulty) is influenced
-by circumstances, increasing or decreasing the difficulty.
-
-*Contests* don't use [Difficulty Levels](/crisis#difficulty). *Contests* are
-used, when both parties are *active* (rather than one party being *passive*) and
-have to make a check and compare the results to see who is successful.
-
-NPCs are abstracted by a [Difficulty Level](/crisis#difficulty), and use this
-level for almost all checks, stats, etc.
-
-Some conditions, that are also used by player characters, may provide a positive
-or negative modifier to the [Difficulty Level](/crisis#difficulty). If a value
-is effected by a difficulty modifier, but the effected value requires a roll,
-e.g. a player character's [Defence](/crisis#defence), the modifier simply adds a
-bonus or penalty to the check. A difficulty modifier of `+1` adds a `+3` bonus,
-and a difficulty modifier of `-1` adds a `-3` penalty.
-
-#### Difficulty Modifier
-
-A [Difficulty Level](/crisis#difficulty) can **never** shift more than 2 levels
-in any direction.
-
-If a creative idea of a player would accomplish the same task and leaves little
-to no room of error, then the GM *can* decide what to do. Here are some ideas:
-
-* accept the creative solution as is,
-* require the character to roll if he would come up with the idea himself,
-* require the character to roll to see *how well* the solution is executed,
-* etc.
-
-#### Contests
-
-When two parties enter a *contest*, they both have to roll on a skill or stat.
-E.g. a sneaking character has to roll *Stealth*, while a guard would roll on
-*Perception*.
