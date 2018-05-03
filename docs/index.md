@@ -12,11 +12,12 @@ positive and negative ones, are added together. The higher the resulting number
 the better.
 
 A check has to be equal to or higher a target number in order to succeed.
-Otherwise, the check fails. The target number is derived from the task and the
-check made. Most checks are made for [Skills](/character/skills#skills) and
-[Abilities](/character#abilities).
+Otherwise, the check fails. The target number is derived from the task attempted
+and the check made. Most checks are made for [Skills](/character/skills#skills)
+and [Abilities](/character#abilities).
 
-A task's difficulty and the final target number are modified by:
+The target number for a Check and consequently the task's difficulty is
+modified by:
 
 * The [Ability](/character#abilities) Modifier,
 * the [Skill](/character/skills#skills) Modifier,
