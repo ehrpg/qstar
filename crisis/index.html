@@ -673,6 +673,26 @@
     Healing
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#healing-a-dying-character" title="Healing a dying character" class="md-nav__link">
+    Healing a dying character
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#healing-a-wounded-character" title="Healing a wounded character" class="md-nav__link">
+    Healing a wounded character
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
       </ul>
@@ -1037,6 +1057,26 @@
   <a href="#healing" title="Healing" class="md-nav__link">
     Healing
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#healing-a-dying-character" title="Healing a dying character" class="md-nav__link">
+    Healing a dying character
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#healing-a-wounded-character" title="Healing a wounded character" class="md-nav__link">
+    Healing a wounded character
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -1462,17 +1502,24 @@ varies, as e.g. a long march requires more time to restore
 point of <a href="../character#health-hp">Health</a> damage every day they can take a rest.
 Resting means that the character can only do light downtime activities, like
 reading.</p>
-<div class="admonition summary">
-<p class="admonition-title">Natural healing</p>
-<p><div class="formula formula-top formula-bottom">
-    <span data-bracket-bottom="Base">1 per day</span>
-</div></p>
-</div>
+<h4 id="healing-a-dying-character">Healing a dying character<a class="headerlink" href="#healing-a-dying-character" title="Permanent link">&para;</a></h4>
+<p>A <em>dying</em> character requires medical attention from any other character or even
+himself. Using the <strong>Science (Medicine)</strong> skill is required to treat a <em>dying</em>
+character. The check is penalized by the amount of negative HP the target has.</p>
+<p>If a character tries to medically treat himself, the check receives a penalty of
+5 points.</p>
+<p>First Aid requires one minute. If the check fails, the character loses one HP
+due to <em>dying</em>. First Aid can be attempted multiple times, until the character
+is healed or <em>dead</em>.</p>
+<p>A <em>dying</em> character can be administered a medical item instead of rolling for
+First Aid.</p>
+<h4 id="healing-a-wounded-character">Healing a wounded character<a class="headerlink" href="#healing-a-wounded-character" title="Permanent link">&para;</a></h4>
 <p>Medical installations, doctors and medical supplies increase the amount of
 <a href="../character#health-hp">Health</a> healed. Per day a <strong>Science (Medicine)</strong> check
-can be attempted for a single character. Translate the result of the check to
-the <strong>Difficulty Level</strong> of the <a href="#difficulty">Difficulty</a> table. The character
-heals that amount additionally that single day, given they can take a rest.</p>
+can be attempted for a single character.</p>
+<p>Translate the result of the check to the <strong>Difficulty Level</strong> of the
+<a href="#difficulty">Difficulty</a> table. The character heals that amount additionally
+that single day, given they can take a rest.</p>
 <div class="admonition summary">
 <p class="admonition-title">Healing</p>
 <p><div class="formula formula-top formula-bottom">
@@ -1480,6 +1527,10 @@ heals that amount additionally that single day, given they can take a rest.</p>
     <span data-bracket-top="X = Difficulty Level">X per day</span>
 </div></p>
 </div>
+<p>Medical installation, medibots, etc. make <strong>Science (Medicine)</strong> check with
+their respective modifiers likewise.</p>
+<p>Medical items heal a fixed amount of HP without requiring a <strong>Science
+(Medicine)</strong> check.</p>
                 
                   
                 

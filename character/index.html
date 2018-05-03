@@ -1241,16 +1241,21 @@ usually targetted by damage first. Once depleted, the health pool is targetted.
 <blockquote>
 <p><a href="../character/#health-hp">Health</a> represents the character&rsquo;s overall condition.</p>
 </blockquote>
-<p>If <a href="../character/#health-hp">Health</a> drops to zero, the character dies. A GM may
-even reduce certain values of the character such as abilities when a lot of
-<a href="../character/#health-hp">Health</a> is lost. Also, a GM may give the character a
-flaw if damaged badly, e.g. when losing an eye.</p>
+<p>If <a href="../character/#health-hp">Health</a> drops to zero or below, the character is
+<em>dying</em>. A <em>dying</em> character has to make a <a href="../character#might">Might</a> check the
+first time he drops to or below zero, and every time he receives damage while in
+a <em>dying</em> state. On a failed check the character falls unconcious. If the check
+succeeds, the character retains conciousnes.</p>
+<p>Outside of combat, a <em>dying</em> character loses one HP per minute, until he
+receives medical attention.</p>
+<p>A character that drops to or below his HP in negative dies.</p>
 <div class="admonition summary">
 <p class="admonition-title">Maximum <a href="../character/#health-hp">Health</a></p>
 <p><div class="formula formula-top formula-bottom">
-    <span data-bracket-bottom="Base">40</span> ±
-    <span data-bracket-top="Ability Modifier">Might</span> x
-    <span data-bracket-bottom="Base">5</span> ±
+    <span data-bracket-bottom="Base">12</span> ±
+    <span data-bracket-top="Ability Modifier">Might</span>
+    <span data-bracket-bottom="Base">x2</span>
+    <span></span> ±
     <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
 </div></p>
 </div>
@@ -1266,9 +1271,10 @@ sprinting cause stress on a character and reduce his
 <div class="admonition summary">
 <p class="admonition-title">Maximum <a href="../character/#endurance-ep">Endurance</a></p>
 <p><div class="formula formula-top formula-bottom">
-    <span data-bracket-bottom="Base">100</span> ±
-    <span data-bracket-top="Ability Modifier">Might</span> x
-    <span data-bracket-bottom="Base">10</span> ±
+    <span data-bracket-bottom="Base">36</span> ±
+    <span data-bracket-top="Ability Modifier">Might</span>
+    <span data-bracket-bottom="Base">x6</span>
+    <span></span> ±
     <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
 </div></p>
 </div>
