@@ -177,7 +177,7 @@ also used to determine if someone is lying or being nervous while talking.
 
 #### Tactics
 
-**AVERAGE**{.hf} This skill is used to non-verbally communicate with party
+**EASY**{.hf} This skill is used to non-verbally communicate with party
 members in combat, tactically breach into buildings or rooms, etc.
 
 #### Command

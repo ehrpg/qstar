@@ -1,5 +1,7 @@
 # Introduction
 
+## Prerequisites
+
 ## Mechanics
 
 ### Checks
