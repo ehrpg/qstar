@@ -95,7 +95,7 @@ Uses
 :   1 use per RoF
 
 Requires
-:   *Attack skill*{.qs-d6}
+:   *Attack skill*{.qs-one}
 
 <div class="col-layout-end"></div>
 <div class="col-layout-start qs-list"></div>

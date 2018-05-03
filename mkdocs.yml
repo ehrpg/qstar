@@ -35,6 +35,8 @@ extra_css:
     - _css/ehicons.css
     - _css/game-icons.css
 extra_javascript:
+    - _js/raphael.js
+    - _js/flowchart.js
     - _js/sorttable.js
     - _js/extra.js
 
@@ -45,6 +47,7 @@ markdown_extensions:
     - pymdownx.caret
     - pymdownx.extrarawhtml
     - markdown.extensions.def_list
+    - pymdownx.superfences
     - codehilite
     - admonition
     - attr_list

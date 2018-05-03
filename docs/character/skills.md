@@ -6,17 +6,16 @@ Everything a character does usually requires a skill. A skill further modifies
 the roll a character has to make in order to succeed or fail. Every skill has an
 [Ability](/character#abilities) it's associated with.
 
-
-| Skill Rank                          | Easy | Average | Hard |
-|-------------------------------------|-----:|--------:|-----:|
-| [Ability](/character#abilities) - 3 |    - |       - |    - |
-| [Ability](/character#abilities) - 2 |    - |       - |    1 |
-| [Ability](/character#abilities) - 1 |    - |       1 |    2 |
-| [Ability](/character#abilities) + 0 |    1 |       2 |    4 |
-| [Ability](/character#abilities) + 1 |    2 |       4 |    8 |
-| [Ability](/character#abilities) + 2 |    4 |       8 |   12 |
-| [Ability](/character#abilities) + 3 |    8 |      12 |   16 |
-| Extra + 1                           |   +4 |      +4 |   +4 |
+| Skill Rank                         | Easy | Average | Hard |
+|------------------------------------|-----:|--------:|-----:|
+| [Ability](/character#abilities) -3 |    - |       - |    1 |
+| [Ability](/character#abilities) -2 |    - |       1 |    2 |
+| [Ability](/character#abilities) -1 |    1 |       2 |    4 |
+| [Ability](/character#abilities) +0 |    2 |       4 |    8 |
+| [Ability](/character#abilities) +1 |    4 |       8 |   12 |
+| [Ability](/character#abilities) +2 |    8 |      12 |   16 |
+| [Ability](/character#abilities) +3 |   12 |      16 |   20 |
+| Extra +1                           |   +4 |      +4 |   +4 |
 
 Skills can be improved further and do not cap at a `+3` bonus. The cost of each
 additional Rank beyond the `+3` bonus is indicated by the *Extra + 1* columns.

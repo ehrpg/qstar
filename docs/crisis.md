@@ -108,9 +108,9 @@ more AP.
 | Hide      |    3 | Hide from others, provided they have no direct vision of you.                                     |
 | Move      |    1 | Move up to the character's [Speed](/character#speed-sp) modifier + 2 (at least 1) in meters.      |
 | Overwatch |    - | You can delay your turn and use your AP for Attack actions in somebody else's turn.               |
-| Take Aim  |    2 | Lowers the Difficulty Level by 1. Can be used multiple times.                                     |
 | Sneak     |    1 | Move up to half the character's [Speed](/character#speed-sp) modifier + 2 (at least 1) in meters. |
 | Stand Up  |    2 | Standing up when being prone.                                                                     |
+| Take Aim  |    2 | Lowers the Difficulty Level by 1. Can be used multiple times.                                     |
 | Use Item  |    2 | Use an item in a crisis. The item usually specifies the AP required.                              |
 
 ## Conditions
@@ -119,12 +119,22 @@ Certain actions become available or unavailable when characters are affected by
 various conditions. Conditions can be inflicted by other characters, by
 themselves or the environment.
 
-| Condition | Description                                                                      |
-|-----------|----------------------------------------------------------------------------------|
-| Drunk     | All checks impose a -2 penalty.                                                  |
-| Exhausted | You only regain 2 AP per round. All hits against you become critical hits.       |
-| Prone     | Can't melee attack. May provide bonus to *defence vs ranged* and ranged attacks. |
-| Stunned   | Can't act or react on current turn and does not regain AP.                       |
+Drunk
+:   All checks impose a -2 penalty.
+
+Dying
+:   Periodically lose health. Taking damage when dying requires a
+[Might](/character#might) check to stay concious.
+
+Exhausted
+:   You only regain 2 AP per round. All hits against you become critical hits.
+
+Prone
+:   Can't melee attack. May provide bonus to *defence vs ranged* and ranged
+attacks.
+
+Stunned
+:   Can't act or react on current turn and does not regain AP.
 
 ## Contests
 
@@ -201,11 +211,11 @@ applies if there is more than one enemy in range.
 Cover is always relative to other targets. A character can be in total cover for
 an enemy, but in plain sight for another.
 
-| Name        | Difficulty |
-|-------------|-----------:|
-| Cover       |         -2 |
-| Heavy Cover |         -4 |
-| Total Cover | unhittable |
+| Name        | Defence roll |
+|-------------|-------------:|
+| Cover       |           +2 |
+| Heavy Cover |           +4 |
+| Total Cover |   unhittable |
 
 <div class="left" markdown="1">
 
