@@ -48,6 +48,9 @@ otherwise noted by the Skill itself. These are the defaults for
 * Hard Skills can be used as a Skill at Rank [Skill -
   Terrible](/character/skills#skills).
 
+If a [Skill*](/character/skills#skills) has an asterisk next to it, it cannot be
+used without any investments.
+
 
 ## Skill Checks
 
@@ -151,7 +154,7 @@ lockpicking, etc.
 
 It's opposed by the creature's [Perception](/character#perception) value.
 
-#### Operate
+#### Operate*
 
 **AVERAGE**{.hf} This skill is used for piloting or steering a vessel and remote
 controlling drones.
@@ -165,7 +168,7 @@ controlling drones.
 
 **AVERAGE**{.hf} This skill is used to find and spot hidden things.
 
-#### Science
+#### Science*
 
 **HARD**{.hf} his skill is used to see if a character knows certain things about
 their field of expertise. Some scientific fields have a direct application too,
@@ -181,7 +184,7 @@ Choose two fields instead of one when training this skill the first time.
 Improving any of these two fields also improves the other one you chose.
 Additional fields can be trained following normal skill learning rules.
 
-#### Engineering
+#### Engineering*
 
 **HARD**{.hf} This skill is used for repairing mechanical or electronical
 motors, operate advanced machinery, etc.
@@ -202,9 +205,9 @@ if you owe the trader money, or if the trader owes you!
 **EASY**{.hf} This skill is used to lie, deliver speeches, persuade etc. It's
 also used to determine if someone is lying or being nervous while talking.
 
-#### Tactics
+#### Tactics*
 
-**AVERAGE**{.hf} This skill is used to non-verbally communicate with party
+**EASY**{.hf} This skill is used to non-verbally communicate with party
 members in combat, tactically breach into buildings or rooms, etc.
 
 #### Command

@@ -156,24 +156,32 @@ h1[id]:before {
   h1, h2, h3, h4, h5 {
     font-family: 'Zag';
     letter-spacing: 2px;
-    padding-left: 14px;
+    padding-left: 0;
     font-weight: normal;
   }
 
   h4:not(.dt) {
-    // border-top: 2px solid grey;
-    border-bottom: 2px solid #808080;
-    border-left: 1px solid #808080;
-    border-radius: 20px 20px 0px;
-    line-height: 20px;
-    padding-bottom: 8px;
-    margin-top: 50px;
+    &:before {
+      content: "\2B21";
+      padding: 0 10px;
+      display: inline-block;
+    }
   }
 
-  h4[id]:not(.dt):target:before {
-    margin-top: -.9rem !important;
-    padding-top: .9rem !important;
-  }
+  // h4:not(.dt) {
+  //   // border-top: 2px solid grey;
+  //   border-bottom: 2px solid #808080;
+  //   border-left: 1px solid #808080;
+  //   border-radius: 20px 20px 0px;
+  //   line-height: 20px;
+  //   padding-bottom: 8px;
+  //   margin-top: 50px;
+  // }
+
+  // h4[id]:not(.dt):target:before {
+  //   margin-top: -.9rem !important;
+  //   padding-top: .9rem !important;
+  // }
   // h2 {
   //   margin: 4rem 0 1.6rem;
   // }

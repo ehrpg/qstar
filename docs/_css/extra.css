@@ -475,18 +475,17 @@ details .formula.formula-top,
 }
 
 @font-face {
-  font-family: 'ZagBold';
-  src: url("../../_fonts/ZagBold.woff2") format("woff2"), url("../../_fonts/ZagBold.woff") format("woff"), url("../../_fonts/ZagBold.ttf") format("truetype");
-  font-weight: bold;
+  font-family: 'Zag';
+  src: url("../../_fonts/ZagRegular.woff2") format("woff2"), url("../../_fonts/ZagRegular.woff") format("woff"), url("../../_fonts/ZagRegular.ttf") format("truetype");
+  font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Zag';
-  src: url("../../_fonts/ZagRegular.woff2") format("woff2"), url("../../_fonts/ZagRegular.woff") format("woff"), url("../../_fonts/ZagRegular.ttf") format("truetype");
-  font-weight: normal;
+  src: url("../../_fonts/ZagBold.woff2") format("woff2"), url("../../_fonts/ZagBold.woff") format("woff"), url("../../_fonts/ZagBold.ttf") format("truetype");
+  font-weight: bold;
   font-style: normal;
-  font-size: 2rem;
 }
 
 html {
@@ -624,22 +623,14 @@ h1[id]:before {
 .md-typeset:not(.md-search-result__item) h1, .md-typeset:not(.md-search-result__item) h2, .md-typeset:not(.md-search-result__item) h3, .md-typeset:not(.md-search-result__item) h4, .md-typeset:not(.md-search-result__item) h5 {
   font-family: 'Zag';
   letter-spacing: 2px;
-  padding-left: 14px;
+  padding-left: 0;
   font-weight: normal;
 }
 
-.md-typeset:not(.md-search-result__item) h4:not(.dt) {
-  border-bottom: 2px solid #808080;
-  border-left: 1px solid #808080;
-  border-radius: 20px 20px 0px;
-  line-height: 20px;
-  padding-bottom: 8px;
-  margin-top: 50px;
-}
-
-.md-typeset:not(.md-search-result__item) h4[id]:not(.dt):target:before {
-  margin-top: -.9rem !important;
-  padding-top: .9rem !important;
+.md-typeset:not(.md-search-result__item) h4:not(.dt):before {
+  content: "\2B21";
+  padding: 0 10px;
+  display: inline-block;
 }
 
 .md-typeset:not(.md-search-result__item) ul {
