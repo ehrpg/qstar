@@ -1,6 +1,7 @@
 @import './modules/icons';
 @import './modules/perks-flaws';
 @import './modules/data-brackets';
+@import './modules/fonts';
 
 html {
   -moz-osx-font-smoothing: grayscale;
@@ -41,17 +42,6 @@ a[href*="example-"] {
 
 .admonition-title a {
   font-weight: 700;
-}
-
-@font-face {
-  font-family: 'Mainframe-Opto';
-  src:
-    url('../_fonts/Mainframe-Opto.eot?#iefix') format('embedded-opentype'),
-    url('../_fonts/Mainframe-Opto.woff') format('woff'),
-    url('../_fonts/Mainframe-Opto.ttf')  format('truetype'),
-    url('../_fonts/Mainframe-Opto.svg#Mainframe-Opto') format('svg');
-  font-weight: normal;
-  font-style: normal;
 }
 
 @media only screen and (min-width: 76.25em) {
@@ -155,17 +145,19 @@ h1[id]:before {
   content: "";
 }
 
+
 .md-typeset:not(.md-search-result__item) {
   strong.hf {
     /* header-font */
-    font-family: 'Mainframe-Opto';
-    letter-spacing: 0.1rem;
+    font-family: 'Zag';
+    letter-spacing: 1px;
   }
 
   h1, h2, h3, h4, h5 {
-    font-family: 'Mainframe-Opto';
-    letter-spacing: 0.3rem;
-    padding-left: 10px;
+    font-family: 'Zag';
+    letter-spacing: 2px;
+    padding-left: 14px;
+    font-weight: normal;
   }
 
   h4:not(.dt) {
@@ -175,7 +167,7 @@ h1[id]:before {
     border-radius: 20px 20px 0px;
     line-height: 20px;
     padding-bottom: 8px;
-    margin-top: 5rem;
+    margin-top: 50px;
   }
 
   h4[id]:not(.dt):target:before {
@@ -465,5 +457,67 @@ table thead th {
         }
       }
     }
+  }
+}
+
+html {
+  font-size: 77.5%;
+  text-align: justify;
+}
+
+body, input {
+  font-family: 'Zag', 'Roboto';
+}
+
+@media only screen and (min-width: 76.25em) {
+
+  .md-content {
+    margin-left: 242px;
+
+    .md-content__inner {
+      margin-right: 24px;
+      margin-left: 24px;
+    }
+  }
+
+  .md-sidebar--secondary {
+    margin-left: 1220px;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .md-content {
+    margin-right: 242px;
+  }
+}
+
+.md-sidebar {
+  width: 242px;
+  padding: 24px 0;
+}
+
+.md-content__inner {
+  margin: 0 16px 24px;
+}
+
+.md-grid {
+  max-width: 1222px;
+}
+
+strong,
+.md-nav__title,
+.admonition-title {
+  letter-spacing: 1px;
+}
+
+.md-typeset {
+  h2 {
+    margin: 40px 0 16px;
+  }
+  h3 {
+    margin: 32px 0 16px;
+  }
+  h4 {
+    margin: 16px 0;
   }
 }

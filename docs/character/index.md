@@ -95,7 +95,7 @@ Charisma is mostly used in social interactions between characters and NPCs.
 
 Perception is a passive value that represents the character's alertness. It's
 used to counter creatures that used the [Stealth
-Skill](/character/skills#stealth), etc.
+Skill](/character/skills#stealth), sense things and creatures, etc.
 
 !!! summary "Perception"
     <div class="formula formula-top formula-bottom">
@@ -345,7 +345,7 @@ Uses](/character/equipment#item-uses).
 Every character has a poor living standard by default.
 
 This living standard doesn't include anything. Everything your character needs
-costs [Credits](/equipment#credits-cr)
+costs [Credits](/equipment#credits-cr).
 
 #### Normal living standard
 

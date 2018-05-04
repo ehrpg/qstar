@@ -25,9 +25,9 @@
     display: block;
     height: 12px;
     position: absolute;
-    left:0;
+    left: -5px;
     right:0;
-    top: 13px;
+    top: 18px;
     // border: 1px solid #444;
     // border-top: none;
   }
@@ -40,8 +40,8 @@
     height: 12px;
     // border: 1px solid #444;
     position: absolute;
-    top: -15px;
-    left: -2px;
+    top: -18px;
+    left: -5px;
     right:0;
     // border-bottom: none;
   }
@@ -49,7 +49,7 @@
   &:after {
     content: attr(data-bracket-top);
     position: absolute;
-    top:-30px;
+    top:-34px;
     font-size: 80%;
     padding: 5px;
     white-space: nowrap;
