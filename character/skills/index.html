@@ -422,6 +422,26 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#skill-difficulty" title="Skill difficulty" class="md-nav__link">
+    Skill difficulty
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#skill-defaults" title="Skill defaults" class="md-nav__link">
+    Skill defaults
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#skill-checks" title="Skill Checks" class="md-nav__link">
     Skill Checks
   </a>
@@ -430,7 +450,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#skill-difficulty" title="Skill difficulty" class="md-nav__link">
+  <a href="#skill-difficulty_1" title="Skill difficulty" class="md-nav__link">
     Skill difficulty
   </a>
   
@@ -554,8 +574,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#perception" title="Perception" class="md-nav__link">
-    Perception
+  <a href="#search" title="Search" class="md-nav__link">
+    Search
   </a>
   
 </li>
@@ -588,8 +608,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#back-story" title="Back-Story" class="md-nav__link">
-    Back-Story
+  <a href="#back-story" title="Back story" class="md-nav__link">
+    Back story
   </a>
   
 </li>
@@ -956,6 +976,26 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#skill-difficulty" title="Skill difficulty" class="md-nav__link">
+    Skill difficulty
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#skill-defaults" title="Skill defaults" class="md-nav__link">
+    Skill defaults
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#skill-checks" title="Skill Checks" class="md-nav__link">
     Skill Checks
   </a>
@@ -964,7 +1004,7 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#skill-difficulty" title="Skill difficulty" class="md-nav__link">
+  <a href="#skill-difficulty_1" title="Skill difficulty" class="md-nav__link">
     Skill difficulty
   </a>
   
@@ -1088,8 +1128,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#perception" title="Perception" class="md-nav__link">
-    Perception
+  <a href="#search" title="Search" class="md-nav__link">
+    Search
   </a>
   
 </li>
@@ -1122,8 +1162,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#back-story" title="Back-Story" class="md-nav__link">
-    Back-Story
+  <a href="#back-story" title="Back story" class="md-nav__link">
+    Back story
   </a>
   
 </li>
@@ -1187,11 +1227,15 @@
 <blockquote>
 <p>Skills abstract your character&rsquo;s education, hobbies and fields of expertise.</p>
 </blockquote>
-<p>A character can only have skills at rank <a href="../../character/skills/#skills">Skill -
+<p>Everything a character does is usually associated with a
+<a href="../../character/skills#skills">Skill</a>. A Skill further modifies the roll a character
+has to make in order to succeed or fail. Every Skill has an
+<a href="../../character#abilities">Ability</a> it&rsquo;s associated with.</p>
+<p>A character can only have Skills at rank <a href="../../character/skills/#skills">Skill -
 Superb</a> up to the associated
 <a href="../../character#abilities">Ability</a> Modifier. If the <a href="../../character#abilities">Ability</a>
 Modifier is less than 0, the character can have no rank <a href="../../character/skills/#skills">Skill -
-Superb</a> skills associated with this
+Superb</a> Skills associated with this
 <a href="../../character#abilities">Ability</a>.</p>
 <table>
 <thead>
@@ -1199,8 +1243,9 @@ Superb</a> skills associated with this
 <th align="right">#</th>
 <th>Rank</th>
 <th align="right">Modifier</th>
-<th align="right">Downtime cost</th>
-<th align="right">∑ Downtime cost</th>
+<th align="right">Easy</th>
+<th align="right">Average</th>
+<th align="right">Hard</th>
 </tr>
 </thead>
 <tbody>
@@ -1208,59 +1253,82 @@ Superb</a> skills associated with this
 <td align="right">0</td>
 <td>Terrible</td>
 <td align="right">-6</td>
-<td align="right">0</td>
-<td align="right">0</td>
+<td align="right">-</td>
+<td align="right">-</td>
+<td align="right">-</td>
 </tr>
 <tr>
 <td align="right">1</td>
 <td>Poor</td>
 <td align="right">-3</td>
-<td align="right">3</td>
-<td align="right">3</td>
+<td align="right">-</td>
+<td align="right">-</td>
+<td align="right">1</td>
 </tr>
 <tr>
 <td align="right">2</td>
 <td>Mediocre</td>
 <td align="right">-1</td>
+<td align="right">-</td>
+<td align="right">1</td>
 <td align="right">2</td>
-<td align="right">5</td>
 </tr>
 <tr>
 <td align="right">3</td>
 <td>Fair</td>
 <td align="right">0</td>
+<td align="right">1</td>
 <td align="right">2</td>
-<td align="right">7</td>
+<td align="right">4</td>
 </tr>
 <tr>
 <td align="right">4</td>
 <td>Good</td>
 <td align="right">+1</td>
 <td align="right">2</td>
-<td align="right">9</td>
+<td align="right">4</td>
+<td align="right">8</td>
 </tr>
 <tr>
 <td align="right">5</td>
 <td>Great</td>
 <td align="right">+3</td>
-<td align="right">3</td>
+<td align="right">4</td>
+<td align="right">8</td>
 <td align="right">12</td>
 </tr>
 <tr>
 <td align="right">6</td>
 <td>Superb</td>
 <td align="right">+6</td>
-<td align="right">6</td>
-<td align="right">18</td>
+<td align="right">8</td>
+<td align="right">12</td>
+<td align="right">16</td>
 </tr>
 </tbody>
 </table>
 <div class="admonition summary">
-<p class="admonition-title">Maximum <a href="../../character/skills/#skills">Skill - Superb</a> rank skills</p>
+<p class="admonition-title">Maximum <a href="../../character/skills/#skills">Skill - Superb</a> rank Skills</p>
 <p><div class="formula formula-top formula-bottom">
     <span data-bracket-bottom="Ability Modifier">Any Ability</span>
 </div></p>
 </div>
+<h2 id="skill-difficulty">Skill difficulty<a class="headerlink" href="#skill-difficulty" title="Permanent link">&para;</a></h2>
+<p>A Skill is either easy, average or hard to master, as indicated by each
+individual Skill. More difficult Skills require more investment of time and
+money to improve, while easier Skills require less.</p>
+<h3 id="skill-defaults">Skill defaults<a class="headerlink" href="#skill-defaults" title="Permanent link">&para;</a></h3>
+<p>A Skill usually can be used even without any investments into the Skill, unless
+otherwise noted by the Skill itself. These are the defaults for
+<a href="../../character/skills#skills">Skills</a>:</p>
+<ul>
+<li>Easy Skills can be used as a Skill at Rank <a href="../../character/skills#skills">Skill -
+  Mediocre</a>.</li>
+<li>Average Skills can be used as a Skill at Rank <a href="../../character/skills#skills">Skill -
+  Poor</a>.</li>
+<li>Hard Skills can be used as a Skill at Rank <a href="../../character/skills#skills">Skill -
+  Terrible</a>.</li>
+</ul>
 <h2 id="skill-checks">Skill Checks<a class="headerlink" href="#skill-checks" title="Permanent link">&para;</a></h2>
 <p>Whenever it&rsquo;s uncertain if a character can do an action, or if the outcome is
 effected by noticeable outside factors, the character has to roll a skill check.</p>
@@ -1275,7 +1343,7 @@ effected by noticeable outside factors, the character has to roll a skill check.
 </div>
 </blockquote>
 
-<h3 id="skill-difficulty">Skill difficulty<a class="headerlink" href="#skill-difficulty" title="Permanent link">&para;</a></h3>
+<h3 id="skill-difficulty_1">Skill difficulty<a class="headerlink" href="#skill-difficulty_1" title="Permanent link">&para;</a></h3>
 <p>Skill checks have to be equal or higher to the <strong>Target #</strong> specified by its
 <a href="../../crisis#difficulty">Difficulty</a>, in order to succeed.</p>
 <h3 id="skill-ranks-and-ability-damage">Skill Ranks and Ability Damage<a class="headerlink" href="#skill-ranks-and-ability-damage" title="Permanent link">&para;</a></h3>
@@ -1309,41 +1377,42 @@ skills per ability.</p>
 <div class="left">
 <h3 id="might-skills">Might skills<a class="headerlink" href="#might-skills" title="Permanent link">&para;</a></h3>
 <h4 id="athletics">Athletics<a class="headerlink" href="#athletics" title="Permanent link">&para;</a></h4>
-<p>This skill used for climbing, running, jumping, etc.</p>
+<p><strong class="hf">EASY</strong> This skill used for climbing, running, jumping, etc.</p>
 <h4 id="force">Force<a class="headerlink" href="#force" title="Permanent link">&para;</a></h4>
-<p>This skill is used for breaching doors, break down treasure chests, holding
-doors shut etc.</p>
+<p><strong class="hf">AVERAGE</strong> This skill is used for breaching doors, break down treasure
+chests, holding doors shut etc.</p>
 <h4 id="melee">Melee<a class="headerlink" href="#melee" title="Permanent link">&para;</a></h4>
-<p>This skill is used when using melee weapons or defending against a melee attack.</p>
+<p><strong class="hf">AVERAGE</strong> This skill is used when using melee weapons or defending
+against a melee attack.</p>
 <p>This skill is opposed by the character&rsquo;s defensive value.</p>
-<h4 class="bold" id="heavy-weapons">Heavy Weapons<a class="headerlink" href="#heavy-weapons" title="Permanent link">&para;</a></h4>
-<p>This skill is used when using heavy weapons such as rocket launchers, vehicle
-mounted machine guns, or firing any vessel&rsquo;s weapons.</p>
+<h4 id="heavy-weapons">Heavy Weapons<a class="headerlink" href="#heavy-weapons" title="Permanent link">&para;</a></h4>
+<p><strong class="hf">HARD</strong> This skill is used when using heavy weapons such as rocket
+launchers, vehicle mounted machine guns, or firing any vessel&rsquo;s weapons.</p>
 </div>
 <div class="right">
 <h3 id="speed-skills">Speed skills<a class="headerlink" href="#speed-skills" title="Permanent link">&para;</a></h3>
 <h4 id="acrobatics">Acrobatics<a class="headerlink" href="#acrobatics" title="Permanent link">&para;</a></h4>
-<p>This skill is used for tumbling, dodging away from falling debris, balance over
-a rope, <em>jump</em> in zero gravity environments etc.</p>
+<p><strong class="hf">HARD</strong> This skill is used for tumbling, dodging away from falling debris,
+balance over a rope, <em>jump</em> in zero gravity environments etc.</p>
 <h4 id="light-weapons">Light Weapons<a class="headerlink" href="#light-weapons" title="Permanent link">&para;</a></h4>
-<p>This skill is used for ranged weapon attacks.</p>
+<p><strong class="hf">HARD</strong> This skill is used for ranged weapon attacks.</p>
 <p>This skill is opposed by the character&rsquo;s defensive value.</p>
 <h4 id="stealth">Stealth<a class="headerlink" href="#stealth" title="Permanent link">&para;</a></h4>
-<p>This skill is used to hide from others, sneak around, lockpicking, etc.</p>
-<p>It&rsquo;s opposed by the <a href="#perception">Perception</a> skill.</p>
-<h4 class="bold" id="operate">Operate<a class="headerlink" href="#operate" title="Permanent link">&para;</a></h4>
-<p>This skill is used for piloting or steering a vessel and remote controlling
-drones.</p>
+<p><strong class="hf">AVERAGE</strong> This skill is used to hide from others, sneak around,
+lockpicking, etc.</p>
+<p>It&rsquo;s opposed by the creature&rsquo;s <a href="../../character#perception">Perception</a> value.</p>
+<h4 id="operate">Operate<a class="headerlink" href="#operate" title="Permanent link">&para;</a></h4>
+<p><strong class="hf">AVERAGE</strong> This skill is used for piloting or steering a vessel and remote
+controlling drones.</p>
 </div>
 <div class="left">
 <h3 id="intelligence-skills">Intelligence skills<a class="headerlink" href="#intelligence-skills" title="Permanent link">&para;</a></h3>
-<h4 id="perception">Perception<a class="headerlink" href="#perception" title="Permanent link">&para;</a></h4>
-<p>This skill is used to spot hidden things.</p>
-<p>This skill counters the <a href="#stealth">Stealth</a> skill.</p>
+<h4 id="search">Search<a class="headerlink" href="#search" title="Permanent link">&para;</a></h4>
+<p><strong class="hf">AVERAGE</strong> This skill is used to find and spot hidden things.</p>
 <h4 id="science">Science<a class="headerlink" href="#science" title="Permanent link">&para;</a></h4>
-<p>This skill is used to see if a character knows certain things about their field
-of expertise. Some scientific fields have a direct application too, e.g.
-<em>Science - Computer</em> to hack a terminal.</p>
+<p><strong class="hf">HARD</strong> his skill is used to see if a character knows certain things about
+their field of expertise. Some scientific fields have a direct application too,
+e.g. <em>Science - Computer</em> to hack a terminal.</p>
 <ul>
 <li>Biology</li>
 <li>Chemistry</li>
@@ -1354,24 +1423,25 @@ of expertise. Some scientific fields have a direct application too, e.g.
 <p>Choose two fields instead of one when training this skill the first time.
 Improving any of these two fields also improves the other one you chose.
 Additional fields can be trained following normal skill learning rules.</p>
-<h4 class="bold" id="engineering">Engineering<a class="headerlink" href="#engineering" title="Permanent link">&para;</a></h4>
-<p>This skill is used for repairing mechanical or electronical motors, operate
-advanced machinery, etc.</p>
+<h4 id="engineering">Engineering<a class="headerlink" href="#engineering" title="Permanent link">&para;</a></h4>
+<p><strong class="hf">HARD</strong> This skill is used for repairing mechanical or electronical
+motors, operate advanced machinery, etc.</p>
 </div>
 <div class="right">
 <h3 id="charisma-skills">Charisma skills<a class="headerlink" href="#charisma-skills" title="Permanent link">&para;</a></h3>
-<h4 id="back-story">Back-Story<a class="headerlink" href="#back-story" title="Permanent link">&para;</a></h4>
-<p>This skill is used to determine eventual relationships with NPCs. E.g. when
-meeting a trader, you could roll a back story check to determine if you owe the
-trader money, or if the trader owes you!</p>
+<h4 id="back-story">Back story<a class="headerlink" href="#back-story" title="Permanent link">&para;</a></h4>
+<p><strong class="hf">AVERAGE</strong> This skill is used to determine eventual relationships with
+NPCs. E.g. when meeting a trader, you could roll a back story check to determine
+if you owe the trader money, or if the trader owes you!</p>
 <h4 id="oratory">Oratory<a class="headerlink" href="#oratory" title="Permanent link">&para;</a></h4>
-<p>This skill is used to lie, deliver speeches, persuade etc. It&rsquo;s also used to
-determine if someone is lying or being nervous while talking.</p>
+<p><strong class="hf">EASY</strong> This skill is used to lie, deliver speeches, persuade etc. It&rsquo;s
+also used to determine if someone is lying or being nervous while talking.</p>
 <h4 id="tactics">Tactics<a class="headerlink" href="#tactics" title="Permanent link">&para;</a></h4>
-<p>This skill is used to non-verbally communicate with party members in combat,
-tactically breach into buildings or rooms, etc.</p>
-<h4 class="bold" id="command">Command<a class="headerlink" href="#command" title="Permanent link">&para;</a></h4>
-<p>This skill is used to command crews, give orders on a vessel, lead others, etc.</p>
+<p><strong class="hf">AVERAGE</strong> This skill is used to non-verbally communicate with party
+members in combat, tactically breach into buildings or rooms, etc.</p>
+<h4 id="command">Command<a class="headerlink" href="#command" title="Permanent link">&para;</a></h4>
+<p><strong class="hf">HARD</strong> This skill is used to command crews, give orders on a vessel, lead
+others, etc.</p>
 </div>
 <div class="clearfix"></div>
                 

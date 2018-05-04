@@ -454,6 +454,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#perception" title="Perception" class="md-nav__link">
+    Perception
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#pools" title="Pools" class="md-nav__link">
     Pools
   </a>
@@ -1040,6 +1047,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#perception" title="Perception" class="md-nav__link">
+    Perception
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#pools" title="Pools" class="md-nav__link">
     Pools
   </a>
@@ -1259,6 +1273,10 @@ following rules.</p>
 by <em>certain events</em> while adventuring.</p>
 <p>Good or bad abilities also add bonuses or impose penalties on skill checks
 corresponding to the ability.</p>
+<p>Every character starts with each Ability set to <a href="#abilities">Ability - Mediocre</a>.</p>
+<p>Increasing an Ability costs 6 <a href="../character#downtime-dt">Downtime</a> per Rank.
+Decreasing an Ability nets 6 <a href="../character#downtime-dt">Downtime</a> per Rank.
+Decreasing an Ability can only be done at character creation.</p>
 <table>
 <thead>
 <tr>
@@ -1274,50 +1292,50 @@ corresponding to the ability.</p>
 <td align="right">0</td>
 <td>Terrible</td>
 <td align="right">-3</td>
-<td align="right">0</td>
-<td align="right">0</td>
+<td align="right">-6</td>
+<td align="right">-12</td>
 </tr>
 <tr>
 <td align="right">1</td>
 <td>Poor</td>
 <td align="right">-2</td>
-<td align="right">3</td>
-<td align="right">3</td>
+<td align="right">-6</td>
+<td align="right">-6</td>
 </tr>
 <tr>
-<td align="right">2</td>
-<td>Mediocre</td>
-<td align="right">-1</td>
-<td align="right">2</td>
-<td align="right">5</td>
+<td align="right"><strong>2</strong></td>
+<td><strong>Mediocre</strong></td>
+<td align="right"><strong>-1</strong></td>
+<td align="right"><strong>0</strong></td>
+<td align="right"><strong>0</strong></td>
 </tr>
 <tr>
 <td align="right">3</td>
 <td>Fair</td>
 <td align="right">0</td>
-<td align="right">2</td>
-<td align="right">7</td>
+<td align="right">6</td>
+<td align="right">6</td>
 </tr>
 <tr>
 <td align="right">4</td>
 <td>Good</td>
 <td align="right">+1</td>
-<td align="right">2</td>
-<td align="right">9</td>
+<td align="right">6</td>
+<td align="right">12</td>
 </tr>
 <tr>
 <td align="right">5</td>
 <td>Great</td>
 <td align="right">+2</td>
-<td align="right">3</td>
-<td align="right">12</td>
+<td align="right">6</td>
+<td align="right">18</td>
 </tr>
 <tr>
 <td align="right">6</td>
 <td>Superb</td>
 <td align="right">+3</td>
 <td align="right">6</td>
-<td align="right">18</td>
+<td align="right">24</td>
 </tr>
 </tbody>
 </table>
@@ -1361,6 +1379,19 @@ and his ability to lead.</p>
 <div class="clearfix"></div>
 
 <h2 id="secondary-characteristics">Secondary Characteristics<a class="headerlink" href="#secondary-characteristics" title="Permanent link">&para;</a></h2>
+<h3 id="perception">Perception<a class="headerlink" href="#perception" title="Permanent link">&para;</a></h3>
+<p>Perception is a passive value that represents the character&rsquo;s alertness. It&rsquo;s
+used to counter creatures that used the <a href="../character/skills#stealth">Stealth
+Skill</a>, etc.</p>
+<div class="admonition summary">
+<p class="admonition-title">Perception</p>
+<p><div class="formula formula-top formula-bottom">
+    <span data-bracket-bottom="Base">10</span> +
+    <span data-bracket-top="Ability modifier">Intelligence</span> +
+    <span data-bracket-bottom="Level">LVL</span> +
+    <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
+</div></p>
+</div>
 <h3 id="pools">Pools<a class="headerlink" href="#pools" title="Permanent link">&para;</a></h3>
 <blockquote>
 <p>Each creature has <a href="../character/#health-hp">Health</a> and
@@ -1582,7 +1613,7 @@ populated areas, moving in local traffic and areas, etc.</p>
 value ranges from -2 (slave, criminal) to +8 (emperor, god-king). Every
 character has a Status of 0 (citizen) by default.</p>
 <p>Increasing Status costs 4 <a href="../character#downtime-dt">Downtime</a> per point.
-Decreasing Status nets 4 <a href="../character#downtime-dt">Downtime</a>  per point.</p>
+Decreasing Status nets 4 <a href="../character#downtime-dt">Downtime</a> per point.</p>
 <p>The Status is important for social encounters. An ordinary citizen, with Status
 0, would usually have a hard time of convincing a lord, Status 3 or 4, of his
 ideas.</p>
