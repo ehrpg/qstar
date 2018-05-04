@@ -23,28 +23,28 @@
 	"Insert Might Link": {
 		"prefix": "might",
 		"body": [
-			"[Might](/character#might) "
+			"[Might](/character#might-mi) "
 		],
 		"description": "Insert Might Link"
 	},
 	"Insert Speed Link": {
 		"prefix": "speed",
 		"body": [
-			"[Speed](/character#speed) "
+			"[Speed](/character#speed-sp) "
 		],
 		"description": "Insert Speed Link"
 	},
 	"Insert Intelligence Link": {
 		"prefix": "intelligence",
 		"body": [
-			"[Intelligence](/character#intelligence) "
+			"[Intelligence](/character#intelligence-in) "
 		],
 		"description": "Insert Intelligence Link"
 	},
 	"Insert Charisma Link": {
 		"prefix": "charisma",
 		"body": [
-			"[Charisma](/character#charisma) "
+			"[Charisma](/character#charisma-ch) "
 		],
 		"description": "Insert Charisma Link"
 	},
@@ -52,35 +52,35 @@
 	"Insert Downtime Link": {
 		"prefix": "downtime",
 		"body": [
-			"[Downtime](/character#downtime) "
+			"[Downtime](/character#downtime-dt) "
 		],
 		"description": "Insert Downtime Link"
 	},
 	"Insert Influence Link": {
 		"prefix": "influence",
 		"body": [
-			"[Influence](/character#influence) "
+			"[Influence](/character#influence-inf) "
 		],
 		"description": "Insert Influence Link"
 	},
 	"Insert Resources Link": {
 		"prefix": "resources",
 		"body": [
-			"[Resources](/character#resources) "
+			"[Resources](/character#resources-res) "
 		],
 		"description": "Insert Resources Link"
 	},
 	"Insert Technology Link": {
 		"prefix": "technology",
 		"body": [
-			"[Technology](/character#technology) "
+			"[Technology](/character#technology-tech) "
 		],
 		"description": "Insert Technology Link"
 	},
 	"Insert Credits Link": {
 		"prefix": "cr",
 		"body": [
-			"[Credits](/equipment#credits) "
+			"[Credits](/equipment#credits-cr) "
 		],
 		"description": "Insert Credits Link"
 	},

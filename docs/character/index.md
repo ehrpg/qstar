@@ -314,6 +314,31 @@ Unlocking upgrades enables the acquisition of better equipment and vessels.
 </div>
 <div class="clearfix"></div>
 
+### Living standards
+
+Living standards decrease the micro management you have to do for your character
+and specifically his equipment and items, see [Item
+Uses](/character/equipment#item-uses).
+
+#### Poor living standard
+
+Every character has a poor living standard by default.
+
+This living standard doesn't include anything. Everything your character needs
+costs [Credits](/equipment#credits-cr)
+
+#### Normal living standard
+
+A normal living standard costs 1 [RES](#resources).
+
+This living standard includes normal accomadations, *free* food and drinks in
+populated areas, moving in local traffic and areas, etc.
+
+#### High living standard
+
+A high living standard costs 2 [RES](#resources). This increases the item's
+**Uses** refill rate.
+
 ## Skills
 
 See [Skills](/character/skills/).

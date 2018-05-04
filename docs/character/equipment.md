@@ -191,10 +191,22 @@ armour can also provide a bonus to [Defence](/crisis#defence).
 
 ## Miscellaneous Items
 
-!!! tip "Using miscellaneous items"
-    Most items are sold in packs to serve a purpose, e.g. climbing gear. These
-    packs consist of multiple items. Using a pack doesn't use up the items, e.g.
-    climbing doesn't make you run out of ropes or bolts to secure the ropes.
+### Item uses
+
+Item's can usually be used indefinitely. The only exceptions are items that list
+**Uses** in their stats. This stat lists how often the item can be used.
+
+The number in parenthesis indicates if and how often the item's **Uses** can be
+reset to their full amount.
+
+If it says *refill* instead, the item has to be refilled at 1/10 it's original
+price, which is also listed in the parenthesis next to the item's **Credits**
+cost.
+
+If it lists both, only one of the two options apply:
+
+* The first option applies, if the character's living standard is high, and
+* the second option applies, if the character's living standard is normal.
 
 !!! tip "Assets"
     Some miscellaneous items count as Assets, which can be used to reduce the
@@ -236,10 +248,13 @@ Food supplies provide food and water for a full week (7 days). Food supplies are
 automatically refilled (for free) in civilization, e.g. trading outposts etc.
 
 [Credits](#credits)
-:   1 250
+:   1 250 (125)
 
 [Weight](#weight)
 :   4
+
+Uses
+:   7 (∞), or 7 (refill)
 
 ##### Ration
 
