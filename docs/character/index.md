@@ -339,6 +339,19 @@ populated areas, moving in local traffic and areas, etc.
 A high living standard costs 2 [RES](#resources). This increases the item's
 **Uses** refill rate.
 
+### Status
+
+A character's Status is used to determine a character's social standing. This
+value ranges from -2 (slave, criminal) to +8 (emperor, god-king). Every
+character has a Status of 0 (citizen) by default.
+
+Increasing Status costs 4 [Downtime](/character#downtime-dt) per point.
+Decreasing Status nets 4 [Downtime](/character#downtime-dt)  per point.
+
+The Status is important for social encounters. An ordinary citizen, with Status
+0, would usually have a hard time of convincing a lord, Status 3 or 4, of his
+ideas.
+
 ## Skills
 
 See [Skills](/character/skills/).
@@ -350,6 +363,13 @@ See [Perks](/character/perks/).
 ## Flaws
 
 See [Flaws](/character/flaws/).
+
+## Languages
+
+Every character has at least one native language he can speak, write, read and
+understand.
+
+Each additional language costs 5 [Downtime](/character#downtime-dt) to learn.
 
 ## Improving your character
 

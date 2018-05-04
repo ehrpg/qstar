@@ -44,9 +44,9 @@ Humans are a versatile race.
 :   -
 
 [Downtime](/character#downtime-dt)
-:   20
+:   30
 
 [Credits](/character/equipment#credits)
-:   10 000
+:   5 000
 
 </div>

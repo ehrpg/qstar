@@ -166,7 +166,7 @@ advanced machinery, etc.
 
 ### Charisma skills
 
-#### Back story
+#### Back-Story
 
 This skill is used to determine eventual relationships with NPCs. E.g. when
 meeting a trader, you could roll a back story check to determine if you owe the

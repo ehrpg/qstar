@@ -208,6 +208,13 @@ If it lists both, only one of the two options apply:
 * The first option applies, if the character's living standard is high, and
 * the second option applies, if the character's living standard is normal.
 
+#### Cost
+
+When an item can be refilled, you only have to pay the full price of the item
+once, even if you buy more than one specimen of the item. Each additional
+specimen costs the item's refill cost. E.g. buying two rations costs `165` (`150
++ 15`).
+
 !!! tip "Assets"
     Some miscellaneous items count as Assets, which can be used to reduce the
     [Difficulty](/crisis#difficulty) for related checks. Usually an item states
@@ -231,6 +238,19 @@ A climbing gear consists of ropes, ice picks, bolts to secure the ropes, etc.
 [Weight](#weight)
 :   5
 
+##### Crowbar
+
+A simple crowbar to prise open closed containers and doors.
+
+[Asset](/crisis#difficulty-modifier)
+:   Force.
+
+[Credits](#credits)
+:   250
+
+[Weight](#weight)
+:   2
+
 ##### Flashlight / Lamp / Flares
 
 A flashlight or other source of light, used to illuminate dark spaces. The light
@@ -244,8 +264,8 @@ source includes fuel or batteries, that are usually always available.
 
 ##### Food Supplies
 
-Food supplies provide food and water for a full week (7 days). Food supplies are
-automatically refilled (for free) in civilization, e.g. trading outposts etc.
+Food supplies provide food and water for a full week (7 days). Food supplies can
+be refilled in civilization, e.g. trading outposts etc.
 
 [Credits](#credits)
 :   1 250 (125)
@@ -258,14 +278,14 @@ Uses
 
 ##### Ration
 
-A ration provides food and water for a single day. Rations are automatically
-refilled (for free) in civilization, e.g. trading outposts etc.
+A ration provides food and water for a single day. Rations can be refilled in
+civilization, e.g. trading outposts etc.
 
 [Credits](#credits)
-:   150
+:   150 (15)
 
 [Weight](#weight)
-:   1
+:   1 (∞), or 1 (refill)
 
 ##### Toolbox
 
