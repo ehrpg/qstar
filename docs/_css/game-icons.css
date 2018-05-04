@@ -2,9 +2,7 @@
   font-family: "game-icons";
   src: url('../_fonts/game-icons.eot');
   src: url('../_fonts/game-icons.eot?#iefix') format('eot'),
-    url('../_fonts/game-icons.woff') format('woff'),
-    url('../_fonts/game-icons.ttf') format('truetype'),
-    url('../_fonts/game-icons.svg#game-icons') format('svg');
+    url('../_fonts/game-icons.ttf') format('truetype');
 }
 
 *[class^="qs-"]:after,

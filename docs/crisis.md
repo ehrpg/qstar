@@ -165,7 +165,7 @@ NPCs have a fixed defence value (Difficulty Level) and do not have to roll.
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Base">3d6</span> ±
       <span data-bracket-top="Skill Modifier">Melee</span> ±
-      <span data-bracket-bottom="Ability Modifier">Might or Speed</span> +
+      <span data-bracket-bottom="Ability Modifier">[Might](/character#might-mi) or [Speed](/character#speed-sp)</span> +
       <span data-bracket-top="Defence modifier">Armour</span> ±
       <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
       <span data-bracket-top="per additional enemy">-2</span>
@@ -186,7 +186,7 @@ applies if there is more than one enemy in range.
 !!! summary "Defence vs ranged"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Base">3d6</span> ±
-      <span data-bracket-top="Ability Modifier">Speed</span> +
+      <span data-bracket-top="Ability Modifier">[Speed](/character#speed-sp)</span> +
       <span data-bracket-bottom="Defence modifier">Armour</span> ±
       <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>
