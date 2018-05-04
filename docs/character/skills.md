@@ -2,27 +2,52 @@
 
 > Skills abstract your character's education, hobbies and fields of expertise.
 
-A character can only have skills at rank [Skill -
+Everything a character does is usually associated with a
+[Skill](/character/skills#skills). A Skill further modifies the roll a character
+has to make in order to succeed or fail. Every Skill has an
+[Ability](/character#abilities) it's associated with.
+
+A character can only have Skills at rank [Skill -
 Superb](/character/skills/#skills) up to the associated
 [Ability](/character#abilities) Modifier. If the [Ability](/character#abilities)
 Modifier is less than 0, the character can have no rank [Skill -
-Superb](/character/skills/#skills) skills associated with this
+Superb](/character/skills/#skills) Skills associated with this
 [Ability](/character#abilities).
 
-|    # | Rank     | Modifier | Downtime cost | ∑ Downtime cost |
-|-----:|----------|---------:|--------------:|----------------:|
-|    0 | Terrible |       -6 |             0 |               0 |
-|    1 | Poor     |       -3 |             3 |               3 |
-|    2 | Mediocre |       -1 |             2 |               5 |
-|    3 | Fair     |        0 |             2 |               7 |
-|    4 | Good     |       +1 |             2 |               9 |
-|    5 | Great    |       +3 |             3 |              12 |
-|    6 | Superb   |       +6 |             6 |              18 |
+|    # | Rank     | Modifier | Easy | Average | Hard |
+|-----:|----------|---------:|-----:|--------:|-----:|
+|    0 | Terrible |       -6 |    - |       - |    - |
+|    1 | Poor     |       -3 |    - |       - |    1 |
+|    2 | Mediocre |       -1 |    - |       1 |    2 |
+|    3 | Fair     |        0 |    1 |       2 |    4 |
+|    4 | Good     |       +1 |    2 |       4 |    8 |
+|    5 | Great    |       +3 |    4 |       8 |   12 |
+|    6 | Superb   |       +6 |    8 |      12 |   16 |
 
-!!! summary "Maximum [Skill - Superb](/character/skills/#skills) rank skills"
+!!! summary "Maximum [Skill - Superb](/character/skills/#skills) rank Skills"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Ability Modifier">Any Ability</span>
     </div>
+
+## Skill difficulty
+
+A Skill is either easy, average or hard to master, as indicated by each
+individual Skill. More difficult Skills require more investment of time and
+money to improve, while easier Skills require less.
+
+### Skill defaults
+
+A Skill usually can be used even without any investments into the Skill, unless
+otherwise noted by the Skill itself. These are the defaults for
+[Skills](/character/skills#skills):
+
+* Easy Skills can be used as a Skill at Rank [Skill -
+  Mediocre](/character/skills#skills).
+* Average Skills can be used as a Skill at Rank [Skill -
+  Poor](/character/skills#skills).
+* Hard Skills can be used as a Skill at Rank [Skill -
+  Terrible](/character/skills#skills).
+
 
 ## Skill Checks
 
@@ -84,23 +109,24 @@ Below is a list of possible skills, provided by the Q* RPG system.
 
 #### Athletics
 
-This skill used for climbing, running, jumping, etc.
+**EASY**{.hf} This skill used for climbing, running, jumping, etc.
 
 #### Force
 
-This skill is used for breaching doors, break down treasure chests, holding
-doors shut etc.
+**AVERAGE**{.hf} This skill is used for breaching doors, break down treasure
+chests, holding doors shut etc.
 
 #### Melee
 
-This skill is used when using melee weapons or defending against a melee attack.
+**AVERAGE**{.hf} This skill is used when using melee weapons or defending
+against a melee attack.
 
 This skill is opposed by the character's defensive value.
 
-#### Heavy Weapons {.bold}
+#### Heavy Weapons
 
-This skill is used when using heavy weapons such as rocket launchers, vehicle
-mounted machine guns, or firing any vessel's weapons.
+**HARD**{.hf} This skill is used when using heavy weapons such as rocket
+launchers, vehicle mounted machine guns, or firing any vessel's weapons.
 
 </div>
 <div class="right" markdown="1">
@@ -109,42 +135,41 @@ mounted machine guns, or firing any vessel's weapons.
 
 #### Acrobatics
 
-This skill is used for tumbling, dodging away from falling debris, balance over
-a rope, *jump* in zero gravity environments etc.
+**HARD**{.hf} This skill is used for tumbling, dodging away from falling debris,
+balance over a rope, *jump* in zero gravity environments etc.
 
 #### Light Weapons
 
-This skill is used for ranged weapon attacks.
+**HARD**{.hf} This skill is used for ranged weapon attacks.
 
 This skill is opposed by the character's defensive value.
 
 #### Stealth
 
-This skill is used to hide from others, sneak around, lockpicking, etc.
+**AVERAGE**{.hf} This skill is used to hide from others, sneak around,
+lockpicking, etc.
 
-It's opposed by the [Perception](#perception) skill.
+It's opposed by the creature's [Perception](/character#perception) value.
 
-#### Operate {.bold}
+#### Operate
 
-This skill is used for piloting or steering a vessel and remote controlling
-drones.
+**AVERAGE**{.hf} This skill is used for piloting or steering a vessel and remote
+controlling drones.
 
 </div>
 <div class="left" markdown="1">
 
 ### Intelligence skills
 
-#### Perception
+#### Search
 
-This skill is used to spot hidden things.
-
-This skill counters the [Stealth](#stealth) skill.
+**AVERAGE**{.hf} This skill is used to find and spot hidden things.
 
 #### Science
 
-This skill is used to see if a character knows certain things about their field
-of expertise. Some scientific fields have a direct application too, e.g.
-*Science - Computer* to hack a terminal.
+**HARD**{.hf} his skill is used to see if a character knows certain things about
+their field of expertise. Some scientific fields have a direct application too,
+e.g. *Science - Computer* to hack a terminal.
 
 * Biology
 * Chemistry
@@ -156,35 +181,36 @@ Choose two fields instead of one when training this skill the first time.
 Improving any of these two fields also improves the other one you chose.
 Additional fields can be trained following normal skill learning rules.
 
-#### Engineering {.bold}
+#### Engineering
 
-This skill is used for repairing mechanical or electronical motors, operate
-advanced machinery, etc.
+**HARD**{.hf} This skill is used for repairing mechanical or electronical
+motors, operate advanced machinery, etc.
 
 </div>
 <div class="right" markdown="1">
 
 ### Charisma skills
 
-#### Back-Story
+#### Back story
 
-This skill is used to determine eventual relationships with NPCs. E.g. when
-meeting a trader, you could roll a back story check to determine if you owe the
-trader money, or if the trader owes you!
+**AVERAGE**{.hf} This skill is used to determine eventual relationships with
+NPCs. E.g. when meeting a trader, you could roll a back story check to determine
+if you owe the trader money, or if the trader owes you!
 
 #### Oratory
 
-This skill is used to lie, deliver speeches, persuade etc. It's also used to
-determine if someone is lying or being nervous while talking.
+**EASY**{.hf} This skill is used to lie, deliver speeches, persuade etc. It's
+also used to determine if someone is lying or being nervous while talking.
 
 #### Tactics
 
-This skill is used to non-verbally communicate with party members in combat,
-tactically breach into buildings or rooms, etc.
+**AVERAGE**{.hf} This skill is used to non-verbally communicate with party
+members in combat, tactically breach into buildings or rooms, etc.
 
-#### Command {.bold}
+#### Command
 
-This skill is used to command crews, give orders on a vessel, lead others, etc.
+**HARD**{.hf} This skill is used to command crews, give orders on a vessel, lead
+others, etc.
 
 </div>
 <div class="clearfix"></div>

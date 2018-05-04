@@ -25,15 +25,21 @@ by *certain events* while adventuring.
 Good or bad abilities also add bonuses or impose penalties on skill checks
 corresponding to the ability.
 
-|    # | Rank     | Modifier | Downtime cost | ∑ Downtime cost |
-|-----:|----------|---------:|--------------:|----------------:|
-|    0 | Terrible |       -3 |             0 |               0 |
-|    1 | Poor     |       -2 |             3 |               3 |
-|    2 | Mediocre |       -1 |             2 |               5 |
-|    3 | Fair     |        0 |             2 |               7 |
-|    4 | Good     |       +1 |             2 |               9 |
-|    5 | Great    |       +2 |             3 |              12 |
-|    6 | Superb   |       +3 |             6 |              18 |
+Every character starts with each Ability set to [Ability - Mediocre](#abilities).
+
+Increasing an Ability costs 6 [Downtime](/character#downtime-dt) per Rank.
+Decreasing an Ability nets 6 [Downtime](/character#downtime-dt) per Rank.
+Decreasing an Ability can only be done at character creation.
+
+|     # | Rank         | Modifier | Downtime cost | ∑ Downtime cost |
+|------:|--------------|---------:|--------------:|----------------:|
+|     0 | Terrible     |       -3 |            -6 |             -12 |
+|     1 | Poor         |       -2 |            -6 |              -6 |
+| **2** | **Mediocre** |   **-1** |         **0** |           **0** |
+|     3 | Fair         |        0 |             6 |               6 |
+|     4 | Good         |       +1 |             6 |              12 |
+|     5 | Great        |       +2 |             6 |              18 |
+|     6 | Superb       |       +3 |             6 |              24 |
 
 <blockquote class="important" markdown="1">
 If an ability were to drop below [Ability - Terrible](#abilities) the
@@ -84,6 +90,20 @@ Charisma is mostly used in social interactions between characters and NPCs.
 <div class="clearfix"></div>
 
 ## Secondary Characteristics
+
+### Perception
+
+Perception is a passive value that represents the character's alertness. It's
+used to counter creatures that used the [Stealth
+Skill](/character/skills#stealth), etc.
+
+!!! summary "Perception"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Base">10</span> +
+        <span data-bracket-top="Ability modifier">Intelligence</span> +
+        <span data-bracket-bottom="Level">LVL</span> +
+        <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
+    </div>
 
 ### Pools
 
@@ -346,7 +366,7 @@ value ranges from -2 (slave, criminal) to +8 (emperor, god-king). Every
 character has a Status of 0 (citizen) by default.
 
 Increasing Status costs 4 [Downtime](/character#downtime-dt) per point.
-Decreasing Status nets 4 [Downtime](/character#downtime-dt)  per point.
+Decreasing Status nets 4 [Downtime](/character#downtime-dt) per point.
 
 The Status is important for social encounters. An ordinary citizen, with Status
 0, would usually have a hard time of convincing a lord, Status 3 or 4, of his
