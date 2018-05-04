@@ -26,9 +26,9 @@ The [Downtime](/character#downtime-dt) received for character creation is
 determined by the creature's [Race](/character/races) and
 [Flaws](/character/flaws).
 
-Also, while creating a character [Downtime](/character#downtime-dt) can be traded
-for any other Currency. One [Downtime](/character#downtime-dt) provides two of any
-other Currency, or one of two Currencies each. E.g. a rich businessman could
+Also, while creating a character [Downtime](/character#downtime-dt) can be
+traded for any other Means. One [Downtime](/character#downtime-dt) provides two
+of any other Means, or one of two Currencies each. E.g. a rich businessman could
 trade some of his [Downtime](/character#downtime-dt) for
 [Resources](/character#resources-res) or [Influence](/character#influence-inf)
 

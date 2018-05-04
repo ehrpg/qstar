@@ -141,7 +141,7 @@ EP
 HP
 :   [Health points](/character#health-hp)
 
-* Currency
+* Means
 
 DT
 :   [Downtime](/character#downtime-dt)
