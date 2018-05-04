@@ -937,4 +937,12 @@ strong,
 .md-typeset h4 {
   margin: 16px 0;
 }
+
+.md-typeset p {
+  line-height: 1.5;
+}
+
+.md-nav__link {
+  margin-top: 0.4em;
+}
 /*# sourceMappingURL=extra.css.map */
