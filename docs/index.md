@@ -16,8 +16,8 @@ Otherwise, the check fails. The target number is derived from the task attempted
 and the check made. Most checks are made for [Skills](/character/skills#skills)
 and [Abilities](/character#abilities).
 
-The target number for a Check and consequently the task's difficulty is
-modified by:
+The target number for a Check and consequently the task's difficulty is modified
+by:
 
 * The [Ability](/character#abilities) Modifier,
 * the [Skill](/character/skills#skills) Modifier,

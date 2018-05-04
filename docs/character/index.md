@@ -83,7 +83,9 @@ Charisma is mostly used in social interactions between characters and NPCs.
 </div>
 <div class="clearfix"></div>
 
-## Pools
+## Secondary Characteristics
+
+### Pools
 
 > Each creature has [Health](/character/#health-hp) and
 > [Endurance](/character/#endurance-ep) pools. A robot is defined as a
@@ -98,7 +100,7 @@ usually targetted by damage first. Once depleted, the health pool is targetted.
 
 <div class="left" markdown="1">
 
-### Health (HP)
+#### Health (HP)
 
 > [Health](/character/#health-hp) represents the character's overall condition.
 
@@ -125,7 +127,7 @@ A character that drops to or below his HP in negative dies.
 </div>
 <div class="right" markdown="1">
 
-### Endurance (EP)
+#### Endurance (EP)
 
 > [Endurance](/character/#endurance-ep) represents the character's power.
 
@@ -135,9 +137,9 @@ sprinting cause stress on a character and reduce his
 
 !!! summary "Maximum [Endurance](/character/#endurance-ep)"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">36</span> ±
+        <span data-bracket-bottom="Base">30</span> ±
         <span data-bracket-top="Ability Modifier">Might</span>
-        <span data-bracket-bottom="Base">x6</span>
+        <span data-bracket-bottom="Base">x5</span>
         <span></span> ±
         <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>
@@ -145,7 +147,7 @@ sprinting cause stress on a character and reduce his
 </div>
 <div class="clearfix"></div>
 
-## Experience (XP)
+### Experience (XP)
 
 > Experience is gained throughout a character's adventuring career.
 
@@ -157,56 +159,54 @@ completing a longer adventure.
 Every character has 0 XP upon creation.
 </blockquote>
 
-### Level (LVL)
+Every three Experience Points (XP) increase a character's level by one.
+
+#### Level (LVL)
 
 A character's level improves the maximum values of his currencies. This does not
 necessarily make the character stronger, but make the character more resourceful
 and adaptable.
 
-### Fate
+#### Fate
 
 > A character can change the course of action and his fate.
 
 Every character has the same amount of fate rolls available as he has
 [Experience](/character#experience-xp). A fate roll allows a character to
 *re-roll* the entire check (all 3d6). Using a fate roll consumes one
-[Experience](/character#experience-xp). Using fate cannot be used if you have
-zero [Experience](/character#experience-xp) at the moment. Also, you can't lose
-a level through using fate.
+[Experience](/character#experience-xp). Using fate can reduce a character's
+level. Fate cannot be used if you have zero
+[Experience](/character#experience-xp) Points.
 
 Fate helps powerful characters to get a better outcome when faced with dire
-consequences, but comes with a cost.
+consequences, but changing fate always comes with a cost.
 
-!!! summary "Fate rolls available"
-    <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="XP">Experience</span> -
-      <span data-bracket-top="already spent">Fate</span>
-    </div>
+### Means
 
-## Currency
+> Means abstract the resources available to a character.
 
-> Currencies abstract the resources available to a character. This is not to be
-> mistaken with [Credits](/equipment#credits) or money.
+Means are limited by a maximum value, and are used to improve your character.
+This maximum value is modified by Circumstances, [Perks](/perks), and
+permanently due to [Experience](#experience-xp).
 
-Currencies are limited by a maximum value, and are used to improve your
-character. This maximum value is modified by Circumstances,
-[Perks](/perks), and permanently due to [Experience](#experience-xp).
-
-The current value for a currency can **never** exceed the maximum value. All
+The current value for Means can **never** exceed the maximum value. All
 exceeding points are usually lost.
 
 [Influence](/character#influence-inf), [Resources](/character#resources-res) and
-[Technology](/character#technology-tech) can be traded for each other. Any two currencies
-of one sort can be traded in for any other. [Downtime](/character#downtime-dt)
-cannot be traded.
+[Technology](/character#technology-tech) can be traded for each other. Any two
+Means of one sort can be traded in for any other.
+[Downtime](/character#downtime-dt) cannot be traded.
 
-[Credits](/equipment#credits) can never buy Currency directly. Exchanging
-[Credits](/equipment#credits) for Currency can usually only be done in
-conjuction with a quest or adventure - this is up to the GM.
+!!! tip "Buying Means"
+    A GM may disallow exchanging [Credits](/equipment#credits-cr) for Means
+    directly. Instead, he may require a character or the party to go on a quest
+    or adventure in order to exchange [Credits](/equipment#credits-cr). E.g. the
+    party has to find a wealthy trader, or rescue a trader from pirates first,
+    etc.
 
 <div class="left" markdown="1">
 
-### Downtime (DT)
+#### Downtime (DT)
 
 > [Downtime](#downtime-dt) represents the time a character can invest in
 > [Downtime](#downtime-dt) activities.
@@ -234,7 +234,7 @@ used. This DC *may* be lowered or increased depending on the situation.
 </div>
 <div class="right" markdown="1">
 
-### Influence (INF)
+#### Influence (INF)
 
 > [Influence](#influence-inf) represents connections, owed favours by others,
 > fame and infamy.
@@ -259,7 +259,7 @@ Traders may also give you better prices.
 </div>
 <div class="left" markdown="1">
 
-### Resources (RES)
+#### Resources (RES)
 
 > [Resources](#resources-res) represent materials used for creating, repairing,
 > upgrading and acquiring equipment.
@@ -288,7 +288,7 @@ Powerful equipment requiring [Resources](#resources-res) usually adds
 </div>
 <div class="right" markdown="1">
 
-### Technology (TECH)
+#### Technology (TECH)
 
 > [Technology](#technology-tech) represents the character's technological
 > knowledge, which on the other hand allows to unlock new
@@ -325,3 +325,17 @@ See [Perks](/character/perks/).
 ## Flaws
 
 See [Flaws](/character/flaws/).
+
+## Improving your character
+
+Improving your character happens automatically due completing missions, quests,
+fighting and adventuring and eventually earning [Experience](#experience-xp),
+which will increase the character's [Level](#level-lvl).
+
+[Abilities](/character#abilities) and [Skills](/character/skills#skills) can be
+improved too, but require [Downtime](/character#downtime) which in general is
+hard to come by.
+
+Any characters skills and expertise are greatly enhanced by the equipment they
+own. Hard training may give a character a permanent bonus, but the right item is
+often cheaper and acquired more easily.
