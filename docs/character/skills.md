@@ -74,9 +74,9 @@ Skill checks have to be equal or higher to the **Target #** specified by its
 
 ### Skill Ranks and Ability Damage
 
-Temporary [Intelligence](/character/#intelligence-in) damage **does not** change
-the maximum [Skill - Superb](/character/skills/#skills) rank skills. Permanent
-[Intelligence](/character/#intelligence-in) damage **does** change those values.
+Temporary [Ability](/character#abilities) damage **does not** change the maximum
+[Skill - Superb](/character/skills/#skills) rank skills. Permanent
+[Ability](/character#abilities) damage **does** change those values.
 
 A character can lose his benefits from skills if the ability requirement is not
 met anymore. Only the skill bonus changes, the skill rank stays unchanged.
@@ -194,7 +194,7 @@ motors, operate advanced machinery, etc.
 
 ### Charisma skills
 
-#### Back story
+#### Back-Story
 
 **AVERAGE**{.hf} This skill is used to determine eventual relationships with
 NPCs. E.g. when meeting a trader, you could roll a back story check to determine

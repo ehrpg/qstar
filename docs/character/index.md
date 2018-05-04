@@ -97,7 +97,6 @@ Perception is a passive value that represents the character's alertness. It's
 used to counter creatures that used the [Stealth
 Skill](/character/skills#stealth), sense things and creatures, etc.
 
-<div class="md-typeset__scrollwrap" markdown="1">
 !!! summary "Perception"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Base">10</span> +
@@ -105,7 +104,6 @@ Skill](/character/skills#stealth), sense things and creatures, etc.
         <span data-bracket-bottom="Level">LVL</span> +
         <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>
-</div>
 
 ### Pools
 
