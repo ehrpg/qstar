@@ -13,12 +13,12 @@ may even build an adventure around the flaw removal.
 
 ## Requirements
 
-Flaws are usually restricted by Ability ranks, Skill ranks, or other stats.
+Flaws are usually restricted by Attribute ranks, Skill ranks, or other stats.
 Races or GM decisions providing flaws ignore the requirement.
 
-If a flaw states an Ability rank or Skill rank requirement, the character may not
+If a flaw states an Attribute rank or Skill rank requirement, the character may not
 exceed that rank. Also a flaw's requirement prohibits a character to improve the
-Ability or Skill above the requirement.
+Attribute or Skill above the requirement.
 
 ## Character Flaws
 

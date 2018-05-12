@@ -131,8 +131,8 @@ $headers: h1, h2, h3, h4, h5;
   //   content: "\E094";
   // }
 
-  *#abilities:after,
-  a[href*="#abilities"]:after {
+  *#attributes:after,
+  a[href*="#attributes"]:after {
     content: "\E6C0";
   }
 

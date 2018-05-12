@@ -14,15 +14,16 @@ the better.
 A check has to be equal to or higher a target number in order to succeed.
 Otherwise, the check fails. The target number is derived from the task attempted
 and the check made. Most checks are made for [Skills](/character/skills#skills)
-and [Abilities](/character#abilities).
+and [Attributes](/character#attributes).
 
 The target number for a Check and consequently the task's difficulty is modified
 by:
 
-* The [Ability](/character#abilities) Modifier,
+* The [Attribute](/character#attributes) Modifier,
 * the [Skill](/character/skills#skills) Modifier,
-* perks and flaws,
-* used equipment,
+* [Perks](/character/perks-flaws#perks) and
+  [Flaws](/character/perks-flaws#flaws),
+* used [Equipment](/character/equipment),
 * and other circumstances.
 
 #### Contests
@@ -113,7 +114,7 @@ Weight exceeding a character's [Might](/character#might-mi) imposes penalties.
 <div class="dl-horizontal" markdown="1">
 <div class="col-layout-start"></div>
 
-* Abilities
+* Attributes
 
 MI
 :   [Might](/character#might-mi)
@@ -141,7 +142,7 @@ EP
 HP
 :   [Health points](/character#health-hp)
 
-* Means
+* Acquisitions
 
 DT
 :   [Downtime](/character#downtime-dt)

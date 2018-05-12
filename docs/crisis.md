@@ -58,8 +58,8 @@ order.
 !!! summary "[Turn Order](#turn-order)"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Base">3d6</span> ±
-      <span data-bracket-top="Ability Modifier">Intelligence</span> ±
-      <span data-bracket-bottom="Ability Modifier">Speed</span> ±
+      <span data-bracket-top="Attribute Modifier">Intelligence</span> ±
+      <span data-bracket-bottom="Attribute Modifier">Speed</span> ±
       <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>
 
@@ -147,7 +147,7 @@ Combat is the most common kind of a crisis.
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Base">3d6</span> ±
       <span data-bracket-top="Skill Modifier">Skill</span> ±
-      <span data-bracket-bottom="Ability Modifier">Ability</span> ±
+      <span data-bracket-bottom="Attribute Modifier">Attribute</span> ±
       <span data-bracket-top="Weapon modifier">Hit</span> ±
       <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
     </div>
@@ -165,7 +165,7 @@ NPCs have a fixed defence value (Difficulty Level) and do not have to roll.
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Base">3d6</span> ±
       <span data-bracket-top="Skill Modifier">Melee</span> ±
-      <span data-bracket-bottom="Ability Modifier">[Might](/character#might-mi) or [Speed](/character#speed-sp)</span> +
+      <span data-bracket-bottom="Attribute Modifier">[Might](/character#might-mi) or [Speed](/character#speed-sp)</span> +
       <span data-bracket-top="Defence modifier">Armour</span> ±
       <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
       <span data-bracket-top="per additional enemy">-2</span>
@@ -186,7 +186,7 @@ applies if there is more than one enemy in range.
 !!! summary "Defence vs ranged"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Base">3d6</span> ±
-      <span data-bracket-top="Ability Modifier">[Speed](/character#speed-sp)</span> +
+      <span data-bracket-top="Attribute Modifier">[Speed](/character#speed-sp)</span> +
       <span data-bracket-bottom="Defence modifier">Armour</span> ±
       <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>
@@ -240,7 +240,7 @@ to deal damage to the character's [Health](/character#health-hp) pool.
 !!! summary "Dealing damage"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Weapon">Damage</span> ±
-        <span data-bracket-top="Ability Modifier">Ability</span> ±
+        <span data-bracket-top="Attribute Modifier">Attribute</span> ±
         <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
     </div>
 
@@ -274,7 +274,7 @@ varies, as e.g. a long march requires more time to restore
 
 [Health](/character#health-hp) is restored slowly over time. A character heals 1
 point of [Health](/character#health-hp) damage every day they can take a rest.
-Resting means that the character can only do light downtime activities, like
+Resting Acquisitions that the character can only do light downtime activities, like
 reading.
 
 #### Healing a dying character

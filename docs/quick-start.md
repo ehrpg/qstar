@@ -6,5 +6,5 @@
 
 You play a character, and the GM manages non-player characters, the environment,
 and tells the story. Every character is defined by a set of attributes.
-Attributes include abilities, skills, means, equipment, experience, race,
+Attributes include Attributes, skills, Acquisitions, equipment, experience, race,
 perks, flaws, etc.

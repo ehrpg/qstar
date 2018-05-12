@@ -59,8 +59,8 @@ Drawback
 :   -2 to [Any Skill](/character/skills#available-skills)
 
 Requires {.qs-sep}
-:   [Ability](/character#abilities) of benefitted skill [Ability -
-Great](/character#abilities)
+:   [Attribute](/character#attributes) of benefitted skill [Attribute -
+Great](/character#attributes)
 
 [Downtime](/character#downtime-dt)
 :   1

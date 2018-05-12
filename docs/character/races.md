@@ -5,7 +5,7 @@ the same category, e.g. animals or robots.
 
 A race modifies:
 
-* abilities, currencies, pools and skills
+* Attributes, currencies, pools and skills
 * adds perks and flaws,
 * enables access to inherent stunts,
 * and may add roleplaying Circumstances

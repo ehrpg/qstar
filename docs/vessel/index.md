@@ -26,7 +26,7 @@ shield generators, sensors, fuel, etc.
 The vessel's upgrades require a certain amount of power-level. Better generators
 provide more energy, which the vessel can utilize for more upgrades.
 
-The power-level can be temporarily shifted to other primary abilities. If the
+The power-level can be temporarily shifted to other primary Attributes. If the
 power-level requirements of an upgrade isn't met, that upgrade becomes rendered
 inert, until enough power is available again.
 
@@ -88,7 +88,7 @@ An origin modifies:
 
 * primary and secondary stats,
 * adds upgrades or flaws,
-* enables access to inherent abilities,
+* enables access to inherent Attributes,
 * and may add roleplaying circumstances.
 
 ## Pools

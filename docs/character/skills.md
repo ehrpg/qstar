@@ -5,14 +5,14 @@
 Everything a character does is usually associated with a
 [Skill](/character/skills#skills). A Skill further modifies the roll a character
 has to make in order to succeed or fail. Every Skill has an
-[Ability](/character#abilities) it's associated with.
+[Attribute](/character#attributes) it's associated with.
 
 A character can only have Skills at rank [Skill -
 Superb](/character/skills/#skills) up to the associated
-[Ability](/character#abilities) Modifier. If the [Ability](/character#abilities)
+[Attribute](/character#attributes) Modifier. If the [Attribute](/character#attributes)
 Modifier is less than 0, the character can have no rank [Skill -
 Superb](/character/skills/#skills) Skills associated with this
-[Ability](/character#abilities).
+[Attribute](/character#attributes).
 
 |    # | Rank     | Modifier | Easy | Average | Hard |
 |-----:|----------|---------:|-----:|--------:|-----:|
@@ -26,7 +26,7 @@ Superb](/character/skills/#skills) Skills associated with this
 
 !!! summary "Maximum [Skill - Superb](/character/skills/#skills) rank Skills"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Ability Modifier">Any Ability</span>
+        <span data-bracket-bottom="Attribute Modifier">Any Attribute</span>
     </div>
 
 ## Skill difficulty
@@ -60,7 +60,7 @@ effected by noticeable outside factors, the character has to roll a skill check.
 !!! summary "Skill checks"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Base">3d6</span> ±
-        <span data-bracket-top="Ability Modifier">Ability</span> ±
+        <span data-bracket-top="Attribute Modifier">Attribute</span> ±
         <span data-bracket-bottom="Skill Modifier">Skill</span> ±
         <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>
@@ -72,19 +72,19 @@ effected by noticeable outside factors, the character has to roll a skill check.
 Skill checks have to be equal or higher to the **Target #** specified by its
 [Difficulty](/crisis#difficulty), in order to succeed.
 
-### Skill Ranks and Ability Damage
+### Skill Ranks and Attribute Damage
 
-Temporary [Ability](/character#abilities) damage **does not** change the maximum
+Temporary [Attribute](/character#attributes) damage **does not** change the maximum
 [Skill - Superb](/character/skills/#skills) rank skills. Permanent
-[Ability](/character#abilities) damage **does** change those values.
+[Attribute](/character#attributes) damage **does** change those values.
 
-A character can lose his benefits from skills if the ability requirement is not
+A character can lose his benefits from skills if the Attribute requirement is not
 met anymore. Only the skill bonus changes, the skill rank stays unchanged.
 
 
 !!! example "Example"
     Jack has skilled [Athletics - Great](/character/skills/#skills), and his
-    ability is [Might - Great](/character/#might-mi). He loses
+    Attribute is [Might - Great](/character/#might-mi). He loses
     [Might](/character#might-mi) and his rank is reduced to [Might -
     Fair](/character/#might-mi). His skill also drops to [Athletics -
     Fair](/character/skills/#skills) temporarily until his
@@ -104,7 +104,7 @@ Below is a list of possible skills, provided by the Q* RPG system.
     skills. Neither the system nor characters are limited to these skills: if
     you require different skills to suite your needs, then add them to your
     game. For balancing reasons try to restrict yourself to only 4 available
-    skills per ability.
+    skills per Attribute.
 
 <div class="left" markdown="1">
 

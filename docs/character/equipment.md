@@ -33,7 +33,7 @@ give you extra [Resources](/character#resources-res) however.
 
 An item can specify its Weight. The Weight value indicates the minimum
 [Might](/character#might-mi) needed to carry the item. The `#` column in the
-[Ability](/character#abilities) rank table shows the rank required.
+[Attribute](/character#attributes) rank table shows the rank required.
 
 If the Weight column shows zero or has no Weight, then its Weight can be
 disregarded.
@@ -80,7 +80,7 @@ slot, unless otherwise mentioned.
 
 ## Equipment condition
 
-An item *can* have a condition, making it better or worse. As with abilities and
+An item *can* have a condition, making it better or worse. As with Attributes and
 skills for characters, the item condition uses these adjectives:
 
 |    # | Item condition | Modifier | [RES](/character#resources-res) cost |

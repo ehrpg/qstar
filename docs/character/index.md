@@ -7,7 +7,7 @@ following rules.
 A character is defined by:
 
 * A race,
-* abilities,
+* Attributes,
 * currencies,
 * experience,
 * pools, and
@@ -17,32 +17,32 @@ A character is defined by:
 
 See [Races](/character/races).
 
-## Abilities
+## Attributes
 
-Abilities are *mostly fixed* values every creature has. They are only modified
+Attributes are *mostly fixed* values every creature has. They are only modified
 by *certain events* while adventuring.
 
-Good or bad abilities also add bonuses or impose penalties on skill checks
-corresponding to the ability.
+Good or bad Attributes also add bonuses or impose penalties on skill checks
+corresponding to the Attribute.
 
-Every character starts with each Ability set to [Ability - Mediocre](#abilities).
+Every character starts with each Attribute set to [Attribute - Mediocre](#attributes).
 
-Increasing an Ability costs 6 [Downtime](/character#downtime-dt) per Rank.
-Decreasing an Ability nets 6 [Downtime](/character#downtime-dt) per Rank.
-Decreasing an Ability can only be done at character creation.
+Increasing an Attribute costs 6 [Downtime](/character#downtime-dt) per Rank.
+Decreasing an Attribute nets 6 [Downtime](/character#downtime-dt) per Rank.
+Decreasing an Attribute can only be done at character creation.
 
-|     # | Rank         | Modifier | Downtime cost | ∑ Downtime cost |
-|------:|--------------|---------:|--------------:|----------------:|
-|     0 | Terrible     |       -3 |            -6 |             -12 |
-|     1 | Poor         |       -2 |            -6 |              -6 |
-| **2** | **Mediocre** |   **-1** |         **0** |           **0** |
-|     3 | Fair         |        0 |             6 |               6 |
-|     4 | Good         |       +1 |             6 |              12 |
-|     5 | Great        |       +2 |             6 |              18 |
-|     6 | Superb       |       +3 |             6 |              24 |
+|     # | Rank         | Modifier | Downtime cost |
+|------:|--------------|---------:|--------------:|
+|     0 | Terrible     |       -3 |           -12 |
+|     1 | Poor         |       -2 |            -6 |
+| **2** | **Mediocre** |   **-1** |         **0** |
+|     3 | Fair         |        0 |             6 |
+|     4 | Good         |       +1 |            12 |
+|     5 | Great        |       +2 |            18 |
+|     6 | Superb       |       +3 |            24 |
 
 <blockquote class="important" markdown="1">
-If an ability were to drop below [Ability - Terrible](#abilities) the
+If an Attribute were to drop below [Attribute - Terrible](#attributes) the
 character dies.
 </blockquote>
 
@@ -73,7 +73,7 @@ act in a [Crisis](/#crisis) sooner.
 > Intelligence describes how well your character learns new things, and how well
 he remembers already existing things.
 
-Intelligence improves a character's ability to assess situations and skills
+Intelligence improves a character's Attribute to assess situations and skills
 related to knowing things.
 
 </div>
@@ -82,7 +82,7 @@ related to knowing things.
 ### Charisma (CH)
 
 > Charisma represents the character's physical attractiveness, force of personality
-and his ability to lead.
+and his Attribute to lead.
 
 Charisma is mostly used in social interactions between characters and NPCs.
 
@@ -100,7 +100,7 @@ Skill](/character/skills#stealth), sense things and creatures, etc.
 !!! summary "Perception"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Base">10</span> +
-        <span data-bracket-top="Ability modifier">Intelligence</span> +
+        <span data-bracket-top="Attribute modifier">Intelligence</span> +
         <span data-bracket-bottom="Level">LVL</span> +
         <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>
@@ -138,7 +138,7 @@ A character that drops to or below his HP in negative dies.
 !!! summary "Maximum [Health](/character/#health-hp)"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Base">12</span> ±
-        <span data-bracket-top="Ability Modifier">Might</span>
+        <span data-bracket-top="Attribute Modifier">Might</span>
         <span data-bracket-bottom="Base">x2</span>
         <span></span> ±
         <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
@@ -158,7 +158,7 @@ sprinting cause stress on a character and reduce his
 !!! summary "Maximum [Endurance](/character/#endurance-ep)"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Base">30</span> ±
-        <span data-bracket-top="Ability Modifier">Might</span>
+        <span data-bracket-top="Attribute Modifier">Might</span>
         <span data-bracket-bottom="Base">x5</span>
         <span></span> ±
         <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
@@ -201,24 +201,24 @@ level. Fate cannot be used if you have zero
 Fate helps powerful characters to get a better outcome when faced with dire
 consequences, but changing fate always comes with a cost.
 
-### Means
+### Acquisitions
 
-> Means abstract the resources available to a character.
+> Acquisitions abstract the resources available to a character.
 
-Means are limited by a maximum value, and are used to improve your character.
+Acquisitions are limited by a maximum value, and are used to improve your character.
 This maximum value is modified by Circumstances, [Perks](/perks), and
 permanently due to [Experience](#experience-xp).
 
-The current value for Means can **never** exceed the maximum value. All
+The current value for Acquisitions can **never** exceed the maximum value. All
 exceeding points are usually lost.
 
 [Influence](/character#influence-inf), [Resources](/character#resources-res) and
 [Technology](/character#technology-tech) can be traded for each other. Any two
-Means of one sort can be traded in for any other.
+Acquisitions of one sort can be traded in for any other.
 [Downtime](/character#downtime-dt) cannot be traded.
 
-!!! tip "Buying Means"
-    A GM may disallow exchanging [Credits](/equipment#credits-cr) for Means
+!!! tip "Buying Acquisitions"
+    A GM may disallow exchanging [Credits](/equipment#credits-cr) for Acquisitions
     directly. Instead, he may require a character or the party to go on a quest
     or adventure in order to exchange [Credits](/equipment#credits-cr). E.g. the
     party has to find a wealthy trader, or rescue a trader from pirates first,
@@ -342,21 +342,21 @@ Uses](/character/equipment#item-uses).
 
 #### Poor living standard
 
-Every character has a poor living standard by default.
+A poor living standard nets 1 [RES](#resources).
 
 This living standard doesn't include anything. Everything your character needs
 costs [Credits](/equipment#credits-cr).
 
 #### Normal living standard
 
-A normal living standard costs 1 [RES](#resources).
+Every character has a normal living standard by default.
 
 This living standard includes normal accomadations, *free* food and drinks in
 populated areas, moving in local traffic and areas, etc.
 
 #### High living standard
 
-A high living standard costs 2 [RES](#resources). This increases the item's
+A high living standard costs 1 [RES](#resources). This increases the item's
 **Uses** refill rate.
 
 ### Status
@@ -372,6 +372,18 @@ The Status is important for social encounters. An ordinary citizen, with Status
 0, would usually have a hard time of convincing a lord, Status 3 or 4, of his
 ideas.
 
+## Languages
+
+Every character has at least one native language he can speak, write, read and
+understand.
+
+Learning a Language can be done in three steps, whereas each step costs 2
+[Downtime](/character#downtime-dt) to learn:
+
+* Reading
+* Speaking
+* Writing
+
 ## Skills
 
 See [Skills](/character/skills/).
@@ -384,20 +396,13 @@ See [Perks](/character/perks/).
 
 See [Flaws](/character/flaws/).
 
-## Languages
-
-Every character has at least one native language he can speak, write, read and
-understand.
-
-Each additional language costs 5 [Downtime](/character#downtime-dt) to learn.
-
 ## Improving your character
 
 Improving your character happens automatically due completing missions, quests,
 fighting and adventuring and eventually earning [Experience](#experience-xp),
 which will increase the character's [Level](#level-lvl).
 
-[Abilities](/character#abilities) and [Skills](/character/skills#skills) can be
+[Attributes](/character#attributes) and [Skills](/character/skills#skills) can be
 improved too, but require [Downtime](/character#downtime) which in general is
 hard to come by.
 

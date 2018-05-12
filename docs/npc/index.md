@@ -14,13 +14,13 @@ NPCs don't use [Downtime](/character#downtime). Instead an NPC has a [Difficulty
 Level](/crisis#difficulty) that describes how well trained, tough and strong it
 is.
 
-## Abilities & Skills
+## Attributes & Skills
 
-An NPC can make all [Ability](/character#abilities) or [Skill](/skills#skills)
+An NPC can make all [Attribute](/character#attributes) or [Skill](/skills#skills)
 checks with its [Difficulty Level](/crisis#difficulty) divided by 2 as a
 modifier.
 
-!!! summary "[Ability](/character#abilities) and [Skill](/skills#skills) checks"
+!!! summary "[Attribute](/character#attributes) and [Skill](/skills#skills) checks"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Base">3d6</span> +
         <span data-bracket-top="Base">Difficulty Level / 2</span> +
@@ -41,7 +41,7 @@ specialized [Skills](/skills#skills) a specialized NPC has.
         <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
     </div>
 
-[Abilities](/character#abilities) are not effected by this.
+[Attributes](/character#attributes) are not effected by this.
 
 ## Defence
 
@@ -69,7 +69,7 @@ NPCs don't have to roll for defending.
 
 !!! summary "Maximum [Endurance](/npc/#endurance-ep)"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Ability Modifier">Difficulty Level</span>
+        <span data-bracket-bottom="Attribute Modifier">Difficulty Level</span>
         <span data-bracket-top="Base">x10</span> ±
         <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
     </div>

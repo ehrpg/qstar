@@ -1,6 +1,6 @@
 # Perks
 
-Perks unlock abilities, improve stats or change roleplayining circumstances in a
+Perks unlock Attributes, improve stats or change roleplayining circumstances in a
 positive way.
 
 While perks state their requirements and costs, your GM can require additional
@@ -16,11 +16,11 @@ isn't available to you.
 
 ## Requirements
 
-Perks are usually restricted by Ability ranks, Skill ranks, or other stats.
+Perks are usually restricted by Attribute ranks, Skill ranks, or other stats.
 Races or GM decisions providing perks ignore the requirement.
 
-If a perk states a Ability rank or Skill rank requirement, the character has to
-have at least that rank. If the Ability rank or Skill rank drops below the
+If a perk states a Attribute rank or Skill rank requirement, the character has to
+have at least that rank. If the Attribute rank or Skill rank drops below the
 requirement, the character loses the benefit of the perk.
 
 ## Character Perks
@@ -49,7 +49,7 @@ Requires
 providing its benefits.
 
 AP
-:   If the perk enables a new ability, the AP cost for this ability is stated
+:   If the perk enables a new Attribute, the AP cost for this Attribute is stated
 here.
 
 Skill {.qs-d6}
