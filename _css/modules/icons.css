@@ -195,8 +195,8 @@ h5 > a:after {
   content: "\E6CC";
 }
 
-*:not(.md-search-result__item) > *#abilities:after,
-*:not(.md-search-result__item) > a[href*="#abilities"]:after {
+*:not(.md-search-result__item) > *#attributes:after,
+*:not(.md-search-result__item) > a[href*="#attributes"]:after {
   content: "\E6C0";
 }
 
