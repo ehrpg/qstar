@@ -1,22 +1,44 @@
 # Introduction
 
+
+
 ## Prerequisites
 
+A player needs these dice: d4, d6, d8, d10 and a d12. A GM also requires these
+dice, or even more, to roll for NPCs, random outcomes, etc. A d20 or d100 also
+can be useful when rolling on random tables.
+
 ## Mechanics
+
+A character's skill and attributes are defined by his skill or attribute level.
+Every character starts with a skill and attribute level at d4. This can be
+improved up to a d12, or even higher adding flat bonuses, e.g. d12+1.
+
+A task's difficulty is always 4. The only exceptions are passive values in
+combat, e.g. a character's defense value.
+
+Circumstances can modify a task's difficulty, so it becomes easier or harder to
+master.
 
 ### Checks
 
 Checks are made if the outcome of a task is uncertain or subject to chance. A
-check involves rolling **3d6** (three six-sided dice). All dice and modifiers,
-positive and negative ones, are added together. The higher the resulting number
-the better.
+check involves rolling the character's die corresponding to the attempted skill
+or attribute roll. Bonuses are added to the resulting die roll, and compared to
+the task's difficulty level.
+
+Whenever a die is rolled with it's highest possible result (e.g. rolling a 12 on
+a d12), the die *explodes*. This allows you to roll the die again, and add the
+result to your check. A die can explode multiple times.
+
+The higher the resulting number, the better.
 
 A check has to be equal to or higher a target number in order to succeed.
 Otherwise, the check fails. The target number is derived from the task attempted
 and the check made. Most checks are made for [Skills](/character/skills#skills)
 and [Attributes](/character#attributes).
 
-The target number for a Check and consequently the task's difficulty is modified
+<!-- The target number for a Check and consequently the task's difficulty is modified
 by:
 
 * The [Attribute](/character#attributes) Modifier,
@@ -24,7 +46,7 @@ by:
 * [Perks](/character/perks-flaws#perks) and
   [Flaws](/character/perks-flaws#flaws),
 * used [Equipment](/character/equipment),
-* and other circumstances.
+* and other circumstances. -->
 
 #### Contests
 
@@ -45,10 +67,6 @@ have to make a check and compare the results to see who is successful.
 
 NPCs are abstracted by a [Difficulty Level](/crisis#difficulty), and use this
 level for almost all checks, stats, etc.
-
-A difficulty modifier on a Check basically counts as a bonus or penalty. For
-example, a difficulty modifier of `+1` adds a `+3` bonus, and a difficulty
-modifier of `-1` adds a `-3` penalty.
 
 #### Difficulty Modifier
 

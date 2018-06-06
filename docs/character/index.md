@@ -6,12 +6,12 @@ following rules.
 
 A character is defined by:
 
-* A race,
+* A Race,
 * Attributes,
-* currencies,
-* experience,
-* pools, and
-* traits, such as perks and flaws.
+* Acquisitions,
+* Experience,
+* Secondary Characteristics, and
+* Traits, such as Perks and Flaws.
 
 ## Race
 
@@ -19,31 +19,33 @@ See [Races](/character/races).
 
 ## Attributes
 
-Attributes are *mostly fixed* values every creature has. They are only modified
-by *certain events* while adventuring.
+Attributes define the character's overall physique or mental capabilities. As
+such they count as the cornerstone for a character's Skill. E.g. a bad
+[Might](/character#might-mi) Level simply decreases a character's chance of
+success on [Might](/character#might-mi) related Skill Checks.
 
-Good or bad Attributes also add bonuses or impose penalties on skill checks
-corresponding to the Attribute.
+Every character starts with an Attribute set to Level 1, which corresponds to a
+d4.
 
-Every character starts with each Attribute set to [Attribute - Mediocre](#attributes).
+Increasing an Attribute costs 6 [Downtime](/character#downtime-dt) per Level.
 
-Increasing an Attribute costs 6 [Downtime](/character#downtime-dt) per Rank.
-Decreasing an Attribute nets 6 [Downtime](/character#downtime-dt) per Rank.
-Decreasing an Attribute can only be done at character creation.
+Decreasing and Attribute happens during *fatal* events while adventuring.
 
-|     # | Rank         | Modifier | Downtime cost |
-|------:|--------------|---------:|--------------:|
-|     0 | Terrible     |       -3 |           -12 |
-|     1 | Poor         |       -2 |            -6 |
-| **2** | **Mediocre** |   **-1** |         **0** |
-|     3 | Fair         |        0 |             6 |
-|     4 | Good         |       +1 |            12 |
-|     5 | Great        |       +2 |            18 |
-|     6 | Superb       |       +3 |            24 |
+
+| Level | Die     | Downtime cost |
+|-------|---------|--------------:|
+| **1** | **d4**  |         **0** |
+| 2     | d6      |             6 |
+| 3     | d8      |            12 |
+| 4     | d10     |            18 |
+| 5     | d12     |            24 |
+| 6     | d12+1   |            30 |
+| 6+n   | d12+1+n |        30+6*n |
 
 <blockquote class="important" markdown="1">
-If an Attribute were to drop below [Attribute - Terrible](#attributes) the
-character dies.
+If an Attribute were to drop below Level 1 the character is incapacitated until
+the Attribute Damage is restored. If the Attribute Damage cannot be restored,
+the character dies.
 </blockquote>
 
 <div class="left" markdown="1">
@@ -99,10 +101,10 @@ Skill](/character/skills#stealth), sense things and creatures, etc.
 
 !!! summary "Perception"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">10</span> +
-        <span data-bracket-top="Attribute modifier">Intelligence</span> +
-        <span data-bracket-bottom="Level">LVL</span> +
-        <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
+        <span data-bracket-bottom="Base">2</span> +
+        <span data-bracket-top="Attribute Level">Intelligence / 2</span> +
+        <span data-bracket-bottom="Level">LVL / 2</span> +
+        <span data-bracket-top="Traits / Race">Circumstance</span>
     </div>
 
 ### Pools
@@ -114,9 +116,9 @@ Skill](/character/skills#stealth), sense things and creatures, etc.
 > [Integrity](/character/#health-hp) and [Power](/character/#endurance-ep),
 > acting just the same.
 
-[Endurance](/character/#endurance-ep) serves as an easily replenishable pool that's
-usually targetted by damage first. Once depleted, the health pool is targetted.
-[Health](/character/#health-hp) is very hard to replenish.
+[Endurance](/character/#endurance-ep) serves as an easily replenishable pool
+that's usually targetted by damage first. Once depleted, the health pool is
+targetted. [Health](/character/#health-hp) is very hard to replenish.
 
 <div class="left" markdown="1">
 
