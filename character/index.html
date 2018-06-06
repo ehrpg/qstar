@@ -1233,81 +1233,74 @@ monsters or even robots, etc. fall under this category and are created using the
 following rules.</p>
 <p>A character is defined by:</p>
 <ul>
-<li>A race,</li>
+<li>A Race,</li>
 <li>Attributes,</li>
-<li>currencies,</li>
-<li>experience,</li>
-<li>pools, and</li>
-<li>traits, such as perks and flaws.</li>
+<li>Acquisitions,</li>
+<li>Experience,</li>
+<li>Secondary Characteristics, and</li>
+<li>Traits, such as Perks and Flaws.</li>
 </ul>
 <h2 id="race">Race<a class="headerlink" href="#race" title="Permanent link">&para;</a></h2>
 <p>See <a href="../character/races">Races</a>.</p>
 <h2 id="attributes">Attributes<a class="headerlink" href="#attributes" title="Permanent link">&para;</a></h2>
-<p>Attributes are <em>mostly fixed</em> values every creature has. They are only modified
-by <em>certain events</em> while adventuring.</p>
-<p>Good or bad Attributes also add bonuses or impose penalties on skill checks
-corresponding to the Attribute.</p>
-<p>Every character starts with each Attribute set to <a href="#attributes">Attribute - Mediocre</a>.</p>
-<p>Increasing an Attribute costs 6 <a href="../character#downtime-dt">Downtime</a> per Rank.
-Decreasing an Attribute nets 6 <a href="../character#downtime-dt">Downtime</a> per Rank.
-Decreasing an Attribute can only be done at character creation.</p>
+<p>Attributes define the character&rsquo;s overall physique or mental capabilities. As
+such they count as the cornerstone for a character&rsquo;s Skill. E.g. a bad
+<a href="../character#might-mi">Might</a> Level simply decreases a character&rsquo;s chance of
+success on <a href="../character#might-mi">Might</a> related Skill Checks.</p>
+<p>Every character starts with an Attribute set to Level 1, which corresponds to a
+d4.</p>
+<p>Increasing an Attribute costs 6 <a href="../character#downtime-dt">Downtime</a> per Level.</p>
+<p>Decreasing and Attribute happens during <em>fatal</em> events while adventuring.</p>
 <table>
 <thead>
 <tr>
-<th align="right">#</th>
-<th>Rank</th>
-<th align="right">Modifier</th>
+<th>Level</th>
+<th>Die</th>
 <th align="right">Downtime cost</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="right">0</td>
-<td>Terrible</td>
-<td align="right">-3</td>
-<td align="right">-12</td>
-</tr>
-<tr>
-<td align="right">1</td>
-<td>Poor</td>
-<td align="right">-2</td>
-<td align="right">-6</td>
-</tr>
-<tr>
-<td align="right"><strong>2</strong></td>
-<td><strong>Mediocre</strong></td>
-<td align="right"><strong>-1</strong></td>
+<td><strong>1</strong></td>
+<td><strong>d4</strong></td>
 <td align="right"><strong>0</strong></td>
 </tr>
 <tr>
-<td align="right">3</td>
-<td>Fair</td>
-<td align="right">0</td>
+<td>2</td>
+<td>d6</td>
 <td align="right">6</td>
 </tr>
 <tr>
-<td align="right">4</td>
-<td>Good</td>
-<td align="right">+1</td>
+<td>3</td>
+<td>d8</td>
 <td align="right">12</td>
 </tr>
 <tr>
-<td align="right">5</td>
-<td>Great</td>
-<td align="right">+2</td>
+<td>4</td>
+<td>d10</td>
 <td align="right">18</td>
 </tr>
 <tr>
-<td align="right">6</td>
-<td>Superb</td>
-<td align="right">+3</td>
+<td>5</td>
+<td>d12</td>
 <td align="right">24</td>
+</tr>
+<tr>
+<td>6</td>
+<td>d12+1</td>
+<td align="right">30</td>
+</tr>
+<tr>
+<td>6+n</td>
+<td>d12+1+n</td>
+<td align="right">30+6*n</td>
 </tr>
 </tbody>
 </table>
 <blockquote class="important">
-<p>If an Attribute were to drop below <a href="#attributes">Attribute - Terrible</a> the
-character dies.</p>
+<p>If an Attribute were to drop below Level 1 the character is incapacitated until
+the Attribute Damage is restored. If the Attribute Damage cannot be restored,
+the character dies.</p>
 </blockquote>
 <div class="left">
 <h3 id="might-mi">Might (MI)<a class="headerlink" href="#might-mi" title="Permanent link">&para;</a></h3>
@@ -1352,10 +1345,10 @@ Skill</a>, sense things and creatures, etc.</p>
 <div class="admonition summary">
 <p class="admonition-title">Perception</p>
 <p><div class="formula formula-top formula-bottom">
-    <span data-bracket-bottom="Base">10</span> +
-    <span data-bracket-top="Attribute modifier">Intelligence</span> +
-    <span data-bracket-bottom="Level">LVL</span> +
-    <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
+    <span data-bracket-bottom="Base">2</span> +
+    <span data-bracket-top="Attribute Level">Intelligence / 2</span> +
+    <span data-bracket-bottom="Level">LVL / 2</span> +
+    <span data-bracket-top="Traits / Race">Circumstance</span>
 </div></p>
 </div>
 <h3 id="pools">Pools<a class="headerlink" href="#pools" title="Permanent link">&para;</a></h3>
@@ -1367,9 +1360,9 @@ character, but instead of <a href="../character/#health-hp">Health</a> and
 <a href="../character/#health-hp">Integrity</a> and <a href="../character/#endurance-ep">Power</a>,
 acting just the same.</p>
 </blockquote>
-<p><a href="../character/#endurance-ep">Endurance</a> serves as an easily replenishable pool that&rsquo;s
-usually targetted by damage first. Once depleted, the health pool is targetted.
-<a href="../character/#health-hp">Health</a> is very hard to replenish.</p>
+<p><a href="../character/#endurance-ep">Endurance</a> serves as an easily replenishable pool
+that&rsquo;s usually targetted by damage first. Once depleted, the health pool is
+targetted. <a href="../character/#health-hp">Health</a> is very hard to replenish.</p>
 <div class="left">
 <h4 id="health-hp">Health (HP)<a class="headerlink" href="#health-hp" title="Permanent link">&para;</a></h4>
 <blockquote>

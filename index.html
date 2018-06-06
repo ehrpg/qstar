@@ -913,26 +913,40 @@
                 
                 <h1 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h1>
 <h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h2>
+<p>A player needs these dice: d4, d6, d8, d10 and a d12. A GM also requires these
+dice, or even more, to roll for NPCs, random outcomes, etc. A d20 or d100 also
+can be useful when rolling on random tables.</p>
 <h2 id="mechanics">Mechanics<a class="headerlink" href="#mechanics" title="Permanent link">&para;</a></h2>
+<p>A character&rsquo;s skill and attributes are defined by his skill or attribute level.
+Every character starts with a skill and attribute level at d4. This can be
+improved up to a d12, or even higher adding flat bonuses, e.g. d12+1.</p>
+<p>A task&rsquo;s difficulty is always 4. The only exceptions are passive values in
+combat, e.g. a character&rsquo;s defense value.</p>
+<p>Circumstances can modify a task&rsquo;s difficulty, so it becomes easier or harder to
+master.</p>
 <h3 id="checks">Checks<a class="headerlink" href="#checks" title="Permanent link">&para;</a></h3>
 <p>Checks are made if the outcome of a task is uncertain or subject to chance. A
-check involves rolling <strong>3d6</strong> (three six-sided dice). All dice and modifiers,
-positive and negative ones, are added together. The higher the resulting number
-the better.</p>
+check involves rolling the character&rsquo;s die corresponding to the attempted skill
+or attribute roll. Bonuses are added to the resulting die roll, and compared to
+the task&rsquo;s difficulty level.</p>
+<p>Whenever a die is rolled with it&rsquo;s highest possible result (e.g. rolling a 12 on
+a d12), the die <em>explodes</em>. This allows you to roll the die again, and add the
+result to your check. A die can explode multiple times.</p>
+<p>The higher the resulting number, the better.</p>
 <p>A check has to be equal to or higher a target number in order to succeed.
 Otherwise, the check fails. The target number is derived from the task attempted
 and the check made. Most checks are made for <a href="./character/skills#skills">Skills</a>
 and <a href="./character#attributes">Attributes</a>.</p>
-<p>The target number for a Check and consequently the task&rsquo;s difficulty is modified
-by:</p>
-<ul>
-<li>The <a href="./character#attributes">Attribute</a> Modifier,</li>
-<li>the <a href="./character/skills#skills">Skill</a> Modifier,</li>
-<li><a href="./character/perks-flaws#perks">Perks</a> and
-  <a href="./character/perks-flaws#flaws">Flaws</a>,</li>
-<li>used <a href="./character/equipment">Equipment</a>,</li>
-<li>and other circumstances.</li>
-</ul>
+<!-- The target number for a Check and consequently the task's difficulty is modified
+by:
+
+* The [Attribute](/character#attributes) Modifier,
+* the [Skill](/character/skills#skills) Modifier,
+* [Perks](/character/perks-flaws#perks) and
+  [Flaws](/character/perks-flaws#flaws),
+* used [Equipment](/character/equipment),
+* and other circumstances. -->
+
 <h4 id="contests">Contests<a class="headerlink" href="#contests" title="Permanent link">&para;</a></h4>
 <p>When two parties compete with each other in the same or even different skills
 and stats, both parties have to make a check. The party with the higher result
@@ -947,9 +961,6 @@ used, when both parties are <em>active</em> (rather than one party being <em>pas
 have to make a check and compare the results to see who is successful.</p>
 <p>NPCs are abstracted by a <a href="./crisis#difficulty">Difficulty Level</a>, and use this
 level for almost all checks, stats, etc.</p>
-<p>A difficulty modifier on a Check basically counts as a bonus or penalty. For
-example, a difficulty modifier of <code>+1</code> adds a <code>+3</code> bonus, and a difficulty
-modifier of <code>-1</code> adds a <code>-3</code> penalty.</p>
 <h4 id="difficulty-modifier">Difficulty Modifier<a class="headerlink" href="#difficulty-modifier" title="Permanent link">&para;</a></h4>
 <p>A <a href="./crisis#difficulty">Difficulty Level</a> can <strong>never</strong> shift more than 2 levels
 in any direction.</p>
