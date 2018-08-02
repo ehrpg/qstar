@@ -6,55 +6,36 @@
 ![test](/_imgs/dice.svg)
 </div>
 
+Every character starts with each [Skill](/character/skills#skills) at a d4.
+Upgrading a [Skill](/character/skills#skills) allows the character to use a d6,
+a d8, a d10 or a d12. Upgrading a [Skill](/character/skills#skills) beyond a d12
+adds a flat bonus of +1 per upgrade to the check. A
+[Skill](/character/skills#skills) cannot be improved to a die higher than it's
+corresponding [Attribute](/character#attributes).
+
 Everything a character does is usually associated with a
-[Skill](/character/skills#skills). A Skill further modifies the roll a character
-has to make in order to succeed or fail. Every Skill has an
-[Attribute](/character#attributes) it's associated with.
+[Skill](/character/skills#skills), whereas every
+[Skill](/character/skills#skills) has an [Attribute](/character#attributes) it's
+associated with.
 
-A character can only have Skills at rank [Skill -
-Superb](/character/skills/#skills) up to the associated
-[Attribute](/character#attributes) Modifier. If the [Attribute](/character#attributes)
-Modifier is less than 0, the character can have no rank [Skill -
-Superb](/character/skills/#skills) Skills associated with this
-[Attribute](/character#attributes).
+Upgrading a [Skill](/character/skills#skills) by one step costs
+[Downtime](/character#downtime-dt), depending on the
+[Skill](/character/skills#skills)'s difficulty.
 
-|    # | Rank     | Modifier | Easy | Average | Hard |
-|-----:|----------|---------:|-----:|--------:|-----:|
-|    0 | Terrible |       -6 |    - |       - |    - |
-|    1 | Poor     |       -3 |    - |       - |    1 |
-|    2 | Mediocre |       -1 |    - |       1 |    2 |
-|    3 | Fair     |        0 |    1 |       2 |    4 |
-|    4 | Good     |       +1 |    2 |       4 |    8 |
-|    5 | Great    |       +3 |    4 |       8 |   12 |
-|    6 | Superb   |       +6 |    8 |      12 |   16 |
+Downgrading only happens due to *fatal* adventuring events.
 
-!!! summary "Maximum [Skill - Superb](/character/skills/#skills) rank Skills"
-    <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Attribute Modifier">Any Attribute</span>
-    </div>
+## Skill Difficulty
 
-## Skill difficulty
+A [Skill](/character/skills#skills) is either easy, average or hard to master,
+as indicated by each individual [Skill](/character/skills#skills). More
+difficult Skills require more investment of time and money to improve, while
+easier Skills require less.
 
-A Skill is either easy, average or hard to master, as indicated by each
-individual Skill. More difficult Skills require more investment of time and
-money to improve, while easier Skills require less.
-
-### Skill defaults
-
-A Skill usually can be used even without any investments into the Skill, unless
-otherwise noted by the Skill itself. These are the defaults for
-[Skills](/character/skills#skills):
-
-* Easy Skills can be used as a Skill at Rank [Skill -
-  Mediocre](/character/skills#skills).
-* Average Skills can be used as a Skill at Rank [Skill -
-  Poor](/character/skills#skills).
-* Hard Skills can be used as a Skill at Rank [Skill -
-  Terrible](/character/skills#skills).
-
-If a [Skill*](/character/skills#skills) has an asterisk next to it, it cannot be
-used without any investments.
-
+An easy [Skill](/character/skills#skills) costs 2
+[Downtime](/character#downtime-dt) to improve. A medium
+[Skill](/character/skills#skills) costs 4 [Downtime](/character#downtime-dt) to
+improve. a hard [Skill](/character/skills#skills) costs 6
+[Downtime](/character#downtime-dt) to improve.
 
 ## Skill Checks
 
@@ -63,36 +44,19 @@ effected by noticeable outside factors, the character has to roll a skill check.
 
 !!! summary "Skill checks"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">3d6</span> ±
-        <span data-bracket-top="Attribute Modifier">Attribute</span> ±
-        <span data-bracket-bottom="Skill Modifier">Skill</span> ±
-        <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
+        <span data-bracket-bottom="Base">dX</span> ±
+        <span data-bracket-top="Skill Modifier">Skill Modifier</span> ±
+        <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
     </div>
 
 </blockquote>
 
-### Skill difficulty
+### Skills and Attribute Damage
 
-Skill checks have to be equal or higher to the **Target #** specified by its
-[Difficulty](/crisis#difficulty), in order to succeed.
-
-### Skill Ranks and Attribute Damage
-
-Temporary [Attribute](/character#attributes) damage **does not** change the maximum
-[Skill - Superb](/character/skills/#skills) rank skills. Permanent
-[Attribute](/character#attributes) damage **does** change those values.
-
-A character can lose his benefits from skills if the Attribute requirement is not
-met anymore. Only the skill bonus changes, the skill rank stays unchanged.
-
-
-!!! example "Example"
-    Jack has skilled [Athletics - Great](/character/skills/#skills), and his
-    Attribute is [Might - Great](/character/#might-mi). He loses
-    [Might](/character#might-mi) and his rank is reduced to [Might -
-    Fair](/character/#might-mi). His skill also drops to [Athletics -
-    Fair](/character/skills/#skills) temporarily until his
-    [Might](/character#might-mi) is restored.
+Temporary [Attribute](/character#attributes) damage **does not** incure any
+penalties. Permanent [Attribute](/character#attributes) damage lowers all
+associated Skills to the new Attribute rank, until the
+[Attribute](/character#attributes) damage is restored.
 
 ## Skill competitions
 

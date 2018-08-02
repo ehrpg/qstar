@@ -31,13 +31,14 @@ allows the character to use a d6, a d8, a d10 or a d12. Upgrading an Attribute
 beyond a d12 adds a flat bonus of +1 per upgrade to the check.
 
 Upgrading an Attribute by one step costs **6**
-[Downtime](/character#downtime-dt). Downgrading only happens due to *fatal*
-adventuring events.
+[Downtime](/character#downtime-dt).
+
+Downgrading only happens due to *fatal* adventuring events.
 
 ### Attribute Damage
 
 Attribute Damage decreases the character's Attribute, e.g. from a d6 to a d4.
-This penalty can be temporary or permanently.
+This penalty can be **temporary** or **permanently**.
 
 <blockquote class="important" markdown="1">
 If an Attribute were to drop below a d4 the character is incapacitated until
@@ -126,6 +127,8 @@ Skill](/character/skills#stealth), sense things and creatures, etc.
 
 ## Pools
 
+<!-- TODO -->
+
 > Each creature has [Health](/character/#health-hp) and
 > [Endurance](/character/#endurance-ep) pools. A robot is defined as a
 > character, but instead of [Health](/character/#health-hp) and
@@ -210,22 +213,15 @@ and adaptable.
 
 > A character can change the course of action and his fate.
 
-Every character has the same amount of fate rolls available as he has
-[Experience](/character#experience-xp). A fate roll allows a character to
-*re-roll* the entire check (all 3d6). Using a fate roll consumes one
-[Experience](/character#experience-xp). Using fate can reduce a character's
-level. Fate cannot be used if you have zero
-[Experience](/character#experience-xp) Points.
-
-Fate helps powerful characters to get a better outcome when faced with dire
-consequences, but changing fate always comes with a cost.
+Every character has one fate roll available. Each level up adds another fate
+roll. Once used, a fate roll can never be regained.
 
 ## Acquisitions
 
 > Acquisitions abstract the resources available to a character.
 
-Acquisitions are limited by a maximum value, and are used to improve your character.
-This maximum value is modified by Circumstances, [Perks](/perks), and
+Acquisitions are limited by a maximum value, and are used to improve your
+character. This maximum value is modified by Circumstances, [Perks](/perks), and
 permanently due to [Experience](#experience-xp).
 
 The current value for Acquisitions can **never** exceed the maximum value. All
@@ -411,10 +407,10 @@ Improving your character happens automatically due completing missions, quests,
 fighting and adventuring and eventually earning [Experience](#experience-xp),
 which will increase the character's [Level](#level-lvl).
 
-[Attributes](/character#attributes) and [Skills](/character/skills#skills) can be
-improved too, but require [Downtime](/character#downtime) which in general is
-hard to come by.
+[Attributes](/character#attributes) and [Skills](/character/skills#skills) can
+be improved too, but require [Downtime](/character#downtime) and
+[Credits](/equipment#credits-cr).
 
-Any characters skills and expertise are greatly enhanced by the equipment they
+Any character's skills and expertise are greatly enhanced by the equipment they
 own. Hard training may give a character a permanent bonus, but the right item is
 often cheaper and acquired more easily.
