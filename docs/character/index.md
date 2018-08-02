@@ -19,33 +19,26 @@ See [Races](/character/races).
 
 ## Attributes
 
-Attributes define the character's overall physique or mental capabilities. As
-such they count as the cornerstone for a character's Skill. E.g. a bad
-[Might](/character#might-mi) Level simply decreases a character's chance of
-success on [Might](/character#might-mi) related Skill Checks.
-
-Every character starts with an Attribute set to Level 1, which corresponds to a
-d4.
-
-Increasing an Attribute costs 6 [Downtime](/character#downtime-dt) per Level.
-
-Decreasing and Attribute happens during *fatal* events while adventuring.
+> Attributes define the character's overall physique or mental capabilities. As
+such they count as the cornerstone for a character's Skill.
 
 
-| Level | Die     | Downtime cost |
-|-------|---------|--------------:|
-| **1** | **d4**  |         **0** |
-| 2     | d6      |             6 |
-| 3     | d8      |            12 |
-| 4     | d10     |            18 |
-| 5     | d12     |            24 |
-| 6     | d12+1   |            30 |
-| 6+n   | d12+1+n |        30+6*n |
+<div style="text-align: center;" markdown="1">
+![test](/_imgs/dice.svg)
+</div>
+
+Every character starts with each Attribute at a d4. Upgrading an Attribute
+allows the character to use a d6, a d8, a d10 or a d12. Upgrading an Attribute
+beyond a d12 adds a flat bonus of +1 per upgrade to the check.
+
+Upgrading an Attribute by one step costs **6**
+[Downtime](/character#downtime-dt). Downgrading only happens due to *fatal*
+adventuring events.
 
 <blockquote class="important" markdown="1">
-If an Attribute were to drop below Level 1 the character is incapacitated until
-the Attribute Damage is restored. If the Attribute Damage cannot be restored,
-the character dies.
+If an Attribute were to drop below a d4 the character is incapacitated until
+the Attribute Damage is restored. If the Attribute Damage cannot be restored by
+*any* means, the character dies.
 </blockquote>
 
 <div class="left" markdown="1">
