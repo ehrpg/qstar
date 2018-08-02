@@ -34,7 +34,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-0.17.3, mkdocs-material-2.7.3">
+      <meta name="generator" content="mkdocs-0.17.5, mkdocs-material-2.7.3">
     
     
       
@@ -1243,64 +1243,23 @@ following rules.</p>
 <h2 id="race">Race<a class="headerlink" href="#race" title="Permanent link">&para;</a></h2>
 <p>See <a href="../character/races">Races</a>.</p>
 <h2 id="attributes">Attributes<a class="headerlink" href="#attributes" title="Permanent link">&para;</a></h2>
+<blockquote>
 <p>Attributes define the character&rsquo;s overall physique or mental capabilities. As
-such they count as the cornerstone for a character&rsquo;s Skill. E.g. a bad
-<a href="../character#might-mi">Might</a> Level simply decreases a character&rsquo;s chance of
-success on <a href="../character#might-mi">Might</a> related Skill Checks.</p>
-<p>Every character starts with an Attribute set to Level 1, which corresponds to a
-d4.</p>
-<p>Increasing an Attribute costs 6 <a href="../character#downtime-dt">Downtime</a> per Level.</p>
-<p>Decreasing and Attribute happens during <em>fatal</em> events while adventuring.</p>
-<table>
-<thead>
-<tr>
-<th>Level</th>
-<th>Die</th>
-<th align="right">Downtime cost</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>1</strong></td>
-<td><strong>d4</strong></td>
-<td align="right"><strong>0</strong></td>
-</tr>
-<tr>
-<td>2</td>
-<td>d6</td>
-<td align="right">6</td>
-</tr>
-<tr>
-<td>3</td>
-<td>d8</td>
-<td align="right">12</td>
-</tr>
-<tr>
-<td>4</td>
-<td>d10</td>
-<td align="right">18</td>
-</tr>
-<tr>
-<td>5</td>
-<td>d12</td>
-<td align="right">24</td>
-</tr>
-<tr>
-<td>6</td>
-<td>d12+1</td>
-<td align="right">30</td>
-</tr>
-<tr>
-<td>6+n</td>
-<td>d12+1+n</td>
-<td align="right">30+6*n</td>
-</tr>
-</tbody>
-</table>
+such they count as the cornerstone for a character&rsquo;s Skill.</p>
+</blockquote>
+<div style="text-align: center;">
+<p><img alt="test" src="../_imgs/dice.svg" /></p>
+</div>
+<p>Every character starts with each Attribute at a d4. Upgrading an Attribute
+allows the character to use a d6, a d8, a d10 or a d12. Upgrading an Attribute
+beyond a d12 adds a flat bonus of +1 per upgrade to the check.</p>
+<p>Upgrading an Attribute by one step costs <strong>6</strong>
+<a href="../character#downtime-dt">Downtime</a>. Downgrading only happens due to <em>fatal</em>
+adventuring events.</p>
 <blockquote class="important">
-<p>If an Attribute were to drop below Level 1 the character is incapacitated until
-the Attribute Damage is restored. If the Attribute Damage cannot be restored,
-the character dies.</p>
+<p>If an Attribute were to drop below a d4 the character is incapacitated until
+the Attribute Damage is restored. If the Attribute Damage cannot be restored by
+<em>any</em> means, the character dies.</p>
 </blockquote>
 <div class="left">
 <h3 id="might-mi">Might (MI)<a class="headerlink" href="#might-mi" title="Permanent link">&para;</a></h3>
@@ -1675,7 +1634,7 @@ often cheaper and acquired more easily.</p>
     
       <script src="../assets/javascripts/application.0cf9b500.js"></script>
       
-      <script>app.initialize({version:"0.17.3",url:{base:".."}})</script>
+      <script>app.initialize({version:"0.17.5",url:{base:".."}})</script>
       
         <script src="../_js/sorttable.js"></script>
       
