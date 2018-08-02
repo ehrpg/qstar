@@ -405,6 +405,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#attribute-damage" title="Attribute Damage" class="md-nav__link">
+    Attribute Damage
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#might-mi" title="Might (MI)" class="md-nav__link">
     Might (MI)
   </a>
@@ -438,19 +445,19 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#secondary-characteristics" title="Secondary Characteristics" class="md-nav__link">
-    Secondary Characteristics
+  <a href="#movement-speed" title="Movement Speed" class="md-nav__link">
+    Movement Speed
   </a>
   
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
+</li>
+      
+        <li class="md-nav__item">
   <a href="#perception" title="Perception" class="md-nav__link">
     Perception
   </a>
   
-</li>
+    <nav class="md-nav">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#pools" title="Pools" class="md-nav__link">
@@ -985,6 +992,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#attribute-damage" title="Attribute Damage" class="md-nav__link">
+    Attribute Damage
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#might-mi" title="Might (MI)" class="md-nav__link">
     Might (MI)
   </a>
@@ -1018,19 +1032,19 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#secondary-characteristics" title="Secondary Characteristics" class="md-nav__link">
-    Secondary Characteristics
+  <a href="#movement-speed" title="Movement Speed" class="md-nav__link">
+    Movement Speed
   </a>
   
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
+</li>
+      
+        <li class="md-nav__item">
   <a href="#perception" title="Perception" class="md-nav__link">
     Perception
   </a>
   
-</li>
+    <nav class="md-nav">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#pools" title="Pools" class="md-nav__link">
@@ -1256,6 +1270,7 @@ beyond a d12 adds a flat bonus of +1 per upgrade to the check.</p>
 <p>Upgrading an Attribute by one step costs <strong>6</strong>
 <a href="../character#downtime-dt">Downtime</a>. Downgrading only happens due to <em>fatal</em>
 adventuring events.</p>
+<h3 id="attribute-damage">Attribute Damage<a class="headerlink" href="#attribute-damage" title="Permanent link">&para;</a></h3>
 <blockquote class="important">
 <p>If an Attribute were to drop below a d4 the character is incapacitated until
 the Attribute Damage is restored. If the Attribute Damage cannot be restored by
@@ -1274,7 +1289,7 @@ toughness.</p>
 <blockquote>
 <p>Speed measures the character&rsquo;s reflexes and eye-hand coordination.</p>
 </blockquote>
-<p>Speed adds a bonus to ranged weaopn attacks, is used for stealth and lets you
+<p>Speed adds a bonus to ranged weapon attacks, is used for stealth and lets you
 act in a <a href="../#crisis">Crisis</a> sooner.</p>
 </div>
 <div class="left">
@@ -1296,8 +1311,25 @@ and his Attribute to lead.</p>
 </div>
 <div class="clearfix"></div>
 
-<h2 id="secondary-characteristics">Secondary Characteristics<a class="headerlink" href="#secondary-characteristics" title="Permanent link">&para;</a></h2>
-<h3 id="perception">Perception<a class="headerlink" href="#perception" title="Permanent link">&para;</a></h3>
+<h2 id="movement-speed">Movement Speed<a class="headerlink" href="#movement-speed" title="Permanent link">&para;</a></h2>
+<p>A creature&rsquo;s Movement Speed is derived from the creature&rsquo;s Speed Attribute.
+Every creature has a base Movement Speed of 4 units per move action. Each step
+above a d4 adds one to the Movement Speed. E.g. a creature with a d12 in Speed
+has a Movement Speed of 8. A creature with a d12+2 in Speed has a Movement Speed
+of 10.</p>
+<p>Traits, Races, Items and Equipment can also increase a creature&rsquo;s Movement
+Speed.</p>
+<div class="admonition summary">
+<p class="admonition-title">Movement Speed</p>
+<p><div class="formula formula-top formula-bottom">
+    <span data-bracket-bottom="Base">4</span> +
+    <span data-bracket-top="Attribute">Speed</span> +
+    <span data-bracket-bottom="Traits / Race / Equipment">Circumstance</span>
+</div></p>
+</div>
+<!-- Ranges from 1 to 8+ -->
+
+<h2 id="perception">Perception<a class="headerlink" href="#perception" title="Permanent link">&para;</a></h2>
 <p>Perception is a passive value that represents the character&rsquo;s alertness. It&rsquo;s
 used to counter creatures that used the <a href="../character/skills#stealth">Stealth
 Skill</a>, sense things and creatures, etc.</p>
@@ -1305,11 +1337,13 @@ Skill</a>, sense things and creatures, etc.</p>
 <p class="admonition-title">Perception</p>
 <p><div class="formula formula-top formula-bottom">
     <span data-bracket-bottom="Base">2</span> +
-    <span data-bracket-top="Attribute Level">Intelligence / 2</span> +
+    <span data-bracket-top="Attribute">Intelligence</span> +
     <span data-bracket-bottom="Level">LVL / 2</span> +
-    <span data-bracket-top="Traits / Race">Circumstance</span>
+    <span data-bracket-top="Traits / Race / Equipment">Circumstance</span>
 </div></p>
 </div>
+<!-- Ranges from 1 to 8+ -->
+
 <h3 id="pools">Pools<a class="headerlink" href="#pools" title="Permanent link">&para;</a></h3>
 <blockquote>
 <p>Each creature has <a href="../character/#health-hp">Health</a> and
