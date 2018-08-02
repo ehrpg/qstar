@@ -10,7 +10,7 @@ can be useful when rolling on random tables.
 
 ## Mechanics
 
-A character's skill and attributes are defined by his skill or attribute level.
+A character's skill and attributes are defined by his skill and attribute level.
 Every character starts with a skill and attribute level at d4. This can be
 improved up to a d12, or even higher adding flat bonuses, e.g. d12+1.
 
@@ -22,10 +22,10 @@ master.
 
 ### Checks
 
-Checks are made if the outcome of a task is uncertain or subject to chance. A
-check involves rolling the character's die corresponding to the attempted skill
-or attribute roll. Bonuses are added to the resulting die roll, and compared to
-the task's difficulty level.
+Checks are made if the outcome of a task is uncertain and subject to chance, or
+influenced by others. A check involves rolling the character's die corresponding
+to the attempted skill or attribute roll. Bonuses are added to the resulting die
+roll, and compared to the task's difficulty level.
 
 Whenever a die is rolled with it's highest possible result (e.g. rolling a 12 on
 a d12), the die *explodes*. This allows you to roll the die again, and add the
@@ -37,6 +37,13 @@ A check has to be equal to or higher a target number in order to succeed.
 Otherwise, the check fails. The target number is derived from the task attempted
 and the check made. Most checks are made for [Skills](/character/skills#skills)
 and [Attributes](/character#attributes).
+
+#### Check Failures
+
+A failed check doesn't necessarily mean, that the check completely failed. E.g.
+when climbing, a failed check might simply mean, that there was no progress
+while climbing. Or a failed sailing check might mean, that the voyage took a few
+days longer.
 
 <!-- The target number for a Check and consequently the task's difficulty is modified
 by:

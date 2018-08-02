@@ -22,7 +22,6 @@ See [Races](/character/races).
 > Attributes define the character's overall physique or mental capabilities. As
 such they count as the cornerstone for a character's Skill.
 
-
 <div style="text-align: center;" markdown="1">
 ![test](/_imgs/dice.svg)
 </div>
@@ -34,6 +33,8 @@ beyond a d12 adds a flat bonus of +1 per upgrade to the check.
 Upgrading an Attribute by one step costs **6**
 [Downtime](/character#downtime-dt). Downgrading only happens due to *fatal*
 adventuring events.
+
+### Attribute Damage
 
 <blockquote class="important" markdown="1">
 If an Attribute were to drop below a d4 the character is incapacitated until
@@ -57,7 +58,7 @@ toughness.
 
 > Speed measures the character's reflexes and eye-hand coordination.
 
-Speed adds a bonus to ranged weaopn attacks, is used for stealth and lets you
+Speed adds a bonus to ranged weapon attacks, is used for stealth and lets you
 act in a [Crisis](/#crisis) sooner.
 
 </div>
@@ -84,9 +85,27 @@ Charisma is mostly used in social interactions between characters and NPCs.
 </div>
 <div class="clearfix"></div>
 
-## Secondary Characteristics
+## Movement Speed
 
-### Perception
+A creature's Movement Speed is derived from the creature's Speed Attribute.
+Every creature has a base Movement Speed of 4 units per move action. Each step
+above a d4 adds one to the Movement Speed. E.g. a creature with a d12 in Speed
+has a Movement Speed of 8. A creature with a d12+2 in Speed has a Movement Speed
+of 10.
+
+Traits, Races, Items and Equipment can also increase a creature's Movement
+Speed.
+
+!!! summary "Movement Speed"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Base">4</span> +
+        <span data-bracket-top="Attribute">Speed</span> +
+        <span data-bracket-bottom="Traits / Race / Equipment">Circumstance</span>
+    </div>
+
+<!-- Ranges from 1 to 8+ -->
+
+## Perception
 
 Perception is a passive value that represents the character's alertness. It's
 used to counter creatures that used the [Stealth
@@ -95,10 +114,12 @@ Skill](/character/skills#stealth), sense things and creatures, etc.
 !!! summary "Perception"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Base">2</span> +
-        <span data-bracket-top="Attribute Level">Intelligence / 2</span> +
+        <span data-bracket-top="Attribute">Intelligence</span> +
         <span data-bracket-bottom="Level">LVL / 2</span> +
-        <span data-bracket-top="Traits / Race">Circumstance</span>
+        <span data-bracket-top="Traits / Race / Equipment">Circumstance</span>
     </div>
+
+<!-- Ranges from 1 to 8+ -->
 
 ### Pools
 
