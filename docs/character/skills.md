@@ -44,7 +44,7 @@ effected by noticeable outside factors, the character has to roll a skill check.
 
 !!! summary "Skill checks"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">dX</span> ±
+        <span data-bracket-bottom="Skill">dX</span> ±
         <span data-bracket-top="Skill Modifier">Skill Modifier</span> ±
         <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
     </div>

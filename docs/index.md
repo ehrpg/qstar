@@ -1,7 +1,5 @@
 # Introduction
 
-
-
 ## Prerequisites
 
 A player needs these dice: d4, d6, d8, d10 and a d12. A GM also requires these
@@ -13,6 +11,10 @@ can be useful when rolling on random tables.
 A character's skill and attributes are defined by his skill and attribute level.
 Every character starts with a skill and attribute level at d4. This can be
 improved up to a d12, or even higher adding flat bonuses, e.g. d12+1.
+
+<div style="text-align: center;" markdown="1">
+![test](/_imgs/dice.svg)
+</div>
 
 A task's difficulty is always 4. The only exceptions are passive values in
 combat, e.g. a character's defense value.
@@ -45,22 +47,11 @@ when climbing, a failed check might simply mean, that there was no progress
 while climbing. Or a failed sailing check might mean, that the voyage took a few
 days longer.
 
-<!-- The target number for a Check and consequently the task's difficulty is modified
-by:
-
-* The [Attribute](/character#attributes) Modifier,
-* the [Skill](/character/skills#skills) Modifier,
-* [Perks](/character/perks-flaws#perks) and
-  [Flaws](/character/perks-flaws#flaws),
-* used [Equipment](/character/equipment),
-* and other circumstances. -->
-
 #### Contests
 
 When two parties compete with each other in the same or even different skills
 and stats, both parties have to make a check. The party with the higher result
-wins the contest. On a tie, the defending party wins. If there is no defending
-party, the tie is unresolved and nothing happens to either party.
+wins the contest. On a tie both parties roll again.
 
 #### Difficulty Level
 
