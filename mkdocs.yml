@@ -64,9 +64,9 @@ pages:
             - Character: 'character/index.md'
             - Races: 'character/races.md'
             - Skills: 'character/skills.md'
-            - Perks: 'character/perks.md'
-            - Flaws: 'character/flaws.md'
-            - Traits: 'character/traits.md'
+            # - Perks: 'character/perks.md'
+            # - Flaws: 'character/flaws.md'
+            # - Traits: 'character/traits.md'
             - Equipment: 'character/equipment.md'
             - Character Creation: 'character-creation.md'
 

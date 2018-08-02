@@ -121,7 +121,7 @@ Skill](/character/skills#stealth), sense things and creatures, etc.
 
 <!-- Ranges from 1 to 8+ -->
 
-### Pools
+## Pools
 
 > Each creature has [Health](/character/#health-hp) and
 > [Endurance](/character/#endurance-ep) pools. A robot is defined as a
@@ -136,7 +136,7 @@ targetted. [Health](/character/#health-hp) is very hard to replenish.
 
 <div class="left" markdown="1">
 
-#### Health (HP)
+### Health (HP)
 
 > [Health](/character/#health-hp) represents the character's overall condition.
 
@@ -163,7 +163,7 @@ A character that drops to or below his HP in negative dies.
 </div>
 <div class="right" markdown="1">
 
-#### Endurance (EP)
+### Endurance (EP)
 
 > [Endurance](/character/#endurance-ep) represents the character's power.
 
@@ -183,7 +183,7 @@ sprinting cause stress on a character and reduce his
 </div>
 <div class="clearfix"></div>
 
-### Experience (XP)
+## Experience (XP)
 
 > Experience is gained throughout a character's adventuring career.
 
@@ -197,13 +197,13 @@ Every character has 0 XP upon creation.
 
 Every three Experience Points (XP) increase a character's level by one.
 
-#### Level (LVL)
+### Level (LVL)
 
 A character's level improves the maximum values of his currencies. This does not
 necessarily make the character stronger, but make the character more resourceful
 and adaptable.
 
-#### Fate
+### Fate
 
 > A character can change the course of action and his fate.
 
@@ -217,7 +217,7 @@ level. Fate cannot be used if you have zero
 Fate helps powerful characters to get a better outcome when faced with dire
 consequences, but changing fate always comes with a cost.
 
-### Acquisitions
+## Acquisitions
 
 > Acquisitions abstract the resources available to a character.
 
@@ -242,7 +242,7 @@ Acquisitions of one sort can be traded in for any other.
 
 <div class="left" markdown="1">
 
-#### Downtime (DT)
+### Downtime (DT)
 
 > [Downtime](#downtime-dt) represents the time a character can invest in
 > [Downtime](#downtime-dt) activities.
@@ -270,7 +270,7 @@ used. This DC *may* be lowered or increased depending on the situation.
 </div>
 <div class="right" markdown="1">
 
-#### Influence (INF)
+### Influence (INF)
 
 > [Influence](#influence-inf) represents connections, owed favours by others,
 > fame and infamy.
@@ -295,7 +295,7 @@ Traders may also give you better prices.
 </div>
 <div class="left" markdown="1">
 
-#### Resources (RES)
+### Resources (RES)
 
 > [Resources](#resources-res) represent materials used for creating, repairing,
 > upgrading and acquiring equipment.
@@ -324,7 +324,7 @@ Powerful equipment requiring [Resources](#resources-res) usually adds
 </div>
 <div class="right" markdown="1">
 
-#### Technology (TECH)
+### Technology (TECH)
 
 > [Technology](#technology-tech) represents the character's technological
 > knowledge, which on the other hand allows to unlock new
@@ -350,43 +350,30 @@ Unlocking upgrades enables the acquisition of better equipment and vessels.
 </div>
 <div class="clearfix"></div>
 
-### Living standards
+## Living standards
 
 Living standards decrease the micro management you have to do for your character
 and specifically his equipment and items, see [Item
 Uses](/character/equipment#item-uses).
 
-#### Poor living standard
+### Poor living standard
 
 A poor living standard nets 1 [RES](#resources).
 
 This living standard doesn't include anything. Everything your character needs
 costs [Credits](/equipment#credits-cr).
 
-#### Normal living standard
+### Normal living standard
 
 Every character has a normal living standard by default.
 
 This living standard includes normal accomadations, *free* food and drinks in
 populated areas, moving in local traffic and areas, etc.
 
-#### High living standard
+### High living standard
 
 A high living standard costs 1 [RES](#resources). This increases the item's
 **Uses** refill rate.
-
-### Status
-
-A character's Status is used to determine a character's social standing. This
-value ranges from -2 (slave, criminal) to +8 (emperor, god-king). Every
-character has a Status of 0 (citizen) by default.
-
-Increasing Status costs 4 [Downtime](/character#downtime-dt) per point.
-Decreasing Status nets 4 [Downtime](/character#downtime-dt) per point.
-
-The Status is important for social encounters. An ordinary citizen, with Status
-0, would usually have a hard time of convincing a lord, Status 3 or 4, of his
-ideas.
 
 ## Languages
 
@@ -399,6 +386,9 @@ Learning a Language can be done in three steps, whereas each step costs 2
 * Reading
 * Speaking
 * Writing
+
+Learning a Language completely (all three steps) at once only costs 5
+[Downtime](/character#downtime-dt) instead.
 
 ## Skills
 

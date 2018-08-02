@@ -2,6 +2,10 @@
 
 > Skills abstract your character's education, hobbies and fields of expertise.
 
+<div style="text-align: center;" markdown="1">
+![test](/_imgs/dice.svg)
+</div>
+
 Everything a character does is usually associated with a
 [Skill](/character/skills#skills). A Skill further modifies the roll a character
 has to make in order to succeed or fail. Every Skill has an
