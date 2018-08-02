@@ -36,6 +36,9 @@ adventuring events.
 
 ### Attribute Damage
 
+Attribute Damage decreases the character's Attribute, e.g. from a d6 to a d4.
+This penalty can be temporary or permanently.
+
 <blockquote class="important" markdown="1">
 If an Attribute were to drop below a d4 the character is incapacitated until
 the Attribute Damage is restored. If the Attribute Damage cannot be restored by
