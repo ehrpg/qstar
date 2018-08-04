@@ -461,6 +461,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#items-and-weight" title="Items and Weight" class="md-nav__link">
+    Items and Weight
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#overburdened" title="Overburdened" class="md-nav__link">
     Overburdened
   </a>
@@ -967,6 +974,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#items-and-weight" title="Items and Weight" class="md-nav__link">
+    Items and Weight
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#overburdened" title="Overburdened" class="md-nav__link">
     Overburdened
   </a>
@@ -1193,60 +1207,67 @@
 <p>All entries list the price for a single item. If more items can be bougth with
 the provided price, the table shows the amount under the <code>#</code> column.</p>
 <h2 id="cost">Cost<a class="headerlink" href="#cost" title="Permanent link">&para;</a></h2>
-<p>All items cost <a href="#credits">Credits</a>, while some items may also cost
-<a href="../../character#resources-res">Resources</a> to maintain the upkeep, e.g. ammo,
-cleaning, restocking etc.</p>
+<p>All items cost <a href="#credits">Credits</a>, while some items may cost
+<a href="../../character#resources-res">Resources</a> instead or in addition. This
+<a href="../../character#resources-res">Resources</a> cost abstract the maintenance of an item,
+e.g. ammunition, cleaning, restocking etc.</p>
 <p>Whenever there is a cost listed without units, then Credits are used.</p>
 <h3 id="credits">Credits<a class="headerlink" href="#credits" title="Permanent link">&para;</a></h3>
 <p>A universal currency for buying most things.</p>
 <h3 id="looting-items">Looting items<a class="headerlink" href="#looting-items" title="Permanent link">&para;</a></h3>
 <p>Looting items that only cost <a href="#credits">Credits</a> can be used normally.</p>
 <p>If a looted item requires <a href="../../character#resources-res">Resources</a> a character may
-spend his available <a href="../../character#resources-res">Resources</a> on it to keep it. If
-he doesn&rsquo;t have enough <a href="../../character#resources-res">Resources</a> to keep it or
-doesn&rsquo;t want to keep it, it stops functioning after a while. For example the
-magazines of a weapon cannot be restocked when resting.<br>
-These items can be sold for the usual <a href="#credits">Credits</a> though. They do not
-give you extra <a href="../../character#resources-res">Resources</a> however.</p>
+spend his available <a href="../../character#resources-res">Resources</a> on it to keep it.</p>
+<p>If the character does not have enough <a href="../../character#resources-res">Resources</a> to
+pay for the item at the end of session, the item is lost.</p>
+<p>The item can also be sold for it&rsquo;s <a href="../../equipment#credits-cr">Credits</a> value before
+it is lost.</p>
 <h2 id="weight">Weight<a class="headerlink" href="#weight" title="Permanent link">&para;</a></h2>
-<p>An item can specify its Weight. The Weight value indicates the minimum
-<a href="../../character#might-mi">Might</a> needed to carry the item. The <code>#</code> column in the
-<a href="../../character#attributes">Attribute</a> rank table shows the rank required.</p>
+<p>An item can specify it&rsquo;s Weight. The Weight value indicates the minimum
+<a href="../../character#might-mi">Might</a> needed to carry the item.</p>
 <p>If the Weight column shows zero or has no Weight, then its Weight can be
 disregarded.</p>
+<h3 id="items-and-weight">Items and Weight<a class="headerlink" href="#items-and-weight" title="Permanent link">&para;</a></h3>
+<p>Items require a certain level of Might in order to be used. If this level of
+Might is not met, the item cannot be used effectively in combat.</p>
+<p>One-handed items can be used with both hands however, increasing the level of
+Might by one step.</p>
+<div class="admonition example">
+<p class="admonition-title">Weight Requirements</p>
+<p>A one-handed wooden club specifies it&rsquo;s Weight as a d8. The character only
+has a d6 in Might, so he uses the club in both hands increasing his Might to
+a d8. For the purpose of wielding, attacking and dealing damage with the
+club, the character&rsquo;s Might is considered to be a d8.</p>
+</div>
 <h3 id="overburdened">Overburdened<a class="headerlink" href="#overburdened" title="Permanent link">&para;</a></h3>
 <p>Only items that are equipped, e.g. wielded weapons, worn armour and outfits,
 etc. are subject to this rule. An item that&rsquo;s kept in the character&rsquo;s inventory
 is not influencing the character.</p>
-<p>An item&rsquo;s Weight exceeding the character&rsquo;s <a href="../../character#might-mi">Might</a> reduces
-a character&rsquo;s <a href="../../character#speed-sp">Speed</a> by the difference. This includes
-<a href="../../crisis#turn-order">Turn Order</a> and <a href="../../crisis#defence">Defence</a>.</p>
+<p>An item&rsquo;s Weight exceeding the character&rsquo;s <a href="../../character#might-mi">Might</a> incures
+penalties. For each step below the item&rsquo;s Weight, the character&rsquo;s:</p>
+<ul>
+<li><a href="../../character#speed-sp">Speed</a> is reduced by one to a minimum of a <a href="#d4">d4</a>,
+  and</li>
+<li>the character&rsquo;s <a href="../../crisis#defence">Defence</a> drops by one to a minimum of 1.</li>
+</ul>
 <div class="admonition danger">
 <p class="admonition-title">Overburdened</p>
-<p>This penalty does not reduce the <a href="../../character#speed-sp">Speed</a> rank at all.
-It simply reduces all checks related to it.</p>
-</div>
-<div class="admonition example">
-<p class="admonition-title">Overburdened</p>
-<p>Jack has <a href="../../character#might-mi">Might - Mediocre</a> (rank 3), and picks up a
-weapon with Weight 5 and decides to use it. The difference is 2, so all his
-<a href="../../character#speed-sp">Speed</a> checks (including skill checks that require
-<a href="../../character#speed-sp">Speed</a>), <a href="../../crisis#turn-order">Turn Order</a> and
-<a href="../../crisis#defence">Defence</a> are reduced by 2.</p>
+<p>All skills related to the <a href="../../character#speed-sp">Speed</a> Attribute also drop
+to the same level.</p>
 </div>
 <h2 id="slots">Slots<a class="headerlink" href="#slots" title="Permanent link">&para;</a></h2>
 <p>A character can only carry a number of items up to her number of slots. The
 number of slots is further influenced by <a href="../../character#might-mi">Might</a>,
 <a href="../../character/perks">Perks</a> and equipment.</p>
-<p>An item occupies slots equal to its Weight. An item with a Weight of 4 occupies
-4 slots.</p>
+<p>An item occupies slots equal to its Weight. An item with a Weight of d4 occupies
+4 slots. An item with a Weight of d10 occupies 10 slots.</p>
 <p>If the item&rsquo;s Weight is 0 or is not specified, then the items still requires one
 slot, unless otherwise mentioned.</p>
 <div class="admonition summary">
 <p class="admonition-title">Amount of slots</p>
 <p><div class="formula formula-top formula-bottom">
-    <span data-bracket-bottom="Base">15</span> ±
-    <span data-bracket-top="Modifier">Might * 2</span> ±
+    <span data-bracket-bottom="Base">10</span> ±
+    <span data-bracket-top="Modifier">Might * 5</span> ±
     <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
 </div></p>
 </div>

@@ -189,4 +189,24 @@ $headers: h1, h2, h3, h4, h5;
       content: "\E8D7";
     }
   }
+
+  a[href$="#d4"]:after {
+    content: "\E920";
+  }
+
+  a[href$="#d6"]:after {
+    content: "\E91B";
+  }
+
+  a[href$="#d8"]:after {
+    content: "\E90B";
+  }
+
+  a[href$="#d10"]:after {
+    content: "\E91E";
+  }
+
+  a[href$="#d12"]:after {
+    content: "\E91F";
+  }
 }
