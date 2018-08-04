@@ -26,12 +26,12 @@ such they count as the cornerstone for a character's Skill.
 ![test](/_imgs/dice.svg)
 </div>
 
-Every character starts with each Attribute at a d4. Upgrading an Attribute
-allows the character to use a d6, a d8, a d10 or a d12. Upgrading an Attribute
-beyond a d12 adds a flat bonus of +1 per upgrade to the check.
+Every character starts with each Attribute at a [d4](#d4). Upgrading an
+Attribute allows the character to use a [d6](#d6), a [d8](#d8), a [d10](#d10) or
+a [d12](#d12). Upgrading an Attribute beyond a [d12](#d12) adds a flat bonus of
++1 per upgrade to the check.
 
-Upgrading an Attribute by one step costs **6**
-[Downtime](/character#downtime-dt).
+Upgrading an Attribute by one step costs **6** [Downtime](#downtime-dt).
 
 Downgrading only happens due to *fatal* adventuring events.
 
@@ -41,61 +41,62 @@ Attribute Damage decreases the character's Attribute, e.g. from a d6 to a d4.
 This penalty can be **temporary** or **permanently**.
 
 <blockquote class="important" markdown="1">
-If an Attribute were to drop below a d4 the character is incapacitated until
-the Attribute Damage is restored. If the Attribute Damage cannot be restored by
-*any* means, the character dies.
+If an Attribute were to drop below a d4 the character is incapacitated until the
+Attribute Damage is restored. If the Attribute would drop even lower, the
+character dies.
 </blockquote>
 
 <div class="left" markdown="1">
 
 ### Might (MI)
 
-> Might represents the character's physical strength and resilience.
+> [Might](#might-mi) represents the character's physical strength and
+> resilience.
 
-The damage of melee weapons is derived from might. Also improves a character's
-toughness.
+The damage of melee weapons is derived from [Might](#might-mi). Also improves a
+character's toughness.
 
 </div>
 <div class="right" markdown="1">
 
 ### Speed (SP)
 
-> Speed measures the character's reflexes and eye-hand coordination.
+> [Speed](#speed-sp) measures the character's reflexes and eye-hand
+> coordination.
 
-Speed adds a bonus to ranged weapon attacks, is used for stealth and lets you
-act in a [Crisis](/#crisis) sooner.
+[Speed](#speed-sp) adds a bonus to ranged weapon attacks, is used for stealth
+and lets you act in a [Crisis](/#crisis) sooner.
 
 </div>
 <div class="left" markdown="1">
 
 ### Intelligence (IN)
 
-> Intelligence describes how well your character learns new things, and how well
-he remembers already existing things.
+> [Intelligence](#intelligence-in) describes how well your character learns new
+things, and how well he remembers already existing things.
 
-Intelligence improves a character's Attribute to assess situations and skills
-related to knowing things.
+[Intelligence](#intelligence-in) improves a character's Attribute to assess
+situations and skills related to knowing things.
 
 </div>
 <div class="right" markdown="1">
 
 ### Charisma (CH)
 
-> Charisma represents the character's physical attractiveness, force of personality
-and his Attribute to lead.
+> [Charisma](#charisma-ch) represents the character's physical attractiveness,
+force of personality and his ability to lead.
 
-Charisma is mostly used in social interactions between characters and NPCs.
+[Charisma](#charisma-ch) is mostly used in social interactions between
+characters and NPCs.
 
 </div>
 <div class="clearfix"></div>
 
 ## Movement Speed
 
-A creature's Movement Speed is derived from the creature's Speed Attribute.
-Every creature has a base Movement Speed of 4 units per move action. Each step
-above a d4 adds one to the Movement Speed. E.g. a creature with a d12 in Speed
-has a Movement Speed of 8. A creature with a d12+2 in Speed has a Movement Speed
-of 10.
+A creature's Movement Speed is derived from the creature's [Speed](#speed-sp)
+Attribute. Every creature has a base Movement Speed of 4 units per move action.
+Each step above a [d4](#d4) adds one to the Movement Speed.
 
 Traits, Races, Items and Equipment can also increase a creature's Movement
 Speed.
@@ -106,6 +107,11 @@ Speed.
         <span data-bracket-top="Attribute">Speed</span> +
         <span data-bracket-bottom="Traits / Race / Equipment">Circumstance</span>
     </div>
+
+!!! example "Movement Speed"
+    A creature with a [d12](#d12) in [Speed](#speed-sp) has a Movement Speed of
+    8. A creature with a [d12](#d12)+2 in [Speed](#speed-sp) has a Movement
+    Speed of 10.
 
 <!-- Ranges from 1 to 8+ -->
 
@@ -129,28 +135,26 @@ Skill](/character/skills#stealth), sense things and creatures, etc.
 
 <!-- TODO -->
 
-> Each creature has [Health](/character/#health-hp) and
-> [Endurance](/character/#endurance-ep) pools. A robot is defined as a
-> character, but instead of [Health](/character/#health-hp) and
-> [Endurance](/character/#endurance-ep) has the pools
-> [Integrity](/character/#health-hp) and [Power](/character/#endurance-ep),
-> acting just the same.
+> Each creature has [Health](#health-hp) and [Endurance](#endurance-ep) pools.
+> A robot is defined as a character, but instead of [Health](#health-hp) and
+> [Endurance](#endurance-ep) has the pools [Integrity](#health-hp) and
+> [Power](#endurance-ep), acting just the same.
 
-[Endurance](/character/#endurance-ep) serves as an easily replenishable pool
-that's usually targetted by damage first. Once depleted, the health pool is
-targetted. [Health](/character/#health-hp) is very hard to replenish.
+[Endurance](#endurance-ep) serves as an easily replenishable pool that's
+usually targetted by damage first. Once depleted, the health pool is targetted.
+[Health](#health-hp) is very hard to replenish.
 
 <div class="left" markdown="1">
 
 ### Health (HP)
 
-> [Health](/character/#health-hp) represents the character's overall condition.
+> [Health](#health-hp) represents the character's overall condition.
 
-If [Health](/character/#health-hp) drops to zero or below, the character is
-*dying*. A *dying* character has to make a [Might](/character#might) check the
-first time he drops to or below zero, and every time he receives damage while in
-a *dying* state. On a failed check the character falls unconcious. If the check
-succeeds, the character retains conciousnes.
+If [Health](#health-hp) drops to zero or below, the character is *dying*. A
+*dying* character has to make a [Might](#might-mi) check the first time he drops to
+or below zero, and every time he receives damage while in a *dying* state. On a
+failed check the character falls unconcious. If the check succeeds, the
+character retains conciousnes.
 
 Outside of combat, a *dying* character loses one HP per minute, until he
 receives medical attention.

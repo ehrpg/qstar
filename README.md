@@ -3,8 +3,6 @@
 # qstar
 Rules modifications for Endless Horizons
 
-
-
 [Character sheet and
  pregens](https://drive.google.com/open?id=1Nfz9P2xdDkKlsNC_UK2ysVS73O4VzRFO)
  for the S.T.A.L.K.E.R. setting for qstar.

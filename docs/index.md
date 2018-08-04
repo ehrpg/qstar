@@ -2,19 +2,28 @@
 
 ## Prerequisites
 
-A player needs these dice: d4, d6, d8, d10 and a d12. A GM also requires these
-dice, or even more, to roll for NPCs, random outcomes, etc. A d20 or d100 also
-can be useful when rolling on random tables.
+A player needs these dice: [d4](#d4), [d6](#d6), [d8](#d8), [d10](#d10) and a
+[d12](#d12). A GM also requires these dice, or even more, to roll for NPCs,
+random outcomes, etc. A d20 or d100 also can be useful when rolling on random
+tables.
 
 ## Mechanics
 
-A character's skill and attributes are defined by his skill and attribute level.
-Every character starts with a skill and attribute level at d4. This can be
-improved up to a d12, or even higher adding flat bonuses, e.g. d12+1.
+> All character's are defined by [Attributes](/character#attributes) and
+> [Skills](/character/skills#skills).
 
 <div style="text-align: center;" markdown="1">
 ![test](/_imgs/dice.svg)
 </div>
+
+Every character starts with a [d4](#d4) in all
+[Attributes](/character#attributes) and [Skills](/character/skills#skills).
+[Attributes](/character#attributes) and [Skills](/character/skills#skills) can
+be improved up to a [d12](#d12), or even higher adding flat bonuses per upgrade,
+e.g. [d12](#d12)+3.
+
+A [Skill](/character/skills#skills) can never be raised higher than it's
+associated [Attribute](/character#attributes).
 
 A task's difficulty is always 4. The only exceptions are passive values in
 combat, e.g. a character's defense value.
@@ -38,7 +47,7 @@ The higher the resulting number, the better.
 A check has to be equal to or higher a target number in order to succeed.
 Otherwise, the check fails. The target number is derived from the task attempted
 and the check made. Most checks are made for [Skills](/character/skills#skills)
-and [Attributes](/character#attributes).
+and [Attributes](/character#attributess).
 
 #### Check Failures
 

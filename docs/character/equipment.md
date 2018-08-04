@@ -7,9 +7,10 @@ the provided price, the table shows the amount under the `#` column.
 
 ## Cost
 
-All items cost [Credits](#credits), while some items may also cost
-[Resources](/character#resources-res) to maintain the upkeep, e.g. ammo,
-cleaning, restocking etc.
+All items cost [Credits](#credits), while some items may cost
+[Resources](/character#resources-res) instead or in addition. This
+[Resources](/character#resources-res) cost abstract the maintenance of an item,
+e.g. ammunition, cleaning, restocking etc.
 
 Whenever there is a cost listed without units, then Credits are used.
 
@@ -22,21 +23,35 @@ A universal currency for buying most things.
 Looting items that only cost [Credits](#credits) can be used normally.
 
 If a looted item requires [Resources](/character#resources-res) a character may
-spend his available [Resources](/character#resources-res) on it to keep it. If
-he doesn't have enough [Resources](/character#resources-res) to keep it or
-doesn't want to keep it, it stops functioning after a while. For example the
-magazines of a weapon cannot be restocked when resting.<br>
-These items can be sold for the usual [Credits](#credits) though. They do not
-give you extra [Resources](/character#resources-res) however.
+spend his available [Resources](/character#resources-res) on it to keep it.
+
+If the character does not have enough [Resources](/character#resources-res) to
+pay for the item at the end of session, the item is lost.
+
+The item can also be sold for it's [Credits](/equipment#credits-cr) value before
+it is lost.
 
 ## Weight
 
-An item can specify its Weight. The Weight value indicates the minimum
-[Might](/character#might-mi) needed to carry the item. The `#` column in the
-[Attribute](/character#attributes) rank table shows the rank required.
+An item can specify it's Weight. The Weight value indicates the minimum
+[Might](/character#might-mi) needed to carry the item.
 
 If the Weight column shows zero or has no Weight, then its Weight can be
 disregarded.
+
+### Items and Weight
+
+Items require a certain level of Might in order to be used. If this level of
+Might is not met, the item cannot be used effectively in combat.
+
+One-handed items can be used with both hands however, increasing the level of
+Might by one step.
+
+!!! example "Weight Requirements"
+    A one-handed wooden club specifies it's Weight as a d8. The character only
+    has a d6 in Might, so he uses the club in both hands increasing his Might to
+    a d8. For the purpose of wielding, attacking and dealing damage with the
+    club, the character's Might is considered to be a d8.
 
 ### Overburdened
 
@@ -44,20 +59,16 @@ Only items that are equipped, e.g. wielded weapons, worn armour and outfits,
 etc. are subject to this rule. An item that's kept in the character's inventory
 is not influencing the character.
 
-An item's Weight exceeding the character's [Might](/character#might-mi) reduces
-a character's [Speed](/character#speed-sp) by the difference. This includes
-[Turn Order](/crisis#turn-order) and [Defence](/crisis#defence).
+An item's Weight exceeding the character's [Might](/character#might-mi) incures
+penalties. For each step below the item's Weight, the character's:
+
+* [Speed](/character#speed-sp) is reduced by one to a minimum of a [d4](#d4),
+  and
+* the character's [Defence](/crisis#defence) drops by one to a minimum of 1.
 
 !!! danger "Overburdened"
-    This penalty does not reduce the [Speed](/character#speed-sp) rank at all.
-    It simply reduces all checks related to it.
-
-!!! example "Overburdened"
-    Jack has [Might - Mediocre](/character#might-mi) (rank 3), and picks up a
-    weapon with Weight 5 and decides to use it. The difference is 2, so all his
-    [Speed](/character#speed-sp) checks (including skill checks that require
-    [Speed](/character#speed-sp)), [Turn Order](/crisis#turn-order) and
-    [Defence](/crisis#defence) are reduced by 2.
+    All skills related to the [Speed](/character#speed-sp) Attribute also drop
+    to the same level.
 
 ## Slots
 
@@ -65,16 +76,16 @@ A character can only carry a number of items up to her number of slots. The
 number of slots is further influenced by [Might](/character#might-mi),
 [Perks](/character/perks) and equipment.
 
-An item occupies slots equal to its Weight. An item with a Weight of 4 occupies
-4 slots.
+An item occupies slots equal to its Weight. An item with a Weight of d4 occupies
+4 slots. An item with a Weight of d10 occupies 10 slots.
 
 If the item's Weight is 0 or is not specified, then the items still requires one
 slot, unless otherwise mentioned.
 
 !!! summary "Amount of slots"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">15</span> ±
-        <span data-bracket-top="Modifier">Might * 2</span> ±
+        <span data-bracket-bottom="Base">10</span> ±
+        <span data-bracket-top="Modifier">Might * 5</span> ±
         <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
     </div>
 

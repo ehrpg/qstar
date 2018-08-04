@@ -6,12 +6,12 @@
 ![test](/_imgs/dice.svg)
 </div>
 
-Every character starts with each [Skill](/character/skills#skills) at a d4.
-Upgrading a [Skill](/character/skills#skills) allows the character to use a d6,
-a d8, a d10 or a d12. Upgrading a [Skill](/character/skills#skills) beyond a d12
-adds a flat bonus of +1 per upgrade to the check. A
-[Skill](/character/skills#skills) cannot be improved to a die higher than it's
-corresponding [Attribute](/character#attributes).
+Every character starts with each [Skill](/character/skills#skills) at a
+[d4](#d4). Upgrading a [Skill](/character/skills#skills) allows the character to
+use a [d6](#d6), a [d8](#d8), a [d10](#d10) or a [d12](#d12). Upgrading a
+[Skill](/character/skills#skills) beyond a [d12](#d12) adds a flat bonus of +1
+per upgrade to the check. A [Skill](/character/skills#skills) cannot be improved
+to a die higher than it's corresponding [Attribute](/character#attributes).
 
 Everything a character does is usually associated with a
 [Skill](/character/skills#skills), whereas every
