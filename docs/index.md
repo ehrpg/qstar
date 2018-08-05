@@ -44,6 +44,9 @@ result to your check. A die can explode multiple times.
 
 The higher the resulting number, the better.
 
+Rolling a one on any die also makes the die *explode*. Roll again. If the die
+comes up with a one again (two ones in a row) the check critically fails.
+
 A check has to be equal to or higher a target number in order to succeed.
 Otherwise, the check fails. The target number is derived from the task attempted
 and the check made. Most checks are made for [Skills](/character/skills#skills)
