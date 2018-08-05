@@ -151,27 +151,6 @@ h5 > a:after {
   vertical-align: top;
 }
 
-
-a[href$="#d4"]:after {
-  content: "\E920";
-}
-
-a[href$="#d6"]:after {
-  content: "\E91B";
-}
-
-a[href$="#d8"]:after {
-  content: "\E90B";
-}
-
-a[href$="#d10"]:after {
-  content: "\E91E";
-}
-
-a[href$="#d12"]:after {
-  content: "\E91F";
-}
-
 *:not(.md-search-result__item) > *#endurance-ep:after,
 *:not(.md-search-result__item) > a[href*="#endurance"]:after {
   content: "\EB5C";
@@ -265,6 +244,44 @@ a[href$="#d12"]:after {
 
 *:not(.md-search-result__item) > .qs-cr:after {
   content: "\E8D7";
+}
+
+*:not(.md-search-result__item) > a[href$="#d4"],
+*:not(.md-search-result__item) > a[href$="#d6"],
+*:not(.md-search-result__item) > a[href$="#d8"],
+*:not(.md-search-result__item) > a[href$="#d10"],
+*:not(.md-search-result__item) > a[href$="#d12"] {
+  color: #222 !important;
+  pointer-events: none;
+  cursor: default;
+}
+
+*:not(.md-search-result__item) > a[href$="#d4"]:after,
+*:not(.md-search-result__item) > a[href$="#d6"]:after,
+*:not(.md-search-result__item) > a[href$="#d8"]:after,
+*:not(.md-search-result__item) > a[href$="#d10"]:after,
+*:not(.md-search-result__item) > a[href$="#d12"]:after {
+  color: #222;
+}
+
+*:not(.md-search-result__item) > a[href$="#d4"]:after {
+  content: "\E920";
+}
+
+*:not(.md-search-result__item) > a[href$="#d6"]:after {
+  content: "\E91B";
+}
+
+*:not(.md-search-result__item) > a[href$="#d8"]:after {
+  content: "\E90B";
+}
+
+*:not(.md-search-result__item) > a[href$="#d10"]:after {
+  content: "\E91E";
+}
+
+*:not(.md-search-result__item) > a[href$="#d12"]:after {
+  content: "\E91F";
 }
 
 .md-typeset:not(.md-search-result__item) div.perk dl {
@@ -393,7 +410,8 @@ a[href$="#d12"]:after {
   padding: 5px;
   white-space: nowrap;
   left: 50%;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 [data-bracket-bottom]:after {
@@ -424,7 +442,8 @@ a[href$="#d12"]:after {
   padding: 5px;
   white-space: nowrap;
   left: 50%;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .formula {
@@ -447,7 +466,8 @@ a[href$="#d12"]:after {
 details,
 .admonition {
   overflow: hidden !important;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2) !important;
+  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2) !important;
+          box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2) !important;
 }
 
 details .formula.formula-bottom,
@@ -789,11 +809,14 @@ table thead th:hover {
 
 @media only screen and (min-width: 50em) {
   div.qs-list-test.full-width {
-    column-count: 1 !important;
+    -webkit-column-count: 1 !important;
+            column-count: 1 !important;
   }
   div.qs-list-test {
-    column-count: 2;
-    column-gap: 25px;
+    -webkit-column-count: 2;
+            column-count: 2;
+    -webkit-column-gap: 25px;
+            column-gap: 25px;
   }
   div.qs-list-test :target {
     display: block;
@@ -807,7 +830,6 @@ table thead th:hover {
   div.qs-list-test section {
     padding-top: 1em;
     -webkit-column-break-inside: avoid;
-    page-break-inside: avoid;
     break-inside: avoid;
     z-index: 1;
     overflow: hidden;

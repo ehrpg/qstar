@@ -190,6 +190,25 @@ $headers: h1, h2, h3, h4, h5;
     }
   }
 
+
+  a[href$="#d4"],
+  a[href$="#d6"],
+  a[href$="#d8"],
+  a[href$="#d10"],
+  a[href$="#d12"] {
+    color: #222 !important;
+    pointer-events: none;
+    cursor: default;
+  }
+
+  a[href$="#d4"]:after,
+  a[href$="#d6"]:after,
+  a[href$="#d8"]:after,
+  a[href$="#d10"]:after,
+  a[href$="#d12"]:after {
+    color: #222;
+  }
+
   a[href$="#d4"]:after {
     content: "\E920";
   }

@@ -3,9 +3,8 @@
 ## Prerequisites
 
 A player needs these dice: [d4](#d4), [d6](#d6), [d8](#d8), [d10](#d10) and a
-[d12](#d12). A GM also requires these dice, or even more, to roll for NPCs,
-random outcomes, etc. A d20 or d100 also can be useful when rolling on random
-tables.
+[d12](#d12). A GM also requires these dice. A d20 or d100 also can be useful
+when rolling on random tables.
 
 ## Mechanics
 
@@ -39,8 +38,8 @@ to the attempted skill or attribute roll. Bonuses are added to the resulting die
 roll, and compared to the task's difficulty level.
 
 Whenever a die is rolled with it's highest possible result (e.g. rolling a 12 on
-a d12), the die *explodes*. This allows you to roll the die again, and add the
-result to your check. A die can explode multiple times.
+a [d12](#d12)), the die *explodes*. This allows you to roll the die again, and
+add the result to your check. A die can explode multiple times.
 
 The higher the resulting number, the better.
 
