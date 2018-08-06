@@ -8,7 +8,7 @@ when rolling on random tables.
 
 ## Mechanics
 
-> All character's are defined by [Attributes](/character#attributes) and
+> All creatures are defined by [Attributes](/character#attributes) and
 > [Skills](/character/skills#skills).
 
 <div style="text-align: center;" markdown="1">

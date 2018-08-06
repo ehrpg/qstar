@@ -6,41 +6,46 @@
 ![test](/_imgs/dice.svg)
 </div>
 
-Every character starts with each [Skill](/character/skills#skills) at a
-[d4](#d4). Upgrading a [Skill](/character/skills#skills) allows the character to
-use a [d6](#d6), a [d8](#d8), a [d10](#d10) or a [d12](#d12). Upgrading a
-[Skill](/character/skills#skills) beyond a [d12](#d12) adds a flat bonus of +1
-per upgrade to the check. A [Skill](/character/skills#skills) cannot be improved
-to a die higher than it's corresponding [Attribute](/character#attributes).
+Every character starts with each [Skill](#skills) at a [d4](#d4). Upgrading a
+[Skill](#skills) allows the character to use a [d6](#d6), a [d8](#d8), a
+[d10](#d10) or a [d12](#d12). Upgrading a [Skill](#skills) beyond a [d12](#d12)
+adds a flat bonus of +1 per upgrade to the check. A [Skill](#skills) cannot be
+improved to a die higher than it's corresponding
+[Attribute](/character#attributes).
 
-Everything a character does is usually associated with a
-[Skill](/character/skills#skills), whereas every
-[Skill](/character/skills#skills) has an [Attribute](/character#attributes) it's
+Everything a character does is usually associated with a [Skill](#skills),
+whereas every [Skill](#skills) has an [Attribute](/character#attributes) it's
 associated with.
 
-Upgrading a [Skill](/character/skills#skills) by one step costs
-[Downtime](/character#downtime-dt), depending on the
-[Skill](/character/skills#skills)'s difficulty.
+Upgrading a [Skill](#skills) by one step costs
+[Downtime](/character#downtime-dt), depending on the [Skill](#skills)'s
+difficulty.
 
 Downgrading only happens due to *fatal* adventuring events.
 
 ## Skill Difficulty
 
-A [Skill](/character/skills#skills) is either easy, average or hard to master,
-as indicated by each individual [Skill](/character/skills#skills). More
-difficult Skills require more investment of time and money to improve, while
-easier Skills require less.
+A [Skill](#skills) is either:
 
-An easy [Skill](/character/skills#skills) costs 2
-[Downtime](/character#downtime-dt) to improve. A medium
-[Skill](/character/skills#skills) costs 4 [Downtime](/character#downtime-dt) to
-improve. a hard [Skill](/character/skills#skills) costs 6
-[Downtime](/character#downtime-dt) to improve.
+* easy,
+* average, or
+* hard
+
+to master, as indicated by each individual [Skill](#skills). More difficult
+[Skills](#skills) require more investment of time and money to improve, while
+easier [Skills](#skills) require less.
+
+An easy [Skill](#skills) costs 2 [Downtime](/character#downtime-dt) to improve.
+A medium [Skill](#skills) costs 3 [Downtime](/character#downtime-dt) to improve.
+A hard [Skill](#skills) costs 4 [Downtime](/character#downtime-dt) to improve.
 
 ## Skill Checks
 
-Whenever it's uncertain if a character can do an action, or if the outcome is
+> Whenever it's uncertain if a character can do an action, or if the outcome is
 effected by noticeable outside factors, the character has to roll a skill check.
+
+A skill check is made by rolling the [Skill's](#skills) respsective die and
+adding bonuses and penalties to the roll.
 
 !!! summary "Skill checks"
     <div class="formula formula-top formula-bottom">
@@ -55,13 +60,16 @@ effected by noticeable outside factors, the character has to roll a skill check.
 
 Temporary [Attribute](/character#attributes) damage **does not** incure any
 penalties. Permanent [Attribute](/character#attributes) damage lowers all
-associated Skills to the new Attribute rank, until the
+associated Skills to the new Attribute rank, *until* the
 [Attribute](/character#attributes) damage is restored.
 
 ## Skill competitions
 
 Characters compete against each others using skills. Unless otherwise stated,
 the same skill is used for both parties.
+
+Both parties make a Skill check. The party with the higher result wins. On a
+tie, roll again.
 
 ## Available Skills
 
