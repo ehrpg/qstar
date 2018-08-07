@@ -18,13 +18,17 @@ $headers: h1, h2, h3, h4, h5;
     vertical-align: top;
   }
 
-  #{$header} > a {
-    position: absolute;
-    right: 0;
-    &:after {
-      content: "" !important;
-    }
-  }
+  // #{$header} > a {
+  //   position: absolute;
+  //   right: 0;
+  //   &:after {
+  //     content: "" !important;
+  //   }
+  // }
+}
+
+article > a.md-icon.md-content__icon {
+  z-index: 10000;
 }
 
 *:not(.md-search-result__item) > {

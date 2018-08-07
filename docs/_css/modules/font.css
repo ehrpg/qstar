@@ -1,0 +1,20 @@
+html {
+  font-size: 77.5%;
+}
+
+body, input {
+  font-family: 'Zag', 'Roboto';
+}
+
+.md-typeset:not(.md-search-result__item) strong.hf {
+  font-family: 'Zag';
+  letter-spacing: 1px;
+}
+
+.md-typeset:not(.md-search-result__item) h1, .md-typeset:not(.md-search-result__item) h2, .md-typeset:not(.md-search-result__item) h3, .md-typeset:not(.md-search-result__item) h4, .md-typeset:not(.md-search-result__item) h5 {
+  font-family: 'Zag';
+  letter-spacing: 2px;
+  padding-left: 0;
+  font-weight: normal;
+}
+/*# sourceMappingURL=font.css.map */

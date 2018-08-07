@@ -8,29 +8,25 @@ when rolling on random tables.
 
 ## Mechanics
 
-> All creatures are defined by [Attributes](/character#attributes) and
-> [Skills](/character/skills#skills).
+### Fractions
 
-<div style="text-align: center;" markdown="1">
-![test](/_imgs/dice.svg)
-</div>
+All fractions are **always** rounded down.
 
-Every character starts with a [d4](#d4) in all
-[Attributes](/character#attributes) and [Skills](/character/skills#skills).
-[Attributes](/character#attributes) and [Skills](/character/skills#skills) can
-be improved up to a [d12](#d12), or even higher adding flat bonuses per upgrade,
-e.g. [d12](#d12)+3.
+### Negative Values
 
-A [Skill](/character/skills#skills) can never be raised higher than it's
-associated [Attribute](/character#attributes).
+Some pools cannot be negative, e.g. [Resources](/character#resources-res) and
+[Endurance](/character#endurance). If such a value where to drop to below 0, it
+either prohibits certain actions, it has consequences or it's simply ignored and
+the value set to 0.
+
+## Die Rolls
+
+All creatures are defined by [Attributes](/character#attributes) and
+[Skills](/character/skills#skills), which are used for all actions and die
+rolls.
 
 A task's difficulty is always 4. The only exceptions are passive values in
 combat, e.g. a character's defense value.
-
-Circumstances can modify a task's difficulty, so it becomes easier or harder to
-master.
-
-### Checks
 
 Checks are made if the outcome of a task is uncertain and subject to chance, or
 influenced by others. A check involves rolling the character's die corresponding
@@ -41,30 +37,47 @@ Whenever a die is rolled with it's highest possible result (e.g. rolling a 12 on
 a [d12](#d12)), the die *explodes*. This allows you to roll the die again, and
 add the result to your check. A die can explode multiple times.
 
-The higher the resulting number, the better.
-
-Rolling a one on any die also makes the die *explode*. Roll again. If the die
-comes up with a one again (two ones in a row) the check critically fails.
-
 A check has to be equal to or higher a target number in order to succeed.
 Otherwise, the check fails. The target number is derived from the task attempted
 and the check made. Most checks are made for [Skills](/character/skills#skills)
 and [Attributes](/character#attributess).
 
-#### Check Failures
+
+### Critical Failures
+
+When rolling a one with any die, you have to roll again. If it's another one the
+check critically fails. Otherwise, calculate the total using the first die roll
+and ignored the second one.
+
+This incurs other penalties in addition to failing the check, such as loss of
+resources, items, reputation etc.
+
+### Critical Successes
+
+Every multiple of 4, beginning at 8, adds a critical success to the roll. The
+[Skill](#skills), item or GM determines the outcome of the critical success.
+
+> A check may not have a critical outcome, or it doesn't matter if it's a
+critical success or not.
+
+!!! example "Critical Successes"
+    Mary rolls a 14, with bonuses. This roll is worth 2 critical successes, one
+    for reaching 8 and another for reaching 12.
+
+### Normal Failures
 
 A failed check doesn't necessarily mean, that the check completely failed. E.g.
 when climbing, a failed check might simply mean, that there was no progress
 while climbing. Or a failed sailing check might mean, that the voyage took a few
 days longer.
 
-#### Contests
+### Contests
 
 When two parties compete with each other in the same or even different skills
 and stats, both parties have to make a check. The party with the higher result
 wins the contest. On a tie both parties roll again.
 
-#### Difficulty Level
+### Difficulty Level
 
 Every Check has to beat a set [Difficulty Level](/crisis#difficulty) in order to
 be successful. The [Difficulty Level](/crisis#difficulty) is influenced by
@@ -77,36 +90,12 @@ have to make a check and compare the results to see who is successful.
 NPCs are abstracted by a [Difficulty Level](/crisis#difficulty), and use this
 level for almost all checks, stats, etc.
 
-#### Difficulty Modifier
-
-A [Difficulty Level](/crisis#difficulty) can **never** shift more than 2 levels
-in any direction.
-
-If a creative idea of a player would accomplish the same task and leaves little
-to no room of error, then the GM *can* decide what to do. Here are some ideas:
-
-* accept the creative solution as is,
-* require the character to roll if he would come up with the idea himself,
-* require the character to roll to see *how well* the solution is executed,
-* etc.
-
-### Fractions
-
-All fractions are **always** rounded down.
-
-### Negative Values
-
-Some pools cannot be negative, e.g. [Resources](/character#resources-res) and
-[Endurance](/character#endurance). If such a value where to drop to below 0, it
-either prohibits certain actions, it has consequences or it's simply ignored and
-the value set to 0.
-
 ## Glossary
 
 [Action point](/crisis#actions)
 :   AP, used for atomic actions in a crisis.
 
-Base
+Base Value
 :   A base value that's used for rolls or to determine values. It's the same for
 all characters and creatures.
 
@@ -120,14 +109,6 @@ otherwise.
 Roleplaying Circumstance
 :   Usually added by a race, perk or flaws. Roleplaying circumstances include
 prejudice, others liking or disliking you, being a known criminal, etc.
-
-*Roll*{.qs-one}
-:   This indicates, that a die on a check is a **1**. The number of dice show
-the number of **1**s that have to be rolled.
-
-*Roll*{.qs-d6}
-:   This indicates, that a die on a check is a **6**. The number of dice show
-the number of **6**s that have to be rolled.
 
 *Success*{.qs-s}
 :   This indicates, that a check was succeeded or has to be succeeded.

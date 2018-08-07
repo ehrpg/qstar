@@ -15,15 +15,6 @@ h1:after {
   vertical-align: top;
 }
 
-h1 > a {
-  position: absolute;
-  right: 0;
-}
-
-h1 > a:after {
-  content: "" !important;
-}
-
 h2 {
   position: relative !important;
 }
@@ -39,15 +30,6 @@ h2:after {
   text-transform: none;
   margin-left: 0.5rem !important;
   vertical-align: top;
-}
-
-h2 > a {
-  position: absolute;
-  right: 0;
-}
-
-h2 > a:after {
-  content: "" !important;
 }
 
 h3 {
@@ -67,15 +49,6 @@ h3:after {
   vertical-align: top;
 }
 
-h3 > a {
-  position: absolute;
-  right: 0;
-}
-
-h3 > a:after {
-  content: "" !important;
-}
-
 h4 {
   position: relative !important;
 }
@@ -91,15 +64,6 @@ h4:after {
   text-transform: none;
   margin-left: 0.5rem !important;
   vertical-align: top;
-}
-
-h4 > a {
-  position: absolute;
-  right: 0;
-}
-
-h4 > a:after {
-  content: "" !important;
 }
 
 h5 {
@@ -119,13 +83,8 @@ h5:after {
   vertical-align: top;
 }
 
-h5 > a {
-  position: absolute;
-  right: 0;
-}
-
-h5 > a:after {
-  content: "" !important;
+article > a.md-icon.md-content__icon {
+  z-index: 10000;
 }
 
 *:not(.md-search-result__item) > *#might-skills,
@@ -506,6 +465,31 @@ html {
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
   font-weight: 400;
+  text-align: justify;
+}
+
+body, input {
+  font-family: 'Roboto';
+}
+
+html {
+  font-size: 77.5%;
+}
+
+body, input {
+  font-family: 'Zag', 'Roboto';
+}
+
+.md-typeset:not(.md-search-result__item) strong.hf {
+  font-family: 'Zag';
+  letter-spacing: 1px;
+}
+
+.md-typeset:not(.md-search-result__item) h1, .md-typeset:not(.md-search-result__item) h2, .md-typeset:not(.md-search-result__item) h3, .md-typeset:not(.md-search-result__item) h4, .md-typeset:not(.md-search-result__item) h5 {
+  font-family: 'Zag';
+  letter-spacing: 2px;
+  padding-left: 0;
+  font-weight: normal;
 }
 
 h4.bold {
@@ -625,19 +609,6 @@ h1[id]:before {
   margin-top: -.8rem;
   padding-top: .8rem;
   content: "";
-}
-
-.md-typeset:not(.md-search-result__item) strong.hf {
-  /* header-font */
-  font-family: 'Zag';
-  letter-spacing: 1px;
-}
-
-.md-typeset:not(.md-search-result__item) h1, .md-typeset:not(.md-search-result__item) h2, .md-typeset:not(.md-search-result__item) h3, .md-typeset:not(.md-search-result__item) h4, .md-typeset:not(.md-search-result__item) h5 {
-  font-family: 'Zag';
-  letter-spacing: 2px;
-  padding-left: 0;
-  font-weight: normal;
 }
 
 .md-typeset:not(.md-search-result__item) h4:not(.dt):before {
@@ -883,15 +854,6 @@ table thead th:hover {
     line-height: 1.3;
     margin: 0.15em 0 0.15em 120px;
   }
-}
-
-html {
-  font-size: 77.5%;
-  text-align: justify;
-}
-
-body, input {
-  font-family: 'Zag', 'Roboto';
 }
 
 @media only screen and (min-width: 76.25em) {

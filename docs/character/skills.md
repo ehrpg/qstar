@@ -23,6 +23,11 @@ difficulty.
 
 Downgrading only happens due to *fatal* adventuring events.
 
+!!! example "Skills and Attributes"
+    Jack has a [d10](#d10) in [Might](/character#might-mi). He improves his
+    Athletics [Skill](#skills), and can raise it to a maximum of a [d10](#d10)
+    as well, but not higher than that.
+
 ## Skill Difficulty
 
 A [Skill](#skills) is either:
