@@ -1,3 +1,24 @@
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 400;
+  text-align: justify;
+}
+
+body, input {
+  font-family: 'Roboto';
+}
+
+/**
+ * Firefox specific rule
+ */
+@-moz-document url-prefix() {
+  body {
+    font-weight: lighter;
+  }
+}
+
 h1 {
   position: relative !important;
 }
@@ -461,18 +482,6 @@ details .formula.formula-top,
 }
 
 html {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-  font-weight: 400;
-  text-align: justify;
-}
-
-body, input {
-  font-family: 'Roboto';
-}
-
-html {
   font-size: 77.5%;
 }
 
@@ -496,15 +505,6 @@ h4.bold {
   border-color: black !important;
   border-bottom-width: 3px !important;
   border-left-width: 2px !important;
-}
-
-/**
- * Firefox specific rule
- */
-@-moz-document url-prefix() {
-  body {
-    font-weight: lighter;
-  }
 }
 
 .qs-sep {

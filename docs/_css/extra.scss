@@ -1,21 +1,9 @@
+@import './modules/base';
+
 @import './modules/icons';
 @import './modules/perks-flaws';
 @import './modules/data-brackets';
 @import './modules/fonts';
-
-
-
-html {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-  font-weight: 400;
-  text-align: justify;
-}
-
-body, input {
-  font-family: 'Roboto';
-}
 
 @import './modules/font';
 
@@ -23,16 +11,6 @@ h4.bold {
   border-color: black !important;
   border-bottom-width: 3px !important;
   border-left-width: 2px !important;
-}
-
-/**
- * Firefox specific rule
- */
-
-@-moz-document url-prefix() {
-  body {
-    font-weight: lighter;
-  }
 }
 
 .qs-sep {
@@ -494,3 +472,4 @@ strong,
 .admonition {
   min-width: 310px;
 }
+

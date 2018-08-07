@@ -15,7 +15,7 @@ All fractions are **always** rounded down.
 ### Negative Values
 
 Some pools cannot be negative, e.g. [Resources](/character#resources-res) and
-[Endurance](/character#endurance). If such a value where to drop to below 0, it
+[Endurance](/character#endurance). If such a value were to drop to below 0, it
 either prohibits certain actions, it has consequences or it's simply ignored and
 the value set to 0.
 
@@ -25,23 +25,24 @@ All creatures are defined by [Attributes](/character#attributes) and
 [Skills](/character/skills#skills), which are used for all actions and die
 rolls.
 
-A task's difficulty is always 4. The only exceptions are passive values in
-combat, e.g. a character's defense value.
-
 Checks are made if the outcome of a task is uncertain and subject to chance, or
 influenced by others. A check involves rolling the character's die corresponding
-to the attempted skill or attribute roll. Bonuses are added to the resulting die
-roll, and compared to the task's difficulty level.
+to the attempted [Attribute](/character#attributes) or
+[Skill](/character/skills#skills) roll. Bonuses are added to the resulting die
+roll, and compared to the task's Difficulty Level.
 
-Whenever a die is rolled with it's highest possible result (e.g. rolling a 12 on
+A task's Difficulty Level is always 4. The only exceptions are passive values in
+combat, e.g. a character's defense value.
+
+A check has to be equal to or higher a Difficulty Level in order to succeed.
+Otherwise, the check fails. The Difficulty Level can be modified by adding or
+substracting from the rolls resulting number.
+
+### Exploding dice
+
+Whenever a die is rolled with its highest possible result (e.g. rolling a 12 on
 a [d12](#d12)), the die *explodes*. This allows you to roll the die again, and
 add the result to your check. A die can explode multiple times.
-
-A check has to be equal to or higher a target number in order to succeed.
-Otherwise, the check fails. The target number is derived from the task attempted
-and the check made. Most checks are made for [Skills](/character/skills#skills)
-and [Attributes](/character#attributess).
-
 
 ### Critical Failures
 
@@ -68,14 +69,15 @@ critical success or not.
 
 A failed check doesn't necessarily mean, that the check completely failed. E.g.
 when climbing, a failed check might simply mean, that there was no progress
-while climbing. Or a failed sailing check might mean, that the voyage took a few
-days longer.
+while climbing. Or a failed sailing check might mean, that the voyage takes a
+few days longer.
 
 ### Contests
 
-When two parties compete with each other in the same or even different skills
-and stats, both parties have to make a check. The party with the higher result
-wins the contest. On a tie both parties roll again.
+When two parties compete with each other in the same or even different
+[Skill](/character/skills#skills) and stats, both parties have to make a check.
+The party with the higher result wins the contest. On a tie both parties roll
+again.
 
 ### Difficulty Level
 

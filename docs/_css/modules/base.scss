@@ -1,0 +1,21 @@
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 400;
+  text-align: justify;
+}
+
+body, input {
+  font-family: 'Roboto';
+}
+
+/**
+ * Firefox specific rule
+ */
+
+ @-moz-document url-prefix() {
+  body {
+    font-weight: lighter;
+  }
+}
