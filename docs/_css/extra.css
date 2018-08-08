@@ -36,6 +36,15 @@ h1:after {
   vertical-align: top;
 }
 
+h1 > a {
+  position: absolute;
+  right: 0;
+}
+
+h1 > a:after {
+  content: "" !important;
+}
+
 h2 {
   position: relative !important;
 }
@@ -51,6 +60,15 @@ h2:after {
   text-transform: none;
   margin-left: 0.5rem !important;
   vertical-align: top;
+}
+
+h2 > a {
+  position: absolute;
+  right: 0;
+}
+
+h2 > a:after {
+  content: "" !important;
 }
 
 h3 {
@@ -70,6 +88,15 @@ h3:after {
   vertical-align: top;
 }
 
+h3 > a {
+  position: absolute;
+  right: 0;
+}
+
+h3 > a:after {
+  content: "" !important;
+}
+
 h4 {
   position: relative !important;
 }
@@ -85,6 +112,15 @@ h4:after {
   text-transform: none;
   margin-left: 0.5rem !important;
   vertical-align: top;
+}
+
+h4 > a {
+  position: absolute;
+  right: 0;
+}
+
+h4 > a:after {
+  content: "" !important;
 }
 
 h5 {
@@ -104,8 +140,18 @@ h5:after {
   vertical-align: top;
 }
 
+h5 > a {
+  position: absolute;
+  right: 0;
+}
+
+h5 > a:after {
+  content: "" !important;
+}
+
 article > a.md-icon.md-content__icon {
   z-index: 10000;
+  right: 30px;
 }
 
 *:not(.md-search-result__item) > *#might-skills,

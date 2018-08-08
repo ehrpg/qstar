@@ -53,7 +53,7 @@ markdown_extensions:
     - toc:
         permalink: True
 
-pages:
+nav:
     - Q*:
         - Introduction: 'index.md'
         - Quick Start Rules: 'quick-start.md'
@@ -61,6 +61,7 @@ pages:
 
         - Characters:
 
+            - Character Creation: 'character/character-creation.md'
             - Character: 'character/index.md'
             - Races: 'character/races.md'
             - Skills: 'character/skills.md'
@@ -68,7 +69,6 @@ pages:
             # - Flaws: 'character/flaws.md'
             # - Traits: 'character/traits.md'
             - Equipment: 'character/equipment.md'
-            - Character Creation: 'character-creation.md'
 
 
         - NPCs:

@@ -26,17 +26,24 @@ All creatures are defined by [Attributes](/character#attributes) and
 rolls.
 
 Checks are made if the outcome of a task is uncertain and subject to chance, or
-influenced by others. A check involves rolling the character's die corresponding
-to the attempted [Attribute](/character#attributes) or
-[Skill](/character/skills#skills) roll. Bonuses are added to the resulting die
-roll, and compared to the task's Difficulty Level.
+influenced by other parties. A check involves rolling the character's die
+corresponding to the attempted [Attribute](/character#attributes) or
+[Skill](/character/skills#skills) check. Bonuses are added to the resulting die
+roll, and compared to the task's [Difficulty Level](/crisis#difficulty).
 
-A task's Difficulty Level is always 4. The only exceptions are passive values in
-combat, e.g. a character's defense value.
+A task's [Difficulty Level](/crisis#difficulty) is **always** 4. The only
+exceptions are passive values in combat, e.g. a character's defense value.
 
-A check has to be equal to or higher a Difficulty Level in order to succeed.
-Otherwise, the check fails. The Difficulty Level can be modified by adding or
-substracting from the rolls resulting number.
+A check has to be equal to or higher a [Difficulty Level](/crisis#difficulty) in
+order to succeed. Otherwise, the check fails. The [Difficulty
+Level](/crisis#difficulty) can be modified by adding or substracting from the
+rolls resulting number.
+
+!!! info "Check Failures"
+    A failed check doesn't necessarily mean, that the check completely failed.
+    E.g. when climbing, a failed check might simply mean, that there was no
+    progress while climbing. Or a failed sailing check might mean, that the
+    voyage takes a few days longer.
 
 ### Exploding dice
 
@@ -44,33 +51,34 @@ Whenever a die is rolled with its highest possible result (e.g. rolling a 12 on
 a [d12](#d12)), the die *explodes*. This allows you to roll the die again, and
 add the result to your check. A die can explode multiple times.
 
+<div class="left" markdown="1">
+
 ### Critical Failures
 
-When rolling a one with any die, you have to roll again. If it's another one the
-check critically fails. Otherwise, calculate the total using the first die roll
-and ignored the second one.
+When rolling a **one** with any die, you have to roll again. If it's another one
+the check critically fails. Otherwise, calculate the total using the first die
+roll (the **one**) and ignore the second one.
 
-This incurs other penalties in addition to failing the check, such as loss of
-resources, items, reputation etc.
+A critical fail causes other penalties in addition to failing the check, such as
+loss of resources, items, reputation etc.
+
+</div>
+<div class="right" markdown="1">
 
 ### Critical Successes
+
+> A check may or may not have a critical outcome.
 
 Every multiple of 4, beginning at 8, adds a critical success to the roll. The
 [Skill](#skills), item or GM determines the outcome of the critical success.
 
-> A check may not have a critical outcome, or it doesn't matter if it's a
-critical success or not.
 
 !!! example "Critical Successes"
     Mary rolls a 14, with bonuses. This roll is worth 2 critical successes, one
     for reaching 8 and another for reaching 12.
 
-### Normal Failures
-
-A failed check doesn't necessarily mean, that the check completely failed. E.g.
-when climbing, a failed check might simply mean, that there was no progress
-while climbing. Or a failed sailing check might mean, that the voyage takes a
-few days longer.
+</div>
+<div class="clearfix"></div>
 
 ### Contests
 
@@ -83,7 +91,7 @@ again.
 
 Every Check has to beat a set [Difficulty Level](/crisis#difficulty) in order to
 be successful. The [Difficulty Level](/crisis#difficulty) is influenced by
-circumstances, increasing or decreasing the difficulty.
+circumstances, making a check harder or easier.
 
 *Contests* don't use [Difficulty Levels](/crisis#difficulty). *Contests* are
 used, when both parties are *active* (rather than one party being *passive*) and
