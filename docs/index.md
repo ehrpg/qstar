@@ -39,11 +39,6 @@ random table's corresponding dice.
 **Task** and **Damage** rolls receive bonuses and penalties from the creature's
 perks, flaws, race, role-playing, etc.
 
-**Task** rolls also include something called a fate die. A fate die doesn't add
-to the result. But if the die comes up with a 1, and the
-[Attribute](/character#attributes) or [Skill](/character/skills#skills) die also
-comes up with a 1, the task critically fails.
-
 ### Task Difficulty
 
 A task's [Difficulty Level](/crisis#difficulty) is **always** 4. The only
@@ -54,31 +49,21 @@ order to succeed. Otherwise, the check fails. The [Difficulty
 Level](/crisis#difficulty) can be modified by adding or substracting from the
 rolls resulting number.
 
-Checks are made if the outcome of a task is uncertain and subject to chance, or
-influenced by other parties. A check involves rolling the character's die
-corresponding to the attempted [Attribute](/character#attributes) or
-[Skill](/character/skills#skills) check. Bonuses are added to the resulting die
-roll, and compared to the task's [Difficulty Level](/crisis#difficulty).
-
 !!! info "Check Failures"
     A failed check doesn't necessarily mean, that the check completely failed.
     E.g. when climbing, a failed check might simply mean, that there was no
     progress while climbing. Or a failed sailing check might mean, that the
     voyage takes a few days longer.
 
-### Exploding dice
-
-Whenever a die is rolled with its highest possible result (e.g. rolling a 10 on
-a [d10](#d10)), the die *explodes*. This allows you to roll the die again, and
-add the result to your check. A die can explode multiple times.
-
 <div class="left" markdown="1">
 
 ### Critical Failures
 
-When rolling a **one** with any die, you have to roll again. If it's another one
-the check critically fails. Otherwise, calculate the total using the first die
-roll (the **one**) and ignore the second one.
+Only **Task** rolls can critically fail. **Task** rolls include something called
+a fate die in addition to the [Attribute](/character#attributes)'s or
+[Skill](/character/skills#skills)'s die. A fate die isn't added to the result.
+But if the fate die comes up with a 1, and the **Task**'s die also comes up with
+a 1, the task critically fails.
 
 A critical fail causes other penalties in addition to failing the check, such as
 loss of resources, items, reputation etc.
@@ -88,15 +73,9 @@ loss of resources, items, reputation etc.
 
 ### Critical Successes
 
-> A check may or may not have a critical outcome.
-
-Every multiple of 4, beginning at 8, adds a critical success to the roll. The
-[Skill](#skills), item or GM determines the outcome of the critical success.
-
-
-!!! example "Critical Successes"
-    Mary rolls a 14, with bonuses. This roll is worth 2 critical successes, one
-    for reaching 8 and another for reaching 12.
+Whenever a die is rolled with its highest possible result (e.g. rolling a 10 on
+a [d10](#d10)), the die *explodes*. This allows you to roll the die again, and
+add the result to your check. A die can explode multiple times.
 
 </div>
 <div class="clearfix"></div>
@@ -107,19 +86,6 @@ When two parties compete with each other in the same or even different
 [Skill](/character/skills#skills) and stats, both parties have to make a check.
 The party with the higher result wins the contest. On a tie both parties roll
 again.
-
-### Difficulty Level
-
-Every Check has to beat a set [Difficulty Level](/crisis#difficulty) in order to
-be successful. The [Difficulty Level](/crisis#difficulty) is influenced by
-circumstances, making a check harder or easier.
-
-*Contests* don't use [Difficulty Levels](/crisis#difficulty). *Contests* are
-used, when both parties are *active* (rather than one party being *passive*) and
-have to make a check and compare the results to see who is successful.
-
-NPCs are abstracted by a [Difficulty Level](/crisis#difficulty), and use this
-level for almost all checks, stats, etc.
 
 ## Glossary
 
