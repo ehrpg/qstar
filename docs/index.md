@@ -6,7 +6,7 @@ A player needs these dice: [d4](#d4), [d6](#d6), [d8](#d8), [d10](#d10) and a
 [d12](#d12). A GM also requires these dice. A d20 or d100 also can be useful
 when rolling on random tables.
 
-## Mechanics
+## Basic Mechanics
 
 ### Fractions
 
@@ -21,15 +21,30 @@ the value set to 0.
 
 ## Die Rolls
 
-All creatures are defined by [Attributes](/character#attributes) and
-[Skills](/character/skills#skills), which are used for all actions and die
-rolls.
+There are three different kind of die rolls:
 
-Checks are made if the outcome of a task is uncertain and subject to chance, or
-influenced by other parties. A check involves rolling the character's die
-corresponding to the attempted [Attribute](/character#attributes) or
-[Skill](/character/skills#skills) check. Bonuses are added to the resulting die
-roll, and compared to the task's [Difficulty Level](/crisis#difficulty).
+* **Task** rolls, which include Skill rolls including Attacks,
+* **Damage** rolls, and
+* **Random** rolls.
+
+All creatures are defined by [Attributes](/character#attributes) and
+[Skills](/character/skills#skills), which are used for all **Task** rolls and
+*most* **Damage** rolls.
+
+Every roll uses a set amount of dice. **Task** rolls use the corresponding
+[Attribute](/character#attributes)'s or [Skill](/character/skills#skills)'s die.
+**Damage** rolls use the weapon's corresponding dice. Random rolls use the
+random table's corresponding dice.
+
+**Task** and **Damage** rolls receive bonuses and penalties from the creature's
+perks, flaws, race, role-playing, etc.
+
+**Task** rolls also include something called a fate die. A fate die doesn't add
+to the result. But if the die comes up with a 1, and the
+[Attribute](/character#attributes) or [Skill](/character/skills#skills) die also
+comes up with a 1, the task critically fails.
+
+### Task Difficulty
 
 A task's [Difficulty Level](/crisis#difficulty) is **always** 4. The only
 exceptions are passive values in combat, e.g. a character's defense value.
@@ -39,6 +54,12 @@ order to succeed. Otherwise, the check fails. The [Difficulty
 Level](/crisis#difficulty) can be modified by adding or substracting from the
 rolls resulting number.
 
+Checks are made if the outcome of a task is uncertain and subject to chance, or
+influenced by other parties. A check involves rolling the character's die
+corresponding to the attempted [Attribute](/character#attributes) or
+[Skill](/character/skills#skills) check. Bonuses are added to the resulting die
+roll, and compared to the task's [Difficulty Level](/crisis#difficulty).
+
 !!! info "Check Failures"
     A failed check doesn't necessarily mean, that the check completely failed.
     E.g. when climbing, a failed check might simply mean, that there was no
@@ -47,8 +68,8 @@ rolls resulting number.
 
 ### Exploding dice
 
-Whenever a die is rolled with its highest possible result (e.g. rolling a 12 on
-a [d12](#d12)), the die *explodes*. This allows you to roll the die again, and
+Whenever a die is rolled with its highest possible result (e.g. rolling a 10 on
+a [d10](#d10)), the die *explodes*. This allows you to roll the die again, and
 add the result to your check. A die can explode multiple times.
 
 <div class="left" markdown="1">
@@ -109,19 +130,17 @@ Base Value
 :   A base value that's used for rolls or to determine values. It's the same for
 all characters and creatures.
 
-Difficulty Class
-:   DC, a check equal or higher than the DC is a success, or a failure
-otherwise.
-
 *Failure*{.qs-f}
-:   This indicates, that a check failed or has to be failed.
+:   This indicates, that a check failed or has to be failed for the described
+outcome.
 
 Roleplaying Circumstance
-:   Usually added by a race, perk or flaws. Roleplaying circumstances include
+:   Usually added by a race, perks or flaws. Roleplaying circumstances include
 prejudice, others liking or disliking you, being a known criminal, etc.
 
 *Success*{.qs-s}
-:   This indicates, that a check was succeeded or has to be succeeded.
+:   This indicates, that a check was succeeded or has to be succeeded for the
+described outcome.
 
 Weight
 :   The minimum requirement of [Might](/character#might-mi) to *use* items.
