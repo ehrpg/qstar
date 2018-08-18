@@ -17,6 +17,18 @@ A character is defined by:
 
 See [Races](/character/races).
 
+## Skills
+
+See [Skills](/character/skills/).
+
+## Perks
+
+See [Perks](/character/perks/).
+
+## Flaws
+
+See [Flaws](/character/flaws/).
+
 ## Attributes
 
 > Attributes define the character's overall physique or mental capabilities. As
@@ -37,13 +49,13 @@ Downgrading only happens due to *fatal* adventuring events.
 
 ### Attribute Damage
 
-Attribute Damage decreases the character's Attribute, e.g. from a d6 to a d4.
-This penalty can be **temporary** or **permanently**.
+Attribute Damage decreases the character's Attribute, e.g. from a [d6](#d6) to a
+[d4](#d4). This penalty can be **temporary** or **permanently**.
 
 <blockquote class="important" markdown="1">
-If an Attribute were to drop below a d4 the character is incapacitated until the
-Attribute Damage is restored. If the Attribute would drop even lower, the
-character dies.
+If an Attribute were to drop below a [d4](#d4) the character is incapacitated
+until the Attribute Damage is restored. If the Attribute would drop even lower,
+the character dies.
 </blockquote>
 
 <div class="left" markdown="1">
@@ -92,80 +104,89 @@ characters and NPCs.
 </div>
 <div class="clearfix"></div>
 
-## Movement Speed
+## Stats
 
-A creature's Movement Speed is derived from the creature's [Speed](#speed-sp)
-Attribute. Every creature has a base Movement Speed of 4 units per move action.
-Each step above a [d4](#d4) adds one to the Movement Speed.
+<div class="left" markdown="1">
 
-Traits, Races, Items and Equipment can also increase a creature's Movement
-Speed.
+### Pace
 
-!!! summary "Movement Speed"
+> A creature can use up to its Pace per Move Action taken.
+
+The Pace value can never drop below **2**.
+
+!!! summary "Pace"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">4</span> +
-        <span data-bracket-top="Attribute">Speed</span> +
-        <span data-bracket-bottom="Traits / Race / Equipment">Circumstance</span>
+        <span data-bracket-bottom="Base">2</span> +
+        <span data-bracket-top="Speed Attribute">Die / 2</span>
     </div>
 
-!!! example "Movement Speed"
-    A creature with a [d12](#d12) in [Speed](#speed-sp) has a Movement Speed of
-    8. A creature with a [d12](#d12)+2 in [Speed](#speed-sp) has a Movement
-    Speed of 10.
+</div>
+<div class="right" markdown="1">
 
-<!-- Ranges from 1 to 8+ -->
+### Perception
 
-## Perception
+> Perception is a passive value that represents the character's alertness.
 
-Perception is a passive value that represents the character's alertness. It's
-used to counter creatures that used the [Stealth
+It's used to counter creatures that used the [Stealth
 Skill](/character/skills#stealth), sense things and creatures, etc.
 
 !!! summary "Perception"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Base">2</span> +
-        <span data-bracket-top="Attribute">Intelligence</span> +
-        <span data-bracket-bottom="Level">LVL / 2</span> +
-        <span data-bracket-top="Traits / Race / Equipment">Circumstance</span>
+        <span data-bracket-top="Intelligence Attribute">Die / 2</span>
     </div>
 
-<!-- Ranges from 1 to 8+ -->
+</div>
+<div class="clearfix"></div>
 
-## Pools
+<div class="left" markdown="1">
 
-<!-- TODO -->
+### Parry
 
-> Each creature has [Health](#health-hp) and [Endurance](#endurance-ep) pools.
-> A robot is defined as a character, but instead of [Health](#health-hp) and
-> [Endurance](#endurance-ep) has the pools [Integrity](#health-hp) and
-> [Power](#endurance-ep), acting just the same.
+> The [Parry](#parry) value is used for defend against a melee Attack.
 
-[Endurance](#endurance-ep) serves as an easily replenishable pool that's
-usually targetted by damage first. Once depleted, the health pool is targetted.
-[Health](#health-hp) is very hard to replenish.
+The [Parry](#parry) is 2 if you don't have the Melee Skill.
 
-### Health (HP)
+!!! summary "[Parry](#parry) Value"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Base">2</span> +
+        <span data-bracket-top="Melee Skill">Die / 2</span>
+    </div>
 
-> [Health](#health-hp) represents the character's overall condition.
+</div>
+<div class="right" markdown="1">
 
-If [Health](#health-hp) drops to zero or below, the character is *dying*. A
-*dying* character has to make a [Might](#might-mi) check the first time he drops to
-or below zero, and every time he receives damage while in a *dying* state. On a
-failed check the character falls unconcious. If the check succeeds, the
-character retains conciousnes.
+### Toughness
 
-Outside of combat, a *dying* character loses one HP per minute, until he
-receives medical attention.
+> The [Toughness](#toughness) value is used for shrugging off Attacks.
+
+The [Toughness](#toughness) value can never drop below **1**.
+
+!!! summary "[Toughness](#toughness) Value"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Base">2</span> +
+        <span data-bracket-top="Might Attribute">Die / 2</span> +
+        <span data-bracket-bottom="Armour's Toughness">TN</span>
+    </div>
+
+</div>
+<div class="clearfix"></div>
+
+## Health (HP)
+
+> [Health](#health) represents the character’s overall condition.
+
+If Health drops to 0 or below, the creature has to make a
+[Might](/character#might-mi) roll. On a failure, the creature becomes
+incapacitated until healed or dead. If the check succeeds, the character remains
+concious.
 
 A character that drops to or below his HP in negative dies.
 
-!!! summary "Maximum [Health](/character/#health-hp)"
+!!! summary "[Health](#health)"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">12</span> ±
-        <span data-bracket-top="Attribute Modifier">Might</span>
-        <span data-bracket-bottom="Base">x2</span>
-        <span></span> ±
-        <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
+        <span data-bracket-bottom="Base">2</span> +
+        <span data-bracket-top="Might Attribute">Die / 4</span>
     </div>
 
 ## Experience (XP)
@@ -176,17 +197,26 @@ Experience (XP) is gained due to noteable achievements or story completions. XP
 usually is only given out one at a time. The GM can decide to give out more for
 completing a longer adventure.
 
-<blockquote class="important" markdown="1">
-Every character has 0 XP upon creation.
-</blockquote>
-
 Every three Experience Points (XP) increase a character's level by one.
 
 ### Level (LVL)
 
-A character's level improves the maximum values of his currencies. This does not
-necessarily make the character stronger, but make the character more resourceful
-and adaptable.
+The Level of a character abstracts it's experience, resourcefulness, and
+[Skill](/character/skills#skills)set.
+
+#### Acquisitions
+
+A character's level improves the maximum values of his acquisitions. This does
+not necessarily make the character stronger, but makes the character more
+resourceful and adaptable.
+
+#### Character Points
+
+* Every level, a character gains 1 [Skill](/character/skills#skills) Point.
+
+* Every 2 levels, a character gains 1 [Attribute](/character#attributes) Points.
+
+* Every 4 levels, a character gains a Talent.
 
 ## Fate
 
@@ -200,7 +230,7 @@ once.
 Before rolling determine if you want to use fate dice and which fate dice you
 want to use. Add the fate dice to your roll.
 
-When all fate dice have been used up, your character's fate is sealed.
+When all fate dice have been used up, your character's **fate is sealed**.
 
 ## Acquisitions
 
@@ -225,6 +255,21 @@ Acquisitions of one sort can be traded in for any other.
     party has to find a wealthy trader, or rescue a trader from pirates first,
     etc.
 
+### Loot (LOOT)
+
+> [Loot](#loot) abstracts the items and clutter looted.
+
+1 unit of Loot takes up 1 Bulk, but no additional inventory space. Loot is
+usually stored on a vessel or a player base.
+
+Loot can be sold or exchanged for other Acquisitions.
+
+| Loot | Exchanges to    |
+|-----:|-----------------|
+|    1 | `1 000` Credits |
+|    5 | 1 Resource      |
+|   10 | 1 Technology    |
+
 <div class="left" markdown="1">
 
 ### Downtime (DT)
@@ -239,13 +284,6 @@ session automatically.
 
 **USED**{.hf} to recuperate, craft, repair and upgrade items and vessels and to
 improve a character.
-
-Actions that take longer, like repairing a damaged vessel consume
-[Downtime](#downtime-dt). Usually, a task that consumes [Downtime](#downtime-dt)
-has at least a DC of 12. Better skill checks can reduce [Downtime](#downtime-dt)
-and/or [Resources](/character/#resources-res)  used, while bad skill checks can
-increase [Downtime](#downtime-dt) and/or [Resources](/character/#resources-res)
-used. This DC *may* be lowered or increased depending on the situation.
 
 !!! summary "Maximum [Downtime](#downtime-dt)"
     <div class="formula formula-top formula-bottom">
@@ -374,18 +412,6 @@ Learning a Language can be done in three steps, whereas each step costs 2
 
 Learning a Language completely (all three steps) at once only costs 5
 [Downtime](/character#downtime-dt) instead.
-
-## Skills
-
-See [Skills](/character/skills/).
-
-## Perks
-
-See [Perks](/character/perks/).
-
-## Flaws
-
-See [Flaws](/character/flaws/).
 
 ## Improving your character
 

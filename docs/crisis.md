@@ -3,6 +3,48 @@
 A crisis requires a character to make a **Task** roll, **Damage** roll or
 **Random** roll. In a crisis time slows down and actions become more atomic.
 
+## Difficulty
+
+Every task has a difficulty of 4. Some tasks require equipment or knowledge, in
+order to not suffer a penalty. Other tasks are very easy, and the roll gains a
+bonus, or you don't have to roll at all.
+
+Not all tasks require a check. For example, finding some information inside
+books can be done without a skill check given enough time. A good skill check
+could reduce the time spent searching, or it could unearth additional
+information that might be helpful.
+
+!!! tip "Difficulty"
+    This is only a guideline about tasks and the modifiers they impose.
+
+| Modifier | Name        | Description                                                        |
+|---------:|-------------|--------------------------------------------------------------------|
+|       -4 | Trivial     | Everyday tasks.                                                    |
+|       -3 | Mundane     | Everyday tasks, which can be done by almost everyone.              |
+|       -2 | Routine     | Tasks you do every few days, which can be done by almost everyone. |
+|       -1 | Simple      | Most people can do this without much effort.                       |
+|        _ | Easy        | Even untrained people still can do these tasks most of the time.   |
+|       +1 | Normal      | You need at least some training to complete these kind of tasks.   |
+|       +2 | Demanding   | You either need gear or good training for these tasks.             |
+|       +3 | Challenging | You need a lot of training and good gear.                          |
+|       +4 | Hard        | You need to be a specialist for these tasks.                       |
+|       +5 | Very Hard   | You require help from others to achieve this.                      |
+|       +6 | Impossible  | A once in a lifetime achievement.                                  |
+
+### Difficulty Modifier
+
+Certain circumstances modify the task's difficulty positively or negatively.
+Multiple modifiers stack.
+
+| Modifier | Name                     | Description                               |
+|---------:|--------------------------|-------------------------------------------|
+|       +1 | Asset                    | Having the correct tools at hand.         |
+|       -1 | Unfavorable Circumstance | E.g. climbing a cliff while it's raining. |
+
+!!! tip "Stacking Modifiers"
+    Even though modifiers stack, multiple assets of the same type may not be
+    stacking.
+
 ## Turns
 
 Each character and creature in a crisis have one turn per round. The order in
@@ -65,45 +107,6 @@ this Action isn't completed yet cancels it.
 If you attack an enemy who has not noticed you and is not combat ready, you gain
 an additional turn before actual combat starts.
 
-## Difficulty
-
-Every task has a difficulty level. Any check has to be equal or above the
-**Target #** of the difficulty level in order to succeed, otherwise the check
-fails.
-
-Not all tasks require a check however. For example, finding some information
-inside books can be done without a skill check given enough time.
-
-| Difficulty Level | Name        | Target # | Description                                                        |
-|-----------------:|-------------|---------:|--------------------------------------------------------------------|
-|                1 | Mundane     |        3 | Everyday tasks, which can be done by almost everyone.              |
-|                2 | Routine     |        6 | Tasks you do every few days, which can be done by almost everyone. |
-|                3 | Simple      |        9 | Most people can do this without much effort.                       |
-|                4 | Easy        |       12 | Even untrained people still can do these tasks most of the time.   |
-|                5 | Normal      |       15 | You need at least some training to complete these kind of tasks.   |
-|                6 | Demanding   |       18 | You either need gear or good training for these tasks.             |
-|                7 | Challenging |       21 | You need a lot of training and good gear.                          |
-|                8 | Hard        |       24 | You need to be a specialist for these tasks.                       |
-|                9 | Very Hard   |       27 | You require help from others to achieve this.                      |
-|               10 | Impossible  |       30 | A once in a lifetime achievement.                                  |
-
-### Difficulty Modifier
-
-Certain circumstances modify the difficulty level, either positively or
-negatively.
-
-Multiple modifiers stack, but can never modify the difficulty level more than 2
-in any direction.
-
-| Name                     | Diffculty Level | Description                               |
-|--------------------------|----------------:|-------------------------------------------|
-| Asset                    |              -1 | Having the correct tools at hand.         |
-| Unfavorable Circumstance |              +1 | E.g. climbing a cliff while it's raining. |
-
-!!! tip "Difficulty Modifier"
-    A difficulty modifier basically adds a +3 bonus or a -3 penalty to a check.
-
-
 ## Available Actions
 
 All characters can perform basic actions. [Perks](/character/perks) and
@@ -113,16 +116,16 @@ This table provides a guideline for actions and their AP cost. These apply
 unless stated otherwise, e.g. attacking with an oversized weapon may require
 more AP.
 
-| Action    |   AP | Description                                                                                       |
-|-----------|-----:|---------------------------------------------------------------------------------------------------|
-| Attack    |    2 | Attack with a *normal* weapon.                                                                    |
-| Hide      |    3 | Hide from others, provided they have no direct vision of you.                                     |
-| Move      |    1 | Move up to the character's [Speed](/character#speed-sp) modifier + 2 (at least 1) in meters.      |
-| Overwatch |    - | You can delay your turn and use your AP for Attack actions in somebody else's turn.               |
-| Take Aim  |    2 | Lowers the Difficulty Level by 1. Can be used multiple times.                                     |
-| Sneak     |    1 | Move up to half the character's [Speed](/character#speed-sp) modifier + 2 (at least 1) in meters. |
-| Stand Up  |    2 | Standing up when being prone.                                                                     |
-| Use Item  |    2 | Use an item in a crisis. The item usually specifies the AP required.                              |
+| Action    |   AP | Description                                                                         |
+|-----------|-----:|-------------------------------------------------------------------------------------|
+| Attack    |    2 | Attack with a *normal* weapon.                                                      |
+| Hide      |    3 | Hide from others, provided they have no direct vision of you.                       |
+| Move      |    1 | Move up to the character's Pace.                                                    |
+| Overwatch |    _ | You can delay your turn and use your AP for Attack actions in somebody else's turn. |
+| Take Aim  |    2 | Provides a +1 Bonus to a ranged Attack. Can be used up to two times.                |
+| Sneak     |    1 | Move up to half the character's Pace.                                               |
+| Stand Up  |    1 | Standing up when being prone.                                                       |
+| Use Item  |    2 | Use an item in a crisis. The item usually specifies the AP required.                |
 
 ## Conditions
 
@@ -130,12 +133,13 @@ Certain actions become available or unavailable when characters are affected by
 various conditions. Conditions can be inflicted by other characters, by
 themselves or the environment.
 
-| Condition | Description                                                                      |
-|-----------|----------------------------------------------------------------------------------|
-| Drunk     | All checks impose a +1 [Difficulty](#difficulty-modifer) penalty.                |
-| Exhausted | You only regain 2 AP per round. All hits against you become critical hits.       |
-| Prone     | Can't melee attack. May provide bonus to *defence vs ranged* and ranged attacks. |
-| Stunned   | Can't act or react on current turn and does not regain AP.                       |
+| Condition | Description                                                |
+|-----------|------------------------------------------------------------|
+| Drunk     | All checks suffer a -1 penalty.                            |
+| Exhausted | You only regain 2 AP per round.                            |
+| Prone     | Can't melee attack. May provide bonus to ranged Attacks.   |
+| Slowed    | A slowed character has its Pace halfed.                    |
+| Stunned   | Can't act or react on current turn and does not regain AP. |
 
 ## Combat
 
@@ -157,7 +161,8 @@ An Attack roll is equal to a **Task** roll, using the weapon's associated
 
 #### Melee Attacks
 
-A melee Attack roll has to be equal to or higher than the target's Parry value.
+A melee Attack roll has to be equal to or higher than the target's
+[Parry](#parry) value.
 
 </div>
 <div class="right" markdown="1">
@@ -171,25 +176,18 @@ range, visibility, wind, etc. influence the Attack roll's result.
 
 ### Parry
 
-> The Parry value is used for defending against a melee Attack.
+> The [Parry](#parry) value is used for defending against a melee Attack.
 
-The Parry value can never drop below **2**.
-
-!!! summary "Parry Value"
-    <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Base">2</span> +
-      <span data-bracket-top="Melee Skill">Die / 2</span>
-    </div>
-
-Every additional enemy in melee range reduces the Parry value by 1. This only
-applies if there is more than one enemy in range.
+Every additional enemy in melee range reduces the [Parry](#parry) value by 1.
+This only applies if there is more than one enemy in range.
 
 !!! example "Melee combat"
     Jack is attacked by 3 security drones attacking with batons. They all are in
-    Jack's melee range. Jack is a good melee fighter and has a Parry of 8
-    against a single enemy. Since there are three enemies in total, his Parry is
-    reduced by 2 because of the 2 additional enemies. His Parry value drops to 6
-    while being in melee range to all three of them.
+    Jack's melee range. Jack is a good melee fighter and has a [Parry](#parry)
+    of 8 against a single enemy. Since there are three enemies in total, his
+    [Parry](#parry) is reduced by 2 because of the 2 additional enemies. His
+    [Parry](#parry) value drops to 6 while being in melee range to all three of
+    them.
 
 ### Cover
 
@@ -198,11 +196,11 @@ applies if there is more than one enemy in range.
 Cover is always relative to other targets. A character can be in total cover for
 an enemy, but in plain sight for another.
 
-| Name        | Difficulty |
-|-------------|-----------:|
-| Cover       |         +1 |
-| Heavy Cover |         +2 |
-| Total Cover | unhittable |
+|   Modifier | Condition   |
+|-----------:|-------------|
+|         +1 | Cover       |
+|         +2 | Heavy Cover |
+| unhittable | Total Cover |
 
 <div class="left" markdown="1">
 
@@ -225,9 +223,9 @@ an enemy, but in plain sight for another.
 
 If an Attack is successful, damage can be dealt to the target. A successful
 Attack **always** lowers the target's Armour, if any, by one. Some weapons or
-special Actions reduce the Armour an amount higher than that.
+special Actions reduce the Armour by more.
 
-Roll the weapon's damage dice. Some weapons gain additional damage from
+Roll the weapon's damage dice. Some weapons gain additional damage from an
 [Attribute](/character#attributes) and Actions.
 
 The result of the damage roll has to be higher than the target's Toughness
@@ -236,7 +234,21 @@ weapons or Actions increase the wounds caused.
 
 ## Wounds
 
-Every wound reduces all rolls, and the parry value by 1.
+Every wound imposes a -1 penalty on all **Task** rolls.
+
+When the creature has negative [Health](#health) equal to its maximum, the
+creature dies.
+
+If [Health](#health) drops to 0 or below, the creature has to make a
+[Might](/character#might-mi) roll. On a failure, the creature becomes
+incapacitated until healed or dead. If the check succeeds, the character remains
+concious.
+
+NPCs usually die outright when they reach 0 [Health](#health).
+
+!!! example "Negative [Health](#health)"
+    Jack has a maximum of 3 [Health](#health). At 0 [Health](#health) he becomes
+    incapacitated. When his [Health](#health) drop to -3, Jack dies.
 
 ## Healing
 
@@ -269,7 +281,7 @@ The difficulty of Natural Healing is influenced by these conditions:
 |       -2 | Rough traveling                                                       |
 |       -2 | No medical attention                                                  |
 |       -2 | Poor environmental conditions, such as intense cold, heat, or rain    |
-|        - | First Aid / Medical attention from self                               |
+|        _ | First Aid / Medical attention from self                               |
 |       +1 | Medical attention from a doctor                                       |
 |       +2 | Medical attention from a doctor in good condition, such as a hospital |
 
