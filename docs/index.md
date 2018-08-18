@@ -12,6 +12,32 @@ when rolling on random tables.
 
 All fractions are **always** rounded down.
 
+When a Skill is halved, half the number of sides of the die. Flat modifiers are
+added to the sides of the die.
+
+<div class="left" markdown="1">
+
+!!! example "Skill Fraction"
+    <div class="formula formula-top formula-bottom">
+      <span data-bracket-bottom="Result">6</span> = (
+      <span data-bracket-top="1d12">12</span> /
+      <span data-bracket-bottom="divisor">2</span>)
+    </div>
+
+</div>
+<div class="right" markdown="1">
+
+!!! example "Skill Fraction"
+    <div class="formula formula-top formula-bottom">
+      <span data-bracket-bottom="Result">7</span> = (
+      <span data-bracket-top="1d12+3">15</span> /
+      <span data-bracket-bottom="divisor">2</span>)
+    </div>
+
+</div>
+
+<div style="clear: both;"></div>
+
 ### Negative Values
 
 Some pools cannot be negative, e.g. [Resources](/character#resources-res) and
@@ -165,31 +191,31 @@ TECH
 * Equipment
 
 CR
-:   [Credits](/character/equipment#credits)
+:   [Credits](/equipment#credits)
 
 HIT
-:   [Hit bonus](/character/equipment/#weapons)
+:   [Hit bonus](/equipment/#weapons)
 
 END
-:   [Endurance damage](/character/equipment/#weapons)
+:   [Endurance damage](/equipment/#weapons)
 
 DMG
-:   [Health damage](/character/equipment/#weapons)
+:   [Health damage](/equipment/#weapons)
 
 RNG
-:   [Range](/character/equipment/#weapons)
+:   [Range](/equipment/#weapons)
 
 MAG
-:   [Magazines](/character/equipment/#weapons)
+:   [Magazines](/equipment/#weapons)
 
 CAP
-:   [Capacity](/character/equipment/#weapons)
+:   [Capacity](/equipment/#weapons)
 
 RoF
-:   [Rate of fire](/character/equipment/#weapons)
+:   [Rate of fire](/equipment/#weapons)
 
 REL
-:   [Reload](/character/equipment/#weapons)
+:   [Reload](/equipment/#weapons)
 
 * Crisis
 

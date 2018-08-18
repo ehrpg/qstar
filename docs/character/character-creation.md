@@ -1,4 +1,4 @@
-# Character creation
+# Character Creation
 
 ## Step-by-Step
 

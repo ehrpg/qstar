@@ -331,7 +331,7 @@ Powerful equipment requiring [Resources](#resources-res) usually adds
 
 > [Technology](#technology-tech) represents the character's technological
 > knowledge, which on the other hand allows to unlock new
-> [Equipment](/character/equipment).
+> [Equipment](/equipment).
 
 **GAINED**{.hf} by aiding science missions, acquiring blueprints, spending time
 on researching certain scientific fields, etc.
@@ -357,7 +357,7 @@ Unlocking upgrades enables the acquisition of better equipment and vessels.
 
 Living standards decrease the micro management you have to do for your character
 and specifically his equipment and items, see [Item
-Uses](/character/equipment#item-uses).
+Uses](/equipment#item-uses).
 
 ### Poor living standard
 

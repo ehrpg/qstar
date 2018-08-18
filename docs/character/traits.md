@@ -74,7 +74,7 @@ Benefit
 :   +1 to [Turn Order](/crisis#turn-order)
 
 Drawback
-:   -2 to [Slots](/character/equipment#slots)
+:   -2 to [Slots](/equipment#slots)
 
 Requires {.qs-sep}
 :   [Speed - Great](/character#speed-sp)

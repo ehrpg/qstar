@@ -68,7 +68,8 @@ nav:
             # - Perks: 'character/perks.md'
             # - Flaws: 'character/flaws.md'
             # - Traits: 'character/traits.md'
-            - Equipment: 'character/equipment.md'
+
+        - Equipment: 'equipment.md'
 
 
         - NPCs:

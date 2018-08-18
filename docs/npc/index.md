@@ -115,7 +115,7 @@ If an NPC can drop [Credits](/equipment#credits), they can also have a
 ### Items
 
 Items an NPC was using can also be looted. Depending on the combat, most items
-have a bad [Equipment Condition](/character/equipment#equipment-condition)
+have a bad [Equipment Condition](/equipment#equipment-condition)
 though.
 
 #### Equipment Condition
