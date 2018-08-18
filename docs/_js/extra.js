@@ -200,3 +200,4 @@
     'DOMContentLoaded', anchorScrolls.init.bind(anchorScrolls)
   );
 })(window.document, window.history, window.location);
+

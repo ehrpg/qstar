@@ -144,8 +144,6 @@ Skill](/character/skills#stealth), sense things and creatures, etc.
 usually targetted by damage first. Once depleted, the health pool is targetted.
 [Health](#health-hp) is very hard to replenish.
 
-<div class="left" markdown="1">
-
 ### Health (HP)
 
 > [Health](#health-hp) represents the character's overall condition.
@@ -170,29 +168,6 @@ A character that drops to or below his HP in negative dies.
         <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>
 
-</div>
-<div class="right" markdown="1">
-
-### Endurance (EP)
-
-> [Endurance](/character/#endurance-ep) represents the character's power.
-
-Damage from weapons, other characters, environments and certain actions such as
-sprinting cause stress on a character and reduce his
-[Endurance](/character/#endurance-ep).
-
-!!! summary "Maximum [Endurance](/character/#endurance-ep)"
-    <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">30</span> ±
-        <span data-bracket-top="Attribute Modifier">Might</span>
-        <span data-bracket-bottom="Base">x5</span>
-        <span></span> ±
-        <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
-    </div>
-
-</div>
-<div class="clearfix"></div>
-
 ## Experience (XP)
 
 > Experience is gained throughout a character's adventuring career.
@@ -213,12 +188,19 @@ A character's level improves the maximum values of his currencies. This does not
 necessarily make the character stronger, but make the character more resourceful
 and adaptable.
 
-### Fate
+## Fate
 
 > A character can change the course of action and his fate.
 
-Every character has one fate roll available. Each level up adds another fate
-roll. Once used, a fate roll can never be regained.
+Every character has a few fate dice available, a [d4](#d4), [d6](#d6),
+[d8](#d8), [d10](#d10) and a [d12](#d12). Any of these dice can only be used
+once. A fate die can be used on any roll, even multiple fate dice can be used at
+once.
+
+Before rolling determine if you want to use fate dice and which fate dice you
+want to use. Add the fate dice to your roll.
+
+When all fate dice have been used up, your character's fate is sealed.
 
 ## Acquisitions
 

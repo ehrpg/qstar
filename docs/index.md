@@ -65,6 +65,11 @@ random table's corresponding dice.
 **Task** and **Damage** rolls receive bonuses and penalties from the creature's
 perks, flaws, race, role-playing, etc.
 
+**Task** rolls include something called a chance die in addition to the
+[Attribute](/character#attributes)'s or [Skill](/character/skills#skills)'s die.
+A chance die isn't added to the result. See [Critical
+Failures](#critical-failures).
+
 ### Task Difficulty
 
 A task's [Difficulty Level](/crisis#difficulty) is **always** 4. The only
@@ -85,11 +90,8 @@ rolls resulting number.
 
 ### Critical Failures
 
-Only **Task** rolls can critically fail. **Task** rolls include something called
-a fate die in addition to the [Attribute](/character#attributes)'s or
-[Skill](/character/skills#skills)'s die. A fate die isn't added to the result.
-But if the fate die comes up with a 1, and the **Task**'s die also comes up with
-a 1, the task critically fails.
+If the chance die comes up with a 1, and the **Task**'s die also comes up with a
+1, the task critically fails.
 
 A critical fail causes other penalties in addition to failing the check, such as
 loss of resources, items, reputation etc.

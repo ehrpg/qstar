@@ -165,7 +165,7 @@ A melee Attack roll has to be equal to or higher than the target's Parry value.
 #### Ranged Attacks
 
 A ranged Attack roll has to be equal to or higher than 4. Circumstances such as
-range, visibility, wind, etc. influence this roll's result.
+range, visibility, wind, etc. influence the Attack roll's result.
 
 </div>
 
@@ -223,64 +223,53 @@ an enemy, but in plain sight for another.
 
 ### Damage
 
-If an Attack is successful, damage is dealt to the target. The amount of damage
-done depends on the weapon used. Some weapons' damage can be influenced by the
-character using them, e.g. when wielding a melee weapon which can be influenced
-by [Might](/character#might-mi).
+If an Attack is successful, damage can be dealt to the target. A successful
+Attack **always** lowers the target's Armour, if any, by one. Some weapons or
+special Actions reduce the Armour an amount higher than that.
 
-#### Critical damage
+Roll the weapon's damage dice. Some weapons gain additional damage from
+[Attribute](/character#attributes) and Actions.
 
-[Critical Hits](/stunts#critical-hit) deal the weapon's damage to the target's
-[Health](/character#health-hp) pool.
+The result of the damage roll has to be higher than the target's Toughness
+value. If the damage roll is higher, you cause 1 wound on the target. Some
+weapons or Actions increase the wounds caused.
 
-### Healing
+## Wounds
 
-[Endurance](/character#endurance-ep) is restored over time. Items such as
-[Adrenalin Shots](/equipment#adrenalin-shot) increase
-[Endurance](/character#endurance-ep) instantly. Usually, taking a 10 minute
-break restores all [Endurance](/character#endurance-ep). The time required
-varies, as e.g. a long march requires more time to restore
-[Endurance](/character#endurance-ep).
+Every wound reduces all rolls, and the parry value by 1.
 
-[Health](/character#health-hp) is restored slowly over time. A character heals 1
-point of [Health](/character#health-hp) damage every day they can take a rest.
-Resting Acquisitions that the character can only do light downtime activities, like
-reading.
+## Healing
 
-#### Healing a dying character
+The Medicine Skill can be used to treat a wound suffered within the last hour.
+Each Medicine Skill roll to heal a wound takes 10 minutes.
 
-A *dying* character requires medical attention from any other character or even
-himself. Using the **Science (Medicine)** skill is required to treat a *dying*
-character. The check is penalized by the amount of negative HP the target has.
+Wounds that are older than one hour have to heal naturally.
 
-If a character tries to medically treat himself, the check receives a penalty of
-5 points.
+**Healing A Character**: A healer can aid a character's healing progress. The
+healer has to substract the patient's wounds from his Medicine roll. A wounded
+character trying to heal his own wounds suffers from both the wound penalty and
+the wound penalty to the Medicine roll.
 
-First Aid requires one minute. If the check fails, the character loses one HP
-due to *dying*. First Aid can be attempted multiple times, until the character
-is healed or *dead*.
+Without any healing aids, such as bandages etc., the healer suffers a -2 penalty
+to his roll.
 
-A *dying* character can be administered a medical item instead of rolling for
-First Aid.
+**Healing A Dying Character**: If a healer was successful on his Medicine check
+for his patient, the patient is not incapacitated anymore.
 
-#### Healing a wounded character
+### Natural Healing
 
-Medical installations, doctors and medical supplies increase the amount of
-[Health](/character#health-hp) healed. Per day a **Science (Medicine)** check
-can be attempted for a single character.
+Every day a wounded or incapacitated character can attempt a
+[Might](/character#might-mi) roll to heal 1 wound naturally. A critical failure
+on the [Might](/character#might-mi) roll causes an additional wound.
 
-Translate the result of the check to the **Difficulty Level** of the
-[Difficulty](#difficulty) table. The character heals that amount additionally
-that single day, given they can take a rest.
+The difficulty of Natural Healing is influenced by these conditions:
 
-!!! summary "Healing"
-    <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">1 per day</span> +
-        <span data-bracket-top="X = Difficulty Level">X per day</span>
-    </div>
+| Modifier | Condition                                                             |
+|---------:|-----------------------------------------------------------------------|
+|       -2 | Rough traveling                                                       |
+|       -2 | No medical attention                                                  |
+|       -2 | Poor environmental conditions, such as intense cold, heat, or rain    |
+|        - | First Aid / Medical attention from self                               |
+|       +1 | Medical attention from a doctor                                       |
+|       +2 | Medical attention from a doctor in good condition, such as a hospital |
 
-Medical installation, medibots, etc. make **Science (Medicine)** check with
-their respective modifiers likewise.
-
-Medical items heal a fixed amount of HP without requiring a **Science
-(Medicine)** check.
