@@ -22,6 +22,9 @@ character. Not only does it influence Attributes and Skills, but also Talents,
 and most importantly roleplaying circumstances. For example elves might be
 hostile towards dwarves, and vice versa.
 
+See [Races](/character/races) for a list of available races, or talk to your GM
+if the race you want to play is not on there.
+
 ### 3. Finalize Attributes
 
 A new character gains 5 Attribute Points that have to be distributed among the 4

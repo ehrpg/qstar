@@ -61,6 +61,8 @@ nav:
 
         - Crisis: 'crisis.md'
 
+        - Equipment: 'equipment.md'
+
         - Characters:
             - Character: 'character/index.md'
             - Races: 'character/races.md'
@@ -68,8 +70,6 @@ nav:
             # - Perks: 'character/perks.md'
             # - Flaws: 'character/flaws.md'
             # - Traits: 'character/traits.md'
-
-        - Equipment: 'equipment.md'
 
 
         - NPCs:
