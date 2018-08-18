@@ -1,0 +1,624 @@
+\documentclass[8pt,landscape,a4paper]{article}
+\usepackage{multicol}
+\usepackage{calc}
+\usepackage{ifthen}
+\usepackage[landscape]{geometry}
+\usepackage{amsmath,amsthm,amsfonts,amssymb}
+\usepackage{color,graphicx}
+\usepackage{hyperref}
+\usepackage{tabularx}
+
+\pdfinfo{
+  /Title (qstar-cheatsheet.pdf)
+  /Creator (TeX)
+  /Producer (pdfTeX 1.40.0)
+  /Author (Florian Stinglmayr, Johannes Zwirchmayr)
+  /Subject (Cheatsheet for qstar)
+  /Keywords (pdflatex, latex,pdftex,tex)}
+
+\ifthenelse{\lengthtest { \paperwidth = 11in}}
+    { \geometry{top=.5in,left=.5in,right=.5in,bottom=.5in} }
+    {\ifthenelse{ \lengthtest{ \paperwidth = 297mm}}
+        {\geometry{top=1cm,left=1cm,right=1cm,bottom=1cm} }
+        {\geometry{top=1cm,left=1cm,right=1cm,bottom=1cm} }
+    }
+
+\pagestyle{empty}
+
+\makeatletter
+\renewcommand{\section}{\@startsection{section}{1}{0mm}%
+                                {-1ex plus -.5ex minus -.2ex}%
+                                {0.5ex plus .2ex}%x
+                                {\normalfont\large\bfseries}}
+\renewcommand{\subsection}{\@startsection{subsection}{2}{0mm}%
+                                {-1ex plus -.5ex minus -.2ex}%
+                                {0.5ex plus .2ex}%
+                                {\normalfont\normalsize\bfseries}}
+\renewcommand{\subsubsection}{\@startsection{subsubsection}{3}{0mm}%
+                                {-1ex plus -.5ex minus -.2ex}%
+                                {1ex plus .2ex}%
+                                {\normalfont\small\bfseries}}
+\makeatother
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\setcounter{secnumdepth}{0}
+
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt plus 0.5ex}
+
+\newtheorem{example}[section]{Example}
+
+\begin{document}
+\raggedright
+\footnotesize
+\begin{multicols}{4}
+
+
+% multicol parameters
+% These lengths are set only within the two main columns
+%\setlength{\columnseprule}{0.25pt}
+\setlength{\premulticols}{1pt}
+\setlength{\postmulticols}{1pt}
+\setlength{\multicolsep}{1pt}
+\setlength{\columnsep}{2pt}
+
+\begin{center}
+     \Large{qstar - Cheatsheet} \\
+\end{center}
+
+\section{Character}
+
+\subsection{Attributes and Skills}
+
+All Attributes and Skills start at a d4. Can be improved up to a d6, d8, d10, or d12.
+
+The Attributes are: \emph{Might (MI)}, \emph{Speed (SP)}, \emph{Intelligence (IN)}, \emph{Charisma (CA)}.
+
+\subsection{Stats}
+
+\( \emph{Pace} = 2 + Speed / 2 \)
+
+\( \emph{Perception} = 2 + Intelligence / 2 \)
+
+\( \emph{Parry} = 2 + Melee / 2 \)
+
+\( \emph{Toughness} = 2 + Might / 2 \)
+
+\subsection{Health (HP)}
+
+If Health drops to 0 or below, make a Might roll. On failure become \emph{incapacitated} until healed or dead.
+
+If Health drops to its negative maximum, the character dies.
+
+\( \emph{Health} = 2 + Might / 4 \)
+
+\subsection{Experience (XP)}
+
+Three XP is a level up.
+
+Usually one XP per sessions / missions etc.
+
+\subsubsection{Level (LVL)}
+
+Increases Maximum of Acquisitions.
+
+\begin{itemize}
+  \item Every Level gives 1 Skill Point.
+  \item Every 2 Levels gives 1 Attribute Point.
+  \item Every 4 Levels give a Talent.
+\end{itemize}
+
+\subsection{Fate}
+
+Every character has a d4, d6, d8, d10, d12, that can be used on any roll.
+
+Has to be used before rolling, and can only be used once in a character's lifetime.
+
+Multiple dice can be used at once too.
+
+\subsection{Acquisition}
+
+Abstracts resources available to a character.
+
+Every Acquisition has a Maximum value that cannot be exceeded.
+
+\subsubsection{Loot (LOOT)}
+
+Gained from looting enemies. It's worth 1000 Credits.
+
+\emph{No Maximum, but each 1 Loot takes up 1 Bulk}.
+
+\subsubsection{Downtime (DT)}
+
+\( Maximum = 10 \)
+
+\subsubsection{Influence (INF)}
+
+\( Maximum = XP + 2 \)
+
+\subsubsection{Resources (RES)}
+
+\( Maximum = XP + 2 \)
+
+\subsubsection{Technology (TECH)}
+
+\( Maximum = XP + 2 \)
+
+\section{Crisis}
+
+\subsection{Difficulty}
+
+Task difficulty is always 4. Only the roll is modified, not the task.
+
+\subsection{Turns}
+
+Each creature has one turn per round. Order is determiend by turn order.
+
+\subsubsection{Turn Order}
+
+Roll Turn Order. On a tie, roll again to resolve the tie. Keep the original roll's result.
+
+\( Turn Order = Speed \)
+
+\subsubsection{Action Points (AP)}
+
+Every Action requires AP.
+
+At the start of a turn gain 4 AP. You can never have more than 6 AP.
+If an Action costs more AP than you have, you can't use it.
+
+Actions with an AP cost higher than 6 have to be executed over multiple subsequent turns.
+
+\subsubsection{Surprise Round}
+
+If enemy has not noticed you and is not combat ready you gain an additional turn before the combat starts.
+
+\subsection{Actions}
+
+\begin{tabular}{lll}
+\textbf{Action} & \textbf{AP} & \textbf{Description} \\
+Attack & 2  & Attack with \emph{normal} weapon.\\
+Hide   & 3  & Hide from others. \\
+Move   & 1  & Move up to Pace in meters. \\
+Overwatch & - & Delay turn. \\
+Take Aim & 2 & +1 (+2) Bonus on Ranged Atk. \\
+Sneak & 1 & Sneak up to half the Pace. \\
+Stand up & 1 & Stand up when prone. \\
+Use Item & 2 & Use item. AP varies. \\
+\end{tabular}
+
+\subsection{Conditions}
+
+\begin{tabular}{lll}
+\textbf{Condition} & \textbf{Description} \\
+Drunk & -1 penalty on all Tasks.  \\
+Exhausted & Regain only 2 AP / Turn. \\
+Prone & Can't melee Atk. Cover vs Ranged. \\
+Slowed & Pace halfed. \\
+Stunned & Can't act, does not regain AP. \\
+\end{tabular}
+
+\subsection{Attacks}
+
+Task roll using the weapon's associated Skill.
+
+\subsubsection{Melee Attacks}
+
+Attack roll has to beat target's Parry.
+
+\subsubsection{Ranged Attacks}
+
+Attack roll has to beat 4. Influenced by range, visibility, etc.
+
+\subsection{Parry}
+
+Every additional enemy in melee range reduces Parry by 1, to a minimum of 2.
+
+\subsection{Cover}
+
+\begin{tabular}{ll}
+\textbf{Modifier} & \textbf{Condition} \\
++1 & Cover \\
++2 & Heavy Cover \\
+unhittable & Total Cover
+\end{tabular}
+
+\subsection{Wounds}
+
+See Health (HP).
+
+Every wound imposes a -1 penalty on all Tasks.
+NPCs die when they reach 0 Health.
+
+\subsection{Healing}
+
+\subsubsection{Natural Healing}
+
+\section{Movement}
+
+Movement is done in a round by spending speed points. If a character has
+no more speed points left, he can take a full round to regain speed points.
+
+\begin{center}
+\begin{tabular}{ll}
+Movement                     & Cost             \\
+Moving                       & 1 per metre      \\
+Running                      & 1 per two metres \\
+Jumping                      & 2 per metres     \\
+Jumping (running head start) & 1 per metre      \\
+Crawling                     & 2 per metre      \\
+Climbing                     & 3 per metre      \\
+Change combat stance         & 1                \\
+Recover from prone           & 2
+\end{tabular}
+\end{center}
+
+\emph{Difficult terrain} (stairs, snow, mud, slippery surfaces) doubles the
+cost. Effort can be used in stead, or to complement speed points.
+
+\section{Skills}
+
+Activation cost is 1 for normal skills, and 10 for special skills.
+Unactivated skill may only use negative ability modifiers.
+
+\( 1d10 + MOD1 + MOD2 + RANK + Morale \)
+
+The result must exceed or be equal to the DC.
+
+\begin{center}
+  \begin{tabular}{llll}
+\textbf{Name}             & \textbf{Ability} &  \textbf{Ability} &  \\
+Acrobatics                & DEX          & CON          &  \\
+Acting                    & CHA          & INT          &  \\
+Climbing                  & STR          & CON          &  \\
+Dodging                   & DEX          & PER          &  \\
+Driving                   & PER          & DEX          &  \\
+\textit{Engineering}      & \textit{INT} & \textit{INT} &  \\
+Escape Artist             & STR          & DEX          &  \\
+Explosives                & INT          & DEX          &  \\
+First Aid                 & INT          & PER          &  \\
+Heavy Weapons             & DEX          & PER          &  \\
+Intrusion                 & DEX          & INT          &  \\
+Language                  & PER          & INT          &  \\
+Light Weapons             & PER          & DEX          &  \\
+Mechanics                 & DEX          & INT          &  \\
+\textit{Medicine}         & \textit{PER} & \textit{INT} &  \\
+Melee Combat              & DEX          & STR          &  \\
+Micro Gravity             & DEX          & STR          &  \\
+Navigation                & INT          & PER          &  \\
+Notice                    & PER          & INT          &  \\
+Oratory                   & INT          & CHA          &  \\
+\textit{Pilot Spacecraft} & \textit{DEX} & \textit{PER} &  \\
+Public Affairs            & INT          & CHA          &  \\
+Questioning               & INT          & CHA          &  \\
+Radio Operations          & INT          & CHA          &  \\
+Running                   & STR          & CON          &  \\
+\textit{Science (Any)}    & \textit{INT} & \textit{INT} &  \\
+Sleight of Hand           & DEX          & CHA          &  \\
+Small Arms                & PER          & DEX          &  \\
+Small Unit Tactics        & INT          & PER          &  \\
+Stealth                   & DEX          & INT          &  \\
+Swimming                  & STR          & CON          &  \\
+Throwing                  & STR          & DEX          &
+  \end{tabular}
+\end{center}
+
+\section{Initiative}
+
+\(Initiative = 1d10 + DEX Mod + Morale\)
+
+\section{Ranged Combat}
+
+Single shot:
+
+\( DC = 5 + Range Penalty + Movement + Stance \)
+
+Each additional shot adds recoil penalty.
+
+\subsection{Stance}
+
+\begin{center}
+\begin{tabular}{llll}
+\textbf{Standing} & \textbf{Kneeling} & \textbf{Firing} & \textbf{Prone} \\
+-1                & -2                & -3              & +2
+\end{tabular}
+\end{center}
+
+\subsection{Movement}
+
+\begin{tabular}{llll}
+\textbf{Still} & \textbf{Subtle} & \textbf{Slow} & \textbf{Fast} \\
+-2             & 0               & +2            & +4
+\end{tabular}
+
+\subsection{Range}
+
+\(Maximum = \frac{effective}{2} <= range \)
+\(Far = \frac{effective}{4} < range < \frac{effective}{2} \)
+\(Medium = \frac{effective}{8} < range < \frac{effective}{4} \)
+\(Close = effective < \frac{effective}{8} \)
+
+\begin{center}
+  \begin{tabular}{lllll}
+                & \textbf{Close} & \textbf{Medium} & \textbf{Far} & \textbf{Max.} \\
+\textbf{Tiny}   & +3             & +6              & +12          & +18           \\
+\textbf{Small}  & +2             & +4              & +8           & +12           \\
+\textbf{Medium} & +1             & +2              & +4           & +6            \\
+\textbf{Large}  & -12            & -8              & -4           & -2            \\
+\textbf{Huge}   & -18            & -12             & -6           & -3
+\end{tabular}
+\end{center}
+
+\subsection{Misc.}
+
+\begin{center}
+\begin{tabularx}{\textwidth}{llXp{2.5cm}}
+\textbf{Action}     & \textbf{Bonus} & \textbf{Time} \\
+Aiming              & -2 DC          & 1 action      \\
+Clear minor fault   &                & 1 action      \\
+Drawing (holster)   &                & 1 action      \\
+Drawing (inventory) &                & 2 actions     \\
+Hiding              & -5 on stealth  &               \\
+Reloading           &                & $>$ 1 action
+\end{tabularx}
+\end{center}
+
+Aiming bonus to DC is lost is lost unless the shot is fired in the same round.
+Reload time may vary from weapon to weapon.
+
+\section{Melee Combat}
+
+\subsection{Attack}
+
+\(1d10 + Melee Combat + STR Mod + DEX Mod \)
+
+\subsection{Dodge}
+
+\(1d10 + Dodging + DEX Mod + PER Mod \)
+
+This value has to be greater than the attack.
+
+If the defender is flat footed (not aware of the action) he may not dodge. If
+the defender has no more action left he takes a cumulative -2 penalty on each
+additional dodge attempt.
+
+\subsection{Blocking}
+
+\(1d10 + CON Mod + STR Mod \)
+
+This value has to be greater than the attack. If blocking is successful then
+the damage is halved.
+
+\section{Damage}
+
+\subsection{Recover HP}
+
+Recovering HP with \emph{Medicine}:
+
+\(DC = \frac{HP Lost}{2} \)
+
+Recovering HP with \emph{First Aid}:
+
+\(DC = HP Lost\)
+
+This DC is used for diagnosis and then for treatment. First, diagnose to
+determine if the difference of your roll and your DC gives you a bonus to
+your treatment or a penalty.
+
+Then treat the damage with the same DC, but add (or subtract) the diagnose
+penalty or bonus:
+
+\(1d10 + Medicine + PER Mod + INT Mod + Diagnose Bonus\)
+
+\subsection{Death}
+
+Your character is dead if his hit points are at negative maximum hit points
+minus any suffered wounds.
+
+\(Death = HP <= ((Maximum HP - Wounds) * -1)\)
+
+\subsection{Staying Conscious}
+
+If your hit points drop below zero you have to roll if you remain conscious.
+
+\(DC = abs(Damage Below 0)\)
+
+\subsection{Wounds}
+
+On taking damage the character rolls to see if he sustains a wound.
+
+\(DC = Damage Taken \)
+
+The damage taken after armour, but before any zone multipliers is the DC
+for the check. On failure, the character takes one wound damage, which
+lowers his maximum HP. Wounds stack with each other.
+
+Recovering wounds works the same as recovering HP, except that the wound
+total is used instead of the HP lost. See above for further information.
+
+\section{States}
+
+\begin{center}
+\begin{tabularx}{\textwidth}{lp{4cm}}
+\textbf{State}     & \textbf{Penalty}                                      \\
+Blinded            & Cannot use PER mod or rank, +1 speed for all movement \\
+Deafened           & Cannot use PER mod or rank                            \\
+Nauseated          & -1 penalty on skill checks                            \\
+Sickened           & Depends on sickness                                   \\
+Stunned            & Cannot take actions or move                           \\
+Unconscious        & Is considered still, cannot move or take actions
+\end{tabularx}
+\end{center}
+
+If the character is \emph{blinded} and \emph{deafened} at the same time, the
+perception rank is considered to be at 1 (-4 modifier).
+
+\subsection{Default Hitzones}
+
+\begin{center}
+\begin{tabular}{lll}
+\textbf{2d6} & \textbf{Zone} & \textbf{Effect}     \\
+2               & Vital Organ   & Damage * 6, Special \\
+3, 4            & Legs          &                     \\
+5, 6, 7         & Torso         & Damage * 2          \\
+8, 9            & Arms          &                     \\
+10, 11          & Head          & Damage * 3          \\
+12              & Vital Organ   & Damage * 6, Special
+\end{tabular}
+\end{center}
+
+\section{Morale}
+
+Morale ranges from -3 to +3. With -3 being despair, 0 being neutral and
++3 being an almost religious like frenzy to achieve the goal. Normally it is
+at 0. It is used as a bonus or penalty on all checks.
+
+To raise moral use \emph{Oratory} against the following DC:
+
+\(DC = 5 + abs(Morale)\)
+
+\newpage
+
+\section{Vessels}
+
+All vessels have \emph{hit points}, \emph{armour} which acts as damage
+reduction for incoming damage, \emph{shields} which soak up damage before
+it is depleted, and speed. At zero the ship is considered disabled, and at
+minus HP it is considered destroyed.
+
+Ships also have modules (these are subsystems such as engines), and the
+module hit points are - unless otherwise specified, dependent on the size
+and the HP for the ship:
+
+Small: \(SubsystemHP = \frac{ShipHP}{2} \)
+
+Medium: \(SubsystemHP = \frac{ShipHP}{4} \)
+
+Large: \(SubsystemHP = \frac{ShipHP}{8} \)
+
+Capital: \(SubsystemHP = \frac{ShipHP}{12} \)
+
+Armour and shield apply to modules as well, and modules are considered destroyed
+at minus their HP, and disabled at zero (0) HP. Modules at zero HP are disabled
+and no longer work, and the cockpit or bridge may transfer damage to crew.
+
+Ships also has a type, which denotes which environments in can operate in:
+
+\begin{center}
+\begin{tabular}{ll}
+\textbf{Type}  & \textbf{Environment} \\
+Space & Can fly in out space  \\
+Air   & Can fly in atmosphere \\
+Land  & Moves on land         \\
+Water & Moves in or on water
+\end{tabular}
+\end{center}
+
+\subsection{Sizes}
+
+Size of the ship determines average hit points, and crew required to operate
+the vessel.
+
+\begin{center}
+\begin{tabular}{lll}
+\textbf{Size} & \textbf{Crew} & \textbf{HP}      \\
+Small         & 5-10          & 100              \\
+Medium        & 10-50         & 500              \\
+Large         & 100           & \textgreater1000 \\
+Capital       & 500           & \textgreater5000
+\end{tabular}
+\end{center}
+
+\subsection{Combat}
+
+Dog fights are handled by pitching \emph{Pilot Spacecraft} skill against the
+opponents \emph{Pilot Spacecraft} skill. Speed of the vessel is added to the
+roll.
+
+Long ranged combat works just as normal long ranged combat, except that
+\emph{Heavy Weapons} or \emph{Piloting} is used instead. All weapons have
+effective range and the same rules apply as above.
+
+Then roll against the hit table of the vessel to determine where the attack
+landed.
+
+\begin{tabular}{llll}
+\textbf{Still} & \textbf{Subtle} & \textbf{Slow} & \textbf{Fast} \\
+-2             & 0               & +2            & +4
+\end{tabular}
+
+\(Maximum = \frac{effective}{2} <= range \)
+\(Far = \frac{effective}{4} < range < \frac{effective}{2} \)
+\(Medium = \frac{effective}{8} < range < \frac{effective}{4} \)
+\(Close = effective < \frac{effective}{8} \)
+
+\begin{center}
+  \begin{tabular}{lllll}
+                & \textbf{Close} & \textbf{Medium} & \textbf{Far} & \textbf{Max.} \\
+\textbf{Tiny}   & +3             & +6              & +12          & +18           \\
+\textbf{Small}  & +2             & +4              & +8           & +12           \\
+\textbf{Medium} & +1             & +2              & +4           & +6            \\
+\textbf{Large}  & -12            & -8              & -4           & -2            \\
+\textbf{Huge}   & -18            & -12             & -6           & -3
+\end{tabular}
+\end{center}
+
+\subsection{Missiles}
+
+Guided missiles are treated as their own (small) vehicle, with piloting skill
+and speed. Point defence may be used to shoot them down. Missiles, generally
+attack twice, before running out of fuel.
+
+\subsection{Attack Module}
+
+You can target specific modules with the following bonuses or penalties on the
+DC to hit:
+
+\begin{center}
+\begin{tabular}{lllll}
+                 & \textbf{Small} & \textbf{Medium} & \textbf{Large} & \textbf{Capital} \\
+\textbf{Small}   & +2             & 0               & -2             & -4               \\
+\textbf{Medium}  & +4             & +2              & 0              & -2               \\
+\textbf{Large}   & +6             & +4              & +2             & 0                \\
+\textbf{Capital} & +8             & +6              & +4             & +2
+\end{tabular}
+\end{center}
+
+\subsection{Secondary Explosions}
+
+If certain modules are destroyed, they cause explosions and thus secondary
+damage to the ship.
+
+\emph{Sublight Engines}, \emph{Shield Generators} and \emph{FTL}:
+
+\begin{center}\begin{tabular}{ll}
+\textbf{Size} & \textbf{Damage} \\
+Small         & 5               \\
+Medium        & 20              \\
+Large         & 50              \\
+Capital       & 100
+\end{tabular}
+\end{center}
+
+\emph{Power Core}:
+
+\begin{center}\begin{tabular}{ll}
+\textbf{Size} & \textbf{Damage} \\
+Small         & 10              \\
+Medium        & 50              \\
+Large         & 100             \\
+Capital       & 250
+\end{tabular}
+\end{center}
+
+
+% You can even have references
+\rule{0.3\linewidth}{0.25pt}
+\scriptsize
+\bibliographystyle{abstract}
+\bibliography{refFile}
+\end{multicols}
+\end{document}

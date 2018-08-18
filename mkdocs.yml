@@ -59,27 +59,23 @@ nav:
         - Introduction: 'index.md'
         - Character Creation: 'character/character-creation.md'
 
-        - Crisis: 'crisis.md'
-
-        - Equipment: 'equipment.md'
-
         - Characters:
             - Character: 'character/index.md'
             - Races: 'character/races.md'
             - Skills: 'character/skills.md'
-            # - Perks: 'character/perks.md'
-            # - Flaws: 'character/flaws.md'
-            # - Traits: 'character/traits.md'
+            - Talents: 'character/talents.md'
 
+        - Crisis: 'crisis.md'
+
+        - Equipment: 'equipment.md'
 
         - NPCs:
             - NPC: 'npc/index.md'
 
         - Vehicles & Vessels:
-            - Vessels: 'vessel/index.md'
-            - Perks & Flaws: 'vessel/perks-flaws.md'
+            - Vessel: 'vessel/index.md'
+            - Talents: 'vessel/talents.md'
             - Combat: 'vessel/combat.md'
-            - Stunts: 'vessel/stunts.md'
             - Equipment: 'vessel/equipment.md'
 
         - Quick Start Rules: 'quick-start.md'

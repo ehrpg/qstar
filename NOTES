@@ -1,0 +1,8 @@
+NPC Groups/Masses use Morale
+  - Morale lower Threshold -> Morale roll - Difference.
+  - If Morale roll is failed, group is routed.
+
+Sanity/Horror
+  - Horror Points unlock/improve "Occultism" Skill.
+  - Horror > Threshold -> Sanity roll
+  - If Sanity roll is failed, character becomes insane.

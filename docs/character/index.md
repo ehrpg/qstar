@@ -4,15 +4,6 @@ Every player character, non-player character (NPC) and creature such as animals,
 monsters or even robots, etc. fall under this category and are created using the
 following rules.
 
-A character is defined by:
-
-* A Race,
-* Attributes,
-* Acquisitions,
-* Experience,
-* Secondary Characteristics, and
-* Traits, such as Perks and Flaws.
-
 ## Race
 
 See [Races](/character/races).
@@ -21,30 +12,27 @@ See [Races](/character/races).
 
 See [Skills](/character/skills/).
 
-## Perks
+## Talents
 
-See [Perks](/character/perks/).
-
-## Flaws
-
-See [Flaws](/character/flaws/).
+See [Talents](/character/talents/).
 
 ## Attributes
 
-> Attributes define the character's overall physique or mental capabilities. As
+> Attributes define the character's overall physique and mental capabilities. As
 such they count as the cornerstone for a character's Skill.
 
-Every character starts with each Attribute at a [d4](#d4). Upgrading an
-Attribute allows the character to use a [d6](#d6), a [d8](#d8), a [d10](#d10) or
-a [d12](#d12).
+Every character starts with each Attribute at a [d4](#d4), with a [d6](#d6) in
+each Attribute being the average for an adult human. Upgrading an Attribute
+allows the character to use a [d6](#d6), a [d8](#d8), a [d10](#d10) or a
+[d12](#d12).
 
 ### Attribute Damage
 
 Attribute Damage decreases the character's Attribute, e.g. from a [d6](#d6) to a
 [d4](#d4). This penalty can be **temporary** or **permanently**.
 
-Attribute Damage does not influence any
-Skills.
+Attribute Damage does not influence any Skills, but improving associated Skills
+might cost 2 points instead of one.
 
 <div class="left" markdown="1">
 
@@ -362,7 +350,15 @@ Unlocking upgrades enables the acquisition of better equipment and vessels.
 </div>
 <div class="clearfix"></div>
 
-## Living standards
+## Living standard
+
+Every character has a normal living standard by default.
+
+This living standard includes normal accomadations, *free* food and drinks in
+populated areas, moving in local traffic and areas, etc. This means you don't
+have to pay for normal lodging, etc.
+
+<!-- ## Living standards
 
 Living standards decrease the micro management you have to do for your character
 and specifically his equipment and items, see [Item
@@ -385,7 +381,7 @@ populated areas, moving in local traffic and areas, etc.
 ### High living standard
 
 A high living standard costs 1 [RES](#resources). This increases the item's
-**Uses** refill rate.
+**Uses** refill rate. -->
 
 ## Languages
 

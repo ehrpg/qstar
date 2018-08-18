@@ -832,16 +832,17 @@ table thead th:hover {
   div.qs-list-test {
     -webkit-column-count: 2;
             column-count: 2;
-    -webkit-column-gap: 25px;
-            column-gap: 25px;
   }
-  div.qs-list-test :target {
+  div.qs-list-test div section {
+    padding-right: 12px;
+  }
+  div.qs-list-test a:target {
     display: block;
     position: relative;
-    top: -5rem;
+    top: -6rem;
     visibility: hidden;
   }
-  div.qs-list-test :target + section {
+  div.qs-list-test a:target + section {
     background-color: rgba(0, 0, 0, 0.1);
   }
   div.qs-list-test section {

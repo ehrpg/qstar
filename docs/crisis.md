@@ -133,13 +133,38 @@ Certain actions become available or unavailable when characters are affected by
 various conditions. Conditions can be inflicted by other characters, by
 themselves or the environment.
 
-| Condition | Description                                                |
-|-----------|------------------------------------------------------------|
-| Drunk     | All checks suffer a -1 penalty.                            |
-| Exhausted | You only regain 2 AP per round.                            |
-| Prone     | Can't melee attack. May provide bonus to ranged Attacks.   |
-| Slowed    | A slowed character has its Pace halfed.                    |
-| Stunned   | Can't act or react on current turn and does not regain AP. |
+<div class="qs-list-test" markdown="1">
+
+##### Drunk
+
+Effect
+:   All Task rolls suffer a -1 penalty.
+
+##### Exhausted
+
+Effect
+:   You only regain 2 AP per round
+
+##### Flanked
+
+If there is more than one enemy engaging in melee you are being flanked.
+
+Effect
+:   Your Parry suffers a -2 penalty.
+
+##### Slowed
+
+If there is more than one enemy engaging in melee you are being flanked.
+
+Effect
+:   Pace is halfed.
+
+##### Stunned
+
+Effect
+:   Can't act or react on current turn and does not regain AP.
+
+</div>
 
 ## Combat
 
@@ -173,21 +198,6 @@ A ranged Attack roll has to be equal to or higher than 4. Circumstances such as
 range, visibility, wind, etc. influence the Attack roll's result.
 
 </div>
-
-### Parry
-
-> The [Parry](#parry) value is used for defending against a melee Attack.
-
-Every additional enemy in melee range reduces the [Parry](#parry) value by 1.
-This only applies if there is more than one enemy in range.
-
-!!! example "Melee combat"
-    Jack is attacked by 3 security drones attacking with batons. They all are in
-    Jack's melee range. Jack is a good melee fighter and has a [Parry](#parry)
-    of 8 against a single enemy. Since there are three enemies in total, his
-    [Parry](#parry) is reduced by 2 because of the 2 additional enemies. His
-    [Parry](#parry) value drops to 6 while being in melee range to all three of
-    them.
 
 ### Cover
 
