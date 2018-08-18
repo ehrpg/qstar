@@ -52,9 +52,9 @@ which they can act are determined by their turn order.
 
 Every Action in a Crisis requires Actions Points (AP).
 
-Each character has a .  Action points can never exceed
-6 or deceed 0. Exceeding AP are lost, while actions that require more than the
-remain AP are disabled until enough AP are accumulated.
+Action points can never exceed 6 or deceed 0. Exceeding AP are lost, while
+actions that require more than the remain AP are disabled until enough AP are
+accumulated.
 
 ### Turn Order
 
@@ -148,7 +148,7 @@ Combat is the most common kind of a crisis.
 ### Attacks
 
 An Attack roll is equal to a **Task** roll, using the weapon's associated
-[Skill](/character/skills#skills).
+Skill.
 
 !!! summary "Making an Attack"
     <div class="formula formula-top formula-bottom">
@@ -226,7 +226,7 @@ Attack **always** lowers the target's Armour, if any, by one. Some weapons or
 special Actions reduce the Armour by more.
 
 Roll the weapon's damage dice. Some weapons gain additional damage from an
-[Attribute](/character#attributes) and Actions.
+Attribute and Actions.
 
 The result of the damage roll has to be higher than the target's Toughness
 value. If the damage roll is higher, you cause 1 wound on the target. Some

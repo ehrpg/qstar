@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="161.75899mm"
+   width="142.5mm"
    height="20mm"
-   viewBox="0 0 161.75899 20"
+   viewBox="0 0 142.5 20"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
@@ -527,15 +527,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="168.33878"
-     inkscape:cy="40.008133"
+     inkscape:cx="351.934"
+     inkscape:cy="24.350769"
      inkscape:document-units="mm"
-     inkscape:current-layer="g952"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1027"
      inkscape:window-x="1912"
-     inkscape:window-y="22"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -549,7 +549,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -658,22 +658,6 @@
        d="m 116.9945,147.888 h 6.70401"
        id="path4685-7-5"
        inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;stroke:#333333;stroke-width:0.26499999;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:3;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#InfiniteLineStart-9-7-1);marker-mid:url(#EmptyDiamondSend-7-5-8);marker-end:url(#Arrow2Mend-6-5-1)"
-       d="m 146.9945,147.888 h 6.70401"
-       id="path4685-7-5-2"
-       inkscape:connector-curvature="0" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="156.3452"
-       y="152.54689"
-       id="text8809"><tspan
-         sodipodi:role="line"
-         id="tspan8807"
-         x="156.3452"
-         y="152.54689"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;font-family:'Zag Regular';-inkscape-font-specification:'Zag Regular, ';fill:#333333;fill-opacity:1;stroke-width:0.26458332">+1</tspan></text>
     <g
        id="g952"
        transform="matrix(0.0390625,0,0,0.0390625,34,137)"

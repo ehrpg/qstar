@@ -34,29 +34,17 @@ See [Flaws](/character/flaws/).
 > Attributes define the character's overall physique or mental capabilities. As
 such they count as the cornerstone for a character's Skill.
 
-<div style="text-align: center;" markdown="1">
-![test](/_imgs/dice.svg)
-</div>
-
 Every character starts with each Attribute at a [d4](#d4). Upgrading an
 Attribute allows the character to use a [d6](#d6), a [d8](#d8), a [d10](#d10) or
-a [d12](#d12). Upgrading an Attribute beyond a [d12](#d12) adds a flat bonus of
-+1 per upgrade to the check.
-
-Upgrading an Attribute by one step costs **6** [Downtime](#downtime-dt).
-
-Downgrading only happens due to *fatal* adventuring events.
+a [d12](#d12).
 
 ### Attribute Damage
 
 Attribute Damage decreases the character's Attribute, e.g. from a [d6](#d6) to a
 [d4](#d4). This penalty can be **temporary** or **permanently**.
 
-<blockquote class="important" markdown="1">
-If an Attribute were to drop below a [d4](#d4) the character is incapacitated
-until the Attribute Damage is restored. If the Attribute would drop even lower,
-the character dies.
-</blockquote>
+Attribute Damage does not influence any
+Skills.
 
 <div class="left" markdown="1">
 
@@ -143,11 +131,11 @@ Skill](/character/skills#stealth), sense things and creatures, etc.
 
 ### Parry
 
-> The [Parry](#parry) value is used for defend against a melee Attack.
+> The Parry value is used for defend against a melee Attack.
 
-The [Parry](#parry) is 2 if you don't have the Melee Skill.
+The Parry is 2 if you don't have the Melee Skill.
 
-!!! summary "[Parry](#parry) Value"
+!!! summary "Parry Value"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Base">2</span> +
         <span data-bracket-top="Melee Skill">Die / 2</span>
@@ -202,7 +190,7 @@ Every three Experience Points (XP) increase a character's level by one.
 ### Level (LVL)
 
 The Level of a character abstracts it's experience, resourcefulness, and
-[Skill](/character/skills#skills)set.
+Skillset.
 
 #### Acquisitions
 
@@ -212,9 +200,9 @@ resourceful and adaptable.
 
 #### Character Points
 
-* Every level, a character gains 1 [Skill](/character/skills#skills) Point.
+* Every level, a character gains 1 Skill Point.
 
-* Every 2 levels, a character gains 1 [Attribute](/character#attributes) Points.
+* Every 2 levels, a character gains 1 Attribute Points.
 
 * Every 4 levels, a character gains a Talent.
 
@@ -230,7 +218,8 @@ once.
 Before rolling determine if you want to use fate dice and which fate dice you
 want to use. Add the fate dice to your roll.
 
-When all fate dice have been used up, your character's **fate is sealed**.
+When all fate dice have been used up, your character's **fate** is finally
+**sealed**.
 
 ## Acquisitions
 
@@ -419,7 +408,7 @@ Improving your character happens automatically due completing missions, quests,
 fighting and adventuring and eventually earning [Experience](#experience-xp),
 which will increase the character's [Level](#level-lvl).
 
-[Attributes](/character#attributes) and [Skills](/character/skills#skills) can
+Attributes and Skills can
 be improved too, but require [Downtime](/character#downtime) and
 [Credits](/equipment#credits-cr).
 

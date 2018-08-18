@@ -8,20 +8,30 @@ when rolling on random tables.
 
 ## Basic Mechanics
 
+### Dice
+
+<div style="text-align: center;" markdown="1">
+![test](/_imgs/dice.svg)
+</div>
+
+Every character uses a [d4](#d4), [d6](#d6), [d8](#d8), [d10](#d10) and a
+[d12](#d12) for everything he's doing. The higher the die, the better the chance
+on rolling **higher**, which is **better**.
+
 ### Fractions
 
 All fractions are **always** rounded down.
 
-When a Skill is halved, half the number of sides of the die. Flat modifiers are
-added to the sides of the die.
+When a Skill is divided, divide the number of sides of the die. Flat modifiers
+are added to the sides of the die.
 
 <div class="left" markdown="1">
 
 !!! example "Skill Fraction"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Result">6</span> = (
-      <span data-bracket-top="1d12">12</span> /
-      <span data-bracket-bottom="divisor">2</span>)
+      <span data-bracket-bottom="result">6</span> =
+      <span data-bracket-top="12">d12</span> /
+      <span data-bracket-bottom="divisor">2</span>
     </div>
 
 </div>
@@ -29,9 +39,9 @@ added to the sides of the die.
 
 !!! example "Skill Fraction"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Result">7</span> = (
-      <span data-bracket-top="1d12+3">15</span> /
-      <span data-bracket-bottom="divisor">2</span>)
+      <span data-bracket-bottom="result">7</span> = (
+      <span data-bracket-top="15">d12 + 3</span> ) /
+      <span data-bracket-bottom="divisor">2</span>
     </div>
 
 </div>
@@ -40,40 +50,36 @@ added to the sides of the die.
 
 ### Negative Values
 
-Some pools cannot be negative, e.g. [Resources](/character#resources-res) and
-[Endurance](/character#endurance). If such a value were to drop to below 0, it
-either prohibits certain actions, it has consequences or it's simply ignored and
-the value set to 0.
+Some values cannot be negative, e.g. [Resources](/character#resources-res). If
+such a value were to drop to below 0, it either prohibits certain actions, it
+has consequences or it's simply ignored and the value set to 0.
 
 ## Die Rolls
 
 There are three different kind of die rolls:
 
-* **Task** rolls, which include Skill rolls including Attacks,
+* **Task** rolls, which include Attribute and Skill rolls including Attacks,
 * **Damage** rolls, and
 * **Random** rolls.
 
-All creatures are defined by [Attributes](/character#attributes) and
-[Skills](/character/skills#skills), which are used for all **Task** rolls and
-*most* **Damage** rolls.
+All creatures are defined by Attributes and Skills, which are used for all
+**Task** rolls and *some* **Damage** rolls.
 
 Every roll uses a set amount of dice. **Task** rolls use the corresponding
-[Attribute](/character#attributes)'s or [Skill](/character/skills#skills)'s die.
-**Damage** rolls use the weapon's corresponding dice. Random rolls use the
-random table's corresponding dice.
+Attribute's or Skill's die. **Damage** rolls use the weapon's corresponding
+dice. **Random** rolls use the random table's corresponding dice.
 
-**Task** and **Damage** rolls receive bonuses and penalties from the creature's
-perks, flaws, race, role-playing, etc.
+**Task** and **Damage** rolls can receive bonuses and penalties from the
+creature's Talents, Race, role-playing, etc.
 
-**Task** rolls include something called a chance die in addition to the
-[Attribute](/character#attributes)'s or [Skill](/character/skills#skills)'s die.
-A chance die isn't added to the result. See [Critical
+**Task** rolls are made with a Chance die in addition to the Attribute's or
+Skill's die. A Chance die isn't added to the result. See [Critical
 Failures](#critical-failures).
 
 ### Task Difficulty
 
 A task's [Difficulty Level](/crisis#difficulty) is **always** 4. The only
-exceptions are passive values in combat, e.g. a character's defense value.
+exceptions are passive values in combat, e.g. a character's Parry value.
 
 A check has to be equal to or higher a [Difficulty Level](/crisis#difficulty) in
 order to succeed. Otherwise, the check fails. The [Difficulty
@@ -90,7 +96,7 @@ rolls resulting number.
 
 ### Critical Failures
 
-If the chance die comes up with a 1, and the **Task**'s die also comes up with a
+If the Chance die comes up with a 1, and the **Task**'s die also comes up with a
 1, the task critically fails.
 
 A critical fail causes other penalties in addition to failing the check, such as
@@ -110,10 +116,14 @@ add the result to your check. A die can explode multiple times.
 
 ### Contests
 
-When two parties compete with each other in the same or even different
-[Skill](/character/skills#skills) and stats, both parties have to make a check.
-The party with the higher result wins the contest. On a tie both parties roll
-again.
+When two parties compete with each other in the same Skill or even different
+Skills and stats, both parties have to roll. The party with the higher result
+wins the contest. On a tie both parties roll again.
+
+## Getting Started
+
+Get started by reading the [Character Creation](/character/character-creation)
+section.
 
 ## Glossary
 
