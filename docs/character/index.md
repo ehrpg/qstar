@@ -4,47 +4,35 @@ Every player character, non-player character (NPC) and creature such as animals,
 monsters or even robots, etc. fall under this category and are created using the
 following rules.
 
-A character is defined by:
-
-* A Race,
-* Attributes,
-* Acquisitions,
-* Experience,
-* Secondary Characteristics, and
-* Traits, such as Perks and Flaws.
-
 ## Race
 
 See [Races](/character/races).
 
+## Skills
+
+See [Skills](/character/skills/).
+
+## Talents
+
+See [Talents](/character/talents/).
+
 ## Attributes
 
-> Attributes define the character's overall physique or mental capabilities. As
+> Attributes define the character's overall physique and mental capabilities. As
 such they count as the cornerstone for a character's Skill.
 
-<div style="text-align: center;" markdown="1">
-![test](/_imgs/dice.svg)
-</div>
-
-Every character starts with each Attribute at a [d4](#d4). Upgrading an
-Attribute allows the character to use a [d6](#d6), a [d8](#d8), a [d10](#d10) or
-a [d12](#d12). Upgrading an Attribute beyond a [d12](#d12) adds a flat bonus of
-+1 per upgrade to the check.
-
-Upgrading an Attribute by one step costs **6** [Downtime](#downtime-dt).
-
-Downgrading only happens due to *fatal* adventuring events.
+Every character starts with each Attribute at a [d4](#d4), with a [d6](#d6) in
+each Attribute being the average for an adult human. Upgrading an Attribute
+allows the character to use a [d6](#d6), a [d8](#d8), a [d10](#d10) or a
+[d12](#d12).
 
 ### Attribute Damage
 
-Attribute Damage decreases the character's Attribute, e.g. from a d6 to a d4.
-This penalty can be **temporary** or **permanently**.
+Attribute Damage decreases the character's Attribute, e.g. from a [d6](#d6) to a
+[d4](#d4). This penalty can be **temporary** or **permanently**.
 
-<blockquote class="important" markdown="1">
-If an Attribute were to drop below a d4 the character is incapacitated until the
-Attribute Damage is restored. If the Attribute would drop even lower, the
-character dies.
-</blockquote>
+Attribute Damage does not influence any Skills, but improving associated Skills
+might cost 2 points instead of one.
 
 <div class="left" markdown="1">
 
@@ -92,106 +80,90 @@ characters and NPCs.
 </div>
 <div class="clearfix"></div>
 
-## Movement Speed
-
-A creature's Movement Speed is derived from the creature's [Speed](#speed-sp)
-Attribute. Every creature has a base Movement Speed of 4 units per move action.
-Each step above a [d4](#d4) adds one to the Movement Speed.
-
-Traits, Races, Items and Equipment can also increase a creature's Movement
-Speed.
-
-!!! summary "Movement Speed"
-    <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">4</span> +
-        <span data-bracket-top="Attribute">Speed</span> +
-        <span data-bracket-bottom="Traits / Race / Equipment">Circumstance</span>
-    </div>
-
-!!! example "Movement Speed"
-    A creature with a [d12](#d12) in [Speed](#speed-sp) has a Movement Speed of
-    8. A creature with a [d12](#d12)+2 in [Speed](#speed-sp) has a Movement
-    Speed of 10.
-
-<!-- Ranges from 1 to 8+ -->
-
-## Perception
-
-Perception is a passive value that represents the character's alertness. It's
-used to counter creatures that used the [Stealth
-Skill](/character/skills#stealth), sense things and creatures, etc.
-
-!!! summary "Perception"
-    <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">2</span> +
-        <span data-bracket-top="Attribute">Intelligence</span> +
-        <span data-bracket-bottom="Level">LVL / 2</span> +
-        <span data-bracket-top="Traits / Race / Equipment">Circumstance</span>
-    </div>
-
-<!-- Ranges from 1 to 8+ -->
-
-## Pools
-
-<!-- TODO -->
-
-> Each creature has [Health](#health-hp) and [Endurance](#endurance-ep) pools.
-> A robot is defined as a character, but instead of [Health](#health-hp) and
-> [Endurance](#endurance-ep) has the pools [Integrity](#health-hp) and
-> [Power](#endurance-ep), acting just the same.
-
-[Endurance](#endurance-ep) serves as an easily replenishable pool that's
-usually targetted by damage first. Once depleted, the health pool is targetted.
-[Health](#health-hp) is very hard to replenish.
+## Stats
 
 <div class="left" markdown="1">
 
-### Health (HP)
+### Pace
 
-> [Health](#health-hp) represents the character's overall condition.
+> A creature can use up to its Pace per Move Action taken.
 
-If [Health](#health-hp) drops to zero or below, the character is *dying*. A
-*dying* character has to make a [Might](#might-mi) check the first time he drops to
-or below zero, and every time he receives damage while in a *dying* state. On a
-failed check the character falls unconcious. If the check succeeds, the
-character retains conciousnes.
+The Pace value can never drop below **2**.
 
-Outside of combat, a *dying* character loses one HP per minute, until he
-receives medical attention.
-
-A character that drops to or below his HP in negative dies.
-
-!!! summary "Maximum [Health](/character/#health-hp)"
+!!! summary "Pace"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">12</span> ±
-        <span data-bracket-top="Attribute Modifier">Might</span>
-        <span data-bracket-bottom="Base">x2</span>
-        <span></span> ±
-        <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
+        <span data-bracket-bottom="Base">2</span> +
+        <span data-bracket-top="Speed Attribute">Die / 2</span>
     </div>
 
 </div>
 <div class="right" markdown="1">
 
-### Endurance (EP)
+### Perception
 
-> [Endurance](/character/#endurance-ep) represents the character's power.
+> Perception is a passive value that represents the character's alertness.
 
-Damage from weapons, other characters, environments and certain actions such as
-sprinting cause stress on a character and reduce his
-[Endurance](/character/#endurance-ep).
+It's used to counter creatures that used the [Stealth
+Skill](/character/skills#stealth), sense things and creatures, etc.
 
-!!! summary "Maximum [Endurance](/character/#endurance-ep)"
+!!! summary "Perception"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">30</span> ±
-        <span data-bracket-top="Attribute Modifier">Might</span>
-        <span data-bracket-bottom="Base">x5</span>
-        <span></span> ±
-        <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
+        <span data-bracket-bottom="Base">2</span> +
+        <span data-bracket-top="Intelligence Attribute">Die / 2</span>
     </div>
 
 </div>
 <div class="clearfix"></div>
+
+<div class="left" markdown="1">
+
+### Parry
+
+> The Parry value is used for defend against a melee Attack.
+
+The Parry is 2 if you don't have the Melee Skill.
+
+!!! summary "Parry Value"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Base">2</span> +
+        <span data-bracket-top="Melee Skill">Die / 2</span>
+    </div>
+
+</div>
+<div class="right" markdown="1">
+
+### Toughness
+
+> The [Toughness](#toughness) value is used for shrugging off Attacks.
+
+The [Toughness](#toughness) value can never drop below **1**.
+
+!!! summary "[Toughness](#toughness) Value"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Base">2</span> +
+        <span data-bracket-top="Might Attribute">Die / 2</span> +
+        <span data-bracket-bottom="Armour's Toughness">TN</span>
+    </div>
+
+</div>
+<div class="clearfix"></div>
+
+## Health (HP)
+
+> [Health](#health) represents the character’s overall condition.
+
+If Health drops to 0 or below, the creature has to make a
+[Might](/character#might-mi) roll. On a failure, the creature becomes
+incapacitated until healed or dead. If the check succeeds, the character remains
+concious.
+
+A character that drops to or below his HP in negative dies.
+
+!!! summary "[Health](#health)"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Base">2</span> +
+        <span data-bracket-top="Might Attribute">Die / 4</span>
+    </div>
 
 ## Experience (XP)
 
@@ -201,24 +173,41 @@ Experience (XP) is gained due to noteable achievements or story completions. XP
 usually is only given out one at a time. The GM can decide to give out more for
 completing a longer adventure.
 
-<blockquote class="important" markdown="1">
-Every character has 0 XP upon creation.
-</blockquote>
-
 Every three Experience Points (XP) increase a character's level by one.
 
 ### Level (LVL)
 
-A character's level improves the maximum values of his currencies. This does not
-necessarily make the character stronger, but make the character more resourceful
-and adaptable.
+The Level of a character abstracts it's experience, resourcefulness, and
+Skillset.
 
-### Fate
+#### Acquisitions
+
+A character's level improves the maximum values of his acquisitions. This does
+not necessarily make the character stronger, but makes the character more
+resourceful and adaptable.
+
+#### Character Points
+
+* Every level, a character gains 1 Skill Point.
+
+* Every 2 levels, a character gains 1 Attribute Points.
+
+* Every 4 levels, a character gains a Talent.
+
+## Fate
 
 > A character can change the course of action and his fate.
 
-Every character has one fate roll available. Each level up adds another fate
-roll. Once used, a fate roll can never be regained.
+Every character has a few fate dice available, a [d4](#d4), [d6](#d6),
+[d8](#d8), [d10](#d10) and a [d12](#d12). Any of these dice can only be used
+once. A fate die can be used on any roll, even multiple fate dice can be used at
+once.
+
+Before rolling determine if you want to use fate dice and which fate dice you
+want to use. Add the fate dice to your roll.
+
+When all fate dice have been used up, your character's **fate** is finally
+**sealed**.
 
 ## Acquisitions
 
@@ -243,6 +232,21 @@ Acquisitions of one sort can be traded in for any other.
     party has to find a wealthy trader, or rescue a trader from pirates first,
     etc.
 
+### Loot (LOOT)
+
+> [Loot](#loot) abstracts the items and clutter looted.
+
+1 unit of Loot takes up 1 Bulk, but no additional inventory space. Loot is
+usually stored on a vessel or a player base.
+
+Loot can be sold or exchanged for other Acquisitions.
+
+| Loot | Exchanges to    |
+|-----:|-----------------|
+|    1 | `1 000` Credits |
+|    5 | 1 Resource      |
+|   10 | 1 Technology    |
+
 <div class="left" markdown="1">
 
 ### Downtime (DT)
@@ -257,13 +261,6 @@ session automatically.
 
 **USED**{.hf} to recuperate, craft, repair and upgrade items and vessels and to
 improve a character.
-
-Actions that take longer, like repairing a damaged vessel consume
-[Downtime](#downtime-dt). Usually, a task that consumes [Downtime](#downtime-dt)
-has at least a DC of 12. Better skill checks can reduce [Downtime](#downtime-dt)
-and/or [Resources](/character/#resources-res)  used, while bad skill checks can
-increase [Downtime](#downtime-dt) and/or [Resources](/character/#resources-res)
-used. This DC *may* be lowered or increased depending on the situation.
 
 !!! summary "Maximum [Downtime](#downtime-dt)"
     <div class="formula formula-top formula-bottom">
@@ -331,7 +328,7 @@ Powerful equipment requiring [Resources](#resources-res) usually adds
 
 > [Technology](#technology-tech) represents the character's technological
 > knowledge, which on the other hand allows to unlock new
-> [Equipment](/character/equipment).
+> [Equipment](/equipment).
 
 **GAINED**{.hf} by aiding science missions, acquiring blueprints, spending time
 on researching certain scientific fields, etc.
@@ -353,11 +350,19 @@ Unlocking upgrades enables the acquisition of better equipment and vessels.
 </div>
 <div class="clearfix"></div>
 
-## Living standards
+## Living standard
+
+Every character has a normal living standard by default.
+
+This living standard includes normal accomadations, *free* food and drinks in
+populated areas, moving in local traffic and areas, etc. This means you don't
+have to pay for normal lodging, etc.
+
+<!-- ## Living standards
 
 Living standards decrease the micro management you have to do for your character
 and specifically his equipment and items, see [Item
-Uses](/character/equipment#item-uses).
+Uses](/equipment#item-uses).
 
 ### Poor living standard
 
@@ -376,7 +381,7 @@ populated areas, moving in local traffic and areas, etc.
 ### High living standard
 
 A high living standard costs 1 [RES](#resources). This increases the item's
-**Uses** refill rate.
+**Uses** refill rate. -->
 
 ## Languages
 
@@ -393,25 +398,13 @@ Learning a Language can be done in three steps, whereas each step costs 2
 Learning a Language completely (all three steps) at once only costs 5
 [Downtime](/character#downtime-dt) instead.
 
-## Skills
-
-See [Skills](/character/skills/).
-
-## Perks
-
-See [Perks](/character/perks/).
-
-## Flaws
-
-See [Flaws](/character/flaws/).
-
 ## Improving your character
 
 Improving your character happens automatically due completing missions, quests,
 fighting and adventuring and eventually earning [Experience](#experience-xp),
 which will increase the character's [Level](#level-lvl).
 
-[Attributes](/character#attributes) and [Skills](/character/skills#skills) can
+Attributes and Skills can
 be improved too, but require [Downtime](/character#downtime) and
 [Credits](/equipment#credits-cr).
 

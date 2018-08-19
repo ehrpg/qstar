@@ -44,6 +44,7 @@ markdown_extensions:
     - pymdownx.tilde
     - pymdownx.caret
     - pymdownx.extrarawhtml
+    - pymdownx.superfences
     - markdown.extensions.def_list
     - codehilite
     - admonition
@@ -56,33 +57,28 @@ markdown_extensions:
 nav:
     - Q*:
         - Introduction: 'index.md'
-        - Quick Start Rules: 'quick-start.md'
-        # - notes: 'notes.md'
+        - Character Creation: 'character/character-creation.md'
 
         - Characters:
-
-            - Character Creation: 'character/character-creation.md'
             - Character: 'character/index.md'
             - Races: 'character/races.md'
             - Skills: 'character/skills.md'
-            # - Perks: 'character/perks.md'
-            # - Flaws: 'character/flaws.md'
-            # - Traits: 'character/traits.md'
-            - Equipment: 'character/equipment.md'
+            - Talents: 'character/talents.md'
 
+        - Crisis: 'crisis.md'
+
+        - Equipment: 'equipment.md'
 
         - NPCs:
             - NPC: 'npc/index.md'
 
-        - Crisis: 'crisis.md'
-        - Stunts: 'stunts.md'
-
         - Vehicles & Vessels:
-            - Vessels: 'vessel/index.md'
-            - Perks & Flaws: 'vessel/perks-flaws.md'
+            - Vessel: 'vessel/index.md'
+            - Talents: 'vessel/talents.md'
             - Combat: 'vessel/combat.md'
-            - Stunts: 'vessel/stunts.md'
             - Equipment: 'vessel/equipment.md'
+
+        - Quick Start Rules: 'quick-start.md'
 
     - Setting — Q*:
         - Introduction: 'settings/qstar/index.md'

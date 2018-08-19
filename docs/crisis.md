@@ -1,72 +1,92 @@
 # Crisis
 
-Everything that requires you to make an [Attribute](/character#attributes) or
-[Skill](/character/skills#skills) check is essentially a crisis. Some crisis
-only last for a single roll, while others last over multiple **turns**.
-
-Whenever characters compete against each other or the environment the crisis
-lasts longer. In a crisis time slows down and actions become more atomic.
+A crisis requires a character to make a **Task** roll, **Damage** roll or
+**Random** roll. In a crisis time slows down and actions become more atomic.
 
 ## Difficulty
 
-Every task's Difficulty Level is 4. Any check has to be equal or above this
-Difficulty Level in order to succeed, otherwise the check fails.
+Every task has a difficulty of 4. Some tasks require equipment or knowledge, in
+order to not suffer a penalty. Other tasks are very easy, and the roll gains a
+bonus, or you don't have to roll at all.
 
-Not all tasks require a check however. For example, finding some information
-inside books can be done without a skill check given enough time. A skill check
-might only speed up the task.
+Not all tasks require a check. For example, finding some information inside
+books can be done without a skill check given enough time. A good skill check
+could reduce the time spent searching, or it could unearth additional
+information that might be helpful.
+
+!!! tip "Difficulty"
+    This is only a guideline about tasks and the modifiers they impose.
+
+| Modifier | Name        | Description                                                        |
+|---------:|-------------|--------------------------------------------------------------------|
+|       -4 | Trivial     | Everyday tasks.                                                    |
+|       -3 | Mundane     | Everyday tasks, which can be done by almost everyone.              |
+|       -2 | Routine     | Tasks you do every few days, which can be done by almost everyone. |
+|       -1 | Simple      | Most people can do this without much effort.                       |
+|        _ | Easy        | Even untrained people still can do these tasks most of the time.   |
+|       +1 | Normal      | You need at least some training to complete these kind of tasks.   |
+|       +2 | Demanding   | You either need gear or good training for these tasks.             |
+|       +3 | Challenging | You need a lot of training and good gear.                          |
+|       +4 | Hard        | You need to be a specialist for these tasks.                       |
+|       +5 | Very Hard   | You require help from others to achieve this.                      |
+|       +6 | Impossible  | A once in a lifetime achievement.                                  |
 
 ### Difficulty Modifier
 
-Certain circumstances modify the difficulty level, either positively or
-negatively.
+Certain circumstances modify the task's difficulty positively or negatively.
+Multiple modifiers stack.
 
-Multiple modifiers stack, but can never modify the Diffculty Level more than 2
-in any direction.
+| Modifier | Name                     | Description                               |
+|---------:|--------------------------|-------------------------------------------|
+|       +1 | Asset                    | Having the correct tools at hand.         |
+|       -1 | Unfavorable Circumstance | E.g. climbing a cliff while it's raining. |
 
-| Name                     | Diffculty Level | Description                               |
-|--------------------------|----------------:|-------------------------------------------|
-| Asset                    |              -1 | Having the correct tools at hand.         |
-| Unfavorable Circumstance |              +1 | E.g. climbing a cliff while it's raining. |
+!!! tip "Stacking Modifiers"
+    Even though modifiers stack, multiple assets of the same type may not be
+    stacking.
 
-## Turn Order
+## Turns
 
-Every involved character in a crisis has to roll to determine the turn order.
+Each character and creature in a crisis have one turn per round. The order in
+which they can act are determined by their turn order.
+
+Every Action in a Crisis requires Actions Points (AP).
+
+Action points can never exceed 6 or deceed 0. Exceeding AP are lost, while
+actions that require more than the remain AP are disabled until enough AP are
+accumulated.
+
+### Turn Order
+
+Every character involved in a crisis has to roll to determine its turn order.
 The character with the highest result acts first. Once every character has
 acted, a new **turn** begins.
 
-If two or more characters have rolled the same result roll again. The characters
-retain their original roll, but rolls to resolve the conflict change the turn
-order.
+The GM rolls for NPCs. Usually, he rolls once for an entire group of the same
+type, e.g. a pack of wolves.
+
+If two or more PCs or special NPCs have rolled the same result the characters
+can agree upon who acts first. If they cannot find an agreement roll again. The
+characters retain their original roll, but rolls to resolve the conflict change
+the turn order.
 
 !!! summary "[Turn Order](#turn-order)"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Attribute">Intelligence</span> ±
-      <span data-bracket-top="Attribute">Speed</span> ±
-      <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
+      <span data-bracket-bottom="Speed Die">Speed</span> ±
+      <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>
 
-### Surprise Round
+### Action Points
 
-If you attack an enemy who has not noticed you and is not combat ready, you gain
-an additional turn before actual combat starts.
+Every character has a minimum of 0 AP and a maximum of 6 AP. At the start of
+each turn, including the beginning of a Crisis, the character gains 4 AP.
 
-## Actions
+Exceeding AP are lost, while Actions that require more than the remaining AP are
+disabled until enough AP are accumulated.
 
-Actions within a crisis require Action Points (AP) to be spent.
-
-Each character has a maximum of 6 AP. At the start of each turn, including the
-beginning of a crisis, the character gains 4 AP. Action points can never exceed
-6 or be lower than 0. Exceeding AP are lost, while actions that require more
-than the remaining AP are disabled until enough AP are accumulated.
-
-!!! tip "Tracking AP"
-    Tracking AP is very easy. Get a d6, put it front of you, and let it face the
-    number of AP your character has. If you are at zero AP, put the die aside.
-
-If an action states an AP cost higher than 6, this indicates that the action has
-to be executed over multiple subsequent turns. Executing any other action while
-this action isn't completed yet cancels it.
+If an Action states an AP cost higher than 6, this indicates that the Action has
+to be executed over multiple subsequent turns. Executing any other Action while
+this Action isn't completed yet cancels it.
 
 !!! example "Reloading a flintlock musket"
     Reloading a flintlock musket takes 10 AP. You can immediatly spend all your
@@ -78,18 +98,22 @@ this action isn't completed yet cancels it.
     left and his weapon is reloaded.
 
 !!! info "Actions in parallel"
-    Not all actions require your utmost attention. E.g. while reloading you can
+    Not all Actions require your utmost attention. E.g. while reloading you can
     still give short commands to e.g. other party members. This is up to the GM
     however.
 
-### Available Actions
+### Surprise Round
+
+If you attack an enemy who has not noticed you and is not combat ready, you gain
+an additional turn before actual combat starts.
+
+## Available Actions
 
 All characters can perform basic actions. [Perks](/character/perks) and
-[Equipment](/character/equipment) make additional actions available.
+[Equipment](/equipment) can make additional actions available.
 
-This table provides a guideline for actions and their AP cost. These apply
-unless stated otherwise, e.g. attacking with an oversized weapon may require
-more AP.
+This list provides a guideline for actions and their AP cost. These apply unless
+stated otherwise, e.g. attacking with an oversized weapon may require more AP.
 
 #### Movement & Stances
 
@@ -199,7 +223,6 @@ Certain actions become available or unavailable when characters are affected by
 various conditions. Conditions can be inflicted by other characters, by
 themselves or the environment.
 
-
 <div class="qs-list-test full-width" markdown="1">
 
 ##### Drunk
@@ -243,67 +266,56 @@ You can't act or react on the current turn and do not regain AP.
 
 Combat is the most common kind of a crisis.
 
-!!! danger "Combat reduces [Endurance](/character#endurance)"
-    A combat crisis strains your character no matter the outcome. Each combat
-    reduces the character's current [Endurance](/character#endurance) by 5,
-    which can be restored as usual.
+### Attacks
 
-Combat uses two different kind of checks and rolls:
-
-* Attack vs. Defence
-* Damage vs. Toughness
-
-<div class="left" markdown="1">
-
-### Attack
-
-An Attack is a [Skill](/character/skills#skills) check using the weapon's
-associated [Skill](/character/skills#skills). The Difficulty Level is equal to
-the Defence of the target. Circumstances such as range, visibility, etc.
-influence the [Skill](/character/skills#skills) check.
-
-If the roll's result, including bonuses and penalties, is higher than the
-target's Defence, the target is hit.
-
-A successful hit **always** reduces the target's
-[Endurance](/character#endurance) whether you deal [Health](/character#health)
-damage to it or not. The amount of
-[Endurance](/character#endurance) damage dealt is indicated by the weapon.
+An Attack roll is equal to a **Task** roll, using the weapon's associated
+Skill.
 
 !!! summary "Making an Attack"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Weapon's associated Skill">Skill</span> ±
+      <span data-bracket-bottom="Skill Die">Attack</span> ±
       <span data-bracket-top="Weapon modifier">Hit</span> ±
-      <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
+      <span data-bracket-bottom="Environment / Traits / Race">Circumstance</span>
     </div>
+
+<div class="left" markdown="1">
+
+#### Melee Attacks
+
+A melee Attack roll has to be equal to or higher than the target's
+[Parry](#parry) value.
 
 </div>
 <div class="right" markdown="1">
 
-### Defence
+#### Ranged Attacks
 
-Every character has a Defence value.
+A ranged Attack roll has to be equal to or higher than 4. Circumstances such as
+range, visibility, wind, etc. influence the Attack roll's result.
 
-#### Melee Defence
+</div>
 
-Your melee Defence is your character's Parry value.
-
-#### Ranged Defence
-
-Every creatures ranged Defence value is 4.
-
-#### Cover
+### Cover
 
 > Cover provides additional defensive bonuses for melee and ranged combat.
 
 Cover is always relative to other targets. A character can be in total cover for
 an enemy, but in plain sight for another.
 
-| Name        |    Defence |
-|-------------|-----------:|
-| Light Cover |         +1 |
-| Heavy Cover |         +2 |
-| Total Cover | unhittable |
+|   Modifier | Condition   |
+|-----------:|-------------|
+|         +1 | Cover       |
+|         +2 | Heavy Cover |
+| unhittable | Total Cover |
+
+<div class="left" markdown="1">
+
+!!! tip "Positions and Cover"
+    Being prone and facing an enemy straight on counts as being in heavy cover
+    (only head and shoulds visible).
+
+</div>
+<div class="right" markdown="1">
 
 !!! tip "Cover and firearms"
     When hiding behind materials that are penetrable by bullets or other
@@ -314,102 +326,67 @@ an enemy, but in plain sight for another.
 
 <div class="left" markdown="1">
 
-### Damage
+If an Attack is successful, damage can be dealt to the target. A successful
+Attack **always** lowers the target's Armour, if any, by one. Some weapons or
+special Actions reduce the Armour by more.
 
-When hitting a target you can deal [Health](/character#health) damage to it.
-Roll the weapon's associated damage dice. You deal the result as
-[Health](/character#health) damage to the target.
+Roll the weapon's damage dice. Some weapons gain additional damage from an
+Attribute and Actions.
 
-The damage roll has to be equal to or higher than the target's Toughness to deal
-the weapon's indicated [Health](/character#health) damage.
+The result of the damage roll has to be higher than the target's Toughness
+value. If the damage roll is higher, you cause 1 wound on the target. Some
+weapons or Actions increase the wounds caused.
 
-!!! summary "Dealing Damage"
-    <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Weapon's Damage dice">Damage</span>
-    </div>
+## Wounds
 
-</div>
-<div class="right" markdown="1">
+Every wound imposes a -1 penalty on all **Task** rolls.
 
-### Toughness
+When the creature has negative [Health](#health) equal to its maximum, the
+creature dies.
 
-Every character has a Toughness value.
+If [Health](#health) drops to 0 or below, the creature has to make a
+[Might](/character#might-mi) roll. On a failure, the creature becomes
+incapacitated until healed or dead. If the check succeeds, the character remains
+concious.
 
-Toughness is influenced by the character's donned armor and other defensive
-equipment.
+NPCs usually die outright when they reach 0 [Health](#health).
 
+!!! example "Negative [Health](#health)"
+    Jack has a maximum of 3 [Health](#health). At 0 [Health](#health) he becomes
+    incapacitated. When his [Health](#health) drop to -3, Jack dies.
 
+## Healing
 
-!!! note "Toughness"
-    As a GM don't call out the target's Toughness (e.g. for NPCs). The players
-    should tell you their damage roll. You substract the target's Toughness from
-    the roll.
+The Medicine Skill can be used to treat a wound suffered within the last hour.
+Each Medicine Skill roll to heal a wound takes 10 minutes.
 
-!!! example "Toughness"
-    A target has a Toughness of 9. Mary attacks the target and rolls a 16 with
-    her weapon's damage dice. The GM substracts 9 from 16, resulting in 7. The
-    result is higher than 0, so Mary can deal the weapon's
-    [Health](/character#health) damage to the target. She tells the GM her
-    weapon's damage.
+Wounds that are older than one hour have to heal naturally.
 
-    The GM also determines that she deals one additional
-    [Health](/character#health) damage for reaching 4. If she rolled 1 higher
-    (resulting in 8), she would deal another one additional
-    [Health](/character#health) damage.
+**Healing A Character**: A healer can aid a character's healing progress. The
+healer has to substract the patient's wounds from his Medicine roll. A wounded
+character trying to heal his own wounds suffers from both the wound penalty and
+the wound penalty to the Medicine roll.
 
-</div>
+Without any healing aids, such as bandages etc., the healer suffers a -2 penalty
+to his roll.
 
-### Healing
+**Healing A Dying Character**: If a healer was successful on his Medicine check
+for his patient, the patient is not incapacitated anymore.
 
-#### Endurance
+### Natural Healing
 
-[Endurance](/character#endurance-ep) is restored over time. Items such as
-[Adrenalin Shots](/character/equipment#adrenalin-shot) increase
-[Endurance](/character#endurance-ep) instantly. Usually, taking a 10 minute
-break restores all [Endurance](/character#endurance-ep). The time required
-varies, as e.g. a long march requires more time to restore
-[Endurance](/character#endurance-ep).
+Every day a wounded or incapacitated character can attempt a
+[Might](/character#might-mi) roll to heal 1 wound naturally. A critical failure
+on the [Might](/character#might-mi) roll causes an additional wound.
 
-#### Health
+The difficulty of Natural Healing is influenced by these conditions:
 
-[Health](/character#health-hp) is restored slowly over time. A character heals 1
-point of [Health](/character#health-hp) damage every day they can take a rest.
-Resting Acquisitions that the character can only do light downtime activities,
-like reading.
+| Modifier | Condition                                                             |
+|---------:|-----------------------------------------------------------------------|
+|       -2 | Rough traveling                                                       |
+|       -2 | No medical attention                                                  |
+|       -2 | Poor environmental conditions, such as intense cold, heat, or rain    |
+|        _ | First Aid / Medical attention from self                               |
+|       +1 | Medical attention from a doctor                                       |
+|       +2 | Medical attention from a doctor in good condition, such as a hospital |
 
-#### Healing a dying character
-
-A *dying* character requires medical attention from any other character or even
-himself. Using the **Science (Medicine)** [Skill](/character/skills#skills) is
-required to treat a *dying* character. The Difficulty Level for this check is
-the treated character's negative [Health](/character#health-hp).
-
-First Aid requires one minute. If the check fails, the character loses one HP
-due to *dying*. First Aid can be attempted multiple times, until the character
-is healed or *dead*.
-
-A *dying* character can be administered a medical item, which adds bonsues to
-the check, or even eliminates the need of a [Skill](/character/skills#skills)
-check.
-
-#### Healing a wounded character
-
-Medical installations, doctors and medical supplies increase the amount of
-[Health](/character#health-hp) healed. Per day a **Science (Medicine)** check
-can be attempted for a single character.
-
-Translate the result of the check to the **Difficulty Level** of the
-[Difficulty](#difficulty) table. The character heals that amount additionally
-that single day, given they can take a rest.
-
-!!! summary "Healing"
-    <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">1 per day</span> +
-        <span data-bracket-top="X = Difficulty Level">X per day</span>
-    </div>
-
-Medical installation, medibots, etc. make **Science (Medicine)** check with
-their respective modifiers likewise.
-
-Medical items heal a fixed amount of HP without requiring a **Science
-(Medicine)** check.

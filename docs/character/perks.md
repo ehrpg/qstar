@@ -68,7 +68,7 @@ stunt.
 
 ##### Beast of Burden
 
-You receive 3 more [Slots](/character/equipment#slots).
+You receive 3 more [Slots](/equipment#slots).
 
 Requires
 :   [Might - Great](/character#might-mi)

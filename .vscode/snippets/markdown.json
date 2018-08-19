@@ -2,14 +2,14 @@
 	"Insert Attribute Link": {
 		"prefix": "attribute",
 		"body": [
-			"[Attribute](/character#attributes) "
+			"Attribute "
 		],
 		"description": "Insert Attribute Link"
 	},
 	"Insert Skill Link": {
 		"prefix": "skill",
 		"body": [
-			"[Skill](/character/skills#skills) "
+			"Skill "
 		],
 		"description": "Insert Skill Link"
 	},

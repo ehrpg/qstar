@@ -2,79 +2,56 @@
 
 > Skills abstract your character's education, hobbies and fields of expertise.
 
-<div style="text-align: center;" markdown="1">
-![test](/_imgs/dice.svg)
-</div>
+Every character starts with each [Skill](#skills) at a [d4](#d4). The exception
+here are [Trained-only Skills](#trained-only-skills) that only can be used if
+they are trained.
 
-Every character starts with each [Skill](#skills) at a [d4](#d4). Upgrading a
-[Skill](#skills) allows the character to use a [d6](#d6), a [d8](#d8), a
-[d10](#d10) or a [d12](#d12). Upgrading a [Skill](#skills) beyond a [d12](#d12)
-adds a flat bonus of +1 per upgrade to the check. A [Skill](#skills) cannot be
-improved to a die higher than it's corresponding
-[Attribute](/character#attributes).
+Upgrading a [Skill](#skills) allows the character to use a [d6](#d6), a
+[d8](#d8), a [d10](#d10) or a [d12](#d12).
 
 Everything a character does is usually associated with a [Skill](#skills),
-whereas every [Skill](#skills) has an [Attribute](/character#attributes) it's
+whereas every [Skill](#skills) has an Attribute it's
 associated with.
 
-Upgrading a [Skill](#skills) by one step costs
-[Downtime](/character#downtime-dt), depending on the [Skill](#skills)'s
-difficulty.
+## Trained-only Skills
 
-Downgrading only happens due to *fatal* adventuring events.
+Some [Skills](#skills) can only be used if you trained them by spending one
+skill point on them. Only then can you roll a [d4](#d4) on these
+Skills. Improving a Trained-only
+Skill works the same as with normal
+Skills.
 
-!!! example "Skills and Attributes"
-    Jack has a [d10](#d10) in [Might](/character#might-mi). He improves his
-    Athletics [Skill](#skills), and can raise it to a maximum of a [d10](#d10)
-    as well, but not higher than that.
+Trained-only Skills are indicated by a **"*"** next
+to their name.
 
-## Skill Difficulty
-
-A [Skill](#skills) is either:
-
-* easy,
-* average, or
-* hard
-
-to master, as indicated by each individual [Skill](#skills). More difficult
-[Skills](#skills) require more investment of time and money to improve, while
-easier [Skills](#skills) require less.
-
-An easy [Skill](#skills) costs 2 [Downtime](/character#downtime-dt) to improve.
-A medium [Skill](#skills) costs 3 [Downtime](/character#downtime-dt) to improve.
-A hard [Skill](#skills) costs 4 [Downtime](/character#downtime-dt) to improve.
-
-## Skill Checks
+## Skill roll
 
 > Whenever it's uncertain if a character can do an action, or if the outcome is
-effected by noticeable outside factors, the character has to roll a skill check.
+effected by noticeable outside factors, the character has to roll a **Skill**
+roll.
 
-A skill check is made by rolling the [Skill's](#skills) respsective die and
-adding bonuses and penalties to the roll.
+A **Skill** roll is made by rolling the [Skill's](#skills) respective die and
+adding bonuses and penalties to the roll. If no
+Skill applies, or the
+Skill isn't available to the character, the GM can
+decide that an Attribute roll also works in place of a
+Skill roll.
 
-!!! summary "Skill checks"
+!!! summary "Task roll"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Skill">dX</span> ±
-        <span data-bracket-top="Skill Modifier">Skill Modifier</span> ±
-        <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
+        <span data-bracket-bottom="Skill or Attribute">dX</span> ±
+        <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>
 
 </blockquote>
-
-### Skills and Attribute Damage
-
-Temporary [Attribute](/character#attributes) damage **does not** incure any
-penalties. Permanent [Attribute](/character#attributes) damage lowers all
-associated Skills to the new Attribute rank, *until* the
-[Attribute](/character#attributes) damage is restored.
 
 ## Skill competitions
 
 Characters compete against each others using skills. Unless otherwise stated,
 the same skill is used for both parties.
 
-Both parties make a Skill check. The party with the higher result wins. On a
-tie, roll again.
+Both parties make a Skill roll. The party with the higher result wins. On a tie,
+roll again.
 
 ## Available Skills
 
@@ -82,10 +59,12 @@ Below is a list of possible skills, provided by the Q* RPG system.
 
 !!! info "Available [Skills](#skills)"
     Like any other RPG system, Q* provides the GM and player with a set of
-    skills. Neither the system nor characters are limited to these skills: if
-    you require different skills to suite your needs, then add them to your
-    game. For balancing reasons try to restrict yourself to only 4 available
-    skills per Attribute.
+    Skills. Neither the system nor characters are
+    limited to these Skills: if you require
+    different Skills to suite your needs, then add
+    them to your game. For balancing reasons try to restrict yourself to only 4
+    available Skills per
+    Attribute.
 
 <div class="left" markdown="1">
 
@@ -93,24 +72,24 @@ Below is a list of possible skills, provided by the Q* RPG system.
 
 #### Athletics
 
-**EASY**{.hf} This skill used for climbing, running, jumping, etc.
+This skill used for climbing, running, jumping, etc.
 
 #### Force
 
-**AVERAGE**{.hf} This skill is used for breaching doors, break down treasure
+This skill is used for breaching doors, break down treasure
 chests, holding doors shut etc.
 
 #### Melee
 
-**AVERAGE**{.hf} This skill is used when using melee weapons or defending
+This skill is used when using melee weapons or defending
 against a melee attack.
 
 This skill is opposed by the character's defensive value.
 
 #### Heavy Weapons
 
-**HARD**{.hf} This skill is used when using heavy weapons such as rocket
-launchers, vehicle mounted machine guns, or firing any vessel's weapons.
+This skill is used when using heavy weapons such as rocket launchers, vehicle
+mounted machine guns, or firing any vessel's weapons.
 
 </div>
 <div class="right" markdown="1">
@@ -119,26 +98,25 @@ launchers, vehicle mounted machine guns, or firing any vessel's weapons.
 
 #### Acrobatics
 
-**HARD**{.hf} This skill is used for tumbling, dodging away from falling debris,
+This skill is used for tumbling, dodging away from falling debris,
 balance over a rope, *jump* in zero gravity environments etc.
 
 #### Light Weapons
 
-**HARD**{.hf} This skill is used for ranged weapon attacks.
+This skill is used for ranged weapon attacks.
 
 This skill is opposed by the character's defensive value.
 
 #### Stealth
 
-**AVERAGE**{.hf} This skill is used to hide from others, sneak around,
-lockpicking, etc.
+This skill is used to hide from others, sneak around, lockpicking, etc.
 
 It's opposed by the creature's [Perception](/character#perception) value.
 
 #### Operate*
 
-**AVERAGE**{.hf} This skill is used for piloting or steering a vessel and remote
-controlling drones.
+This skill is used for piloting or steering a vessel and remote controlling
+drones.
 
 </div>
 <div class="left" markdown="1">
@@ -147,13 +125,13 @@ controlling drones.
 
 #### Search
 
-**AVERAGE**{.hf} This skill is used to find and spot hidden things.
+This skill is used to find and spot hidden things.
 
 #### Science*
 
-**HARD**{.hf} his skill is used to see if a character knows certain things about
-their field of expertise. Some scientific fields have a direct application too,
-e.g. *Science - Computer* to hack a terminal.
+This skill is used to see if a character knows certain things about their field
+of expertise. Some scientific fields have a direct application too, e.g.
+*Science - Computer* to hack a terminal.
 
 * Biology
 * Chemistry
@@ -167,8 +145,8 @@ Additional fields can be trained following normal skill learning rules.
 
 #### Engineering*
 
-**HARD**{.hf} This skill is used for repairing mechanical or electronical
-motors, operate advanced machinery, etc.
+This skill is used for repairing mechanical or electronical motors, operate
+advanced machinery, etc.
 
 </div>
 <div class="right" markdown="1">
@@ -177,24 +155,23 @@ motors, operate advanced machinery, etc.
 
 #### Back-Story
 
-**AVERAGE**{.hf} This skill is used to determine eventual relationships with
-NPCs. E.g. when meeting a trader, you could roll a back story check to determine
-if you owe the trader money, or if the trader owes you!
+~~This skill is used to determine eventual relationships with NPCs. E.g. when
+meeting a trader, you could roll a back story check to determine if you owe the
+trader money, or if the trader owes you!~~
 
 #### Oratory
 
-**EASY**{.hf} This skill is used to lie, deliver speeches, persuade etc. It's
-also used to determine if someone is lying or being nervous while talking.
+This skill is used to lie, deliver speeches, persuade etc. It's also used to
+determine if someone is lying or being nervous while talking.
 
 #### Tactics*
 
-**EASY**{.hf} This skill is used to non-verbally communicate with party
-members in combat, tactically breach into buildings or rooms, etc.
+This skill is used to non-verbally communicate with party members in combat,
+tactically breach into buildings or rooms, etc.
 
 #### Command
 
-**HARD**{.hf} This skill is used to command crews, give orders on a vessel, lead
-others, etc.
+This skill is used to command crews, give orders on a vessel, lead others, etc.
 
 </div>
 <div class="clearfix"></div>

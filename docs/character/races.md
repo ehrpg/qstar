@@ -3,22 +3,14 @@
 Every creature has a race, or at least a type that groups similar creatures into
 the same category, e.g. animals or robots.
 
-A race modifies:
-
-* Attributes, Acquisitions, Seconary Characteristics and Skills
-* adds Traits,
-* enables access to inherent stunts,
-* and may add roleplaying Circumstances
-
-A race also provides a creature with [Downtime](/character/#downtime-dt) and
-[Credits](/equipment#credits-cr) for character creation.
+A race can modify almost all aspects of a creature, including: Attributes,
+Skills, Acquisitions, Health, Stats, roleplaying circumstances, etc.
 
 !!! tip "Race subtypes"
     Some races have further subtypes, that change the *base* race. E.g. in a
     cyberpunk setting there could be a bio-engineered slave race that resemble
-    humans. Such a race could provide additional [Might](/character#might-mi),
-    but decrease [Charisma](/character#charisma-ch) and add a roleplaying
-    Circumstance in that they are shunned by the public.
+    humans. Such a race could provide a roleplaying Circumstance in that they
+    are shunned by the public.
 
     Subtypes share all other characteristics of the base race.
 
@@ -37,16 +29,8 @@ Below is a list of possible races, provided by the Q* RPG system.
 
 Humans are a versatile race.
 
-[Perks](/character/perks#perks)
-:   -
-
-[Flaws](/character/flaws#flaws)
-:   -
-
-[Downtime](/character#downtime-dt)
-:   50
-
-[Credits](/character/equipment#credits)
-:   5 000
+[Talents](/character/talents)
+:   Humans receive the [Ingenious](/character/talents#ingenious) Talent for
+free.
 
 </div>
