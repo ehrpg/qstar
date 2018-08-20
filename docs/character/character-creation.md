@@ -19,8 +19,8 @@ subtypes of the human race such as earthers, martians, and belters.
 
 A race is the cornerstone of every character - it's the foundation of your
 character. Not only does it influence Attributes and Skills, but also Talents,
-and most importantly roleplaying circumstances. For example elves might be
-hostile towards dwarves, and vice versa.
+and roleplaying circumstances. For example elves might be hostile towards
+dwarves, and vice versa.
 
 See [Races](/character/races) for a list of available races, or talk to your GM
 if the race you want to play is not on there.
@@ -43,7 +43,8 @@ equal to or less than the corresponding Attribute. If the Skill exceeds the
 Attribute, improving it costs 2 points.
 
 Some Skills can only be used if they are trained. This means, that they require
-1 Skill point to unlock the skill.
+1 Skill point to unlock the Skill. Unlocking a Skill raises the Skill from
+*untrained* to a [d4](#d4).
 
 You cannot raise a Skill above a [d12](#d12).
 
@@ -61,4 +62,4 @@ Calculate the values for:
 * Toughness, and
 * Health.
 
-Finally, give you character a name!
+Finally, give your character a name!

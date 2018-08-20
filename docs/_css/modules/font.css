@@ -17,4 +17,20 @@ body, input {
   padding-left: 0;
   font-weight: normal;
 }
+
+.md-typeset:not(.md-search-result__item) h2 {
+  border: 2px solid #333;
+  border-radius: 25px;
+  padding-left: 20px !important;
+  background-color: #333;
+  color: white;
+}
+
+.md-typeset:not(.md-search-result__item) h2 > a.headerlink {
+  color: #efefef;
+}
+
+article.md-typeset:not(.md-search-result__item) > a.md-icon.md-content__icon {
+  z-index: 2;
+}
 /*# sourceMappingURL=font.css.map */

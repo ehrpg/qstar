@@ -324,18 +324,25 @@ an enemy, but in plain sight for another.
 
 </div>
 
-<div class="left" markdown="1">
+## Damage
 
-If an Attack is successful, damage can be dealt to the target. A successful
-Attack **always** lowers the target's Armour, if any, by one. Some weapons or
+If an Attack is successful, damage can be dealt to the target. Some weapons or
 special Actions reduce the Armour by more.
 
 Roll the weapon's damage dice. Some weapons gain additional damage from an
 Attribute and Actions.
 
-The result of the damage roll has to be higher than the target's Toughness
-value. If the damage roll is higher, you cause 1 wound on the target. Some
-weapons or Actions increase the wounds caused.
+The result of the damage roll has to be higher than the target's
+[Toughness](/character#toughness) value. If the damage roll is higher, you cause
+1 wound, or more depending on the weapon and used Action, to the target.
+
+### Damage Reduction
+
+If a target wears Armour, all wounds you deal are substracted from the target's
+Armour first. Only if the Durability of the Weapon's or Action's Damage type is
+0 you can deal wounds to the damage. Some weapons and Actions circumvent the
+Armour, e.g. Armour-Piercing Ammunition.
+
 
 ## Wounds
 

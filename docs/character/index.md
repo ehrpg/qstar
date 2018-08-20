@@ -26,13 +26,16 @@ each Attribute being the average for an adult human. Upgrading an Attribute
 allows the character to use a [d6](#d6), a [d8](#d8), a [d10](#d10) or a
 [d12](#d12).
 
+You cannot raise an Attribute above a [d12](#d12).
+
 ### Attribute Damage
 
 Attribute Damage decreases the character's Attribute, e.g. from a [d6](#d6) to a
 [d4](#d4). This penalty can be **temporary** or **permanently**.
 
 Attribute Damage does not influence any Skills, but improving associated Skills
-might cost 2 points instead of one.
+might cost 2 points instead of one, even if the Attribute Damage is only
+temporary.
 
 <div class="left" markdown="1">
 
@@ -113,7 +116,6 @@ Skill](/character/skills#stealth), sense things and creatures, etc.
     </div>
 
 </div>
-<div class="clearfix"></div>
 
 <div class="left" markdown="1">
 
@@ -236,14 +238,14 @@ Acquisitions of one sort can be traded in for any other.
 
 > [Loot](#loot) abstracts the items and clutter looted.
 
-1 unit of Loot takes up 1 Bulk, but no additional inventory space. Loot is
-usually stored on a vessel or a player base.
+1 unit of Loot takes up 1 Bulk. Loot is usually stored on a vessel or a player
+base.
 
-Loot can be sold or exchanged for other Acquisitions.
+Loot can be sold or exchanged for other Acquisitions. Loot cannot be bought.
 
 | Loot | Exchanges to    |
 |-----:|-----------------|
-|    1 | `1 000` Credits |
+|    1 | 1 000 Credits |
 |    5 | 1 Resource      |
 |   10 | 1 Technology    |
 
@@ -385,8 +387,9 @@ A high living standard costs 1 [RES](#resources). This increases the item's
 
 ## Languages
 
-Every character has at least one native language he can speak, write, read and
-understand.
+A language can be learned in three steps: speaking, writing, and reading.
+
+Every character has at least one native language with all three steps unlocked.
 
 Learning a Language can be done in three steps, whereas each step costs 2
 [Downtime](/character#downtime-dt) to learn:
@@ -400,14 +403,14 @@ Learning a Language completely (all three steps) at once only costs 5
 
 ## Improving your character
 
-Improving your character happens automatically due completing missions, quests,
-fighting and adventuring and eventually earning [Experience](#experience-xp),
-which will increase the character's [Level](#level-lvl).
+~~Improving your character happens automatically due completing missions,
+quests, fighting and adventuring and eventually earning
+[Experience](#experience-xp), which will increase the character's
+[Level](#level-lvl).~~
 
-Attributes and Skills can
-be improved too, but require [Downtime](/character#downtime) and
-[Credits](/equipment#credits-cr).
+~~Attributes and Skills can be improved too, but require
+[Downtime](/character#downtime) and [Credits](/equipment#credits-cr).~~
 
-Any character's skills and expertise are greatly enhanced by the equipment they
-own. Hard training may give a character a permanent bonus, but the right item is
-often cheaper and acquired more easily.
+~~Any character's skills and expertise are greatly enhanced by the equipment
+they own. Hard training may give a character a permanent bonus, but the right
+item is often cheaper and acquired more easily.~~

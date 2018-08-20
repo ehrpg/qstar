@@ -9,6 +9,8 @@ they are trained.
 Upgrading a [Skill](#skills) allows the character to use a [d6](#d6), a
 [d8](#d8), a [d10](#d10) or a [d12](#d12).
 
+You cannot raise a Skill above a [d12](#d12).
+
 Everything a character does is usually associated with a [Skill](#skills),
 whereas every [Skill](#skills) has an Attribute it's
 associated with.
@@ -16,26 +18,22 @@ associated with.
 ## Trained-only Skills
 
 Some [Skills](#skills) can only be used if you trained them by spending one
-skill point on them. Only then can you roll a [d4](#d4) on these
-Skills. Improving a Trained-only
-Skill works the same as with normal
-Skills.
+skill point on them. Only then can you roll a [d4](#d4) on these Skills.
+Improving a Trained-only Skill works the same as with normal Skills.
 
 Trained-only Skills are indicated by a **"*"** next
 to their name.
 
-## Skill roll
+## Task roll
 
 > Whenever it's uncertain if a character can do an action, or if the outcome is
-effected by noticeable outside factors, the character has to roll a **Skill**
+effected by noticeable outside factors, the character has to roll a **Task**
 roll.
 
-A **Skill** roll is made by rolling the [Skill's](#skills) respective die and
-adding bonuses and penalties to the roll. If no
-Skill applies, or the
-Skill isn't available to the character, the GM can
-decide that an Attribute roll also works in place of a
-Skill roll.
+A **Task** roll is made by rolling the [Skill's](#skills) respective die and
+adding bonuses and penalties to the roll. If no Skill applies, or the Skill
+isn't available to the character, the GM can decide that an Attribute roll also
+works in place of a Task roll.
 
 !!! summary "Task roll"
     <div class="formula formula-top formula-bottom">
@@ -50,7 +48,7 @@ Skill roll.
 Characters compete against each others using skills. Unless otherwise stated,
 the same skill is used for both parties.
 
-Both parties make a Skill roll. The party with the higher result wins. On a tie,
+Both parties make a Task roll. The party with the higher result wins. On a tie,
 roll again.
 
 ## Available Skills

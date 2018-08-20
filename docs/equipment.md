@@ -139,17 +139,18 @@ otherwise noted.
 
 ### Armour
 
-Worn armour does not occupy [Slots](#slots).
+Armour increases your character's [Toughness](/character#toughness).
 
-Armour adds another pool to your character, called **Durability**. Special
-armour can also provide a bonus to [Defence](/crisis#defence).
+Armour has Durability for these types:
 
-| Name               | Durability | Weight | Cost |
-|--------------------|-----------:|-------:|-----:|
-| Body Armour MK I   |          2 |      3 |  750 |
-| Body Armour MK II  |          4 |      4 | 1250 |
-| Body Armour MK III |          8 |      5 | 2500 |
-| Juggernaut MK I    |         15 |      7 | 7500 |
+* Normal (physical) Damage,
+* **Fire**{:.qstar-flame} Damage,
+* **Cold**{:.qstar-thermometer-cold} Damage,
+* **Acid**, **Radiation** or **Biohazard**{:.qstar-biohazard} Damage.
+
+| Name        | Toughness | Durability | <i class="qstar-flame"></i> | <i class="qstar-thermometer-cold"></i> | <i class="qstar-biohazard"></i> |
+|-------------|----------:|-----------:|----------------------------:|---------------------------------------:|--------------------------------:|
+| Body Armour |        +2 |          2 |                           2 |                                      1 |                               1 |
 
 ### Outfits
 

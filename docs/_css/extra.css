@@ -149,11 +149,6 @@ h5 > a:after {
   content: "" !important;
 }
 
-article > a.md-icon.md-content__icon {
-  z-index: 10000;
-  right: 30px;
-}
-
 *:not(.md-search-result__item) > *#might-skills,
 *:not(.md-search-result__item) > *#speed-skills,
 *:not(.md-search-result__item) > *#intelligence-skills,
@@ -547,6 +542,22 @@ body, input {
   font-weight: normal;
 }
 
+.md-typeset:not(.md-search-result__item) h2 {
+  border: 2px solid #333;
+  border-radius: 25px;
+  padding-left: 20px !important;
+  background-color: #333;
+  color: white;
+}
+
+.md-typeset:not(.md-search-result__item) h2 > a.headerlink {
+  color: #efefef;
+}
+
+article.md-typeset:not(.md-search-result__item) > a.md-icon.md-content__icon {
+  z-index: 2;
+}
+
 h4.bold {
   border-color: black !important;
   border-bottom-width: 3px !important;
@@ -833,19 +844,17 @@ table thead th:hover {
     -webkit-column-count: 2;
             column-count: 2;
   }
-  div.qs-list-test div section {
-    padding-right: 12px;
-  }
-  div.qs-list-test a:target {
+  div.qs-list-test :target {
     display: block;
     position: relative;
-    top: -6rem;
+    top: -5rem;
     visibility: hidden;
   }
-  div.qs-list-test a:target + section {
+  div.qs-list-test :target + section {
     background-color: rgba(0, 0, 0, 0.1);
   }
   div.qs-list-test section {
+    padding-right: 12px;
     padding-top: 1em;
     -webkit-column-break-inside: avoid;
     break-inside: avoid;
