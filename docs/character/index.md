@@ -106,7 +106,7 @@ The Pace value can never drop below **2**.
 
 > Perception is a passive value that represents the character's alertness.
 
-It's used to counter creatures that used the [Stealth
+It's used to passively counter creatures that used the [Stealth
 Skill](/character/skills#stealth), sense things and creatures, etc.
 
 !!! summary "Perception"
@@ -121,7 +121,7 @@ Skill](/character/skills#stealth), sense things and creatures, etc.
 
 ### Parry
 
-> The Parry value is used for defend against a melee Attack.
+> The Parry value is used for defending against a melee Attack.
 
 The Parry is 2 if you don't have the Melee Skill.
 
@@ -156,8 +156,7 @@ The [Toughness](#toughness) value can never drop below **1**.
 
 If Health drops to 0 or below, the creature has to make a
 [Might](/character#might-mi) roll. On a failure, the creature becomes
-incapacitated until healed or dead. If the check succeeds, the character remains
-concious.
+incapacitated, but not necessarily unconcious, until healed or dead.
 
 A character that drops to or below his HP in negative dies.
 

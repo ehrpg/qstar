@@ -58,23 +58,15 @@ accumulated.
 
 ### Turn Order
 
-Every character involved in a crisis has to roll to determine its turn order.
-The character with the highest result acts first. Once every character has
-acted, a new **turn** begins.
+Every character involved in a crisis uses its
+[Perception](/character#perception) value to determine its turn order. The
+character with the highest [Perception](/character#perception) value acts first.
+Once every character has acted, a new **turn** begins.
 
-The GM rolls for NPCs. Usually, he rolls once for an entire group of the same
-type, e.g. a pack of wolves.
-
-If two or more PCs or special NPCs have rolled the same result the characters
-can agree upon who acts first. If they cannot find an agreement roll again. The
-characters retain their original roll, but rolls to resolve the conflict change
-the turn order.
-
-!!! summary "[Turn Order](#turn-order)"
-    <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Speed Die">Speed</span> ±
-      <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
-    </div>
+If two or more characters have rolled the same result the PCs can agree upon who
+acts first. If they cannot find an agreement make a **Task** roll on your
+[Speed](/character#speed-sp) Attribute. The characters retain their original
+roll, but rolls to resolve the conflict change the turn order.
 
 ### Action Points
 
@@ -134,7 +126,7 @@ Effect
 :   Ranged attacks against you suffer a -2 penalty.
 
 AP Cost
-:   2
+:   1
 
 ##### Crouch
 
@@ -144,7 +136,7 @@ Effect
 :   Ranged attacks against you suffer a -1 penalty. Also counts as sneaking.
 
 AP Cost
-:   2
+:   1
 
 ##### Kneel down / Stand Up
 
@@ -161,8 +153,7 @@ AP Cost
 You lie down or stand up.
 
 Effect
-:   Toggles the Prone Condition. When being prone, kneeling down only costs 1
-AP.
+:   Toggles the Prone Condition. When being prone, kneeling down costs 1 AP.
 
 AP Cost
 :   2
@@ -239,8 +230,8 @@ You only regain 2 AP per round.
 *Kneeling down gives you better control over recoil and weapon sway.*
 
 Bonus
-:   You count as being in Light Cover. You gain a +1 bonus on attacks using
-ranged weapons.
+:   You count as being in **Light Cover** against ranged Attacks. You gain a +1
+bonus on attacks using ranged weapons.
 
 Penalty
 :   Melee attacks against you gain a +1 bonus.
@@ -250,11 +241,11 @@ Penalty
 *Being prone gives gives you even better control over recoil and weapon sway.*
 
 Bonus
-:   You count as being in Heavy Cover. You gain a +2 bonus on attacks using
-ranged weapons.
+:   You count as being in **Heavy Cover** against ranged Attacks. You gain a +2
+bonus on attacks using ranged weapons.
 
 Penalty
-:   Melee attacks against you gain a +2 bonus.
+:   Melee attacks against you gain a +3 bonus.
 
 ##### Stunned
 
@@ -283,7 +274,7 @@ Skill.
 #### Melee Attacks
 
 A melee Attack roll has to be equal to or higher than the target's
-[Parry](#parry) value.
+[Parry](/character#parry) value.
 
 </div>
 <div class="right" markdown="1">
@@ -292,6 +283,11 @@ A melee Attack roll has to be equal to or higher than the target's
 
 A ranged Attack roll has to be equal to or higher than 4. Circumstances such as
 range, visibility, wind, etc. influence the Attack roll's result.
+
+##### Rate of Fire (RoF)
+
+Some ranged weapons have a higher RoF. Each RoF grants you another Attack
+**Task** roll. RoF Attacks can even be split amongst targets.
 
 </div>
 
@@ -326,8 +322,7 @@ an enemy, but in plain sight for another.
 
 ## Damage
 
-If an Attack is successful, damage can be dealt to the target. Some weapons or
-special Actions reduce the Armour by more.
+If an Attack is successful, damage can be dealt to the target.
 
 Roll the weapon's damage dice. Some weapons gain additional damage from an
 Attribute and Actions.
@@ -336,13 +331,18 @@ The result of the damage roll has to be higher than the target's
 [Toughness](/character#toughness) value. If the damage roll is higher, you cause
 1 wound, or more depending on the weapon and used Action, to the target.
 
+### Critical Damage
+
+For each 4 points above the target's [Toughness](/character#toughness) value,
+the target receives 1 additional wound. These additional wounds are always
+physical wounds.
+
 ### Damage Reduction
 
-If a target wears Armour, all wounds you deal are substracted from the target's
-Armour first. Only if the Durability of the Weapon's or Action's Damage type is
-0 you can deal wounds to the damage. Some weapons and Actions circumvent the
-Armour, e.g. Armour-Piercing Ammunition.
-
+If a target wears Armor, all wounds you deal are substracted from the target's
+Armor first. Only if the Durability of the Weapon's or Action's Damage type is 0
+you can deal wounds to the target. Some weapons and Actions circumvent the
+Armor, e.g. Armor-Piercing Ammunition.
 
 ## Wounds
 
@@ -353,8 +353,7 @@ creature dies.
 
 If [Health](#health) drops to 0 or below, the creature has to make a
 [Might](/character#might-mi) roll. On a failure, the creature becomes
-incapacitated until healed or dead. If the check succeeds, the character remains
-concious.
+incapacitated, but not necessarily unconcious, until healed or dead.
 
 NPCs usually die outright when they reach 0 [Health](#health).
 
