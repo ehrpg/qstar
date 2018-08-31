@@ -191,7 +191,7 @@ resourceful and adaptable.
 
 * Every level, a character gains 1 Skill Point.
 
-* Every 2 levels, a character gains 1 Attribute Points.
+* Every 2 levels, a character gains 1 Attribute Point.
 
 * Every 4 levels, a character gains a Talent.
 

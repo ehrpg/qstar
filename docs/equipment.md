@@ -148,9 +148,10 @@ Armour has Durability for these types:
 * **Cold**{:.qstar-thermometer-cold} Damage,
 * **Acid**, **Radiation** or **Biohazard**{:.qstar-biohazard} Damage.
 
-| Name        | Toughness | Durability | <i class="qstar-flame"></i> | <i class="qstar-thermometer-cold"></i> | <i class="qstar-biohazard"></i> |
-|-------------|----------:|-----------:|----------------------------:|---------------------------------------:|--------------------------------:|
-| Body Armour |        +2 |          2 |                           2 |                                      1 |                               1 |
+| Name         | Toughness | Durability | <i class="qstar-flame"></i> | <i class="qstar-thermometer-cold"></i> | <i class="qstar-biohazard"></i> |
+|--------------|----------:|-----------:|----------------------------:|---------------------------------------:|--------------------------------:|
+| Light Armour |        +2 |          5 |                           2 |                                      1 |                               1 |
+| Heavy Armour |        +5 |         10 |                           4 |                                      2 |                               2 |
 
 ### Outfits
 
@@ -281,22 +282,6 @@ Medical items are used to restore [Health](/character#health-hp) and
 [Endurance](/character#endurance-ep) in or after combat.
 
 <div class="qs-list-test" markdown="1">
-
-##### Adrenalin Shot
-
-Instantly restores 15 points of [Endurance](/character#endurance-ep).
-
-[Credits](#credits)
-:   100
-
-[Weight](#weight)
-:   0
-
-[AP](/crisis#actions)
-:   1
-
-Uses
-:   1
 
 ##### Medical Supplies
 

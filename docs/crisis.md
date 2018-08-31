@@ -218,12 +218,14 @@ themselves or the environment.
 
 ##### Drunk
 
-All checks suffer a -1 penalty. Checks that rely on speed and balance suffer a
--2 penalty.
+Penalty
+:   All checks suffer a -1 penalty. Checks that rely on speed and balance suffer
+a -2 penalty.
 
 ##### Exhausted
 
-You only regain 2 AP per round.
+Penalty
+:   You gain -2 AP per round.
 
 ##### Kneeling
 
@@ -234,7 +236,7 @@ Bonus
 bonus on attacks using ranged weapons.
 
 Penalty
-:   Melee attacks against you gain a +1 bonus.
+:   Melee attacks against you gain a +2 bonus.
 
 ##### Prone
 
@@ -245,11 +247,20 @@ Bonus
 bonus on attacks using ranged weapons.
 
 Penalty
-:   Melee attacks against you gain a +3 bonus.
+:   Melee attacks against you gain a +4 bonus.
 
 ##### Stunned
 
-You can't act or react on the current turn and do not regain AP.
+Penalty
+:   You can't act or react on the current turn and do not regain AP.
+
+##### Suppressed
+
+After being attacked, hit or not, you are being **Suppressed** until the end of
+your next round.
+
+Penalty
+:   -2 on all **Task** rolls.
 
 </div>
 
@@ -284,12 +295,33 @@ A melee Attack roll has to be equal to or higher than the target's
 A ranged Attack roll has to be equal to or higher than 4. Circumstances such as
 range, visibility, wind, etc. influence the Attack roll's result.
 
-##### Rate of Fire (RoF)
-
-Some ranged weapons have a higher RoF. Each RoF grants you another Attack
-**Task** roll. RoF Attacks can even be split amongst targets.
-
 </div>
+
+#### Critical Hits
+
+For every 4 points above 12, starting at 12, you score a Critical Hit, if the
+Attack is higher than the target's armor.
+
+Scoring a Critical Hit gives you a +1 bonus on Damage rolls.
+
+You only score a Critical Hit, if the Attack itself hits and a Critical Hit can
+only be scored, if the threshold for a Critical Hit is **higher** than the
+target's armor.
+
+!!! example "Critical Hits"
+    Jack attacks and his Attack roll results in 19. His target has a Defence of
+    13. He scores only 1 Critical Hit, for reach 16. Reaching the 12 is not a
+    Critical Hit, since it's lower than the target's armor.
+
+
+#### Area of Effect
+
+Attacks with an Area of Effect, e.g. a fireball spell, always deal their damage
+without having to roll for an Attack. As such, they cannot critically hit.
+
+Thrown weapons, e.g. grenades, require you to make an Athletics check. The roll
+otherwise is a normal Ranged Attack. Circumstances such as range, visibility,
+wind, etc. influence the Athletics roll's result.
 
 ### Cover
 
@@ -335,7 +367,7 @@ The result of the damage roll has to be higher than the target's
 
 For each 4 points above the target's [Toughness](/character#toughness) value,
 the target receives 1 additional wound. These additional wounds are always
-physical wounds.
+**physical** wounds.
 
 ### Damage Reduction
 
@@ -345,8 +377,6 @@ you can deal wounds to the target. Some weapons and Actions circumvent the
 Armor, e.g. Armor-Piercing Ammunition.
 
 ## Wounds
-
-Every wound imposes a -1 penalty on all **Task** rolls.
 
 When the creature has negative [Health](#health) equal to its maximum, the
 creature dies.
@@ -359,7 +389,8 @@ NPCs usually die outright when they reach 0 [Health](#health).
 
 !!! example "Negative [Health](#health)"
     Jack has a maximum of 3 [Health](#health). At 0 [Health](#health) he becomes
-    incapacitated. When his [Health](#health) drop to -3, Jack dies.
+    incapacitated if he fails his [Might](/character#might-mi) roll. When his
+    [Health](#health) drop to -3, Jack dies.
 
 ## Healing
 
