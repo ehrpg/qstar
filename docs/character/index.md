@@ -162,8 +162,8 @@ A character that drops to or below his HP in negative dies.
 
 !!! summary "[Health](#health)"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">2</span> +
-        <span data-bracket-top="Might Attribute">Die / 4</span>
+        <span data-bracket-bottom="Base">1</span> +
+        <span data-bracket-top="Might Attribute">Die / 2</span>
     </div>
 
 ## Experience (XP)
@@ -174,12 +174,22 @@ Experience (XP) is gained due to noteable achievements or story completions. XP
 usually is only given out one at a time. The GM can decide to give out more for
 completing a longer adventure.
 
+You need twice your Level as Experience Points (XP) to increase your Level by
+one.
+
+!!! summary "Experience and Level Ups"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-top="XP">Level x2</span> =
+        <span>Level Up</span>
+    </div>
+
+
 Every three Experience Points (XP) increase a character's level by one.
 
 ### Level (LVL)
 
 The Level of a character abstracts it's experience, resourcefulness, and
-Skillset.
+skill set.
 
 #### Acquisitions
 
@@ -206,9 +216,6 @@ once.
 
 Before rolling determine if you want to use fate dice and which fate dice you
 want to use. Add the fate dice to your roll.
-
-When all fate dice have been used up, your character's **fate** is finally
-**sealed**.
 
 ## Acquisitions
 
@@ -242,11 +249,11 @@ base.
 
 Loot can be sold or exchanged for other Acquisitions. Loot cannot be bought.
 
-| Loot | Exchanges to    |
-|-----:|-----------------|
+| Loot | Exchanges to  |
+|-----:|---------------|
 |    1 | 1 000 Credits |
-|    5 | 1 Resource      |
-|   10 | 1 Technology    |
+|    5 | 1 Resource    |
+|   10 | 1 Technology  |
 
 <div class="left" markdown="1">
 
@@ -288,9 +295,8 @@ Traders may also give you better prices.
 
 !!! summary "Maximum [Influence](#influence-inf)"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Experience">XP</span> +
+      <span data-bracket-bottom="Level">LVL</span> +
       <span data-bracket-top="Base">2</span> ±
-      <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
     </div>
 
 </div>
@@ -317,9 +323,8 @@ Powerful equipment requiring [Resources](#resources-res) usually adds
 
 !!! summary "Maximum [Resources](#resources-res)"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Experience">XP</span> +
+      <span data-bracket-bottom="Level">LVL</span> +
       <span data-bracket-top="Base">2</span> ±
-      <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
     </div>
 
 </div>
@@ -343,9 +348,8 @@ Unlocking upgrades enables the acquisition of better equipment and vessels.
 
 !!! summary "Maximum [Technology](#technology-tech)"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Experience">XP</span> +
+      <span data-bracket-bottom="Level">LVL</span> +
       <span data-bracket-top="Base">2</span> ±
-      <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
     </div>
 
 </div>
