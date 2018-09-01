@@ -29,9 +29,9 @@ are added to the sides of the die.
 
 !!! example "Skill Fraction"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="result">6</span> =
-      <span data-bracket-top="12">d12</span> /
-      <span data-bracket-bottom="divisor">2</span>
+      <span data-bracket-bottom="12">d12</span> /
+      <span data-bracket-top="divisor">2</span> =
+      <span data-bracket-bottom="result">6</span>
     </div>
 
 </div>
@@ -39,9 +39,9 @@ are added to the sides of the die.
 
 !!! example "Skill Fraction"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="result">7</span> = (
-      <span data-bracket-top="15">d12 + 3</span> ) /
-      <span data-bracket-bottom="divisor">2</span>
+      <span data-bracket-bottom="15">( d12 + 3 )</span> /
+      <span data-bracket-top="divisor">2</span> =
+      <span data-bracket-bottom="result">7</span>
     </div>
 
 </div>
@@ -53,6 +53,12 @@ are added to the sides of the die.
 Some values cannot be negative, e.g. [Resources](/character#resources-res). If
 such a value were to drop to below 0, it either prohibits certain actions, it
 has consequences or it's simply ignored and the value set to 0.
+
+### Circumstance
+
+Most of the formulas and values can be influenced by circumstance, such as
+racial traits, talents, equipment, environmental factors such as bad or
+particularly good visibility, wind, etc.
 
 ## Die Rolls
 
@@ -72,19 +78,14 @@ dice. **Random** rolls use the random table's corresponding dice.
 **Task** and **Damage** rolls can receive bonuses and penalties from the
 creature's Talents, Race, role-playing, etc.
 
-**Task** rolls are made with a Chance die in addition to the Attribute's or
-Skill's die. A Chance die isn't added to the result. See [Critical
-Failures](#critical-failures).
-
 ### Task Difficulty
 
 A task's [Difficulty Level](/crisis#difficulty) is **always** 4. The only
 exceptions are passive values in combat, e.g. a character's Parry value.
 
-A check has to be equal to or higher a [Difficulty Level](/crisis#difficulty) in
-order to succeed. Otherwise, the check fails. The [Difficulty
-Level](/crisis#difficulty) can be modified by adding or substracting from the
-rolls resulting number.
+A check has to be equal to or higher this [Difficulty Level](/crisis#difficulty)
+in order to succeed. Otherwise, the check fails. Circumstances modify the check
+positively or negatively.
 
 !!! info "Check Failures"
     A failed check doesn't necessarily mean, that the check completely failed.
@@ -96,8 +97,8 @@ rolls resulting number.
 
 ### Critical Failures
 
-If the Chance die comes up with a 1, and the **Task**'s die also comes up with a
-1, the task critically fails.
+If the die for a **Task** roll comes up with a 1, roll again. If it's another 1,
+the task critically fails.
 
 A critical fail causes other penalties in addition to failing the check, such as
 loss of resources, items, reputation etc.
