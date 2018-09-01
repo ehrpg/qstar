@@ -10,6 +10,11 @@ require additional Acquisitions to be unlocked, maintained or bought.
 
 If an item doesn't have a Weight specified, it still uses Bulk.
 
+!!! tip "Assets"
+    Some items count as Assets, which can be used to provide a bonus on a
+    **Task** rollfor related checks. Usually an item states if it's an Asset,
+    but creative use can always turn other items into Assets as well!
+
 ## Credits
 
 > [Credits](#credits) are a universal currency for buying most things.
@@ -62,8 +67,8 @@ the item's Weight, the character's:
 ## Bulk
 
 An item that specifies it's Bulk takes up that much Inventory Space. Ten light
-items, specified by a Bulk value of **L**, count as 1 Bulk. Some items' Bulk are
-negligible.
+items specified by a Bulk value of **L** count as 1 Bulk. Some items' Bulk are
+negligible; they do not list their Bulk value.
 
 You can carry up an amount of Bulk equal to your [Might](/character#might-mi)
 without penalty; if you carry more you gain the *Slowed* condition. You can't
@@ -73,7 +78,8 @@ hold or carry more Bulk than twice your [Might](/character#might-mi).
 
 Usually looting only gives you [Loot](/character#loot). If you are looking for
 certain items that, for example, your enemies may have, you can loot them
-normally.
+normally. As soon as this happens though, you cannot get [Loot](#loot) from the
+enemies anymore, only their items.
 
 If a looted item requires [Resources](/character#resources-res) a character may
 spend his available [Resources](/character#resources-res) on it to keep it.
@@ -105,11 +111,11 @@ otherwise noted.
 * **CAP** indicates the amount of uses per magazine. The weapon has to be
   **reloaded** if the current capacity drops to zero.
 
-* **RoF** indicates how many shots can be fired with each attack. A **RoF**
-  value higher than 1 allows multiple shots to be fired. Each multiple shot adds
-  1d6 to the damage roll.
-
 * **REL** indicates how much AP it takes to reload the weapon.
+
+!!! tip "Weapon Asset"
+    Every Weapon should count as an Asset when trying to intimidate somebody
+    with the Oratory Skill.
 
 ### Melee Weapons
 
@@ -139,19 +145,23 @@ otherwise noted.
 
 ### Armour
 
-Armour increases your character's [Toughness](/character#toughness).
-
-Armour has Durability for these types:
+Armour increases your character's [Toughness](/character#toughness), and
+prevents damage a character may receive. Armour has Durability for these types:
 
 * Normal (physical) Damage,
 * **Fire**{:.qstar-flame} Damage,
 * **Cold**{:.qstar-thermometer-cold} Damage,
 * **Acid**, **Radiation** or **Biohazard**{:.qstar-biohazard} Damage.
 
+One wound reduces the Armour's Durability of the wound's corresponding type by
+one. When the Durability of a type reaches 0, it does not provide any damage
+reduction against this type anymore.
+
 | Name         | Toughness | Durability | <i class="qstar-flame"></i> | <i class="qstar-thermometer-cold"></i> | <i class="qstar-biohazard"></i> |
 |--------------|----------:|-----------:|----------------------------:|---------------------------------------:|--------------------------------:|
 | Light Armour |        +2 |          5 |                           2 |                                      1 |                               1 |
 | Heavy Armour |        +5 |         10 |                           4 |                                      2 |                               2 |
+| Hazmat Suit  |        +1 |          2 |                           8 |                                      8 |                              16 |
 
 ### Outfits
 
@@ -167,32 +177,9 @@ Armour has Durability for these types:
 ### Item uses
 
 Item's can usually be used indefinitely. The only exceptions are items that list
-**Uses** in their stats. This stat lists how often the item can be used.
-
-The number in parenthesis indicates if and how often the item's **Uses** can be
-reset to their full amount.
-
-If it says *refill* instead, the item has to be refilled at 1/10 it's original
-price, which is also listed in the parenthesis next to the item's **Credits**
-cost.
-
-If it lists both, only one of the two options apply:
-
-* The first option applies, if the character's living standard is high, and
-* the second option applies, if the character's living standard is normal.
-
-#### Cost
-
-When an item can be refilled, you only have to pay the full price of the item
-once, even if you buy more than one specimen of the item. Each additional
-specimen costs the item's refill cost. E.g. buying two rations costs `165` (`150
-+ 15`).
-
-!!! tip "Assets"
-    Some miscellaneous items count as Assets, which can be used to reduce the
-    [Difficulty](/crisis#difficulty) for related checks. Usually an item states
-    if it's an Asset, but creative use can always turn other items into Assets
-    as well!
+**Uses** in their stats. This stat lists how often the item can be used. The
+item's description states how the item can be refilled. If its **Uses** reaches
+0, it cannot be used anymore until refilled.
 
 ### Food, Mundane & Tools
 
@@ -209,7 +196,10 @@ A climbing gear consists of ropes, ice picks, bolts to secure the ropes, etc.
 :   1 000
 
 [Weight](#weight)
-:   5
+:   [d10](#d10)
+
+[Bulk](#bulk)
+:   3
 
 ##### Crowbar
 
@@ -222,9 +212,12 @@ A simple crowbar to prise open closed containers and doors.
 :   250
 
 [Weight](#weight)
-:   2
+:   [d6](#d6)
 
-##### Flashlight / Lamp / Flares
+[Bulk](#bulk)
+:   1
+
+##### Flashlight / Lamp
 
 A flashlight or other source of light, used to illuminate dark spaces. The light
 source includes fuel or batteries, that are usually always available.
@@ -232,7 +225,7 @@ source includes fuel or batteries, that are usually always available.
 [Credits](#credits)
 :   250
 
-[Weight](#weight)
+[Bulk](#bulk)
 :   1
 
 ##### Food Supplies
@@ -241,13 +234,13 @@ Food supplies provide food and water for a full week (7 days). Food supplies can
 be refilled in civilization, e.g. trading outposts etc.
 
 [Credits](#credits)
-:   1 250 (125)
+:   1 250
 
-[Weight](#weight)
+[Bulk](#bulk)
 :   4
 
 Uses
-:   7 (∞), or 7 (refill)
+:   7
 
 ##### Ration
 
@@ -255,10 +248,13 @@ A ration provides food and water for a single day. Rations can be refilled in
 civilization, e.g. trading outposts etc.
 
 [Credits](#credits)
-:   150 (15)
+:   150
 
-[Weight](#weight)
-:   1 (∞), or 1 (refill)
+[Bulk](#bulk)
+:   1
+
+Uses
+:   1
 
 ##### Toolbox
 
@@ -271,15 +267,15 @@ screws, etc.
 [Credits](#credits)
 :   1 000
 
-[Weight](#weight)
+[Bulk](#bulk)
 :   5
 
 </div>
 
 ### Medical
 
-Medical items are used to restore [Health](/character#health-hp) and
-[Endurance](/character#endurance-ep) in or after combat.
+Medical items are used to restore [Health](/character#health-hp) in or after
+combat.
 
 <div class="qs-list-test" markdown="1">
 
@@ -297,6 +293,9 @@ Consists of scissors, bandages, disinfectant, alcohol, painkillers etc.
 :   1
 
 [Weight](#weight)
-:   1
+:   [d4](#d4)
+
+[Bulk](#bulk)
+:   4
 
 </div>
