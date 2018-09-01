@@ -125,7 +125,7 @@ drones.
 
 This skill is used to find and spot hidden things.
 
-#### Science*
+#### Science\* or Knowledge\*
 
 This skill is used to see if a character knows certain things about their field
 of expertise. Some scientific fields have a direct application too, e.g.
@@ -134,7 +134,9 @@ of expertise. Some scientific fields have a direct application too, e.g.
 * Biology
 * Chemistry
 * Computer
+* Geography & History
 * Medicine
+* Monster Lore
 * Physics
 
 Choose two fields instead of one when training this skill the first time.
