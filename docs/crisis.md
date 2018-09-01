@@ -38,7 +38,7 @@ Multiple modifiers stack.
 
 | Modifier | Name                     | Description                               |
 |---------:|--------------------------|-------------------------------------------|
-|       +1 | Asset                    | Having the correct tools at hand.         |
+|       +2 | Asset                    | Having the correct tools at hand.         |
 |       -1 | Unfavorable Circumstance | E.g. climbing a cliff while it's raining. |
 
 !!! tip "Stacking Modifiers"
@@ -98,6 +98,174 @@ this Action isn't completed yet cancels it.
 
 If you attack an enemy who has not noticed you and is not combat ready, you gain
 an additional turn before actual combat starts.
+
+## Attacks
+
+An Attack roll is equal to a **Task** roll, using the weapon's associated
+Skill.
+
+!!! summary "Making an Attack"
+    <div class="formula formula-top formula-bottom">
+      <span data-bracket-bottom="Skill Die">Attack</span> ±
+      <span data-bracket-top="Weapon modifier">Hit</span> ±
+      <span data-bracket-bottom="Environment / Traits / Race">Circumstance</span>
+    </div>
+
+<div class="left" markdown="1">
+
+#### Melee Attacks
+
+A melee Attack roll has to be equal to or higher than the target's
+[Parry](/character#parry) value.
+
+</div>
+<div class="right" markdown="1">
+
+#### Ranged Attacks
+
+A ranged Attack roll has to be equal to or higher than 4. Circumstances such as
+range, visibility, wind, etc. influence the Attack roll's result.
+
+</div>
+
+#### Critical Hits
+
+For every 4 points above 12, starting at 12, you score a Critical Hit, if the
+Attack is higher than the target's armor.
+
+Scoring a Critical Hit gives you a +1 bonus on Damage rolls.
+
+You only score a Critical Hit, if the Attack itself hits and a Critical Hit can
+only be scored, if the threshold for a Critical Hit is **higher** than the
+target's armor.
+
+!!! example "Critical Hits"
+    Jack attacks and his Attack roll results in 19. His target has a Defence of
+    13. He scores only 1 Critical Hit, for reach 16. Reaching the 12 is not a
+    Critical Hit, since it's lower than the target's armor.
+
+
+#### Area of Effect
+
+Attacks with an Area of Effect, e.g. a fireball spell, always deal their damage
+without having to roll for an Attack. As such, they cannot critically hit.
+
+Thrown weapons, e.g. grenades, require you to make an Athletics check. The roll
+otherwise is a normal Ranged Attack. Circumstances such as range, visibility,
+wind, etc. influence the Athletics roll's result.
+
+### Cover
+
+> Cover provides additional defensive bonuses for melee and ranged combat.
+
+Cover is always relative to other targets. A character can be in total cover for
+an enemy, but in plain sight for another.
+
+|   Modifier | Condition   |
+|-----------:|-------------|
+|         +1 | Cover       |
+|         +2 | Heavy Cover |
+| unhittable | Total Cover |
+
+<div class="left" markdown="1">
+
+!!! tip "Positions and Cover"
+    Being prone and facing an enemy straight on counts as being in heavy cover
+    (only head and shoulds visible).
+
+</div>
+<div class="right" markdown="1">
+
+!!! tip "Cover and firearms"
+    When hiding behind materials that are penetrable by bullets or other
+    projectiles decrease your Cover by one step. E.g. total cover becomes heavy
+    cover, while in in light cover you count as not being behind cover at all.
+
+</div>
+
+## Damage
+
+If an Attack is successful, damage can be dealt to the target.
+
+Roll the weapon's damage dice. Some weapons gain additional damage from an
+Attribute and Actions.
+
+The result of the damage roll has to be higher than the target's
+[Toughness](/character#toughness) value. If the damage roll is higher, you cause
+1 wound, or more depending on the weapon and used Action, to the target.
+
+### Critical Damage
+
+For each 4 points above the target's [Toughness](/character#toughness) value,
+the target receives 1 additional wound. These additional wounds are always
+**physical** wounds.
+
+Critically inflicted wounds always reduce the target's
+[Health](/character#health-hp) and bypass any armour.
+
+### Damage Reduction
+
+If a target wears Armor, all wounds you deal are substracted from the target's
+Armor first. Only if the Durability of the Weapon's or Action's Damage type is 0
+you can deal wounds to the target. Some weapons and Actions circumvent the
+Armor, e.g. Armor-Piercing Ammunition.
+
+### Non-lethal damage
+
+When a target would die from an Attack, the attacker can decide whether or not
+to apply non-lethal force, knocking the target unconcious instead of killing it.
+
+## Wounds
+
+When the creature has negative [Health](#health) equal to its maximum, the
+creature dies.
+
+If [Health](#health) drops to 0 or below, the creature has to make a
+[Might](/character#might-mi) roll. On a failure, the creature becomes
+incapacitated, but not necessarily unconcious, until healed or dead.
+
+NPCs usually die outright when they reach 0 [Health](#health).
+
+!!! example "Negative [Health](#health)"
+    Jack has a maximum of 3 [Health](#health). At 0 [Health](#health) he becomes
+    incapacitated if he fails his [Might](/character#might-mi) roll. When his
+    [Health](#health) drop to -3, Jack dies.
+
+## Healing
+
+The Medicine Skill can be used to treat a wound suffered within the last hour.
+Each Medicine Skill roll to heal a wound takes 10 minutes.
+
+Wounds that are older than one hour have to heal naturally.
+
+**Healing A Character**: A healer can aid a character's healing progress. The
+healer has to substract the patient's wounds from his Medicine roll. A wounded
+character trying to heal his own wounds suffers from both the wound penalty and
+the wound penalty to the Medicine roll.
+
+Without any healing aids, such as bandages etc., the healer suffers a -2 penalty
+to his roll. Having the right tools at hand via an Asset, the penalty is reduced
+to 0, rather than a +2 bonus.
+
+**Healing A Dying Character**: If a healer was successful on his Medicine check
+for his patient, the patient is not incapacitated anymore.
+
+### Natural Healing
+
+Every day a wounded or incapacitated character can attempt a
+[Might](/character#might-mi) roll to heal 1 wound naturally. A critical failure
+on the [Might](/character#might-mi) roll causes an additional wound.
+
+The difficulty of Natural Healing is influenced by these conditions:
+
+| Modifier | Condition                                                             |
+|---------:|-----------------------------------------------------------------------|
+|       -2 | Rough traveling                                                       |
+|       -2 | No medical attention                                                  |
+|       -2 | Poor environmental conditions, such as intense cold, heat, or rain    |
+|        _ | First Aid / Medical attention from self                               |
+|       +1 | Medical attention from a doctor                                       |
+|       +2 | Medical attention from a doctor in good condition, such as a hospital |
 
 ## Available Actions
 
@@ -263,167 +431,3 @@ Penalty
 :   -2 on all **Task** rolls.
 
 </div>
-
-## Combat
-
-Combat is the most common kind of a crisis.
-
-### Attacks
-
-An Attack roll is equal to a **Task** roll, using the weapon's associated
-Skill.
-
-!!! summary "Making an Attack"
-    <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Skill Die">Attack</span> ±
-      <span data-bracket-top="Weapon modifier">Hit</span> ±
-      <span data-bracket-bottom="Environment / Traits / Race">Circumstance</span>
-    </div>
-
-<div class="left" markdown="1">
-
-#### Melee Attacks
-
-A melee Attack roll has to be equal to or higher than the target's
-[Parry](/character#parry) value.
-
-</div>
-<div class="right" markdown="1">
-
-#### Ranged Attacks
-
-A ranged Attack roll has to be equal to or higher than 4. Circumstances such as
-range, visibility, wind, etc. influence the Attack roll's result.
-
-</div>
-
-#### Critical Hits
-
-For every 4 points above 12, starting at 12, you score a Critical Hit, if the
-Attack is higher than the target's armor.
-
-Scoring a Critical Hit gives you a +1 bonus on Damage rolls.
-
-You only score a Critical Hit, if the Attack itself hits and a Critical Hit can
-only be scored, if the threshold for a Critical Hit is **higher** than the
-target's armor.
-
-!!! example "Critical Hits"
-    Jack attacks and his Attack roll results in 19. His target has a Defence of
-    13. He scores only 1 Critical Hit, for reach 16. Reaching the 12 is not a
-    Critical Hit, since it's lower than the target's armor.
-
-
-#### Area of Effect
-
-Attacks with an Area of Effect, e.g. a fireball spell, always deal their damage
-without having to roll for an Attack. As such, they cannot critically hit.
-
-Thrown weapons, e.g. grenades, require you to make an Athletics check. The roll
-otherwise is a normal Ranged Attack. Circumstances such as range, visibility,
-wind, etc. influence the Athletics roll's result.
-
-### Cover
-
-> Cover provides additional defensive bonuses for melee and ranged combat.
-
-Cover is always relative to other targets. A character can be in total cover for
-an enemy, but in plain sight for another.
-
-|   Modifier | Condition   |
-|-----------:|-------------|
-|         +1 | Cover       |
-|         +2 | Heavy Cover |
-| unhittable | Total Cover |
-
-<div class="left" markdown="1">
-
-!!! tip "Positions and Cover"
-    Being prone and facing an enemy straight on counts as being in heavy cover
-    (only head and shoulds visible).
-
-</div>
-<div class="right" markdown="1">
-
-!!! tip "Cover and firearms"
-    When hiding behind materials that are penetrable by bullets or other
-    projectiles decrease your Cover by one step. E.g. total cover becomes heavy
-    cover, while in in light cover you count as not being behind cover at all.
-
-</div>
-
-## Damage
-
-If an Attack is successful, damage can be dealt to the target.
-
-Roll the weapon's damage dice. Some weapons gain additional damage from an
-Attribute and Actions.
-
-The result of the damage roll has to be higher than the target's
-[Toughness](/character#toughness) value. If the damage roll is higher, you cause
-1 wound, or more depending on the weapon and used Action, to the target.
-
-### Critical Damage
-
-For each 4 points above the target's [Toughness](/character#toughness) value,
-the target receives 1 additional wound. These additional wounds are always
-**physical** wounds.
-
-### Damage Reduction
-
-If a target wears Armor, all wounds you deal are substracted from the target's
-Armor first. Only if the Durability of the Weapon's or Action's Damage type is 0
-you can deal wounds to the target. Some weapons and Actions circumvent the
-Armor, e.g. Armor-Piercing Ammunition.
-
-## Wounds
-
-When the creature has negative [Health](#health) equal to its maximum, the
-creature dies.
-
-If [Health](#health) drops to 0 or below, the creature has to make a
-[Might](/character#might-mi) roll. On a failure, the creature becomes
-incapacitated, but not necessarily unconcious, until healed or dead.
-
-NPCs usually die outright when they reach 0 [Health](#health).
-
-!!! example "Negative [Health](#health)"
-    Jack has a maximum of 3 [Health](#health). At 0 [Health](#health) he becomes
-    incapacitated if he fails his [Might](/character#might-mi) roll. When his
-    [Health](#health) drop to -3, Jack dies.
-
-## Healing
-
-The Medicine Skill can be used to treat a wound suffered within the last hour.
-Each Medicine Skill roll to heal a wound takes 10 minutes.
-
-Wounds that are older than one hour have to heal naturally.
-
-**Healing A Character**: A healer can aid a character's healing progress. The
-healer has to substract the patient's wounds from his Medicine roll. A wounded
-character trying to heal his own wounds suffers from both the wound penalty and
-the wound penalty to the Medicine roll.
-
-Without any healing aids, such as bandages etc., the healer suffers a -2 penalty
-to his roll.
-
-**Healing A Dying Character**: If a healer was successful on his Medicine check
-for his patient, the patient is not incapacitated anymore.
-
-### Natural Healing
-
-Every day a wounded or incapacitated character can attempt a
-[Might](/character#might-mi) roll to heal 1 wound naturally. A critical failure
-on the [Might](/character#might-mi) roll causes an additional wound.
-
-The difficulty of Natural Healing is influenced by these conditions:
-
-| Modifier | Condition                                                             |
-|---------:|-----------------------------------------------------------------------|
-|       -2 | Rough traveling                                                       |
-|       -2 | No medical attention                                                  |
-|       -2 | Poor environmental conditions, such as intense cold, heat, or rain    |
-|        _ | First Aid / Medical attention from self                               |
-|       +1 | Medical attention from a doctor                                       |
-|       +2 | Medical attention from a doctor in good condition, such as a hospital |
-
