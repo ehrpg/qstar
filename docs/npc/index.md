@@ -7,6 +7,12 @@ characters at once.
 A GM can however create normal characters in place of NPCs to flesh them out
 more.
 
+## Action Points
+
+Instead of Action Points, NPCs use the Action system. An NPC can do any 2
+Actions, such as Move, Attack, Sneak, etc. Left-over Actions are lost; they
+cannot be accumulated over multiple rounds.
+
 ## Difficulty
 
 ## Attributes & Skills
@@ -31,7 +37,8 @@ An NPC can drop items, but doesn't have to. E.g. animals do not drop items, but
 can be butchered for food, or skinned to make a profit later.
 
 [Credits](/equipment#credits) only make a small portion of the loot, if any at
-all. The most valuable kind of loot are [Resources](/character#resources-res).
+all. The most valuable kinds of loot are [Loot](/character#loot) and
+[Resources](/character#resources-res).
 
 ### Credits
 
@@ -41,8 +48,3 @@ all. The most valuable kind of loot are [Resources](/character#resources-res).
 Items an NPC was using can also be looted. Depending on the combat, most items
 have a bad [Equipment Condition](/equipment#equipment-condition)
 though.
-
-#### Equipment Condition
-
-Stronger NPCs with a higher [Difficulty Level](/crisis#difficulty) use better
-items.

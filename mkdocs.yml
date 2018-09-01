@@ -70,7 +70,7 @@ nav:
         - Equipment: 'equipment.md'
 
         - NPCs:
-            - NPC: 'npc/index.md'
+            - NPCs: 'npc/index.md'
 
         - Vehicles & Vessels:
             - Vessel: 'vessel/index.md'
