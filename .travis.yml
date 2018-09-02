@@ -6,13 +6,12 @@ branches:
     - draft
 
 python:
-  - "2.7"
+  - "3.6"
 
 before_install:
   - sudo apt-get update -qq
   - sudo apt-get install -qq git
   - sudo pip install --upgrade pip
-  - sudo apt-get install -qq python3.6
 
 install:
   - sudo pip install -U mkdocs
