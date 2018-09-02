@@ -6,8 +6,7 @@
 
 ##### Assassin
 
-While sneaking, you deal 1 additional critical wound, provided your attack
-hits.
+While sneaking, you deal 1 additional wound, provided your attack hits.
 
 ##### Combat Reflexes
 
