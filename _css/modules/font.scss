@@ -1,0 +1,38 @@
+html {
+  font-size: 77.5%;
+}
+
+body, input {
+  font-family: 'Zag', 'Roboto';
+}
+
+.md-typeset:not(.md-search-result__item) {
+  strong.hf {
+    font-family: 'Zag';
+    letter-spacing: 1px;
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-family: 'Zag';
+    letter-spacing: 2px;
+    padding-left: 0;
+    font-weight: normal;
+  }
+
+
+  h2 {
+    border: 2px solid #333;
+    border-radius: 25px;
+    padding-left: 20px !important;
+    background-color: #333;
+    color: white;
+
+    & > a.headerlink {
+      color: #efefef;
+    }
+  }
+}
+
+article.md-typeset:not(.md-search-result__item) > a.md-icon.md-content__icon {
+  z-index: 2;
+}

@@ -18,7 +18,8 @@
   padding: 5px;
   white-space: nowrap;
   left: 50%;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 [data-bracket-bottom]:after {
@@ -49,7 +50,8 @@
   padding: 5px;
   white-space: nowrap;
   left: 50%;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .formula {
@@ -72,7 +74,8 @@
 details,
 .admonition {
   overflow: hidden !important;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2) !important;
+  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2) !important;
+          box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2) !important;
 }
 
 details .formula.formula-bottom,
