@@ -38,9 +38,9 @@ You cannot raise any Attribute above a [d12](#d12).
 ### 4. Assign Skills
 
 A new character gains 12 Skill Points that can be distributed among the
-available Skills. Each Skill improvement costs 1 point, as long as the Skill is
-equal to or less than the corresponding Attribute. If the Skill exceeds the
-Attribute, improving it costs 2 points.
+available [Skills](/character#skills). Each Skill improvement costs 1 point, as
+long as the Skill is equal to or less than the corresponding Attribute. If the
+Skill exceeds the Attribute, improving it costs 2 points.
 
 Some Skills can only be used if they are trained. This means, that they require
 1 Skill point to unlock the Skill. Unlocking a Skill raises the Skill from

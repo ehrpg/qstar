@@ -58,7 +58,8 @@ the item's Weight, the character's:
 
 * [Speed](/character#speed-sp) is reduced by one level to a minimum of a
   [d4](#d4), and
-* the character's [Parry](/character#parry) and [Defence](/crisis#defence) drops by one.
+* the character's [Parry](/character#parry) and [Defence](/crisis#defence)
+  suffers -1.
 
 !!! danger "Overburdened"
     All skills related to the [Speed](/character#speed-sp) Attribute that are

@@ -38,7 +38,7 @@ Multiple modifiers stack.
 
 | Modifier | Name                     | Description                               |
 |---------:|--------------------------|-------------------------------------------|
-|       +2 | Asset                    | Having the correct tools at hand.         |
+|       +1 | Asset                    | Having the correct tools at hand.         |
 |       -1 | Unfavorable Circumstance | E.g. climbing a cliff while it's raining. |
 
 !!! tip "Stacking Modifiers"
@@ -194,14 +194,11 @@ The result of the damage roll has to be higher than the target's
 [Toughness](/character#toughness) value. If the damage roll is higher, you cause
 1 wound, or more depending on the weapon and used Action, to the target.
 
-### Critical Damage
+### Additional Damage
 
 For each 4 points above the target's [Toughness](/character#toughness) value,
 the target receives 1 additional wound. These additional wounds are always
 **physical** wounds.
-
-Critically inflicted wounds always reduce the target's
-[Health](/character#health-hp) and bypass any armour.
 
 ### Damage Reduction
 
@@ -241,11 +238,13 @@ Wounds that are older than one hour have to heal naturally.
 **Healing A Character**: A healer can aid a character's healing progress. The
 healer has to substract the patient's wounds from his Medicine roll. A wounded
 character trying to heal his own wounds suffers from both the wound penalty and
-the wound penalty to the Medicine roll.
+a -2 penalty for treating himself.
 
 Without any healing aids, such as bandages etc., the healer suffers a -2 penalty
 to his roll. Having the right tools at hand via an Asset, the penalty is reduced
-to 0, rather than a +2 bonus.
+to 0, rather than a +1 bonus.
+
+If the Medicine check was successful, the patient recovers from 1 wound.
 
 **Healing A Dying Character**: If a healer was successful on his Medicine check
 for his patient, the patient is not incapacitated anymore.
@@ -269,7 +268,7 @@ The difficulty of Natural Healing is influenced by these conditions:
 
 ## Available Actions
 
-All characters can perform basic actions. [Perks](/character/perks) and
+All characters can perform basic actions. [Talents](/character/talents) and
 [Equipment](/equipment) can make additional actions available.
 
 This list provides a guideline for actions and their AP cost. These apply unless
@@ -421,13 +420,5 @@ Penalty
 
 Penalty
 :   You can't act or react on the current turn and do not regain AP.
-
-##### Suppressed
-
-After being attacked, hit or not, you are being **Suppressed** until the end of
-your next round.
-
-Penalty
-:   -2 on all **Task** rolls.
 
 </div>
