@@ -6,7 +6,7 @@ branches:
     - draft
 
 python:
-  - "3.6"
+  - "3.4"
 
 before_install:
   - sudo apt-get update -qq
