@@ -1,43 +1,44 @@
 # Talents
 
+## Combat
+
 <div class="qs-list-test" markdown="1">
 
 ##### Assassin
 
-Effect
-:   Your Melee or Ranged Attack automatically hits when attacking while
-sneaking.
+While sneaking, you deal 1 additional critical wound, provided your attack
+hits.
+
+##### Combat Reflexes
+
+Once per round you can use the [Take Aim](/crisis#take-aim) Action at -1 AP
+cost.
 
 ##### Gunslinger
 
-Effect
-:   On your first turn, you can shoot your handheld weapon once without any AP
-cost.
-
-##### Ingenious
-
-Effect
-:   +1 on Perception
-
-##### Light-footed
-
-Effect
-:   +2 on Stealth Skill rolls
+On your first turn, you can shoot your handheld weapon once at -1 AP cost.
 
 ##### Opportunist
 
-Effect
-:   When an enemy moves out of your melee range, you can make a free Attack
+When an enemy moves out of your melee range, you can make a free Attack
 against him.
 
-##### Quickshot
+</div>
 
-Effect
-:   Once per round you can use the [Take Aim](/crisis#take-aim) Action for free.
+## Miscellaneous
+
+<div class="qs-list-test" markdown="1">
+
+##### Ingenious
+
++1 on Perception
+
+##### Light-footed
+
++2 on Stealth Skill rolls
 
 ##### Versatile
 
-Effect
-:   +1 Skill Points
++1 Skill Points
 
 </div>

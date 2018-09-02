@@ -77,14 +77,14 @@ This skill used for climbing, running, jumping, etc.
 This skill is used for breaching doors, break down treasure
 chests, holding doors shut etc.
 
-#### Melee
+#### Melee*
 
 This skill is used when using melee weapons or defending
 against a melee attack.
 
 This skill is opposed by the character's defensive value.
 
-#### Heavy Weapons
+#### Heavy Weapons*
 
 This skill is used when using heavy weapons such as rocket launchers, vehicle
 mounted machine guns, or firing any vessel's weapons.

@@ -33,7 +33,7 @@ different Attributes: [Might](/character#might-mi),
 [Charisma](/character#charisma-ch). Raising an Attribute, e.g. from a [d4](#d4)
 to a [d6](#d6), costs 1 point.
 
-You cannot raise an Attribute above a [d12](#d12).
+You cannot raise any Attribute above a [d12](#d12).
 
 ### 4. Assign Skills
 
@@ -46,7 +46,7 @@ Some Skills can only be used if they are trained. This means, that they require
 1 Skill point to unlock the Skill. Unlocking a Skill raises the Skill from
 *untrained* to a [d4](#d4).
 
-You cannot raise a Skill above a [d12](#d12).
+You cannot raise any Skill above a [d12](#d12).
 
 ### 5. Buy Equipment
 

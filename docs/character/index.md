@@ -89,9 +89,9 @@ characters and NPCs.
 
 ### Pace
 
-> A creature can use up to its Pace per Move Action taken.
+> The Pace gives you an estimate how long it takes to go from A to B.
 
-The Pace value can never drop below **2**.
+It's used to determine how far the creature gets by using the Move Action.
 
 !!! summary "Pace"
     <div class="formula formula-top formula-bottom">
@@ -123,7 +123,7 @@ Skill](/character/skills#stealth), sense things and creatures, etc.
 
 > The Parry value is used for defending against a melee Attack.
 
-The Parry is 2 if you don't have the Melee Skill.
+The Parry value is 2 if you don't have the Melee Skill.
 
 !!! summary "Parry Value"
     <div class="formula formula-top formula-bottom">
@@ -138,7 +138,7 @@ The Parry is 2 if you don't have the Melee Skill.
 
 > The [Toughness](#toughness) value is used for shrugging off Attacks.
 
-The [Toughness](#toughness) value can never drop below **1**.
+The [Toughness](#toughness) value can never drop below **2**.
 
 !!! summary "[Toughness](#toughness) Value"
     <div class="formula formula-top formula-bottom">
@@ -168,14 +168,13 @@ A character that drops to or below his HP in negative dies.
 
 ## Experience (XP)
 
-> Experience is gained throughout a character's adventuring career.
+> Experience Points (XP) are gained throughout a character's adventuring career.
 
-Experience (XP) is gained due to noteable achievements or story completions. XP
-usually is only given out one at a time. The GM can decide to give out more for
-completing a longer adventure.
+XP are gained due to noteable achievements or story completions. XP usually are
+only given out one at a time. The GM can decide to give out more for completing
+a longer adventure.
 
-You need twice your Level as Experience Points (XP) to increase your Level by
-one.
+You need twice your Level as XP to increase your Level by one.
 
 !!! summary "Experience and Level Ups"
     <div class="formula formula-top formula-bottom">
