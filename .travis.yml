@@ -6,10 +6,11 @@ branches:
     - draft
 
 python:
-  - "3.4"
+  - "3.6"
 
 before_install:
   - sudo apt-get update -qq
+  - sudo apt-get install -qq python3
   - sudo apt-get install -qq git
   - sudo pip install --upgrade pip
 
