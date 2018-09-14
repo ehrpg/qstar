@@ -36,6 +36,14 @@ against him.
 
 +2 on Stealth Skill rolls
 
+##### Sociopath
+
+Benefit
+:   You gain a +2 bonus on **Oratory**.
+
+Penalty
+:   You suffer a -6 penalty on **Empathy** checks.
+
 ##### Versatile
 
 +1 Skill Points

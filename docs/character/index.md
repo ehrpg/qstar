@@ -21,21 +21,17 @@ See [Talents](/character/talents/).
 > Attributes define the character's overall physique and mental capabilities. As
 such they count as the cornerstone for a character's Skill.
 
-Every character starts with each Attribute at a [d4](#d4), with a [d6](#d6) in
-each Attribute being the average for an adult human. Upgrading an Attribute
-allows the character to use a [d6](#d6), a [d8](#d8), a [d10](#d10) or a
-[d12](#d12).
-
-You cannot raise an Attribute above a [d12](#d12).
+An average person has each Attribute at 1 or 2 points. A rating of 0 is an
+impairment, while a 5 is almost superhuman.
 
 ### Attribute Damage
 
-Attribute Damage decreases the character's Attribute, e.g. from a [d6](#d6) to a
-[d4](#d4). This penalty can be **temporary** or **permanently**.
+Attribute Damage decreases the character's Attribute, e.g. from a 5 to a 4. This
+Attribute Damage can be **temporary** or **permanently**.
 
-Attribute Damage does not influence any Skills, but improving associated Skills
-might cost 2 points instead of one, even if the Attribute Damage is only
-temporary.
+Attribute Damage does not change any pools, such as Health. E.g. when using a
+heavy weapon Might Damage may impose a penalty if the weapon's requirement are
+not met anymore.
 
 <div class="left" markdown="1">
 
@@ -96,7 +92,7 @@ It's used to determine how far the creature gets by using the Move Action.
 !!! summary "Pace"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Base">2</span> +
-        <span data-bracket-top="Speed Attribute">Die / 2</span>
+        <span data-bracket-top="Speed Attribute">Speed Attribute</span>
     </div>
 
 </div>
@@ -111,8 +107,8 @@ Skill](/character/skills#stealth), sense things and creatures, etc.
 
 !!! summary "Perception"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">2</span> +
-        <span data-bracket-top="Intelligence Attribute">Die / 2</span>
+        <span data-bracket-bottom="Base">10</span> +
+        <span data-bracket-top="Intelligence Attribute">Intelligence Attribute</span>
     </div>
 
 </div>
@@ -123,12 +119,12 @@ Skill](/character/skills#stealth), sense things and creatures, etc.
 
 > The Parry value is used for defending against a melee Attack.
 
-The Parry value is 2 if you don't have the Melee Skill.
+The Parry value is 8 if the Melee Skill isn't trained.
 
 !!! summary "Parry Value"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">2</span> +
-        <span data-bracket-top="Melee Skill">Die / 2</span>
+        <span data-bracket-bottom="Base">10</span> +
+        <span data-bracket-top="Melee Skill Bonus">Melee Skill</span>
     </div>
 
 </div>
@@ -162,8 +158,8 @@ A character that drops to or below his HP in negative dies.
 
 !!! summary "[Health](#health)"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">1</span> +
-        <span data-bracket-top="Might Attribute">Die / 2</span>
+        <span data-bracket-bottom="Base">5</span> +
+        <span data-bracket-top="Might Attribute">Might Attribute</span>
     </div>
 
 ## Experience (XP)
@@ -174,14 +170,13 @@ XP are gained due to noteable achievements or story completions. XP usually are
 only given out one at a time. The GM can decide to give out more for completing
 a longer adventure.
 
-You need twice your Level as XP to increase your Level by one.
+Three XP increase your level by one.
 
 !!! summary "Experience and Level Ups"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-top="XP">Level x2</span> =
+        <span data-bracket-bottom="XP">3</span> =
         <span>Level Up</span>
     </div>
-
 
 Every three Experience Points (XP) increase a character's level by one.
 
@@ -204,18 +199,6 @@ resourceful and adaptable.
 
 * Every 4 levels, a character gains a Talent.
 
-## Fate
-
-> A character can change the course of action and his fate.
-
-Every character has a few fate dice available, a [d4](#d4), [d6](#d6),
-[d8](#d8), [d10](#d10) and a [d12](#d12). Any of these dice can only be used
-once. A fate die can be used on any roll, even multiple fate dice can be used at
-once.
-
-Before rolling determine if you want to use fate dice and which fate dice you
-want to use. Add the fate dice to your roll.
-
 ## Acquisitions
 
 > Acquisitions abstract the resources available to a character.
@@ -227,32 +210,12 @@ permanently due to [Experience](#experience-xp).
 The current value for Acquisitions can **never** exceed the maximum value. All
 exceeding points are usually lost.
 
-[Influence](/character#influence-inf), [Resources](/character#resources-res) and
-[Technology](/character#technology-tech) can be traded for each other. Any two
-Acquisitions of one sort can be traded in for any other.
-[Downtime](/character#downtime-dt) cannot be traded.
-
-!!! tip "Buying Acquisitions"
-    A GM may disallow exchanging [Credits](/equipment#credits-cr) for Acquisitions
-    directly. Instead, he may require a character or the party to go on a quest
-    or adventure in order to exchange [Credits](/equipment#credits-cr). E.g. the
-    party has to find a wealthy trader, or rescue a trader from pirates first,
-    etc.
-
 ### Loot (LOOT)
 
 > [Loot](#loot) abstracts the items and clutter looted.
 
-1 unit of Loot takes up 1 Bulk. Loot is usually stored on a vessel or a player
+1 unit of Loot takes up 4 Bulk. Loot is usually stored on a vessel or a player
 base.
-
-Loot can be sold or exchanged for other Acquisitions. Loot cannot be bought.
-
-| Loot | Exchanges to  |
-|-----:|---------------|
-|    1 | 1 000 Credits |
-|    5 | 1 Resource    |
-|   10 | 1 Technology  |
 
 <div class="left" markdown="1">
 
@@ -362,57 +325,39 @@ This living standard includes normal accomadations, *free* food and drinks in
 populated areas, moving in local traffic and areas, etc. This means you don't
 have to pay for normal lodging, etc.
 
-<!-- ## Living standards
-
-Living standards decrease the micro management you have to do for your character
-and specifically his equipment and items, see [Item
-Uses](/equipment#item-uses).
-
-### Poor living standard
-
-A poor living standard nets 1 [RES](#resources).
-
-This living standard doesn't include anything. Everything your character needs
-costs [Credits](/equipment#credits-cr).
-
-### Normal living standard
-
-Every character has a normal living standard by default.
-
-This living standard includes normal accomadations, *free* food and drinks in
-populated areas, moving in local traffic and areas, etc.
-
-### High living standard
-
-A high living standard costs 1 [RES](#resources). This increases the item's
-**Uses** refill rate. -->
-
 ## Languages
 
-A language can be learned in three steps: speaking, writing, and reading.
+Every character knows one native language, that's at step **normal**.
 
-Every character has at least one native language with all three steps unlocked.
+Learning a Language can be done in three steps. Each step requires you to make a
+Spare Time Roll. Learning the basics of a language requires you to have access
+to people speaking the language, books and texts written in the language, or
+other means to learn the language.
 
-Learning a Language can be done in three steps, whereas each step costs 2
-[Downtime](/character#downtime-dt) to learn:
+<div class="qs-list-test full-width" markdown="1">
 
-* Reading
-* Speaking
-* Writing
+##### Basic
 
-Learning a Language completely (all three steps) at once only costs 5
-[Downtime](/character#downtime-dt) instead.
+You are able to communicate on a basic level. Others might not always understand
+you, but in general they know what you're trying to tell them.
 
-## Improving your character
+Cost
+:   8t
 
-~~Improving your character happens automatically due completing missions,
-quests, fighting and adventuring and eventually earning
-[Experience](#experience-xp), which will increase the character's
-[Level](#level-lvl).~~
+##### Normal
 
-~~Attributes and Skills can be improved too, but require
-[Downtime](/character#downtime) and [Credits](/equipment#credits-cr).~~
+You have a normal knowledge about the language. You can decipher most texts, and
+know a good fraction of the language's vocabulary.
 
-~~Any character's skills and expertise are greatly enhanced by the equipment
-they own. Hard training may give a character a permanent bonus, but the right
-item is often cheaper and acquired more easily.~~
+Cost
+:   12t
+
+##### Master
+
+You are able to have the most sophisticated conversations with others, and the
+decipher every text.
+
+Cost
+:   16t
+
+</div>

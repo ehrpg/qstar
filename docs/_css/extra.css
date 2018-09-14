@@ -267,42 +267,24 @@ h5 > a:after {
   content: "\E8D7";
 }
 
-*:not(.md-search-result__item) > a[href$="#d4"],
 *:not(.md-search-result__item) > a[href$="#d6"],
-*:not(.md-search-result__item) > a[href$="#d8"],
-*:not(.md-search-result__item) > a[href$="#d10"],
-*:not(.md-search-result__item) > a[href$="#d12"] {
+*:not(.md-search-result__item) > a[href$="#3d6"] {
   color: #222 !important;
   pointer-events: none;
   cursor: default;
 }
 
-*:not(.md-search-result__item) > a[href$="#d4"]:after,
 *:not(.md-search-result__item) > a[href$="#d6"]:after,
-*:not(.md-search-result__item) > a[href$="#d8"]:after,
-*:not(.md-search-result__item) > a[href$="#d10"]:after,
-*:not(.md-search-result__item) > a[href$="#d12"]:after {
+*:not(.md-search-result__item) > a[href$="#3d6"]:after {
   color: #222;
-}
-
-*:not(.md-search-result__item) > a[href$="#d4"]:after {
-  content: "\E920";
 }
 
 *:not(.md-search-result__item) > a[href$="#d6"]:after {
   content: "\E91B";
 }
 
-*:not(.md-search-result__item) > a[href$="#d8"]:after {
-  content: "\E90B";
-}
-
-*:not(.md-search-result__item) > a[href$="#d10"]:after {
-  content: "\E91E";
-}
-
-*:not(.md-search-result__item) > a[href$="#d12"]:after {
-  content: "\E91F";
+*:not(.md-search-result__item) > a[href$="#3d6"]:after {
+  content: "\E91B\E91B\E91B";
 }
 
 .md-typeset:not(.md-search-result__item) div.perk dl {
@@ -835,6 +817,30 @@ table thead th:hover {
   border-bottom: 2px solid #3f51b5;
 }
 
+.md-typeset div.content tr:nth-child(even) {
+  background-color: white;
+}
+
+.md-typeset div.content tr:first-child td {
+  border-top: 0.1rem solid #00000012;
+}
+
+.md-typeset div.content tr > td {
+  vertical-align: middle;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.md-typeset div.content tr > td:first-child {
+  min-width: 100px;
+  width: 100px;
+  max-width: 100px;
+  text-align: center;
+  font-family: 'Zag';
+  font-weight: bold;
+  font-size: 3rem;
+}
+
 @media only screen and (min-width: 50em) {
   div.qs-list-test.full-width {
     -webkit-column-count: 1 !important;
@@ -855,8 +861,8 @@ table thead th:hover {
   }
   div.qs-list-test section {
     padding-right: 12px;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 0.4em;
+    padding-bottom: 0.2em;
     -webkit-column-break-inside: avoid;
     break-inside: avoid;
     z-index: 1;

@@ -1,125 +1,71 @@
 # Introduction
 
+This is an easy-to-learn and adaptable RPG system for games such as pen and
+paper games. It's heavily enspired by great RPGs and RPG systems such as
+Divinity: Original Sin, Dungeons & Dragons, Mindjammer, Fragged Empire, Savage
+Worlds, etc.
+
+It aims to provide an RPG system that's usable for any kind of play and for any
+setting such as medieval, fantasy, modern or even sci-fi settings.
+
 ## Prerequisites
 
-A player needs these dice: [d4](#d4), [d6](#d6), [d8](#d8), [d10](#d10) and a
-[d12](#d12). A GM also requires these dice. A d20 or d100 also can be useful
-when rolling on random tables.
+Every player and the GM need three six sided dice. A d20 or d100 also can be
+useful when rolling on random tables.
 
 ## Basic Mechanics
 
-### Dice
-
-<div style="text-align: center;" markdown="1">
-![test](/_imgs/dice.svg)
-</div>
-
-Every character uses a [d4](#d4), [d6](#d6), [d8](#d8), [d10](#d10) and a
-[d12](#d12) for everything he's doing. The higher the die, the better the chance
-on rolling **higher**, which is **better**.
-
-### Fractions
-
-All fractions are **always** rounded down.
-
-When a Skill is divided, divide the number of sides of the die. Flat modifiers
-are added to the sides of the die.
-
-<div class="left" markdown="1">
-
-!!! example "Skill Fraction"
-    <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="12">d12</span> /
-      <span data-bracket-top="divisor">2</span> =
-      <span data-bracket-bottom="result">6</span>
-    </div>
-
-</div>
-<div class="right" markdown="1">
-
-!!! example "Skill Fraction"
-    <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="15">( d12 + 3 )</span> /
-      <span data-bracket-top="divisor">2</span> =
-      <span data-bracket-bottom="result">7</span>
-    </div>
-
-</div>
-
-<div style="clear: both;"></div>
-
-### Negative Values
-
+<div class="content" markdown="1">
+<table>
+<tbody>
+<tr>
+<td> ![](./_imgs/3d6.png) </td>
+<td>
+Everything a character does involves a Skill check. A Skill check is always made
+using three six sided dice, abbreviated by [3d6](#3d6). The **higher** the
+result, the **better**.
+</td>
+</tr>
+<tr>
+<td>2.5</td>
+<td>All fractions are **always** rounded down.</td>
+</tr>
+<tr>
+<td>-1</td>
+<td>
 Some values cannot be negative, e.g. [Resources](/character#resources-res). If
 such a value were to drop to below 0, it either prohibits certain actions, it
-has consequences or it's simply ignored and the value set to 0.
-
-### Circumstance
-
+has **consequences** or it's simply ignored and the value set to 0.
+</td>
+</tr>
+<tr>
+<td><i class="qstar-tornado"></i></td>
+<td>
 Most of the formulas and values can be influenced by circumstance, such as
 racial traits, talents, equipment, environmental factors such as bad or
 particularly good visibility, wind, etc.
+</td>
+</tr>
+</tbody>
+</table>
+</div>
 
 ## Die Rolls
 
-There are three different kind of die rolls:
+There are three different kind of die rolls, whereas each one uses a set amount
+of dice:
 
-* **Task** rolls, which include Attribute and Skill rolls including Attacks,
-* **Damage** rolls, and
-* **Random** rolls.
+* **Skill** rolls including Attacks use [3d6](#3d6) dice;
+* **Damage** rolls use the weapon's corresponding dice; and
+* **Random** rolls use the random table's corresponding dice.
 
-All creatures are defined by Attributes and Skills, which are used for all
-**Task** rolls and *some* **Damage** rolls.
-
-Every roll uses a set amount of dice. **Task** rolls use the corresponding
-Attribute's or Skill's die. **Damage** rolls use the weapon's corresponding
-dice. **Random** rolls use the random table's corresponding dice.
-
-**Task** and **Damage** rolls can receive bonuses and penalties from the
+**Skill** and **Damage** rolls can receive bonuses and penalties from the
 creature's Talents, Race, role-playing, etc.
-
-### Task Difficulty
-
-A task's [Difficulty Level](/crisis#difficulty) is **always** 4. The only
-exceptions are passive values in combat, e.g. a character's Parry value.
-
-A check has to be equal to or higher this [Difficulty Level](/crisis#difficulty)
-in order to succeed. Otherwise, the check fails. Circumstances modify the check
-positively or negatively.
-
-!!! info "Check Failures"
-    A failed check doesn't necessarily mean, that the check completely failed.
-    E.g. when climbing, a failed check might simply mean, that there was no
-    progress while climbing. Or a failed sailing check might mean, that the
-    voyage takes a few days longer.
-
-<div class="left" markdown="1">
-
-### Critical Failures
-
-If the die for a **Task** roll comes up with a 1, roll again. If it's another 1,
-the task critically fails.
-
-A critical fail causes other penalties in addition to failing the check, such as
-loss of resources, items, reputation etc.
-
-</div>
-<div class="right" markdown="1">
 
 ### Critical Successes
 
-Whenever a die is rolled with its highest possible result (e.g. rolling a 10 on
-a [d10](#d10)), the die *explodes*. This allows you to roll the die again, and
-add the result to your check. A die can explode multiple times.
-
-</div>
-<div class="clearfix"></div>
-
-### Contests
-
-When two parties compete with each other in the same Skill or even different
-Skills and stats, both parties have to roll. The party with the higher result
-wins the contest. On a tie both parties roll again.
+Whenever a [d6](#d6) is rolled with its highest possible result, a **6**, you
+score a Critical Success. Only **Skill** rolls can have Critical Successes.
 
 ## Getting Started
 

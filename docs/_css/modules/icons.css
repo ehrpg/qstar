@@ -246,41 +246,23 @@ h5 > a:after {
   content: "\E8D7";
 }
 
-*:not(.md-search-result__item) > a[href$="#d4"],
 *:not(.md-search-result__item) > a[href$="#d6"],
-*:not(.md-search-result__item) > a[href$="#d8"],
-*:not(.md-search-result__item) > a[href$="#d10"],
-*:not(.md-search-result__item) > a[href$="#d12"] {
+*:not(.md-search-result__item) > a[href$="#3d6"] {
   color: #222 !important;
   pointer-events: none;
   cursor: default;
 }
 
-*:not(.md-search-result__item) > a[href$="#d4"]:after,
 *:not(.md-search-result__item) > a[href$="#d6"]:after,
-*:not(.md-search-result__item) > a[href$="#d8"]:after,
-*:not(.md-search-result__item) > a[href$="#d10"]:after,
-*:not(.md-search-result__item) > a[href$="#d12"]:after {
+*:not(.md-search-result__item) > a[href$="#3d6"]:after {
   color: #222;
-}
-
-*:not(.md-search-result__item) > a[href$="#d4"]:after {
-  content: "\E920";
 }
 
 *:not(.md-search-result__item) > a[href$="#d6"]:after {
   content: "\E91B";
 }
 
-*:not(.md-search-result__item) > a[href$="#d8"]:after {
-  content: "\E90B";
-}
-
-*:not(.md-search-result__item) > a[href$="#d10"]:after {
-  content: "\E91E";
-}
-
-*:not(.md-search-result__item) > a[href$="#d12"]:after {
-  content: "\E91F";
+*:not(.md-search-result__item) > a[href$="#3d6"]:after {
+  content: "\E91B\E91B\E91B";
 }
 /*# sourceMappingURL=icons.css.map */
