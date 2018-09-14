@@ -210,6 +210,48 @@ permanently due to [Experience](#experience-xp).
 The current value for Acquisitions can **never** exceed the maximum value. All
 exceeding points are usually lost.
 
+### Overview
+
+<div class="content" markdown="1"><table><tbody>
+<tr>
+    <td><i class="qstar-wooden-crate"></i></td>
+    <td>
+    **Loot**<br>
+    Loot abstracts the items and clutter looted. 1 unit of Loot takes up 4 Bulk.
+    Loot is usually stored on a vessel or a player base.
+    </td>
+</tr>
+<tr>
+    <td><i class="qstar-stopwatch"></i></td>
+    <td>
+    **Spare Time**<br>
+    Spare Time is used for Spare Time Rolls. Each Spare Time Roll requires one
+    Spare Time Point.
+    </td>
+</tr>
+<tr>
+    <td><i class="qstar-backup"></i></td>
+    <td>
+    **Influence**<br>
+    Influence is used to acquire and maintain Vessels.
+    </td>
+</tr>
+<tr>
+    <td><i class="qstar-gear-hammer"></i></td>
+    <td>
+    **Resources**<br>
+    Resources are used to acquire and maintain Equipment.
+    </td>
+</tr>
+<tr>
+    <td><i class="qstar-erlenmeyer"></i></td>
+    <td>
+    **Technology**<br>
+    Technology is used to unlock Equipment for personal use and vessels.
+    </td>
+</tr>
+</tbody></table></div>
+
 ### Loot (LOOT)
 
 > [Loot](#loot) abstracts the items and clutter looted.

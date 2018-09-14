@@ -6,7 +6,8 @@ Divinity: Original Sin, Dungeons & Dragons, Mindjammer, Fragged Empire, Savage
 Worlds, etc.
 
 It aims to provide an RPG system that's usable for any kind of play and for any
-setting such as medieval, fantasy, modern or even sci-fi settings.
+setting such as medieval, fantasy, modern, sci-fi settings or even a combination
+of any of these.
 
 ## Prerequisites
 
