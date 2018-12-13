@@ -18,8 +18,8 @@ See [Talents](/character/talents/).
 
 ## Attributes
 
-> Attributes define the character's overall physique and mental capabilities. As
-such they count as the cornerstone for a character's Skill.
+> Attributes define the character's overall physique and mental capabilities.
+> As such they count as the cornerstone for a character's Skill.
 
 An average person has each Attribute at 1 or 2 points. A rating of 0 is an
 impairment, while a 5 is almost superhuman.
