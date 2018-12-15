@@ -36,8 +36,8 @@ decide that you can also make a generic, *untrained* **Skill** roll.
 !!! summary "Skill roll"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Base Dice">3d6</span> ±
-        <span data-bracket-top="Bonuses and Penalties">Skill</span> +
-        <span data-bracket-bottom="Role-playing bonus">Description</span>
+        <span data-bracket-top="Associated Attr.">Attribute</span> ±
+        <span data-bracket-bottom="Bonuses and Penalties">Skill</span>
     </div>
 
 </blockquote>
@@ -91,7 +91,7 @@ Below is a list of possible skills, provided by the Q* RPG system.
 
 ##### Athletics
 
-This skill used for climbing, running, jumping, etc.
+This skill used for climbing, jumping, running, etc.
 
 ##### Force
 
@@ -182,8 +182,13 @@ counters the **Oratory** skill.
 
 ##### Oratory
 
-This skill is used to lie, deliver speeches, persuade etc. It's also used to
-determine if someone is lying or being nervous while talking.
+This skill is used to lie, deliver speeches, persuade, intimidate etc.
+<br>
+Available fields include: Bluff (Lying), Diplomacy, and Intimidate.
+<br>
+Choose two fields instead of one when training this skill the first time.
+Improving any of these two fields also improves the other one you chose.
+Additional fields can be trained following normal skill learning rules.
 
 ##### Tactics*
 

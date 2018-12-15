@@ -65,6 +65,12 @@ nav:
             - Skills: 'character/skills.md'
             - Talents: 'character/talents.md'
 
+        - Equipment:
+            - Equipment: 'equipment/index.md'
+            - Weapons: 'equipment/weapons.md'
+            - Armour & Outfits: 'equipment/armour-outfits.md'
+            - Utilities & Miscellaneous: 'equipment/util-misc.md'
+
         - Crisis: 'crisis.md'
 
         - Equipment: 'equipment.md'

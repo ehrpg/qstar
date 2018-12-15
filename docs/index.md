@@ -28,6 +28,10 @@ result, the **better**.
 </td>
 </tr>
 <tr>
+<td>[](#d6)</td>
+<td>A rolled **6** counts as a critical success.</td>
+</tr>
+<tr>
 <td>2.5</td>
 <td>All fractions are **always** rounded down.</td>
 </tr>
@@ -56,17 +60,16 @@ particularly good visibility, wind, etc.
 There are three different kind of die rolls, whereas each one uses a set amount
 of dice:
 
-* **Skill** rolls including Attacks use [3d6](#3d6) dice;
+* **Skill** rolls use [3d6](#3d6) dice;
 * **Damage** rolls use the weapon's corresponding dice; and
 * **Random** rolls use the random table's corresponding dice.
-
-**Skill** and **Damage** rolls can receive bonuses and penalties from the
-creature's Talents, Race, role-playing, etc.
 
 ### Critical Successes
 
 Whenever a [d6](#d6) is rolled with its highest possible result, a **6**, you
-score a Critical Success. Only **Skill** rolls can have Critical Successes.
+score a Critical Success. Only **Skill** rolls can have Critical Successes. A
+critical success does not influence the outcome of the **Skill** roll, they only
+allow for additional effects, e.g. when Attacking.
 
 ## Getting Started
 
