@@ -6,7 +6,7 @@ Every [Skill](#skills) is initially untrained. [Trained-only
 Skills](#trained-only-skills) can only be used if they are trained first.
 
 !!! danger "Skill-levels and penalties & bonuses"
-    Untrained [Skills](#skills) grant a -2 penalty to **Skill** rolls.
+    Untrained [Skills](#skills) suffer a -2 penalty to **Skill** rolls.
     <br>
     Trained [Skills](#skills) grant a +0 bonus to **Skill** rolls.
     <br>
@@ -20,10 +20,6 @@ skill point on them. Improving a Trained-only Skill works the same as with
 normal Skills.
 
 Trained-only Skills are indicated by a **"*"** next to their name.
-
-## Description
-
-Particularly good role-playing can grant up to a +2 bonus on a **Skill** roll.
 
 ## Skill roll
 
@@ -45,6 +41,10 @@ decide that you can also make a generic, *untrained* **Skill** roll.
     </div>
 
 </blockquote>
+
+### Description
+
+Particularly good role-playing can grant up to a +2 bonus on a **Skill** roll.
 
 ### Task Difficulty
 

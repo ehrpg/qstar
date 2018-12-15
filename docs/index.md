@@ -1,9 +1,9 @@
 # Introduction
 
-This is an easy-to-learn and adaptable RPG system for games such as pen and
-paper games. It's heavily enspired by great RPGs and RPG systems such as
-Divinity: Original Sin, Dungeons & Dragons, Mindjammer, Fragged Empire, Savage
-Worlds, etc.
+Q* is an easy-to-learn and adaptable RPG system for games such as pen and paper
+games. It's heavily enspired by great RPGs and RPG systems such as Divinity:
+Original Sin, Dungeons & Dragons, Mindjammer, Fragged Empire, Savage Worlds,
+etc.
 
 It aims to provide an RPG system that's usable for any kind of play and for any
 setting such as medieval, fantasy, modern, sci-fi settings or even a combination
