@@ -88,7 +88,7 @@ characters and NPCs.
 
 > The Pace gives you an estimate how long it takes to go from A to B.
 
-It's used to determine how far the creature gets by using the Move Action.
+When you take the Move Action, you can use up to your Pace in tiles.
 
 !!! summary "Pace"
     <div class="formula formula-top formula-bottom">
@@ -98,23 +98,6 @@ It's used to determine how far the creature gets by using the Move Action.
 
 </div>
 <div class="right" markdown="1">
-
-### Perception
-
-> Perception is a passive value that represents the character's alertness.
-
-It's used to passively counter creatures that used the [Stealth
-Skill](/character/skills#stealth), sense things and creatures, etc.
-
-!!! summary "Perception"
-    <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">10</span> +
-        <span data-bracket-top="Intelligence Attribute">Intelligence</span>
-    </div>
-
-</div>
-
-<div class="left" markdown="1">
 
 ### Parry
 
@@ -126,22 +109,6 @@ The Parry value is 8 if the Melee Skill isn't trained.
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Base">10</span> +
         <span data-bracket-top="Melee Skill Bonus">Melee Skill</span>
-    </div>
-
-</div>
-<div class="right" markdown="1">
-
-### Toughness
-
-> The [Toughness](#toughness) value is used for shrugging off Attacks.
-
-The [Toughness](#toughness) value can never drop below **2**.
-
-!!! summary "[Toughness](#toughness) Value"
-    <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">2</span> +
-        <span data-bracket-top="Might Attribute">Might</span> +
-        <span data-bracket-bottom="Armour's Toughness">TN</span>
     </div>
 
 </div>
