@@ -19,9 +19,9 @@ reduction against this type anymore.
 
 | Name         | Toughness | Durability | <i class="qstar-flame"></i> | <i class="qstar-thermometer-cold"></i> | <i class="qstar-biohazard"></i> |
 | ------------ | --------: | ---------: | --------------------------: | -------------------------------------: | ------------------------------: |
-| Light Armour |        +2 |          5 |                           2 |                                      1 |                               1 |
-| Heavy Armour |        +5 |         10 |                           4 |                                      2 |                               2 |
-| Hazmat Suit  |        +1 |          2 |                           8 |                                      8 |                              16 |
+| Light Armour |        +1 |          5 |                           2 |                                      1 |                               1 |
+| Heavy Armour |        +3 |         10 |                           4 |                                      2 |                               2 |
+| Hazmat Suit  |         0 |          2 |                           8 |                                      8 |                              16 |
 
 ## Outfits
 

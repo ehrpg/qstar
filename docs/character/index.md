@@ -108,7 +108,8 @@ The Parry value is 8 if the Melee Skill isn't trained.
 !!! summary "Parry Value"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Base">10</span> +
-        <span data-bracket-top="Melee Skill Bonus">Melee Skill</span>
+        <span data-bracket-top="Melee Skill Bonus">Melee Skill</span> +
+        <span data-bracket-bottom="Armour">Toughness</span>
     </div>
 
 </div>

@@ -30,20 +30,20 @@ otherwise noted.
 
 ## Melee Weapons
 
-| Name                    |  HIT |              DMG |  RoF | Weight | Bulk | Cost |
-| ----------------------- | ---: | ---------------: | ---: | -----: | ---: | ---: |
-| Improvised blunt weapon |    0 |          Str + 1 |    1 |      1 |    1 |    - |
-| Improvised sharp weapon |    0 |          Str + 1 |    1 |      0 |    1 |    - |
-| Brass knuckles          |    0 | Str + 1[d4](#d4) |    1 |      0 |    L |  100 |
-| Knife                   |    0 | Str + 1[d4](#d4) |    1 |      0 |    L |  100 |
-| Baton                   |    0 | Str + 1[d6](#d6) |    1 |      1 |    L |  250 |
-| Sword                   |    1 | Str + 1[d8](#d8) |    1 |      2 |    2 | 1000 |
+| Name                    |  HIT |    DMG |  RoF | Weight | Bulk | Cost |
+| ----------------------- | ---: | -----: | ---: | -----: | ---: | ---: |
+| Improvised blunt weapon |    0 | MI - 3 |    1 |      2 |    1 |    - |
+| Improvised sharp weapon |    0 | MI - 3 |    1 |      1 |    1 |    - |
+| Brass knuckles          |    0 | MI - 1 |    1 |      1 |    L |  100 |
+| Knife                   |    0 | MI - 1 |    1 |      1 |    L |  100 |
+| Baton                   |    0 | MI + 1 |    1 |      2 |    L |  250 |
+| Sword                   |    1 | MI + 2 |    1 |      3 |    2 | 1000 |
 
 ## Ranged Weapons
 
-| Name             |  HIT |          DMG |  RNG |  RoF |  MAG |  CAP |  REL |    Weight | Bulk | Cost |
-| ---------------- | ---: | -----------: | ---: | ---: | ---: | ---: | ---: | --------: | ---: | ---: |
-| Pistol           |    0 |   2[d6](#d6) |    5 |    1 |    ∞ |    7 |    2 | [d6](#d6) |    1 | 1000 |
-| Revolver         |    0 | 2[d6](#d6)+1 |    5 |    1 |    ∞ |    6 |    4 | [d6](#d6) |    1 |  750 |
-| Flintlock Pistol |    0 | 2[d6](#d6)+1 |    4 |    1 |    ∞ |    1 |    8 | [d6](#d6) |    1 |  500 |
-| Flintlock Musket |    1 |   2[d8](#d8) |   15 |    1 |    ∞ |    1 |   10 | [d8](#d8) |    2 | 1000 |
+| Name             |  HIT |  DMG |  RNG |  RoF |  MAG |  CAP |  REL | Weight | Bulk | Cost |
+| ---------------- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | -----: | ---: | ---: |
+| Pistol           |    0 |    3 |    5 |    1 |    ∞ |    7 |    2 |      2 |    1 | 1000 |
+| Revolver         |    0 |    3 |    5 |    1 |    ∞ |    6 |    4 |      2 |    1 |  750 |
+| Flintlock Pistol |    0 |    3 |    4 |    1 |    ∞ |    1 |    8 |      2 |    1 |  500 |
+| Flintlock Musket |    1 |    4 |   15 |    1 |    ∞ |    1 |   10 |      3 |    2 | 1000 |
