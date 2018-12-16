@@ -49,16 +49,15 @@ Using a normally one-handed item with two hands increases the level of
 
 ### Overburdened
 
-Only items that are equipped, e.g. wielded weapons, worn armour and outfits,
+*Only items that are equipped, e.g. wielded weapons, worn armour and outfits,
 etc. are subject to this rule. An item that's kept in the character's inventory
-is not influencing the character.
+is not influencing the character.*
 
 An item's Weight exceeding the character's [Might](/character#might-mi) incures
 penalties. For each step of the character's [Might](/character#might-mi) below
 the item's Weight, the character's:
 
-* [Speed](/character#speed-sp) is reduced by one level to a minimum of a
-  [d4](#d4), and
+* [Speed](/character#speed-sp) is reduced by one level to a minimum of 1, and
 * the character's [Parry](/character#parry) and [Defence](/crisis#defence)
   suffers -1.
 
@@ -68,19 +67,24 @@ the item's Weight, the character's:
 
 ## Bulk
 
+*Only items that are not equipped, e.g. rations, a tent, etc. are subject to
+this rule.*
+
 An item that specifies it's Bulk takes up that much Inventory Space. Ten light
 items specified by a Bulk value of **L** count as 1 Bulk. Some items' Bulk are
 negligible; they do not list their Bulk value.
 
-You can carry up an amount of Bulk equal to your [Might](/character#might-mi)
-without penalty; if you carry more you gain the *Slowed* condition. You can't
-hold or carry more Bulk than twice your [Might](/character#might-mi).
+You can carry up an amount of Bulk equal to twice your
+[Might](/character#might-mi) without penalty; if you carry more you gain the
+*Slowed* condition. You can't hold or carry more Bulk than four times your
+[Might](/character#might-mi).
 
 ## Looting items
 
 Usually looting only gives you [Loot](/character#loot). If you are looking for
 certain items that, for example, your enemies may have, you can loot them
-normally.This reduces the amount of [Loot](#loot) you recieve to a minimum of 0.
+normally. This reduces the amount of [Loot](#loot) you receive to a minimum of
+0.
 
 If a looted item requires [Resources](/character#resources-res) a character may
 keep it. At the end of the session the character can spend his available

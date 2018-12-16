@@ -119,15 +119,17 @@ The Parry value is 8 if the Melee Skill isn't trained.
 > [Health](#health) represents the character’s overall condition.
 
 If Health drops to 0 or below, the creature has to make a
-[Might](/character#might-mi) roll. On a failure, the creature becomes
-incapacitated, but not necessarily unconcious, until healed or dead.
+[Might](/character#might-mi) roll with a DC of 16. On a failure, the creature
+becomes incapacitated, but not necessarily unconcious, until healed or dead.
+
+An incapacitated creature loses 1 HP each turn until healed.
 
 A character that drops to or below his HP in negative dies.
 
 !!! summary "[Health](#health)"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">5</span> +
-        <span data-bracket-top="Might Attribute">Might Attribute</span>
+        <span data-bracket-bottom="Base">8</span> +
+        <span data-bracket-top="Might Attribute">Might Attribute * 2</span>
     </div>
 
 ## Experience (XP)
@@ -150,7 +152,7 @@ Every three XP increase a character's level by one.
 
 ### Level (LVL)
 
-The Level of a character abstracts it's experience, resourcefulness, and
+The Level of a character abstracts its experience, resourcefulness, and
 skill set.
 
 #### Acquisitions
@@ -161,7 +163,7 @@ resourceful and adaptable.
 
 #### Character Points
 
-* Every 2 levels, a character gains 1 Skill Point.
+* Every level, a character gains 1 Skill Point.
 
 * Every 3 levels, a character gains 1 Attribute Point.
 
