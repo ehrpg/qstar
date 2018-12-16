@@ -565,7 +565,11 @@ a[href*="example-"] {
 }
 
 @media only screen and (min-width: 76.25em) {
-  .md-tabs--active ~ .md-main .md-nav--primary > .md-nav__list > .md-nav__item--nested {
+  .md-tabs--active
+~ .md-main
+.md-nav--primary
+> .md-nav__list
+> .md-nav__item--nested {
     display: block;
   }
 }
@@ -645,8 +649,8 @@ h1[id]:target:before {
 
 h1[id]:before {
   display: block;
-  margin-top: -.8rem;
-  padding-top: .8rem;
+  margin-top: -0.8rem;
+  padding-top: 0.8rem;
   content: "";
 }
 
@@ -691,7 +695,7 @@ table tr td:first-child {
 }
 
 tr.targetted {
-  background-color: #FFF9C4 !important;
+  background-color: #fff9c4 !important;
 }
 
 tr:nth-child(even) {
@@ -720,7 +724,7 @@ p.dt + ul li:not(:first-child):before {
 
 i[f],
 i[s] {
-  font-family: 'Material Icons';
+  font-family: "Material Icons";
   font-style: normal;
   vertical-align: middle;
   line-height: 1.6;
@@ -743,7 +747,7 @@ i[f]:before {
 }
 
 blockquote.important {
-  border-left: .4rem solid #3f51b5;
+  border-left: 0.4rem solid #3f51b5;
   color: rgba(0, 0, 0, 0.87);
 }
 
@@ -817,6 +821,10 @@ table thead th:hover {
   border-bottom: 2px solid #3f51b5;
 }
 
+.md-typeset div.content thead > tr > td {
+  pointer-events: none;
+}
+
 .md-typeset div.content tr:nth-child(even) {
   background-color: white;
 }
@@ -836,7 +844,7 @@ table thead th:hover {
   width: 100px;
   max-width: 100px;
   text-align: center;
-  font-family: 'Zag';
+  font-family: "Zag";
   font-weight: bold;
   font-size: 4rem;
 }

@@ -5,46 +5,38 @@
 Every [Skill](#skills) is initially untrained. [Trained-only
 Skills](#trained-only-skills) can only be used if they are trained first.
 
-!!! danger "Skill-levels and penalties & bonuses"
-    Untrained [Skills](#skills) suffer a -2 penalty to **Skill** rolls.
-    <br>
-    Trained [Skills](#skills) grant a +0 bonus to **Skill** rolls.
-    <br>
-    Additional Skill points provide a +1 bonus per Skill point spent on the
-    skill. A [Skill](#skills) can only be improved to a +3 bonus this way.
-
 ## Trained-only Skills
 
 Some [Skills](#skills) can only be used if you trained them by spending one
-skill point on them. Improving a Trained-only Skill works the same as with
-normal Skills.
+skill point on them. Improving a trained-only [skills](#skills) works the same
+as with normal [Skills](#skills).
 
-Trained-only Skills are indicated by a **"*"** next to their name.
+Trained-only [Skills](#skills) are indicated by a **"*"** next to their name.
 
 ## Skill roll
 
 > Whenever it's uncertain if a character can do an action, or if the outcome is
-effected by noticeable outside factors, the character has to roll a **Skill**
-roll.
+effected by noticeable outside factors, the character has to roll a
+[Skill](#skills) roll.
 
-A **Skill** roll is made by rolling [3d6](#3d6) and adding the Skill's
-respective bonuses and penalties to the roll.
+A [Skill](#skills) roll is made by rolling [3d6](#3d6) and adding the
+[Skills](#skills)'s respective bonuses and penalties to the roll.
 
-If no Skill applies, or the Skill isn't available to the character, the GM can
-decide that you can also make a generic, *untrained* **Skill** roll.
+If no [Skill](#skills) applies, or the [Skill](#skills) isn't available to the
+character, the GM can decide that you can also make a generic, *untrained*
+[Skill](#skills) roll.
 
-!!! summary "Skill roll"
+!!! summary "[Skill](#skills) roll"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Base Dice">3d6</span> ±
-        <span data-bracket-top="Associated Attr.">Attribute</span> ±
+        <span data-bracket-top="Associated Attr.">Attribute / 3</span> ±
         <span data-bracket-bottom="Bonuses and Penalties">Skill</span>
     </div>
 
+A Skill roll can further be influenced by Assets and Circumstance like heavy
+rain, help from allies, etc.
+
 </blockquote>
-
-### Description
-
-Particularly good role-playing can grant up to a +2 bonus on a **Skill** roll.
 
 ### Task Difficulty
 
@@ -72,7 +64,8 @@ Characters compete against each others using skills. Unless otherwise stated,
 the same skill is used for both parties.
 
 Both parties make a **Skill** roll. The party with the higher result wins. On a
-tie, roll again.
+tie, the better trained character wins. If the Skills are on the same level,
+roll again.
 
 ## Available Skills
 
@@ -85,13 +78,19 @@ Below is a list of possible skills, provided by the Q* RPG system.
     game. For balancing reasons try to restrict yourself to only 4 available
     Skills per Attribute.
 
+!!! info "Trained-only Skills"
+    Some Skills are trained-only or not trained-only based on available media
+    and common knowledge of the digital age.
+
 ### Might skills
 
 <div class="qs-list-test full-width" markdown="1">
 
 ##### Athletics
 
-This skill used for climbing, jumping, running, etc.
+This skill used for climbing, jumping, running, swimming, etc.
+<br>
+Without this Skill being trained, the character **cannot** swim.
 
 ##### Force
 
@@ -198,5 +197,7 @@ tactically breach into buildings or rooms, etc.
 ##### Command
 
 This skill is used to command crews, give orders on a vessel, lead others, etc.
+To lead people, use the Oratory Skill. To make a crew work efficiently use this
+skill.
 
 </div>

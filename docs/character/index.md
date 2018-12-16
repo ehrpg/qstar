@@ -21,17 +21,18 @@ See [Talents](/character/talents/).
 > Attributes define the character's overall physique and mental capabilities.
 > As such they count as the cornerstone for a character's Skill.
 
-An average person has each Attribute at 1 or 2 points. A rating of 0 is an
-impairment, while a 5 is almost superhuman.
+An average person has each Attribute at 2 or 3 points. A rating of 1 is an
+impairment, while a 6 is almost superhuman.
 
 ### Attribute Damage
 
 Attribute Damage decreases the character's Attribute, e.g. from a 5 to a 4. This
 Attribute Damage can be **temporary** or **permanently**.
 
-Attribute Damage does not change any pools, such as Health. E.g. when using a
-heavy weapon Might Damage may impose a penalty if the weapon's requirement are
-not met anymore.
+Any damage to Attributes can reduce other stats like Bulk, Overburdened, Pace,
+etc.
+
+If an Attribute **permanently** drops to 0, the character dies.
 
 <div class="left" markdown="1">
 
@@ -40,8 +41,8 @@ not met anymore.
 > [Might](#might-mi) represents the character's physical strength and
 > resilience.
 
-The damage of melee weapons is derived from [Might](#might-mi). Also improves a
-character's toughness.
+A character's carrying capacity, damage of melee weapons and tougness are
+derived from [Might](#might-mi).
 
 </div>
 <div class="right" markdown="1">
@@ -92,7 +93,7 @@ It's used to determine how far the creature gets by using the Move Action.
 !!! summary "Pace"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Base">2</span> +
-        <span data-bracket-top="Speed Attribute">Speed Attribute</span>
+        <span data-bracket-top="Speed Attribute">Speed</span>
     </div>
 
 </div>
@@ -108,7 +109,7 @@ Skill](/character/skills#stealth), sense things and creatures, etc.
 !!! summary "Perception"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Base">10</span> +
-        <span data-bracket-top="Intelligence Attribute">Intelligence Attribute</span>
+        <span data-bracket-top="Intelligence Attribute">Intelligence</span>
     </div>
 
 </div>
@@ -139,7 +140,7 @@ The [Toughness](#toughness) value can never drop below **2**.
 !!! summary "[Toughness](#toughness) Value"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Base">2</span> +
-        <span data-bracket-top="Might Attribute">Die / 2</span> +
+        <span data-bracket-top="Might Attribute">Might</span> +
         <span data-bracket-bottom="Armour's Toughness">TN</span>
     </div>
 
@@ -178,7 +179,7 @@ Three XP increase your level by one.
         <span>Level Up</span>
     </div>
 
-Every three Experience Points (XP) increase a character's level by one.
+Every three XP increase a character's level by one.
 
 ### Level (LVL)
 
@@ -193,9 +194,9 @@ resourceful and adaptable.
 
 #### Character Points
 
-* Every level, a character gains 1 Skill Point.
+* Every 2 levels, a character gains 1 Skill Point.
 
-* Every 2 levels, a character gains 1 Attribute Point.
+* Every 3 levels, a character gains 1 Attribute Point.
 
 * Every 4 levels, a character gains a Talent.
 
