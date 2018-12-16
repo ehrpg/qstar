@@ -5,7 +5,36 @@
 Every [Skill](#skills) is initially untrained. [Trained-only
 Skills](#trained-only-skills) can only be used if they are trained first.
 
-## Trained-only Skills
+## Skill ranks
+
+A Skill has one of the 5 following ranks:
+
+<div class="qs-list-test full-width" markdown="1">
+
+##### Untrained
+
+Untrained Skills suffer a -2 penalty. Some Skills cannot be used if they are
+untrained.
+
+##### Trained
+
+Trained Skills neither provide a bonus nor suffer a penalty to Skill rolls.
+
+##### Skilled
+
+Skilled Skills receive a +1 bonus to Skill rolls.
+
+##### Expert
+
+Expert Skills receive a +2 bonus to Skill rolls.
+
+##### Master
+
+Master Skills receive a +3 bonus to Skill rolls.
+
+</div>
+
+### Trained-only Skills
 
 Some [Skills](#skills) can only be used if you trained them by spending one
 skill point on them. Improving a trained-only [skills](#skills) works the same
