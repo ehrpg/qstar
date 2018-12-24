@@ -98,35 +98,34 @@ prejudice, others liking or disliking you, being a known criminal, etc.
 described outcome.
 
 Weight
-:   The minimum requirement of [Might](/character#might-mi) to *use* items.
-Weight exceeding a character's [Might](/character#might-mi) imposes penalties.
+:   The minimum requirement of [Might][] to *use* items.
+Weight exceeding a character's [Might][] imposes penalties.
 
 ## Abbreviations
 
-<div class="dl-horizontal" markdown="1">
-<div class="col-layout-start"></div>
+<div class="qs-list-test" markdown="1">
 
 * Attributes
 
 MI
-:   [Might](/character#might-mi)
+:   [Might][]
 
 SP
-:   [Speed](/character#speed-sp)
+:   [Speed][]
 
 IN
-:   [Intelligence](/character#intelligence-in)
+:   [Intelligence][]
 
 CH
-:   [Charisma](/character#charisma-ch)
+:   [Charisma][]
 
 * Character
 
 XP
-:   [Experience](/character#experience-xp)
+:   [Experience][]
 
 LVL
-:   [Level](/character#level-lvl)
+:   Level
 
 EP
 :   [Endurance points](/character#endurance-ep)
@@ -136,20 +135,17 @@ HP
 
 * Acquisitions
 
-DT
-:   [Downtime](/character#downtime-dt)
+ST
+:   [Spare Time][]
 
 INF
-:   [Influence](/character#influence-inf)
+:   [Influence][]
 
 RES
-:   [Resources](/character#resources-res)
+:   [Resources][]
 
 TECH
-:   [Technology](/character#technology-tech)
-
-<div class="col-layout-end"></div>
-<div class="col-layout-start"></div>
+:   [Technology][]
 
 * Equipment
 
@@ -185,7 +181,6 @@ REL
 AP
 : [Action points](/crisis#actions)
 
-<div class="col-layout-end clearfix"></div>
 </div>
 
 --8<-- "_links.md"

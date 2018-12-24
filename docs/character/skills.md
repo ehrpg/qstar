@@ -16,24 +16,24 @@ A skill has one of the 5 following ranks:
 
 ##### Untrained
 
-Untrained [Skills][] suffer a -2 penalty. Some [Skills][] cannot be used if they
-are untrained.
+[Skills][] suffer a -2 penalty. Some [Skills][] cannot be used if they are
+untrained.
 
 ##### Trained
 
-Trained [Skills][] neither provide a bonus nor suffer a penalty to Skill rolls.
+[Skills][] neither provide a bonus nor suffer a penalty to Skill rolls.
 
 ##### Skilled
 
-Skilled [Skills][] receive a +1 bonus to Skill rolls.
+[Skills][] receive a +1 bonus to Skill rolls.
 
 ##### Expert
 
-Expert [Skills][] receive a +2 bonus to Skill rolls.
+[Skills][] receive a +2 bonus to Skill rolls.
 
 ##### Master
 
-Master [Skills][] receive a +3 bonus to Skill rolls.
+[Skills][] receive a +3 bonus to Skill rolls.
 
 </div>
 
@@ -110,7 +110,7 @@ Below is a list of possible [Skills][], provided by the Q* RPG system.
     add them to your game. For balancing reasons try to restrict yourself to
     only 4 available [Skills][] per Attribute.
 
-!!! tip "[GM Tip] [Trained-only Skills][]"
+!!! tip "[GM Tip] - [Trained-only Skills][]"
     Some [Skills][] are trained-only or not trained-only based on available
     media and common knowledge of the digital age. Depending on your setting you
     can adjust if a skill is trained-only by your best knowledge.

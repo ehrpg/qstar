@@ -153,7 +153,7 @@ A character that drops to or below his HP in negative dies.
         <span data-bracket-top="Might Attribute">MI * 5</span>
     </div>
 
-!!! tip "[GM Tip] NPCs and Health"
+!!! tip "[GM Tip] - NPCs and Health"
     NPCs usually die outright when they reach 0 HP, if not purpously knocked
     unconcious by the players.
 
@@ -291,19 +291,17 @@ difficulty for each roll.
 
 ### Influence (INF)
 
-> [Influence](#influence-inf) represents connections, owed favours by others,
-> fame and infamy.
+> [Influence][] represents connections, owed favours by others, fame and infamy.
 
 **GAINED**{.hf} by making a name for yourself in the cosmos, i.e. by helping
-people and factions. [Influence](#influence-inf) is lost by harming and
-disappointing others.
+people and factions. [Influence][] is lost by harming and disappointing others.
 
 **USED**{.hf} for accessing and buying items, vessels, meetings with high
 ranking characters, etc.
 
-More [Influence](#influence-inf) unlocks better equipment and better vessels.
+More [Influence][] unlocks better equipment and better vessels.
 
-!!! summary "Maximum [Influence](#influence-inf)"
+!!! summary "Maximum [Influence][]"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Base">2</span> +
       <span data-bracket-top="Level">LVL</span> ±
@@ -315,22 +313,21 @@ More [Influence](#influence-inf) unlocks better equipment and better vessels.
 
 ### Resources (RES)
 
-> [Resources](#resources-res) represent materials used for creating, repairing,
-> upgrading and acquiring equipment.
+> [Resources][] represent materials used for creating, repairing, upgrading and
+> acquiring equipment.
 
 **GAINED**{.hf} by looting, or completing missions, adventures and quests.
 
 **USED**{.hf} to create, repair, upgrade and acquire equipment and vessels.
 
-[Resources](#resources-res) can be used to repair vessels, in which case the
-[Resources](#resources-res) are **spent** on the repair, and *permanently
-lowered*.
+[Resources][] can be used to repair vessels, in which case the [Resources][] are
+**spent** on the repair, and *permanently lowered*.
 
-If [Resources](#resources-res) are spent on equipment, your maximum
-[Resources](#resources-res) are *temporarily lowered* by that amount. This
-abstracts the upkeep of a powerful item.
+If [Resources][] are spent on equipment, your maximum [Resources][] are
+*temporarily lowered* by that amount. This abstracts the upkeep of a powerful
+item.
 
-!!! summary "Maximum [Resources](#resources-res)"
+!!! summary "Maximum [Resources][]"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Base">2</span> +
       <span data-bracket-top="Level">LVL</span> ±
@@ -342,9 +339,8 @@ abstracts the upkeep of a powerful item.
 
 ### Technology (TECH)
 
-> [Technology](#technology-tech) represents the character's technological
-> knowledge, which on the other hand allows to unlock new
-> [Equipment](/equipment).
+> [Technology][] represents the character's technological knowledge, which on
+> the other hand allows to unlock new [Equipment](/equipment).
 
 **GAINED**{.hf} by aiding science missions, acquiring blueprints, spending spare
 time on researching certain scientific fields, etc.
@@ -352,11 +348,11 @@ time on researching certain scientific fields, etc.
 **USED**{.hf} for unlocking experimental equipment and vessels. Once unlocked,
 the experimental equipment or vessel can be acquired.
 
-Certain ugprades require [Technology](#technology-tech) in order to be unlocked.
-Upgrades have to be unlocked only once, and *can* be shared between characters.
-Unlocking *permanently lowers* your [Technology](#technology-tech) value.
+Certain ugprades require [Technology][] in order to be unlocked. Upgrades have
+to be unlocked only once, and *can* be shared between characters. Unlocking
+*permanently lowers* your [Technology][] value.
 
-!!! summary "Maximum [Technology](#technology-tech)"
+!!! summary "Maximum [Technology][]"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Base">2</span> +
       <span data-bracket-top="Level">LVL</span> ±
@@ -376,7 +372,7 @@ includes normal accomadations, *free* food and drinks in populated areas, moving
 in local traffic and areas, etc. This means you don't have to pay for normal
 lodging, etc.
 
-!!! tip "[GM Tip] Living standards and survival campaigns"
+!!! tip "[GM Tip] - Living standards and survival campaigns"
     If surviving becomes the focus of a session, you can always overrules this
     and require your players to manage food, drinks and other resources they
     might need to survive, e.g. wood in a cold setting.

@@ -18,11 +18,11 @@
 [Acquisitions]: /character/#acquisitions
 
 [Loot]: /character/#loot-loot
-
 [Spare Time]: /character/#spare-time-st
-
+[Influence]: /character/#influence-inf
 [Resource]: /character/#resources-res
 [Resources]: /character/#resources-res
+[Technology]: /character/#technology-tech
 
 [Race]: /character/races/#races
 [Races]: /character/races/#races
