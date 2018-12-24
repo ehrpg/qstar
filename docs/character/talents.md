@@ -49,3 +49,5 @@ Penalty
 +1 Skill Points
 
 </div>
+
+--8<-- "_links.md"

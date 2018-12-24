@@ -28,7 +28,7 @@ result, the **better**.
 </td>
 </tr>
 <tr>
-<td>[](#d6)</td>
+<td><i class="qstar-perspective-dice-six-faces-six"></i></td>
 <td>A rolled **6** counts as a critical success.</td>
 </tr>
 <tr>
@@ -38,9 +38,9 @@ result, the **better**.
 <tr>
 <td>-1</td>
 <td>
-Some values cannot be negative, e.g. [Resources](/character#resources-res). If
-such a value were to drop to below 0, it either prohibits certain actions, it
-has **consequences** or it's simply ignored and the value set to 0.
+Some values cannot be negative, e.g. [Resources][]. If such a value were to drop
+to below 0, it either prohibits certain actions, it has **consequences** or it's
+simply ignored and the value set to 0.
 </td>
 </tr>
 <tr>
@@ -187,3 +187,5 @@ AP
 
 <div class="col-layout-end clearfix"></div>
 </div>
+
+--8<-- "_links.md"

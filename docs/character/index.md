@@ -161,13 +161,13 @@ A character that drops to or below his HP in negative dies.
 
 > Experience Points (XP) are gained throughout a character's adventuring career.
 
-XP are gained due to noteable achievements or story completions. XP usually are
-only given out one at a time. The GM can decide to give out more for completing
-a longer adventure.
+[XP][] are gained due to noteable achievements or story completions. [XP][]
+usually are only given out one at a time. The GM can decide to give out more for
+completing a longer adventure.
 
-Every three XP increase a character's level by one.
+Every three [XP][] increase a character's level by one.
 
-!!! summary "Experience and Level Ups"
+!!! summary "[XP][] and Level Ups"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="XP">3</span> =
         <span>Level Up</span>
@@ -175,13 +175,13 @@ Every three XP increase a character's level by one.
 
 ### Level (LVL)
 
-The Level of a character abstracts its experience, resourcefulness, and
+The Level of a character abstracts its [XP][], resourcefulness, and
 skill set.
 
 #### Acquisitions
 
-A character's level improves the maximum values of his acquisitions. This does
-not necessarily make the character stronger, but makes the character more
+A character's level improves the maximum values of his [Acquisitions][]. This
+does not necessarily make the character stronger, but makes the character more
 resourceful and adaptable.
 
 #### Character Points
@@ -194,14 +194,14 @@ resourceful and adaptable.
 
 ## Acquisitions
 
-> Acquisitions abstract the resources available to a character.
+> [Acquisitions][] abstract the resources available to a character.
 
-Acquisitions are limited by a maximum value, and are used to improve your
-character. This maximum value is modified by Circumstances, [Perks](/perks), and
-permanently due to [Experience](#experience-xp).
+[Acquisitions][] are limited by a maximum value, and are used to improve your
+character. This maximum value is modified by Circumstances, [Talents][], and
+permanently due to [XP][].
 
-The current value for Acquisitions can **never** exceed the maximum value. All
-exceeding points are usually lost.
+The current value for [Acquisitions][] can **never** exceed the maximum value.
+All exceeding points are usually lost.
 
 ### Overview
 
@@ -418,6 +418,4 @@ Cost
 
 </div>
 
---8<--
-_links.md
---8<--
+--8<-- "_links.md"

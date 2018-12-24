@@ -57,7 +57,6 @@ markdown_extensions:
 nav:
     - Q*:
         - Introduction: 'index.md'
-        - Character Creation: 'character/character-creation.md'
 
         - Characters:
             - Character: 'character/index.md'
@@ -82,7 +81,8 @@ nav:
             - Combat: 'vessel/combat.md'
             - Equipment: 'vessel/equipment.md'
 
-        - Quick Start Rules: 'quick-start.md'
+        - Character Creation*: 'character/character-creation.md'
+        - Quick Start Rules*: 'quick-start.md'
 
     - Setting — Q*:
         - Introduction: 'settings/qstar/index.md'

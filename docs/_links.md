@@ -12,6 +12,11 @@
 [Pace]: /character/#pace
 [Health]: /character/#health-hp
 
+[XP]: /character/#experience-xp
+[Experience]: /character/#experience-xp
+[Talents]: /character/talents/
+[Acquisitions]: /character/#acquisitions
+
 [Loot]: /character/#loot-loot
 
 [Spare Time]: /character/#spare-time-st

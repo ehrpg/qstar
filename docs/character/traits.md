@@ -7,7 +7,7 @@ Even items can have traits.
 
 ## Character Traits
 
-<div class="col-layout-start qs-list"></div>
+<div class="qs-list-test"></div>
 
 <!-- A-N -->
 
@@ -45,9 +45,6 @@ Requires {.qs-sep}
 [Downtime](/character#downtime-dt)
 :   1
 
-<div class="col-layout-end"></div>
-<div class="col-layout-start qs-list"></div>
-
 ##### Specialized
 
 You spend more time on a particular skill, so you have less time for another.
@@ -82,4 +79,4 @@ Requires {.qs-sep}
 [Downtime](/character#downtime-dt)
 :   1
 
-<div class="col-layout-end clearfix"></div>
+</div>

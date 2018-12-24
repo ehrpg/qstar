@@ -1,5 +1,5 @@
 @charset "UTF-8";
-a[href*="#"]:before {
+a:not(.headerlink)[href*="#"]:before {
   font-family: "game-icons";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -12,39 +12,43 @@ a[href*="#"]:before {
   vertical-align: top;
 }
 
-a[href*="#might"]:before {
+a:not(.headerlink)[href*="#might"]:before {
   content: "";
 }
 
-a[href*="#speed"]:before {
+a:not(.headerlink)[href*="#speed"]:before {
   content: "";
 }
 
-a[href*="#intelligence"]:before {
+a:not(.headerlink)[href*="#intelligence"]:before {
   content: "";
 }
 
-a[href*="#charisma"]:before {
+a:not(.headerlink)[href*="#charisma"]:before {
   content: "";
 }
 
-a[href*="#loot"]:before {
+a:not(.headerlink)[href*="#loot"]:before {
   content: "";
 }
 
-a[href*="#spare-time"]:before {
+a:not(.headerlink)[href*="#spare-time"]:before {
   content: "";
 }
 
-a[href*="#influence"]:before {
+a:not(.headerlink)[href*="#influence"]:before {
   content: "";
 }
 
-a[href*="#resources"]:before {
+a:not(.headerlink)[href*="#resources"]:before {
   content: "";
 }
 
-a[href*="#technology"]:before {
+a:not(.headerlink)[href*="#technology"]:before {
   content: "";
+}
+
+a:not(.headerlink)[href$="#d6"]:before {
+  content: "";
 }
 /*# sourceMappingURL=icons.css.map */

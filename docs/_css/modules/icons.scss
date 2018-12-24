@@ -11,6 +11,8 @@
   vertical-align: top;
 }
 
+$d6: "\E91B";
+
 $might: "\E696";
 $speed: "\E543";
 $intelligence: "\E5E6";
@@ -22,44 +24,50 @@ $influence: "\E6BB";
 $resources: "\EA05";
 $technology: "\EB3B";
 
-a[href*="#"]:before {
-  @include game-icon;
-}
+a:not(.headerlink) {
+  &[href*="#"]:before {
+    @include game-icon;
+  }
 
-a[href*="#might"]:before {
-  content: $might;
-}
+  &[href*="#might"]:before {
+    content: $might;
+  }
 
-a[href*="#speed"]:before {
-  content: $speed;
-}
+  &[href*="#speed"]:before {
+    content: $speed;
+  }
 
-a[href*="#intelligence"]:before {
-  content: $intelligence;
-}
+  &[href*="#intelligence"]:before {
+    content: $intelligence;
+  }
 
-a[href*="#charisma"]:before {
-  content: $charisma;
-}
+  &[href*="#charisma"]:before {
+    content: $charisma;
+  }
 
-a[href*="#loot"]:before {
-  content: $loot;
-}
+  &[href*="#loot"]:before {
+    content: $loot;
+  }
 
-a[href*="#spare-time"]:before {
-  content: $spareTime;
-}
+  &[href*="#spare-time"]:before {
+    content: $spareTime;
+  }
 
-a[href*="#influence"]:before {
-  content: $influence;
-}
+  &[href*="#influence"]:before {
+    content: $influence;
+  }
 
-a[href*="#resources"]:before {
-  content: $resources;
-}
+  &[href*="#resources"]:before {
+    content: $resources;
+  }
 
-a[href*="#technology"]:before {
-  content: $technology;
+  &[href*="#technology"]:before {
+    content: $technology;
+  }
+
+  &[href$="#d6"]:before {
+    content: $d6;
+  }
 }
 
 *:not(.md-search-result__item) > {

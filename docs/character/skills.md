@@ -233,6 +233,4 @@ skill.
 
 </div>
 
---8<--
-_links.md
---8<--
+--8<-- "_links.md"
