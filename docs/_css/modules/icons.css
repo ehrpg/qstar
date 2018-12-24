@@ -1,8 +1,5 @@
-h1 {
-  position: relative !important;
-}
-
-h1:after {
+@charset "UTF-8";
+a[href*="#"]:before {
   font-family: "game-icons";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -11,258 +8,43 @@ h1:after {
   font-weight: normal;
   text-decoration: none;
   text-transform: none;
-  margin-left: 0.5rem !important;
+  margin-right: 5px;
   vertical-align: top;
 }
 
-h1 > a {
-  position: absolute;
-  right: 0;
+a[href*="#might"]:before {
+  content: "";
 }
 
-h1 > a:after {
-  content: "" !important;
+a[href*="#speed"]:before {
+  content: "";
 }
 
-h2 {
-  position: relative !important;
+a[href*="#intelligence"]:before {
+  content: "";
 }
 
-h2:after {
-  font-family: "game-icons";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  text-decoration: none;
-  text-transform: none;
-  margin-left: 0.5rem !important;
-  vertical-align: top;
+a[href*="#charisma"]:before {
+  content: "";
 }
 
-h2 > a {
-  position: absolute;
-  right: 0;
+a[href*="#loot"]:before {
+  content: "";
 }
 
-h2 > a:after {
-  content: "" !important;
+a[href*="#spare-time"]:before {
+  content: "";
 }
 
-h3 {
-  position: relative !important;
+a[href*="#influence"]:before {
+  content: "";
 }
 
-h3:after {
-  font-family: "game-icons";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  text-decoration: none;
-  text-transform: none;
-  margin-left: 0.5rem !important;
-  vertical-align: top;
+a[href*="#resources"]:before {
+  content: "";
 }
 
-h3 > a {
-  position: absolute;
-  right: 0;
-}
-
-h3 > a:after {
-  content: "" !important;
-}
-
-h4 {
-  position: relative !important;
-}
-
-h4:after {
-  font-family: "game-icons";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  text-decoration: none;
-  text-transform: none;
-  margin-left: 0.5rem !important;
-  vertical-align: top;
-}
-
-h4 > a {
-  position: absolute;
-  right: 0;
-}
-
-h4 > a:after {
-  content: "" !important;
-}
-
-h5 {
-  position: relative !important;
-}
-
-h5:after {
-  font-family: "game-icons";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  text-decoration: none;
-  text-transform: none;
-  margin-left: 0.5rem !important;
-  vertical-align: top;
-}
-
-h5 > a {
-  position: absolute;
-  right: 0;
-}
-
-h5 > a:after {
-  content: "" !important;
-}
-
-*:not(.md-search-result__item) > *#might-skills,
-*:not(.md-search-result__item) > *#speed-skills,
-*:not(.md-search-result__item) > *#intelligence-skills,
-*:not(.md-search-result__item) > *#charisma-skills {
-  z-index: 1;
-  padding-top: 1em;
-  margin-bottom: 0.8rem;
-}
-
-*:not(.md-search-result__item) > a[href="./equipment"]:after,
-*:not(.md-search-result__item) > a[href*="#"]:after {
-  font-family: "game-icons";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  text-decoration: none;
-  text-transform: none;
-  margin-left: 2px;
-  vertical-align: top;
-}
-
-*:not(.md-search-result__item) > *#endurance-ep:after,
-*:not(.md-search-result__item) > a[href*="#endurance"]:after {
-  content: "\EB5C";
-}
-
-*:not(.md-search-result__item) > *#health-hp:after,
-*:not(.md-search-result__item) > a[href*="#health"]:not([href*="#healthy"]):after {
-  content: "\E4B0";
-}
-
-*:not(.md-search-result__item) > *#perks:after,
-*:not(.md-search-result__item) > a[href$="#perks"]:after {
-  content: "\E78F";
-}
-
-*:not(.md-search-result__item) > *#flaws:after,
-*:not(.md-search-result__item) > a[href*="#flaws"]:after {
-  content: "\E840";
-}
-
-*:not(.md-search-result__item) > *#might-mi:after,
-*:not(.md-search-result__item) > *#might-skills:after,
-*:not(.md-search-result__item) > a[href*="#might"]:after {
-  content: "\E696";
-}
-
-*:not(.md-search-result__item) > *#speed-sp:after,
-*:not(.md-search-result__item) > *#speed-skills:after,
-*:not(.md-search-result__item) > a[href*="#speed"]:after {
-  content: "\E543";
-}
-
-*:not(.md-search-result__item) > *#intelligence-in:after,
-*:not(.md-search-result__item) > *#intelligence-skills:after,
-*:not(.md-search-result__item) > a[href*="#intelligence"]:after {
-  content: "\E5E6";
-}
-
-*:not(.md-search-result__item) > *#charisma-ch:after,
-*:not(.md-search-result__item) > *#charisma-skills:after,
-*:not(.md-search-result__item) > a[href*="#charisma"]:after {
-  content: "\E6CC";
-}
-
-*:not(.md-search-result__item) > *#attributes:after,
-*:not(.md-search-result__item) > a[href*="#attributes"]:after {
-  content: "\E6C0";
-}
-
-*:not(.md-search-result__item) > *#skills:after,
-*:not(.md-search-result__item) > a[href*="#skills"]:after,
-*:not(.md-search-result__item) > *#skill-ranks:after,
-*:not(.md-search-result__item) > a[href*="#skill-ranks"]:after {
-  content: "\E71A";
-}
-
-*:not(.md-search-result__item) > *#turn-order:after,
-*:not(.md-search-result__item) > a[href*="#turn-order"]:after {
-  content: "\E385";
-}
-
-*:not(.md-search-result__item) > *#downtime-dt:after,
-*:not(.md-search-result__item) > a[href*="#downtime"]:after {
-  content: "\E355";
-}
-
-*:not(.md-search-result__item) > *#influence-inf:after,
-*:not(.md-search-result__item) > a[href*="#influence"]:after {
-  content: "\E368";
-}
-
-*:not(.md-search-result__item) > *#resources-res:after,
-*:not(.md-search-result__item) > a[href*="#resources"]:after {
-  content: "\E5B0";
-}
-
-*:not(.md-search-result__item) > *#technology-tech:after,
-*:not(.md-search-result__item) > a[href*="#technology"]:after {
-  content: "\EB3B";
-}
-
-*:not(.md-search-result__item) > *#credits:after,
-*:not(.md-search-result__item) > a[href*="#credits"]:after {
-  font-style: normal;
-  content: "\FFE0";
-}
-
-*:not(.md-search-result__item) > .qs-cr {
-  font-style: normal;
-}
-
-*:not(.md-search-result__item) > .qs-cr:after {
-  content: "\E8D7";
-}
-
-*:not(.md-search-result__item) > a[href$="#d6"],
-*:not(.md-search-result__item) > a[href$="#3d6"] {
-  color: #222 !important;
-  pointer-events: none;
-  cursor: default;
-}
-
-*:not(.md-search-result__item) > a[href$="#d6"]:after,
-*:not(.md-search-result__item) > a[href$="#3d6"]:after {
-  color: #222;
-}
-
-*:not(.md-search-result__item) > a[href$="#d6"]:after {
-  content: "\E91B";
-}
-
-*:not(.md-search-result__item) > a[href$="#3d6"]:after {
-  content: "\E91B\E91B\E91B";
+a[href*="#technology"]:before {
+  content: "";
 }
 /*# sourceMappingURL=icons.css.map */

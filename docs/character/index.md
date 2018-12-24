@@ -1,16 +1,16 @@
 # Character
 
-Every player character, non-player character (NPC) and creature such as animals,
-monsters or even robots, etc. fall under this category and are created using the
-following rules.
+*Every player character, non-player character (NPC) and creature such as
+animals, monsters or even robots, etc. fall under this category and are created
+using the following rules.*
 
 ## Race
 
-See [Races](/character/races).
+See [Races][].
 
 ## Skills
 
-See [Skills](/character/skills/).
+See [Skills][].
 
 ## Talents
 
@@ -26,33 +26,36 @@ impairment, while a 6 is almost superhuman.
 
 ### Attribute Damage
 
-Attribute Damage decreases the character's Attribute, e.g. from a 5 to a 4. This
-Attribute Damage can be **temporary** or **permanently**.
+[Attribute Damage][] decreases the character's Attribute, e.g.
+from a 5 to a 4. This [Attribute Damage][] can be **temporary**
+or **permanently**.
 
 Any damage to Attributes can reduce other stats like Bulk, Overburdened, Pace,
 etc.
 
-If an Attribute **permanently** drops to 0, the character dies.
+If an Attribute **permanently** drops to 0, the character dies. If it drops
+**termporarily**, the character is incapacitated until the [Attribute
+Damage][] is restored.
 
 <div class="left" markdown="1">
 
 ### Might (MI)
 
-> [Might](#might-mi) represents the character's physical strength and
+> [Might][] represents the character's physical strength and
 > resilience.
 
 A character's carrying capacity, damage of melee weapons and tougness are
-derived from [Might](#might-mi).
+derived from [Might][].
 
 </div>
 <div class="right" markdown="1">
 
 ### Speed (SP)
 
-> [Speed](#speed-sp) measures the character's reflexes and eye-hand
+> [Speed][] measures the character's reflexes and eye-hand
 > coordination.
 
-[Speed](#speed-sp) adds a bonus to ranged weapon attacks, is used for stealth
+[Speed][] adds a bonus to ranged weapon attacks, is used for stealth
 and lets you act in a [Crisis](/#crisis) sooner.
 
 </div>
@@ -60,10 +63,10 @@ and lets you act in a [Crisis](/#crisis) sooner.
 
 ### Intelligence (IN)
 
-> [Intelligence](#intelligence-in) describes how well your character learns new
+> [Intelligence][] describes how well your character learns new
 things, and how well he remembers already existing things.
 
-[Intelligence](#intelligence-in) improves a character's Attribute to assess
+[Intelligence][] improves a character's Attribute to assess
 situations and skills related to knowing things.
 
 </div>
@@ -71,10 +74,10 @@ situations and skills related to knowing things.
 
 ### Charisma (CH)
 
-> [Charisma](#charisma-ch) represents the character's physical attractiveness,
+> [Charisma][] represents the character's physical attractiveness,
 force of personality and his ability to lead.
 
-[Charisma](#charisma-ch) is mostly used in social interactions between
+[Charisma][] is mostly used in social interactions between
 characters and NPCs.
 
 </div>
@@ -82,13 +85,45 @@ characters and NPCs.
 
 ## Stats
 
+### Defence
+
+> [Defence][] abstracts your ability to dodge and sustain attacks.
+
+Whenever you are attacked, the attack has to be equal to or higher than your
+[Defence][] in order to deal damage. A failed attack doesn't necessarily mean
+that it didn't hit, but it wasn't strong enough to deal damage.
+
+!!! summary "Defence"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Base">10</span> +
+        <span data-bracket-top="Attribute">Speed</span> +
+        <span data-bracket-bottom="Circumstance">Cover</span>
+    </div>
+
+### Perception
+
+> [Perception][] abstracts your ability to spot and make out hidden things and
+> creatures.
+
+Whenever you or an NPC is making a Stealth check, the DC of the roll is equal to
+the opposing force's highest [Perception][] value. You only roll once for the enemy
+with the highest [Perception][], not for each target.
+
+!!! summary "Perception"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Base">10</span> +
+        <span data-bracket-top="Attribute">Intelligence</span> +
+        <span>1 per Ally (max 10)</span>
+    </div>
+
 <div class="left" markdown="1">
+
 
 ### Pace
 
-> The Pace gives you an estimate how long it takes to go from A to B.
+> The [Pace][] gives you an estimate how long it takes to go from A to B.
 
-When you take the Move Action, you can use up to your Pace in tiles.
+When you take the Move Action, you can use up to your [Pace][] in tiles.
 
 !!! summary "Pace"
     <div class="formula formula-top formula-bottom">
@@ -97,41 +132,30 @@ When you take the Move Action, you can use up to your Pace in tiles.
     </div>
 
 </div>
-<div class="right" markdown="1">
-
-### Parry
-
-> The Parry value is used for defending against a melee Attack.
-
-The Parry value is 8 if the Melee Skill isn't trained.
-
-!!! summary "Parry Value"
-    <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">10</span> +
-        <span data-bracket-top="Melee Skill Bonus">Melee Skill</span> +
-        <span data-bracket-bottom="Armour">Toughness</span>
-    </div>
-
-</div>
 <div class="clearfix"></div>
 
-## Health (HP)
+### Health (HP)
 
-> [Health](#health) represents the character’s overall condition.
+> [Health][] represents the character’s overall condition.
 
-If Health drops to 0 or below, the creature has to make a
-[Might](/character#might-mi) roll with a DC of 16. On a failure, the creature
-becomes incapacitated, but not necessarily unconcious, until healed or dead.
+If [Health][] drops to 0 or below, the creature has to make a [Might][] roll
+with a DC of 16. On a failure, the creature becomes incapacitated, but not
+necessarily unconcious, until healed or dead. On success, the creature can
+continue fighting.
 
 An incapacitated creature loses 1 HP each turn until healed.
 
 A character that drops to or below his HP in negative dies.
 
-!!! summary "[Health](#health)"
+!!! summary "Health"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">8</span> +
-        <span data-bracket-top="Might Attribute">Might Attribute * 2</span>
+        <span data-bracket-bottom="Base">20</span> +
+        <span data-bracket-top="Might Attribute">MI * 5</span>
     </div>
+
+!!! tip "[GM Tip] NPCs and Health"
+    NPCs usually die outright when they reach 0 HP, if not purpously knocked
+    unconcious by the players.
 
 ## Experience (XP)
 
@@ -141,15 +165,13 @@ XP are gained due to noteable achievements or story completions. XP usually are
 only given out one at a time. The GM can decide to give out more for completing
 a longer adventure.
 
-Three XP increase your level by one.
+Every three XP increase a character's level by one.
 
 !!! summary "Experience and Level Ups"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="XP">3</span> =
         <span>Level Up</span>
     </div>
-
-Every three XP increase a character's level by one.
 
 ### Level (LVL)
 
@@ -166,9 +188,9 @@ resourceful and adaptable.
 
 * Every level, a character gains 1 Skill Point.
 
-* Every 3 levels, a character gains 1 Attribute Point.
+* Every 3 levels (Level 3, 6, 9, ...), a character gains 1 Attribute Point.
 
-* Every 4 levels, a character gains a Talent.
+* Every 4 levels (Level 4, 8, 12, ...), a character gains a Talent.
 
 ## Acquisitions
 
@@ -188,8 +210,7 @@ exceeding points are usually lost.
     <td><i class="qstar-wooden-crate"></i></td>
     <td>
     **Loot**<br>
-    Loot abstracts the items and clutter looted. 1 unit of Loot takes up 4 Bulk.
-    Loot is usually stored on a vessel or a player base.
+    Loot abstracts the items and clutter looted, which can be sold for a profit.
     </td>
 </tr>
 <tr>
@@ -204,48 +225,63 @@ exceeding points are usually lost.
     <td><i class="qstar-backup"></i></td>
     <td>
     **Influence**<br>
-    Influence is used to acquire and maintain Vessels.
+    Influence is used to acquire and maintain vessels. Influence can also be
+    used for social encounters. You can spend Influence on favors or on meetings
+    with important people.
     </td>
 </tr>
 <tr>
     <td><i class="qstar-gear-hammer"></i></td>
     <td>
     **Resources**<br>
-    Resources are used to acquire and maintain Equipment.
+    Resources are used to acquire and maintain equipment.
     </td>
 </tr>
 <tr>
     <td><i class="qstar-erlenmeyer"></i></td>
     <td>
     **Technology**<br>
-    Technology is used to unlock Equipment for personal use and vessels.
+    Technology is used to unlock equipment for personal use and vessels. It can
+    also be used to develop vaccines, gun-powder weapons etc.
     </td>
 </tr>
 </tbody></table></div>
 
 ### Loot (LOOT)
 
-> [Loot](#loot) abstracts the items and clutter looted.
+> [Loot](#loot) abstracts the items and clutter looted, that can be sold for
+> profit.
 
-1 unit of Loot takes up 4 Bulk. Loot is usually stored on a vessel or a player
-base.
+**GAINED**{.hf} by looting enemies, bases, etc., trading or via quest rewards.
+
+**USED**{.hf} to sell for a profit.
+
+Loot is usually stored on a vessel or a player base. 1 unit of Loot takes up 4
+Bulk.
 
 <div class="left" markdown="1">
 
-### Downtime (DT)
+### Spare Time (ST)
 
-> [Downtime](#downtime-dt) represents the time a character can invest in
-> [Downtime](#downtime-dt) activities.
+> [Spare Time](#sparetime-st) represents the time a character can invest in
+> activities outside of active play, e.g. in between sessions.
 
 **GAINED**{.hf} over the course of time. A character gains more
-[Downtime](#downtime-dt) in between adventures and longer periods of downtime
-during adventures. A character gains at least 1 [Downtime](#downtime-dt) each
+[Spare Time](#sparetime-st) in between adventures and longer periods of downtime
+during adventures. A character gains at least 1 [Spare Time](#sparetime-st) each
 session automatically.
 
 **USED**{.hf} to recuperate, craft, repair and upgrade items and vessels and to
 improve a character.
 
-!!! summary "Maximum [Downtime](#downtime-dt)"
+A Spare Time Roll is made by rolling 3d6. As with Skills, you can add applicable
+modifiers to the roll, e.g. skills, assets or circumstance modifiers. If the
+result is equal or higher than the specified difficulty, the roll is successful.
+A Spare Time Roll is specified by the following scheme: XtY, e.g. 1t8. *X*
+represents the number of successful rolls necessary, *Y* represents the
+difficulty for each roll.
+
+!!! summary "Maximum [Spare Time](#sparetime-st)"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Base">10</span>
     </div>
@@ -266,12 +302,12 @@ disappointing others.
 ranking characters, etc.
 
 More [Influence](#influence-inf) unlocks better equipment and better vessels.
-Traders may also give you better prices.
 
 !!! summary "Maximum [Influence](#influence-inf)"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Level">LVL</span> +
       <span data-bracket-top="Base">2</span> ±
+      <span data-bracket-bottom="Race / Talents / etc">Circumstance</span>
     </div>
 
 </div>
@@ -287,19 +323,18 @@ Traders may also give you better prices.
 **USED**{.hf} to create, repair, upgrade and acquire equipment and vessels.
 
 [Resources](#resources-res) can be used to repair vessels, in which case the
-[Resources](#resources-res) are spent on the repair.
+[Resources](#resources-res) are **spent** on the repair, and *permanently
+lowered*.
 
 If [Resources](#resources-res) are spent on equipment, your maximum
 [Resources](#resources-res) are *temporarily lowered* by that amount. This
 abstracts the upkeep of a powerful item.
 
-Powerful equipment requiring [Resources](#resources-res) usually adds
-[stunts](/stunts) or other benefits.
-
 !!! summary "Maximum [Resources](#resources-res)"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Level">LVL</span> +
       <span data-bracket-top="Base">2</span> ±
+      <span data-bracket-bottom="Race / Talents / etc">Circumstance</span>
     </div>
 
 </div>
@@ -311,20 +346,21 @@ Powerful equipment requiring [Resources](#resources-res) usually adds
 > knowledge, which on the other hand allows to unlock new
 > [Equipment](/equipment).
 
-**GAINED**{.hf} by aiding science missions, acquiring blueprints, spending time
-on researching certain scientific fields, etc.
+**GAINED**{.hf} by aiding science missions, acquiring blueprints, spending spare
+time on researching certain scientific fields, etc.
 
 **USED**{.hf} for unlocking experimental equipment and vessels. Once unlocked,
 the experimental equipment or vessel can be acquired.
 
 Certain ugprades require [Technology](#technology-tech) in order to be unlocked.
 Upgrades have to be unlocked only once, and *can* be shared between characters.
-Unlocking upgrades enables the acquisition of better equipment and vessels.
+Unlocking *permanently lowers* your [Technology](#technology-tech) value.
 
 !!! summary "Maximum [Technology](#technology-tech)"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Level">LVL</span> +
       <span data-bracket-top="Base">2</span> ±
+      <span data-bracket-bottom="Race / Talents / etc">Circumstance</span>
     </div>
 
 </div>
@@ -332,11 +368,18 @@ Unlocking upgrades enables the acquisition of better equipment and vessels.
 
 ## Living standard
 
-Every character has a normal living standard by default.
+*A living standard abstracts and simplifies the micro-management for
+standard-type campaigns.*
 
-This living standard includes normal accomadations, *free* food and drinks in
-populated areas, moving in local traffic and areas, etc. This means you don't
-have to pay for normal lodging, etc.
+Every character has a normal living standard by default. This living standard
+includes normal accomadations, *free* food and drinks in populated areas, moving
+in local traffic and areas, etc. This means you don't have to pay for normal
+lodging, etc.
+
+!!! tip "[GM Tip] Living standards and survival campaigns"
+    If surviving becomes the focus of a session, you can always overrules this
+    and require your players to manage food, drinks and other resources they
+    might need to survive, e.g. wood in a cold setting.
 
 ## Languages
 
@@ -355,7 +398,7 @@ You are able to communicate on a basic level. Others might not always understand
 you, but in general they know what you're trying to tell them.
 
 Cost
-:   8t
+:   1t8
 
 ##### Normal
 
@@ -363,14 +406,18 @@ You have a normal knowledge about the language. You can decipher most texts, and
 know a good fraction of the language's vocabulary.
 
 Cost
-:   12t
+:   1t12
 
 ##### Master
 
-You are able to have the most sophisticated conversations with others, and the
-decipher every text.
+You are able to have the most sophisticated conversations with others, and
+decipher every text, even older dialects that might not be around anymore.
 
 Cost
-:   16t
+:   1t16
 
 </div>
+
+--8<--
+_links.md
+--8<--

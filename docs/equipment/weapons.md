@@ -28,6 +28,10 @@ otherwise noted.
     Every Weapon can count as an Asset when trying to intimidate somebody with
     the Oratory Skill.
 
+!!! tip "[GM Tip] MAG refilling"
+    If your setting requires it, you can overrule the MAG refilling rule. Buying
+    one MAG should cost 1/25 of the weapon's CR cost.
+
 ## Melee Weapons
 
 | Name                    |  HIT |    DMG |  RoF | Weight | Bulk | Cost |

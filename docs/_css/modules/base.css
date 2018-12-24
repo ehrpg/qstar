@@ -1,4 +1,5 @@
 html {
+  font-size: 77.5%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
@@ -6,8 +7,9 @@ html {
   text-align: justify;
 }
 
-body, input {
-  font-family: 'Roboto';
+body,
+input {
+  font-family: "Zag", "Roboto";
 }
 
 /**

@@ -32,13 +32,13 @@ theme:
 extra_css:
     - _css/extra.css
     - _css/font-awesome.min.css
-    - _css/ehicons.css
     - _css/game-icons.css
 extra_javascript:
     - _js/sorttable.js
-    - _js/extra.js
 
 markdown_extensions:
+    - pymdownx.snippets:
+        base_path: docs/
     - pymdownx.details
     - pymdownx.smartsymbols
     - pymdownx.tilde

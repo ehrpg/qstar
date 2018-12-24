@@ -17,7 +17,7 @@
     padding: 5px;
     white-space: nowrap;
     left: 50%;
-    transform: translateX(-50%)
+    transform: translateX(-50%);
   }
 
   &:after {
@@ -26,10 +26,8 @@
     height: 12px;
     position: absolute;
     left: -5px;
-    right:0;
+    right: 0;
     top: 15px;
-    // border: 1px solid #444;
-    // border-top: none;
   }
 }
 
@@ -38,23 +36,21 @@
     content: "\25BF";
     display: block;
     height: 12px;
-    // border: 1px solid #444;
     position: absolute;
     top: -18px;
     left: -5px;
-    right:0;
-    // border-bottom: none;
+    right: 0;
   }
 
   &:after {
     content: attr(data-bracket-top);
     position: absolute;
-    top:-34px;
+    top: -34px;
     font-size: 80%;
     padding: 5px;
     white-space: nowrap;
     left: 50%;
-    transform: translateX(-50%)
+    transform: translateX(-50%);
   }
 }
 

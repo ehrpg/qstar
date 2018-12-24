@@ -1,213 +1,250 @@
-$headers: h1, h2, h3, h4, h5;
-
-@each $header in $headers {
-  #{$header} {
-    position: relative !important;
-  }
-
-  #{$header}:after {
-    font-family: "game-icons";
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    text-decoration: none;
-    text-transform: none;
-    margin-left: 0.5rem !important;
-    vertical-align: top;
-  }
-
-  #{$header} > a {
-    position: absolute;
-    right: 0;
-    &:after {
-      content: "" !important;
-    }
-  }
+@mixin game-icon {
+  font-family: "game-icons";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  margin-right: 5px;
+  vertical-align: top;
 }
 
-*:not(.md-search-result__item ) > {
-    *#might-skills,
-    *#speed-skills,
-    *#intelligence-skills,
-    *#charisma-skills {
-      z-index: 1;
-      padding-top: 1em;
-      margin-bottom: 0.8rem;
-    }
+$might: "\E696";
+$speed: "\E543";
+$intelligence: "\E5E6";
+$charisma: "\E6CC";
 
+$loot: "\E5B0";
+$spareTime: "\E355";
+$influence: "\E6BB";
+$resources: "\EA05";
+$technology: "\EB3B";
 
-    a[href="./equipment"]:after,
-    a[href*="#"]:after {
-      font-family: "game-icons";
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-      font-style: normal;
-      font-variant: normal;
-      font-weight: normal;
-      text-decoration: none;
-      text-transform: none;
-      margin-left: 2px;
-      vertical-align: top;
-    }
+a[href*="#"]:before {
+  @include game-icon;
+}
 
-    *#endurance-ep:after,
-    a[href*="#endurance"]:after {
-      content: "\EB5C";
-    }
+a[href*="#might"]:before {
+  content: $might;
+}
 
-    *#health-hp:after,
-    a[href*="#health"]:not([href*="#healthy"]):after {
-      content: "\E4B0";
-    }
+a[href*="#speed"]:before {
+  content: $speed;
+}
 
-    *#perks:after,
-    a[href$="#perks"]:after {
-      content: "\E78F";
-    }
+a[href*="#intelligence"]:before {
+  content: $intelligence;
+}
 
-    *#flaws:after,
-    a[href*="#flaws"]:after {
-      content: "\E840";
-    }
+a[href*="#charisma"]:before {
+  content: $charisma;
+}
 
-    *#might-mi:after,
-    *#might-skills:after,
-    a[href*="#might"]:after {
-      content: "\E696";
-    }
+a[href*="#loot"]:before {
+  content: $loot;
+}
 
-    *#speed-sp:after,
-    *#speed-skills:after,
-    a[href*="#speed"]:after {
-      content: "\E543";
-    }
+a[href*="#spare-time"]:before {
+  content: $spareTime;
+}
 
-    *#intelligence-in:after,
-    *#intelligence-skills:after,
-    a[href*="#intelligence"]:after {
-      content: "\E5E6";
-    }
+a[href*="#influence"]:before {
+  content: $influence;
+}
 
-    *#charisma-ch:after,
-    *#charisma-skills:after,
-    a[href*="#charisma"]:after {
-      content: "\E6CC";
-    }
+a[href*="#resources"]:before {
+  content: $resources;
+}
 
-    // a[href$="#dmg-damage"]:after,
-    // a[href$="#damage"]:after {
-    //   content: "\E1E8";
-    // }
+a[href*="#technology"]:before {
+  content: $technology;
+}
 
-    // a[href*="#crit-critical"]:after,
-    // a[href*="#critical-damage"]:after {
-    //   content: "\E5E2";
-    // }
+*:not(.md-search-result__item) > {
+  // h1,
+  // h2,
+  // h3,
+  // h4,
+  // h5 {
+  //   position: relative;
+  //   &:before {
+  //     @include game-icon;
+  //   }
+  //   & > a {
+  //     position: absolute;
+  //     right: 0;
+  //     &:before {
+  //       content: "";
+  //     }
+  //   }
+  // }
 
-    // h3#damage-reduction:after,
-    // a[href*="#DR"]:after,
-    // a[href*="#damage-reduction"]:after {
-    //   content: "\E023";
-    // }
+  // *#might-skills,
+  // *#speed-skills,
+  // *#intelligence-skills,
+  // *#charisma-skills {
+  //   z-index: 1;
+  //   padding-top: 1em;
+  //   margin-bottom: 0.8rem;
+  // }
 
-    // h4#hit,
-    // a[href*="#hit"]:after,
-    // a[href*="#attack"]:after {
-    //   content: "\E8AA";
-    // }
+  // *#endurance-ep:before,
+  // a[href*="#endurance"]:before {
+  //   content: "\EB5C";
+  // }
 
-    // a[href*="#rof"]:after,
-    // a[href*="rof#stats"]:after {
-    //   content: "\E1DA";
-    // }
+  // *#health-hp:before,
+  // a[href*="#health"]:not([href*="#healthy"]):before {
+  //   content: "\E4B0";
+  // }
 
-    // a[href*="#cap-capacity"]:after {
-    //   content: "\E1B6";
-    // }
+  // *#perks:before,
+  // a[href$="#perks"]:before {
+  //   content: "\E78F";
+  // }
 
-    // a[href*="reload#stats"]:after {
-    //   content: "\E094";
-    // }
+  // *#flaws:before,
+  // a[href*="#flaws"]:before {
+  //   content: "\E840";
+  // }
 
-    *#attributes:after,
-    a[href*="#attributes"]:after {
-      content: "\E6C0";
-    }
+  // *#might-mi:before,
+  // *#might-skills:before,
+  // a[href*="#might"]:before {
+  //   content: "\E696";
+  // }
 
-    *#skills:after,
-    a[href*="#skills"]:after,
-    *#skill-ranks:after,
-    a[href*="#skill-ranks"]:after {
-      content: "\E71A";
-    }
+  // *#speed-sp:before,
+  // *#speed-skills:before,
+  // a[href*="#speed"]:before {
+  //   content: "\E543";
+  // }
 
-    // a[href^="./equipment"]:after {
-    //   content: "\E77F";
-    // }
+  // *#intelligence-in:before,
+  // *#intelligence-skills:before,
+  // a[href*="#intelligence"]:before {
+  //   content: "\E5E6";
+  // }
 
-    // *#armour:after,
-    // a[href*="#armour"]:after {
-    //   content: "\EA22";
-    // }
+  // *#charisma-ch:before,
+  // *#charisma-skills:before,
+  // a[href*="#charisma"]:before {
+  //   content: "\E6CC";
+  // }
 
-    *#turn-order:after,
-    a[href*="#turn-order"]:after {
-      content: "\E385";
-    }
+  // // a[href$="#dmg-damage"]:before,
+  // // a[href$="#damage"]:before {
+  // //   content: "\E1E8";
+  // // }
 
-    *#downtime-dt:after,
-    a[href*="#downtime"]:after {
-      content: "\E355";
-    }
+  // // a[href*="#crit-critical"]:before,
+  // // a[href*="#critical-damage"]:before {
+  // //   content: "\E5E2";
+  // // }
 
-    *#influence-inf:after,
-    a[href*="#influence"]:after {
-      content: "\E368";
-    }
+  // // h3#damage-reduction:before,
+  // // a[href*="#DR"]:before,
+  // // a[href*="#damage-reduction"]:before {
+  // //   content: "\E023";
+  // // }
 
-    *#resources-res:after,
-    a[href*="#resources"]:after {
-      content: "\E5B0";
-    }
+  // // h4#hit,
+  // // a[href*="#hit"]:before,
+  // // a[href*="#attack"]:before {
+  // //   content: "\E8AA";
+  // // }
 
-    *#technology-tech:after,
-    a[href*="#technology"]:after {
-      content: "\EB3B";
-    }
+  // // a[href*="#rof"]:before,
+  // // a[href*="rof#stats"]:before {
+  // //   content: "\E1DA";
+  // // }
 
-    *#credits:after,
-    a[href*="#credits"]:after {
-      font-style: normal;
-      content: "\FFE0";
-    }
+  // // a[href*="#cap-capacity"]:before {
+  // //   content: "\E1B6";
+  // // }
 
-    .qs-cr {
-      font-style: normal;
-      &:after {
-        content: "\E8D7";
-      }
-    }
+  // // a[href*="reload#stats"]:before {
+  // //   content: "\E094";
+  // // }
 
+  // *#attributes:before,
+  // a[href*="#attributes"]:before {
+  //   content: "\E6C0";
+  // }
 
-    a[href$="#d6"],
-    a[href$="#3d6"] {
-      color: #222 !important;
-      pointer-events: none;
-      cursor: default;
-    }
+  // *#skills:before,
+  // a[href*="#skills"]:before,
+  // *#skill-ranks:before,
+  // a[href*="#skill-ranks"]:before {
+  //   content: "\E71A";
+  // }
 
-    a[href$="#d6"]:after,
-    a[href$="#3d6"]:after {
-      color: #222;
-    }
+  // // a[href^="./equipment"]:before {
+  // //   content: "\E77F";
+  // // }
 
-    a[href$="#d6"]:after {
-      content: "\E91B";
-    }
+  // // *#armour:before,
+  // // a[href*="#armour"]:before {
+  // //   content: "\EA22";
+  // // }
 
-    a[href$="#3d6"]:after {
-      content: "\E91B\E91B\E91B";
-    }
+  // *#turn-order:before,
+  // a[href*="#turn-order"]:before {
+  //   content: "\E385";
+  // }
+
+  // *#downtime-dt:before,
+  // a[href*="#downtime"]:before {
+  //   content: "\E355";
+  // }
+
+  // *#influence-inf:before,
+  // a[href*="#influence"]:before {
+  //   content: "\E368";
+  // }
+
+  // *#resources-res:before,
+  // a[href*="#resources"]:before {
+  //   content: "\E5B0";
+  // }
+
+  // *#technology-tech:before,
+  // a[href*="#technology"]:before {
+  //   content: "\EB3B";
+  // }
+
+  // *#credits:before,
+  // a[href*="#credits"]:before {
+  //   font-style: normal;
+  //   content: "\FFE0";
+  // }
+
+  // .qs-cr {
+  //   font-style: normal;
+  //   &:before {
+  //     content: "\E8D7";
+  //   }
+  // }
+
+  // a[href$="#d6"],
+  // a[href$="#3d6"] {
+  //   color: #222 !important;
+  //   pointer-events: none;
+  //   cursor: default;
+  // }
+
+  // a[href$="#d6"]:before,
+  // a[href$="#3d6"]:before {
+  //   color: #222;
+  // }
+
+  // a[href$="#d6"]:before {
+  //   content: "\E91B";
+  // }
+
+  // a[href$="#3d6"]:before {
+  //   content: "\E91B\E91B\E91B";
+  // }
 }
