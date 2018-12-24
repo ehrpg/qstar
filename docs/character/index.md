@@ -256,19 +256,19 @@ exceeding points are usually lost.
 
 **USED**{.hf} to sell for a profit.
 
-Loot is usually stored on a vessel or a player base. 1 unit of Loot takes up 4
-Bulk.
+[Loot][] is usually stored on a vessel or a player base. 1 unit of [Loot][]
+takes up 4 Bulk.
 
 <div class="left" markdown="1">
 
 ### Spare Time (ST)
 
-> [Spare Time](#sparetime-st) represents the time a character can invest in
+> [Spare Time][] represents the time a character can invest in
 > activities outside of active play, e.g. in between sessions.
 
 **GAINED**{.hf} over the course of time. A character gains more
-[Spare Time](#sparetime-st) in between adventures and longer periods of downtime
-during adventures. A character gains at least 1 [Spare Time](#sparetime-st) each
+[Spare Time][] in between adventures and longer periods of downtime
+during adventures. A character gains at least 1 [Spare Time][] each
 session automatically.
 
 **USED**{.hf} to recuperate, craft, repair and upgrade items and vessels and to
@@ -281,7 +281,7 @@ A Spare Time Roll is specified by the following scheme: XtY, e.g. 1t8. *X*
 represents the number of successful rolls necessary, *Y* represents the
 difficulty for each roll.
 
-!!! summary "Maximum [Spare Time](#sparetime-st)"
+!!! summary "Maximum [Spare Time][]"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Base">10</span>
     </div>
@@ -305,8 +305,8 @@ More [Influence](#influence-inf) unlocks better equipment and better vessels.
 
 !!! summary "Maximum [Influence](#influence-inf)"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Level">LVL</span> +
-      <span data-bracket-top="Base">2</span> ±
+      <span data-bracket-bottom="Base">2</span> +
+      <span data-bracket-top="Level">LVL</span> ±
       <span data-bracket-bottom="Race / Talents / etc">Circumstance</span>
     </div>
 
@@ -332,8 +332,8 @@ abstracts the upkeep of a powerful item.
 
 !!! summary "Maximum [Resources](#resources-res)"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Level">LVL</span> +
-      <span data-bracket-top="Base">2</span> ±
+      <span data-bracket-bottom="Base">2</span> +
+      <span data-bracket-top="Level">LVL</span> ±
       <span data-bracket-bottom="Race / Talents / etc">Circumstance</span>
     </div>
 
@@ -358,8 +358,8 @@ Unlocking *permanently lowers* your [Technology](#technology-tech) value.
 
 !!! summary "Maximum [Technology](#technology-tech)"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Level">LVL</span> +
-      <span data-bracket-top="Base">2</span> ±
+      <span data-bracket-bottom="Base">2</span> +
+      <span data-bracket-top="Level">LVL</span> ±
       <span data-bracket-bottom="Race / Talents / etc">Circumstance</span>
     </div>
 

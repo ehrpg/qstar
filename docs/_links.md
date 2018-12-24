@@ -14,6 +14,8 @@
 
 [Loot]: /character/#loot-loot
 
+[Spare Time]: /character/#spare-time-st
+
 [Resource]: /character/#resources-res
 [Resources]: /character/#resources-res
 
