@@ -19,7 +19,7 @@ See [Talents](/character/talents/).
 ## Attributes
 
 > Attributes define the character's overall physique and mental capabilities.
-> As such they count as the cornerstone for a character's Skill.
+> As such they count as the cornerstone for a character's [Skill][].
 
 An average person has each Attribute at 2 or 3 points. A rating of 1 is an
 impairment, while a 6 is almost superhuman.
@@ -66,8 +66,8 @@ and lets you act in a [Crisis](/#crisis) sooner.
 > [Intelligence][] describes how well your character learns new
 things, and how well he remembers already existing things.
 
-[Intelligence][] improves a character's Attribute to assess
-situations and skills related to knowing things.
+[Intelligence][] improves a character's ability to assess situations and
+[Skills][] related to knowing things.
 
 </div>
 <div class="right" markdown="1">
@@ -210,39 +210,40 @@ All exceeding points are usually lost.
     <td><i class="qstar-wooden-crate"></i></td>
     <td>
     **Loot**<br>
-    Loot abstracts the items and clutter looted, which can be sold for a profit.
+    [Loot][] abstracts the items and clutter looted, which can be sold for a
+    profit.
     </td>
 </tr>
 <tr>
     <td><i class="qstar-stopwatch"></i></td>
     <td>
     **Spare Time**<br>
-    Spare Time is used for Spare Time Rolls. Each Spare Time Roll requires one
-    Spare Time Point.
+    [Spare Time][] is used for Spare Time Rolls. Each Spare Time Roll requires
+    one Spare Time Point.
     </td>
 </tr>
 <tr>
-    <td><i class="qstar-backup"></i></td>
+    <td><i class="qstar-shaking-hands"></i></td>
     <td>
     **Influence**<br>
-    Influence is used to acquire and maintain vessels. Influence can also be
-    used for social encounters. You can spend Influence on favors or on meetings
-    with important people.
+    [Influence][] is used to acquire and maintain vessels. [Influence][] can
+    also be used for social encounters. You can spend [Influence][] on favors or
+    on meetings with important people.
     </td>
 </tr>
 <tr>
     <td><i class="qstar-gear-hammer"></i></td>
     <td>
     **Resources**<br>
-    Resources are used to acquire and maintain equipment.
+    [Resources][] are used to acquire and maintain equipment.
     </td>
 </tr>
 <tr>
     <td><i class="qstar-erlenmeyer"></i></td>
     <td>
     **Technology**<br>
-    Technology is used to unlock equipment for personal use and vessels. It can
-    also be used to develop vaccines, gun-powder weapons etc.
+    [Technology][] is used to unlock equipment for personal use and vessels. It
+    can also be used to develop vaccines, gun-powder weapons etc.
     </td>
 </tr>
 </tbody></table></div>
@@ -257,7 +258,7 @@ All exceeding points are usually lost.
 **USED**{.hf} to sell for a profit.
 
 [Loot][] is usually stored on a vessel or a player base. 1 unit of [Loot][]
-takes up 4 Bulk.
+takes up 4 [Bulk][].
 
 <div class="left" markdown="1">
 
@@ -274,12 +275,12 @@ session automatically.
 **USED**{.hf} to recuperate, craft, repair and upgrade items and vessels and to
 improve a character.
 
-A Spare Time Roll is made by rolling 3d6. As with Skills, you can add applicable
-modifiers to the roll, e.g. skills, assets or circumstance modifiers. If the
-result is equal or higher than the specified difficulty, the roll is successful.
-A Spare Time Roll is specified by the following scheme: XtY, e.g. 1t8. *X*
-represents the number of successful rolls necessary, *Y* represents the
-difficulty for each roll.
+A Spare Time Roll is made by rolling 3d6. As with [Skills][], you can add
+applicable modifiers to the roll, e.g. [Skills][], assets or circumstance
+modifiers. If the result is equal or higher than the specified difficulty, the
+roll is successful. A Spare Time Roll is specified by the following scheme: XtY,
+e.g. 1t8. *X* represents the number of successful rolls necessary, *Y*
+represents the difficulty for each roll.
 
 !!! summary "Maximum [Spare Time][]"
     <div class="formula formula-top formula-bottom">

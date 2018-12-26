@@ -20,7 +20,7 @@ $charisma: "\E6CC";
 
 $loot: "\E5B0";
 $spareTime: "\E355";
-$influence: "\E6BB";
+$influence: "\E368";
 $resources: "\EA05";
 $technology: "\EB3B";
 
@@ -45,7 +45,7 @@ a:not(.headerlink) {
     content: $charisma;
   }
 
-  &[href*="#loot"]:before {
+  &[href*="#loot-loot"]:before {
     content: $loot;
   }
 
@@ -65,8 +65,13 @@ a:not(.headerlink) {
     content: $technology;
   }
 
-  &[href$="#d6"]:before {
+  &[href*="#d6"]:before {
     content: $d6;
+  }
+
+  &[href*="#skills"]:before,
+  &[href*="#skill-ranks"]:before {
+    content: "\E71A";
   }
 }
 

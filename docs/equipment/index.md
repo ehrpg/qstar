@@ -66,14 +66,13 @@ step of the character's [Might][] below the item's Weight, the character's:
 *Only items that are not equipped, e.g. rations, a tent, etc. are subject to
 this rule.*
 
-An item that specifies it's Bulk takes up that much Inventory Space. Ten light
-items specified by a Bulk value of **L** count as 1 Bulk. Some items' Bulk are
-negligible; they do not list their Bulk value.
+An item that specifies it's [Bulk][] takes up that much Inventory Space. Ten
+light items specified by a [Bulk][] value of **L** count as 1 [Bulk][]. Some
+items' [Bulk][] are negligible; they do not list their [Bulk][] value.
 
-You can carry up an amount of Bulk equal to twice your
-[Might][] without penalty; if you carry more you gain the
-*Slowed* condition. You can't hold or carry more Bulk than four times your
-[Might][].
+You can carry up an amount of [Bulk][] equal to twice your [Might][] without
+penalty; if you carry more you gain the *Slowed* condition. You can't hold or
+carry more [Bulk][] than four times your [Might][].
 
 ## Looting items
 

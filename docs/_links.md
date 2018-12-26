@@ -27,7 +27,10 @@
 [Race]: /character/races/#races
 [Races]: /character/races/#races
 
+[Skill]: /character/skills/#skills
 [Skills]: /character/skills/#skills
 [Trained-only Skills]: /character/skills/#trained-only-skills
 
 [Credits]: /equipment/#credits
+
+[Bulk]: /equipment/#bulk

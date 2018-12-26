@@ -184,7 +184,7 @@ a:not(.headerlink)[href*="#charisma"]:before {
   content: "";
 }
 
-a:not(.headerlink)[href*="#loot"]:before {
+a:not(.headerlink)[href*="#loot-loot"]:before {
   content: "";
 }
 
@@ -193,7 +193,7 @@ a:not(.headerlink)[href*="#spare-time"]:before {
 }
 
 a:not(.headerlink)[href*="#influence"]:before {
-  content: "";
+  content: "";
 }
 
 a:not(.headerlink)[href*="#resources"]:before {
@@ -204,8 +204,12 @@ a:not(.headerlink)[href*="#technology"]:before {
   content: "";
 }
 
-a:not(.headerlink)[href$="#d6"]:before {
+a:not(.headerlink)[href*="#d6"]:before {
   content: "";
+}
+
+a:not(.headerlink)[href*="#skills"]:before, a:not(.headerlink)[href*="#skill-ranks"]:before {
+  content: "\E71A";
 }
 
 .md-typeset:not(.md-search-result__item) div.perk dl {

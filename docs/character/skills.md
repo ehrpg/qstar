@@ -40,7 +40,7 @@ untrained.
 ### Trained-only Skills
 
 Some [Skills][] can only be used if you trained them first. Improving a
-trained-only skill works the same as with normal [Skills][].
+trained-only [Skill][] works the same as with normal [Skills][].
 
 [Trained-only Skills][] are indicated by a **"*"** next to their name.
 
@@ -52,9 +52,9 @@ effected by noticeable outside factors, the character has to make a skill roll.
 A skill roll is made by rolling [3d6](#3d6) and adding the [Skills][]'s
 respective bonuses and penalties to the roll.
 
-If no skill applies for a specific task, or the skill isn't available to the
-character, the GM can decide that the player can also make a generic,
-*untrained* skill roll.
+If no [Skill][] applies for a specific task, or the [Skill][] isn't available to
+the character, the GM can decide that the player can also make a generic,
+*untrained* [Skill][] roll.
 
 A Skill roll can further be influenced by Assets and Circumstance like heavy
 rain, help from allies, etc.
@@ -93,7 +93,7 @@ in order to succeed. Otherwise, the check fails.
 ## Skill competitions
 
 Characters compete against each others using [Skills][]. Unless otherwise
-stated, the same skill is used for both parties.
+stated, the same [Skill][] is used for both parties.
 
 Both parties make a skill roll. The party with the higher result wins. On a tie,
 the better trained character wins. If the [Skills][] are on the same level, roll
@@ -113,7 +113,7 @@ Below is a list of possible [Skills][], provided by the Q* RPG system.
 !!! tip "[GM Tip] - [Trained-only Skills][]"
     Some [Skills][] are trained-only or not trained-only based on available
     media and common knowledge of the digital age. Depending on your setting you
-    can adjust if a skill is trained-only by your best knowledge.
+    can adjust if a [Skill][] is trained-only by your best knowledge.
 
 ### Might Skills
 
@@ -123,7 +123,7 @@ Below is a list of possible [Skills][], provided by the Q* RPG system.
 
 Athletics used for climbing, jumping, running, swimming, etc.
 <br>
-Without this skill being trained, the character **cannot** swim.
+Without this [Skill][] being trained, the character **cannot** swim.
 
 ##### Force
 
@@ -162,7 +162,7 @@ Light Weapons is opposed by the character's defensive value.
 
 Stealth is used to hide from others, sneak around, lockpicking, etc.
 <br>
-It's opposed by the **Search** skill.
+It's opposed by the **Search** [Skill][].
 
 ##### Operate*
 
@@ -178,7 +178,7 @@ drones.
 ##### Search
 
 Search is used to find and spot hidden things, such as creatures that used the
-**Stealth** skill.
+**Stealth** [Skill][].
 
 ##### Science\* or Knowledge\*
 
@@ -189,9 +189,9 @@ e.g. *Science - Computer* to hack a terminal.
 Available fields include: Biology, Chemistry, Computer, Geography & History,
 Medicine, Monster Lore, and Physics.
 <br>
-Choose two fields instead of one when training this skill the first time.
+Choose two fields instead of one when training this [Skill][] the first time.
 Improving any of these two fields also improves the other one you chose.
-Additional fields can be trained following normal skill learning rules.
+Additional fields can be trained following normal [Skill][] learning rules.
 
 ##### Engineering*
 
@@ -207,18 +207,18 @@ advanced machinery, etc.
 ##### Empathy
 
 Empathy is used to notice emotional changes of an intelligent being. You can use
-this skill to determine if a character is lying, sad, scared, etc. It counters
-the **Oratory** skill.
+this [Skill][] to determine if a character is lying, sad, scared, etc. It
+counters the **Oratory** [Skill][].
 
 ##### Oratory
 
-Oratory is used to lie, deliver speeches, persuade, intimidate etc.
+**Oratory** is used to lie, deliver speeches, persuade, intimidate etc.
 <br>
 Available fields include: Bartering, Bluff (Lying), Diplomacy, and Intimidate.
 <br>
-Choose two fields instead of one when training this skill the first time.
+Choose two fields instead of one when training this [Skill][] the first time.
 Improving any of these two fields also improves the other one you chose.
-Additional fields can be trained following normal skill learning rules.
+Additional fields can be trained following normal [Skill][] learning rules.
 
 ##### Tactics*
 
@@ -228,8 +228,8 @@ tactically breach into buildings or rooms, etc.
 ##### Command
 
 Command is used to command crews, give orders on a vessel, lead others, etc. To
-lead people, use the Oratory Skill. To make a crew work efficiently use this
-skill.
+lead people, use the **Oratory** [Skill][]. To make a crew work efficiently use
+this [Skill][].
 
 </div>
 
