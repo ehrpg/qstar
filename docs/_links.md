@@ -7,6 +7,10 @@
 [Intelligence]: /character/#intelligence-in
 [Charisma]: /character/#charisma-ca
 
+[Action]: /character/skills/#action
+[Knowledge]: /character/skills/#knowledge
+[Social]: /character/skills/#social
+
 [Defence]: /character/#defence
 [Perception]: /character/#perception
 [Pace]: /character/#pace

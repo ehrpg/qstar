@@ -2,17 +2,22 @@
 
 Q* is an easy-to-learn and adaptable RPG system for games such as pen and paper
 games. It's heavily enspired by great RPGs and RPG systems such as Divinity:
-Original Sin, Dungeons & Dragons, Mindjammer, Fragged Empire, Savage Worlds,
-etc.
+Original Sin, Dungeons & Dragons, Mindjammer, Fragged Empire, Savage Worlds, How
+to be a hero, etc.
 
 It aims to provide an RPG system that's usable for any kind of play and for any
 setting such as medieval, fantasy, modern, sci-fi settings or even a combination
-of any of these.
+of any of these, although the base rule set is built with mainly modern and
+sci-fi settings in mind.
 
 ## Prerequisites
 
-Every player and the GM need three six sided dice. A d20 or d100 also can be
-useful when rolling on random tables.
+### Dice
+
+All players and the GM need one of each of the following dice: a [d4](#d4), a
+[d6](#d6), a [d8](#d8), a [d10](#d10) and a [d12](#d12).
+
+A GM should also have a d20 and a d100 to roll on random tables.
 
 ## Basic Mechanics
 
@@ -20,20 +25,28 @@ useful when rolling on random tables.
 <table>
 <tbody>
 <tr>
-<td> ![](./_imgs/3d6.png) </td>
+<td><i class="qstar-d12"></i></td>
 <td>
-Everything a character does involves a Skill check. A Skill check is always made
-using three six sided dice, abbreviated by [3d6](#3d6). The **higher** the
-result, the **better**.
+Every character uses a [d4](#d4), [d6](#d6), [d8](#d8), [d10](#d10) and a
+[d12](#d12) for everything he's doing. Every roll is made with a single die. The
+higher the die, the better the chance on rolling **higher**, which is
+**better**.
 </td>
 </tr>
 <tr>
-<td><i class="qstar-perspective-dice-six-faces-six"></i></td>
-<td>A rolled **6** counts as a critical success.</td>
-</tr>
-<tr>
-<td>2.5</td>
-<td>All fractions are **always** rounded down.</td>
+<td>7.5</td>
+<td>
+All fractions are **always** rounded down.
+When a [Skill][] is divided, divide the number of sides of the die. Flat modifiers
+are added to the sides of the die before the sides are divided.
+
+!!! example "Skill Fraction"
+    <div class="formula formula-top formula-bottom">
+      <span data-bracket-bottom="15">( d12 + 3 )</span> /
+      <span data-bracket-top="divisor">2</span> =
+      <span data-bracket-bottom="result">7</span>
+    </div>
+</td>
 </tr>
 <tr>
 <td>-1</td>
@@ -57,130 +70,49 @@ particularly good visibility, wind, etc.
 
 ## Die Rolls
 
-There are three different kind of die rolls, whereas each one uses a set amount
-of dice:
+There are three different kinds of die rolls:
 
-* **Skill** rolls use [3d6](#3d6) dice;
-* **Damage** rolls use the weapon's corresponding dice; and
-* **Random** rolls use the random table's corresponding dice.
+* **Skill** rolls, which include Attack rolls,
+* **Damage** rolls, and
+* **Random** rolls.
+
+All creatures are defined by their [Skills][], which are used for all **Skill**
+and **Damage** rolls. **Random** rolls use the random table's corresponding
+dice.
+
+### Task Difficulty
+
+A task's [Difficulty Level](/crisis#difficulty) is **always** 4. The only
+exceptions are combat values, such as parrying.
+
+A check has to be equal to or higher this [Difficulty Level](/crisis#difficulty)
+in order to succeed. Otherwise, the check fails. Circumstances modify the check
+positively or negatively.
+
+!!! info "Check Failures"
+    A failed check doesn't necessarily mean, that the check completely failed.
+    E.g. when climbing, a failed check might simply mean, that there was no
+    progress while climbing. Or a failed sailing check might mean, that the
+    voyage takes a few days longer.
+
+### Critical Failures
+
+If the die for a Skill roll comes up with a **1**, it critically fails.
+
+A critical fail can not be prevented by any means, and the character has to
+suffer the consequences of the outcome.
 
 ### Critical Successes
 
-Whenever a [d6](#d6) is rolled with its highest possible result, a **6**, you
-score a Critical Success. Only **Skill** rolls can have Critical Successes. A
-critical success does not influence the outcome of the **Skill** roll, they only
-allow for additional effects, e.g. when Attacking.
+Whenever a die is rolled with its highest possible result (e.g. rolling a 10 on
+a [d10](#d10)), the die *explodes*. This allows you to roll the die again, and
+add the result to your check. A die can *explode* multiple times. If a **1**
+comes up while the die is exploded, the check does not critically fail.
 
-## Getting Started
+### Contests
 
-Get started by reading the [Character Creation](/character/character-creation)
-section.
-
-## Glossary
-
-[Action point](/crisis#actions)
-:   AP, used for atomic actions in a crisis.
-
-Base Value
-:   A base value that's used for rolls or to determine values. It's the same for
-all characters and creatures.
-
-*Failure*{.qs-f}
-:   This indicates, that a check failed or has to be failed for the described
-outcome.
-
-Roleplaying Circumstance
-:   Usually added by a race, perks or flaws. Roleplaying circumstances include
-prejudice, others liking or disliking you, being a known criminal, etc.
-
-*Success*{.qs-s}
-:   This indicates, that a check was succeeded or has to be succeeded for the
-described outcome.
-
-Weight
-:   The minimum requirement of [Might][] to *use* items.
-Weight exceeding a character's [Might][] imposes penalties.
-
-## Abbreviations
-
-<div class="qs-list-test" markdown="1">
-
-* Attributes
-
-MI
-:   [Might][]
-
-SP
-:   [Speed][]
-
-IN
-:   [Intelligence][]
-
-CH
-:   [Charisma][]
-
-* Character
-
-XP
-:   [Experience][]
-
-LVL
-:   Level
-
-EP
-:   [Endurance points](/character#endurance-ep)
-
-HP
-:   [Health points](/character#health-hp)
-
-* Acquisitions
-
-ST
-:   [Spare Time][]
-
-INF
-:   [Influence][]
-
-RES
-:   [Resources][]
-
-TECH
-:   [Technology][]
-
-* Equipment
-
-CR
-:   [Credits](/equipment#credits)
-
-HIT
-:   [Hit bonus](/equipment/#weapons)
-
-END
-:   [Endurance damage](/equipment/#weapons)
-
-DMG
-:   [Health damage](/equipment/#weapons)
-
-RNG
-:   [Range](/equipment/#weapons)
-
-MAG
-:   [Magazines](/equipment/#weapons)
-
-CAP
-:   [Capacity](/equipment/#weapons)
-
-RoF
-:   [Rate of fire](/equipment/#weapons)
-
-REL
-:   [Reload](/equipment/#weapons)
-
-* Crisis
-
-AP
-: [Action points](/crisis#actions)
-
-</div>
+When two parties compete with each other in the same Skill or even different
+Skills and stats, both parties have to roll. The party with the higher result
+wins the contest. On a tie both parties roll again.
 
 --8<-- "_links.md"

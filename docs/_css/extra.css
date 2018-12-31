@@ -168,7 +168,7 @@ a:not(.headerlink)[href*="#"]:before {
   vertical-align: top;
 }
 
-a:not(.headerlink)[href*="#might"]:before {
+a:not(.headerlink)[href*="#action"]:before, a:not(.headerlink)[href*="#might"]:before {
   content: "";
 }
 
@@ -176,11 +176,11 @@ a:not(.headerlink)[href*="#speed"]:before {
   content: "";
 }
 
-a:not(.headerlink)[href*="#intelligence"]:before {
+a:not(.headerlink)[href$="#knowledge"]:before, a:not(.headerlink)[href*="#intelligence"]:before {
   content: "";
 }
 
-a:not(.headerlink)[href*="#charisma"]:before {
+a:not(.headerlink)[href*="#social"]:before, a:not(.headerlink)[href*="#charisma"]:before {
   content: "";
 }
 
@@ -210,6 +210,46 @@ a:not(.headerlink)[href*="#d6"]:before {
 
 a:not(.headerlink)[href*="#skills"]:before, a:not(.headerlink)[href*="#skill-ranks"]:before {
   content: "\E71A";
+}
+
+*:not(.md-search-result__item) > a[href$="#d4"],
+*:not(.md-search-result__item) > a[href$="#d6"],
+*:not(.md-search-result__item) > a[href$="#d8"],
+*:not(.md-search-result__item) > a[href$="#d10"],
+*:not(.md-search-result__item) > a[href$="#d12"] {
+  color: #222 !important;
+  pointer-events: none;
+  cursor: default;
+}
+
+*:not(.md-search-result__item) > a[href$="#d4"]:before,
+*:not(.md-search-result__item) > a[href$="#d6"]:before,
+*:not(.md-search-result__item) > a[href$="#d8"]:before,
+*:not(.md-search-result__item) > a[href$="#d10"]:before,
+*:not(.md-search-result__item) > a[href$="#d12"]:before {
+  font-family: "game-icons";
+  color: #222;
+  vertical-align: middle;
+}
+
+*:not(.md-search-result__item) > a[href$="#d4"]:before {
+  content: "\E920";
+}
+
+*:not(.md-search-result__item) > a[href$="#d6"]:before {
+  content: "\E91B";
+}
+
+*:not(.md-search-result__item) > a[href$="#d8"]:before {
+  content: "\E90B";
+}
+
+*:not(.md-search-result__item) > a[href$="#d10"]:before {
+  content: "\E91E";
+}
+
+*:not(.md-search-result__item) > a[href$="#d12"]:before {
+  content: "\E91F";
 }
 
 .md-typeset:not(.md-search-result__item) div.perk dl {
@@ -545,6 +585,7 @@ blockquote.important {
     overflow: hidden;
     position: relative;
   }
+  div.qs-list-test section p.hf,
   div.qs-list-test section h5 {
     float: left;
     width: 110px;
@@ -556,6 +597,7 @@ blockquote.important {
     z-index: 0;
     position: relative;
   }
+  div.qs-list-test section p.hf + p,
   div.qs-list-test section h5 + p {
     margin: 0 !important;
     margin-left: 120px !important;
@@ -563,6 +605,7 @@ blockquote.important {
     font-size: 1.4rem;
     line-height: 1.3;
   }
+  div.qs-list-test section p.hf a,
   div.qs-list-test section h5 a {
     display: none !important;
   }
@@ -603,6 +646,24 @@ blockquote.important {
   .md-sidebar--secondary {
     margin-left: 1220px;
   }
+}
+
+.qs-list-test.full-width.p p {
+  text-indent: -120px;
+  padding-left: 120px;
+}
+
+.qs-list-test.full-width strong.hf {
+  display: inline-block;
+  text-align: right;
+  width: 110px;
+  vertical-align: top;
+  padding: 4px 0;
+  letter-spacing: 0;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 1.28rem;
+  line-height: 1.5;
+  text-transform: uppercase;
 }
 
 .qs-list-test.full-width h5,

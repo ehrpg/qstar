@@ -237,6 +237,7 @@ blockquote.important {
       overflow: hidden;
       position: relative;
 
+      p.hf,
       h5 {
         float: left;
         width: 110px;
@@ -318,7 +319,28 @@ blockquote.important {
   }
 }
 
+.qs-list-test.full-width.p {
+  p {
+    text-indent: -120px;
+    padding-left: 120px;
+  }
+}
+
 .qs-list-test.full-width {
+  strong.hf {
+    display: inline-block;
+    text-align: right;
+    width: 110px;
+    vertical-align: top;
+    padding: 4px 0;
+    letter-spacing: 0;
+
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 1.28rem;
+    line-height: 1.5;
+    text-transform: uppercase;
+  }
+
   h5,
   p {
     margin: 0.5em 0;

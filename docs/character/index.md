@@ -4,158 +4,55 @@
 animals, monsters or even robots, etc. fall under this category and are created
 using the following rules.*
 
-## Race
-
-See [Races][].
 
 ## Skills
 
-See [Skills][].
+A character starts with 20 Character Points that can be distributed in the
+three [Skill] categories: [Action][], [Knowledge][] and [Social][].
 
-## Talents
+See [Skills][] for a list of available skills and more information.
+
+## Race
+
+The race changes some aspects, including inherent abilities, available Character
+Points, roleplaying circumstances and more.
+
+See [Races][].
+
+## Traits
+
+Traits allow your character to be more unique, in giving them advantages and
+disadvantages.
 
 See [Talents](/character/talents/).
 
-## Attributes
+## Health (HP)
 
-> Attributes define the character's overall physique and mental capabilities.
-> As such they count as the cornerstone for a character's [Skill][].
+**TODO**
 
-An average person has each Attribute at 2 or 3 points. A rating of 1 is an
-impairment, while a 6 is almost superhuman.
+Every character has 50 HP. If the HP fall below 10 the character is
+incapacitated and *dying*. If they drop to 0, the character dies. If a single
+hit deals more than 60 HP, the character is also incapacitated, but not *dying*.
 
-### Attribute Damage
+#### Dying
 
-[Attribute Damage][] decreases the character's Attribute, e.g.
-from a 5 to a 4. This [Attribute Damage][] can be **temporary**
-or **permanently**.
+A character with the *dying* state is unconcious and loses 1 HP at the start of
+his turn until healed or dead.
 
-Any damage to Attributes can reduce other stats like Bulk, Overburdened, Pace,
-etc.
+##### Treating a dying character
 
-If an Attribute **permanently** drops to 0, the character dies. If it drops
-**termporarily**, the character is incapacitated until the [Attribute
-Damage][] is restored.
+A single healing check removes the *dying* state of a character, at which point
+he is only unconcious.
 
-<div class="left" markdown="1">
+#### Unconciousness
 
-### Might (MI)
+Unconciousness lasts only 10 rounds, at which point the character wakes up
+again. The character does not heal any HP on his own in this time though. This
+can result in concious characters with less than 10 HP.
 
-> [Might][] represents the character's physical strength and
-> resilience.
+#### Healing
 
-A character's carrying capacity, damage of melee weapons and tougness are
-derived from [Might][].
-
-</div>
-<div class="right" markdown="1">
-
-### Speed (SP)
-
-> [Speed][] measures the character's reflexes and eye-hand
-> coordination.
-
-[Speed][] adds a bonus to ranged weapon attacks, is used for stealth
-and lets you act in a [Crisis](/#crisis) sooner.
-
-</div>
-<div class="left" markdown="1">
-
-### Intelligence (IN)
-
-> [Intelligence][] describes how well your character learns new
-things, and how well he remembers already existing things.
-
-[Intelligence][] improves a character's ability to assess situations and
-[Skills][] related to knowing things.
-
-</div>
-<div class="right" markdown="1">
-
-### Charisma (CH)
-
-> [Charisma][] represents the character's physical attractiveness,
-force of personality and his ability to lead.
-
-[Charisma][] is mostly used in social interactions between
-characters and NPCs.
-
-</div>
-<div class="clearfix"></div>
-
-## Stats
-
-### Defence
-
-> [Defence][] abstracts your ability to dodge and sustain attacks.
-
-Whenever you are attacked, the attack has to be equal to or higher than your
-[Defence][] in order to deal damage. A failed attack doesn't necessarily mean
-that it didn't hit, but it wasn't strong enough to deal damage.
-
-!!! summary "Defence"
-    <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">10</span> +
-        <span data-bracket-top="Attribute">Speed</span> +
-        <span data-bracket-bottom="Circumstance">Cover</span>
-    </div>
-
-### Perception
-
-> [Perception][] abstracts your ability to spot and make out hidden things and
-> creatures.
-
-Whenever you or an NPC is making a Stealth check, the DC of the roll is equal to
-the opposing force's highest [Perception][] value. You only roll once for the enemy
-with the highest [Perception][], not for each target.
-
-!!! summary "Perception"
-    <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">10</span> +
-        <span data-bracket-top="Attribute">Intelligence</span> +
-        <span>1 per Ally (max 10)</span>
-    </div>
-
-<div class="left" markdown="1">
-
-
-### Pace
-
-> The [Pace][] gives you an estimate how long it takes to go from A to B.
-
-When you take the Move Action, you can use up to your [Pace][] in tiles.
-
-!!! summary "Pace"
-    <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">2</span> +
-        <span data-bracket-top="Speed Attribute">Speed</span>
-    </div>
-
-</div>
-<div class="clearfix"></div>
-
-### Health (HP)
-
-> [Health][] represents the character’s overall condition.
-
-If [Health][] drops to 0 or below, the creature has to make a [Might][] roll
-with a DC of 16. On a failure, the creature becomes incapacitated, but not
-necessarily unconcious, until healed or dead. On success, the creature can
-continue fighting.
-
-An incapacitated creature loses 1 HP each turn until healed.
-
-A character that drops to or below his HP in negative dies.
-
-!!! summary "Health"
-    <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">20</span> +
-        <span data-bracket-top="Might Attribute">MI * 5</span>
-    </div>
-
-!!! tip "[GM Tip] - NPCs and Health"
-    NPCs usually die outright when they reach 0 HP, if not purpously knocked
-    unconcious by the players.
+Resting, Medicine, First Aid, Magic, etc. can heal a character.
 
 ## Experience (XP)
 
@@ -165,11 +62,11 @@ A character that drops to or below his HP in negative dies.
 usually are only given out one at a time. The GM can decide to give out more for
 completing a longer adventure.
 
-Every three [XP][] increase a character's level by one.
+Every ten [XP][] increase a character's level by one.
 
 !!! summary "[XP][] and Level Ups"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="XP">3</span> =
+        <span data-bracket-bottom="XP">10</span> =
         <span>Level Up</span>
     </div>
 
@@ -186,11 +83,7 @@ resourceful and adaptable.
 
 #### Character Points
 
-* Every level, a character gains 1 Skill Point.
-
-* Every 3 levels (Level 3, 6, 9, ...), a character gains 1 Attribute Point.
-
-* Every 4 levels (Level 4, 8, 12, ...), a character gains a Talent.
+Every level, a character receives 50 Character Points.
 
 ## Acquisitions
 
@@ -253,9 +146,9 @@ All exceeding points are usually lost.
 > [Loot](#loot) abstracts the items and clutter looted, that can be sold for
 > profit.
 
-**GAINED**{.hf} by looting enemies, bases, etc., trading or via quest rewards.
+**Gained**{.hf} by looting enemies, bases, etc., trading or via quest rewards.
 
-**USED**{.hf} to sell for a profit.
+**Used**{.hf} to sell for a profit.
 
 [Loot][] is usually stored on a vessel or a player base. 1 unit of [Loot][]
 takes up 4 [Bulk][].
@@ -267,13 +160,17 @@ takes up 4 [Bulk][].
 > [Spare Time][] represents the time a character can invest in
 > activities outside of active play, e.g. in between sessions.
 
-**GAINED**{.hf} over the course of time. A character gains more
+<div class="qs-list-test full-width p" markdown="1">
+
+**Gained**{.hf} over the course of time. A character gains more
 [Spare Time][] in between adventures and longer periods of downtime
 during adventures. A character gains at least 1 [Spare Time][] each
 session automatically.
 
-**USED**{.hf} to recuperate, craft, repair and upgrade items and vessels and to
+**Used**{.hf} to recuperate, craft, repair and upgrade items and vessels and to
 improve a character.
+
+</div>
 
 A Spare Time Roll is made by rolling 3d6. As with [Skills][], you can add
 applicable modifiers to the roll, e.g. [Skills][], assets or circumstance
@@ -294,11 +191,15 @@ represents the difficulty for each roll.
 
 > [Influence][] represents connections, owed favours by others, fame and infamy.
 
-**GAINED**{.hf} by making a name for yourself in the cosmos, i.e. by helping
+<div class="qs-list-test full-width p" markdown="1">
+
+**Gained**{.hf} by making a name for yourself in the cosmos, i.e. by helping
 people and factions. [Influence][] is lost by harming and disappointing others.
 
-**USED**{.hf} for accessing and buying items, vessels, meetings with high
+**Used**{.hf} for accessing and buying items, vessels, meetings with high
 ranking characters, etc.
+
+</div>
 
 More [Influence][] unlocks better equipment and better vessels.
 
@@ -317,9 +218,13 @@ More [Influence][] unlocks better equipment and better vessels.
 > [Resources][] represent materials used for creating, repairing, upgrading and
 > acquiring equipment.
 
-**GAINED**{.hf} by looting, or completing missions, adventures and quests.
+<div class="qs-list-test full-width p" markdown="1">
 
-**USED**{.hf} to create, repair, upgrade and acquire equipment and vessels.
+**Gained**{.hf} by looting, or completing missions, adventures and quests.
+
+**Used**{.hf} to create, repair, upgrade and acquire equipment and vessels.
+
+</div>
 
 [Resources][] can be used to repair vessels, in which case the [Resources][] are
 **spent** on the repair, and *permanently lowered*.
@@ -343,11 +248,15 @@ item.
 > [Technology][] represents the character's technological knowledge, which on
 > the other hand allows to unlock new [Equipment](/equipment).
 
-**GAINED**{.hf} by aiding science missions, acquiring blueprints, spending spare
+<div class="qs-list-test full-width p" markdown="1">
+
+**Gained**{.hf} by aiding science missions, acquiring blueprints, spending spare
 time on researching certain scientific fields, etc.
 
-**USED**{.hf} for unlocking experimental equipment and vessels. Once unlocked,
+**Used**{.hf} for unlocking experimental equipment and vessels. Once unlocked,
 the experimental equipment or vessel can be acquired.
+
+</div>
 
 Certain ugprades require [Technology][] in order to be unlocked. Upgrades have
 to be unlocked only once, and *can* be shared between characters. Unlocking
@@ -414,5 +323,10 @@ Cost
 :   1t16
 
 </div>
+
+!!! info "Learning languages at character creation"
+    If a character is created, the player can spend Character Points to learn
+    new languages, or to improve the native language. The cost for basic is 25,
+    for normal 50, and for master 100.
 
 --8<-- "_links.md"

@@ -12,7 +12,7 @@ a:not(.headerlink)[href*="#"]:before {
   vertical-align: top;
 }
 
-a:not(.headerlink)[href*="#might"]:before {
+a:not(.headerlink)[href*="#action"]:before, a:not(.headerlink)[href*="#might"]:before {
   content: "";
 }
 
@@ -20,11 +20,11 @@ a:not(.headerlink)[href*="#speed"]:before {
   content: "";
 }
 
-a:not(.headerlink)[href*="#intelligence"]:before {
+a:not(.headerlink)[href$="#knowledge"]:before, a:not(.headerlink)[href*="#intelligence"]:before {
   content: "";
 }
 
-a:not(.headerlink)[href*="#charisma"]:before {
+a:not(.headerlink)[href*="#social"]:before, a:not(.headerlink)[href*="#charisma"]:before {
   content: "";
 }
 
@@ -54,5 +54,45 @@ a:not(.headerlink)[href*="#d6"]:before {
 
 a:not(.headerlink)[href*="#skills"]:before, a:not(.headerlink)[href*="#skill-ranks"]:before {
   content: "\E71A";
+}
+
+*:not(.md-search-result__item) > a[href$="#d4"],
+*:not(.md-search-result__item) > a[href$="#d6"],
+*:not(.md-search-result__item) > a[href$="#d8"],
+*:not(.md-search-result__item) > a[href$="#d10"],
+*:not(.md-search-result__item) > a[href$="#d12"] {
+  color: #222 !important;
+  pointer-events: none;
+  cursor: default;
+}
+
+*:not(.md-search-result__item) > a[href$="#d4"]:before,
+*:not(.md-search-result__item) > a[href$="#d6"]:before,
+*:not(.md-search-result__item) > a[href$="#d8"]:before,
+*:not(.md-search-result__item) > a[href$="#d10"]:before,
+*:not(.md-search-result__item) > a[href$="#d12"]:before {
+  font-family: "game-icons";
+  color: #222;
+  vertical-align: middle;
+}
+
+*:not(.md-search-result__item) > a[href$="#d4"]:before {
+  content: "\E920";
+}
+
+*:not(.md-search-result__item) > a[href$="#d6"]:before {
+  content: "\E91B";
+}
+
+*:not(.md-search-result__item) > a[href$="#d8"]:before {
+  content: "\E90B";
+}
+
+*:not(.md-search-result__item) > a[href$="#d10"]:before {
+  content: "\E91E";
+}
+
+*:not(.md-search-result__item) > a[href$="#d12"]:before {
+  content: "\E91F";
 }
 /*# sourceMappingURL=icons.css.map */

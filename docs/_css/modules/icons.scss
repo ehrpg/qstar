@@ -29,6 +29,7 @@ a:not(.headerlink) {
     @include game-icon;
   }
 
+  &[href*="#action"]:before,
   &[href*="#might"]:before {
     content: $might;
   }
@@ -37,10 +38,12 @@ a:not(.headerlink) {
     content: $speed;
   }
 
+  &[href$="#knowledge"]:before,
   &[href*="#intelligence"]:before {
     content: $intelligence;
   }
 
+  &[href*="#social"]:before,
   &[href*="#charisma"]:before {
     content: $charisma;
   }
@@ -260,4 +263,44 @@ a:not(.headerlink) {
   // a[href$="#3d6"]:before {
   //   content: "\E91B\E91B\E91B";
   // }
+
+  a[href$="#d4"],
+  a[href$="#d6"],
+  a[href$="#d8"],
+  a[href$="#d10"],
+  a[href$="#d12"] {
+    color: #222 !important;
+    pointer-events: none;
+    cursor: default;
+  }
+
+  a[href$="#d4"]:before,
+  a[href$="#d6"]:before,
+  a[href$="#d8"]:before,
+  a[href$="#d10"]:before,
+  a[href$="#d12"]:before {
+    font-family: "game-icons";
+    color: #222;
+    vertical-align: middle;
+  }
+
+  a[href$="#d4"]:before {
+    content: "\E920";
+  }
+
+  a[href$="#d6"]:before {
+    content: "\E91B";
+  }
+
+  a[href$="#d8"]:before {
+    content: "\E90B";
+  }
+
+  a[href$="#d10"]:before {
+    content: "\E91E";
+  }
+
+  a[href$="#d12"]:before {
+    content: "\E91F";
+  }
 }
