@@ -3,9 +3,9 @@
 ## Item uses
 
 Item's can usually be used indefinitely. The only exceptions are items that list
-**Uses** in their stats. This stat lists how often the item can be used. The
-item's description states how the item can be refilled. If its **Uses** reaches
-0, it cannot be used anymore until refilled.
+**Uses** in their stats. This stat lists how often the item can be used. If its
+**Uses** reaches 0, it cannot be used anymore until refilled. Refilling costs
+half the item's price, unless otherwise noted in the item's description.
 
 ## Utility Items
 
@@ -13,20 +13,17 @@ item's description states how the item can be refilled. If its **Uses** reaches
 
 ### Food, Mundane & Tools
 
-<div class="qs-list-test" markdown="1">
+<div class="qs-list-test full-width" markdown="1">
 
 ##### Climbing Gear
 
 A climbing gear consists of ropes, ice picks, bolts to secure the ropes, etc.
 
 [Asset](/crisis#difficulty-modifier)
-:   Athletics (Climbing).
+:   Athletics (Climbing)
 
 [Credits](#credits)
 :   1 000
-
-[Weight](#weight)
-:   3
 
 [Bulk](#bulk)
 :   3
@@ -36,13 +33,10 @@ A climbing gear consists of ropes, ice picks, bolts to secure the ropes, etc.
 A simple crowbar to prise open closed containers and doors.
 
 [Asset](/crisis#difficulty-modifier)
-:   Force.
+:   Force
 
 [Credits](#credits)
 :   250
-
-[Weight](#weight)
-:   1
 
 [Bulk](#bulk)
 :   1
@@ -61,7 +55,7 @@ source includes fuel or batteries, that are usually always available.
 ##### Food Supplies
 
 Food supplies provide food and water for a full week (7 days). Food supplies can
-be refilled in civilization, e.g. trading outposts etc.
+be refilled in civilization, e.g. trading outposts etc. for free.
 
 [Credits](#credits)
 :   1 000
@@ -75,7 +69,7 @@ Uses
 ##### Ration
 
 A ration provides food and water for a single day. Rations can be refilled in
-civilization, e.g. trading outposts etc.
+civilization, e.g. trading outposts etc. for free.
 
 [Credits](#credits)
 :   100
@@ -92,7 +86,7 @@ Contains items like a blowtorch, multitool, screwdrivers, hammers, nails,
 screws, etc.
 
 [Asset](/crisis#difficulty-modifier)
-:   Engineering.
+:   Engineering
 
 [Credits](#credits)
 :   1 000
@@ -107,14 +101,14 @@ screws, etc.
 Medical items are used to restore [Health](/character#health-hp) in or after
 combat.
 
-<div class="qs-list-test" markdown="1">
+<div class="qs-list-test full-width" markdown="1">
 
 ##### Medical Supplies
 
 Consists of scissors, bandages, disinfectant, alcohol, painkillers etc.
 
 [Asset](/crisis#difficulty-modifier)
-:   Science (Medicine).
+:   Medicine
 
 [Credits](#credits)
 :   500

@@ -7,25 +7,25 @@ While a character can have virtually *any* [Skill][], the categories list the
 most common ones.
 
 A Skill roll has to be equal to or higher than a **4** in order to succeed.
-Skill rolls lower than a **4** fail. The GM can give your role a bonus or
-penalty depending on circumstances.
+Skill rolls lower than a **4** fail. The GM can give your roll a bonus or
+penalty based on circumstances.
 
 A [Skill][] that is at a [d4](#d4) is considered **untrained**. Some [Skills][]
 should only be usable if they are trained, indicated by a **"*"** next to their
 name. These [Skills][] can still be used if untrained, but only for very basic
 things.
 
-Every 8 Character Points used in a single category improves the category's
-bonus by one. If you make a Skill check you add the corresponding category's
-bonus to the roll:
+Every 8 Character Points used in a single category improves the category's bonus
+by one. If you make a Skill check you add the corresponding category's bonus to
+the roll:
 
 !!! example "Skill categories and Skills"
     A character has two [Action][] Skills at a [d12](#d12). The cost of
-    improving those [Skills][] to a [d12](#d12) is 8 Character Points. The
-    character's bonus on [Action][] Skills is therefor 1. If he now makes an
-    [Action][] Skill roll, he adds the bnus to the roll:<br>
+    improving those [Skills][] to a [d12](#d12) totals 8 Character Points. The
+    character's bonus on [Action][] Skills is therefore 1. If he now makes an
+    [Action][] Skill roll, he adds the category bonus to the roll:<br>
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Acrobatics">1d12</span> +
+        <span data-bracket-bottom="Acrobatics">1d4</span> +
         <span data-bracket-top="Action category">1</span>
     </div>
 
@@ -39,42 +39,40 @@ swinging a sword, etc.
 
 ##### Acrobatics
 
-Acrobatics is used for tumbling, dodging away from falling debris, balance over
-a rope, *jump* in zero gravity environments etc.
+is used for tumbling, dodging away from falling debris, balance over a rope,
+*jump* in zero gravity environments etc.
 
 ##### Athletics
 
-Athletics used for climbing, jumping, running, swimming, etc.
+is used for climbing, jumping, running, swimming, etc.
 <br>
 Without this [Skill][] being trained, the character **cannot** swim.
 
 ##### Force
 
-Force is used for breaching doors, break down treasure chests, holding doors
-shut etc.
+is used for breaching doors, break down treasure chests, holding doors shut etc.
 
 ##### Heavy Weapons*
 
-Heavy Weapons is used when using heavy weapons such as rocket launchers, vehicle
-mounted machine guns, or firing any vessel's weapons.
+is used when using heavy weapons such as rocket launchers, vehicle mounted
+machine guns, or firing any vessel's weapons.
 
 ##### Light Weapons
 
-Light Weapons is used for ranged weapon attacks with weapons like bows, pistols,
-lasguns, etc.
+is used for ranged weapon attacks with weapons like bows, pistols, lasguns, etc.
 
 ##### Melee*
 
-Melee is used when using melee weapons or defending against a melee attack.
+is used when using melee weapons or parrying a melee attack.
 
 ##### Operate*
 
-Operate is used for piloting or steering a vessel and remote controlling
+is used for driving, piloting or steering a vessel and remote controlling
 drones.
 
 ##### Stealth
 
-Stealth is used to hide from others, sneak around, lockpicking, etc.
+is used to hide from others, sneak around, lockpicking, etc.
 <br>
 It's opposed by the **Search** [Skill][].
 
@@ -89,33 +87,34 @@ like science, engineering, etc.
 
 ##### Search / Track
 
-Search is used to find and spot hidden things.
+is used to find and spot hidden things.
 
 ##### Engineering*
 
-Engineering is used for repairing mechanical or electronical motors, operate
-advanced machinery, etc.
+is used for repairing mechanical or electronical motors, operate advanced
+machinery, etc.
 
-##### Science - Biology*
-
-...
-
-##### Science - Chemistry*
+##### Biology*
 
 ...
 
-##### Science - Computer*
+##### Chemistry*
 
 ...
 
-##### Science - Medicine*
+##### Computer*
 
 ...
 
-##### Knowledge - Occult*
+##### Linguistics*
+
+is used to decipher scripts, forge documents, etc.
+
+##### Medicine*
 
 ...
-##### Knowledge - Politics
+
+##### Politics*
 
 ...
 
@@ -132,32 +131,39 @@ intimidating, etc.
 
 ##### Bartering
 
-...
+is mainly used for acquiring rare items in [Spare Time][] rolls, but it can also
+be used in getting a better deal.
 
 ##### Bluffing
 
-...
+is used for lying. This [Skill][] is opposed by **Empathy**.
 
 ##### Command
 
-Command is used to command crews, give orders on a vessel, lead others, etc.
+is used to command crews, give orders on a vessel, lead others, etc.
 
 ##### Empathy
 
-...
+is used to determine if somebody is sad, lying, nervous, etc. It opposes
+**Bluffing**.
 
 ##### Intimidate
 
-...
+is used to strike fear into somebody to get information, help, etc.
+
 ##### Persuade
 
-...
+is used to sweaten the deal for somebody to get information, help, etc.
 
 ##### Tactics*
 
-Tactics is used to non-verbally communicate with party members in combat,
-tactically breach into buildings or rooms, etc.
+is used to non-verbally communicate with party members in combat, tactically
+breach into buildings or rooms, etc.
 
 </div>
+
+!!! tip "Intimidate and Persuade"
+    The outcome of Intimidate and Persuade are often the same, but some people
+    are easier to intimidate than to persuade, and vice versa.
 
 --8<-- "_links.md"

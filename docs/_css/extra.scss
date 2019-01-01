@@ -319,40 +319,22 @@ blockquote.important {
   }
 }
 
-.qs-list-test.full-width.p {
-  p {
-    text-indent: -120px;
-    padding-left: 120px;
-  }
-}
-
-.qs-list-test.full-width {
-  strong.hf {
-    display: inline-block;
-    text-align: right;
-    width: 110px;
-    vertical-align: top;
-    padding: 4px 0;
-    letter-spacing: 0;
-
-    color: rgba(0, 0, 0, 0.54);
-    font-size: 1.28rem;
-    line-height: 1.5;
-    text-transform: uppercase;
-  }
-
+.qs-list-test {
   h5,
   p {
-    margin: 0.5em 0;
+    margin: 0;
+    margin-top: 0.5em;
     display: inline-block;
+    vertical-align: top;
   }
 
   h5 {
     text-align: right;
     width: 110px;
-    vertical-align: top;
-    padding: 4px 0;
+    padding: 0;
     letter-spacing: 0;
+    padding-top: 0.4rem;
+    line-height: 1.5;
 
     & > a {
       display: none !important;
@@ -366,72 +348,65 @@ blockquote.important {
 
   dl {
     margin-top: 0;
-    margin-bottom: -1px;
+    margin-bottom: 0;
 
-    padding-top: 2px;
+    padding-top: 0;
     padding-bottom: 2px;
+
+    line-height: 1.1;
+
+    margin-block-start: 0;
+    margin-block-end: 0.2em;
 
     dt,
     dd {
-      margin: 0.15em 0;
       display: inline-block;
+      margin: 0.15em 0;
+      vertical-align: top;
     }
 
     dt {
       letter-spacing: 0 !important;
-      width: 110px;
       text-align: right;
 
       font-size: 1.3rem;
-      line-height: 1.3;
+      line-height: 1;
       font-weight: bold;
+      padding-left: 10px;
+      &:first-of-type {
+        width: 110px;
+        padding-left: 0;
+      }
     }
 
-    // dt:first-of-type {
-    //   margin: 0.15em 0 0.15em 0;
-    // }
     dd {
       font-size: 1.3rem;
-      line-height: 1.3;
+      line-height: 1;
 
-      margin: 0.15em 0;
       padding-left: 4px;
     }
   }
+
+  &.full-width.p {
+    p {
+      text-indent: -120px;
+      padding-left: 120px;
+    }
+  }
+
+  &.full-width {
+    strong.hf {
+      display: inline-block;
+      text-align: right;
+      width: 110px;
+      vertical-align: top;
+      padding: 4px 0;
+      letter-spacing: 0;
+
+      color: rgba(0, 0, 0, 0.54);
+      font-size: 1.28rem;
+      line-height: 1.5;
+      text-transform: uppercase;
+    }
+  }
 }
-
-// .md-typeset {
-//   h5 {
-//     float: left;
-//     width: 110px;
-//     padding-left: 0;
-//     text-align: right;
-
-//     margin-top: -6rem;
-//     padding-top: 6rem;
-
-//     line-height: 1.4;
-
-//     letter-spacing: 0 !important;
-
-//     margin: 0;
-
-//     z-index: 0;
-//     position: relative;
-
-//     + p {
-//       margin: 0 !important;
-//       margin-left: 120px !important;
-//       margin-bottom: 0.15em !important;
-
-//       font-size: 1.4rem;
-//       line-height: 1.3;
-
-//       // border-bottom: 1px dashed #ddd;
-//     }
-
-//     a {
-//       display: none !important;
-//     }
-//   }
-// }

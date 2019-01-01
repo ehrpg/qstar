@@ -1,31 +1,37 @@
 
 # Armour & Outfits
 
-> Outfits categorize special clothing, armour and suits.
-
 ## Armour
 
-Armour increases your character's [Toughness](/character#toughness), and
-prevents damage a character may receive. Armour has Durability for these types:
+**TODO**
 
-* Normal (physical) Damage,
-* **Fire**{:.qstar-flame} Damage,
-* **Cold**{:.qstar-thermometer-cold} Damage,
-* **Acid**, **Radiation** or **Biohazard**{:.qstar-biohazard} Damage.
+Armour prevents damage a character may receive. Armour provides Damage Reduction
+(DR) for these damage types:
 
-One wound reduces the Armour's Durability of the wound's corresponding type by
-one. When the Durability of a type reaches 0, it does not provide any damage
-reduction against this type anymore.
+* [Physical][] (including Kinetic) Damage,
+* [Fire][] (including Explosive) Damage,
+* [Cold][] Damage,
+* [Acid][] (including Radiation, Biohazard) Damage.
 
-| Name         | Toughness | Durability | <i class="qstar-flame"></i> | <i class="qstar-thermometer-cold"></i> | <i class="qstar-biohazard"></i> |
-| ------------ | --------: | ---------: | --------------------------: | -------------------------------------: | ------------------------------: |
-| Light Armour |        +1 |          5 |                           2 |                                      1 |                               1 |
-| Heavy Armour |        +3 |         10 |                           4 |                                      2 |                               2 |
-| Hazmat Suit  |         0 |          2 |                           8 |                                      8 |                              16 |
+Any incoming damage is reduced by the armour's DR value for the type of the
+damage first. No matter how low the damage or how high the armour's DR is, the
+minimum damage received is always **1**.
+
+| Name         | [Physical][] | [Fire][] | [Cold][] | [Acid][] | Bulk | Cost |
+| ------------ | -----------: | -------: | -------: | -------: | ---: | ---: |
+| Light Armour |            2 |        2 |        1 |        1 |    2 |  200 |
+| Heavy Armour |            5 |        4 |        2 |        2 |    5 | 2000 |
+| Hazmat Suit  |            1 |        5 |        5 |       10 |    4 | 1500 |
 
 ## Outfits
+
+Outfits
 
 | Name | Weight | Cost | Notes |
 | ---- | -----: | ---: | ----- |
 |      |        |      |       |
 |      |        |      |       |
+
+--8<--
+_links.md
+--8<--

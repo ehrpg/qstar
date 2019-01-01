@@ -2,14 +2,10 @@
 
 <!-- Economy: Use real-life value of items, multiply by 10 and round to nearest sensible integer. -->
 
-All entries list the price for a single item. If items are sold in bulk the `#`
+All entries list the price for a single item. If items are sold in bulk, the `#`
 column shows the amount sold for the provided price.
 
-An item is made up by these statistics: Cost, Weight, and Bulk. Some items
-require additional Acquisitions to be unlocked, maintained or bought.
-
-If an item doesn't have a Weight specified it can be ignored, but it still uses
-Bulk.
+Some items require additional Acquisitions to be unlocked, maintained or bought.
 
 !!! tip "Assets"
     Some items count as Assets, which can be used to provide a bonus on a
@@ -26,41 +22,6 @@ ammunition, cleaning, restocking etc.
 
 Whenever there is a cost listed without units, then Credits are used.
 
-## Weight
-
-An item can specify its Weight. The Weight value indicates the minimum [Might][]
-needed to use the item. If this level of [Might][] is not met, the item cannot
-be used effectively.
-
-If the Weight column shows zero or has no Weight, then its Weight can be
-disregarded.
-
-Using a normally one-handed item with two hands increases the level of [Might][]
-by one step for the purpose of determine the Weight requirements.
-
-!!! example "Weight Requirements"
-    A one-handed wooden club specifies it's Weight as a 4. The character only
-    has a 3 in [Might][], so he uses the club in both hands increasing his
-    [Might][] to a 4. For the purpose of wielding, attacking and dealing damage
-    with the club, the character's [Might][] is considered to be a 4.
-
-### Overburdened
-
-*Only items that are equipped, e.g. wielded weapons, worn armour and outfits,
-etc. are subject to this rule. An item that's kept in the character's inventory
-is not influencing the character.*
-
-An item's Weight exceeding the character's [Might][] incures penalties. For each
-step of the character's [Might][] below the item's Weight, the character's:
-
-* [Speed][] is reduced by one level to a minimum of 1, and
-* the character's [Parry](/character#parry) and [Defence](/crisis#defence)
-  suffers -1.
-
-!!! danger "Overburdened"
-    All skills related to the [Speed][] Attribute that are higher than the new
-    [Speed][] also drop to the new level.
-
 ## Bulk
 
 *Only items that are not equipped, e.g. rations, a tent, etc. are subject to
@@ -70,15 +31,15 @@ An item that specifies it's [Bulk][] takes up that much Inventory Space. Ten
 light items specified by a [Bulk][] value of **L** count as 1 [Bulk][]. Some
 items' [Bulk][] are negligible; they do not list their [Bulk][] value.
 
-You can carry up an amount of [Bulk][] equal to twice your [Might][] without
-penalty; if you carry more you gain the *Slowed* condition. You can't hold or
-carry more [Bulk][] than four times your [Might][].
+Every character's carrying capacity equals **10**. The character can carry this
+much [Bulk][] without penalty; if he carries more he gains the *Slowed*
+condition. A character can't hold or carry more [Bulk][] than twice his carrying
+capacity.
+
+Each bonus to the [Action][] category adds 5 [Bulk][] to the character's
+carrying capacity.
 
 ## Looting items
-
-Usually looting only gives you [Loot][]. If you are looking for certain items
-that, for example, your enemies may have, you can loot them normally. This
-reduces the amount of [Loot][] you receive to a minimum of 0.
 
 If a looted item requires [Resources][] a character may keep it. At the end of
 the session the character can spend his available [Resources][] on it to keep

@@ -10,12 +10,19 @@ setting such as medieval, fantasy, modern, sci-fi settings or even a combination
 of any of these, although the base rule set is built with mainly modern and
 sci-fi settings in mind.
 
+## Preface
+
+### Reading the rules
+
+Terms that are game related, e.g. "[Skills][]", or "Crisis", are either easily
+recognisable by an icon, are links, or are in uppercase.
+
 ## Prerequisites
 
 ### Dice
 
-All players and the GM need one of each of the following dice: a [d4](#d4), a
-[d6](#d6), a [d8](#d8), a [d10](#d10) and a [d12](#d12).
+All players and the GM need one of each of the following dice: a [d4][], a
+[d6][], a [d8][], a [d10][] and a [d12][].
 
 A GM should also have a d20 and a d100 to roll on random tables.
 
@@ -25,12 +32,11 @@ A GM should also have a d20 and a d100 to roll on random tables.
 <table>
 <tbody>
 <tr>
-<td><i class="qstar-d12"></i></td>
+<td><i class="game-icon-d12"></i></td>
 <td>
-Every character uses a [d4](#d4), [d6](#d6), [d8](#d8), [d10](#d10) and a
-[d12](#d12) for everything he's doing. Every roll is made with a single die. The
-higher the die, the better the chance on rolling **higher**, which is
-**better**.
+Every character uses a [d4][], [d6][], [d8][], [d10][] and a [d12][] for
+everything he's doing. Every roll is made with a single die. The more sides the
+die has the better the chance on rolling **higher**, which is **better**.
 </td>
 </tr>
 <tr>
@@ -57,7 +63,7 @@ simply ignored and the value set to 0.
 </td>
 </tr>
 <tr>
-<td><i class="qstar-tornado"></i></td>
+<td><i class="game-icon-tornado"></i></td>
 <td>
 Most of the formulas and values can be influenced by circumstance, such as
 racial traits, talents, equipment, environmental factors such as bad or
@@ -69,6 +75,8 @@ particularly good visibility, wind, etc.
 </div>
 
 ## Die Rolls
+
+**TODO**
 
 There are three different kinds of die rolls:
 
@@ -82,8 +90,7 @@ dice.
 
 ### Task Difficulty
 
-A task's [Difficulty Level](/crisis#difficulty) is **always** 4. The only
-exceptions are combat values, such as parrying.
+Any task's [Difficulty Level](/crisis#difficulty) is **always** 4.
 
 A check has to be equal to or higher this [Difficulty Level](/crisis#difficulty)
 in order to succeed. Otherwise, the check fails. Circumstances modify the check
@@ -97,22 +104,26 @@ positively or negatively.
 
 ### Critical Failures
 
-If the die for a Skill roll comes up with a **1**, it critically fails.
+Only attack rolls can automatically fail, if the die comes up with a **1**. Even
+if you had enough modifiers to hit the target, it fails.
 
-A critical fail can not be prevented by any means, and the character has to
-suffer the consequences of the outcome.
+Such a fail can not be prevented by any means, and the character has to suffer
+the consequences of the outcome.
 
 ### Critical Successes
 
 Whenever a die is rolled with its highest possible result (e.g. rolling a 10 on
-a [d10](#d10)), the die *explodes*. This allows you to roll the die again, and
-add the result to your check. A die can *explode* multiple times. If a **1**
-comes up while the die is exploded, the check does not critically fail.
+a [d10][]), the die *explodes*. This allows you to roll the die again, and add
+the result to your check. A die can *explode* multiple times. If a **1** comes
+up while the die is *exploding*, the check does not critically fail.
 
 ### Contests
 
 When two parties compete with each other in the same Skill or even different
 Skills and stats, both parties have to roll. The party with the higher result
 wins the contest. On a tie both parties roll again.
+
+Typical contests are: Melee attack vs. Parrying, Bluffing vs. Empathy, Stealth
+vs. Search.
 
 --8<-- "_links.md"

@@ -4,20 +4,19 @@
 animals, monsters or even robots, etc. fall under this category and are created
 using the following rules.*
 
-
-## Skills
-
-A character starts with 20 Character Points that can be distributed in the
-three [Skill] categories: [Action][], [Knowledge][] and [Social][].
-
-See [Skills][] for a list of available skills and more information.
-
 ## Race
 
 The race changes some aspects, including inherent abilities, available Character
 Points, roleplaying circumstances and more.
 
 See [Races][].
+
+## Skills
+
+A character starts with 16 Character Points that can be distributed in the
+three [Skill] categories: [Action][], [Knowledge][] and [Social][].
+
+See [Skills][] for a list of available skills and more information.
 
 ## Traits
 
@@ -30,7 +29,7 @@ See [Talents](/character/talents/).
 
 **TODO**
 
-Every character has 50 HP. If the HP fall below 10 the character is
+Every character has 100 HP. If the HP fall below 10 the character is
 incapacitated and *dying*. If they drop to 0, the character dies. If a single
 hit deals more than 60 HP, the character is also incapacitated, but not *dying*.
 
@@ -72,18 +71,18 @@ Every ten [XP][] increase a character's level by one.
 
 ### Level (LVL)
 
-The Level of a character abstracts its [XP][], resourcefulness, and
-skill set.
+The Level of a character abstracts his experience, resourcefulness, and skill
+set.
 
 #### Acquisitions
 
-A character's level improves the maximum values of his [Acquisitions][]. This
+A character's Level improves the maximum values of his [Acquisitions][]. This
 does not necessarily make the character stronger, but makes the character more
 resourceful and adaptable.
 
 #### Character Points
 
-Every level, a character receives 50 Character Points.
+Every level, a character receives 2 Character Points.
 
 ## Acquisitions
 
@@ -100,7 +99,7 @@ All exceeding points are usually lost.
 
 <div class="content" markdown="1"><table><tbody>
 <tr>
-    <td><i class="qstar-wooden-crate"></i></td>
+    <td><i class="game-icon-wooden-crate"></i></td>
     <td>
     **Loot**<br>
     [Loot][] abstracts the items and clutter looted, which can be sold for a
@@ -108,7 +107,7 @@ All exceeding points are usually lost.
     </td>
 </tr>
 <tr>
-    <td><i class="qstar-stopwatch"></i></td>
+    <td><i class="game-icon-stopwatch"></i></td>
     <td>
     **Spare Time**<br>
     [Spare Time][] is used for Spare Time Rolls. Each Spare Time Roll requires
@@ -116,7 +115,7 @@ All exceeding points are usually lost.
     </td>
 </tr>
 <tr>
-    <td><i class="qstar-shaking-hands"></i></td>
+    <td><i class="game-icon-shaking-hands"></i></td>
     <td>
     **Influence**<br>
     [Influence][] is used to acquire and maintain vessels. [Influence][] can
@@ -125,14 +124,14 @@ All exceeding points are usually lost.
     </td>
 </tr>
 <tr>
-    <td><i class="qstar-gear-hammer"></i></td>
+    <td><i class="game-icon-gear-hammer"></i></td>
     <td>
     **Resources**<br>
     [Resources][] are used to acquire and maintain equipment.
     </td>
 </tr>
 <tr>
-    <td><i class="qstar-erlenmeyer"></i></td>
+    <td><i class="game-icon-erlenmeyer"></i></td>
     <td>
     **Technology**<br>
     [Technology][] is used to unlock equipment for personal use and vessels. It
@@ -172,12 +171,35 @@ improve a character.
 
 </div>
 
-A Spare Time Roll is made by rolling 3d6. As with [Skills][], you can add
-applicable modifiers to the roll, e.g. [Skills][], assets or circumstance
-modifiers. If the result is equal or higher than the specified difficulty, the
-roll is successful. A Spare Time Roll is specified by the following scheme: XtY,
-e.g. 1t8. *X* represents the number of successful rolls necessary, *Y*
-represents the difficulty for each roll.
+Depending on the task, a [Spare Time][] roll is made with the associated
+[Skill][] die. As with [Skills][], you can add applicable modifiers to the roll,
+e.g. assets or circumstance modifiers.
+
+The difficulty of a [Spare Time][] roll is also **4**, but usually heavily
+modified by outside factors.
+
+A Spare Time Roll is specified by the following scheme: `Xt±Y`, e.g. 2t+1 or
+3t-2. *X* represents the number of successful rolls necessary. The *X* also
+represents the [Spare Time][] cost. *Y* represents the difficulty modifier for
+each roll. The *Y* is omitted if there is no modifier.
+
+If a [Spare Time][] roll fails, the [Spare Time][] point is lost. If multiple
+[Spare Time][] rolls are necessary for a certain task and one of the check
+fails, there are multiple outcomes:
+
+* you can continue it at a later time or spend more [Spare Time][] points
+  immediatly,
+* the [Spare Time][] task fails, or
+* the [Spare Time][] task does not have the intended outcome.
+
+!!! example "Spare Time rolls"
+    Finding a very rare item on the black market might be represented as a 2t+4
+    [Spare Time][] roll.
+
+    A character attempts the roll. He needs to spend 2 [Spare Time][] points,
+    and roll the *Bartering* [Skill][] twice. The difficulty for each roll is
+    **4**; modified by the [Spare Time][] task, the difficulty for each roll
+    results in **8**.
 
 !!! summary "Maximum [Spare Time][]"
     <div class="formula formula-top formula-bottom">
@@ -194,7 +216,8 @@ represents the difficulty for each roll.
 <div class="qs-list-test full-width p" markdown="1">
 
 **Gained**{.hf} by making a name for yourself in the cosmos, i.e. by helping
-people and factions. [Influence][] is lost by harming and disappointing others.
+people and factions. [Influence][] is lost by harming and disappointing others
+(Infamy might also gain you [Influence][] based on your reputation).
 
 **Used**{.hf} for accessing and buying items, vessels, meetings with high
 ranking characters, etc.
@@ -230,8 +253,8 @@ More [Influence][] unlocks better equipment and better vessels.
 **spent** on the repair, and *permanently lowered*.
 
 If [Resources][] are spent on equipment, your maximum [Resources][] are
-*temporarily lowered* by that amount. This abstracts the upkeep of a powerful
-item.
+*temporarily lowered* by that amount. This abstracts the upkeep and maintenance
+of a powerful item.
 
 !!! summary "Maximum [Resources][]"
     <div class="formula formula-top formula-bottom">
@@ -258,7 +281,7 @@ the experimental equipment or vessel can be acquired.
 
 </div>
 
-Certain ugprades require [Technology][] in order to be unlocked. Upgrades have
+Certain upgrades require [Technology][] in order to be unlocked. Upgrades have
 to be unlocked only once, and *can* be shared between characters. Unlocking
 *permanently lowers* your [Technology][] value.
 
@@ -289,22 +312,26 @@ lodging, etc.
 
 ## Languages
 
-Every character knows one native language, that's at step **normal**.
+Every character has one native language, that's at step **normal**.
+
+Improving a language also counts towards the skill bonus for the [Knowledge][]
+category.
 
 Learning a Language can be done in three steps. Each step requires you to make a
-Spare Time Roll. Learning the basics of a language requires you to have access
-to people speaking the language, books and texts written in the language, or
-other means to learn the language.
+[Spare Time][] roll. Learning the basics of a language requires you to have
+access to people speaking the language, books and texts written in the language,
+or other means to learn the language.
 
 <div class="qs-list-test full-width" markdown="1">
 
 ##### Basic
 
 You are able to communicate on a basic level. Others might not always understand
-you, but in general they know what you're trying to tell them.
+you, but in general they know what you're trying to tell them. Additionally you
+can't read or write in this language.
 
 Cost
-:   1t8
+:   1t+2
 
 ##### Normal
 
@@ -312,7 +339,7 @@ You have a normal knowledge about the language. You can decipher most texts, and
 know a good fraction of the language's vocabulary.
 
 Cost
-:   1t12
+:   1t+4
 
 ##### Master
 
@@ -320,13 +347,16 @@ You are able to have the most sophisticated conversations with others, and
 decipher every text, even older dialects that might not be around anymore.
 
 Cost
-:   1t16
+:   1t+6
 
 </div>
 
-!!! info "Learning languages at character creation"
-    If a character is created, the player can spend Character Points to learn
-    new languages, or to improve the native language. The cost for basic is 25,
-    for normal 50, and for master 100.
+### Learning languages at character creation
+
+If a character is created, the player can spend Character Points to learn new
+languages, or to improve his native language. Each step costs 1 Character Point.
+
+Spending Character Points for languages also counts towards the skill bonus for
+the [Knowledge][] category.
 
 --8<-- "_links.md"

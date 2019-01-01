@@ -1,3 +1,9 @@
+[d4]: #d4
+[d6]: #d6
+[d8]: #d8
+[d10]: #d10
+[d12]: #d12
+
 [Attribute]: /character/#attributes
 [Attributes]: /character/#attributes
 [Attribute Damage]: /character/#attribute-damage
@@ -38,3 +44,12 @@
 [Credits]: /equipment/#credits
 
 [Bulk]: /equipment/#bulk
+
+[AP]: /crisis/#action-points
+[Action Point]: /crisis/#action-points
+[Action Points]: /crisis/#action-points
+
+[Physical]: #damage-type-physical
+[Fire]: #damage-type-fire
+[Cold]: #damage-type-frost
+[Acid]: #damage-type-biohazard

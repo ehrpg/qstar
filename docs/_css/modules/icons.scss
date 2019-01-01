@@ -1,3 +1,5 @@
+@import "../game-icons";
+
 @mixin game-icon {
   font-family: "game-icons";
   -webkit-font-smoothing: antialiased;
@@ -11,259 +13,67 @@
   vertical-align: top;
 }
 
-$d6: "\E91B";
-
-$might: "\E696";
-$speed: "\E543";
-$intelligence: "\E5E6";
-$charisma: "\E6CC";
-
-$loot: "\E5B0";
-$spareTime: "\E355";
-$influence: "\E368";
-$resources: "\EA05";
-$technology: "\EB3B";
-
 a:not(.headerlink) {
   &[href*="#"]:before {
     @include game-icon;
   }
 
-  &[href*="#action"]:before,
-  &[href*="#might"]:before {
-    content: $might;
+  &[href*="#action"]:before {
+    @extend .game-icon-biceps;
   }
 
-  &[href*="#speed"]:before {
-    content: $speed;
+  &[href$="#knowledge"]:before {
+    @extend .game-icon-brain;
   }
 
-  &[href$="#knowledge"]:before,
-  &[href*="#intelligence"]:before {
-    content: $intelligence;
-  }
-
-  &[href*="#social"]:before,
-  &[href*="#charisma"]:before {
-    content: $charisma;
+  &[href*="#social"]:before {
+    @extend .game-icon-minions;
   }
 
   &[href*="#loot-loot"]:before {
-    content: $loot;
+    @extend .game-icon-wooden-crate;
   }
 
   &[href*="#spare-time"]:before {
-    content: $spareTime;
+    @extend .game-icon-stopwatch;
   }
 
   &[href*="#influence"]:before {
-    content: $influence;
+    @extend .game-icon-shaking-hands;
   }
 
   &[href*="#resources"]:before {
-    content: $resources;
+    @extend .game-icon-gear-hammer;
   }
 
   &[href*="#technology"]:before {
-    content: $technology;
-  }
-
-  &[href*="#d6"]:before {
-    content: $d6;
+    @extend .game-icon-erlenmeyer;
   }
 
   &[href*="#skills"]:before,
   &[href*="#skill-ranks"]:before {
-    content: "\E71A";
+    @extend .game-icon-gears;
+  }
+
+  &[href*="#action-points"]:before {
+    @extend .game-icon-electric;
+  }
+
+  &[href*="#damage-type-physical"]:before {
+    @extend .game-icon-riot-shield;
+  }
+  &[href*="#damage-type-fire"]:before {
+    @extend .game-icon-flame;
+  }
+  &[href*="#damage-type-frost"]:before {
+    @extend .game-icon-thermometer-cold;
+  }
+  &[href*="#damage-type-biohazard"]:before {
+    @extend .game-icon-biohazard;
   }
 }
 
 *:not(.md-search-result__item) > {
-  // h1,
-  // h2,
-  // h3,
-  // h4,
-  // h5 {
-  //   position: relative;
-  //   &:before {
-  //     @include game-icon;
-  //   }
-  //   & > a {
-  //     position: absolute;
-  //     right: 0;
-  //     &:before {
-  //       content: "";
-  //     }
-  //   }
-  // }
-
-  // *#might-skills,
-  // *#speed-skills,
-  // *#intelligence-skills,
-  // *#charisma-skills {
-  //   z-index: 1;
-  //   padding-top: 1em;
-  //   margin-bottom: 0.8rem;
-  // }
-
-  // *#endurance-ep:before,
-  // a[href*="#endurance"]:before {
-  //   content: "\EB5C";
-  // }
-
-  // *#health-hp:before,
-  // a[href*="#health"]:not([href*="#healthy"]):before {
-  //   content: "\E4B0";
-  // }
-
-  // *#perks:before,
-  // a[href$="#perks"]:before {
-  //   content: "\E78F";
-  // }
-
-  // *#flaws:before,
-  // a[href*="#flaws"]:before {
-  //   content: "\E840";
-  // }
-
-  // *#might-mi:before,
-  // *#might-skills:before,
-  // a[href*="#might"]:before {
-  //   content: "\E696";
-  // }
-
-  // *#speed-sp:before,
-  // *#speed-skills:before,
-  // a[href*="#speed"]:before {
-  //   content: "\E543";
-  // }
-
-  // *#intelligence-in:before,
-  // *#intelligence-skills:before,
-  // a[href*="#intelligence"]:before {
-  //   content: "\E5E6";
-  // }
-
-  // *#charisma-ch:before,
-  // *#charisma-skills:before,
-  // a[href*="#charisma"]:before {
-  //   content: "\E6CC";
-  // }
-
-  // // a[href$="#dmg-damage"]:before,
-  // // a[href$="#damage"]:before {
-  // //   content: "\E1E8";
-  // // }
-
-  // // a[href*="#crit-critical"]:before,
-  // // a[href*="#critical-damage"]:before {
-  // //   content: "\E5E2";
-  // // }
-
-  // // h3#damage-reduction:before,
-  // // a[href*="#DR"]:before,
-  // // a[href*="#damage-reduction"]:before {
-  // //   content: "\E023";
-  // // }
-
-  // // h4#hit,
-  // // a[href*="#hit"]:before,
-  // // a[href*="#attack"]:before {
-  // //   content: "\E8AA";
-  // // }
-
-  // // a[href*="#rof"]:before,
-  // // a[href*="rof#stats"]:before {
-  // //   content: "\E1DA";
-  // // }
-
-  // // a[href*="#cap-capacity"]:before {
-  // //   content: "\E1B6";
-  // // }
-
-  // // a[href*="reload#stats"]:before {
-  // //   content: "\E094";
-  // // }
-
-  // *#attributes:before,
-  // a[href*="#attributes"]:before {
-  //   content: "\E6C0";
-  // }
-
-  // *#skills:before,
-  // a[href*="#skills"]:before,
-  // *#skill-ranks:before,
-  // a[href*="#skill-ranks"]:before {
-  //   content: "\E71A";
-  // }
-
-  // // a[href^="./equipment"]:before {
-  // //   content: "\E77F";
-  // // }
-
-  // // *#armour:before,
-  // // a[href*="#armour"]:before {
-  // //   content: "\EA22";
-  // // }
-
-  // *#turn-order:before,
-  // a[href*="#turn-order"]:before {
-  //   content: "\E385";
-  // }
-
-  // *#downtime-dt:before,
-  // a[href*="#downtime"]:before {
-  //   content: "\E355";
-  // }
-
-  // *#influence-inf:before,
-  // a[href*="#influence"]:before {
-  //   content: "\E368";
-  // }
-
-  // *#resources-res:before,
-  // a[href*="#resources"]:before {
-  //   content: "\E5B0";
-  // }
-
-  // *#technology-tech:before,
-  // a[href*="#technology"]:before {
-  //   content: "\EB3B";
-  // }
-
-  // *#credits:before,
-  // a[href*="#credits"]:before {
-  //   font-style: normal;
-  //   content: "\FFE0";
-  // }
-
-  // .qs-cr {
-  //   font-style: normal;
-  //   &:before {
-  //     content: "\E8D7";
-  //   }
-  // }
-
-  // a[href$="#d6"],
-  // a[href$="#3d6"] {
-  //   color: #222 !important;
-  //   pointer-events: none;
-  //   cursor: default;
-  // }
-
-  // a[href$="#d6"]:before,
-  // a[href$="#3d6"]:before {
-  //   color: #222;
-  // }
-
-  // a[href$="#d6"]:before {
-  //   content: "\E91B";
-  // }
-
-  // a[href$="#3d6"]:before {
-  //   content: "\E91B\E91B\E91B";
-  // }
-
   a[href$="#d4"],
   a[href$="#d6"],
   a[href$="#d8"],
@@ -284,23 +94,23 @@ a:not(.headerlink) {
     vertical-align: middle;
   }
 
-  a[href$="#d4"]:before {
-    content: "\E920";
+  a[href$="#d4"] {
+    @extend .game-icon-d4;
   }
 
   a[href$="#d6"]:before {
-    content: "\E91B";
+    @extend .game-icon-perspective-dice-six;
   }
 
   a[href$="#d8"]:before {
-    content: "\E90B";
+    @extend .game-icon-dice-eight-faces-eight;
   }
 
   a[href$="#d10"]:before {
-    content: "\E91E";
+    @extend .game-icon-d10;
   }
 
   a[href$="#d12"]:before {
-    content: "\E91F";
+    @extend .game-icon-d12;
   }
 }

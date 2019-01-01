@@ -1,35 +1,34 @@
 # Crisis
 
-A crisis requires a character to make a **Task** roll, **Damage** roll or
-**Random** roll. In a crisis time slows down and actions become more atomic.
+*A crisis requires a character to make a **Skill** roll or **Random** roll. In a
+crisis time slows down and actions become more atomic.*
 
 ## Difficulty
 
 Every task has a difficulty of 4. Some tasks require equipment or knowledge, in
 order to not suffer a penalty. Other tasks are very easy, and the roll gains a
-bonus, or you don't have to roll at all.
+bonus, or you don't even have to roll at all.
 
-Not all tasks require a check. For example, finding some information inside
+Not all tasks **require** a check. For example, finding some information inside
 books can be done without a skill check given enough time. A good skill check
 could reduce the time spent searching, or it could unearth additional
 information that might be helpful.
 
-!!! tip "Difficulty"
-    This is only a guideline about tasks and the modifiers they impose.
-
 | Modifier | Name        | Description                                                        |
-|---------:|-------------|--------------------------------------------------------------------|
+| -------: | ----------- | ------------------------------------------------------------------ |
 |       -4 | Trivial     | Everyday tasks.                                                    |
-|       -3 | Mundane     | Everyday tasks, which can be done by almost everyone.              |
 |       -2 | Routine     | Tasks you do every few days, which can be done by almost everyone. |
 |       -1 | Simple      | Most people can do this without much effort.                       |
-|        _ | Easy        | Even untrained people still can do these tasks most of the time.   |
+|        _ | Easy        | Even untrained people still can do these tasks sometimes.          |
 |       +1 | Normal      | You need at least some training to complete these kind of tasks.   |
 |       +2 | Demanding   | You either need gear or good training for these tasks.             |
-|       +3 | Challenging | You need a lot of training and good gear.                          |
-|       +4 | Hard        | You need to be a specialist for these tasks.                       |
-|       +5 | Very Hard   | You require help from others to achieve this.                      |
-|       +6 | Impossible  | A once in a lifetime achievement.                                  |
+|       +4 | Challenging | You need a lot of training and good gear.                          |
+|       +6 | Hard        | You need to be a specialist for these tasks.                       |
+|       +8 | Very Hard   | You require help from others to achieve this.                      |
+|      +10 | Impossible  | A once in a lifetime achievement.                                  |
+
+!!! tip "Difficulty"
+    This is only a guideline about tasks and the modifiers they impose.
 
 ### Difficulty Modifier
 
@@ -37,26 +36,22 @@ Certain circumstances modify the task's difficulty positively or negatively.
 Multiple modifiers stack.
 
 | Modifier | Name                     | Description                               |
-|---------:|--------------------------|-------------------------------------------|
+| -------: | ------------------------ | ----------------------------------------- |
 |       +1 | Asset                    | Having the correct tools at hand.         |
 |       -1 | Unfavorable Circumstance | E.g. climbing a cliff while it's raining. |
 
 !!! tip "Stacking Modifiers"
-    Even though modifiers stack, multiple assets of the same type may not be
-    stacking.
+    Even though modifiers stack, multiple assets of the same type do not stack,
+    e.g. two climber's gears.
 
 ## Turns
 
 Each character and creature in a crisis have one turn per round. The order in
 which they can act are determined by their turn order.
 
-Every Action in a Crisis requires Actions Points (AP).
-
-Action points can never exceed 6 or deceed 0. Exceeding AP are lost, while
-actions that require more than the remain AP are disabled until enough AP are
-accumulated.
-
 ### Turn Order
+
+**TODO**
 
 Every character involved in a crisis uses its
 [Perception](/character#perception) value to determine its turn order. The
@@ -70,24 +65,28 @@ roll, but rolls to resolve the conflict change the turn order.
 
 ### Action Points
 
-Every character has a minimum of 0 AP and a maximum of 6 AP. At the start of
-each turn, including the beginning of a Crisis, the character gains 4 AP.
+Every Action in a Crisis requires [Action Points][] (AP).
 
-Exceeding AP are lost, while Actions that require more than the remaining AP are
-disabled until enough AP are accumulated.
+Every character has a minimum of 0 [AP][] and a maximum of 6 [AP][]. At the
+start of each turn, including the beginning of a Crisis, the character gains 4
+[AP][].
 
-If an Action states an AP cost higher than 6, this indicates that the Action has
-to be executed over multiple subsequent turns. Executing any other Action while
-this Action isn't completed yet cancels it.
+[AP][] can never exceed 6 or be lower than 0. Exceeding [AP][] are lost, while
+Actions that require more than the remaining [AP][] are disabled until enough
+[AP][] are accumulated.
+
+An action with an [AP][] cost higher than 6 indicates that the Action has to be
+executed over multiple subsequent turns. Executing any other Action while this
+Action isn't completed yet cancels it.
 
 !!! example "Reloading a flintlock musket"
-    Reloading a flintlock musket takes 10 AP. You can immediatly spend all your
-    AP on reloading. Each subsequent turn you can spend another 4 AP on
-    reloading.
+    Reloading a flintlock musket takes 10 [AP][]. You can immediatly spend all
+    your [AP][] on reloading. Each subsequent turn you can spend another 4
+    [AP][] on reloading.
 
-    A character begins reloading a flintlock musket with 3 AP left. After 2 more
-    rounds he would have accumulated 11 AP. So after these 2 rounds he has 1 AP
-    left and his weapon is reloaded.
+    A character begins reloading a flintlock musket with 3 [AP][] left. After 2
+    more rounds he would have accumulated 11 [AP][]. So after these 2 rounds he
+    has 1 [AP][] left and his weapon is reloaded.
 
 !!! info "Actions in parallel"
     Not all Actions require your utmost attention. E.g. while reloading you can
@@ -101,8 +100,8 @@ an additional turn before actual combat starts.
 
 ## Attacks
 
-An Attack roll is equal to a **Task** roll, using the weapon's associated
-Skill.
+An Attack roll is equal to a **Skill** roll, using the weapon's associated
+[Skill][]. An Attack automatically fails if the first die comes up with a **1**.
 
 !!! summary "Making an Attack"
     <div class="formula formula-top formula-bottom">
@@ -116,39 +115,22 @@ Skill.
 #### Melee Attacks
 
 A melee Attack roll has to be equal to or higher than the target's
-[Parry](/character#parry) value.
+[Parry](/character#parry) roll if available, or **4**.
 
 </div>
 <div class="right" markdown="1">
 
 #### Ranged Attacks
 
-A ranged Attack roll has to be equal to or higher than 4. Circumstances such as
+A ranged Attack roll has to be equal to or higher than **4**. Circumstances such as
 range, visibility, wind, etc. influence the Attack roll's result.
 
 </div>
 
-#### Critical Hits
-
-For every 4 points above 12, starting at 12, you score a Critical Hit, if the
-Attack is higher than the target's armor.
-
-Scoring a Critical Hit gives you a +1 bonus on Damage rolls.
-
-You only score a Critical Hit, if the Attack itself hits and a Critical Hit can
-only be scored, if the threshold for a Critical Hit is **higher** than the
-target's armor.
-
-!!! example "Critical Hits"
-    Jack attacks and his Attack roll results in 19. His target has a Defence of
-    13. He scores only 1 Critical Hit, for reach 16. Reaching the 12 is not a
-    Critical Hit, since it's lower than the target's armor.
-
-
 #### Area of Effect
 
-Attacks with an Area of Effect, e.g. a fireball spell, always deal their damage
-without having to roll for an Attack. As such, they cannot critically hit.
+Attacks with an Area of Effect, e.g. a fireball spell, also have to be equal or
+higher than **4**.
 
 Thrown weapons, e.g. grenades, require you to make an Athletics check. The roll
 otherwise is a normal Ranged Attack. Circumstances such as range, visibility,
@@ -162,7 +144,7 @@ Cover is always relative to other targets. A character can be in total cover for
 an enemy, but in plain sight for another.
 
 |   Modifier | Condition   |
-|-----------:|-------------|
+| ---------: | ----------- |
 |         +1 | Cover       |
 |         +2 | Heavy Cover |
 | unhittable | Total Cover |
@@ -171,7 +153,7 @@ an enemy, but in plain sight for another.
 
 !!! tip "Positions and Cover"
     Being prone and facing an enemy straight on counts as being in heavy cover
-    (only head and shoulds visible).
+    (only head and shoulders visible).
 
 </div>
 <div class="right" markdown="1">
@@ -194,18 +176,13 @@ The result of the damage roll has to be higher than the target's
 [Toughness](/character#toughness) value. If the damage roll is higher, you cause
 1 wound, or more depending on the weapon and used Action, to the target.
 
-### Additional Damage
-
-For each 4 points above the target's [Toughness](/character#toughness) value,
-the target receives 1 additional wound. These additional wounds are always
-**physical** wounds.
-
 ### Damage Reduction
 
-If a target wears Armor, all wounds you deal are substracted from the target's
-Armor first. Only if the Durability of the Weapon's or Action's Damage type is 0
-you can deal wounds to the target. Some weapons and Actions circumvent the
-Armor, e.g. Armor-Piercing Ammunition.
+If a target wears Armor, all damage you deal is substracted from the target's
+Armor first. If the target's Armor is higher than the damage dealt, the target
+still receives at least 1 damage.
+
+Some weapons and Actions circumvent the Armor, e.g. Armor-Piercing Ammunition.
 
 ### Non-lethal damage
 
@@ -258,7 +235,7 @@ on the [Might](/character#might-mi) roll causes an additional wound.
 The difficulty of Natural Healing is influenced by these conditions:
 
 | Modifier | Condition                                                             |
-|---------:|-----------------------------------------------------------------------|
+| -------: | --------------------------------------------------------------------- |
 |       -2 | Rough traveling                                                       |
 |       -2 | No medical attention                                                  |
 |       -2 | Poor environmental conditions, such as intense cold, heat, or rain    |
@@ -422,3 +399,5 @@ Penalty
 :   You can't act or react on the current turn and do not regain AP.
 
 </div>
+
+--8<-- "_links.md"
