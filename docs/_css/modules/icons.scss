@@ -60,7 +60,7 @@ a:not(.headerlink) {
   }
 
   &[href*="#damage-type-physical"]:before {
-    @extend .game-icon-riot-shield;
+    @extend .game-icon-drop;
   }
   &[href*="#damage-type-fire"]:before {
     @extend .game-icon-flame;

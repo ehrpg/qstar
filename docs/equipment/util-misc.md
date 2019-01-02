@@ -23,7 +23,7 @@ A climbing gear consists of ropes, ice picks, bolts to secure the ropes, etc.
 :   Athletics (Climbing)
 
 [Credits](#credits)
-:   1 000
+:   1.000
 
 [Bulk](#bulk)
 :   3
@@ -58,7 +58,7 @@ Food supplies provide food and water for a full week (7 days). Food supplies can
 be refilled in civilization, e.g. trading outposts etc. for free.
 
 [Credits](#credits)
-:   1 000
+:   1.000
 
 [Bulk](#bulk)
 :   4
@@ -89,7 +89,7 @@ screws, etc.
 :   Engineering
 
 [Credits](#credits)
-:   1 000
+:   1.000
 
 [Bulk](#bulk)
 :   5

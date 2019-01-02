@@ -1,13 +1,13 @@
 # Crisis
 
-*A crisis requires a character to make a **Skill** roll or **Random** roll. In a
-crisis time slows down and actions become more atomic.*
+*A crisis requires a character to make a **Skill** roll. In a crisis time slows
+down and actions become more atomic.*
 
 ## Difficulty
 
-Every task has a difficulty of 4. Some tasks require equipment or knowledge, in
-order to not suffer a penalty. Other tasks are very easy, and the roll gains a
-bonus, or you don't even have to roll at all.
+Every task has a difficulty of **4**. Some tasks require equipment or knowledge,
+in order to not suffer a penalty. Other tasks are very easy, and the roll gains
+a bonus, or you don't even have to roll at all.
 
 Not all tasks **require** a check. For example, finding some information inside
 books can be done without a skill check given enough time. A good skill check
@@ -47,21 +47,29 @@ Multiple modifiers stack.
 ## Turns
 
 Each character and creature in a crisis have one turn per round. The order in
-which they can act are determined by their turn order.
+which they can act is determined by their turn order.
+
+Once every character has acted, a new **round** begins.
 
 ### Turn Order
 
-**TODO**
-
-Every character involved in a crisis uses its
-[Perception](/character#perception) value to determine its turn order. The
-character with the highest [Perception](/character#perception) value acts first.
-Once every character has acted, a new **turn** begins.
+Every character involved in a crisis has to roll for initiative. You roll a
+[d6][] and add your [Action][] bonus to the roll. The character with the highest
+result acts first. As with any die roll, the initiative die can *explode* too.
 
 If two or more characters have rolled the same result the PCs can agree upon who
-acts first. If they cannot find an agreement make a **Task** roll on your
-[Speed](/character#speed-sp) Attribute. The characters retain their original
-roll, but rolls to resolve the conflict change the turn order.
+acts first. If they cannot find an agreement, roll again. The characters retain
+their original roll, but the conflict is resolved.
+
+!!! summary "Turn Order"
+    <div class="formula formula-top formula-bottom">
+      <span data-bracket-bottom="Base">[d6][]</span> +
+      <span data-bracket-top="Action Skill category">[Action] bonus</span>
+    </div>
+
+!!! tip "[GM Tip] - NPC Turn Order"
+    As a GM you can roll once for a group of NPCs, e.g. a pack of wolves. This
+    simplifies the overhead you have in combat with multiple NPCs.
 
 ### Action Points
 
@@ -71,9 +79,8 @@ Every character has a minimum of 0 [AP][] and a maximum of 6 [AP][]. At the
 start of each turn, including the beginning of a Crisis, the character gains 4
 [AP][].
 
-[AP][] can never exceed 6 or be lower than 0. Exceeding [AP][] are lost, while
-Actions that require more than the remaining [AP][] are disabled until enough
-[AP][] are accumulated.
+Any [AP][] over 6 are lost, while Actions that require more than the remaining
+[AP][] are disabled until enough [AP][] are accumulated.
 
 An action with an [AP][] cost higher than 6 indicates that the Action has to be
 executed over multiple subsequent turns. Executing any other Action while this
@@ -112,20 +119,27 @@ An Attack roll is equal to a **Skill** roll, using the weapon's associated
 
 <div class="left" markdown="1">
 
-#### Melee Attacks
+#### Ranged Attacks
 
-A melee Attack roll has to be equal to or higher than the target's
-[Parry](/character#parry) roll if available, or **4**.
+A ranged Attack roll has to be equal to or higher than **4**. Circumstances such
+as range, visibility, wind, etc. influence the Attack roll's result.
 
 </div>
 <div class="right" markdown="1">
 
-#### Ranged Attacks
+#### Melee Attacks
 
-A ranged Attack roll has to be equal to or higher than **4**. Circumstances such as
-range, visibility, wind, etc. influence the Attack roll's result.
+A Melee Attack roll has to be equal to or higher than **4**. Once per round, the
+target can try to parry to Melee Attack.
 
 </div>
+
+##### Parrying
+
+Once per round you can try to parry an incoming Melee Attack. You have to choose
+to parry before the attacker rolls his attack. The parry roll is a Melee roll
+that has to be equal to or higher than **4**. If it succeeds, you can substract
+your final roll from the damage received.
 
 #### Area of Effect
 
@@ -136,17 +150,25 @@ Thrown weapons, e.g. grenades, require you to make an Athletics check. The roll
 otherwise is a normal Ranged Attack. Circumstances such as range, visibility,
 wind, etc. influence the Athletics roll's result.
 
+##### Dodging
+
+Only Area of Effect Attacks can be dodged. Once per round you can try to dodge
+an incoming Area of Effect Attack. You have to choose to dodge before the
+attacker rolls his attack. The dodge roll is an Acrobatics roll that has to be
+equal to or higher than **4**. If it succeeds, you can substract your final roll
+from the damage received.
+
 ### Cover
 
-> Cover provides additional defensive bonuses for melee and ranged combat.
+> Cover provides penalties to the attacker for melee and ranged combat.
 
 Cover is always relative to other targets. A character can be in total cover for
 an enemy, but in plain sight for another.
 
 |   Modifier | Condition   |
 | ---------: | ----------- |
-|         +1 | Cover       |
-|         +2 | Heavy Cover |
+|         -2 | Cover       |
+|         -4 | Heavy Cover |
 | unhittable | Total Cover |
 
 <div class="left" markdown="1">
@@ -169,18 +191,17 @@ an enemy, but in plain sight for another.
 
 If an Attack is successful, damage can be dealt to the target.
 
-Roll the weapon's damage dice. Some weapons gain additional damage from an
-Attribute and Actions.
+You deal your Attack's roll plus or minus the weapon's damage as damage to the
+target. You **always** deal at least 1 damage, regardless of your target's
+defences, damage reduction, etc.
 
-The result of the damage roll has to be higher than the target's
-[Toughness](/character#toughness) value. If the damage roll is higher, you cause
-1 wound, or more depending on the weapon and used Action, to the target.
+If the Attack would also cause a status effect on the target, the damage dealt
+has to be equal to or higher than the target's defences.
 
 ### Damage Reduction
 
 If a target wears Armor, all damage you deal is substracted from the target's
-Armor first. If the target's Armor is higher than the damage dealt, the target
-still receives at least 1 damage.
+Armor first.
 
 Some weapons and Actions circumvent the Armor, e.g. Armor-Piercing Ammunition.
 
@@ -190,6 +211,8 @@ When a target would die from an Attack, the attacker can decide whether or not
 to apply non-lethal force, knocking the target unconcious instead of killing it.
 
 ## Wounds
+
+**TODO**
 
 When the creature has negative [Health](#health) equal to its maximum, the
 creature dies.
@@ -206,6 +229,8 @@ NPCs usually die outright when they reach 0 [Health](#health).
     [Health](#health) drop to -3, Jack dies.
 
 ## Healing
+
+**TODO**
 
 The Medicine Skill can be used to treat a wound suffered within the last hour.
 Each Medicine Skill roll to heal a wound takes 10 minutes.
@@ -248,8 +273,9 @@ The difficulty of Natural Healing is influenced by these conditions:
 All characters can perform basic actions. [Talents](/character/talents) and
 [Equipment](/equipment) can make additional actions available.
 
-This list provides a guideline for actions and their AP cost. These apply unless
-stated otherwise, e.g. attacking with an oversized weapon may require more AP.
+This list provides a guideline for actions and their [AP][] cost. These apply
+unless stated otherwise, e.g. attacking with an oversized weapon may require
+more [AP][].
 
 #### Movement & Stances
 
@@ -259,48 +285,45 @@ stated otherwise, e.g. attacking with an oversized weapon may require more AP.
 
 You can move up to the character's [Pace](/character#pace).
 
-AP Cost
+[AP][]
 :   1
 
 ##### Crawl
 
-You can move up to 2 meters while crawling.
+You can move up to 2 meters while [Prone](/crisis/#prone).
 
-Effect
-:   Ranged attacks against you suffer a -2 penalty.
-
-AP Cost
+[AP][]
 :   1
 
 ##### Crouch
 
-You can move up to half the character's [Pace](/character#pace).
+You can move up to half the character's [Pace](/character#pace) while
+[Kneeling](/crisis/#kneeling).
 
-Effect
-:   Ranged attacks against you suffer a -1 penalty. Also counts as sneaking.
-
-AP Cost
+[AP][]
 :   1
 
 ##### Kneel down / Stand Up
 
 You kneel down on your kneews or stand up.
 
-Effect
-:   Toggles the Kneeling Condition. When Kneeling, going prone only costs 1 AP.
-
-AP Cost
+[AP][]
 :   1
+
+Effect
+:   Toggles the [Kneeling](/crisis/#kneeling) Condition. When already Kneeling,
+going prone only costs 1 [AP][].
 
 ##### Go Prone / Stand Up
 
 You lie down or stand up.
 
-Effect
-:   Toggles the Prone Condition. When being prone, kneeling down costs 1 AP.
-
-AP Cost
+[AP][]
 :   2
+
+Effect
+:   Toggles the [Prone](/crisis/#prone) Condition. When being prone, kneeling
+down costs 1 [AP][].
 
 </div>
 
@@ -312,43 +335,43 @@ AP Cost
 
 Attack with a *normal* weapon.
 
-AP Cost
+[AP][]
 :   2, or as indicated by the weapon.
 
 ##### Hide
 
 Hide from others, provided they have no direct vision of you.
 
-AP Cost
+[AP][]
 :   3
 
 ##### Overwatch
 
-You delay your turn and can use your AP for Attack actions in somebody else's
-turn.
+You delay your turn and can use your [AP][] for Attack actions in somebody
+else's turn.
 
-AP Cost
+[AP][]
 :   -
 
 ##### Take Aim
 
 Line up your shot. Can be used multiple times.
 
+[AP][]
+:   2, or as indicated by the weapon.
+
 Effect
 :   Per Take Aim action you gain a +1 bonus to ranged attacks.
-
-AP Cost
-:   2, or as indicated by the weapon.
 
 ##### Use Item
 
 You use an item.
 
+[AP][]
+:   2, or as indicated by the item.
+
 Effect
 :   The used item specifies the effect of this action.
-
-AP Cost
-:   2, or as indicated by the item.
 
 </div>
 
@@ -362,14 +385,18 @@ themselves or the environment.
 
 ##### Drunk
 
+*You feel a little dizzy.*
+
 Penalty
 :   All checks suffer a -1 penalty. Checks that rely on speed and balance suffer
 a -2 penalty.
 
 ##### Exhausted
 
+*You need to catch your breath first.*
+
 Penalty
-:   You gain -2 AP per round.
+:   You gain -2 [AP][] per round.
 
 ##### Kneeling
 
@@ -394,6 +421,8 @@ Penalty
 :   Melee attacks against you gain a +4 bonus.
 
 ##### Stunned
+
+*Something keeps you from acting and reacting.*
 
 Penalty
 :   You can't act or react on the current turn and do not regain AP.

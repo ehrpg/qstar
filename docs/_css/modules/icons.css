@@ -7132,7 +7132,7 @@
   content: "\E6EE";
 }
 
-.game-icon-riot-shield:before, a[href*="#damage-type-physical"]:not(.headerlink):before {
+.game-icon-riot-shield:before {
   content: "\E6EF";
 }
 
@@ -9220,7 +9220,7 @@
   content: "\E8F8";
 }
 
-.game-icon-drop:before {
+.game-icon-drop:before, a[href*="#damage-type-physical"]:not(.headerlink):before {
   content: "\E8F9";
 }
 

@@ -6,6 +6,15 @@
 @import "./modules/icons";
 @import "./modules/perks-flaws";
 
+@media print {
+  a:after {
+    content: none !important;
+  }
+  img:after {
+    content: none !important;
+  }
+}
+
 @media only screen and (min-width: 60em) {
   .md-content {
     margin-right: 242px;
@@ -315,16 +324,13 @@ blockquote.important {
       font-size: 1.3rem;
       line-height: 1;
       font-weight: bold;
-      padding-left: 10px;
-      &:first-of-type {
-        width: 110px;
-        padding-left: 0;
-      }
+      width: 110px;
     }
 
     dd {
       font-size: 1.3rem;
       line-height: 1;
+      width: calc(100% - 120px);
 
       padding-left: 4px;
     }
@@ -353,4 +359,39 @@ blockquote.important {
       text-transform: uppercase;
     }
   }
+}
+
+@media only screen and (min-width: 50em) {
+  .left,
+  .right {
+    float: left;
+    width: 50%;
+  }
+  .left {
+    padding-right: 2%;
+  }
+
+  .right {
+    padding-left: 2%;
+
+    & + * {
+      clear: both;
+    }
+  }
+
+  .cols-wrapper {
+    float: left;
+    width: 50%;
+
+    > section {
+      padding-right: 2%;
+      z-index: 1;
+      overflow: hidden;
+      position: relative;
+    }
+  }
+}
+
+.clearfix {
+  clear: both;
 }

@@ -25,6 +25,21 @@ disadvantages.
 
 See [Talents](/character/talents/).
 
+## Stats
+
+### Pace
+
+> The Pace gives you an estimate how quickly you can go from A to B.
+
+The Pace is used to determine how far the creature gets by using the Move
+Action.
+
+!!! summary "Pace"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Base">4</span> +
+        <span data-bracket-top="Action Skill category">[Action][] bonus</span>
+    </div>
+
 ## Health (HP)
 
 **TODO**
@@ -331,7 +346,7 @@ you, but in general they know what you're trying to tell them. Additionally you
 can't read or write in this language.
 
 Cost
-:   1t+2
+:   1t+2 (Linguistics)
 
 ##### Normal
 
@@ -339,7 +354,7 @@ You have a normal knowledge about the language. You can decipher most texts, and
 know a good fraction of the language's vocabulary.
 
 Cost
-:   1t+4
+:   1t+4 (Linguistics)
 
 ##### Master
 
@@ -347,7 +362,7 @@ You are able to have the most sophisticated conversations with others, and
 decipher every text, even older dialects that might not be around anymore.
 
 Cost
-:   1t+6
+:   1t+6 (Linguistics)
 
 </div>
 
