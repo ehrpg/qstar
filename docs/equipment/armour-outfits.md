@@ -6,10 +6,10 @@
 Armour prevents damage a character may receive. Armour provides Damage Reduction
 (DR) for these damage types:
 
-* [Physical][] (including Kinetic) Damage,
-* [Fire][] (including Explosive) Damage,
-* [Cold][] Damage,
-* [Acid][] (including Radiation, Biohazard) Damage.
+- [Physical][] (including Kinetic) Damage,
+- [Fire][] (including Explosive) Damage,
+- [Cold][] Damage,
+- [Acid][] (including Radiation, Biohazard) Damage.
 
 Any incoming damage is reduced by the armour's DR value for the type of the
 damage first.

@@ -191,12 +191,19 @@ an enemy, but in plain sight for another.
 
 If an Attack is successful, damage can be dealt to the target.
 
-You deal your Attack's roll plus or minus the weapon's damage as damage to the
-target. You **always** deal at least 1 damage, regardless of your target's
-defences, damage reduction, etc.
+For damage you use the same die roll result as for the Attack, and add all
+damage bonuses to the roll. You **always** deal at least 1 damage, regardless of
+your target's defences, damage reduction, etc.
 
 If the Attack would also cause a status effect on the target, the damage dealt
 has to be equal to or higher than the target's defences.
+
+!!! example "Attacking and Damaging"
+    A character makes a Ranged Attack with a [d10][]. He rolls a 6 and adds all
+    applicable to-hit modifiers. The final Attack roll results in a 5. The
+    target does not wear any armour, so the damage dealt is 5. Because the
+    attacker uses a weapon that grants a +15 damage bonus, the final damage
+    results in 20.
 
 ### Damage Reduction
 
@@ -355,7 +362,7 @@ else's turn.
 
 ##### Take Aim
 
-Line up your shot. Can be used multiple times.
+Line up your shot. Can be used up to 2 times.
 
 [AP][]
 :   2, or as indicated by the weapon.
