@@ -2,6 +2,8 @@
 
 ;(function () {
   document.addEventListener("DOMContentLoaded", function() {
+    if (window.innerWidth <= 1220) return
+
     var nav = document.getElementsByClassName("md-nav");
     for(var i = 0; i < nav.length; i++) {
         if (nav.item(i).getAttribute("data-md-level")) {
