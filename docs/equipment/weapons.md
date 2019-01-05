@@ -34,13 +34,14 @@ outside are uneffected.
 
 ##### RNG
 
-indicates the weapon's range increment. Each increment imposes a cumulative -1
-penalty to the attack. `RNG * 10` is the maximum effective range of the weapon.
-Any target within the weapon's first range increment does not impose a penalty.
+indicates the weapons range increment. Each increment imposes a cumulative -1
+penalty to the attack. **RNG** times 10 is the maximum effective range of the
+weapon. Any target within the weapons first range increment does not impose a
+penalty.
 
 ##### RoF
 
-indicates the weapon's rate of fire. An RoF higher than 1 allows you to make
+indicates the weapons rate of fire. An RoF higher than 1 allows you to make
 optional, consecutive Attack rolls for the same or even different targets at the
 expense of 1 [AP][], and a cumulative -1 penalty on **HIT**, per extra Attack,
 unless otherwise noted by the weapon. Using a higher **RoF** also uses up more
@@ -69,13 +70,18 @@ indicates how much [AP][] it takes to reload the weapon.
 
 !!! tip "[GM Tip] - MAG refilling"
     If your setting requires it, you can overrule the MAG refilling rule. Buying
-    one MAG should cost 1/25 of the weapon's CR cost.
+    one MAG should cost 1/25 of the weapons CR cost.
 
 ## Weapon Tags
 
 A weapon can have one or more of the following tags.
 
 <div class="qs-list-test full-width" markdown="1">
+
+##### Burst
+
+Weapons with the Burst Tag can only fire a single bullet or a number of bullets
+equal to its **RoF**.
 
 ##### Close range
 

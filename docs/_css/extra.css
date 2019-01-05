@@ -14332,6 +14332,10 @@ blockquote.important {
     overflow: hidden;
     position: relative;
   }
+  div.qs-list-test section > div {
+    width: calc(100% - 120px);
+    margin-left: 120px;
+  }
 }
 
 @media only screen and (min-width: 76.25em) {

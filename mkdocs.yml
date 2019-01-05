@@ -74,6 +74,7 @@ nav:
             - Utilities & Miscellaneous: 'equipment/util-misc.md'
 
         - Crisis: 'crisis.md'
+        - Environment: 'environment.md'
 
         - NPCs:
             - NPCs: 'npc/index.md'

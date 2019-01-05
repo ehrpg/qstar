@@ -380,7 +380,7 @@ Hide from others, provided they have no direct vision of you.
 
 Requires a successful Sneak [Skill][] roll. If you're in plain sight of an
 opponent, you can't Hide or Sneak. You have to [Hide](#hide) first before you
-can sneak. While you sneak, you have to [Crouch](#crouch).
+can sneak.
 
 Effect
 :   You're Sneaking. Other creatures are unaware of your presence.

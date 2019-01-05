@@ -246,6 +246,11 @@ blockquote.important {
       z-index: 1;
       overflow: hidden;
       position: relative;
+
+      > div {
+        width: calc(100% - 120px);
+        margin-left: 120px;
+      }
     }
   }
 }

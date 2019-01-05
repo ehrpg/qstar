@@ -52,13 +52,18 @@ specifically states it.
 Every Sneak and Hide [Skill][] roll is opposed by the enemies [Perception][].
 Per ally near you, you receive a +1 bonus to your [Perception][].
 
+| Perception Modifier | Example                            |
+|:-------------------:|------------------------------------|
+|         -2          | Distracted, otherwise occupied     |
+|         +2          | Guarding something, on the lookout |
+
 !!! summary "Perception"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Base">2</span> +
         <span data-bracket-top="Knowledge Skill category">[Knowledge][] die / 2</span> +
-        <span data-bracket-bottom="max 4">1 per Ally</span>
+        <span data-bracket-bottom="max 4">1 per Ally</span> ±
+        <span data-bracket-top="Race / Talents / etc">Circumstance</span>
     </div>
-
 ## Health (HP)
 
 Health abstracts how much wounds a character can take before being incapacitated

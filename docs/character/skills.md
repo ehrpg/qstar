@@ -16,6 +16,20 @@ should only be usable if they are trained, indicated by a **"*"** next to their
 name. These [Skills][] can still be used if untrained, but only for very basic
 things.
 
+## Skill Familiarization
+
+Most [Skills][] are very vaguely described and not very specific to simplify
+character creation and gameplay. Sometimes you might want to emphasize however,
+that a [Skill][] is dramatically different than how the character would normale
+use it. In this case, the [Skill][] roll should suffer a -2 penalty. For
+exceptional knowledge about a certain topic, the GM may provide a +2 bonus to
+the roll.
+
+## Skill Categories
+
+There are three different categories that you can improve by improving their
+associated [Skills][].
+
 Every 4 Character Points used in a single category improves the category's die
 by one step. Each Category starts with a [d4][]. Category dies are used for very
 basic tasks where no other [Skill][] applies, but mainly for combat related
@@ -43,6 +57,11 @@ is used for climbing, jumping, running, swimming, dodging, dodging away from
 falling debris, etc.
 <br>
 Without this [Skill][] being trained, the character **cannot** swim.
+
+| Modifier | Example                        |
+|:--------:|--------------------------------|
+|    -2    | Sparce or only thin handholds. |
+|    -2    | Surface is slippery            |
 
 ##### Force
 
@@ -73,6 +92,16 @@ is used to hide from others, sneak around, lockpicking, etc.
 <br>
 It's opposed by the **Search** [Skill][].
 
+| Modifier | Example        |
+|:--------:|----------------|
+|    +2    | Crawling       |
+|    -2    | Running        |
+|    +1    | Dim Light      |
+|    +2    | Darkness       |
+|    +4    | Pitch Darkness |
+|    +2    | Light Cover    |
+|    +4    | Heavy Cover    |
+
 </div>
 
 ### Knowledge
@@ -87,6 +116,17 @@ It's also used for [Perception][].
 ##### Search / Track
 
 is used to find and spot hidden and obscured things.
+
+| Tracking Modifier | Example                        |
+|:-----------------:|--------------------------------|
+|        +2         | Tracking more than 5 creatures |
+|        +4         | Recent snow                    |
+|        +2         | Mud                            |
+|        +1         | Dust                           |
+|        -4         | Raining                        |
+|        -2         | Dim Light                      |
+|        -2         | Tracks are older than 1 day    |
+|        -2         | Creature tried to hide tracks  |
 
 ##### Engineering*
 
