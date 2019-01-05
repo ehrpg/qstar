@@ -1,15 +1,19 @@
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-# qstar
-Rules modifications for Endless Horizons
+# Q*
 
-[Character sheet and
- pregens](https://drive.google.com/open?id=1Nfz9P2xdDkKlsNC_UK2ysVS73O4VzRFO)
- for the S.T.A.L.K.E.R. setting for qstar.
+Q* (qstar) is an RPG Pen & Paper System, that tries to streamline and abstract
+as much as possible. At the same time, it's highly extensible because the base
+rules do not make any assumption about the setting (fantasy, western, scifi) you
+want to play.
+
+The rules are kept as simple as possible while providing a certain amount of
+realism. For some of the rules, especially equipment, it's highly recommended to
+get printouts besides a character sheet.
 
 ## License
 
-qstar is under the [Creative Commons
+Q* is under the [Creative Commons
 BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/) licence. It's free
 and open source and you can contribute!
 
