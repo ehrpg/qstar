@@ -31,9 +31,9 @@ An item that specifies it's [Bulk][] takes up that much Inventory Space. Ten
 light items specified by a [Bulk][] value of **L** count as 1 [Bulk][]. Some
 items' [Bulk][] are negligible; they do not list their [Bulk][] value.
 
-Each character's Carrying Capacity is 10 modifed by any circumstance. A
-character can carry this much [Bulk][] without penalty; if he carries more he
-gains the [Slowed](/crisis/#slowed) condition. A character can't hold or carry
+Each character's Carrying Capacity is 10 modifed by circumstance. A character
+can carry this much [Bulk][] without penalty; if he carries more he loses 1
+[Pace][] per point over his Carrying Capacity. A character can't hold or carry
 more [Bulk][] than twice his Carrying Capacity.
 
 !!! summary "Carrying Capacity"

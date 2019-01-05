@@ -42,8 +42,9 @@ Any target within the weapon's first range increment does not impose a penalty.
 
 indicates the weapon's rate of fire. An RoF higher than 1 allows you to make
 optional, consecutive Attack rolls for the same or even different targets at the
-expense of 1 [AP][] per extra Attack, unless otherwise noted by the weapon.
-Using a higher **RoF** also uses up more **CAP**.
+expense of 1 [AP][], and a cumulative -1 penalty on **HIT**, per extra Attack,
+unless otherwise noted by the weapon. Using a higher **RoF** also uses up more
+**CAP**.
 
 ##### MAG
 
@@ -110,48 +111,48 @@ damage next to the center, and 3 damage when the target is away 2 or 3 tiles.
 
 All weapons listed in this category use the Melee [Skill][] for Attacks.
 
-| Name                    | HIT | DMG | RoF | Bulk |  Cost | [RES][] |
-|-------------------------|----:|----:|----:|:----:|------:|:-------:|
-| Unarmed                 |   0 |   0 |   1 |  -   |     - |    -    |
-| Improvised blunt weapon |   0 |   1 |   1 |  1   |     - |    -    |
-| Improvised sharp weapon |   0 |   1 |   1 |  1   |     - |    -    |
-| Brass knuckles          |  +1 |   2 |   1 |  L   |   100 |    -    |
-| Knife                   |  +1 |   2 |   1 |  L   |   100 |    -    |
-| Baton                   |  +2 |   3 |   1 |  L   |   250 |    -    |
-| Sword                   |  +2 |   4 |   1 |  2   | 1.000 |    1    |
+| Name                    |  HIT |  DMG |  RoF | Bulk  |  Cost | [RES][] |
+| ----------------------- | ---: | ---: | ---: | :---: | ----: | :-----: |
+| Unarmed                 |    0 |    0 |    1 |   -   |     - |    -    |
+| Improvised blunt weapon |    0 |    1 |    1 |   1   |     - |    -    |
+| Improvised sharp weapon |    0 |    1 |    1 |   1   |     - |    -    |
+| Brass knuckles          |   +1 |    2 |    1 |   L   |   100 |    -    |
+| Knife                   |   +1 |    2 |    1 |   L   |   100 |    -    |
+| Baton                   |   +2 |    3 |    1 |   L   |   250 |    -    |
+| Sword                   |   +2 |    4 |    1 |   2   | 1.000 |    1    |
 
 ## Ranged Weapons
 
 All weapons listed in this category use the Light Weapons [Skill][] for Attacks.
 
-| Name         | HIT | DMG | RNG | RoF | MAG | CAP | REL | Bulk |   Cost | [RES][] | Tags                     |
-|--------------|----:|----:|----:|----:|----:|----:|----:|:----:|-------:|:-------:|--------------------------|
-| Pistol       |   0 |   1 |   4 |   1 |   ∞ |   7 |   2 |  1   |  1.000 |    -    |                          |
-| SMG          |   0 |   1 |   4 |   3 |   4 |  25 |   2 |  2   |  3.000 |    1    |                          |
-| Shotgun      |   0 |   2 |   2 |   1 |   - |  24 |   1 |  4   |  2.500 |    1    | close range; pump-action |
-| Carbine      |  +1 |   2 |   5 |   3 |   3 |  30 |   2 |  3   |  5.000 |    2    |                          |
-| Battle Rifle |  +1 |   3 |  10 |   2 |   3 |  20 |   2 |  4   | 10.000 |    2    | long range               |
-| Sniper Rifle |  +2 |   3 |  20 |   1 |   - |   5 |   1 |  4   | 25.000 |    3    | bolt-action; long range  |
+| Name         |  HIT |  DMG |  RNG |  RoF |  MAG |  CAP |  REL | Bulk  |   Cost | [RES][] | Tags                     |
+| ------------ | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :---: | -----: | :-----: | ------------------------ |
+| Pistol       |    0 |    1 |    4 |    1 |    ∞ |    7 |    2 |   1   |  1.000 |    -    |                          |
+| SMG          |    0 |    1 |    4 |    3 |    4 |   25 |    2 |   2   |  3.000 |    1    |                          |
+| Shotgun      |    0 |    2 |    2 |    1 |    - |   24 |    1 |   4   |  2.500 |    1    | close range; pump-action |
+| Carbine      |   +1 |    2 |    5 |    3 |    3 |   30 |    2 |   3   |  5.000 |    2    |                          |
+| Battle Rifle |   +1 |    3 |   10 |    2 |    3 |   20 |    2 |   4   | 10.000 |    2    | long range               |
+| Sniper Rifle |   +2 |    3 |   20 |    1 |    - |    5 |    1 |   4   | 25.000 |    3    | bolt-action; long range  |
 
 ## Thrown Weapons
 
 All weapons listed in this category use the Athletics [Skill][] for Attacks.
 Thrown weapons are usually one-time use items.
 
-| Name             | HIT | DMG | AoE | RNG | Bulk | Cost | [RES][] | Tags      | Notes                                                 |
-|------------------|----:|----:|----:|----:|:----:|-----:|:-------:|-----------|-------------------------------------------------------|
-| Grenade          |   0 |   3 |   3 |   4 |  L   |      |    -    | explosive |                                                       |
-| Molotov Cocktail |   0 |   4 |   1 |   4 |  L   |      |    -    |           | Burns an area for [d6][] rounds with [Fire][] damage. |
-| Smoke Grenade    |   0 |   - |   2 |   4 |  L   |      |    -    |           | *Obscures* an area with smoke.                        |
-| Stun Grenade     |   0 |   - |   2 |   4 |  L   |      |    -    |           | Applies [Stunned](/crisis#stunned) for [d4][] rounds. |
+| Name             |  HIT |  DMG |  AoE |  RNG | Bulk  | Cost | [RES][] | Tags      | Notes                                                 |
+| ---------------- | ---: | ---: | ---: | ---: | :---: | ---: | :-----: | --------- | ----------------------------------------------------- |
+| Grenade          |    0 |    3 |    3 |    4 |   L   |      |    -    | explosive |                                                       |
+| Molotov Cocktail |    0 |    4 |    1 |    4 |   L   |      |    -    |           | Burns an area for [d6][] rounds with [Fire][] damage. |
+| Smoke Grenade    |    0 |    - |    2 |    4 |   L   |      |    -    |           | *Obscures* an area with smoke.                        |
+| Stun Grenade     |    0 |    - |    2 |    4 |   L   |      |    -    |           | Applies [Stunned](/crisis#stunned) for [d4][] rounds. |
 
 ## Heavy Weapons
 
 All weapons listed in this category use Heavy Weapons [Skill][] for Attacks.
 
-| Name | HIT | DMG | AoE | RNG | RoF | MAG | CAP | REL | Bulk |   Cost | [RES][] | Tags      |
-|------|----:|----:|----:|----:|----:|----:|----:|----:|:----:|-------:|:-------:|-----------|
-| RPG  |   0 |   3 |   5 |  10 |   1 |   - |   1 |   4 |  8   | 20.000 |    4    | explosive |
+| Name |  HIT |  DMG |  AoE |  RNG |  RoF |  MAG |  CAP |  REL | Bulk  |   Cost | [RES][] | Tags      |
+| ---- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | :---: | -----: | :-----: | --------- |
+| RPG  |    0 |    3 |    5 |   10 |    1 |    - |    1 |    4 |   8   | 20.000 |    4    | explosive |
 
 --8<--
 _links.md
