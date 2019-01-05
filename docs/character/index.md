@@ -74,17 +74,22 @@ or dying.
 
 > Experience Points (XP) are gained throughout a character's adventuring career.
 
-[XP][] are gained due to noteable achievements or story completions. [XP][]
-usually are only given out one at a time. The GM can decide to give out more for
-completing a longer adventure.
+[XP][] are gained when resolving a Crisis, due to noteable achievements, or by
+story completions.
 
-Every ten [XP][] increase a character's level by one.
+Every character starts at Level 1. For a Level-Up you need XP. The higher the
+Level, the higher the XP requirement.
 
 !!! summary "[XP][] and Level Ups"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="XP">10</span> =
+        <span data-bracket-bottom="XP">1000</span> *
+        <span data-bracket-top="Current Level">LVL</span> =
         <span>Level Up</span>
     </div>
+
+!!! example "[XP][] and Level Ups"
+    The XP requirement for Level 2 is 1.000 XP. The XP requirement for Level 3
+    is 2.000. So for Level 3 you require 3.000 XP in total.
 
 ### Level (LVL)
 
@@ -216,6 +221,11 @@ fails, there are multiple outcomes:
 * the [Spare Time][] task fails, or
 * the [Spare Time][] task does not have the intended outcome.
 
+!!! summary "Maximum [Spare Time][]"
+    <div class="formula formula-top formula-bottom">
+      <span data-bracket-bottom="Base">10</span>
+    </div>
+
 !!! example "Spare Time rolls"
     Finding a very rare item on the black market might be represented as a 2t+4
     [Spare Time][] roll.
@@ -224,11 +234,6 @@ fails, there are multiple outcomes:
     and roll the *Bartering* [Skill][] twice. The difficulty for each roll is
     **4**; modified by the [Spare Time][] task, the difficulty for each roll
     results in **8**.
-
-!!! summary "Maximum [Spare Time][]"
-    <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Base">10</span>
-    </div>
 
 ### Influence (INF)
 

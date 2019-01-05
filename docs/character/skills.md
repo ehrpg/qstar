@@ -37,14 +37,10 @@ It's also used for [Bulk][], [Pace][], [Turn Order](/crisis/#turn-order),
 
 <div class="qs-list-test full-width" markdown="1">
 
-##### Acrobatics
-
-is used for tumbling, dodging away from falling debris, balance over a rope,
-*jump* in zero gravity environments etc.
-
 ##### Athletics
 
-is used for climbing, jumping, running, swimming, etc.
+is used for climbing, jumping, running, swimming, dodging, dodging away from
+falling debris, etc.
 <br>
 Without this [Skill][] being trained, the character **cannot** swim.
 
@@ -55,7 +51,8 @@ is used for breaching doors, break down treasure chests, holding doors shut etc.
 ##### Heavy Weapons*
 
 is used when using heavy weapons such as rocket launchers, vehicle mounted
-machine guns, or firing any vessel's weapons.
+machine guns, or firing any vessel's weapons. Also, ordnance falls unders this
+[Skill][].
 
 ##### Light Weapons
 
@@ -89,24 +86,16 @@ It's also used for [Perception][].
 
 ##### Search / Track
 
-is used to find and spot hidden things.
+is used to find and spot hidden and obscured things.
 
 ##### Engineering*
 
 is used for repairing mechanical or electronical motors, operate advanced
 machinery, etc.
 
-##### Biology*
-
-...
-
-##### Chemistry*
-
-...
-
 ##### Computer*
 
-...
+is used to identify security systems, hack computers, etc.
 
 ##### Linguistics*
 
@@ -114,11 +103,17 @@ is used to decipher scripts, forge documents, etc.
 
 ##### Medicine*
 
-...
+is used to determine the cause of a wound, provide insights on diseases and
+sicknesses, [Healing](/crisis#healing) wounds, etc.
 
 ##### Politics*
 
-...
+is used for insights in politics and behaviours of nations, peoples, cities,
+gangs, groups, etc.
+
+##### Science*
+
+is used for Anatomy, Biology, Chemistry, etc. checks.
 
 </div>
 
@@ -141,7 +136,7 @@ be used in getting a better deal.
 
 is used for lying. This [Skill][] is opposed by **Empathy**.
 
-##### Command
+##### Command*
 
 is used to command crews, give orders on a vessel, lead others, etc.
 

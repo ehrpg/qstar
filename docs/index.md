@@ -10,6 +10,9 @@ setting such as medieval, fantasy, modern, sci-fi settings or even a combination
 of any of these, although the base rule set is built with mainly modern and
 sci-fi settings in mind.
 
+[Skills][], [Talents][], [Races][], and [Equipment](/equipment) are heavily
+influence by the setting.
+
 ## Preface
 
 ### Reading the rules
