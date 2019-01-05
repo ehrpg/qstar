@@ -266,10 +266,13 @@ blockquote.important {
 }
 
 .qs-list-test {
+  overflow: hidden;
+
   > div > a:first-of-type {
     margin-top: -50vh;
     padding-top: 50vh;
     display: block;
+    pointer-events: none;
   }
 
   h5,
@@ -338,6 +341,10 @@ blockquote.important {
       width: calc(100% - 120px);
 
       padding-left: 4px;
+
+      + dd {
+        margin-left: 120px;
+      }
     }
   }
 

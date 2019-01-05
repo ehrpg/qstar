@@ -14347,10 +14347,15 @@ blockquote.important {
   }
 }
 
+.qs-list-test {
+  overflow: hidden;
+}
+
 .qs-list-test > div > a:first-of-type {
   margin-top: -50vh;
   padding-top: 50vh;
   display: block;
+  pointer-events: none;
 }
 
 .qs-list-test h5,
@@ -14417,6 +14422,10 @@ blockquote.important {
   line-height: 1;
   width: calc(100% - 120px);
   padding-left: 4px;
+}
+
+.qs-list-test dl dd + dd {
+  margin-left: 120px;
 }
 
 .qs-list-test.full-width.p p {
