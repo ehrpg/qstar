@@ -28,10 +28,14 @@
 [Acquisitions]: /character/#acquisitions
 
 [Loot]: /character/#loot-loot
+[ST]: /character/#spare-time-st
 [Spare Time]: /character/#spare-time-st
+[INF]: /character/#influence-inf
 [Influence]: /character/#influence-inf
+[RES]: /character/#resources-res
 [Resource]: /character/#resources-res
 [Resources]: /character/#resources-res
+[TECH]: /character/#technology-tech
 [Technology]: /character/#technology-tech
 
 [Race]: /character/races/#races

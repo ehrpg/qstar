@@ -17,6 +17,9 @@ sci-fi settings in mind.
 Terms that are game related, e.g. "[Skills][]", or "Crisis", are either easily
 recognisable by an icon, are links, or are in uppercase.
 
+Distances, Pace, Range, etc. are all refering to tiles. A tile spans roughly 5
+feet or 1,5 meters.
+
 ## Prerequisites
 
 ### Dice

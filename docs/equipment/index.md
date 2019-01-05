@@ -31,15 +31,32 @@ An item that specifies it's [Bulk][] takes up that much Inventory Space. Ten
 light items specified by a [Bulk][] value of **L** count as 1 [Bulk][]. Some
 items' [Bulk][] are negligible; they do not list their [Bulk][] value.
 
-Every character's carrying capacity equals **10**. The character can carry this
-much [Bulk][] without penalty; if he carries more he gains the *Slowed*
-condition. A character can't hold or carry more [Bulk][] than twice his carrying
-capacity.
+Each character's Carrying Capacity is 10 modifed by any circumstance. A
+character can carry this much [Bulk][] without penalty; if he carries more he
+gains the [Slowed](/crisis/#slowed) condition. A character can't hold or carry
+more [Bulk][] than twice his Carrying Capacity.
 
-Each bonus to the [Action][] category adds 5 [Bulk][] to the character's
-carrying capacity.
+!!! summary "Carrying Capacity"
+    <div class="formula formula-top formula-bottom">
+      <span>Carrying Capacity</span> =
+      <span data-bracket-bottom="Base">10</span> ±
+      <span data-bracket-top="Environment / Traits / Race">Circumstance</span>
+    </div>
 
-## Looting items
+!!! summary "Maximum Bulk"
+    <div class="formula formula-top formula-bottom">
+      <span>Maximum Bulk</span> =
+      <span>Carrying Capacity * 2</span>
+    </div>
+
+## Looting
+
+### Ammunition
+
+If you find ammunition, the GM can specify how many clips you can regain from a
+single unit of [LOOT][].
+
+### Equipment
 
 If a looted item requires [Resources][] a character may keep it. At the end of
 the session the character can spend his available [Resources][] on it to keep

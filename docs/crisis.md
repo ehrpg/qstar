@@ -15,7 +15,7 @@ could reduce the time spent searching, or it could unearth additional
 information that might be helpful.
 
 | Modifier | Name        | Description                                                        |
-| -------: | ----------- | ------------------------------------------------------------------ |
+|---------:|-------------|--------------------------------------------------------------------|
 |       -4 | Trivial     | Everyday tasks.                                                    |
 |       -2 | Routine     | Tasks you do every few days, which can be done by almost everyone. |
 |       -1 | Simple      | Most people can do this without much effort.                       |
@@ -36,7 +36,7 @@ Certain circumstances modify the task's difficulty positively or negatively.
 Multiple modifiers stack.
 
 | Modifier | Name                     | Description                               |
-| -------: | ------------------------ | ----------------------------------------- |
+|---------:|--------------------------|-------------------------------------------|
 |       +1 | Asset                    | Having the correct tools at hand.         |
 |       -1 | Unfavorable Circumstance | E.g. climbing a cliff while it's raining. |
 
@@ -53,9 +53,9 @@ Once every character has acted, a new **round** begins.
 
 ### Turn Order
 
-Every character involved in a crisis has to roll for initiative. You roll a
-[d6][] and add your [Action][] bonus to the roll. The character with the highest
-result acts first. As with any die roll, the initiative die can *explode* too.
+Every character involved in a crisis has to roll for initiative, by rolling his
+[Action][] die. As with any die roll, the
+initiative die can *explode* too.
 
 If two or more characters have rolled the same result the PCs can agree upon who
 acts first. If they cannot find an agreement, roll again. The characters retain
@@ -63,15 +63,20 @@ their original roll, but the conflict is resolved.
 
 !!! summary "Turn Order"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Base">[d6][]</span> +
-      <span data-bracket-top="Action Skill category">[Action] bonus</span>
+      <span data-bracket-bottom="Action Skill category">[Action][] die</span> ±
+      <span data-bracket-top="Race / Talents / etc">Circumstance</span>
     </div>
 
 !!! tip "[GM Tip] - NPC Turn Order"
     As a GM you can roll once for a group of NPCs, e.g. a pack of wolves. This
     simplifies the overhead you have in combat with multiple NPCs.
 
-### Action Points
+### Surprise Round
+
+If you attack an enemy who has not noticed you and is not combat ready, you gain
+an additional turn before actual combat starts.
+
+## Action Points
 
 Every Action in a Crisis requires [Action Points][] (AP).
 
@@ -100,15 +105,11 @@ Action isn't completed yet cancels it.
     still give short commands to e.g. other party members. This is up to the GM
     however.
 
-### Surprise Round
-
-If you attack an enemy who has not noticed you and is not combat ready, you gain
-an additional turn before actual combat starts.
-
 ## Attacks
 
 An Attack roll is equal to a **Skill** roll, using the weapon's associated
-[Skill][]. An Attack automatically fails if the first die comes up with a **1**.
+[Skill][]. An Attack automatically fails if the first die roll comes up with a
+**1**.
 
 !!! summary "Making an Attack"
     <div class="formula formula-top formula-bottom">
@@ -117,46 +118,63 @@ An Attack roll is equal to a **Skill** roll, using the weapon's associated
       <span data-bracket-bottom="Environment / Traits / Race">Circumstance</span>
     </div>
 
+### RoF
+
+Using a weapon with a higher **RoF** allows you to make multiple Attacks against
+the same or even different targets. You have to assign all Attacks to your
+targets first before you execute them. This can result in attacking an already
+incapacitated target.
+
 <div class="left" markdown="1">
 
-#### Ranged Attacks
+### Ranged Attacks
 
-A ranged Attack roll has to be equal to or higher than **4**. Circumstances such
-as range, visibility, wind, etc. influence the Attack roll's result.
+A ranged Attack roll is usually made with the Light Weapon [Skill][] and has to
+be equal to or higher than **4**.
 
 </div>
 <div class="right" markdown="1">
 
-#### Melee Attacks
+### Melee Attacks
 
-A Melee Attack roll has to be equal to or higher than **4**. Once per round, the
-target can try to parry to Melee Attack.
+A Melee Attack roll has to be equal to or higher than **4**, but can be parried
+by the defender.
 
 </div>
 
-##### Parrying
+#### Parrying
 
 Once per round you can try to parry an incoming Melee Attack. You have to choose
 to parry before the attacker rolls his attack. The parry roll is a Melee roll
-that has to be equal to or higher than **4**. If it succeeds, you can substract
-your final roll from the damage received.
+that has to be equal to or higher than **4**. For every additional enemy within
+melee range you suffer a -1 penalty on the parry roll.
 
-#### Area of Effect
+Divide your roll by 4. This is the amount of damage you parry. Any remaining
+damage is further reduced by Armour.
 
-Attacks with an Area of Effect, e.g. a fireball spell, also have to be equal or
-higher than **4**.
+### Area of Effect
+
+Attacks with an Area of Effect, e.g. a fireball spell, also have to be equal to
+or higher than **4**.
 
 Thrown weapons, e.g. grenades, require you to make an Athletics check. The roll
-otherwise is a normal Ranged Attack. Circumstances such as range, visibility,
-wind, etc. influence the Athletics roll's result.
+otherwise is a normal Ranged Attack.
 
-##### Dodging
+If you miss an Area of Effect Attack, roll a [d8][]. The result of the [d8][]
+determines in which direction you missed. A 1 is being straight back at you, 5
+away from you, and 2 through 8 counting clockwise around the target. You miss by
+a number of squares equal to the range increment of the throw.
+
+#### Dodging
 
 Only Area of Effect Attacks can be dodged. Once per round you can try to dodge
 an incoming Area of Effect Attack. You have to choose to dodge before the
-attacker rolls his attack. The dodge roll is an Acrobatics roll that has to be
-equal to or higher than **4**. If it succeeds, you can substract your final roll
-from the damage received.
+attacker rolls his attack. The dodge roll is an Athletics roll that has to be
+equal to or higher than **4**.
+
+If you are able to dodge out of the Area of Effect of the Attack you receive no
+wounds. Otherwise divide your roll by 4. This is the damage you avoid through
+dodging.
 
 ### Cover
 
@@ -166,7 +184,7 @@ Cover is always relative to other targets. A character can be in total cover for
 an enemy, but in plain sight for another.
 
 |   Modifier | Condition   |
-| ---------: | ----------- |
+|-----------:|-------------|
 |         -2 | Cover       |
 |         -4 | Heavy Cover |
 | unhittable | Total Cover |
@@ -191,26 +209,39 @@ an enemy, but in plain sight for another.
 
 If an Attack is successful, damage can be dealt to the target.
 
-For damage you use the same die roll result as for the Attack, and add all
-damage bonuses to the roll. You **always** deal at least 1 damage, regardless of
-your target's defences, damage reduction, etc.
+You deal your used weapon's damage, but receive extra damage from the Attack
+roll. Take your final Attack roll and divide it by 4. This is the amount of
+extra damage you deal to the target.
 
-If the Attack would also cause a status effect on the target, the damage dealt
-has to be equal to or higher than the target's defences.
+If your damage would be reduced to 0 because of defenses, such as armor or
+parrying, you still deal 1 non-lethal damage to the target.
+
+If the Attack would cause a status effect on the target, you need to be able to
+deal lethal damage to the target.
+
+!!! summary "Dealing Damage"
+    <div class="formula formula-top formula-bottom">
+      <span data-bracket-bottom="Attack Skill">( Skill</span> ±
+      <span data-bracket-top="Environment / Traits / Race">Circumstance )</span> /
+      <span>4</span> +
+      <span data-bracket-bottom="Weapon Damage">DMG</span> ±
+      <span data-bracket-top="Environment / Traits / Race">Circumstance</span>
+    </div>
 
 !!! example "Attacking and Damaging"
     A character makes a Ranged Attack with a [d10][]. He rolls a 6 and adds all
-    applicable to-hit modifiers. The final Attack roll results in a 5. The
-    target does not wear any armour, so the damage dealt is 5. Because the
-    attacker uses a weapon that grants a +15 damage bonus, the final damage
-    results in 20.
+    applicable to-hit modifiers. The final Attack roll results in a 5.  The
+    final Attack roll divided by 4 results in 1 (as always, round down). The
+    used weapon's damage is 2. The attacker would deal 3 damage. The target only
+    wears light armour and blocks 1 damage, resulting in a total of 2 damage.
 
 ### Damage Reduction
 
-If a target wears Armor, all damage you deal is substracted from the target's
-Armor first.
+Damage reduced by [Parrying](#parrying) or [Dodging](#dodging), and Armour. If a
+target wears Armor, all damage you deal is substracted from the target's Armour.
 
-Some weapons and Actions circumvent the Armor, e.g. Armor-Piercing Ammunition.
+Some weapons and Actions circumvent the armor's damage reduction, e.g.
+Armor-Piercing Ammunition.
 
 ### Non-lethal damage
 
@@ -219,55 +250,67 @@ to apply non-lethal force, knocking the target unconcious instead of killing it.
 
 ## Wounds
 
-**TODO**
+Every point of damage you receive deals a wound. A wound can either be lethal or
+non-lethal.
 
-When the creature has negative [Health](#health) equal to its maximum, the
-creature dies.
+If a creature has wounds equal to or higher than its HP, the creature is
+incapacitated and [Dying](#dying). If a creature has wounds equal to or higher
+than double its HP, the creature dies.
 
-If [Health](#health) drops to 0 or below, the creature has to make a
-[Might](/character#might-mi) roll. On a failure, the creature becomes
-incapacitated, but not necessarily unconcious, until healed or dead.
+NPCs usually die outright when they reach 0 HP.
 
-NPCs usually die outright when they reach 0 [Health](#health).
+### Lethal
 
-!!! example "Negative [Health](#health)"
-    Jack has a maximum of 3 [Health](#health). At 0 [Health](#health) he becomes
-    incapacitated if he fails his [Might](/character#might-mi) roll. When his
-    [Health](#health) drop to -3, Jack dies.
+Lethal damage follows the rules above. Creatures are first incapacitated and
+then killed.
+
+### Non-Lethal
+
+When non-lethal wounds are equal to or higher a creature's HP, the creature is
+exhausted. Non-lethal wounds equal to or higher than double the creature's HP
+incapacitates it.
+
+!!! info "Non-lethal wounds on a target with lethal wounds"
+    A target may already have lethal wounds, when receiving non-lethal wounds.
+    The non-lethal wounds only have to be equal to or higher than the target's
+    remaining HP.
 
 ## Healing
-
-**TODO**
 
 The Medicine Skill can be used to treat a wound suffered within the last hour.
 Each Medicine Skill roll to heal a wound takes 10 minutes.
 
 Wounds that are older than one hour have to heal naturally.
 
-**Healing A Character**: A healer can aid a character's healing progress. The
-healer has to substract the patient's wounds from his Medicine roll. A wounded
-character trying to heal his own wounds suffers from both the wound penalty and
-a -2 penalty for treating himself.
+**Healing A Character**: A healer can aid a character's natural healing
+progress. A wounded character trying to heal his own wounds suffers a -2 penalty
+for treating himself.
 
 Without any healing aids, such as bandages etc., the healer suffers a -2 penalty
 to his roll. Having the right tools at hand via an Asset, the penalty is reduced
-to 0, rather than a +1 bonus.
+to 0, rather than a +1 bonus. Multiple Assets can provide a bonus instead.
 
 If the Medicine check was successful, the patient recovers from 1 wound.
 
 **Healing A Dying Character**: If a healer was successful on his Medicine check
-for his patient, the patient is not incapacitated anymore.
+for his patient, the patient is not dying anymore, but stays incapacitated for
+the next 10 rounds.
+
+**Healing non-lethal Damage**: Non-lethal damage can be completely removed by a
+successful Medicine check, given ahlf an hour of uninterrupted healing.
 
 ### Natural Healing
 
-Every day a wounded or incapacitated character can attempt a
-[Might](/character#might-mi) roll to heal 1 wound naturally. A critical failure
-on the [Might](/character#might-mi) roll causes an additional wound.
+Every hour a non-lethal wound is healed automatically.
+
+Every day a wounded or incapacitated character has to attempt a [Action][] roll
+to heal 1 wound naturally. A critical failure on the [Action][] roll causes an
+additional wound. On a failed check nothing happens.
 
 The difficulty of Natural Healing is influenced by these conditions:
 
 | Modifier | Condition                                                             |
-| -------: | --------------------------------------------------------------------- |
+|---------:|-----------------------------------------------------------------------|
 |       -2 | Rough traveling                                                       |
 |       -2 | No medical attention                                                  |
 |       -2 | Poor environmental conditions, such as intense cold, heat, or rain    |
@@ -345,6 +388,18 @@ Attack with a *normal* weapon.
 [AP][]
 :   2, or as indicated by the weapon.
 
+##### Execute
+
+You can try to execute a target that's unaware or otherwise at your mercy.
+
+[AP][]
+:   See [Attack](#attack)
+
+Effect
+:   You deal double damage. If the target survives the damage, it has to roll an
+[Action][] die, that has to be equal to or higher than the wounds this Attack
+would cause, or dies otherwise.
+
 ##### Hide
 
 Hide from others, provided they have no direct vision of you.
@@ -398,12 +453,29 @@ Penalty
 :   All checks suffer a -1 penalty. Checks that rely on speed and balance suffer
 a -2 penalty.
 
+##### Dying
+
+*You're beelding out and need medical attention.*
+
+Penalty
+:   As long as you're dying you gain another Wound at the start of each turn
+until healed or dead.
+
 ##### Exhausted
 
 *You need to catch your breath first.*
 
 Penalty
-:   You gain -2 [AP][] per round.
+:   You only gain 2 [AP][] instead of 4 per round.
+
+##### Helpless
+
+A helpless character is either paralyzed, held, bound, sleeping, unconscious, or
+otherwise completely at an opponent's mercy. An helpless opponent can't parry or
+dodge.
+
+Penalty
+:   You can be a target of the [Execute](#execute) action.
 
 ##### Kneeling
 
@@ -426,6 +498,13 @@ bonus on attacks using ranged weapons.
 
 Penalty
 :   Melee attacks against you gain a +4 bonus.
+
+##### Slowed
+
+*Something hinders you from moving your normal pace.*
+
+Penalty
+:   Your Pace is halved.
 
 ##### Stunned
 

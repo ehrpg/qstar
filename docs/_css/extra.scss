@@ -291,6 +291,11 @@ blockquote.important {
     & > a {
       display: none !important;
     }
+
+    & + p > em {
+      color: rgba(0, 0, 0, 0.54);
+      font-size: 1.5rem;
+    }
   }
 
   p {

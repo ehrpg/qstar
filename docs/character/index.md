@@ -36,37 +36,20 @@ Action.
 
 !!! summary "Pace"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">4</span> +
-        <span data-bracket-top="Action Skill category">[Action][] bonus</span>
+        <span data-bracket-bottom="Base">2</span> +
+        <span data-bracket-top="Action Skill category">[Action][] die / 2</span>
     </div>
 
 ## Health (HP)
 
-**TODO**
+Health abstracts how much wounds a character can take before being incapacitated
+or dying.
 
-Every character has 100 HP. If the HP fall below 10 the character is
-incapacitated and *dying*. If they drop to 0, the character dies. If a single
-hit deals more than 60 HP, the character is also incapacitated, but not *dying*.
-
-#### Dying
-
-A character with the *dying* state is unconcious and loses 1 HP at the start of
-his turn until healed or dead.
-
-##### Treating a dying character
-
-A single healing check removes the *dying* state of a character, at which point
-he is only unconcious.
-
-#### Unconciousness
-
-Unconciousness lasts only 10 rounds, at which point the character wakes up
-again. The character does not heal any HP on his own in this time though. This
-can result in concious characters with less than 10 HP.
-
-#### Healing
-
-Resting, Medicine, First Aid, Magic, etc. can heal a character.
+!!! summary "HP"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Base">10</span> ±
+        <span data-bracket-top="Race / Talents / etc">Circumstance</span>
+    </div>
 
 ## Experience (XP)
 
@@ -160,14 +143,16 @@ All exceeding points are usually lost.
 > [Loot](#loot) abstracts the items and clutter looted, that can be sold for
 > profit.
 
+<div class="qs-list-test full-width p" markdown="1">
+
 **Gained**{.hf} by looting enemies, bases, etc., trading or via quest rewards.
 
 **Used**{.hf} to sell for a profit.
 
+</div>
+
 [Loot][] is usually stored on a vessel or a player base. 1 unit of [Loot][]
 takes up 4 [Bulk][].
-
-<div class="left" markdown="1">
 
 ### Spare Time (ST)
 
@@ -221,9 +206,6 @@ fails, there are multiple outcomes:
       <span data-bracket-bottom="Base">10</span>
     </div>
 
-</div>
-<div class="right" markdown="1">
-
 ### Influence (INF)
 
 > [Influence][] represents connections, owed favours by others, fame and infamy.
@@ -247,9 +229,6 @@ More [Influence][] unlocks better equipment and better vessels.
       <span data-bracket-top="Level">LVL</span> ±
       <span data-bracket-bottom="Race / Talents / etc">Circumstance</span>
     </div>
-
-</div>
-<div class="left" markdown="1">
 
 ### Resources (RES)
 
@@ -278,9 +257,6 @@ of a powerful item.
       <span data-bracket-bottom="Race / Talents / etc">Circumstance</span>
     </div>
 
-</div>
-<div class="right" markdown="1">
-
 ### Technology (TECH)
 
 > [Technology][] represents the character's technological knowledge, which on
@@ -306,9 +282,6 @@ to be unlocked only once, and *can* be shared between characters. Unlocking
       <span data-bracket-top="Level">LVL</span> ±
       <span data-bracket-bottom="Race / Talents / etc">Circumstance</span>
     </div>
-
-</div>
-<div class="clearfix"></div>
 
 ## Living standard
 

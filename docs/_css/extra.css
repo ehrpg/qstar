@@ -14374,6 +14374,11 @@ blockquote.important {
   display: none !important;
 }
 
+.qs-list-test h5 + p > em {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 1.5rem;
+}
+
 .qs-list-test p {
   width: calc(100% - 120px);
   margin-bottom: 0;

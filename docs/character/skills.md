@@ -15,19 +15,15 @@ should only be usable if they are trained, indicated by a **"*"** next to their
 name. These [Skills][] can still be used if untrained, but only for very basic
 things.
 
-Every 8 Character Points used in a single category improves the category's bonus
-by one. If you make a Skill check you add the corresponding category's bonus to
-the roll:
+Every 4 Character Points used in a single category improves the category's die
+by one step. Each Category starts with a [d4][]. Category dies are used for very
+basic tasks where no other [Skill][] applies, but mainly for combat related
+checks.
 
 !!! example "Skill categories and Skills"
-    A character has two [Action][] Skills at a [d12](#d12). The cost of
-    improving those [Skills][] to a [d12](#d12) totals 8 Character Points. The
-    character's bonus on [Action][] Skills is therefore 1. If he now makes an
-    [Action][] Skill roll, he adds the category bonus to the roll:<br>
-    <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Acrobatics">1d4</span> +
-        <span data-bracket-top="Action category">1</span>
-    </div>
+    A character has two [Action][] Skills at a [d12][]. The cost of
+    improving those [Skills][] to a [d12][] totals 8 Character Points. The
+    character's [Action][] die is therefore a [d8][].
 
 ### Action
 
