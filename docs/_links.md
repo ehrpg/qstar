@@ -24,7 +24,6 @@
 
 [XP]: /character/#experience-xp
 [Experience]: /character/#experience-xp
-[Talents]: /character/talents/
 [Acquisitions]: /character/#acquisitions
 
 [Loot]: /character/#loot-loot
@@ -44,6 +43,9 @@
 [Skill]: /character/skills/#skills
 [Skills]: /character/skills/#skills
 [Trained-only Skills]: /character/skills/#trained-only-skills
+
+[Talent]: /character/talents/
+[Talents]: /character/talents/
 
 [Credits]: /equipment/#credits
 

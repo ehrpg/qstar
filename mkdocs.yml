@@ -58,6 +58,7 @@ markdown_extensions:
 nav:
     - Q*:
         - Introduction: 'index.md'
+        - Character Creation: 'character/character-creation.md'
 
         - Characters:
             - Character: 'character/index.md'
@@ -67,6 +68,7 @@ nav:
 
         - Equipment:
             - Equipment: 'equipment/index.md'
+            - Traits: 'equipment/traits.md'
             - Weapons: 'equipment/weapons.md'
             - Armour & Outfits: 'equipment/armour-outfits.md'
             - Utilities & Miscellaneous: 'equipment/util-misc.md'

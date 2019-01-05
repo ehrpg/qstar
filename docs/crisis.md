@@ -213,19 +213,16 @@ You deal your used weapon's damage, but receive extra damage from the Attack
 roll. Take your final Attack roll and divide it by 4. This is the amount of
 extra damage you deal to the target.
 
-If your damage would be reduced to 0 because of defenses, such as armor or
-parrying, you still deal 1 non-lethal damage to the target.
-
-If the Attack would cause a status effect on the target, you need to be able to
-deal lethal damage to the target.
+If your damage would be reduced to 0 or lower because of defenses, such as
+armor, parrying, or dodging you still deal 1 non-lethal damage to the target.
+Status Effects are not applied in this case.
 
 !!! summary "Dealing Damage"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Attack Skill">( Skill</span> ±
-      <span data-bracket-top="Environment / Traits / Race">Circumstance )</span> /
+      <span data-bracket-bottom="Attack Roll">[Attack](/crisis/#attacks)</span> /
       <span>4</span> +
-      <span data-bracket-bottom="Weapon Damage">DMG</span> ±
-      <span data-bracket-top="Environment / Traits / Race">Circumstance</span>
+      <span data-bracket-top="Weapon Damage">DMG</span> ±
+      <span data-bracket-bottom="Environment / Traits / Race">Circumstance</span>
     </div>
 
 !!! example "Attacking and Damaging"
@@ -253,22 +250,19 @@ to apply non-lethal force, knocking the target unconcious instead of killing it.
 Every point of damage you receive deals a wound. A wound can either be lethal or
 non-lethal.
 
+### Lethal
+
 If a creature has wounds equal to or higher than its HP, the creature is
 incapacitated and [Dying](#dying). If a creature has wounds equal to or higher
 than double its HP, the creature dies.
 
 NPCs usually die outright when they reach 0 HP.
 
-### Lethal
-
-Lethal damage follows the rules above. Creatures are first incapacitated and
-then killed.
-
 ### Non-Lethal
 
 When non-lethal wounds are equal to or higher a creature's HP, the creature is
-exhausted. Non-lethal wounds equal to or higher than double the creature's HP
-incapacitates it.
+[Exhausted](#exhausted). Non-lethal wounds equal to or higher than double the
+creature's HP incapacitates it.
 
 !!! info "Non-lethal wounds on a target with lethal wounds"
     A target may already have lethal wounds, when receiving non-lethal wounds.
@@ -375,6 +369,31 @@ Effect
 :   Toggles the [Prone](/crisis/#prone) Condition. When being prone, kneeling
 down costs 1 [AP][].
 
+##### Hide
+
+Hide from others, provided they have no direct vision of you.
+
+[AP][]
+:   3
+
+##### Sneak
+
+Requires a successful Sneak [Skill][] roll. If you're in plain sight of an
+opponent, you can't Hide or Sneak. You have to [Hide](#hide) first before you
+can sneak. While you sneak, you have to [Crouch](#crouch).
+
+Effect
+:   You're Sneaking. Other creatures are unaware of your presence.
+:   An opponent can use the Search / Track [Skill][]. If this roll is equal to
+or higher than the Sneak roll, you are revealed.
+
+##### Run
+
+You can move up to twice your [Pace][].
+
+[AP][]
+:   2
+
 </div>
 
 #### Combat
@@ -390,7 +409,7 @@ Attack with a *normal* weapon.
 
 ##### Execute
 
-You can try to execute a target that's unaware or otherwise at your mercy.
+You can try to execute a target that's [Helpless](#helpless).
 
 [AP][]
 :   See [Attack](#attack)
@@ -398,14 +417,7 @@ You can try to execute a target that's unaware or otherwise at your mercy.
 Effect
 :   You deal double damage. If the target survives the damage, it has to roll an
 [Action][] die, that has to be equal to or higher than the wounds this Attack
-would cause, or dies otherwise.
-
-##### Hide
-
-Hide from others, provided they have no direct vision of you.
-
-[AP][]
-:   3
+would cause, or otherwise dies.
 
 ##### Overwatch
 
@@ -471,10 +483,10 @@ Penalty
 ##### Helpless
 
 A helpless character is either paralyzed, held, bound, sleeping, unconscious, or
-otherwise completely at an opponent's mercy. An helpless opponent can't parry or
-dodge.
+otherwise completely at an opponent's mercy.
 
 Penalty
+:   You can't parry or dodge.
 :   You can be a target of the [Execute](#execute) action.
 
 ##### Kneeling

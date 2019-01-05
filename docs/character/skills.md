@@ -1,6 +1,7 @@
 # Skills
 
-> [Skills][] abstract your character's education, hobbies and fields of expertise.
+> [Skills][] abstract your character's education, hobbies and fields of
+> expertise.
 
 Every character is defined by the following three categories of [Skills][].
 While a character can have virtually *any* [Skill][], the categories list the
@@ -30,6 +31,9 @@ checks.
 This category contains all [Skills][] that rely on might, speed, and have some
 sort of physical interaction like running, swimming, climbing, shooting,
 swinging a sword, etc.
+
+It's also used for [Bulk][], [Pace][], [Turn Order](/crisis/#turn-order),
+[Natural Healing](/crisis/#natural-healing) and resisting bodily effects.
 
 <div class="qs-list-test full-width" markdown="1">
 
@@ -79,6 +83,8 @@ It's opposed by the **Search** [Skill][].
 This category contains all [Skills][] that rely on education and intelligence,
 like science, engineering, etc.
 
+It's also used for [Perception][].
+
 <div class="qs-list-test full-width" markdown="1">
 
 ##### Search / Track
@@ -122,6 +128,7 @@ This category contains all [Skills][] that rely on charisma and have some sort
 of social interaction like bluffing, empathy, diplomacy, bartering,
 intimidating, etc.
 
+It's also used to resist mental effects, such as drugs, alcohol, stuns, etc.
 
 <div class="qs-list-test full-width" markdown="1">
 

@@ -1,12 +1,27 @@
 # Talents
 
+> Talents unlock special moves and actions for characters, or make them better
+> than others in certain areas.
+
+A Talent may have a requirement. Talents which requiremens aren't met are
+disabled or cannot be picked.
+
+Some Talents provide both, Benefits and Penalties. The more powerful the
+Benefit, the more severe is the Penalty.
+
 ## Combat
 
-<div class="qs-list-test" markdown="1">
+<div class="qs-list-test full-width" markdown="1">
 
 ##### Assassin
 
-While sneaking, you deal 1 additional wound, provided your attack hits.
+While sneaking and undetected by your target, you deal additional wounds,
+provided the Attack hits your target.
+
+Progression
+:   Level 1: 1 extra wound
+:   Level 2: 2 extra wound
+:   Level 3: 3 extra wound
 
 ##### Combat Reflexes
 
@@ -39,14 +54,15 @@ against him.
 ##### Sociopath
 
 Benefit
-:   You gain a +2 bonus on **Oratory**.
+:   You gain a permanent +2 bonus on the **Bluffing** [Skill][].
 
 Penalty
-:   You suffer a -6 penalty on **Empathy** checks.
+:   You cannot use the **Empathy** [Skill][] anymore.
 
 ##### Versatile
 
-+1 Skill Points
+Benefit
+:   You gain +2 CP.
 
 </div>
 

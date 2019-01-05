@@ -34,10 +34,29 @@ See [Talents](/character/talents/).
 The Pace is used to determine how far the creature gets by using the Move
 Action.
 
+The Pace can be lowered by Conditions and Overburdening due to too much
+[Bulk][]. In any case, the Pace can't drop below 2, unless an effect
+specifically states it.
+
 !!! summary "Pace"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Base">2</span> +
         <span data-bracket-top="Action Skill category">[Action][] die / 2</span>
+    </div>
+
+### Perception
+
+> Perception measures your character's ability to hear or see hidden stuff
+> without looking for it actively.
+
+Every Sneak and Hide [Skill][] roll is opposed by the enemies [Perception][].
+Per ally near you, you receive a +1 bonus to your [Perception][].
+
+!!! summary "Perception"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Base">2</span> +
+        <span data-bracket-top="Knowledge Skill category">[Knowledge][] die / 2</span> +
+        <span data-bracket-bottom="max 4">1 per Ally</span>
     </div>
 
 ## Health (HP)
@@ -81,6 +100,11 @@ resourceful and adaptable.
 #### Character Points
 
 Every level, a character receives 2 Character Points.
+
+#### Talents
+
+Every 4 levels (Level 4, 8, 12, 16, and so on), a character can choose another
+[Talent][].
 
 ## Acquisitions
 

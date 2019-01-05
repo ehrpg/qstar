@@ -7,59 +7,47 @@
 ### 1. Determine your character's concept
 
 At every character's core lies the concept. What should your character be? A
-daring thief? A spell-slinging wizard? Or a brute barbarian? Being familiar with
-the archetype of your character, it's time to choose a race that suits you *or*
-the character best.
+thief, a wizard, or even a barbarian? Being familiar with the archetype of your
+character, it's time to choose a race that suits your character idea best.
 
 ### 2. Choose a race
 
-For a lot of characters human is the most common choice. The Setting you are
-playing may feature additional races, such as aliens, elves, dwarves, or just
-subtypes of the human race such as earthers, martians, and belters.
+For a lot of settings and thus characters human is the most common choice. The
+Setting you are playing may feature additional races, such as aliens, elves,
+dwarves, or just subtypes of the human race such as martian colonists.
 
-A race is the cornerstone of every character - it's the foundation of your
-character. Not only does it influence Attributes and Skills, but also Talents,
-and roleplaying circumstances. For example elves might be hostile towards
-dwarves, and vice versa.
+A character's Race has the biggest impact on role-playing, but it also
+influences [Skills][], [Talents][] and other aspects of your character:
 
 See [Races](/character/races) for a list of available races, or talk to your GM
 if the race you want to play is not on there.
 
-### 3. Finalize Attributes
+### 3. Assign Skills
 
-A new character gains 5 Attribute Points that have to be distributed among the 4
-different Attributes: [Might](/character#might-mi),
-[Speed](/character#speed-sp), [Intelligence](/character#intelligence-in), and
-[Charisma](/character#charisma-ch). Raising an Attribute, e.g. from a [d4](#d4)
-to a [d6](#d6), costs 1 point.
+A character has 16 Character Points (CP) that can be distributed among the available
+[Skills][]. Each [Skill][] improvement costs 1 CP.
 
-You cannot raise any Attribute above a [d12](#d12).
-
-### 4. Assign Skills
-
-A new character gains 12 Skill Points that can be distributed among the
-available [Skills](/character#skills). Each Skill improvement costs 1 point, as
-long as the Skill is equal to or less than the corresponding Attribute. If the
-Skill exceeds the Attribute, improving it costs 2 points.
-
-Some Skills can only be used if they are trained. This means, that they require
-1 Skill point to unlock the Skill. Unlocking a Skill raises the Skill from
-*untrained* to a [d4](#d4).
+A [Skill][] category also has a die, which also starts at a [d4][]. Every 4 CP
+in a single [Skill][] category increases that die by one step.
 
 You cannot raise any Skill above a [d12](#d12).
 
+### 4. Learn Talents
+
+A character can unlock 2 [Talents][] upon character creation.
+
 ### 5. Buy Equipment
 
-
+Every character needs some equipment. With your starting money, buy some
+commonly helpful [items](/equipment/util-misc/), such as a torchlight, rations,
+backpacks, etc. With the rest of your money you should buy a half decent
+[Weapon](/equipment/weapons/) and some [Armour](/equipment/armour-outfits/).
 
 ### 6. Fill In The Blanks
 
-Calculate the values for:
-
-* Pace,
-* Perception,
-* [Parry](/character#parry),
-* Toughness, and
-* Health.
+Calculate all your character's stats. Remember, the almost any stat can be
+influenced positively or negatively by circumstance like [Talents][].
 
 Finally, give your character a name!
+
+--8<-- "_links.md"
