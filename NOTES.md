@@ -8,17 +8,6 @@ Sanity/Horror
   - If Sanity roll is failed, character becomes insane.
 
 
-Attributes
-  - Might, Speed, Inteligence, Charisma
 
-Skills
-  - Athletics, Force, Melee, Heavy Weapons
-  - Acrobatics, Light Weapons, Stealth, Operate
-  - Search, Science or Knowledge, Engineering
-  - Empathy, Oratory, Tactics, Command
 
--1 untrained
- 0 trained
-+1 skilled
-+2 expert
-+3 master
+# Ready for revision

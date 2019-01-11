@@ -7,38 +7,164 @@ Every character is defined by the following three categories of [Skills][].
 While a character can have virtually *any* [Skill][], the categories list the
 most common ones.
 
-A Skill roll has to be equal to or higher than a **4** in order to succeed.
-Skill rolls lower than a **4** fail. The GM can give your roll a bonus or
-penalty based on circumstances.
+## Skill Rolls
 
-A [Skill][] that is at a [d4](#d4) is considered **untrained**. Some [Skills][]
-should only be usable if they are trained, indicated by a **"*"** next to their
-name. These [Skills][] can still be used if untrained, but only for very basic
-things.
+Anything your character does is a Task. A Task implies a die roll: it's subject
+to chance and its outcome is uncertain.
 
-## Skill Familiarization
+Tasks require a [Skill][] check. Every check is done with a [d%][] roll. A
+[Skill][] has a certain value, e.g. `50%`. If the roll is equal to or lower than
+the [Skill][]'s value, the task succeeds. Otherwise, it fails.
+
+**Combat**: After a successful roll, substract the roll's tens digit from the
+[Skill][]'s value tens digit. This is the amount of *Raises* you get for the
+check. A *Raise* improves certain values, e.g. the damage you deal after a
+successful Attack.
+
+!!! summary "Skill Raises"
+    <div class="formula formula-top formula-bottom">
+        <span>Raises</span> =
+        <span data-bracket-bottom="Tens digit">Skill value</span> -
+        <span data-bracket-top="Tens digit">Roll</span>
+    </div>
+
+!!! example "Raises"
+    A character makes a **Light Weapon** check to Attack someone. His [Skill][]
+    value is `65%`. For the check he rolls `27`. The tens digit for the
+    [Skill][] value is `6`, the tens digit for the roll is `2`. This results in
+    `4` Raises.
+
+### Critical Successes
+
+Whenever you roll a `01` on a [Skill][] check it's always a critical success.
+
+The better a [Skill][] is, the higher is its chance for a critical success.
+Divide the [Skill][]'s value by 10 and round down. If the [d%][] roll is equal to
+or lower than this value, you score a critical success.
+
+!!! summary "Critical Success Range"
+    <div class="formula formula-top formula-bottom">
+        <span>Critical Success</span> =
+        <span data-bracket-bottom="Skill value">Skill / 10</span>
+    </div>
+
+!!! example "Critical Success Chance"
+    A character has an Athletics [Skill][] value of `33%`. The value divided by
+    10 and rounded down results in `3%`. If the character now rolls `01-03`, he
+    scores a critical success.
+
+### Critical Failures
+
+If you roll a natural `96-00` the check is a critical failure. Even if a
+[Skill][]'s value is `100%`, the check still fails.
+
+!!! tip "Maxed-out Skills"
+    [Skills][] that have a value of `100%` are usually a good idea if you want
+    to offset negative modifiers that you might get on the roll.
+
+### Skill Modifiers
+
+Any modifier can influence the final roll for a [Skill][]. For example, bad
+weather gives you a `-10%` penalty, or having the right tool at hand might give
+you a `+10%` bonus. Modifiers make it harder or easier for a Task to succeed.
+
+For example, a [Skill][] with a value of `50%` could receive a `+10%` bonus.
+This means, that the target number you have to roll is now `60%`.
+
+Modifiers do not change a [Skill][]'s value---they do not make a character
+better or worse in something, but make a Task easier or harder. They do not give
+a better chance for a critical success.
+
+!!! example "Skill Modifiers and Critical Success Chance"
+    A character has an Athletics [Skill][] value of `33%`. He has a rope at hand
+    for climbing, and receives a `+10%` bonus on the roll, which totals in
+    `43%`. The Task succeeds, if he rolls `43` or less. The critical success
+    chance is still `01-03` however, and not `01-04`.
+
+#### Skill Familiarization
 
 Most [Skills][] are very vaguely described and not very specific to simplify
 character creation and gameplay. Sometimes you might want to emphasize however,
 that a [Skill][] is dramatically different than how the character would normale
-use it. In this case, the [Skill][] roll should suffer a -2 penalty. For
-exceptional knowledge about a certain topic, the GM may provide a +2 bonus to
-the roll.
+use it. In this case, the [Skill][] roll should suffer a `-20%` penalty. For
+exceptional knowledge about a certain topic, the GM may provide a `+20%` bonus
+to the roll.
+
+#### Untrained Skills
+
+A [Skill][] that has a value of less than `10%` is considered **untrained**. An
+**untrained** [Skill][] should only be usable for very basic things. The GM
+decides if the Task you're trying to roll on can be done with your **untrained** [Skill][].
+
+!!! tip "[GM Tip] Untrained Skills"
+    There is no clear rule as to whether or not a character can use an untrained
+    [Skill][]. As a rule of thumb, if it's something a character could know or
+    do without specializing in a [Skill][], then they should be able to roll on
+    that [Skill][].
+
+    A good example of the use of an **untrained** [Skill][] is *Tactics*: A
+    character that's **untrained** can still roll to see if his character picked
+    up a certain hand movement from TV.
+
+##### Negative Skills
+
+If a [Skill][]'s value---not the roll due to modifiers---is modified negatively,
+e.g. by Traits and Flaws, and drops to or below `0%`, you cannot use the
+[Skill][] anymore, not even for basic tasks. Your character is utterly uncapable
+of doing any Tasks related to this [Skill][].
+
+### Skill Contests
+
+Whenever two or more opponents pit against each other, e.g. rolling **Stealth**
+versus **Perception**, they enter a Skill Contest.
+
+In a Contest the opponents roll on their respective [Skills][]. If either has a
+Critical Success, or a normal Success, the winner is obvious. If both have the
+same level of success, either a critical or normal success, then the higher roll
+wins. On a tie, the GM resolves the conflict.
+
+| Winner           | Loser              |
+|------------------|--------------------|
+| Critical Success | Normal Success     |
+| Critical Success | (Critical) Failure |
+| Normal Success   | (Critical) Failure |
+
+## Improving a Skill
+
+Every [Skill][] has an initial, inherent value of `5%`. This initial, inherent
+value can be modified by [Races][] and [Traits][].
+
+Raising a [Skill][] by `1%` costs 1 CP. You cannot raise a [Skill][] above
+`100%`, nor decrease a [Skill][].
 
 ## Skill Categories
 
 There are three different categories that you can improve by improving their
 associated [Skills][].
 
-Every 4 Character Points used in a single category improves the category's die
-by one step. Each Category starts with a [d4][]. Category dies are used for very
-basic tasks where no other [Skill][] applies, but mainly for combat related
-checks.
+Each category has a score, called the category score, or [Action][] score,
+[Knowledge][] score and [Social][] score, respectively. This score improves
+various aspects and rolls for your character.
+
+Every 10 Character Points you spend in a single category improves the category's
+score by 1.
+
+You gain the category's score as a positive modifier on all associated [Skill][]
+rolls. The category's score does not modify the Critical Success chance, see
+[Skill Modifiers](#skill-modifiers).
 
 !!! example "Skill categories and Skills"
-    A character has two [Action][] Skills at a [d12][]. The cost of
-    improving those [Skills][] to a [d12][] totals 8 Character Points. The
-    character's [Action][] die is therefore a [d8][].
+    A character has spend 90 Character Points on [Action][] Skills. The
+    character's [Action][] score is therefore `9`.
+
+    When rolling on any [Action][] Skill, the character receives a `+9%` bonus
+    on the roll.
+
+!!! tip "Available Skills"
+    Like any other RPG system, Q* provides the GM and players with a set of
+    [Skills][]. Neither the system nor characters are limited to these
+    [Skills][]: if you require different [Skills][] to suite your needs, then
+    add them to your game.
 
 ### Action
 
@@ -46,8 +172,9 @@ This category contains all [Skills][] that rely on might, speed, and have some
 sort of physical interaction like running, swimming, climbing, shooting,
 swinging a sword, etc.
 
-It's also used for [Bulk][], [Pace][], [Turn Order](/crisis/#turn-order),
-[Natural Healing](/crisis/#natural-healing) and resisting bodily effects.
+It's also used for [Carrying Capacity][], [Pace][], [Turn
+Order](/crisis/#turn-order), [Natural Healing](/crisis/#natural-healing) and
+resisting bodily effects.
 
 <div class="qs-list-test full-width" markdown="1">
 
@@ -60,31 +187,34 @@ Without this [Skill][] being trained, the character **cannot** swim.
 
 | Modifier | Example                        |
 |:--------:|--------------------------------|
-|    -2    | Sparce or only thin handholds. |
-|    -2    | Surface is slippery            |
+|  `-20%`  | Sparce or only thin handholds. |
+|  `-20%`  | Surface is slippery            |
 
 ##### Force
 
 is used for breaching doors, break down treasure chests, holding doors shut etc.
 
-##### Heavy Weapons*
+##### Heavy Weapons
 
 is used when using heavy weapons such as rocket launchers, vehicle mounted
-machine guns, or firing any vessel's weapons. Also, ordnance falls unders this
-[Skill][].
+machine guns, or firing any vessel's weapons.
 
 ##### Light Weapons
 
 is used for ranged weapon attacks with weapons like bows, pistols, lasguns, etc.
 
-##### Melee*
+##### Lockpick
+
+is used to lockpick, break open vaults, break the combination to a safe, etc.
+
+##### Melee
 
 is used when using melee weapons or parrying a melee attack.
 
-##### Operate*
+##### Operate
 
 is used for driving, piloting or steering a vessel and remote controlling
-drones.
+drones. Specify which type of vessel your want to operate.
 
 ##### Stealth
 
@@ -94,13 +224,13 @@ It's opposed by the **Search** [Skill][].
 
 | Modifier | Example        |
 |:--------:|----------------|
-|    +2    | Crawling       |
-|    -2    | Running        |
-|    +1    | Dim Light      |
-|    +2    | Darkness       |
-|    +4    | Pitch Darkness |
-|    +2    | Light Cover    |
-|    +4    | Heavy Cover    |
+|  `+20%`  | Crawling       |
+|  `-20%`  | Running        |
+|  `+10%`  | Dim Light      |
+|  `+20%`  | Darkness       |
+|  `+40%`  | Pitch Darkness |
+|  `+20%`  | Light Cover    |
+|  `+40%`  | Heavy Cover    |
 
 </div>
 
@@ -109,76 +239,81 @@ It's opposed by the **Search** [Skill][].
 This category contains all [Skills][] that rely on education and intelligence,
 like science, engineering, etc.
 
-It's also used for [Perception][].
+It's also used for [Perception](/character#perception-per).
 
 <div class="qs-list-test full-width" markdown="1">
 
-##### Search / Track
-
-is used to find and spot hidden and obscured things.
-
-| Tracking Modifier | Example                        |
-|:-----------------:|--------------------------------|
-|        +2         | Tracking more than 5 creatures |
-|        +4         | Recent snow                    |
-|        +2         | Mud                            |
-|        +1         | Dust                           |
-|        -4         | Raining                        |
-|        -2         | Dim Light                      |
-|        -2         | Tracks are older than 1 day    |
-|        -2         | Creature tried to hide tracks  |
-
-##### Engineering*
+##### Engineering
 
 is used for repairing mechanical or electronical motors, operate advanced
 machinery, etc.
 
-##### Computer*
+##### Explosives
 
-is used to identify security systems, hack computers, etc.
+is used to handle and craft explosives, disarm mines, etc.
 
-##### Linguistics*
+##### Linguistics
 
 is used to decipher scripts, forge documents, etc.
 
-##### Medicine*
+##### Medicine
 
 is used to determine the cause of a wound, provide insights on diseases and
 sicknesses, [Healing](/crisis#healing) wounds, etc.
 
-##### Politics*
+##### Politics
 
-is used for insights in politics and behaviours of nations, peoples, cities,
-gangs, groups, etc.
+is used for insights in politics, history and behaviours of nations, peoples,
+cities, gangs, groups, etc.
 
-##### Science*
+##### Science
 
-is used for Anatomy, Biology, Chemistry, etc. checks.
+is used for Anatomy, Biology, Chemistry, Computer, etc. checks.
+
+##### Search
+
+is used to actively search for hidden things.
+
+##### Survival
+
+is used to survive in the wilderness, find edible food, figure out where north
+is, tracking animals and people, etc.
+
+| Tracking Modifier | Example                        |
+|:-----------------:|--------------------------------|
+|      `+20%`       | Tracking more than 5 creatures |
+|      `+40%`       | Recent snow                    |
+|      `+20%`       | Mud                            |
+|      `+10%`       | Dust                           |
+|      `-40%`       | Raining                        |
+|      `-20%`       | Dim Light                      |
+|      `-20%`       | Tracks are older than 1 day    |
+|      `-20%`       | Creature tried to hide tracks  |
 
 </div>
 
 ### Social
 
 This category contains all [Skills][] that rely on charisma and have some sort
-of social interaction like bluffing, empathy, diplomacy, bartering,
+of social interaction like bluffing, empathy, diplomacy, commerce,
 intimidating, etc.
 
 It's also used to resist mental effects, such as drugs, alcohol, stuns, etc.
 
 <div class="qs-list-test full-width" markdown="1">
 
-##### Bartering
-
-is mainly used for acquiring rare items in [Spare Time][] rolls, but it can also
-be used in getting a better deal.
-
 ##### Bluffing
 
 is used for lying. This [Skill][] is opposed by **Empathy**.
 
-##### Command*
+##### Command
 
 is used to command crews, give orders on a vessel, lead others, etc.
+
+##### Commerce
+
+covers appraising goods, bartering, haggling, etc. It's often used for [Spare
+Time][] rolls when acquiring rare items.
 
 ##### Empathy
 
@@ -189,11 +324,15 @@ is used to determine if somebody is sad, lying, nervous, etc. It opposes
 
 is used to strike fear into somebody to get information, help, etc.
 
+##### Perform
+
+is used to act, dance, sing, etc.
+
 ##### Persuade
 
 is used to sweaten the deal for somebody to get information, help, etc.
 
-##### Tactics*
+##### Tactics
 
 is used to non-verbally communicate with party members in combat, tactically
 breach into buildings or rooms, etc.

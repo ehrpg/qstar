@@ -13,21 +13,21 @@ See [Races][].
 
 ## Skills
 
-A character starts with 16 Character Points that can be distributed in the
+A character starts with 300 Character Points that can be distributed in the
 three [Skill] categories: [Action][], [Knowledge][] and [Social][].
 
 See [Skills][] for a list of available skills and more information.
 
-## Traits
+## Traits, Perks & Flaws
 
 Traits allow your character to be more unique, in giving them advantages and
 disadvantages.
 
-See [Talents](/character/talents/).
+See [Traits][], [Perks][] and [Flaws][].
 
 ## Stats
 
-### Pace
+### Pace (PACE)
 
 > The Pace gives you an estimate how quickly you can go from A to B.
 
@@ -35,43 +35,47 @@ The Pace is used to determine how far the creature gets by using the Move
 Action.
 
 The Pace can be lowered by Conditions and Overburdening due to too much
-[Bulk][]. In any case, the Pace can't drop below 2, unless an effect
+[Bulk][]. In any case, the Pace can't drop below 1, unless an effect
 specifically states it.
 
 !!! summary "Pace"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">2</span> +
-        <span data-bracket-top="Action Skill category">[Action][] die / 2</span>
+        <span data-bracket-bottom="Base">4</span> +
+        <span data-bracket-top="Action score">[Action][] / 10</span> ±
+        <span data-bracket-bottom="Race / Talents / etc">Circumstance</span>
     </div>
 
-### Perception
+### Perception (PER)
 
-> Perception measures your character's ability to hear or see hidden stuff
-> without looking for it actively.
+> Perception measures your character's ability to detect hidden stuff without
+> looking for it actively.
 
-Every Sneak and Hide [Skill][] roll is opposed by the enemies [Perception][].
-Per ally near you, you receive a +1 bonus to your [Perception][].
+Every Stealth [Skill][] roll is opposed by [Perception][]. Per ally near you,
+that's able to detect, you receive a `+5%` bonus to your [Perception][].
 
 | Perception Modifier | Example                            |
 |:-------------------:|------------------------------------|
-|         -2          | Distracted, otherwise occupied     |
-|         +2          | Guarding something, on the lookout |
+|       `-20%`        | Distracted, otherwise occupied     |
+|       `+20%`        | Guarding something, on the lookout |
 
 !!! summary "Perception"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">2</span> +
-        <span data-bracket-top="Knowledge Skill category">[Knowledge][] die / 2</span> +
-        <span data-bracket-bottom="max 4">1 per Ally</span> ±
+        <span data-bracket-bottom="Base">`10%`</span> +
+        <span data-bracket-top="Knowledge score">[Knowledge][]</span> +
+        <span data-bracket-bottom="max 10 (50%)">`5%` per ally</span> ±
         <span data-bracket-top="Race / Talents / etc">Circumstance</span>
     </div>
-## Health (HP)
 
-Health abstracts how much wounds a character can take before being incapacitated
-or dying.
+### Health (HP)
 
-!!! summary "HP"
+> Health abstracts how much wounds a character can take before being
+incapacitated or dying.
+
+See [Wounds](/crisis#wounds) and [Healing](/crisis#healing) for more details.
+
+!!! summary "Health"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">10</span> ±
+        <span data-bracket-bottom="Base">100</span> ±
         <span data-bracket-top="Race / Talents / etc">Circumstance</span>
     </div>
 
@@ -87,14 +91,14 @@ Level, the higher the XP requirement.
 
 !!! summary "[XP][] and Level Ups"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="XP">1000</span> *
+        <span data-bracket-bottom="XP">100</span> *
         <span data-bracket-top="Current Level">LVL</span> =
         <span>Level Up</span>
     </div>
 
 !!! example "[XP][] and Level Ups"
-    The XP requirement for Level 2 is 1.000 XP. The XP requirement for Level 3
-    is 2.000. So for Level 3 you require 3.000 XP in total.
+    The XP requirement for Level 2 is 100 XP. The XP requirement for Level 3 is
+    200. So for Level 3 you require 300 XP in total.
 
 ### Level (LVL)
 
@@ -109,12 +113,13 @@ resourceful and adaptable.
 
 #### Character Points
 
-Every level, a character receives 2 Character Points.
+Every level, a character receives 50 Character Points. A single [Skill][] can't
+be improved by more than `10%` per level up.
 
-#### Talents
+#### Perks
 
 Every 4 levels (Level 4, 8, 12, 16, and so on), a character can choose another
-[Talent][].
+[Perk][].
 
 ## Acquisitions
 
@@ -122,7 +127,7 @@ Every 4 levels (Level 4, 8, 12, 16, and so on), a character can choose another
 
 [Acquisitions][] are limited by a maximum value, and are used to improve your
 character. This maximum value is modified by Circumstances, [Talents][], and
-permanently due to [XP][].
+permanently due to the character's Level.
 
 The current value for [Acquisitions][] can **never** exceed the maximum value.
 All exceeding points are usually lost.
@@ -174,8 +179,7 @@ All exceeding points are usually lost.
 
 ### Loot (LOOT)
 
-> [Loot](#loot) abstracts the items and clutter looted, that can be sold for
-> profit.
+> [Loot][] abstracts the items and clutter looted, that can be sold for profit.
 
 <div class="qs-list-test full-width p" markdown="1">
 
@@ -195,36 +199,34 @@ takes up 4 [Bulk][].
 
 <div class="qs-list-test full-width p" markdown="1">
 
-**Gained**{.hf} over the course of time. A character gains more
-[Spare Time][] in between adventures and longer periods of downtime
-during adventures. A character gains at least 1 [Spare Time][] each
-session automatically.
+**Gained**{.hf} over the course of time. A character gains more [ST][] in
+between adventures and longer periods of downtime during adventures. A character
+gains at least 1 [ST][] each session automatically.
 
 **Used**{.hf} to recuperate, craft, repair and upgrade items and vessels and to
 improve a character.
 
 </div>
 
-Depending on the task, a [Spare Time][] roll is made with the associated
-[Skill][] die. As with [Skills][], you can add applicable modifiers to the roll,
-e.g. assets or circumstance modifiers.
+Depending on the task, a [ST][] roll is made with the associated [Skill][]. As
+with [Skills][], you can add applicable modifiers to the roll, e.g. assets or
+circumstance modifiers.
 
-The difficulty of a [Spare Time][] roll is also **4**, but usually heavily
-modified by outside factors.
+The [ST][] influences the difficulty of the [Skill][] check, and provides a
+bonus or penalty.
 
-A Spare Time Roll is specified by the following scheme: `Xt±Y`, e.g. 2t+1 or
-3t-2. *X* represents the number of successful rolls necessary. The *X* also
-represents the [Spare Time][] cost. *Y* represents the difficulty modifier for
-each roll. The *Y* is omitted if there is no modifier.
+A [ST][] roll is specified by the following scheme: `Xt±Y`, e.g. 2t+10 or 3t-20.
+*X* represents the number of successful rolls necessary. The *X* also represents
+the [ST][] cost. *Y* represents the difficulty modifier for each roll. The *Y*
+is omitted if there is no modifier.
 
-If a [Spare Time][] roll fails, the [Spare Time][] point is lost. If multiple
-[Spare Time][] rolls are necessary for a certain task and one of the check
-fails, there are multiple outcomes:
+If a [ST][] roll fails, the [ST][] point is lost. If multiple [ST][] rolls are
+necessary for a certain task and one of the check fails, there are multiple
+outcomes:
 
-* you can continue it at a later time or spend more [Spare Time][] points
-  immediatly,
-* the [Spare Time][] task fails, or
-* the [Spare Time][] task does not have the intended outcome.
+* you can continue it at a later time or spend more [ST][] points immediatly,
+* the [ST][] task fails, or
+* the [ST][] task does not have the intended outcome.
 
 !!! summary "Maximum [Spare Time][]"
     <div class="formula formula-top formula-bottom">
@@ -232,13 +234,13 @@ fails, there are multiple outcomes:
     </div>
 
 !!! example "Spare Time rolls"
-    Finding a very rare item on the black market might be represented as a 2t+4
+    Finding a very rare item on the black market might be represented as a 2t-40
     [Spare Time][] roll.
 
     A character attempts the roll. He needs to spend 2 [Spare Time][] points,
-    and roll the *Bartering* [Skill][] twice. The difficulty for each roll is
-    **4**; modified by the [Spare Time][] task, the difficulty for each roll
-    results in **8**.
+    and roll the *Commerce* [Skill][] twice. The roll is modified by `-40%`;
+    modified by the [Spare Time][] task, the difficulty for each roll results in
+    the [Skill][]'s value minus `40%`.
 
 ### Influence (INF)
 
@@ -247,15 +249,15 @@ fails, there are multiple outcomes:
 <div class="qs-list-test full-width p" markdown="1">
 
 **Gained**{.hf} by making a name for yourself in the cosmos, i.e. by helping
-people and factions. [Influence][] is lost by harming and disappointing others
-(Infamy might also gain you [Influence][] based on your reputation).
+people and factions. [INF][] is lost by harming and disappointing others (Infamy
+might also gain you [INF][] based on your reputation).
 
 **Used**{.hf} for accessing and buying items, vessels, meetings with high
 ranking characters, etc.
 
 </div>
 
-More [Influence][] unlocks better equipment and better vessels.
+More [INF][] unlocks better equipment and better vessels.
 
 !!! summary "Maximum [Influence][]"
     <div class="formula formula-top formula-bottom">
@@ -266,8 +268,8 @@ More [Influence][] unlocks better equipment and better vessels.
 
 ### Resources (RES)
 
-> [Resources][] represent materials used for creating, repairing, upgrading and
-> acquiring equipment.
+> [Resources][] (RES) represent materials used for creating, repairing,
+> upgrading and acquiring equipment.
 
 <div class="qs-list-test full-width p" markdown="1">
 
@@ -277,12 +279,13 @@ More [Influence][] unlocks better equipment and better vessels.
 
 </div>
 
-[Resources][] can be used to repair vessels, in which case the [Resources][] are
-**spent** on the repair, and *permanently lowered*.
+[RES][] can also be used to repair vessels. Depending on the damage that's to be
+repaired, the character, or group, has to accumalate enough [RES][] to repair
+the vessel. The [RES][] aren't lost when repairing.
 
-If [Resources][] are spent on equipment, your maximum [Resources][] are
-*temporarily lowered* by that amount. This abstracts the upkeep and maintenance
-of a powerful item.
+If [RES][] are spent on equipment, your maximum [RES][] are *temporarily
+lowered* by that amount. This abstracts the upkeep and maintenance of a powerful
+item.
 
 !!! summary "Maximum [Resources][]"
     <div class="formula formula-top formula-bottom">
@@ -306,9 +309,9 @@ the experimental equipment or vessel can be acquired.
 
 </div>
 
-Certain upgrades require [Technology][] in order to be unlocked. Upgrades have
-to be unlocked only once, and *can* be shared between characters. Unlocking
-*permanently lowers* your [Technology][] value.
+Certain upgrades require [TECH][] in order to be unlocked. Upgrades have to be
+unlocked only once, and *can* be shared between characters. Using [TECH][]
+*permanently lowers* its value.
 
 !!! summary "Maximum [Technology][]"
     <div class="formula formula-top formula-bottom">
@@ -353,7 +356,7 @@ you, but in general they know what you're trying to tell them. Additionally you
 can't read or write in this language.
 
 Cost
-:   1t+2 (Linguistics)
+:   1t-20 (Linguistics)
 
 ##### Normal
 
@@ -361,7 +364,7 @@ You have a normal knowledge about the language. You can decipher most texts, and
 know a good fraction of the language's vocabulary.
 
 Cost
-:   1t+4 (Linguistics)
+:   1t-40 (Linguistics)
 
 ##### Master
 
@@ -369,16 +372,17 @@ You are able to have the most sophisticated conversations with others, and
 decipher every text, even older dialects that might not be around anymore.
 
 Cost
-:   1t+6 (Linguistics)
+:   1t-60 (Linguistics)
 
 </div>
 
 ### Learning languages at character creation
 
 If a character is created, the player can spend Character Points to learn new
-languages, or to improve his native language. Each step costs 1 Character Point.
+languages, or to improve his native language. The cost to learn is different for
+each step: *Basic* costs 25 CP, *Normal* costs 25 CP, *Master* costs 50 CP.
 
-Spending Character Points for languages also counts towards the skill bonus for
-the [Knowledge][] category.
+Spending Character Points for languages also counts towards the [Knowledge][]
+score.
 
 --8<-- "_links.md"

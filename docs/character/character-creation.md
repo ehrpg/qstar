@@ -4,50 +4,60 @@
 
 > This section outlines the steps necessary to create a character from scratch.
 
-### 1. Determine your character's concept
+### 1. Start with the name
 
-At every character's core lies the concept. What should your character be? A
-thief, a wizard, or even a barbarian? Being familiar with the archetype of your
-character, it's time to choose a race that suits your character idea best.
+Think about who your character is. Where does he come from, why is he seeking
+adventures, does he have enemies, is he looking for someone, etc. This should
+narrow down the character's concept alot. It also helps to pick a Race,
+[Skills][], etc. for your character.
 
 ### 2. Choose a race
 
-For a lot of settings and thus characters human is the most common choice. The
-Setting you are playing may feature additional races, such as aliens, elves,
-dwarves, or just subtypes of the human race such as martian colonists.
+For a lot of Settings and characters human is the most common choice. The
+Setting you are playing may feature additional [Races], such as aliens, elves,
+dwarves, or just subtypes of the human [Race][] such as martian colonists.
 
-A character's Race has the biggest impact on role-playing, but it also
-influences [Skills][], [Talents][] and other aspects of your character:
+A character's [Race][] has the biggest impact on role-playing, but it also
+influences [Skills][], [Perks][] and other aspects of your character:
 
-See [Races](/character/races) for a list of available races, or talk to your GM
-if the race you want to play is not on there.
+See [Races][] for a list of available [Races], or talk to your GM if the
+[Race][] you want to play is not on there.
 
-### 3. Assign Skills
+### 3. Choose traits
 
-A character has 16 Character Points (CP) that can be distributed among the available
-[Skills][]. Each [Skill][] improvement costs 1 CP.
+You can choose up to 2 [Traits][]. [Traits][] can only be picked at character
+creation, and not at a later time. [Traits][] are, besides the [Race][], the
+only source that can modify the inherent value of a [Skill][]---unlike modifiers
+which only give a bonus on a specific roll.
 
-A [Skill][] category also has a die, which also starts at a [d4][]. Every 4 CP
-in a single [Skill][] category increases that die by one step.
+If you have an idea for a [Trait][] that would complement your character, talk
+to your GM if he approves of it.
 
-You cannot raise any Skill above a [d12](#d12).
+See [Traits][].
 
-### 4. Learn Talents
+### 4. Improve Skills
 
-A character can unlock 2 [Talents][] upon character creation.
+A character has 300 Character Points (CP) that can be distributed among the
+available [Skills][]. See [Improving a
+Skill](/character/skills#improving-a-skill).
 
-### 5. Buy Equipment
+### 5. Pick Perks & Flaws
+
+You can pick [Perks][] & [Flaws][] that further improve your character by making
+[Skills][] better, or certain Actions available.
+
+See [Perks][], and [Flaws][].
+
+### 6. Buy Equipment
 
 Every character needs some equipment. With your starting money, buy some
 commonly helpful [items](/equipment/util-misc/), such as a torchlight, rations,
 backpacks, etc. With the rest of your money you should buy a half decent
 [Weapon](/equipment/weapons/) and some [Armour](/equipment/armour-outfits/).
 
-### 6. Fill In The Blanks
+### 7. Fill In The Blanks
 
-Calculate all your character's stats. Remember, the almost any stat can be
-influenced positively or negatively by circumstance like [Talents][].
-
-Finally, give your character a name!
+Calculate all your character's stats. Remember, that almost any stat can be
+influenced positively or negatively by modifiers.
 
 --8<-- "_links.md"

@@ -58,13 +58,16 @@ markdown_extensions:
 nav:
     - Q*:
         - Introduction: 'index.md'
+
         - Character Creation: 'character/character-creation.md'
 
         - Characters:
             - Character: 'character/index.md'
             - Races: 'character/races.md'
             - Skills: 'character/skills.md'
-            - Talents: 'character/talents.md'
+            - Traits: 'character/traits.md'
+            - Perks: 'character/perks.md'
+            - Flaws: 'character/flaws.md'
 
         - Equipment:
             - Equipment: 'equipment/index.md'
@@ -85,7 +88,6 @@ nav:
             - Combat: 'vessel/combat.md'
             - Equipment: 'vessel/equipment.md'
 
-        - Character Creation*: 'character/character-creation.md'
         - Quick Start Rules*: 'quick-start.md'
 
     - Setting — Q*:

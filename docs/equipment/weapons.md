@@ -14,6 +14,16 @@ otherwise noted.
     should deal between 1 and 6 **DMG** respectively. Also, only the best
     weapons should have a **HIT** of +4.
 
+## Primary & Secondary Weapons
+
+You can only have one primary and secondary weapon, but unlimited tertiary
+weapons. You have to designate one weapon as the primary weapon, and a different
+one as secondary weapon. You can change this anytime, but not within a
+[Crisis](/crisis).
+
+Primary and secondary weapons are influenced by Equipment Traits such as the
+[Chest Rig](/equipment/traits#chest-rig), while tertiary weapons aren't.
+
 ## Weapon Stats
 
 <div class="qs-list-test full-width" markdown="1">
@@ -26,11 +36,11 @@ indicates the bonus or penalty the Attack Skill roll receives.
 
 indicates the bonus for the damage.
 
-##### AoE
+##### AoE (AoE DMG)
 
 indicates how big the radius is in tiles around the center of the Area of
-Effect. Creatures within the radius are effected by the AoE, while creatures
-outside are uneffected.
+Effect, and how high the damage is in the center of the AoE. Creatures within
+the radius are effected by the AoE, while creatures outside are uneffected.
 
 ##### RNG
 
@@ -99,8 +109,9 @@ the **AoE**. At the center, an explosive weapon deals its damage multiplied by
 its **AoE** value. Per tile away from the center, the weapon deals 1x its damage
 less, to a minimum of its normal damage.
 <br>
-For example, a Grenade (**DMG**: 3; **AoE**: 3) deals 9 damage at the center, 6
-damage next to the center, and 3 damage when the target is away 2 or 3 tiles.
+For example, a Grenade (**AoE**: 3; **AoE DMG**: 10) deals 30 damage at the
+center, 20 damage next to the center, and 10 damage when the target is away 2 or
+3 tiles.
 
 </div>
 
@@ -136,20 +147,20 @@ All weapons listed in this category use the Light Weapons [Skill][] for Attacks.
 All weapons listed in this category use the Athletics [Skill][] for Attacks.
 Thrown weapons are usually one-time use items.
 
-| Name             | HIT | DMG | AoE | RNG | Bulk | Cost | [RES][] | Tags      | Notes                                                 |
-|------------------|----:|----:|----:|----:|:----:|-----:|:-------:|-----------|-------------------------------------------------------|
-| Grenade          |   0 |   3 |   3 |   4 |  L   |      |    -    | explosive |                                                       |
-| Molotov Cocktail |   0 |   4 |   1 |   4 |  L   |      |    -    |           | Burns an area for [d6][] rounds with [Fire][] damage. |
-| Smoke Grenade    |   0 |   - |   2 |   4 |  L   |      |    -    |           | *Obscures* an area with smoke.                        |
-| Stun Grenade     |   0 |   - |   2 |   4 |  L   |      |    -    |           | Applies [Stunned](/crisis#stunned) for [d4][] rounds. |
+| Name             | HIT | DMG |    AoE | RNG | Bulk | Cost | [RES][] | Tags      | Notes                                                 |
+|------------------|----:|----:|-------:|----:|:----:|-----:|:-------:|-----------|-------------------------------------------------------|
+| Grenade          |   0 |   3 | 3 (10) |   4 |  L   |      |    -    | explosive |                                                       |
+| Molotov Cocktail |   0 |   4 |  1 (5) |   4 |  L   |      |    -    |           | Burns an area for [d6][] rounds with [Fire][] damage. |
+| Smoke Grenade    |   0 |   - |  2 (-) |   4 |  L   |      |    -    |           | *Obscures* an area with smoke.                        |
+| Stun Grenade     |   0 |   - |  2 (-) |   4 |  L   |      |    -    |           | Applies [Stunned](/crisis#stunned) for [d4][] rounds. |
 
 ## Heavy Weapons
 
 All weapons listed in this category use Heavy Weapons [Skill][] for Attacks.
 
-| Name | HIT | DMG | AoE | RNG | RoF | MAG | CAP | REL | Bulk |   Cost | [RES][] | Tags                        |
-|------|----:|----:|----:|----:|----:|----:|----:|----:|:----:|-------:|:-------:|-----------------------------|
-| RPG  |   0 |   3 |   5 |  10 |   1 |   - |   1 |   4 |  8   | 20.000 |    4    | Attack: 3 [AP][]; explosive |
+| Name | HIT | DMG |    AoE | RNG | RoF | MAG | CAP | REL | Bulk |   Cost | [RES][] | Tags                        |
+|------|----:|----:|-------:|----:|----:|----:|----:|----:|:----:|-------:|:-------:|-----------------------------|
+| RPG  |   0 |   3 | 5 (15) |  10 |   1 |   - |   1 |   4 |  8   | 20.000 |    4    | Attack: 3 [AP][]; explosive |
 
 --8<--
 _links.md

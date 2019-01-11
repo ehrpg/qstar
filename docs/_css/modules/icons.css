@@ -6900,7 +6900,7 @@
   content: "\E6B4";
 }
 
-.game-icon-dna1:before {
+.game-icon-dna1:before, a[href*="#race"]:not(.headerlink):before {
   content: "\E6B5";
 }
 
@@ -7764,7 +7764,7 @@
   content: "\E78C";
 }
 
-.game-icon-rolling-dices:before {
+.game-icon-rolling-dices:before, *:not(.md-search-result__item) > a[href$="#d100"]:before {
   content: "\E78D";
 }
 
@@ -13824,6 +13824,7 @@ a:not(.headerlink)[href*="#"]:before {
 *:not(.md-search-result__item) > a[href$="#d6"],
 *:not(.md-search-result__item) > a[href$="#d8"],
 *:not(.md-search-result__item) > a[href$="#d10"],
+*:not(.md-search-result__item) > a[href$="#d100"],
 *:not(.md-search-result__item) > a[href$="#d12"] {
   color: #222 !important;
   pointer-events: none;
@@ -13834,6 +13835,7 @@ a:not(.headerlink)[href*="#"]:before {
 *:not(.md-search-result__item) > a[href$="#d6"]:before,
 *:not(.md-search-result__item) > a[href$="#d8"]:before,
 *:not(.md-search-result__item) > a[href$="#d10"]:before,
+*:not(.md-search-result__item) > a[href$="#d100"]:before,
 *:not(.md-search-result__item) > a[href$="#d12"]:before {
   font-family: "game-icons";
   color: #222;

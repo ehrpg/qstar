@@ -71,6 +71,9 @@ a:not(.headerlink) {
   &[href*="#damage-type-biohazard"]:before {
     @extend .game-icon-biohazard;
   }
+  &[href*="#race"]:before {
+    @extend .game-icon-dna1;
+  }
 }
 
 *:not(.md-search-result__item) > {
@@ -78,6 +81,7 @@ a:not(.headerlink) {
   a[href$="#d6"],
   a[href$="#d8"],
   a[href$="#d10"],
+  a[href$="#d100"],
   a[href$="#d12"] {
     color: #222 !important;
     pointer-events: none;
@@ -88,6 +92,7 @@ a:not(.headerlink) {
   a[href$="#d6"]:before,
   a[href$="#d8"]:before,
   a[href$="#d10"]:before,
+  a[href$="#d100"]:before,
   a[href$="#d12"]:before {
     font-family: "game-icons";
     color: #222;
@@ -112,5 +117,9 @@ a:not(.headerlink) {
 
   a[href$="#d12"]:before {
     @extend .game-icon-d12;
+  }
+
+  a[href$="#d100"]:before {
+    @extend .game-icon-rolling-dices;
   }
 }

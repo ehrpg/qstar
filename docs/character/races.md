@@ -3,8 +3,8 @@
 Every creature has a [Race][], or at least a type that groups similar creatures into
 the same category, e.g. animals or robots.
 
-A [Race][] can modify almost all aspects of a creature, including: Attributes,
-Skills, Acquisitions, Health, Stats, roleplaying circumstances, etc.
+A [Race][] can modify almost all aspects of a creature, including: Skills,
+Acquisitions, Health, Stats, roleplaying circumstances, etc.
 
 !!! tip "Race subtypes"
     Some [Races][] have further subtypes, that change the *base* [Race][].
@@ -15,7 +15,7 @@ Skills, Acquisitions, Health, Stats, roleplaying circumstances, etc.
 
 Below is a list of possible [Races][], provided by the Q* RPG system.
 
-!!! tip "Available [Races][]"
+!!! tip "Available Races"
     Like any other RPG system, Q* provides the GM and players with a set of
     [Races][]. Neither the system nor characters are limited to these [Races][]:
     if you require different [Races][] to suite your needs, then add them to
@@ -27,9 +27,9 @@ Below is a list of possible [Races][], provided by the Q* RPG system.
 
 *Humans are a versatile race.*
 
-<!-- [Talents](/character/talents)
-:   Humans receive the [Ingenious](/character/talents#ingenious) Talent for
-free. -->
+[Talents](/character/talents)
+:   Humans start with the [Versatile](/character/talents#versatile) Talent for
+free.
 
 </div>
 

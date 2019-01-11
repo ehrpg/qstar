@@ -1,82 +1,53 @@
 # Traits
 
-Traits help characters specialize in a certain aspect, while making them worse
+> Traits help characters specialize in a certain aspect, while making them worse
 in another. There is always a trade-off for specialization.
 
-Even items can have traits.
+You can pick 0 to 2 Traits. Traits can only be picked at *character creation*.
 
-## Character Traits
-
-<div class="qs-list-test"></div>
-
-<!-- A-N -->
-
-##### Enduring
-
-Even a forced march can't stop you. Ignoring the signals your body gives you has
-repercussions though.
-
-Benefit
-:   +10 [Endurance](/character#endurance)
-
-Drawback
-:   -5 [Health](/character#health)
-
-Requires {.qs-sep}
-:   [Might - Fair](/character#might-mi)
-
-[Downtime](/character#downtime-dt)
-:   1
+<div class="qs-list-test full-width" markdown="1">
 
 ##### Forceful
 
-You know how to break open most mechanisms more efficiently. People don't like
-it when you break their stuff however.
+You like to go out in an explosion... and not quietly.
 
 Benefit
-:   +1 to [Force](/character/skills#force)
+:   Increases **Force**, **Heavy Weapons**, and **Explosives** by `5%`.
 
-Drawback
-:   -2 to [Back Story](/character/skills#back-story)
+Penalty
+:   Decreases **Stealth**, **Medicine**, and **Empathy** by `5%`.
 
-Requires {.qs-sep}
-:   [Might - Great](/character#might-mi)
+##### Pacifist
 
-[Downtime](/character#downtime-dt)
-:   1
-
-##### Specialized
-
-You spend more time on a particular skill, so you have less time for another.
+Weapons win fights, words win wars.
 
 Benefit
-:   +1 to [Any Skill](/character/skills#available-skills)
+:   Increases **Commerce**, **Empathy**, **Perform**, and **Persuade** by `5%`.
 
-Drawback
-:   -2 to [Any Skill](/character/skills#available-skills)
+Penalty
+:   Decreases **Heavy Weapons**, **Light Weapons**, **Explosives**, and
+**Melee** by `5%`.
 
-Requires {.qs-sep}
-:   Attribute of benefitted skill [Attribute -
-Great](/character#attributes)
+##### Sociopath
 
-[Downtime](/character#downtime-dt)
-:   1
+You know how to manipulate people.
+
+Benefit
+:   Increases **Bluffing**, **Intimidate**, and **Persuade** by `5%`.
+
+Penalty
+:   You cannot use **Empathy** anymore.
 
 ##### Vigilant
 
-You're always on the lookout for potential threats. Packing light helps you act
-faster.
+You always expect the worst and pack lightly.
 
 Benefit
-:   +1 to [Turn Order](/crisis#turn-order)
+:   You receive a `+2` circumstance bonus on [Turn Order](/crisis#turn-order).
 
-Drawback
-:   -2 to [Slots](/equipment#slots)
-
-Requires {.qs-sep}
-:   [Speed - Great](/character#speed-sp)
-
-[Downtime](/character#downtime-dt)
-:   1
+Penalty
+:   Decreases [Carrying Capacity][] by `2`.
 
 </div>
+
+--8<-- "_links.md"

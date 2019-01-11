@@ -77,6 +77,9 @@ the second Attack you make. It starts at the third Attack if you also have a
 [RES][]
 :   1
 
+[Bulk][]
+:   1
+
 ##### Suppressor
 
 Reduces weapon noise.
@@ -98,6 +101,9 @@ increment when deployed.
 [RES][]
 :   1
 
+[Bulk][]
+:   1
+
 ##### Foregrip
 
 The cumulative -1 penalty on **HIT** for an **RoF** higher than 1 only starts at
@@ -109,6 +115,9 @@ On a shotgun, you don't have to spend [AP][] because of the pump-action for the
 
 [RES][]
 :   2
+
+[Bulk][]
+:   1
 
 </div>
 
@@ -159,23 +168,50 @@ If your target has no [Physical][] DR, you deal 2 extra damage.
 
 ##### Drum-Mag
 
-A Drum-Mag doubles your weapons **CAP**, but also doubles its [Bulk][].
+A Drum-Mag doubles your weapons **CAP**.
 
 [RES][]
 :   4
 
+[Bulk][]
+:   Doubles the weapon's [Bulk][]
+
 ##### Extended-Mag
 
-Your weapons **CAP** is increased by 5, but its [Bulk][] is also increased by 1.
+Your weapons **CAP** is increased by 5.
 
 [RES][]
 :   2
+
+[Bulk][]
+:   1
 
 </div>
 
 ## Armour Attachments & Upgrades
 
 <div class="qs-list-test full-width" markdown="1">
+
+##### Chest Rig
+
+You receive 2 additional **MAG**s for your primary and secondary weapon.
+
+[RES][]
+:   1
+
+[Bulk][]
+:   2
+
+##### Chest Carrier
+
+You receive 3 additional **MAG**s for your primary weapon and 4 for your
+secondary weapon.
+
+[RES][]
+:   2
+
+[Bulk][]
+:   5
 
 ##### Armour Plating
 

@@ -2,6 +2,7 @@
 [d6]: #d6
 [d8]: #d8
 [d10]: #d10
+[d%]: #d100
 [d12]: #d12
 
 [Attribute]: /character/#attributes
@@ -40,6 +41,13 @@
 [Race]: /character/races/#races
 [Races]: /character/races/#races
 
+[Trait]: /character/traits/
+[Traits]: /character/traits/
+[Perk]: /character/perks/
+[Perks]: /character/perks/
+[Flaw]: /character/flaws/
+[Flaws]: /character/flaws/
+
 [Skill]: /character/skills/#skills
 [Skills]: /character/skills/#skills
 [Trained-only Skills]: /character/skills/#trained-only-skills
@@ -50,6 +58,7 @@
 [Credits]: /equipment/#credits
 
 [Bulk]: /equipment/#bulk
+[Carrying Capacity]: /equipment/#bulk
 
 [AP]: /crisis/#action-points
 [Action Point]: /crisis/#action-points

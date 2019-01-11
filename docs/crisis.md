@@ -1,44 +1,45 @@
 # Crisis
 
-*A crisis requires a character to make a **Skill** roll. In a crisis time slows
+*A crisis requires a character to make a [Skill][] roll. In a crisis time slows
 down and actions become more atomic.*
 
 ## Difficulty
 
-Every task has a difficulty of **4**. Some tasks require equipment or knowledge,
-in order to not suffer a penalty. Other tasks are very easy, and the roll gains
-a bonus, or you don't even have to roll at all.
+Every task has a difficulty. Sometimes, under certain circumstances, a task
+might be easier or harder. Some tasks require equipment or knowledge in order to
+not suffer a penalty. Other tasks are very easy, and the roll gains a bonus, or
+you don't even have to roll at all.
 
 Not all tasks **require** a check. For example, finding some information inside
 books can be done without a skill check given enough time. A good skill check
 could reduce the time spent searching, or it could unearth additional
 information that might be helpful.
 
-| Modifier | Name        | Description                                                        |
-|---------:|-------------|--------------------------------------------------------------------|
-|       -4 | Trivial     | Everyday tasks.                                                    |
-|       -2 | Routine     | Tasks you do every few days, which can be done by almost everyone. |
-|       -1 | Simple      | Most people can do this without much effort.                       |
-|        _ | Easy        | Even untrained people still can do these tasks sometimes.          |
-|       +1 | Normal      | You need at least some training to complete these kind of tasks.   |
-|       +2 | Demanding   | You either need gear or good training for these tasks.             |
-|       +4 | Challenging | You need a lot of training and good gear.                          |
-|       +6 | Hard        | You need to be a specialist for these tasks.                       |
-|       +8 | Very Hard   | You require help from others to achieve this.                      |
-|      +10 | Impossible  | A once in a lifetime achievement.                                  |
-
-!!! tip "Difficulty"
-    This is only a guideline about tasks and the modifiers they impose.
-
 ### Difficulty Modifier
 
 Certain circumstances modify the task's difficulty positively or negatively.
 Multiple modifiers stack.
 
+| Modifier | Name        | Description                                                        |
+|---------:|-------------|--------------------------------------------------------------------|
+|  ` -80%` | Trivial     | Everyday tasks.                                                    |
+|  ` -60%` | Routine     | Tasks you do every few days, which can be done by almost everyone. |
+|  ` -40%` | Simple      | Most people can do this without much effort.                       |
+|  ` -20%` | Easy        | Even untrained people still can do these tasks sometimes.          |
+|    ` 0%` | Normal      | You need at least some training to complete these kind of tasks.   |
+|  ` +20%` | Demanding   | You either need gear or good training for these tasks.             |
+|  ` +40%` | Challenging | You need a lot of training and good gear.                          |
+|  ` +60%` | Hard        | You need to be a specialist for these tasks.                       |
+|  ` +80%` | Very Hard   | You require help from others to achieve this.                      |
+|  `+100%` | Impossible  | A once in a lifetime achievement.                                  |
+
+!!! tip "Difficulty"
+    This is only a guideline about tasks and the modifiers they impose.
+
 | Modifier | Name                     | Description                               |
 |---------:|--------------------------|-------------------------------------------|
-|       +1 | Asset                    | Having the correct tools at hand.         |
-|       -1 | Unfavorable Circumstance | E.g. climbing a cliff while it's raining. |
+|   `-10%` | Asset                    | Having the correct tools at hand.         |
+|   `+10%` | Unfavorable Circumstance | E.g. climbing a cliff while it's raining. |
 
 !!! tip "Stacking Modifiers"
     Even though modifiers stack, multiple assets of the same type do not stack,
@@ -53,9 +54,9 @@ Once every character has acted, a new **round** begins.
 
 ### Turn Order
 
-Every character involved in a crisis has to roll for initiative, by rolling his
-[Action][] die. As with any die roll, the
-initiative die can *explode* too.
+Every character involved in a crisis has to roll for initiative, by rolling a
+[d10][] and adding their [Action][] score and any modifiers. The character with
+the highest roll acts first.
 
 If two or more characters have rolled the same result the PCs can agree upon who
 acts first. If they cannot find an agreement, roll again. The characters retain
@@ -63,8 +64,9 @@ their original roll, but the conflict is resolved.
 
 !!! summary "Turn Order"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Action Skill category">[Action][] die</span> ±
-      <span data-bracket-top="Race / Talents / etc">Circumstance</span>
+      <span data-bracket-bottom="Base">[d10][]</span> +
+      <span data-bracket-top="Action score">[Action][]</span> ±
+      <span data-bracket-bottom="Race / Talents / etc">Circumstance</span>
     </div>
 
 !!! tip "[GM Tip] - NPC Turn Order"
@@ -91,6 +93,9 @@ An action with an [AP][] cost higher than 6 indicates that the Action has to be
 executed over multiple subsequent turns. Executing any other Action while this
 Action isn't completed yet cancels it.
 
+An action always costs at least 1 [AP][], unless an action specifically says
+otherwise.
+
 !!! example "Reloading a flintlock musket"
     Reloading a flintlock musket takes 10 [AP][]. You can immediatly spend all
     your [AP][] on reloading. Each subsequent turn you can spend another 4
@@ -108,13 +113,12 @@ Action isn't completed yet cancels it.
 ## Attacks
 
 An Attack roll is equal to a **Skill** roll, using the weapon's associated
-[Skill][]. An Attack automatically fails if the first die roll comes up with a
-**1**.
+[Skill][] and stats.
 
 !!! summary "Making an Attack"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Skill Die">Attack</span> ±
-      <span data-bracket-top="Weapon modifier">Hit</span> ±
+      <span data-bracket-bottom="Skill">[d%][]</span> ±
+      <span data-bracket-top="Weapon modifier">HIT</span> ±
       <span data-bracket-bottom="Environment / Traits / Race">Circumstance</span>
     </div>
 
@@ -129,33 +133,34 @@ incapacitated target.
 
 ### Ranged Attacks
 
-A ranged Attack roll is usually made with the Light Weapon [Skill][] and has to
-be equal to or higher than **4**.
+A ranged Attack roll is usually made with the Light Weapon [Skill][], and
+suffers penalties from **RNG**.
 
 </div>
 <div class="right" markdown="1">
 
 ### Melee Attacks
 
-A Melee Attack roll has to be equal to or higher than **4**, but can be parried
-by the defender.
+A Melee Attack roll is made with the Melee [Skill][], and can be parried by the
+defender.
 
 </div>
 
 #### Parrying
 
-Once per round you can try to parry an incoming Melee Attack. You have to choose
-to parry before the attacker rolls his attack. The parry roll is a Melee roll
-that has to be equal to or higher than **4**. For every additional enemy within
-melee range you suffer a -1 penalty on the parry roll.
+Parrying is a Contest between two opponents using the Melee [Skill][].
 
-Divide your roll by 4. This is the amount of damage you parry. Any remaining
-damage is further reduced by Armour.
+Once per round you can try to parry an incoming Melee Attack. You have to choose
+to parry before the attacker rolls his attack. The parry roll is a Melee roll.
+For every additional enemy within melee range you suffer a `-10%` penalty on the
+parry roll.
+
+You cannot parry a critical Attack.
+
+If the parry roll is successful, you do not receive any damage. If you parry
+without a melee weapon equipped, you take half the damage instead.
 
 ### Area of Effect
-
-Attacks with an Area of Effect, e.g. a fireball spell, also have to be equal to
-or higher than **4**.
 
 Thrown weapons, e.g. grenades, require you to make an Athletics check. The roll
 otherwise is a normal Ranged Attack.
@@ -165,16 +170,20 @@ determines in which direction you missed. A 1 is being straight back at you, 5
 away from you, and 2 through 8 counting clockwise around the target. You miss by
 a number of squares equal to the range increment of the throw.
 
+!!! tip "Missing an AoE Attack and Hex Grids"
+    With hexagonal grids you only have 6 adjacent fields. Use a [d6][] instead,
+    and adjust the numbers accordingly.
+
 #### Dodging
+
+Dodging is a Contest between two opponents.
 
 Only Area of Effect Attacks can be dodged. Once per round you can try to dodge
 an incoming Area of Effect Attack. You have to choose to dodge before the
-attacker rolls his attack. The dodge roll is an Athletics roll that has to be
-equal to or higher than **4**.
+attacker rolls his attack. Dodging is an Athletics roll.
 
-If you are able to dodge out of the Area of Effect of the Attack you receive no
-wounds. Otherwise divide your roll by 4. This is the damage you avoid through
-dodging.
+If you are able to dodge you can move your character by 1 tile into any
+direction away from the AoE effect.
 
 ### Cover
 
@@ -185,8 +194,8 @@ an enemy, but in plain sight for another.
 
 |   Modifier | Condition   |
 |-----------:|-------------|
-|         -2 | Cover       |
-|         -4 | Heavy Cover |
+|     `-20%` | Cover       |
+|     `-40%` | Heavy Cover |
 | unhittable | Total Cover |
 
 <div class="left" markdown="1">
@@ -210,8 +219,8 @@ an enemy, but in plain sight for another.
 If an Attack is successful, damage can be dealt to the target.
 
 You deal your used weapon's damage, but receive extra damage from the Attack
-roll. Take your final Attack roll and divide it by 4. This is the amount of
-extra damage you deal to the target.
+roll. The amount of [Raises](/character/skill#skill-rolls) is the amount of
+extra damage you deal.
 
 If your damage would be reduced to 0 or lower because of defenses, such as
 armor, parrying, or dodging you still deal 1 non-lethal damage to the target.
@@ -219,31 +228,32 @@ Status Effects are not applied in this case.
 
 !!! summary "Dealing Damage"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Attack Roll">[Attack](/crisis/#attacks)</span> /
-      <span>4</span> +
+      <span data-bracket-bottom="Raises for the Attack Roll">Raises</span> +
       <span data-bracket-top="Weapon Damage">DMG</span> ±
       <span data-bracket-bottom="Environment / Traits / Race">Circumstance</span>
     </div>
 
 !!! example "Attacking and Damaging"
-    A character makes a Ranged Attack with a [d10][]. He rolls a 6 and adds all
-    applicable to-hit modifiers. The final Attack roll results in a 5.  The
-    final Attack roll divided by 4 results in 1 (as always, round down). The
-    used weapon's damage is 2. The attacker would deal 3 damage. The target only
-    wears light armour and blocks 1 damage, resulting in a total of 2 damage.
+    A character makes a Ranged Attack with a [Skill][] value of `60%`. He rolls
+    a `25`. All the modifiers increase the roll to a `53`. The tens digit of the
+    Attack is a `5`; the tens digit of the [Skill][] value is a `6`. The used
+    weapon's damage is 2; the attacker scores 1 raise, and deals 3 wounds in
+    total.
 
 ### Damage Reduction
 
-Damage reduced by [Parrying](#parrying) or [Dodging](#dodging), and Armour. If a
-target wears Armor, all damage you deal is substracted from the target's Armour.
+If a target wears Armor, all damage you deal is reduced by the target's Armor.
+Damage that's reduced by the Armor is dealt to the Armor's Durability instead.
+If the Armor's Durability reaches 0, it does not provide DR anymore.
 
 Some weapons and Actions circumvent the armor's damage reduction, e.g.
 Armor-Piercing Ammunition.
 
 ### Non-lethal damage
 
-When a target would die from an Attack, the attacker can decide whether or not
-to apply non-lethal force, knocking the target unconcious instead of killing it.
+When a target would die from a lethal Attack, the attacker can decide whether or
+not to apply non-lethal force, knocking the target unconcious instead of killing
+it.
 
 ## Wounds
 
@@ -252,22 +262,10 @@ non-lethal.
 
 ### Lethal
 
-If a creature has wounds equal to or higher than its HP, the creature is
-incapacitated and [Dying](#dying). If a creature has wounds equal to or higher
-than double its HP, the creature dies.
+If a creature's Health drops to 10, the creature is incapacitated and
+[Dying](#dying). If the Health drops to 0, the creature immediately dies.
 
-NPCs usually die outright when they reach 0 HP.
-
-### Non-Lethal
-
-When non-lethal wounds are equal to or higher a creature's HP, the creature is
-[Exhausted](#exhausted). Non-lethal wounds equal to or higher than double the
-creature's HP incapacitates it.
-
-!!! info "Non-lethal wounds on a target with lethal wounds"
-    A target may already have lethal wounds, when receiving non-lethal wounds.
-    The non-lethal wounds only have to be equal to or higher than the target's
-    remaining HP.
+Attacks that deal more than 60 wounds in one hit also incapacitate the target.
 
 ## Healing
 
