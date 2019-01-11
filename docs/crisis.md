@@ -11,8 +11,8 @@ not suffer a penalty. Other tasks are very easy, and the roll gains a bonus, or
 you don't even have to roll at all.
 
 Not all tasks **require** a check. For example, finding some information inside
-books can be done without a skill check given enough time. A good skill check
-could reduce the time spent searching, or it could unearth additional
+books can be done without a skill check given enough time. A skill check could
+be used to reduce the time spent searching, or it could unearth additional
 information that might be helpful.
 
 ### Difficulty Modifier
@@ -22,24 +22,24 @@ Multiple modifiers stack.
 
 | Modifier | Name        | Description                                                        |
 |---------:|-------------|--------------------------------------------------------------------|
-|  ` -80%` | Trivial     | Everyday tasks.                                                    |
-|  ` -60%` | Routine     | Tasks you do every few days, which can be done by almost everyone. |
-|  ` -40%` | Simple      | Most people can do this without much effort.                       |
-|  ` -20%` | Easy        | Even untrained people still can do these tasks sometimes.          |
+|  ` +80%` | Trivial     | Everyday tasks.                                                    |
+|  ` +60%` | Routine     | Tasks you do every few days, which can be done by almost everyone. |
+|  ` +40%` | Simple      | Most people can do this without much effort.                       |
+|  ` +20%` | Easy        | Even untrained people still can do these tasks sometimes.          |
 |    ` 0%` | Normal      | You need at least some training to complete these kind of tasks.   |
-|  ` +20%` | Demanding   | You either need gear or good training for these tasks.             |
-|  ` +40%` | Challenging | You need a lot of training and good gear.                          |
-|  ` +60%` | Hard        | You need to be a specialist for these tasks.                       |
-|  ` +80%` | Very Hard   | You require help from others to achieve this.                      |
-|  `+100%` | Impossible  | A once in a lifetime achievement.                                  |
+|  ` -20%` | Demanding   | You either need gear or good training for these tasks.             |
+|  ` -40%` | Challenging | You need a lot of training and good gear.                          |
+|  ` -60%` | Hard        | You need to be a specialist for these tasks.                       |
+|  ` -80%` | Very Hard   | You require help from others to achieve this.                      |
+|  `-100%` | Impossible  | A once in a lifetime achievement.                                  |
 
 !!! tip "Difficulty"
     This is only a guideline about tasks and the modifiers they impose.
 
 | Modifier | Name                     | Description                               |
 |---------:|--------------------------|-------------------------------------------|
-|   `-10%` | Asset                    | Having the correct tools at hand.         |
-|   `+10%` | Unfavorable Circumstance | E.g. climbing a cliff while it's raining. |
+|   `+10%` | Asset                    | Having the correct tools at hand.         |
+|   `-10%` | Unfavorable Circumstance | E.g. climbing a cliff while it's raining. |
 
 !!! tip "Stacking Modifiers"
     Even though modifiers stack, multiple assets of the same type do not stack,
@@ -58,9 +58,10 @@ Every character involved in a crisis has to roll for initiative, by rolling a
 [d10][] and adding their [Action][] score and any modifiers. The character with
 the highest roll acts first.
 
-If two or more characters have rolled the same result the PCs can agree upon who
-acts first. If they cannot find an agreement, roll again. The characters retain
-their original roll, but the conflict is resolved.
+If two or more player characters have rolled the same result the PCs can agree
+upon who acts first. If they cannot find an agreement, roll again. The
+characters retain their original roll, but the conflict is resolved. I a player
+character and an NPC tie, the player character acts first.
 
 !!! summary "Turn Order"
     <div class="formula formula-top formula-bottom">
@@ -83,8 +84,8 @@ an additional turn before actual combat starts.
 Every Action in a Crisis requires [Action Points][] (AP).
 
 Every character has a minimum of 0 [AP][] and a maximum of 6 [AP][]. At the
-start of each turn, including the beginning of a Crisis, the character gains 4
-[AP][].
+start of each turn, including the beginning of a Crisis, the character recovers
+4 [AP][].
 
 Any [AP][] over 6 are lost, while Actions that require more than the remaining
 [AP][] are disabled until enough [AP][] are accumulated.
@@ -112,7 +113,7 @@ otherwise.
 
 ## Attacks
 
-An Attack roll is equal to a **Skill** roll, using the weapon's associated
+An Attack roll is equal to a [Skill][] roll, using the weapon's associated
 [Skill][] and stats.
 
 !!! summary "Making an Attack"
@@ -160,6 +161,13 @@ You cannot parry a critical Attack.
 If the parry roll is successful, you do not receive any damage. If you parry
 without a melee weapon equipped, you take half the damage instead.
 
+!!! summary "Parrying a melee attack"
+    <div class="formula formula-top formula-bottom">
+      <span data-bracket-bottom="Skill">[Melee][]</span> -
+      <span data-bracket-top="max 5 (50%)">`10%` per enemy</span> ±
+      <span data-bracket-bottom="Environment / Traits / Race">Circumstance</span>
+    </div>
+
 ### Area of Effect
 
 Thrown weapons, e.g. grenades, require you to make an Athletics check. The roll
@@ -176,14 +184,15 @@ a number of squares equal to the range increment of the throw.
 
 #### Dodging
 
-Dodging is a Contest between two opponents.
+Dodging is a Contest between two opponents, whereas the dodger rolls an
+[Athletics][] check and the attacker his respective weapon's [Skill][].
 
 Only Area of Effect Attacks can be dodged. Once per round you can try to dodge
 an incoming Area of Effect Attack. You have to choose to dodge before the
 attacker rolls his attack. Dodging is an Athletics roll.
 
-If you are able to dodge you can move your character by 1 tile into any
-direction away from the AoE effect.
+If you win the contest you can move your character by 1 tile into any direction
+away from the AoE effect.
 
 ### Cover
 

@@ -68,3 +68,30 @@
 [Fire]: #damage-type-fire
 [Cold]: #damage-type-frost
 [Acid]: #damage-type-biohazard
+
+[Equipment]: /equipment
+
+[Athletics]: /character/skills#athletics
+[Force]: /character/skills#force
+[Heavy Weapons]: /character/skills#heavy-weapons
+[Light Weapons]: /character/skills#light-weapons
+[Lockpick]: /character/skills#lockpick
+[Melee]: /character/skills#melee
+[Operate]: /character/skills#operate
+[Stealth]: /character/skills#stealth
+[Engineering]: /character/skills#engineering
+[Explosives]: /character/skills#explosives
+[Linguistics]: /character/skills#linguistics
+[Medicine]: /character/skills#medicine
+[Politics]: /character/skills#politics
+[Science]: /character/skills#science
+[Search]: /character/skills#search
+[Survival]: /character/skills#survival
+[Bluffing]: /character/skills#bluffing
+[Command]: /character/skills#command
+[Commerce]: /character/skills#commerce
+[Empathy]: /character/skills#empathy
+[Intimidate]: /character/skills#intimidate
+[Perform]: /character/skills#perform
+[Persuade]: /character/skills#persuade
+[Tactics]: /character/skills#tactics

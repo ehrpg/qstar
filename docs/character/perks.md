@@ -52,6 +52,13 @@ Every perk also costs 1 [ST][].
 
 <div class="qs-list-test full-width" markdown="1">
 
+##### Animal Friend
+
+You can use the [Persuade][] Skill to tame animals.
+
+Requires
+:   -
+
 ##### Beast of Burden
 
 Your [Carrying Capacity][] increases by `2`.
@@ -68,18 +75,10 @@ Requires
 
 ##### Light-footed
 
-Increases your [Stealth](/character/skills#stealth) by `10%`.
+Increases your [Stealth][] by `10%`.
 
 Requires
 :   [Action][] score `10%`
-
-##### Lightning Reflexes
-
-If you're being attacked you can cause the attacker to have a `-10%` penalty on
-his attack.
-
-Requires
-:   [Action][] score `20%`
 
 ##### Versatile
 
@@ -128,15 +127,23 @@ provided the Attack hits your target. The extra damage you deal is equal to
 twice the [Raises](/character/skills/#skill-rolls) you score.
 
 Requires
-:   [Stealth](/character/skills#stealth) `40%`
+:   [Stealth][] `40%`
+
+##### Blood rush
+
+While your Health is below 50, your maximum [AP][] is increased by one, and per
+round you recover an additional [AP][].
+
+Requires
+:   -
 
 ##### Bloodthirsty
 
 If you make a killing-blow with a melee weapon in a [Crisis](/crisis), you
-immediatly gain 4 [AP][]. Can only trigger once per round.
+immediatly gain 2 [AP][]. Can only trigger once per round.
 
 Requires
-:   [Melee](/character/skills#melee) `50%`
+:   [Melee][] `50%`
 
 ##### Cleave
 
@@ -144,7 +151,7 @@ When you critically hit an enemy with a melee weapon, you can attack another
 enemy in range for free with a normal Attack.
 
 Requires
-:   [Melee](/character/skills#melee) `50%`
+:   [Melee][] `50%`
 
 ##### Combat Reflexes
 
@@ -152,7 +159,7 @@ Once per round you can use the [Take Aim](/crisis#take-aim) Action at -1 [AP][]
 cost.
 
 Requires
-:   [Light Weapons](/character/skills#light-weapons) `40%`
+:   [Light Weapons][] `40%`
 
 ##### Fighter
 
@@ -160,21 +167,29 @@ If [Parrying](/crisis#parrying) you can treat the amount of enemies within melee
 range as one less.
 
 Requires
-:   [Melee](/character/skills#melee) `40%`
+:   [Melee][] `40%`
 
 ##### Gunslinger
 
 Draw any handheld weapon without AP cost.
 
 Requires
-:   [Light Weapon](/character/skills#light-weapon) `40%`
+:   [Light Weapons][] `40%`
+
+##### Lightning Reflexes
+
+When you [Parry](/crisis#parrying) and wield a melee weapon, you receive a
+`+10%` bonus on your [Melee][] roll.
+
+Requires
+:   [Melee][] score `40%`
 
 ##### Martial Arts Master
 
 Your Attacks only cost 1 [AP][] when attacking unarmed.
 
 Requires
-:   [Melee](/character/skills#melee) `80%`
+:   [Melee][] `80%`
 
 ##### Opportunist
 
@@ -183,7 +198,7 @@ can make a melee Attack versus the enemy without any [AP][] cost. You cannot use
 special Actions while doing so.
 
 Requires
-:   [Melee](/character/skills#melee) `20%`
+:   [Melee][] `20%`
 
 </div>
 

@@ -10,8 +10,8 @@ setting such as medieval, fantasy, modern, sci-fi settings or even a combination
 of any of these, although the base rule set is built with mainly modern and
 sci-fi settings in mind.
 
-[Skills][], [Traits][], [Perks][], [Flaws][], [Races][], and
-[Equipment](/equipment) are heavily influenced by the setting.
+[Skills][], [Traits][], [Perks][], [Flaws][], [Races][], and [Equipment][] are
+heavily influenced by the setting.
 
 ## Preface
 
@@ -22,6 +22,15 @@ recognisable by an icon, are links, or are in uppercase.
 
 Distances, Pace, Range, etc. are all refering to tiles. A tile spans roughly 5
 feet or 1,5 meters in the "real world".
+
+### Terminology
+
+"Increases" and "decreases" changes the inherent value of e.g. a [Skill][]. It's
+changed for all circumstances, just as if a character would have improved the
+[Skill][].
+
+"Receive a bonus" and "suffer a penalties" only lower a single roll, not a
+value. They refer to [Modifiers](/character/skills/#skill-modifiers).
 
 ## Prerequisites
 

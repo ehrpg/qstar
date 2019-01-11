@@ -74,6 +74,10 @@ a:not(.headerlink) {
   &[href*="#race"]:before {
     @extend .game-icon-dna1;
   }
+  &[href$="/equipment"]:before {
+    @include game-icon;
+    @extend .game-icon-backpack;
+  }
 }
 
 *:not(.md-search-result__item) > {

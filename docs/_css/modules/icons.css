@@ -8968,7 +8968,7 @@
   content: "\E8B9";
 }
 
-.game-icon-backpack:before {
+.game-icon-backpack:before, a[href$="/equipment"]:not(.headerlink):before {
   content: "\E8BA";
 }
 
@@ -13808,6 +13808,19 @@
   content: "\ED73";
 }
 a:not(.headerlink)[href*="#"]:before {
+  font-family: "game-icons";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none;
+  margin-right: 5px;
+  vertical-align: top;
+}
+
+a:not(.headerlink)[href$="/equipment"]:before {
   font-family: "game-icons";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

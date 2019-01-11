@@ -7,6 +7,9 @@ Sanity/Horror
   - Horror > Threshold -> Sanity roll
   - If Sanity roll is failed, character becomes insane.
 
+# Outline
+
+
 
 
 
