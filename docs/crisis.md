@@ -60,7 +60,7 @@ the highest roll acts first.
 
 If two or more player characters have rolled the same result the PCs can agree
 upon who acts first. If they cannot find an agreement, roll again. The
-characters retain their original roll, but the conflict is resolved. I a player
+characters retain their original roll, but the conflict is resolved. If a player
 character and an NPC tie, the player character acts first.
 
 !!! summary "Turn Order"
@@ -192,7 +192,7 @@ an incoming Area of Effect Attack. You have to choose to dodge before the
 attacker rolls his attack. Dodging is an Athletics roll.
 
 If you win the contest you can move your character by 1 tile into any direction
-away from the AoE effect.
+away from the AoE effect before you receive any damage or effect from it.
 
 ### Cover
 
@@ -200,6 +200,9 @@ away from the AoE effect.
 
 Cover is always relative to other targets. A character can be in total cover for
 an enemy, but in plain sight for another.
+
+Cover provides a penalty for opponents. All rolls and [Skill][] checks that rely
+on vision, such as attacking, suffer a penalty.
 
 |   Modifier | Condition   |
 |-----------:|-------------|
@@ -217,9 +220,9 @@ an enemy, but in plain sight for another.
 <div class="right" markdown="1">
 
 !!! tip "Cover and firearms"
-    When hiding behind materials that are penetrable by bullets or other
-    projectiles decrease your Cover by one step. E.g. total cover becomes heavy
-    cover, while in in light cover you count as not being behind cover at all.
+    When hiding behind materials that are penetrable by bullets, or other
+    projectiles, decrease your Cover by one step. E.g. total cover becomes heavy
+    cover; while in light cover you count as not being behind cover at all.
 
 </div>
 
@@ -251,7 +254,7 @@ Status Effects are not applied in this case.
 
 ### Damage Reduction
 
-If a target wears Armor, all damage you deal is reduced by the target's Armor.
+If a target wears Armor, all damage you deal is reduced by the target's DR.
 Damage that's reduced by the Armor is dealt to the Armor's Durability instead.
 If the Armor's Durability reaches 0, it does not provide DR anymore.
 

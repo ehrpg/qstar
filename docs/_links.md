@@ -20,7 +20,7 @@
 
 [Defence]: /character/#defence
 [Perception]: /character/#perception
-[Pace]: /character/#pace
+[Pace]: /character/#pace-pace
 [Health]: /character/#health-hp
 
 [XP]: /character/#experience-xp

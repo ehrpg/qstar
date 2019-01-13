@@ -78,6 +78,14 @@ a:not(.headerlink) {
     @include game-icon;
     @extend .game-icon-backpack;
   }
+  // &[href$="/flaws/"]:before {
+  //   @include game-icon;
+  //   @extend .game-icon-broken-bone;
+  // }
+  // &[href$="/perks/"]:before {
+  //   @include game-icon;
+  //   @extend .game-icon-present;
+  // }
 }
 
 *:not(.md-search-result__item) > {

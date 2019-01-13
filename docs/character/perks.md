@@ -14,6 +14,8 @@ things before you can obtain a perk, i.e. you first have to:
 Also, if the perk is not reasonable for your character at all, the perk simply
 isn't available to you.
 
+A perk can only be picked once, unless otherwise specified.
+
 Perks are represented in the following way:
 
 <div class="qs-list-test full-width p" markdown="1">
@@ -27,6 +29,10 @@ providing its benefits.
 AP
 :   If the perk unlocks a new Ability, the AP cost for this Ability is stated
 here.
+
+Multiple
+:   If the perk can be picked multiple times, this value indicates how often it
+can be picked.
 
 </div>
 
@@ -45,8 +51,6 @@ If a perk states a category score or [Skill][] value requirement, the
 requirement has to be met. If the category score or [Skill][] value drops below
 the requirement, the character loses the benefit of the perk---but not the perk
 itself, in case the requirements are met once again.
-
-Every perk also costs 1 [ST][].
 
 ## Character Perks
 

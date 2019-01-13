@@ -8,6 +8,16 @@ creation](/character/character-creation).
 
 <div class="qs-list-test full-width" markdown="1">
 
+##### Beast of Burden
+
+You don't mind carry heavy stuff around with you at all times.
+
+Benefit
+:   Increases [Carrying Capacity][] by `2`.
+
+Penalty
+:   Reduces [Pace][] by `2`.
+
 ##### Forceful
 
 You like to go out in an explosion... and not quietly.

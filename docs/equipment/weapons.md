@@ -9,11 +9,6 @@ otherwise noted.
     Every Weapon can count as an Asset when trying to intimidate somebody with
     the [Intimidate Skill](/character/skills/#intimidate).
 
-!!! tip "[GM Tip] Weapon Stats"
-    Weapons are usually classified into light, medium and heavy weapons. They
-    should deal between 1 and 6 **DMG** respectively. Also, only the best
-    weapons should have a **HIT** of +4.
-
 ## Primary & Secondary Weapons
 
 You can only have one primary and secondary weapon, but unlimited tertiary
@@ -44,22 +39,22 @@ the radius are effected by the AoE, while creatures outside are uneffected.
 
 ##### RNG
 
-indicates the weapons range increment. Each increment imposes a cumulative -1
-penalty to the attack. **RNG** times 10 is the maximum effective range of the
-weapon. Any target within the weapons first range increment does not impose a
-penalty.
+indicates the weapons range increment. Each increment imposes a cumulative
+`-10%` penalty to the attack. **RNG** times 10 is the maximum effective range of
+the weapon. Any target within the weapons first range increment does not impose
+a penalty.
 
 ##### RoF
 
 indicates the weapons rate of fire. An RoF higher than 1 allows you to make
 optional, consecutive Attack rolls for the same or even different targets at the
-expense of 1 [AP][], and a cumulative -1 penalty on **HIT**, per extra Attack,
-unless otherwise noted by the weapon. Using a higher **RoF** also uses up more
-**CAP**.
+expense of 1 [AP][], and a cumulative `-20%` penalty on **HIT**, per extra
+Attack, unless otherwise noted by the weapon. Using a higher **RoF** also uses
+up more **CAP**.
 
 ##### MAG
 
-provides the number of magazines. A long rest refills the amount of magazines
+indicates the number of magazines. A long rest refills the amount of magazines
 you have. **MAG** can also be refilled with [LOOT][].
 
 ##### CAP
@@ -100,7 +95,7 @@ within the first range increment.
 
 ##### Long range
 
-+1 on **HIT** for the Attack when using an **RoF** of 1.
+`+20%` on **HIT** for the Attack when using an **RoF** of `1`.
 
 ##### Explosive
 

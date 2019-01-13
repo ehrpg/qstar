@@ -72,8 +72,8 @@ For example, a [Skill][] with a value of `50%` could receive a `+10%` bonus.
 This means, that the target number you have to roll is now `60%`.
 
 Modifiers do not change a [Skill][]'s value---they do not make a character
-better or worse in something, but make a Task easier or harder. They do not give
-a better chance for a critical success.
+better or worse, but make a specific Task easier or harder for the character.
+They also do not give a better chance for a critical success.
 
 !!! example "Skill Modifiers and Critical Success Chance"
     A character has an Athletics [Skill][] value of `33%`. He has a rope at hand
@@ -154,7 +154,7 @@ rolls. The category's score does not modify the Critical Success chance, see
 [Skill Modifiers](#skill-modifiers).
 
 !!! example "Skill categories and Skills"
-    A character has spend 90 Character Points on [Action][] Skills. The
+    A character has spent 90 Character Points on [Action][] Skills. The
     character's [Action][] score is therefore `9`.
 
     When rolling on any [Action][] Skill, the character receives a `+9%` bonus
@@ -172,9 +172,8 @@ This category contains all [Skills][] that rely on might, speed, and have some
 sort of physical interaction like running, swimming, climbing, shooting,
 swinging a sword, etc.
 
-It's also used for [Carrying Capacity][], [Pace][], [Turn
-Order](/crisis/#turn-order), [Natural Healing](/crisis/#natural-healing) and
-resisting bodily effects.
+It's also used for [Pace][], [Turn Order](/crisis/#turn-order), [Natural
+Healing](/crisis/#natural-healing) and resisting bodily effects.
 
 <div class="qs-list-test full-width" markdown="1">
 

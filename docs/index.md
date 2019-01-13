@@ -71,7 +71,6 @@ If multiple modifiers have the same type and the same origin, they do not stack;
 in that case only the highest bonus or penalty counts. Multiple modifiers of a
 different type or origin stack. The modifier types are:
 
-* Competence modifer,
 * Enhancement modifier,
 * Morale modifier,
 * Racial modifier, and
@@ -83,7 +82,18 @@ different type or origin stack. The modifier types are:
     about stones; the modifier origin is the race (dwarf) and its type is
     Racial.
 
-### Summary
+### Multipliers
+
+If you multiply dice, roll the dice a number of times specified by the
+multiplier, e.g. for `d%` times 2 you roll `2d%`, and add the result together.
+Multiplying modifiers works as usual, e.g. a `+2` times 2 becomes a `+4`.
+
+Multiple multipliers don't multiply each other. E.g. two doubles result in a
+triple, not a quadruple. Each extra multiple adds 1 less than its value to the
+first multiple. E.g. a triple times a double would result in a quadruple (`×3 +
+×1 = ×4`).
+
+## Summary
 
 <div class="content" markdown="1">
 <table>
