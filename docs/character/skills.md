@@ -16,10 +16,12 @@ Tasks require a [Skill][] check. Every check is done with a [d%][] roll. A
 [Skill][] has a certain value, e.g. `50%`. If the roll is equal to or lower than
 the [Skill][]'s value, the task succeeds. Otherwise, it fails.
 
-**Combat**: After a successful roll, substract the roll's tens digit from the
-[Skill][]'s value tens digit. This is the amount of *Raises* you get for the
-check. A *Raise* improves certain values, e.g. the damage you deal after a
-successful Attack.
+### Raises
+
+After a successful roll, substract the roll's tens digit from the [Skill][]'s
+value tens digit. This is the amount of *Raises* you get for the check. A
+*Raise* improves certain values, e.g. the damage you deal after a successful
+Attack.
 
 !!! summary "Skill Raises"
     <div class="formula formula-top formula-bottom">
@@ -94,7 +96,8 @@ to the roll.
 
 A [Skill][] that has a value of less than `10%` is considered **untrained**. An
 **untrained** [Skill][] should only be usable for very basic things. The GM
-decides if the Task you're trying to roll on can be done with your **untrained** [Skill][].
+decides if the Task you're trying to roll on can be done with your **untrained**
+[Skill][].
 
 !!! tip "[GM Tip] Untrained Skills"
     There is no clear rule as to whether or not a character can use an untrained
@@ -131,8 +134,8 @@ wins. On a tie, the GM resolves the conflict.
 
 ## Improving a Skill
 
-Every [Skill][] has an initial, inherent value of `5%`. This initial, inherent
-value can be modified by [Races][] and [Traits][].
+Every [Skill][] has an initial, inherent value of `5%`. This initial value can
+be modified by [Races][] and [Traits][].
 
 Raising a [Skill][] by `1%` costs 1 CP. You cannot raise a [Skill][] above
 `100%`, nor decrease a [Skill][].
@@ -146,19 +149,8 @@ Each category has a score, called the category score, or [Action][] score,
 [Knowledge][] score and [Social][] score, respectively. This score improves
 various aspects and rolls for your character.
 
-Every 10 Character Points you spend in a single category improves the category's
-score by 1.
-
-You gain the category's score as a positive modifier on all associated [Skill][]
-rolls. The category's score does not modify the Critical Success chance, see
-[Skill Modifiers](#skill-modifiers).
-
-!!! example "Skill categories and Skills"
-    A character has spent 90 Character Points on [Action][] Skills. The
-    character's [Action][] score is therefore `9`.
-
-    When rolling on any [Action][] Skill, the character receives a `+9%` bonus
-    on the roll.
+Every 50 Character Points you spend in a single category improves the category's
+score by 1. Each category score is used in various rolls and stats.
 
 !!! tip "Available Skills"
     Like any other RPG system, Q* provides the GM and players with a set of

@@ -54,10 +54,8 @@ minimum of 1.
 
 ##### Long-Range Scope
 
-Starting at the 5th **RNG** increment, you receive a +2 **HIT** bonus for
-targets farther away. For targets closer than the 5th **RNG** increment, you
-suffer a -1 penalty to **HIT** per **RNG** increment. A target in the 2nd
-**RNG** increment provides a -3 **HIT** penalty.
+For Attacks at long range you receive a `+20%` bonus. For targets within short
+range you suffer a `-20%` penalty.
 
 [RES][]
 :   3
@@ -70,9 +68,8 @@ suffer a -1 penalty to **HIT** per **RNG** increment. A target in the 2nd
 
 ##### Heavy Barrel
 
-The cumulative -1 penalty on **HIT** for an **RoF** higher than 1 only starts at
-the second Attack you make. It starts at the third Attack if you also have a
-[Foregrip](#foregrip).
+The cumulative penalty on **HIT** for an **RoF** higher than 1 is reduced by
+`5%`, to a minimum of `0%`.
 
 [RES][]
 :   1
@@ -95,8 +92,10 @@ Reduces weapon noise.
 
 ##### Bipod
 
-A bipod provides a +1 **HIT** bonus to targets farther away than the 1st **RNG**
-increment when deployed.
+A pivod provides a `+10%` **HIT** bonus to targets at medium or long range, and
+`-10%` **HIT** penalty to targets at short range, when deployed. Also, the
+cumulative penalty on **HIT** for an **RoF** higher than 1 is reduced by `5%`,
+to a minimum of `0%`.
 
 [RES][]
 :   1
@@ -106,12 +105,11 @@ increment when deployed.
 
 ##### Foregrip
 
-The cumulative -1 penalty on **HIT** for an **RoF** higher than 1 only starts at
-the second Attack you make. It starts at the third Attack if you also have a
-[Heavy Barrel](#heavy-barrel).
+The cumulative penalty on **HIT** for an **RoF** higher than 1 is reduced by
+`5%`, to a minimum of `0%`.
+
 <br>
-On a shotgun, you don't have to spend [AP][] because of the pump-action for the
-1st, 3rd, 5th, and so on, Attack.
+On a shotgun, the [AP][] cost for Attacking is reduced by 1 instead.
 
 [RES][]
 :   2
@@ -148,14 +146,14 @@ minimum of 1.
 
 ##### Armor-Piercing Ammo
 
-You ignore 2 [Physical][] DR.
+You ignore 5 [Physical][] DR.
 
 [RES][]
 :   3
 
 ##### Hollow-Point Ammo
 
-If your target has no [Physical][] DR, you deal 2 extra damage.
+If your target has no [Physical][] DR, you deal 5 extra damage.
 
 [RES][]
 :   2

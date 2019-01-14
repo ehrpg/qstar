@@ -412,3 +412,7 @@ blockquote.important {
 .clearfix {
   clear: both;
 }
+
+.md-typeset__table code {
+  white-space: nowrap;
+}

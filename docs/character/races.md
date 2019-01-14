@@ -27,9 +27,12 @@ Below is a list of possible [Races][], provided by the Q* RPG system.
 
 *Humans are a versatile race.*
 
-[Talents](/character/talents)
-:   Humans start with the [Versatile](/character/talents#versatile) Talent for
+[Perks][]
+:   Humans start with the [Versatile](/character/perks#versatile) Talent for
 free.
+
+[Flaws][]
+:   -
 
 </div>
 
