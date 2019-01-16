@@ -41,6 +41,41 @@ dice, or two ten-sided dice.
 
 ## Basics
 
+<div class="content" markdown="1">
+<table>
+<tbody>
+<tr>
+<td><i class="game-icon-rolling-dices"></i></td>
+<td>
+Every character uses a [d%][] (or two [d10][]s) for everything he's doing.
+Rolling **lower** is **better**.
+</td>
+</tr>
+<tr>
+<td>7.5</td>
+<td>
+All fractions are **always** rounded down.
+</td>
+</tr>
+<tr>
+<td>-1</td>
+<td>
+Some values cannot be negative, e.g. [Resources][]. The minimum value is always
+0, unless otherwise stated.
+</td>
+</tr>
+<tr>
+<td><i class="game-icon-tornado"></i></td>
+<td>
+Most of the formulas and values can be influenced by circumstance, such as
+racial traits, talents, equipment, environmental factors such as bad or
+particularly good visibility, wind, etc.
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
 ### Dice
 
 A die roll is described by expressions such as `3d6+12`. This expression means
@@ -92,42 +127,5 @@ Multiple multipliers don't multiply each other. E.g. two doubles result in a
 triple, not a quadruple. Each extra multiple adds 1 less than its value to the
 first multiple. E.g. a triple times a double would result in a quadruple (`×3 +
 ×1 = ×4`).
-
-## Summary
-
-<div class="content" markdown="1">
-<table>
-<tbody>
-<tr>
-<td><i class="game-icon-rolling-dices"></i></td>
-<td>
-Every character uses a [d%][] (or two [d10][]s) for everything he's doing.
-Rolling **lower** is **better**.
-</td>
-</tr>
-<tr>
-<td>7.5</td>
-<td>
-All fractions are **always** rounded down.
-</td>
-</tr>
-<tr>
-<td>-1</td>
-<td>
-Some values cannot be negative, e.g. [Resources][]. The minimum value is always
-0, unless otherwise stated.
-</td>
-</tr>
-<tr>
-<td><i class="game-icon-tornado"></i></td>
-<td>
-Most of the formulas and values can be influenced by circumstance, such as
-racial traits, talents, equipment, environmental factors such as bad or
-particularly good visibility, wind, etc.
-</td>
-</tr>
-</tbody>
-</table>
-</div>
 
 --8<-- "_links.md"

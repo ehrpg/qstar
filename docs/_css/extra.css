@@ -125,6 +125,13 @@ details .formula.formula-top,
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Nasalization";
+  src: url("../_fonts/NasalizationRg-Regular.woff2") format("woff2"), url("../_fonts/NasalizationRg-Regular.woff") format("woff"), url("../_fonts/NasalizationRg-Regular.ttf") format("truetype"), url("../_fonts/NasalizationRg-Regular.svg#NasalizationRg-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .md-typeset:not(.md-search-result__item) strong.hf {
   font-family: "Zag";
   letter-spacing: 1px;
@@ -146,12 +153,50 @@ details .formula.formula-top,
   padding-top: 2.1rem;
 }
 
+.md-typeset:not(.md-search-result__item) h2 {
+  border: 2px solid black;
+  background: black;
+  color: white;
+  border-radius: 50px;
+  text-align: left !important;
+  padding-left: 20px !important;
+}
+
 .md-typeset:not(.md-search-result__item) h2 > a.headerlink {
   color: #efefef;
 }
 
+.md-typeset:not(.md-search-result__item) h3 {
+  border: 2px solid black;
+  border-radius: 50px;
+  text-align: left !important;
+  padding-left: 20px !important;
+}
+
+.md-typeset:not(.md-search-result__item) h1,
+.md-typeset:not(.md-search-result__item) h2,
+.md-typeset:not(.md-search-result__item) h3,
+.md-typeset:not(.md-search-result__item) h4 {
+  font-weight: bold;
+}
+
+.md-typeset:not(.md-search-result__item) h4 {
+  margin-bottom: 0;
+}
+
 article.md-typeset:not(.md-search-result__item) > a.md-icon.md-content__icon {
   z-index: 2;
+}
+
+.md-typeset p,
+.md-typeset ul,
+.md-typeset ol,
+.md-typeset blockquote {
+  margin: 0 0 0.5em 0;
+}
+
+.md-typeset .admonition > p.admonition-title {
+  margin-bottom: 0.5em;
 }
 
 @font-face {
@@ -5896,7 +5941,7 @@ article.md-typeset:not(.md-search-result__item) > a.md-icon.md-content__icon {
   content: "\E592";
 }
 
-.game-icon-brain:before, a[href$="#knowledge"]:not(.headerlink):before {
+.game-icon-brain:before, a[href*="#mind"]:not(.headerlink):before, a[href$="#knowledge"]:not(.headerlink):before {
   content: "\E593";
 }
 
@@ -6832,7 +6877,7 @@ article.md-typeset:not(.md-search-result__item) > a.md-icon.md-content__icon {
   content: "\E67C";
 }
 
-.game-icon-biceps:before, a[href*="#action"]:not(.headerlink):before {
+.game-icon-biceps:before, a[href*="#body"]:not(.headerlink):before, a[href*="#action"]:not(.headerlink):before {
   content: "\E67D";
 }
 
@@ -7096,7 +7141,7 @@ article.md-typeset:not(.md-search-result__item) > a.md-icon.md-content__icon {
   content: "\E6BE";
 }
 
-.game-icon-minions:before, a[href*="#social"]:not(.headerlink):before {
+.game-icon-minions:before, a[href*="#spirit"]:not(.headerlink):before, a[href*="#social"]:not(.headerlink):before {
   content: "\E6BF";
 }
 
@@ -8872,7 +8917,7 @@ article.md-typeset:not(.md-search-result__item) > a.md-icon.md-content__icon {
   content: "\E87A";
 }
 
-.game-icon-gears:before, a[href*="#skills"]:not(.headerlink):before, a[href*="#skill-ranks"]:not(.headerlink):before {
+.game-icon-gears:before, a[href$="#skills"]:not(.headerlink):before {
   content: "\E87B";
 }
 

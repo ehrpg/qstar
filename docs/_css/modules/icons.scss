@@ -18,14 +18,17 @@ a:not(.headerlink) {
     @include game-icon;
   }
 
+  &[href*="#body"]:before,
   &[href*="#action"]:before {
     @extend .game-icon-biceps;
   }
 
+  &[href*="#mind"]:before,
   &[href$="#knowledge"]:before {
     @extend .game-icon-brain;
   }
 
+  &[href*="#spirit"]:before,
   &[href*="#social"]:before {
     @extend .game-icon-minions;
   }
@@ -50,8 +53,7 @@ a:not(.headerlink) {
     @extend .game-icon-erlenmeyer;
   }
 
-  &[href*="#skills"]:before,
-  &[href*="#skill-ranks"]:before {
+  &[href$="#skills"]:before {
     @extend .game-icon-gears;
   }
 

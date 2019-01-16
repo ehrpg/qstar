@@ -4,6 +4,38 @@
 animals, monsters or even robots, etc. fall under this category and are created
 using the following rules.*
 
+## Attributes
+
+Attributes are the cornerstone of your character. They define how well your
+character performs in related [Skills][], and what [Perks][] are available to
+him.
+
+Each point in an [Attribute][] increases all associated [Skills][] by `2%`. An
+[Attribute][] can't be lower than `0`, and not higher than `10`.
+
+A character starts with a 5 in each [Attribute][], but the points can be
+reallocated between [Attributes][] at character creation.
+
+#### Body
+
+[Body][] is used for [Pace][], [Turn Order](/crisis/#turn-order), [Natural
+Healing](/crisis/#natural-healing) and resisting bodily effects such as poisons,
+diseases, etc.
+
+Its associated [Skills][] are [Action][] Skills.
+
+#### Mind
+
+[Mind][] is used for [Perception](/character#perception-per).
+
+Its associated [Skills][] are [Knowledge][] Skills.
+
+#### Spirit
+
+[Spirit][] is used to resist mental effects, such as drugs, alcohol, stuns, etc.
+
+Its associated [Skills][] are [Social][] Skills.
+
 ## Race
 
 The race changes some aspects, including inherent abilities, available Character
@@ -17,6 +49,12 @@ A character starts with 300 Character Points that can be distributed in the
 three [Skill] categories: [Action][], [Knowledge][] and [Social][].
 
 See [Skills][] for a list of available skills and more information.
+
+!!! tip "[GM Tip] Special Skills"
+    In some settings you might want to add special [Skills][], for example
+    **Occultism** ([Knowledge][] Skill) in a Lovecraftian horror story. Such
+    [Skills][] shouldn't be improvable with Character Points, but rather by
+    exploring and unveiling secrets.
 
 ## Traits, Perks & Flaws
 
@@ -40,9 +78,9 @@ specifically states it.
 
 !!! summary "Pace"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">4</span> +
-        <span data-bracket-top="Action score">[Action][] / 10</span> ±
-        <span data-bracket-bottom="Race / Talents / etc">Circumstance</span>
+        <span data-bracket-bottom="Base">5</span> +
+        <span>[Body][] / 2</span> +
+        <span data-bracket-top="Race / Talents / etc">Circumstance</span>
     </div>
 
 ### Perception (PER)
@@ -61,9 +99,9 @@ that's able to detect, you receive a `+5%` bonus to your [Perception][].
 !!! summary "Perception"
     <div class="formula formula-top formula-bottom">
         <span data-bracket-bottom="Base">`10%`</span> +
-        <span data-bracket-top="Knowledge score">[Knowledge][]</span> +
-        <span data-bracket-bottom="max 10 (50%)">`5%` per ally</span> ±
-        <span data-bracket-top="Race / Talents / etc">Circumstance</span>
+        <span>[Mind][] * 2</span> +
+        <span data-bracket-top="max 10 (50%)">`5%` per ally</span> ±
+        <span data-bracket-bottom="Race / Talents / etc">Circumstance</span>
     </div>
 
 ### Health (HP)
@@ -75,11 +113,17 @@ See [Wounds](/crisis#wounds) and [Healing](/crisis#healing) for more details.
 
 !!! summary "Health"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">100</span> ±
+        <span data-bracket-bottom="Base">50</span> +
+        <span>[Body][] * 5</span> ±
         <span data-bracket-top="Race / Talents / etc">Circumstance</span>
     </div>
 
-## Experience (XP)
+## Level (LVL)
+
+The Level of a character abstracts his experience, resourcefulness, and skill
+set.
+
+### Experience (XP)
 
 > Experience Points (XP) are gained throughout a character's adventuring career.
 
@@ -100,26 +144,21 @@ Level, the higher the XP requirement.
     The XP requirement for Level 2 is 100 XP. The XP requirement for Level 3 is
     200. So for Level 3 you require 300 XP in total.
 
-### Level (LVL)
-
-The Level of a character abstracts his experience, resourcefulness, and skill
-set.
-
 #### Acquisitions
 
 A character's Level improves the maximum values of his [Acquisitions][]. This
 does not necessarily make the character stronger, but makes the character more
 resourceful and adaptable.
 
-#### Character Points
+#### Attribute Points
 
-Every level, a character receives 50 Character Points. A single [Skill][] can't
+Every 4 levels (Level 4, 8, 12, 16, and so on), a character gains an Attribute
+Point that can be assigned to [Body][], [Mind][], or [Spirit][].
+
+#### Skill Points
+
+Every level, a character receives 50 Skill Points. A single [Skill][] can't
 be improved by more than `10%` per level up.
-
-#### Perks
-
-Every 4 levels (Level 4, 8, 12, 16, and so on), a character can choose another
-[Perk][].
 
 ## Acquisitions
 
@@ -131,8 +170,6 @@ permanently due to the character's Level.
 
 The current value for [Acquisitions][] can **never** exceed the maximum value.
 All exceeding points are usually lost.
-
-### Overview
 
 <div class="content" markdown="1"><table><tbody>
 <tr>

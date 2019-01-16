@@ -5740,7 +5740,7 @@
   content: "\E592";
 }
 
-.game-icon-brain:before, a[href$="#knowledge"]:not(.headerlink):before {
+.game-icon-brain:before, a[href*="#mind"]:not(.headerlink):before, a[href$="#knowledge"]:not(.headerlink):before {
   content: "\E593";
 }
 
@@ -6676,7 +6676,7 @@
   content: "\E67C";
 }
 
-.game-icon-biceps:before, a[href*="#action"]:not(.headerlink):before {
+.game-icon-biceps:before, a[href*="#body"]:not(.headerlink):before, a[href*="#action"]:not(.headerlink):before {
   content: "\E67D";
 }
 
@@ -6940,7 +6940,7 @@
   content: "\E6BE";
 }
 
-.game-icon-minions:before, a[href*="#social"]:not(.headerlink):before {
+.game-icon-minions:before, a[href*="#spirit"]:not(.headerlink):before, a[href*="#social"]:not(.headerlink):before {
   content: "\E6BF";
 }
 
@@ -8716,7 +8716,7 @@
   content: "\E87A";
 }
 
-.game-icon-gears:before, a[href*="#skills"]:not(.headerlink):before, a[href*="#skill-ranks"]:not(.headerlink):before {
+.game-icon-gears:before, a[href$="#skills"]:not(.headerlink):before {
   content: "\E87B";
 }
 

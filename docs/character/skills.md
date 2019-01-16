@@ -3,25 +3,26 @@
 > [Skills][] abstract your character's education, hobbies and fields of
 > expertise.
 
-Every character is defined by the following three categories of [Skills][].
-While a character can have virtually *any* [Skill][], the categories list the
-most common ones.
-
-## Skill Rolls
-
 Anything your character does is a Task. A Task implies a die roll: it's subject
 to chance and its outcome is uncertain.
 
-Tasks require a [Skill][] check. Every check is done with a [d%][] roll. A
-[Skill][] has a certain value, e.g. `50%`. If the roll is equal to or lower than
-the [Skill][]'s value, the task succeeds. Otherwise, it fails.
+### Skill Ranks
+
+A [Skill][] has a value between `0%` and `100%`---the chance you have on
+succeeding on a task using this [Skill][]. The value of a [Skill][], e.g. `50%`,
+is called [Skill Rank][].
+
+## Skill Rolls
+
+Tasks require a [Skill][] check. Every check is done with a [d%][] roll. If the
+roll is equal to or lower than the [Skill Rank][], the task succeeds. Otherwise,
+it fails.
 
 ### Raises
 
-After a successful roll, substract the roll's tens digit from the [Skill][]'s
-value tens digit. This is the amount of *Raises* you get for the check. A
-*Raise* improves certain values, e.g. the damage you deal after a successful
-Attack.
+After a successful roll, substract the roll's tens digit from the [Skill Rank][]
+tens digit. This is the amount of *Raises* you get for the check. A *Raise*
+improves certain values, e.g. the damage you deal after a successful Attack.
 
 !!! summary "Skill Raises"
     <div class="formula formula-top formula-bottom">
@@ -31,17 +32,17 @@ Attack.
     </div>
 
 !!! example "Raises"
-    A character makes a **Light Weapon** check to Attack someone. His [Skill][]
-    value is `65%`. For the check he rolls `27`. The tens digit for the
-    [Skill][] value is `6`, the tens digit for the roll is `2`. This results in
-    `4` Raises.
+    A character makes a **Light Weapon** check to Attack someone. His [Skill
+    Rank][] is `65%`. For the check he rolls `27`. The tens digit for the [Skill
+    Rank][] is `6`, the tens digit for the roll is `2`. This results in `4`
+    Raises.
 
 ### Critical Successes
 
 Whenever you roll a `01` on a [Skill][] check it's always a critical success.
 
 The better a [Skill][] is, the higher is its chance for a critical success.
-Divide the [Skill][]'s value by 10 and round down. If the [d%][] roll is equal to
+Divide the [Skill Rank][] by 10 and round down. If the [d%][] roll is equal to
 or lower than this value, you score a critical success.
 
 !!! summary "Critical Success Range"
@@ -51,14 +52,14 @@ or lower than this value, you score a critical success.
     </div>
 
 !!! example "Critical Success Chance"
-    A character has an Athletics [Skill][] value of `33%`. The value divided by
+    A character has an Athletics [Skill Rank][] of `33%`. The value divided by
     10 and rounded down results in `3%`. If the character now rolls `01-03`, he
     scores a critical success.
 
 ### Critical Failures
 
-If you roll a natural `96-00` the check is a critical failure. Even if a
-[Skill][]'s value is `100%`, the check still fails.
+If you roll a natural `96-00` the check is a critical failure. Even if a [Skill
+Rank][] is `100%`, the check still fails.
 
 !!! tip "Maxed-out Skills"
     [Skills][] that have a value of `100%` are usually a good idea if you want
@@ -73,12 +74,12 @@ you a `+10%` bonus. Modifiers make it harder or easier for a Task to succeed.
 For example, a [Skill][] with a value of `50%` could receive a `+10%` bonus.
 This means, that the target number you have to roll is now `60%`.
 
-Modifiers do not change a [Skill][]'s value---they do not make a character
-better or worse, but make a specific Task easier or harder for the character.
-They also do not give a better chance for a critical success.
+Modifiers do not change a [Skill Rank][]---they do not make a character better
+or worse, but make a specific Task easier or harder for the character. They also
+do not give a better chance for a critical success.
 
 !!! example "Skill Modifiers and Critical Success Chance"
-    A character has an Athletics [Skill][] value of `33%`. He has a rope at hand
+    A character has an Athletics [Skill Rank][] of `33%`. He has a rope at hand
     for climbing, and receives a `+10%` bonus on the roll, which totals in
     `43%`. The Task succeeds, if he rolls `43` or less. The critical success
     chance is still `01-03` however, and not `01-04`.
@@ -111,7 +112,7 @@ decides if the Task you're trying to roll on can be done with your **untrained**
 
 ##### Negative Skills
 
-If a [Skill][]'s value---not the roll due to modifiers---is modified negatively,
+If a [Skill Rank][]---not the roll due to modifiers---is modified negatively,
 e.g. by Traits and Flaws, and drops to or below `0%`, you cannot use the
 [Skill][] anymore, not even for basic tasks. Your character is utterly uncapable
 of doing any Tasks related to this [Skill][].
@@ -134,23 +135,17 @@ wins. On a tie, the GM resolves the conflict.
 
 ## Improving a Skill
 
-Every [Skill][] has an initial, inherent value of `5%`. This initial value can
-be modified by [Races][] and [Traits][].
+Every [Skill][] has an initial value of `0%`. This initial value can
+be modified by [Attributes][], [Races][] and [Traits][].
 
-Raising a [Skill][] by `1%` costs 1 CP. You cannot raise a [Skill][] above
-`100%`, nor decrease a [Skill][].
+Raising a [Skill][] by `1%` costs 1 Skill Point. You cannot raise the [Skill
+Rank][] above `100%`, nor decrease the [Skill Rank][].
 
 ## Skill Categories
 
-There are three different categories that you can improve by improving their
-associated [Skills][].
-
-Each category has a score, called the category score, or [Action][] score,
-[Knowledge][] score and [Social][] score, respectively. This score improves
-various aspects and rolls for your character.
-
-Every 50 Character Points you spend in a single category improves the category's
-score by 1. Each category score is used in various rolls and stats.
+Each [Skill][] is associated to a category, that is associated to an
+[Attribute][]. The [Attribute][] gives you a bonus on all [Skills][] associated
+with their category.
 
 !!! tip "Available Skills"
     Like any other RPG system, Q* provides the GM and players with a set of
@@ -164,9 +159,6 @@ This category contains all [Skills][] that rely on might, speed, and have some
 sort of physical interaction like running, swimming, climbing, shooting,
 swinging a sword, etc.
 
-It's also used for [Pace][], [Turn Order](/crisis/#turn-order), [Natural
-Healing](/crisis/#natural-healing) and resisting bodily effects.
-
 <div class="qs-list-test full-width" markdown="1">
 
 ##### Athletics
@@ -174,7 +166,7 @@ Healing](/crisis/#natural-healing) and resisting bodily effects.
 is used for climbing, jumping, running, swimming, dodging, dodging away from
 falling debris, etc.
 <br>
-Without this [Skill][] being trained, the character **cannot** swim.
+With this [Skill][] being **untrained**, the character **cannot** swim.
 
 | Modifier | Example                        |
 |:--------:|--------------------------------|
@@ -229,8 +221,6 @@ It's opposed by the **Search** [Skill][].
 
 This category contains all [Skills][] that rely on education and intelligence,
 like science, engineering, etc.
-
-It's also used for [Perception](/character#perception-per).
 
 <div class="qs-list-test full-width" markdown="1">
 
@@ -288,8 +278,6 @@ is, tracking animals and people, etc.
 This category contains all [Skills][] that rely on charisma and have some sort
 of social interaction like bluffing, empathy, diplomacy, commerce,
 intimidating, etc.
-
-It's also used to resist mental effects, such as drugs, alcohol, stuns, etc.
 
 <div class="qs-list-test full-width" markdown="1">
 

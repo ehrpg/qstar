@@ -54,9 +54,8 @@ Once every character has acted, a new **round** begins.
 
 ### Turn Order
 
-Every character involved in a crisis has to roll for initiative, by rolling a
-[d10][] and adding their [Action][] score and any modifiers. The character with
-the highest roll acts first.
+Every character involved in a crisis has to roll for initiative. The character
+with the highest roll acts first.
 
 If two or more player characters have rolled the same result the PCs can agree
 upon who acts first. If they cannot find an agreement, roll again. The
@@ -66,7 +65,7 @@ character and an NPC tie, the player character acts first.
 !!! summary "Turn Order"
     <div class="formula formula-top formula-bottom">
       <span data-bracket-bottom="Base">[d10][]</span> +
-      <span data-bracket-top="Action score">[Action][]</span> ±
+      <span data-bracket-top="Body Attribute">[Body][]</span> ±
       <span data-bracket-bottom="Race / Talents / etc">Circumstance</span>
     </div>
 
@@ -416,6 +415,13 @@ Attack with a *normal* weapon.
 
 [AP][]
 :   2, or as indicated by the weapon.
+
+##### Draw Weapon
+
+Light weapons can be drawn for free. Heavy weapons take 2 [AP][] to draw.
+
+[AP][]
+:   1; *light* free; *heavy* 2
 
 ##### Execute
 

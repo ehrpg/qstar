@@ -24,9 +24,44 @@
     & > a.headerlink {
       color: #efefef;
     }
+    border: 2px solid black;
+    background: black;
+    color: white;
+    border-radius: 50px;
+    text-align: left !important;
+    padding-left: 20px !important;
+  }
+
+  h3 {
+    border: 2px solid black;
+    border-radius: 50px;
+    text-align: left !important;
+    padding-left: 20px !important;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-weight: bold;
+  }
+
+  h4 {
+    margin-bottom: 0;
   }
 }
 
 article.md-typeset:not(.md-search-result__item) > a.md-icon.md-content__icon {
   z-index: 2;
+}
+
+.md-typeset p,
+.md-typeset ul,
+.md-typeset ol,
+.md-typeset blockquote {
+  margin: 0 0 0.5em 0;
+}
+
+.md-typeset .admonition > p.admonition-title {
+  margin-bottom: 0.5em;
 }

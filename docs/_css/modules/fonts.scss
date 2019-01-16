@@ -15,3 +15,14 @@
   font-weight: bold;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "Nasalization";
+  src: url("../_fonts/NasalizationRg-Regular.woff2") format("woff2"),
+    url("../_fonts/NasalizationRg-Regular.woff") format("woff"),
+    url("../_fonts/NasalizationRg-Regular.ttf") format("truetype"),
+    url("../_fonts/NasalizationRg-Regular.svg#NasalizationRg-Regular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}

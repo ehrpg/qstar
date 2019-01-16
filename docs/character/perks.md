@@ -3,18 +3,8 @@
 Perks unlock Actions, improve stats or change roleplayining circumstances in a
 positive way.
 
-While perks state their requirements and costs, your GM can require additional
-things before you can obtain a perk, i.e. you first have to:
-
-* find someone who can train you,
-* make acquiantances with important NPCs,
-* use [Skills][] related to the perk,
-* etc.
-
-Also, if the perk is not reasonable for your character at all, the perk simply
-isn't available to you.
-
-A perk can only be picked once, unless otherwise specified.
+Any perk can only be picked once and costs at least 1 [INF][], unless otherwise
+specified.
 
 Perks are represented in the following way:
 
@@ -42,15 +32,27 @@ can be picked.
     you require different perks to suite your needs, then add them to your
     game.
 
+!!! tip "[GM Tip] Acquiring perks"
+    While perks state their requirements and costs, you as a GM can require
+    additional things before a character can obtain a perk, i.e.:
+
+    * find someone who can train you,
+    * make acquiantances with important NPCs,
+    * use [Skills][] related to the perk,
+    * etc.
+
+    Also, if the perk is not reasonable for a character at all, the perk simply
+    isn't available.
+
 ## Requirements
 
 Perks are usually restricted by category scores, [Skill][] values, or other
 stats. [Races][] or GM decisions providing perks ignore the requirement.
 
-If a perk states a category score or [Skill][] value requirement, the
-requirement has to be met. If the category score or [Skill][] value drops below
-the requirement, the character loses the benefit of the perk---but not the perk
-itself, in case the requirements are met once again.
+If a perk states an [Attribute][] or [Skill][] requirement, the value has to be
+met. If the [Attribute][] or [Skill][] drops below the requirement, the
+character loses the benefit of the perk---but not the perk itself, in case the
+requirements are met once again.
 
 ## Character Perks
 
@@ -68,7 +70,7 @@ Requires
 Your [Carrying Capacity][] increases by `2`.
 
 Requires
-:   [Action][] score `10%`
+:   [Action][] score `10`
 
 ##### Healthy
 
@@ -82,7 +84,7 @@ Requires
 Increases your [Stealth][] by `10%`.
 
 Requires
-:   [Action][] score `10%`
+:   [Action][] score `10`
 
 ##### Versatile
 
@@ -102,21 +104,21 @@ Requires
 Increases your current and maximum [Resources][] by `1`.
 
 Requires
-:   [Knowledge][] score `10%`
+:   [Knowledge][] score `10`
 
 ##### Scientist
 
 Increases your current and maximum [Technology][] by `1`.
 
 Requires
-:   [Knowledge][] score `10%`
+:   [Knowledge][] score `10`
 
 ##### Wealthy
 
 Increases your current and maximum [Influence][] by `1`.
 
 Requires
-:   [Social][] score `10%`
+:   [Social][] score `10`
 
 </div>
 
@@ -175,10 +177,10 @@ Requires
 
 ##### Gunslinger
 
-Draw any handheld weapon without AP cost.
+Draw any handheld weapon with -1 [AP][] cost.
 
 Requires
-:   [Light Weapons][] `40%`
+:   [Action][] `10`
 
 ##### Lightning Reflexes
 

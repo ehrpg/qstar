@@ -1,7 +1,7 @@
 
 # Armour & Outfits
 
-## Armour
+### Armour
 
 **TODO**
 
@@ -26,12 +26,12 @@ damage first.
 | Heavy Armour |    400     |      20      |    8     |    4     |    8     |  5   | 10.000 |    3    |
 | Hazmat Suit  |     45     |      0       |    5     |    10    |    10    |  4   |  2.500 |    2    |
 
-### Repairing Armour
+#### Repairing Armour
 
 Armour that reaches 0 Durability does not provide DR anymore. It has to be
 repaired first, which costs half its **Cost**.
 
-## Outfits
+### Outfits
 
 ...
 

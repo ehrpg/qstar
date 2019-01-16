@@ -1,4 +1,3 @@
-
 # Weapons
 
 All melee weapons use the [Melee skill](/character/skills#melee), while ranged
@@ -9,7 +8,7 @@ otherwise noted.
     Every Weapon *can* count as an Asset when trying to intimidate somebody with
     the [Intimidate Skill](/character/skills/#intimidate).
 
-## Primary & Secondary Weapons
+### Primary & Secondary Weapons
 
 You can only have one primary and secondary weapon, but unlimited tertiary
 weapons. You have to designate one weapon as the primary weapon, and a different
@@ -19,14 +18,7 @@ one as secondary weapon. You can change this anytime, but not within a
 Primary and secondary weapons are influenced by Equipment Traits such as the
 [Chest Rig](/equipment/traits#chest-rig), while all other weapons aren't.
 
-## Weapon Stats
-
-### Range
-
-Every ranged weapon specifies its range in three steps: Short, Medium, and Long
-range. Everything up to the Short range does not impose a penalty, while every
-one above does. If no range is specified, e.g. melee weapons being thrown, the
-following range increments apply: `2/10/20`.
+### Weapon Stats
 
 <div class="qs-list-test full-width" markdown="1">
 
@@ -46,9 +38,10 @@ the radius are effected by the AoE, while creatures outside are uneffected.
 
 ##### RNG
 
-indicates the weapons range increments. Each increment impose a cumulative
-`-20%` penalty to the attack. The last increment specified the maximum effective
-range of the weapon.
+indicates the weapons range increment. Each increment imposes a cumulative
+`-10%` penalty to the attack. **RNG** times 10 is the maximum effective range of
+the weapon. Any target within the weapons first range increment does not impose
+a penalty.
 
 ##### RoF
 
@@ -83,7 +76,7 @@ indicates how much [AP][] it takes to reload the weapon.
     If your setting requires it, you can overrule the MAG refilling rule. Buying
     one MAG should cost 1/25 of the weapons CR cost.
 
-## Weapon Tags
+### Weapon Tags
 
 A weapon can have one or more of the following tags.
 
@@ -116,7 +109,7 @@ center, 16 damage next to the center, and 8 damage when the target is away 2 or
 
 </div>
 
-## Melee Weapons
+### Melee Weapons
 
 All weapons listed in this category use the Melee [Skill][] for Attacks.
 
@@ -132,38 +125,38 @@ All weapons listed in this category use the Melee [Skill][] for Attacks.
 | Baton                   | `+10%` |   5 |   1 |  L   |   250 |    -    |
 | Sword                   | `+10%` |  10 |   1 |  2   | 1.000 |    1    |
 
-## Ranged Weapons
+### Ranged Weapons
 
 All weapons listed in this category use the Light Weapons [Skill][] for Attacks.
 
-| Name         |    HIT | DMG |        RNG | RoF | MAG | CAP | REL | Bulk |   Cost | [RES][] | Tags                          |
-|--------------|-------:|----:|-----------:|----:|----:|----:|----:|:----:|-------:|:-------:|-------------------------------|
-| Pistol       |  `+5%` |  10 |    4/20/40 |   2 |   ∞ |   7 |   2 |  1   |  1.000 |    -    |                               |
-| SMG          |  `+5%` |  10 |    4/20/40 |   3 |   4 |  25 |   2 |  2   |  3.000 |    1    |                               |
-| Shotgun      |  `+5%` |  12 |    2/10/20 |   1 |   - |  24 |   1 |  4   |  2.500 |    1    | Attack: 3 [AP][]; close range |
-| Carbine      | `+10%` |  15 |    5/25/50 |   3 |   3 |  30 |   2 |  3   |  5.000 |    2    |                               |
-| Battle Rifle | `+10%` |  20 |  10/50/100 |   2 |   3 |  20 |   2 |  4   | 10.000 |    2    | long range                    |
-| Sniper Rifle | `+20%` |  25 | 20/100/200 |   1 |   - |   5 |   1 |  4   | 25.000 |    3    | Attack: 3 [AP][]; long range  |
+| Name         |    HIT | DMG | RNG | RoF | MAG | CAP | REL | Bulk |   Cost | [RES][] | Tags                          |
+|--------------|-------:|----:|----:|----:|----:|----:|----:|:----:|-------:|:-------:|-------------------------------|
+| Pistol       |  `+5%` |  10 |   4 |   2 |   ∞ |   7 |   2 |  1   |  1.000 |    -    |                               |
+| SMG          |  `+5%` |  10 |   4 |   3 |   4 |  25 |   2 |  2   |  3.000 |    1    |                               |
+| Shotgun      |  `+5%` |  12 |   2 |   1 |   - |  24 |   1 |  4   |  2.500 |    1    | Attack: 3 [AP][]; close range |
+| Carbine      | `+10%` |  15 |   5 |   3 |   3 |  30 |   2 |  3   |  5.000 |    2    |                               |
+| Battle Rifle | `+10%` |  20 |  10 |   2 |   3 |  20 |   2 |  4   | 10.000 |    2    | long range                    |
+| Sniper Rifle | `+20%` |  25 |  20 |   1 |   - |   5 |   1 |  4   | 25.000 |    3    | Attack: 3 [AP][]; long range  |
 
-## Thrown Weapons
+### Thrown Weapons
 
 All weapons listed in this category use the Athletics [Skill][] for Attacks.
 Thrown weapons are usually one-time use items.
 
-| Name             | HIT |     AoE |     RNG | Bulk | Cost | [RES][] | Tags      | Notes                                                  |
-|------------------|----:|--------:|--------:|:----:|-----:|:-------:|-----------|--------------------------------------------------------|
-| Grenade          | `0` | `3(20)` | 4/20/40 |  L   |      |    -    | explosive |                                                        |
-| Molotov Cocktail | `0` | `1(10)` | 4/20/40 |  L   |      |    -    |           | Burns an area for [d10][] rounds with [Fire][] damage. |
-| Smoke Grenade    | `0` |  `2(-)` | 4/20/40 |  L   |      |    -    |           | *Obscures* an area with smoke.                         |
-| Stun Grenade     | `0` |  `3(-)` | 4/20/40 |  L   |      |    -    |           | Applies [Stunned](/crisis#stunned) for 1 round.        |
+| Name             | HIT |     AoE | RNG | Bulk | Cost | [RES][] | Tags      | Notes                                                  |
+|------------------|----:|--------:|----:|:----:|-----:|:-------:|-----------|--------------------------------------------------------|
+| Grenade          | `0` | `3(20)` |   4 |  L   |      |    -    | explosive |                                                        |
+| Molotov Cocktail | `0` | `1(10)` |   3 |  L   |      |    -    |           | Burns an area for [d10][] rounds with [Fire][] damage. |
+| Smoke Grenade    | `0` |  `2(-)` |   4 |  L   |      |    -    |           | *Obscures* an area with smoke.                         |
+| Stun Grenade     | `0` |  `3(-)` |   4 |  L   |      |    -    |           | Applies [Stunned](/crisis#stunned) for 1 round.        |
 
-## Heavy Weapons
+### Heavy Weapons
 
 All weapons listed in this category use Heavy Weapons [Skill][] for Attacks.
 
-| Name |    HIT |     AoE |       RNG | RoF | MAG | CAP | REL | Bulk |   Cost | [RES][] | Tags                        |
-|------|-------:|--------:|----------:|----:|----:|----:|----:|:----:|-------:|:-------:|-----------------------------|
-| RPG  | `+10%` | `4(25)` | 10/50/100 |   1 |   - |   1 |   4 |  8   | 20.000 |    4    | Attack: 4 [AP][]; explosive |
+| Name |    HIT |     AoE | RNG | RoF | MAG | CAP | REL | Bulk |   Cost | [RES][] | Tags                        |
+|------|-------:|--------:|----:|----:|----:|----:|----:|:----:|-------:|:-------:|-----------------------------|
+| RPG  | `+10%` | `4(25)` |  10 |   1 |   - |   1 |   4 |  8   | 20.000 |    4    | Attack: 4 [AP][]; explosive |
 
 --8<--
 _links.md

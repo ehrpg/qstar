@@ -5,19 +5,17 @@
 [d%]: #d100
 [d12]: #d12
 
-[Attribute]: /character/#attributes
-[Attributes]: /character/#attributes
+[Attribute]: /character/attributes
+[Attributes]: /character/attributes
 [Attribute Damage]: /character/#attribute-damage
 
-[Might]: /character/#might-mi
-[Speed]: /character/#speed-sp
-[Intelligence]: /character/#intelligence-in
-[Charisma]: /character/#charisma-ca
+[Body]: /character/#body
+[Mind]: /character/#mind
+[Spirit]: /character/#spirit
 
 [Action]: /character/skills/#action
 [Knowledge]: /character/skills/#knowledge
 [Social]: /character/skills/#social
-
 [Defence]: /character/#defence
 [Perception]: /character/#perception
 [Pace]: /character/#pace-pace
@@ -50,6 +48,8 @@
 
 [Skill]: /character/skills/#skills
 [Skills]: /character/skills/#skills
+[Skill Rank]: /character/skills/#skill-ranks
+[Skill Ranks]: /character/skills/#skill-ranks
 [Trained-only Skills]: /character/skills/#trained-only-skills
 
 [Talent]: /character/talents/
