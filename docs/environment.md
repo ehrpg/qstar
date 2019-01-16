@@ -10,14 +10,25 @@
 
 ### Falling
 
-Falling is like an Attack made against you. Per 2 tiles (~3 meters, 10 feet) of
-falling the Attack receives 1d6+1. The maximum value for the Attack is 10d6+10.
-Divide the final Attack by 4. This is the damage you receive.
+Per 2 tiles (~3 meters, 10 feet) of falling the Damage you received is increased
+by [1d10](#d10)+1. The maximum damage is [10d10](#d10)+10 at a falling distance
+of 20 tiles.
 
-You can roll an Athletics check, similar to [Dodging](/crisis#dodging), to avoid
-some of the damage.
+You can roll an Athletics check, similar to [Dodging](/crisis#dodging), to treat
+the fall 2 tiles less, or 4 tiles if the Athletics check was a critical success.
 
 An armours [Physical][] DR does not block this kind of damage.
+
+#### Jumping out a moving vehicle
+
+Jumping out a moving vehicle is similar to falling. Per 10 km/h or 6 mp/h you
+are considered to fall 2 tiles.
+
+#### Terminal velocity
+
+Sometimes the damage can be less, if for example the gravity is lower than
+Earth's gravity. Othertimes, falling long enough distances can kill you outright
+too.
 
 ### Heat
 
