@@ -45,11 +45,7 @@ a penalty.
 
 ##### RoF
 
-indicates the weapons rate of fire. An RoF higher than 1 allows you to make
-optional, consecutive Attack rolls for the same or even different targets at the
-expense of 1 [AP][], and a cumulative `-2` penalty on **HIT**, per extra Attack,
-unless otherwise noted by the weapon. Using a higher **RoF** also uses up more
-**CAP**.
+indicates the weapons rate of fire. See [RoF](/crisis/#rof).
 
 ##### MAG
 
@@ -118,28 +114,34 @@ All weapons listed in this category use the Melee [Skill][] for Attacks.
 | Unarmed                 |  `0` |   1 |   1 |  -   |     - |    -    |
 | Improvised blunt weapon | `-1` |   2 |   1 |  1   |     - |    -    |
 | Improvised sharp weapon | `-1` |   2 |   1 |  1   |     - |    -    |
-| Brass knuckles          |  `0` |   2 |   1 |  L   |   100 |    -    |
-| Knife                   |  `0` |   3 |   1 |  L   |   100 |    -    |
-| Baton                   | `+1` |   4 |   1 |  L   |   250 |    -    |
-| Sword                   | `+1` |   5 |   1 |  2   | 1.000 |    1    |
+| Brass knuckles          | `+1` |   1 |   1 |  L   |   100 |    -    |
+| Knife                   |  `0` |   2 |   1 |  L   |   100 |    -    |
+| Baton                   | `+1` |   3 |   1 |  L   |   250 |    -    |
+| Sword                   | `+1` |   4 |   1 |  2   | 1.000 |    1    |
 
 ### Ranged Weapons
 
 All weapons listed in this category use the Light Weapons [Skill][] for Attacks.
 
+</table>
+
 | Name         |  HIT | DMG | RNG | RoF | MAG | CAP | REL | Bulk |   Cost | [RES][] | Tags                          |
 |--------------|-----:|----:|----:|----:|----:|----:|----:|:----:|-------:|:-------:|-------------------------------|
-| Pistol       | `+1` |   4 |   4 |   2 |   ∞ |   7 |   2 |  1   |  1.000 |    -    |                               |
-| SMG          | `+1` |   4 |   4 |   3 |   4 |  25 |   2 |  2   |  3.000 |    1    |                               |
-| Shotgun      | `+1` |   5 |   2 |   1 |   - |  24 |   1 |  4   |  2.500 |    1    | Attack: 3 [AP][]; close range |
-| Carbine      | `+2` |   5 |   5 |   3 |   3 |  30 |   2 |  3   |  5.000 |    2    |                               |
-| Battle Rifle | `+2` |   6 |  10 |   2 |   3 |  20 |   2 |  4   | 10.000 |    2    | long range                    |
-| Sniper Rifle | `+4` |   8 |  20 |   1 |   - |   5 |   1 |  5   | 25.000 |    3    | Attack: 3 [AP][]; long range  |
+| Pistol       | `+1` |   3 |   4 |   2 |   ∞ |   7 |   2 |  1   |  1.000 |    -    |                               |
+| SMG          | `+1` |   3 |   4 |   3 |   4 |  25 |   2 |  2   |  3.000 |    1    |                               |
+| Shotgun      | `+1` |   4 |   2 |   1 |   - |  24 |   1 |  4   |  2.500 |    1    | Attack: 3 [AP][]; close range |
+| Carbine      | `+2` |   4 |   5 |   3 |   3 |  30 |   2 |  3   |  5.000 |    2    |                               |
+| Battle Rifle | `+2` |   4 |  10 |   2 |   3 |  20 |   2 |  4   | 10.000 |    2    | long range                    |
+| Sniper Rifle | `+4` |   5 |  20 |   1 |   - |   5 |   1 |  5   | 25.000 |    3    | Attack: 3 [AP][]; long range  |
 
 ### Thrown Weapons
 
 All weapons listed in this category use the Athletics [Skill][] for Attacks.
 Thrown weapons are usually one-time use items.
+
+Without any equipment that can hold thrown weapons, you can only carry one
+combat-ready thrown weapon with you at any time. You can still have backups in
+e.g. a backpack.
 
 | Name             | HIT |    AoE | RNG | Bulk | Cost | [RES][] | Tags                                                                 |
 |------------------|----:|-------:|----:|:----:|-----:|:-------:|----------------------------------------------------------------------|

@@ -9,21 +9,22 @@ Trait, the Trait is lost first.
 
 ## Melee Weapon Traits
 
-## Blunt
+### Blunt
 
 <div class="qs-list-test full-width" markdown="1">
 
 ##### Blunt-force Trauma
 
-Special metal upgrades for your blunt weapon. When you deal more than 5 damage,
-after DR, to a target, it's [Stunned](/crisis/#stunned) for one round.
+Special metal upgrades for your blunt weapon. A target hit by this weapon has to
+roll on [Body][] against the damage dealt to it and succeed, or be
+[Stunned](/crisis/#stunned) for one round.
 
 [RES][]
-:   4
+:   3
 
 </div>
 
-## Edge
+### Edge
 
 <div class="qs-list-test full-width" markdown="1">
 
@@ -54,8 +55,8 @@ minimum of 1.
 
 ##### Long-Range Scope
 
-For Attacks at long range you receive a `+20%` bonus. For targets within short
-range you suffer a `-20%` penalty.
+For Attacks at long range you receive a `+4` bonus. For targets within short
+range you suffer a `-4` penalty.
 
 [RES][]
 :   3
@@ -69,7 +70,7 @@ range you suffer a `-20%` penalty.
 ##### Heavy Barrel
 
 The cumulative penalty on **HIT** for an **RoF** higher than 1 is reduced by
-`5%`, to a minimum of `0%`.
+`1`, to a minimum of `0`.
 
 [RES][]
 :   1
@@ -92,10 +93,10 @@ Reduces weapon noise.
 
 ##### Bipod
 
-A pivod provides a `+10%` **HIT** bonus to targets at medium or long range, and
-`-10%` **HIT** penalty to targets at short range, when deployed. Also, the
-cumulative penalty on **HIT** for an **RoF** higher than 1 is reduced by `5%`,
-to a minimum of `0%`.
+A pivod provides a `+2` **HIT** bonus to targets at medium or long range, and
+`-2` **HIT** penalty to targets at short range, when deployed. Also, the
+cumulative penalty on **HIT** for an **RoF** higher than 1 is reduced by `1`, to
+a minimum of `0`.
 
 [RES][]
 :   1
@@ -106,8 +107,7 @@ to a minimum of `0%`.
 ##### Foregrip
 
 The cumulative penalty on **HIT** for an **RoF** higher than 1 is reduced by
-`5%`, to a minimum of `0%`.
-
+`1`, to a minimum of `0`.
 <br>
 On a shotgun, the [AP][] cost for Attacking is reduced by 1 instead.
 
@@ -146,14 +146,15 @@ minimum of 1.
 
 ##### Armor-Piercing Ammo
 
-You ignore 5 [Physical][] DR.
+You bypass up to 2 [Physical][] DR, but still reduce the durability of the
+target's armour by that amount.
 
 [RES][]
 :   3
 
 ##### Hollow-Point Ammo
 
-If your target has no [Physical][] DR, you deal 5 extra damage.
+If your target has no [Physical][] DR, you deal 2 extra damage.
 
 [RES][]
 :   2
@@ -172,7 +173,7 @@ A Drum-Mag doubles your weapons **CAP**.
 :   4
 
 [Bulk][]
-:   Doubles the weapon's [Bulk][]
+:   Doubles the weapon's [Bulk][], or `+2`, whichever is higher
 
 ##### Extended-Mag
 
@@ -190,43 +191,33 @@ Your weapons **CAP** is increased by 5.
 
 <div class="qs-list-test full-width" markdown="1">
 
-##### Chest Rig
+##### Armour Plating
 
-You receive 2 additional **MAG**s for your primary and secondary weapon.
+Your Armour's Durability is increased by 10 points.
 
 [RES][]
 :   1
 
-[Bulk][]
-:   2
-
-##### Chest Carrier
-
-You receive 3 additional **MAG**s for your primary weapon and 4 for your
-secondary weapon.
-
-[RES][]
-:   2
-
-[Bulk][]
-:   5
-
-##### Armour Plating
-
-Your Armour's Durability is increased by 5 points.
-
 ##### Extra Pouches
 
-Your [Bulk][] increases by 1 point, and your Maximum [Bulk][] increases by 2
-points.
+Your [Carrying Capacity][] increases by 1 point.
+
+[RES][]
+:   1
 
 ##### Protective Linen
 
 The DR of your Armour for [Fire][] and [Cold][] increases by 1 point each.
 
+[RES][]
+:   1
+
 ##### Lighter Meshes
 
 The [Bulk][] of your Armour is reduced by 1, to a minimum of 1.
+
+[RES][]
+:   1
 
 </div>
 

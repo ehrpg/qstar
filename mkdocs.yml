@@ -76,7 +76,11 @@ nav:
             - Armour & Outfits: 'equipment/armour-outfits.md'
             - Utilities & Miscellaneous: 'equipment/util-misc.md'
 
-        - Crisis: 'crisis.md'
+        - Crisis:
+            - Crisis: 'crisis/index.md'
+            - Actions: 'crisis/actions.md'
+            - Conditions: 'crisis/conditions.md'
+
         - Environment: 'environment.md'
 
         - NPCs:

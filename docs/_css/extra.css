@@ -14545,4 +14545,12 @@ blockquote.important {
 .md-typeset__table code {
   white-space: nowrap;
 }
+
+strong.block {
+  display: block;
+}
+
+.md-nav__title {
+  margin-top: 1rem;
+}
 /*# sourceMappingURL=extra.css.map */

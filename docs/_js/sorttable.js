@@ -33,6 +33,7 @@ sorttable = {
 
     forEach(document.getElementsByTagName('table'), function(table) {
       if (table.parent && table.parent.className.search(/content/) !== -1) return
+      if (table.attributes.unsortable != null) return
       // if (table.className.search(/\bsortable\b/) != -1) {
         sorttable.makeSortable(table);
       // }

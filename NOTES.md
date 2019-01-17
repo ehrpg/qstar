@@ -55,3 +55,14 @@ Crisis
   - Traits (TODOs, add more traits)
   - Perks (TODOs, add more perks)
   - Flaws (TODOs, add more flaws)
+* Equipment (improve item listing)
+  - Index
+  - Traits (add more traits)
+  - Weapons (adjust values, add more weapons)
+  - Armour & Outfits (adjust values, add more armour & outfits)
+  - Utils & Misc (adjust values, add more items)
+* Crisis
+  - Index (adjust values)
+  - Actions (adjust values, add more actions)
+  - Conditions (adjust values, add more conditions)
+* Environment
