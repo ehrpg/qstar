@@ -130,7 +130,7 @@ Requires
 
 While sneaking and undetected by your target, you deal additional wounds,
 provided the Attack hits your target. The extra damage you deal is equal to
-twice the [Raises](/character/skills/#skill-rolls) you score.
+twice the [Extras](/character/skills/#extras) you score.
 
 Requires
 :   [Stealth][] `40%`

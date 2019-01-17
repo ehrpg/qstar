@@ -23,28 +23,28 @@ Penalty
 You like to go out in an explosion... and not quietly.
 
 Benefit
-:   Increases [Force][], [Heavy Weapons][], and [Explosives][] by `5%`.
+:   Increases [Force][], [Heavy Weapons][], and [Explosives][] by `1`.
 
 Penalty
-:   Decreases [Stealth][], [Medicine][], and [Empathy][] by `5%`.
+:   Decreases [Stealth][], [Medicine][], and [Empathy][] by `1`.
 
 ##### Pacifist
 
 Weapons win fights, words win wars.
 
 Benefit
-:   Increases [Commerce][], [Empathy][], [Perform][], and [Persuade][] by `5%`.
+:   Increases [Commerce][], [Empathy][], [Perform][], and [Persuade][] by `1`.
 
 Penalty
 :   Decreases [Heavy Weapons][], [Light Weapons][], [Explosives][], and
-[Melee][] by `5%`.
+[Melee][] by `1`.
 
 ##### Sociopath
 
 You know how to manipulate people.
 
 Benefit
-:   Increases [Bluffing][], [Intimidate][], and [Persuade][] by `5%`.
+:   Increases [Bluffing][], [Intimidate][], and [Persuade][] by `1`.
 
 Penalty
 :   You cannot use [Empathy][] anymore.
@@ -64,10 +64,10 @@ Penalty
 You have read many books and literature.
 
 Benefit
-:   Increases [Engineering][], [Linguistics][], and [Science][] by `5%`.
+:   Increases [Engineering][], [Linguistics][], and [Science][] by `1`.
 
 Penalty
-:   Decreases [Athletics][], [Force][], and [Melee][] by `5%`.
+:   Decreases [Athletics][], [Force][], and [Melee][] by `1`.
 
 </div>
 

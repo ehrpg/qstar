@@ -7069,7 +7069,7 @@ article.md-typeset:not(.md-search-result__item) > a.md-icon.md-content__icon {
   content: "\E6AC";
 }
 
-.game-icon-anatomy:before {
+.game-icon-anatomy:before, a[href*="#attributes"]:not(.headerlink):before {
   content: "\E6AD";
 }
 
@@ -7141,7 +7141,7 @@ article.md-typeset:not(.md-search-result__item) > a.md-icon.md-content__icon {
   content: "\E6BE";
 }
 
-.game-icon-minions:before, a[href*="#spirit"]:not(.headerlink):before, a[href*="#social"]:not(.headerlink):before {
+.game-icon-minions:before, a[href*="#soul"]:not(.headerlink):before, a[href*="#social"]:not(.headerlink):before {
   content: "\E6BF";
 }
 

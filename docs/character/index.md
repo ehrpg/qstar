@@ -4,17 +4,24 @@
 animals, monsters or even robots, etc. fall under this category and are created
 using the following rules.*
 
+## Race
+
+The race changes some aspects, including inherent abilities, [Attributes][],
+[Skills][], roleplaying circumstances and more.
+
+See [Races][].
+
 ## Attributes
 
-Attributes are the cornerstone of your character. They define how well your
-character performs in related [Skills][], and what [Perks][] are available to
-him.
+> Attributes are the cornerstone of your character. They define how well your
+> character performs in related [Skills][], and what [Perks][] are available to
+> him.
 
-Each point in an [Attribute][] increases all associated [Skills][] by `2%`. An
-[Attribute][] can't be lower than `0`, and not higher than `10`.
+An [Attribute][] has either a [d4][], [d6][], [d8][], [d10][], or [d12][]
+assigned to it. It can be used for basic Tasks related to this [Attribute][] if
+no [Skill][] applies.
 
-A character starts with a 5 in each [Attribute][], but the points can be
-reallocated between [Attributes][] at character creation.
+Every [Attribute][] has an initial value of a [d4][].
 
 #### Body
 
@@ -30,31 +37,17 @@ Its associated [Skills][] are [Action][] Skills.
 
 Its associated [Skills][] are [Knowledge][] Skills.
 
-#### Spirit
+#### Soul
 
-[Spirit][] is used to resist mental effects, such as drugs, alcohol, stuns, etc.
+[Soul][] is used to resist mental effects, such as drugs, alcohol, stuns, etc.
 
 Its associated [Skills][] are [Social][] Skills.
 
-## Race
+### Improving an Attribute
 
-The race changes some aspects, including inherent abilities, available Character
-Points, roleplaying circumstances and more.
-
-See [Races][].
-
-## Skills
-
-A character starts with 300 Character Points that can be distributed in the
-three [Skill] categories: [Action][], [Knowledge][] and [Social][].
-
-See [Skills][] for a list of available skills and more information.
-
-!!! tip "[GM Tip] Special Skills"
-    In some settings you might want to add special [Skills][], for example
-    **Occultism** ([Knowledge][] Skill) in a Lovecraftian horror story. Such
-    [Skills][] shouldn't be improvable with Character Points, but rather by
-    exploring and unveiling secrets.
+Raising an [Attribute][] by one step, e.g. from a [d4][] to a [d6][], costs 1
+Attribute Point. You cannot raise the [Attribute][] above a [d12][], nor
+decrease a [Attribute][].
 
 ## Traits, Perks & Flaws
 
@@ -63,7 +56,34 @@ disadvantages.
 
 See [Traits][], [Perks][] and [Flaws][].
 
+## Skills
+
+A character starts with 16 Skill Points that can be distributed in the three
+[Skill] categories: [Action][], [Knowledge][] and [Social][].
+
+See [Skills][] for a list of available skills and more information.
+
+!!! tip "[GM Tip] Special Skills"
+    In some settings you might want to add special [Skills][], for example
+    **Occultism** ([Knowledge][] Skill) in a Lovecraftian horror story. Such
+    [Skills][] shouldn't be improvable with Skill Points, but rather by
+    exploring and unveiling secrets.
+
 ## Stats
+
+### Health (HP)
+
+> Health abstracts how much wounds a character can take before being
+incapacitated or dying.
+
+See [Wounds](/crisis#wounds) and [Healing](/crisis#healing) for more details.
+
+!!! summary "Health"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Base">2</span> +
+        <span data-bracket-top="Body Attribute">[Body][] / 2</span> ±
+        <span data-bracket-bottom="Race / Talents / etc">Circumstance</span>
+    </div>
 
 ### Pace (PACE)
 
@@ -78,9 +98,9 @@ specifically states it.
 
 !!! summary "Pace"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">5</span> +
-        <span>[Body][] / 2</span> +
-        <span data-bracket-top="Race / Talents / etc">Circumstance</span>
+        <span data-bracket-bottom="Base">2</span> +
+        <span data-bracket-top="Body Attribute">[Body][] / 2</span> +
+        <span data-bracket-bottom="Race / Talents / etc">Circumstance</span>
     </div>
 
 ### Perception (PER)
@@ -89,33 +109,15 @@ specifically states it.
 > looking for it actively.
 
 Every Stealth [Skill][] roll is opposed by [Perception][]. Per ally near you,
-that's able to detect, you receive a `+5%` bonus to your [Perception][].
-
-| Perception Modifier | Example                            |
-|:-------------------:|------------------------------------|
-|       `-20%`        | Distracted, otherwise occupied     |
-|       `+20%`        | Guarding something, on the lookout |
+that's able to detect, you receive a `+1` bonus to your [Perception][].
 
 !!! summary "Perception"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">`10%`</span> +
-        <span>[Mind][] * 2</span> +
-        <span data-bracket-top="max 10 (50%)">`5%` per ally</span> ±
+        <span data-bracket-bottom="Base">2</span> +
+        <span data-bracket-top="Body Attribute">[Body][] / 4</span> +
+        <span data-bracket-bottom="Mind Attribute">[Mind][] / 4</span> +
+        <span data-bracket-top="max 4">`1` per ally</span> ±
         <span data-bracket-bottom="Race / Talents / etc">Circumstance</span>
-    </div>
-
-### Health (HP)
-
-> Health abstracts how much wounds a character can take before being
-incapacitated or dying.
-
-See [Wounds](/crisis#wounds) and [Healing](/crisis#healing) for more details.
-
-!!! summary "Health"
-    <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">50</span> +
-        <span>[Body][] * 5</span> ±
-        <span data-bracket-top="Race / Talents / etc">Circumstance</span>
     </div>
 
 ## Level (LVL)
@@ -144,21 +146,20 @@ Level, the higher the XP requirement.
     The XP requirement for Level 2 is 100 XP. The XP requirement for Level 3 is
     200. So for Level 3 you require 300 XP in total.
 
-#### Acquisitions
+### Acquisitions
 
 A character's Level improves the maximum values of his [Acquisitions][]. This
 does not necessarily make the character stronger, but makes the character more
 resourceful and adaptable.
 
-#### Attribute Points
+### Attribute Points
 
 Every 4 levels (Level 4, 8, 12, 16, and so on), a character gains an Attribute
-Point that can be assigned to [Body][], [Mind][], or [Spirit][].
+Point that can be assigned to [Body][], [Mind][], or [Soul][].
 
-#### Skill Points
+### Skill Points
 
-Every level, a character receives 50 Skill Points. A single [Skill][] can't
-be improved by more than `10%` per level up.
+Every level, a character receives 4 Skill Points.
 
 ## Acquisitions
 
@@ -289,8 +290,8 @@ outcomes:
 people and factions. [INF][] is lost by harming and disappointing others (Infamy
 might also gain you [INF][] based on your reputation).
 
-**Used**{.hf} for accessing and buying items, vessels, meetings with high
-ranking characters, etc.
+**Used**{.hf} for accessing and buying items, unlocking [Perks][], vessels,
+meetings with high ranking characters, etc.
 
 </div>
 

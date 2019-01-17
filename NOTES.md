@@ -12,9 +12,10 @@ Sanity/Horror
 Attributes, Skills, Race, Traits, Perks & Flaws, Acquisitions
 
 Character
-  Attributes: Body, Mind, Spirit
+  Attributes: Body, Mind, Soul (d4, d6, d8, d10, d12)
   Race: Attributes, Skills, Perks, Flaws
-  Skills: Action, Knowledge, Social
+  Skills: Action (Body), Knowledge (Mind), Social (Soul)
+          d4, d6, d8, d10, d12
   Traits: 0-2 upon character creation
   Perks: Bought using INF
   Flaws: "Story"-Penalties
@@ -22,6 +23,7 @@ Character
     PACE: movement (Body)
     PER: perception (Mind)
     HP: health (Body)
+    Karma: -10 to +10
   Acquisitions: LOOT, ST, INF, RES, TECH
     LOOT: abstracts Looting
     ST: abstracts time

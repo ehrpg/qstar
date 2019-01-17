@@ -8,144 +8,92 @@ to chance and its outcome is uncertain.
 
 ### Skill Ranks
 
-A [Skill][] has a value between `0%` and `100%`---the chance you have on
-succeeding on a task using this [Skill][]. The value of a [Skill][], e.g. `50%`,
-is called [Skill Rank][].
+A [Skill][] has either a [d4][], [d6][], [d8][], [d10][], or [d12][] assigned
+to it.
+
+A [Skill][] is initially **untrained**.
 
 ## Skill Rolls
 
-Tasks require a [Skill][] check. Every check is done with a [d%][] roll. If the
-roll is equal to or lower than the [Skill Rank][], the task succeeds. Otherwise,
-it fails.
+Tasks require a [Skill][] check. Every check is done with a die roll. If the
+roll is equal to or higher than the [Difficulty
+Level](/crisis#difficulty)---**4** by default---the task succeeds. Otherwise, it
+fails.
 
-### Raises
+After you roll add all modifiers to your die roll and tell the GM your result.
+The GM tells you if you succeeded or failed.
 
-After a successful roll, substract the roll's tens digit from the [Skill Rank][]
-tens digit. This is the amount of *Raises* you get for the check. A *Raise*
-improves certain values, e.g. the damage you deal after a successful Attack.
+### Extras
 
-!!! summary "Skill Raises"
+After a successful roll, divide the final roll by `4` and subtract `1`. This is
+the amount of *Extras* you get for the check. A *Raise* improves certain values,
+e.g. the damage you deal after a successful Attack.
+
+!!! summary "Skill Extras"
     <div class="formula formula-top formula-bottom">
-        <span>Raises</span> =
-        <span data-bracket-bottom="Tens digit">Skill value</span> -
-        <span data-bracket-top="Tens digit">Roll</span>
+        <span>Extras</span> =
+        <span data-bracket-bottom="Final Roll with all modifiers">Roll / 4</span> -
+        <span data-bracket-top="Base">1</span>
     </div>
 
-!!! example "Raises"
-    A character makes a **Light Weapon** check to Attack someone. His [Skill
-    Rank][] is `65%`. For the check he rolls `27`. The tens digit for the [Skill
-    Rank][] is `6`, the tens digit for the roll is `2`. This results in `4`
-    Raises.
-
-### Critical Successes
-
-Whenever you roll a `01` on a [Skill][] check it's always a critical success.
-
-The better a [Skill][] is, the higher is its chance for a critical success.
-Divide the [Skill Rank][] by 10 and round down. If the [d%][] roll is equal to
-or lower than this value, you score a critical success.
-
-!!! summary "Critical Success Range"
-    <div class="formula formula-top formula-bottom">
-        <span>Critical Success</span> =
-        <span data-bracket-bottom="Skill value">Skill / 10</span>
-    </div>
-
-!!! example "Critical Success Chance"
-    A character has an Athletics [Skill Rank][] of `33%`. The value divided by
-    10 and rounded down results in `3%`. If the character now rolls `01-03`, he
-    scores a critical success.
-
-### Critical Failures
-
-If you roll a natural `96-00` the check is a critical failure. Even if a [Skill
-Rank][] is `100%`, the check still fails.
-
-!!! tip "Maxed-out Skills"
-    [Skills][] that have a value of `100%` are usually a good idea if you want
-    to offset negative modifiers that you might get on the roll.
+!!! example "Extras"
+    A character makes a **Light Weapon** check to Attack someone. His [Skill][]
+    is a [d6][]. For the check he rolls `9` in total. `9` divided by `4` minus
+    `1` results in 1 Raise.
 
 ### Skill Modifiers
 
 Any modifier can influence the final roll for a [Skill][]. For example, bad
-weather gives you a `-10%` penalty, or having the right tool at hand might give
-you a `+10%` bonus. Modifiers make it harder or easier for a Task to succeed.
-
-For example, a [Skill][] with a value of `50%` could receive a `+10%` bonus.
-This means, that the target number you have to roll is now `60%`.
-
-Modifiers do not change a [Skill Rank][]---they do not make a character better
-or worse, but make a specific Task easier or harder for the character. They also
-do not give a better chance for a critical success.
-
-!!! example "Skill Modifiers and Critical Success Chance"
-    A character has an Athletics [Skill Rank][] of `33%`. He has a rope at hand
-    for climbing, and receives a `+10%` bonus on the roll, which totals in
-    `43%`. The Task succeeds, if he rolls `43` or less. The critical success
-    chance is still `01-03` however, and not `01-04`.
+weather gives you a `-1` penalty, or having the right tool at hand might give
+you a `+1` bonus. Modifiers make it harder or easier for a Task to succeed.
 
 #### Skill Familiarization
 
 Most [Skills][] are very vaguely described and not very specific to simplify
 character creation and gameplay. Sometimes you might want to emphasize however,
 that a [Skill][] is dramatically different than how the character would normale
-use it. In this case, the [Skill][] roll should suffer a `-20%` penalty. For
-exceptional knowledge about a certain topic, the GM may provide a `+20%` bonus
-to the roll.
+use it. In this case, the [Skill][] roll should suffer a `-2` penalty. For
+exceptional knowledge about a certain topic, the GM may provide a `+2` bonus to
+the roll.
 
 #### Untrained Skills
 
-A [Skill][] that has a value of less than `10%` is considered **untrained**. An
-**untrained** [Skill][] should only be usable for very basic things. The GM
-decides if the Task you're trying to roll on can be done with your **untrained**
-[Skill][].
+An **untrained** [Skill][] cannot be used. The GM decides if the Task you're
+trying to roll on can be done with an [Attribute][] instead.
+
+If you have a negative modifier on an **untrained** [Skill][] you can't use an
+[Attribute][] in its place.
+
+If you have a positive modifer on an **untrained** [Skill][] the GM can decide
+if you receive the bonus to the [Attribute][] roll, if you are allowed to take
+it.
 
 !!! tip "[GM Tip] Untrained Skills"
-    There is no clear rule as to whether or not a character can use an untrained
-    [Skill][]. As a rule of thumb, if it's something a character could know or
-    do without specializing in a [Skill][], then they should be able to roll on
-    that [Skill][].
-
-    A good example of the use of an **untrained** [Skill][] is *Tactics*: A
-    character that's **untrained** can still roll to see if his character picked
-    up a certain hand movement from TV.
-
-##### Negative Skills
-
-If a [Skill Rank][]---not the roll due to modifiers---is modified negatively,
-e.g. by Traits and Flaws, and drops to or below `0%`, you cannot use the
-[Skill][] anymore, not even for basic tasks. Your character is utterly uncapable
-of doing any Tasks related to this [Skill][].
+    There is no clear rule as to whether or not a character can use an
+    [Attribute][] in place of a [Skill][]. As a rule of thumb, if it's something
+    a character could know or do without specializing in a [Skill][], then they
+    should be able to roll on that [Skill][].
 
 ### Skill Contests
 
 Whenever two or more opponents pit against each other, e.g. rolling **Stealth**
 versus **Perception**, they enter a Skill Contest.
 
-In a Contest the opponents roll on their respective [Skills][]. If either has a
-Critical Success, or a normal Success, the winner is obvious. If both have the
-same level of success, either a critical or normal success, then the higher roll
-wins. On a tie, the GM resolves the conflict.
-
-| Winner           | Loser              |
-|------------------|--------------------|
-| Critical Success | Normal Success     |
-| Critical Success | (Critical) Failure |
-| Normal Success   | (Critical) Failure |
+In a Contest the opponents roll on their respective [Skills][]. The higher roll
+wins the contest. On a tie, the GM resolves the conflict.
 
 ## Improving a Skill
 
-Every [Skill][] has an initial value of `0%`. This initial value can
-be modified by [Attributes][], [Races][] and [Traits][].
+Every [Skill][] is initially **untrained**.
 
-Raising a [Skill][] by `1%` costs 1 Skill Point. You cannot raise the [Skill
-Rank][] above `100%`, nor decrease the [Skill Rank][].
+Raising a [Skill][] by 1, e.g. from **untrained** to a [d4][], or from a [d4][]
+to a [d6][] costs 1 Skill Point. You cannot raise the [Skill][] above a [d12][],
+nor decrease a [Skill][]. Increasing a [Skill][] higher than its associated
+[Attribute][] costs 2 Skill Points.
 
 ## Skill Categories
 
-Each [Skill][] is associated to a category, that is associated to an
-[Attribute][]. The [Attribute][] gives you a bonus on all [Skills][] associated
-with their category.
+Each [Skill][] is associated to an [Attribute][].
 
 !!! tip "Available Skills"
     Like any other RPG system, Q* provides the GM and players with a set of
@@ -170,8 +118,8 @@ With this [Skill][] being **untrained**, the character **cannot** swim.
 
 | Modifier | Example                        |
 |:--------:|--------------------------------|
-|  `-20%`  | Sparce or only thin handholds. |
-|  `-20%`  | Surface is slippery            |
+|   `-2`   | Sparce or only thin handholds. |
+|   `-2`   | Surface is slippery            |
 
 ##### Force
 
@@ -207,13 +155,13 @@ It's opposed by the **Search** [Skill][].
 
 | Modifier | Example        |
 |:--------:|----------------|
-|  `+20%`  | Crawling       |
-|  `-20%`  | Running        |
-|  `+10%`  | Dim Light      |
-|  `+20%`  | Darkness       |
-|  `+40%`  | Pitch Darkness |
-|  `+20%`  | Light Cover    |
-|  `+40%`  | Heavy Cover    |
+|   `+2`   | Crawling       |
+|   `-2`   | Running        |
+|   `+1`   | Dim Light      |
+|   `+2`   | Darkness       |
+|   `+4`   | Pitch Darkness |
+|   `+2`   | Light Cover    |
+|   `+4`   | Heavy Cover    |
 
 </div>
 
@@ -262,14 +210,14 @@ is, tracking animals and people, etc.
 
 | Tracking Modifier | Example                        |
 |:-----------------:|--------------------------------|
-|      `+20%`       | Tracking more than 5 creatures |
-|      `+40%`       | Recent snow                    |
-|      `+20%`       | Mud                            |
-|      `+10%`       | Dust                           |
-|      `-40%`       | Raining                        |
-|      `-20%`       | Dim Light                      |
-|      `-20%`       | Tracks are older than 1 day    |
-|      `-20%`       | Creature tried to hide tracks  |
+|       `+2`        | Tracking more than 5 creatures |
+|       `+4`        | Recent snow                    |
+|       `+2`        | Mud                            |
+|       `+1`        | Dust                           |
+|       `-4`        | Raining                        |
+|       `-2`        | Dim Light                      |
+|       `-2`        | Tracks are older than 1 day    |
+|       `-2`        | Creature tried to hide tracks  |
 
 </div>
 

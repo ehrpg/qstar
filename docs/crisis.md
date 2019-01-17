@@ -230,7 +230,7 @@ on vision, such as attacking, suffer a penalty.
 If an Attack is successful, damage can be dealt to the target.
 
 You deal your used weapon's damage, but receive extra damage from the Attack
-roll. The amount of [Raises](/character/skill#skill-rolls) is the amount of
+roll. The amount of [Extras](/character/skill#extras) is the amount of
 extra damage you deal.
 
 If your damage would be reduced to 0 or lower because of defenses, such as
@@ -239,7 +239,7 @@ Status Effects are not applied in this case.
 
 !!! summary "Dealing Damage"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Raises for the Attack Roll">Raises</span> +
+      <span data-bracket-bottom="Extras for the Attack Roll">Extras</span> +
       <span data-bracket-top="Weapon Damage">DMG</span> ±
       <span data-bracket-bottom="Environment / Traits / Race">Circumstance</span>
     </div>

@@ -18,6 +18,10 @@ a:not(.headerlink) {
     @include game-icon;
   }
 
+  &[href*="#attributes"]:before {
+    @extend .game-icon-anatomy;
+  }
+
   &[href*="#body"]:before,
   &[href*="#action"]:before {
     @extend .game-icon-biceps;
@@ -28,7 +32,7 @@ a:not(.headerlink) {
     @extend .game-icon-brain;
   }
 
-  &[href*="#spirit"]:before,
+  &[href*="#soul"]:before,
   &[href*="#social"]:before {
     @extend .game-icon-minions;
   }
@@ -80,6 +84,7 @@ a:not(.headerlink) {
     @include game-icon;
     @extend .game-icon-backpack;
   }
+
   // &[href$="/flaws/"]:before {
   //   @include game-icon;
   //   @extend .game-icon-broken-bone;

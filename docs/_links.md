@@ -5,13 +5,13 @@
 [d%]: #d100
 [d12]: #d12
 
-[Attribute]: /character/attributes
-[Attributes]: /character/attributes
+[Attribute]: /character/#attributes
+[Attributes]: /character/#attributes
 [Attribute Damage]: /character/#attribute-damage
 
 [Body]: /character/#body
 [Mind]: /character/#mind
-[Spirit]: /character/#spirit
+[Soul]: /character/#soul
 
 [Action]: /character/skills/#action
 [Knowledge]: /character/skills/#knowledge

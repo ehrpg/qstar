@@ -1,7 +1,7 @@
 # Races
 
-Every creature has a [Race][], or at least a type that groups similar creatures into
-the same category, e.g. animals or robots.
+> Every creature has a [Race][], or at least a type that groups similar
+> creatures into the same category, e.g. animals or robots.
 
 A [Race][] can modify almost all aspects of a creature, including: Skills,
 Acquisitions, Health, Stats, roleplaying circumstances, etc.
@@ -25,7 +25,7 @@ Below is a list of possible [Races][], provided by the Q* RPG system.
 
 ##### Human
 
-*Humans are a versatile race.*
+A human starts with all [Attributes][] at a [d6][].
 
 [Perks][]
 :   Humans start with the [Versatile](/character/perks#versatile) Talent for
