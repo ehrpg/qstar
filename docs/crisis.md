@@ -1,7 +1,7 @@
 # Crisis
 
-*A crisis requires a character to make a [Skill][] roll. In a crisis time slows
-down and actions become more atomic.*
+*A crisis requires a character to make some sort of a [Skill][] roll. In a
+crisis time slows down and actions become more atomic.*
 
 ## Difficulty
 
@@ -20,26 +20,26 @@ information that might be helpful.
 Certain circumstances modify the task's difficulty positively or negatively.
 Multiple modifiers stack.
 
-| Modifier | Name        | Description                                                        |
-|---------:|-------------|--------------------------------------------------------------------|
-|  ` +80%` | Trivial     | Everyday tasks.                                                    |
-|  ` +60%` | Routine     | Tasks you do every few days, which can be done by almost everyone. |
-|  ` +40%` | Simple      | Most people can do this without much effort.                       |
-|  ` +20%` | Easy        | Even untrained people still can do these tasks sometimes.          |
-|    ` 0%` | Normal      | You need at least some training to complete these kind of tasks.   |
-|  ` -20%` | Demanding   | You either need gear or good training for these tasks.             |
-|  ` -40%` | Challenging | You need a lot of training and good gear.                          |
-|  ` -60%` | Hard        | You need to be a specialist for these tasks.                       |
-|  ` -80%` | Very Hard   | You require help from others to achieve this.                      |
-|  `-100%` | Impossible  | A once in a lifetime achievement.                                  |
+| Difficulty Level | Name        | Description                                                        |
+|:----------------:|-------------|--------------------------------------------------------------------|
+|       `0`        | Trivial     | Everyday tasks.                                                    |
+|       `1`        | Routine     | Tasks you do every few days, which can be done by almost everyone. |
+|       `2`        | Simple      | Most people can do this without much effort.                       |
+|       `3`        | Easy        | Even untrained people still can do these tasks sometimes.          |
+|       `4`        | Normal      | You need at least some training to complete these kind of tasks.   |
+|       `5`        | Demanding   | You either need gear or good training for these tasks.             |
+|       `6`        | Challenging | You need a lot of training and good gear.                          |
+|       `8`        | Hard        | You need to be a specialist for these tasks.                       |
+|       `12`       | Very Hard   | You require help from others to achieve this.                      |
+|       `15`       | Impossible  | A once in a lifetime achievement.                                  |
 
 !!! tip "Difficulty"
     This is only a guideline about tasks and the modifiers they impose.
 
 | Modifier | Name                     | Description                               |
 |---------:|--------------------------|-------------------------------------------|
-|   `+10%` | Asset                    | Having the correct tools at hand.         |
-|   `-10%` | Unfavorable Circumstance | E.g. climbing a cliff while it's raining. |
+|     `+1` | Asset                    | Having the correct tools at hand.         |
+|     `-1` | Unfavorable Circumstance | E.g. climbing a cliff while it's raining. |
 
 !!! tip "Stacking Modifiers"
     Even though modifiers stack, multiple assets of the same type do not stack,
@@ -64,9 +64,8 @@ character and an NPC tie, the player character acts first.
 
 !!! summary "Turn Order"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Base">[d10][]</span> +
-      <span data-bracket-top="Body Attribute">[Body][]</span> ±
-      <span data-bracket-bottom="Race / Talents / etc">Circumstance</span>
+      <span data-bracket-bottom="Body Attribute">[Body][]</span> ±
+      <span data-bracket-top="Race / Talents / etc">Circumstance</span>
     </div>
 
 !!! tip "[GM Tip] - NPC Turn Order"
@@ -89,21 +88,8 @@ start of each turn, including the beginning of a Crisis, the character recovers
 Any [AP][] over 6 are lost, while Actions that require more than the remaining
 [AP][] are disabled until enough [AP][] are accumulated.
 
-An action with an [AP][] cost higher than 6 indicates that the Action has to be
-executed over multiple subsequent turns. Executing any other Action while this
-Action isn't completed yet cancels it.
-
 An action always costs at least 1 [AP][], unless an action specifically says
 otherwise.
-
-!!! example "Reloading a flintlock musket"
-    Reloading a flintlock musket takes 10 [AP][]. You can immediatly spend all
-    your [AP][] on reloading. Each subsequent turn you can spend another 4
-    [AP][] on reloading.
-
-    A character begins reloading a flintlock musket with 3 [AP][] left. After 2
-    more rounds he would have accumulated 11 [AP][]. So after these 2 rounds he
-    has 1 [AP][] left and his weapon is reloaded.
 
 !!! info "Actions in parallel"
     Not all Actions require your utmost attention. E.g. while reloading you can
@@ -112,12 +98,12 @@ otherwise.
 
 ## Attacks
 
-An Attack roll is equal to a [Skill][] roll, using the weapon's associated
-[Skill][] and stats.
+An Attack roll is a [Skill][] roll, using the weapon's associated [Skill][] and
+stats.
 
 !!! summary "Making an Attack"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Skill">[d%][]</span> ±
+      <span data-bracket-bottom="Associated Skill">[Skill][]</span> ±
       <span data-bracket-top="Weapon modifier">HIT</span> ±
       <span data-bracket-bottom="Environment / Traits / Race">Circumstance</span>
     </div>
@@ -134,43 +120,25 @@ incapacitated target.
 ### Ranged Attacks
 
 A ranged Attack roll is usually made with the Light Weapon [Skill][], and
-suffers penalties from **RNG**.
+suffers penalties from **RNG**. The [Difficulty Level][] to hit is a `4`.
 
 </div>
 <div class="right" markdown="1">
 
 ### Melee Attacks
 
-A Melee Attack roll is made with the Melee [Skill][], and can be parried by the
-defender.
+A Melee Attack roll is made with the Melee [Skill][]. The [Difficulty Level][]
+to hit is the target's [Parry][] value.
 
 </div>
-
-#### Parrying
-
-Parrying is a Contest between two opponents using the Melee [Skill][].
-
-Once per round you can try to parry an incoming Melee Attack. You have to choose
-to parry before the attacker rolls his attack. The parry roll is a Melee roll.
-For every additional enemy within melee range you suffer a `-10%` penalty on the
-parry roll.
-
-You cannot parry a critical Attack.
-
-If the parry roll is successful, you do not receive any damage. If you parry
-without a melee weapon equipped, you take half the damage instead.
-
-!!! summary "Parrying a melee attack"
-    <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Skill">[Melee][]</span> -
-      <span data-bracket-top="max 5 (50%)">`10%` per enemy</span> ±
-      <span data-bracket-bottom="Environment / Traits / Race">Circumstance</span>
-    </div>
 
 ### Area of Effect
 
 Thrown weapons, e.g. grenades, require you to make an Athletics check. The roll
-otherwise is a normal Ranged Attack.
+otherwise is a normal Ranged Attack with a [Difficulty Level][] of `4`.
+
+An Area of Effect weapon does not receive extra damage from
+[Extras](/character/skill#extras).
 
 If you miss an Area of Effect Attack, roll a [d8][]. The result of the [d8][]
 determines in which direction you missed. A 1 is being straight back at you, 5
@@ -205,8 +173,8 @@ on vision, such as attacking, suffer a penalty.
 
 |   Modifier | Condition   |
 |-----------:|-------------|
-|     `-20%` | Cover       |
-|     `-40%` | Heavy Cover |
+|       `-2` | Cover       |
+|       `-4` | Heavy Cover |
 | unhittable | Total Cover |
 
 <div class="left" markdown="1">
@@ -230,11 +198,11 @@ on vision, such as attacking, suffer a penalty.
 If an Attack is successful, damage can be dealt to the target.
 
 You deal your used weapon's damage, but receive extra damage from the Attack
-roll. The amount of [Extras](/character/skill#extras) is the amount of
-extra damage you deal.
+roll. The amount of [Extras](/character/skill#extras) on the attack roll is the
+amount of extra damage you deal.
 
 If your damage would be reduced to 0 or lower because of defenses, such as
-armor, parrying, or dodging you still deal 1 non-lethal damage to the target.
+damage reduction or dodging, you still deal 1 non-lethal damage to the target.
 Status Effects are not applied in this case.
 
 !!! summary "Dealing Damage"
@@ -245,11 +213,9 @@ Status Effects are not applied in this case.
     </div>
 
 !!! example "Attacking and Damaging"
-    A character makes a Ranged Attack with a [Skill][] value of `60%`. He rolls
-    a `25`. All the modifiers increase the roll to a `53`. The tens digit of the
-    Attack is a `5`; the tens digit of the [Skill][] value is a `6`. The used
-    weapon's damage is 2; the attacker scores 1 raise, and deals 3 wounds in
-    total.
+    A character makes a Ranged Attack. His roll results in a 13. This nets him 2
+    Extras. The used weapon's damage is 2; adding the 2 extras, he would deal 4
+    points of damage.
 
 ### Damage Reduction
 
@@ -260,11 +226,16 @@ If the Armor's Durability reaches 0, it does not provide DR anymore.
 Some weapons and Actions circumvent the armor's damage reduction, e.g.
 Armor-Piercing Ammunition.
 
+!!! example "Damage Reduction"
+    A target wears an armour with a physical DR of 3, and a durability of 10. He
+    receives 5 physical damage. The armour blocks 3 of the 5 incoming damage.
+    The durability of armour is reduced to 7, and the target only receives 2
+    points of damage.
+
 ### Non-lethal damage
 
-When a target would die from a lethal Attack, the attacker can decide whether or
-not to apply non-lethal force, knocking the target unconcious instead of killing
-it.
+Non-lethal damage is separate pool. If the non-lethal damage is higher than the
+target's current [Health][], the character becomes incapacitated.
 
 ## Wounds
 
@@ -273,53 +244,63 @@ non-lethal.
 
 ### Lethal
 
-If a creature's Health drops to 10, the creature is incapacitated and
-[Dying](#dying). If the Health drops to 0, the creature immediately dies.
+When a target would die from a lethal Attack, the attacker can decide whether or
+not to apply non-lethal force, knocking the target unconcious instead of killing
+it.
 
-Attacks that deal more than 60 wounds in one hit also incapacitate the target.
+If a creature's Health drops to `0`, the creature is incapacitated and
+[Dying](#dying). If the Health drops to `-10`, the creature immediately dies.
+
+Attacks that deal more than `12` wounds in one hit also incapacitate the target.
 
 ## Healing
 
-The Medicine Skill can be used to treat a wound suffered within the last hour.
-Each Medicine Skill roll to heal a wound takes 10 minutes.
+The Medicine Skill can be used to treat wounds suffered within the last hour.
 
 Wounds that are older than one hour have to heal naturally.
 
-**Healing A Character**: A healer can aid a character's natural healing
-progress. A wounded character trying to heal his own wounds suffers a -2 penalty
-for treating himself.
+#### Healing A Character
 
-Without any healing aids, such as bandages etc., the healer suffers a -2 penalty
-to his roll. Having the right tools at hand via an Asset, the penalty is reduced
-to 0, rather than a +1 bonus. Multiple Assets can provide a bonus instead.
+A healer can aid a character's natural healing progress. A wounded character
+trying to heal his own wounds suffers a `-2` penalty for treating himself.
 
-If the Medicine check was successful, the patient recovers from 1 wound.
+Without any healing aids, such as bandages etc., the healer suffers a `-2`
+penalty to his roll. Having the right tools at hand via an Asset, the penalty is
+reduced to 0, rather than a `+1` bonus. Multiple Assets can provide a bonus
+instead.
 
-**Healing A Dying Character**: If a healer was successful on his Medicine check
-for his patient, the patient is not dying anymore, but stays incapacitated for
-the next 10 rounds.
+If the Medicine check was successful, the patient recovers from `1` wound, and
+an additional wound for each [Extra](/character/skill#extras).
 
-**Healing non-lethal Damage**: Non-lethal damage can be completely removed by a
-successful Medicine check, given ahlf an hour of uninterrupted healing.
+#### Healing A Dying Character
+
+If a healer was successful on his Medicine check for his patient, the patient is
+not dying anymore, but stays incapacitated for the next 10 rounds.
+
+#### Healing Non-Lethal Damage
+
+Non-lethal damage can be healed like lethal damage, but it's twice as effective,
+meaning a succesful Medicine check heals `2` non-lethal wounds, and each
+[Extra](/character/skill#extras) also heals `2` non-lethal damage.
 
 ### Natural Healing
 
 Every hour a non-lethal wound is healed automatically.
 
-Every day a wounded or incapacitated character has to attempt a [Action][] roll
-to heal 1 wound naturally. A critical failure on the [Action][] roll causes an
+Every day a wounded or incapacitated character has to attempt a [Body][] roll to
+heal `1` wound naturally. A critical failure on the [Body][] roll causes an
 additional wound. On a failed check nothing happens.
 
 The difficulty of Natural Healing is influenced by these conditions:
 
 | Modifier | Condition                                                             |
-|---------:|-----------------------------------------------------------------------|
-|       -2 | Rough traveling                                                       |
-|       -2 | No medical attention                                                  |
-|       -2 | Poor environmental conditions, such as intense cold, heat, or rain    |
-|        _ | First Aid / Medical attention from self                               |
-|       +1 | Medical attention from a doctor                                       |
-|       +2 | Medical attention from a doctor in good condition, such as a hospital |
+|:--------:|-----------------------------------------------------------------------|
+|   `-2`   | Rough traveling                                                       |
+|   `-2`   | No medical attention                                                  |
+|   `-2`   | Poor environmental conditions, such as intense cold, heat, or rain    |
+|   `—`    | Medical attention from self                                           |
+|   `+1`   | Medical attention from a doctor                                       |
+|   `+2`   | Medical attention from a doctor in good condition, such as a hospital |
 
 ## Available Actions
 
@@ -358,7 +339,7 @@ You can move up to half the character's [Pace](/character#pace) while
 
 ##### Kneel down / Stand Up
 
-You kneel down on your kneews or stand up.
+You kneel down on your knees or stand up.
 
 [AP][]
 :   1
@@ -445,13 +426,13 @@ else's turn.
 
 ##### Take Aim
 
-Line up your shot. Can be used up to 2 times.
+Line up your shot. Can only be used if you don't use any movement action.
 
 [AP][]
 :   2, or as indicated by the weapon.
 
 Effect
-:   Per Take Aim action you gain a +1 bonus to ranged attacks.
+:   Per Take Aim action you gain a `+1` bonus to ranged attacks.
 
 ##### Use Item
 
@@ -478,8 +459,8 @@ themselves or the environment.
 *You feel a little dizzy.*
 
 Penalty
-:   All checks suffer a -1 penalty. Checks that rely on speed and balance suffer
-a -2 penalty.
+:   All checks suffer a `-1` penalty. Checks that rely on speed and balance
+suffer a `-2` penalty.
 
 ##### Dying
 
@@ -510,22 +491,22 @@ Penalty
 *Kneeling down gives you better control over recoil and weapon sway.*
 
 Bonus
-:   You count as being in **Light Cover** against ranged Attacks. You gain a +1
-bonus on attacks using ranged weapons.
+:   You count as being in **Light Cover** against ranged Attacks. You gain a
+`+1` bonus on attacks using ranged weapons.
 
 Penalty
-:   Melee attacks against you gain a +2 bonus.
+:   Melee attacks against you gain a `+2` bonus.
 
 ##### Prone
 
 *Being prone gives gives you even better control over recoil and weapon sway.*
 
 Bonus
-:   You count as being in **Heavy Cover** against ranged Attacks. You gain a +2
-bonus on attacks using ranged weapons.
+:   You count as being in **Heavy Cover** against ranged Attacks. You gain a
+`+2` bonus on attacks using ranged weapons.
 
 Penalty
-:   Melee attacks against you gain a +4 bonus.
+:   Melee attacks against you gain a `+4` bonus.
 
 ##### Slowed
 

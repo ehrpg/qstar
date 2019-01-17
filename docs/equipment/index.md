@@ -31,25 +31,28 @@ An item that specifies it's [Bulk][] takes up that much Inventory Space. Ten
 light items specified by a [Bulk][] value of **L** count as 1 [Bulk][]. Some
 items' [Bulk][] are negligible; they do not list their [Bulk][] value.
 
-Each character's Carrying Capacity is 10 modifed by circumstance. A character
-can carry this much [Bulk][] without penalty; if he carries more he loses 1
-[Pace][] per point over his Carrying Capacity. A character can't hold or carry
-more [Bulk][] than twice his Carrying Capacity.
+Each character's Carrying Capacity is modified by the [Body][] Attribute and
+circumstance. A character can carry this much [Bulk][] without penalty; if he
+carries more he loses 1 [Pace][] per point over his Carrying Capacity. A
+character can't hold or carry more [Bulk][] than twice his Carrying Capacity.
 
 !!! summary "Carrying Capacity"
     <div class="formula formula-top formula-bottom">
       <span>Carrying Capacity</span> =
-      <span data-bracket-bottom="Base">10</span> ±
-      <span data-bracket-top="Environment / Traits / Race">Circumstance</span>
+      <span data-bracket-bottom="Base">2</span> +
+      <span data-bracket-top="Body Attribute">[Body][] / 2</span> ±
+      <span data-bracket-bottom="Environment / Traits / Race">Circumstance</span>
     </div>
-
-!!! summary "Maximum Bulk"
+    <br>
     <div class="formula formula-top formula-bottom">
       <span>Maximum Bulk</span> =
       <span>Carrying Capacity * 2</span>
     </div>
 
 ## Looting
+
+Looting usually nets you [LOOT][] which can be sold, traded, or exchanged for
+ammunition.
 
 ### Ammunition
 
@@ -67,7 +70,8 @@ pay for the item at the end of the current session, the item is lost.
 
 ## Equipment traits
 
-An item *can* have additional traits, making them more unique.
+An item *can* have additional traits, making them more unique. Traits also
+include upgrades and accessories for weapons.
 
 --8<--
 _links.md

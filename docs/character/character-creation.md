@@ -51,6 +51,7 @@ backpacks, etc. With the rest of your money you should buy a half decent
 
 ### 7. Fill In The Blanks
 
-Calculate all your character's stats.
+Calculate all your character's stats, like [Pace][], [Perception][], and
+[Health][].
 
 --8<-- "_links.md"

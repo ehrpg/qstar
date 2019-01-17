@@ -9,6 +9,11 @@
 [Attributes]: /character/#attributes
 [Attribute Damage]: /character/#attribute-damage
 
+[Difficulty Level]: /crisis/#difficulty-modifier
+[Difficulty Levels]: /crisis/#difficulty-modifier
+[Defence]: /character/#defence
+[Parry]: /character/#parry
+
 [Body]: /character/#body
 [Mind]: /character/#mind
 [Soul]: /character/#soul
@@ -16,10 +21,10 @@
 [Action]: /character/skills/#action
 [Knowledge]: /character/skills/#knowledge
 [Social]: /character/skills/#social
-[Defence]: /character/#defence
-[Perception]: /character/#perception
-[Pace]: /character/#pace-pace
+
 [Health]: /character/#health-hp
+[Pace]: /character/#pace-pace
+[Perception]: /character/#perception-per
 
 [XP]: /character/#experience-xp
 [Experience]: /character/#experience-xp

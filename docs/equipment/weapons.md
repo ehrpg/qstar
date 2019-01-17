@@ -39,7 +39,7 @@ the radius are effected by the AoE, while creatures outside are uneffected.
 ##### RNG
 
 indicates the weapons range increment. Each increment imposes a cumulative
-`-10%` penalty to the attack. **RNG** times 10 is the maximum effective range of
+`-1` penalty to the attack. **RNG** times 10 is the maximum effective range of
 the weapon. Any target within the weapons first range increment does not impose
 a penalty.
 
@@ -47,9 +47,9 @@ a penalty.
 
 indicates the weapons rate of fire. An RoF higher than 1 allows you to make
 optional, consecutive Attack rolls for the same or even different targets at the
-expense of 1 [AP][], and a cumulative `-20%` penalty on **HIT**, per extra
-Attack, unless otherwise noted by the weapon. Using a higher **RoF** also uses
-up more **CAP**.
+expense of 1 [AP][], and a cumulative `-2` penalty on **HIT**, per extra Attack,
+unless otherwise noted by the weapon. Using a higher **RoF** also uses up more
+**CAP**.
 
 ##### MAG
 
@@ -74,7 +74,7 @@ indicates how much [AP][] it takes to reload the weapon.
 
 !!! tip "[GM Tip] - MAG refilling"
     If your setting requires it, you can overrule the MAG refilling rule. Buying
-    one MAG should cost 1/25 of the weapons CR cost.
+    one MAG should cost one-hundreth of the weapon's Cost.
 
 ### Weapon Tags
 
@@ -94,7 +94,7 @@ within the first range increment.
 
 ##### Long range
 
-`+20%` on **HIT** for the Attack when using an **RoF** of `1`.
+`+2` on **HIT** for the Attack when using an **RoF** of `1`.
 
 ##### Explosive
 
@@ -103,8 +103,8 @@ the **AoE**. At the center, an explosive weapon deals its damage multiplied by
 its **AoE** value. Per tile away from the center, the weapon deals 1x its damage
 less, to a minimum of its normal damage.
 <br>
-For example, a Grenade (**AoE**: 3; **AoE DMG**: 8) deals 24 damage at the
-center, 16 damage next to the center, and 8 damage when the target is away 2 or
+For example, a Grenade (**AoE**: 3; **AoE DMG**: 5) deals 15 damage at the
+center, 10 damage next to the center, and 5 damage when the target is away 2 or
 3 tiles.
 
 </div>
@@ -113,50 +113,48 @@ center, 16 damage next to the center, and 8 damage when the target is away 2 or
 
 All weapons listed in this category use the Melee [Skill][] for Attacks.
 
-
-
-| Name                    |    HIT | DMG | RoF | Bulk |  Cost | [RES][] |
-|-------------------------|-------:|----:|----:|:----:|------:|:-------:|
-| Unarmed                 |    `0` |   1 |   1 |  -   |     - |    -    |
-| Improvised blunt weapon |    `0` |   3 |   1 |  1   |     - |    -    |
-| Improvised sharp weapon |    `0` |   3 |   1 |  1   |     - |    -    |
-| Brass knuckles          |  `+5%` |   5 |   1 |  L   |   100 |    -    |
-| Knife                   |  `+5%` |   5 |   1 |  L   |   100 |    -    |
-| Baton                   | `+10%` |   5 |   1 |  L   |   250 |    -    |
-| Sword                   | `+10%` |  10 |   1 |  2   | 1.000 |    1    |
+| Name                    |  HIT | DMG | RoF | Bulk |  Cost | [RES][] |
+|-------------------------|-----:|----:|----:|:----:|------:|:-------:|
+| Unarmed                 |  `0` |   1 |   1 |  -   |     - |    -    |
+| Improvised blunt weapon | `-1` |   2 |   1 |  1   |     - |    -    |
+| Improvised sharp weapon | `-1` |   2 |   1 |  1   |     - |    -    |
+| Brass knuckles          |  `0` |   2 |   1 |  L   |   100 |    -    |
+| Knife                   |  `0` |   3 |   1 |  L   |   100 |    -    |
+| Baton                   | `+1` |   4 |   1 |  L   |   250 |    -    |
+| Sword                   | `+1` |   5 |   1 |  2   | 1.000 |    1    |
 
 ### Ranged Weapons
 
 All weapons listed in this category use the Light Weapons [Skill][] for Attacks.
 
-| Name         |    HIT | DMG | RNG | RoF | MAG | CAP | REL | Bulk |   Cost | [RES][] | Tags                          |
-|--------------|-------:|----:|----:|----:|----:|----:|----:|:----:|-------:|:-------:|-------------------------------|
-| Pistol       |  `+5%` |  10 |   4 |   2 |   ∞ |   7 |   2 |  1   |  1.000 |    -    |                               |
-| SMG          |  `+5%` |  10 |   4 |   3 |   4 |  25 |   2 |  2   |  3.000 |    1    |                               |
-| Shotgun      |  `+5%` |  12 |   2 |   1 |   - |  24 |   1 |  4   |  2.500 |    1    | Attack: 3 [AP][]; close range |
-| Carbine      | `+10%` |  15 |   5 |   3 |   3 |  30 |   2 |  3   |  5.000 |    2    |                               |
-| Battle Rifle | `+10%` |  20 |  10 |   2 |   3 |  20 |   2 |  4   | 10.000 |    2    | long range                    |
-| Sniper Rifle | `+20%` |  25 |  20 |   1 |   - |   5 |   1 |  4   | 25.000 |    3    | Attack: 3 [AP][]; long range  |
+| Name         |  HIT | DMG | RNG | RoF | MAG | CAP | REL | Bulk |   Cost | [RES][] | Tags                          |
+|--------------|-----:|----:|----:|----:|----:|----:|----:|:----:|-------:|:-------:|-------------------------------|
+| Pistol       | `+1` |   4 |   4 |   2 |   ∞ |   7 |   2 |  1   |  1.000 |    -    |                               |
+| SMG          | `+1` |   4 |   4 |   3 |   4 |  25 |   2 |  2   |  3.000 |    1    |                               |
+| Shotgun      | `+1` |   5 |   2 |   1 |   - |  24 |   1 |  4   |  2.500 |    1    | Attack: 3 [AP][]; close range |
+| Carbine      | `+2` |   5 |   5 |   3 |   3 |  30 |   2 |  3   |  5.000 |    2    |                               |
+| Battle Rifle | `+2` |   6 |  10 |   2 |   3 |  20 |   2 |  4   | 10.000 |    2    | long range                    |
+| Sniper Rifle | `+4` |   8 |  20 |   1 |   - |   5 |   1 |  5   | 25.000 |    3    | Attack: 3 [AP][]; long range  |
 
 ### Thrown Weapons
 
 All weapons listed in this category use the Athletics [Skill][] for Attacks.
 Thrown weapons are usually one-time use items.
 
-| Name             | HIT |     AoE | RNG | Bulk | Cost | [RES][] | Tags      | Notes                                                  |
-|------------------|----:|--------:|----:|:----:|-----:|:-------:|-----------|--------------------------------------------------------|
-| Grenade          | `0` | `3(20)` |   4 |  L   |      |    -    | explosive |                                                        |
-| Molotov Cocktail | `0` | `1(10)` |   3 |  L   |      |    -    |           | Burns an area for [d10][] rounds with [Fire][] damage. |
-| Smoke Grenade    | `0` |  `2(-)` |   4 |  L   |      |    -    |           | *Obscures* an area with smoke.                         |
-| Stun Grenade     | `0` |  `3(-)` |   4 |  L   |      |    -    |           | Applies [Stunned](/crisis#stunned) for 1 round.        |
+| Name             | HIT |    AoE | RNG | Bulk | Cost | [RES][] | Tags                                                                 |
+|------------------|----:|-------:|----:|:----:|-----:|:-------:|----------------------------------------------------------------------|
+| Grenade          | `0` | `3(5)` |   4 |  L   |      |    -    | explosive                                                            |
+| Molotov Cocktail | `0` | `1(4)` |   3 |  L   |      |    -    | Burns the **AoE** area for [1d4](#d4) rounds with 1 [Fire][] damage. |
+| Smoke Grenade    | `0` | `2(-)` |   4 |  L   |      |    -    | *Obscures* an area with smoke.                                       |
+| Stun Grenade     | `0` | `3(-)` |   4 |  L   |      |    -    | Applies [Stunned](/crisis#stunned) for 1 round.                      |
 
 ### Heavy Weapons
 
 All weapons listed in this category use Heavy Weapons [Skill][] for Attacks.
 
-| Name |    HIT |     AoE | RNG | RoF | MAG | CAP | REL | Bulk |   Cost | [RES][] | Tags                        |
-|------|-------:|--------:|----:|----:|----:|----:|----:|:----:|-------:|:-------:|-----------------------------|
-| RPG  | `+10%` | `4(25)` |  10 |   1 |   - |   1 |   4 |  8   | 20.000 |    4    | Attack: 4 [AP][]; explosive |
+| Name |  HIT |    AoE | RNG | RoF | MAG | CAP | REL | Bulk |   Cost | [RES][] | Tags                        |
+|------|-----:|-------:|----:|----:|----:|----:|----:|:----:|-------:|:-------:|-----------------------------|
+| RPG  | `+2` | `4(5)` |  10 |   1 |   - |   1 |   4 |  8   | 20.000 |    4    | Attack: 4 [AP][]; explosive |
 
 --8<--
 _links.md

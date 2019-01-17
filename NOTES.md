@@ -46,3 +46,12 @@ Crisis
 
 
 # Ready for revision
+
+* Character Creation
+* Character
+  - Index
+  - Races
+  - Skills
+  - Traits (TODOs, add more traits)
+  - Perks (TODOs, add more perks)
+  - Flaws (TODOs, add more flaws)

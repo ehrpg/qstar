@@ -16,8 +16,12 @@ Requires
 :   Requirements that have to be met in order for the perk to be available or
 providing its benefits.
 
-AP
-:   If the perk unlocks a new Ability, the AP cost for this Ability is stated
+[INF][]
+:   The [INF][] cost needed to unlock this perk. If this entry is missing, the
+perk costs 1 [INF][].
+
+[AP][]
+:   If the perk unlocks a new Ability, the [AP][] cost for this Ability is stated
 here.
 
 Multiple
@@ -46,13 +50,12 @@ can be picked.
 
 ## Requirements
 
-Perks are usually restricted by category scores, [Skill][] values, or other
-stats. [Races][] or GM decisions providing perks ignore the requirement.
+Perks are restricted by [Attributes][], [Skills][], or other stats. [Races][] or
+GM decisions providing perks ignore the requirement.
 
-If a perk states an [Attribute][] or [Skill][] requirement, the value has to be
-met. If the [Attribute][] or [Skill][] drops below the requirement, the
-character loses the benefit of the perk---but not the perk itself, in case the
-requirements are met once again.
+If a perk states an [Attribute][] or a [Skill][] requirement and either drops
+below the requirement, the character loses the benefit of the perk---but not the
+perk itself, in case the requirements are met once again.
 
 ## Character Perks
 
@@ -60,38 +63,38 @@ requirements are met once again.
 
 ##### Animal Friend
 
-You can use the [Persuade][] Skill to tame animals.
+You can use the [Persuade][] Skill to tame animals that aren't hostile.
 
 Requires
-:   -
+:   [Soul][] [d8][]
 
 ##### Beast of Burden
 
 Your [Carrying Capacity][] increases by `2`.
 
 Requires
-:   [Action][] score `10`
+:   [Body][] [d8][]
 
 ##### Healthy
 
-You gain 10 additional [Health](/character/#health-hp) points.
+You gain 3 additional [Health](/character/#health-hp) points.
 
 Requires
-:   -
+:   [Body][] [d8][]
 
 ##### Light-footed
 
-Increases your [Stealth][] by `10%`.
+You receive a `+1` bonus on all [Stealth][] checks.
 
 Requires
-:   [Action][] score `10`
+:   [Body][] [d8][]
 
 ##### Versatile
 
 You gain 25 CP.
 
 Requires
-:   -
+:   [Mind][] [d6][]
 
 </div>
 
@@ -104,21 +107,21 @@ Requires
 Increases your current and maximum [Resources][] by `1`.
 
 Requires
-:   [Knowledge][] score `10`
+:   [Mind][] [d8][]
 
 ##### Scientist
 
 Increases your current and maximum [Technology][] by `1`.
 
 Requires
-:   [Knowledge][] score `10`
+:   [Mind][] [d8][]
 
 ##### Wealthy
 
 Increases your current and maximum [Influence][] by `1`.
 
 Requires
-:   [Social][] score `10`
+:   [Soul][] [d8][]
 
 </div>
 
@@ -133,15 +136,15 @@ provided the Attack hits your target. The extra damage you deal is equal to
 twice the [Extras](/character/skills/#extras) you score.
 
 Requires
-:   [Stealth][] `40%`
+:   [Stealth][] [d10][]
 
 ##### Blood rush
 
-While your Health is below 50, your maximum [AP][] is increased by one, and per
-round you recover an additional [AP][].
+While your Health is below `50%`, your maximum [AP][] is increased by one, and
+per round you recover an additional [AP][].
 
 Requires
-:   -
+:   [Body][] [d8][]
 
 ##### Bloodthirsty
 
@@ -149,15 +152,17 @@ If you make a killing-blow with a melee weapon in a [Crisis](/crisis), you
 immediatly gain 2 [AP][]. Can only trigger once per round.
 
 Requires
-:   [Melee][] `50%`
+:   [Melee][] [d8][]
 
 ##### Cleave
+
+TODO
 
 When you critically hit an enemy with a melee weapon, you can attack another
 enemy in range for free with a normal Attack.
 
 Requires
-:   [Melee][] `50%`
+:   [Melee][] [d8][]
 
 ##### Combat Reflexes
 
@@ -165,7 +170,7 @@ Once per round you can use the [Take Aim](/crisis#take-aim) Action at -1 [AP][]
 cost.
 
 Requires
-:   [Light Weapons][] `40%`
+:   [Light Weapons][] [d8][]
 
 ##### Fighter
 
@@ -173,29 +178,32 @@ If [Parrying](/crisis#parrying) you can treat the amount of enemies within melee
 range as one less.
 
 Requires
-:   [Melee][] `40%`
+:   [Melee][] [d8][]
 
 ##### Gunslinger
 
 Draw any handheld weapon with -1 [AP][] cost.
 
 Requires
-:   [Action][] `10`
+:   [Body][] [d8][]
 
 ##### Lightning Reflexes
 
-When you [Parry](/crisis#parrying) and wield a melee weapon, you receive a
-`+10%` bonus on your [Melee][] roll.
+When you [Parry](/crisis#parrying) and wield a melee weapon, you receive a `+1`
+bonus on your [Melee][] roll.
 
 Requires
-:   [Melee][] score `40%`
+:   [Melee][] [d8][]
 
 ##### Martial Arts Master
 
 Your Attacks only cost 1 [AP][] when attacking unarmed.
 
 Requires
-:   [Melee][] `80%`
+:   [Melee][] [d12][]
+
+[INF][]
+:   2
 
 ##### Opportunist
 
@@ -204,7 +212,7 @@ can make a melee Attack versus the enemy without any [AP][] cost. You cannot use
 special Actions while doing so.
 
 Requires
-:   [Melee][] `20%`
+:   [Melee][] [d6][]
 
 </div>
 

@@ -58,9 +58,6 @@ See [Traits][], [Perks][] and [Flaws][].
 
 ## Skills
 
-A character starts with 16 Skill Points that can be distributed in the three
-[Skill] categories: [Action][], [Knowledge][] and [Social][].
-
 See [Skills][] for a list of available skills and more information.
 
 !!! tip "[GM Tip] Special Skills"
@@ -74,14 +71,14 @@ See [Skills][] for a list of available skills and more information.
 ### Health (HP)
 
 > Health abstracts how much wounds a character can take before being
-incapacitated or dying.
+> incapacitated or dead.
 
 See [Wounds](/crisis#wounds) and [Healing](/crisis#healing) for more details.
 
 !!! summary "Health"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">2</span> +
-        <span data-bracket-top="Body Attribute">[Body][] / 2</span> ±
+        <span data-bracket-bottom="Base">8</span> +
+        <span data-bracket-top="Body Attribute">[Body][]</span> ±
         <span data-bracket-bottom="Race / Talents / etc">Circumstance</span>
     </div>
 
@@ -103,6 +100,23 @@ specifically states it.
         <span data-bracket-bottom="Race / Talents / etc">Circumstance</span>
     </div>
 
+### Parry
+
+Parry is used to defend against incoming melee attacks. Per additional enemy
+within melee range you suffer a `-1` penalty.
+
+If you don't have a melee weapon equipped, you suffer a `-2` penalty.
+
+The value for Parry cannot drop below 2.
+
+!!! summary "Parry"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Base">2</span> +
+        <span data-bracket-top="Melee Skill">[Melee][] / 2</span> -
+        <span data-bracket-bottom="max 5">`1` per ally</span> ±
+        <span data-bracket-top="Race / Talents / etc">Circumstance</span>
+    </div>
+
 ### Perception (PER)
 
 > Perception measures your character's ability to detect hidden stuff without
@@ -116,7 +130,7 @@ that's able to detect, you receive a `+1` bonus to your [Perception][].
         <span data-bracket-bottom="Base">2</span> +
         <span data-bracket-top="Body Attribute">[Body][] / 4</span> +
         <span data-bracket-bottom="Mind Attribute">[Mind][] / 4</span> +
-        <span data-bracket-top="max 4">`1` per ally</span> ±
+        <span data-bracket-top="max 5">`1` per ally</span> ±
         <span data-bracket-bottom="Race / Talents / etc">Circumstance</span>
     </div>
 
@@ -253,10 +267,10 @@ circumstance modifiers.
 The [ST][] influences the difficulty of the [Skill][] check, and provides a
 bonus or penalty.
 
-A [ST][] roll is specified by the following scheme: `Xt±Y`, e.g. 2t+10 or 3t-20.
-*X* represents the number of successful rolls necessary. The *X* also represents
-the [ST][] cost. *Y* represents the difficulty modifier for each roll. The *Y*
-is omitted if there is no modifier.
+An [ST][] rolls is specified by the following scheme: `XtY (Skill)`, e.g. `2t4`
+or `t6`. *X* represents the number of successful rolls necessary. The *X* also
+represents the [ST][] cost. *Y* represents the [Difficulty Level][] for each
+roll. *Skill* indicates the [Skill][] that has to be used for the [ST][] roll.
 
 If a [ST][] roll fails, the [ST][] point is lost. If multiple [ST][] rolls are
 necessary for a certain task and one of the check fails, there are multiple
@@ -272,13 +286,12 @@ outcomes:
     </div>
 
 !!! example "Spare Time rolls"
-    Finding a very rare item on the black market might be represented as a 2t-40
+    Finding a very rare item on the black market might be represented as a 2t4
     [Spare Time][] roll.
 
     A character attempts the roll. He needs to spend 2 [Spare Time][] points,
-    and roll the *Commerce* [Skill][] twice. The roll is modified by `-40%`;
-    modified by the [Spare Time][] task, the difficulty for each roll results in
-    the [Skill][]'s value minus `40%`.
+    and roll the *Commerce* [Skill][] twice. The roll's difficulty is a **4**;
+    Each roll has to be equal to or higher than this difficulty.
 
 ### Influence (INF)
 
@@ -295,7 +308,7 @@ meetings with high ranking characters, etc.
 
 </div>
 
-More [INF][] unlocks better equipment and better vessels.
+More [INF][] unlocks better equipment, perks and better vessels.
 
 !!! summary "Maximum [Influence][]"
     <div class="formula formula-top formula-bottom">
@@ -348,8 +361,8 @@ the experimental equipment or vessel can be acquired.
 </div>
 
 Certain upgrades require [TECH][] in order to be unlocked. Upgrades have to be
-unlocked only once, and *can* be shared between characters. Using [TECH][]
-*permanently lowers* its value.
+unlocked only once, and *can* be shared and accumalated between characters.
+Using [TECH][] *permanently lowers* this value.
 
 !!! summary "Maximum [Technology][]"
     <div class="formula formula-top formula-bottom">
@@ -394,7 +407,7 @@ you, but in general they know what you're trying to tell them. Additionally you
 can't read or write in this language.
 
 Cost
-:   1t-20 (Linguistics)
+:   t5 (Linguistics)
 
 ##### Normal
 
@@ -402,7 +415,7 @@ You have a normal knowledge about the language. You can decipher most texts, and
 know a good fraction of the language's vocabulary.
 
 Cost
-:   1t-40 (Linguistics)
+:   t6 (Linguistics)
 
 ##### Master
 
@@ -410,17 +423,15 @@ You are able to have the most sophisticated conversations with others, and
 decipher every text, even older dialects that might not be around anymore.
 
 Cost
-:   1t-60 (Linguistics)
+:   2t6 (Linguistics)
 
 </div>
 
 ### Learning languages at character creation
 
-If a character is created, the player can spend Character Points to learn new
+If a character is created, the player can spend Skill Points to learn new
 languages, or to improve his native language. The cost to learn is different for
-each step: *Basic* costs 25 CP, *Normal* costs 25 CP, *Master* costs 50 CP.
-
-Spending Character Points for languages also counts towards the [Knowledge][]
-score.
+each step: *Basic* and *Normal* cost 1 Skipp Point, *Master* costs 2 Skill
+Points.
 
 --8<-- "_links.md"

@@ -22,69 +22,38 @@ Below is a list of flaws, provided by the Q* RPG system.
 
 ## Character Flaws
 
-Flaws are represented in the following way:
+<div class="qs-list-test full-width" markdown="1">
 
-<div class="qs-list-test full-width p" markdown="1">
+##### Blind
 
-**Example Flaw**{.hf} Description or penalty of the flaw.
+All [Skills][], Stats, etc. related to vision suffer a `-4` penalty.
+
+##### Lame
+
+Your [Pace][] decreases by `2`.
+
+##### One-eyed
+
+All [Skills][], Stats, etc. related to vision suffer a `-2` penalty.
+
+</div>
+
+### Acquisitions
+
+<div class="qs-list-test full-width" markdown="1">
 
 ##### Incurious
 
-Maximum Technology -1
-
-Requires
-:   -
-
-[Downtime](/character#downtime-dt)
-:   1
-
-##### Introvert
-
-[Charisma](/character/#charisma-ch)  -1
-
-[Downtime](/character#downtime-dt)
-:   2
-
-##### Illiterate
-
-You are unable to read any texts. You can however recognise common names, e.g.
-"Inn"
-
-Requires
-:   -
-
-[Downtime](/character#downtime-dt)
-:   2
+Decreases your current and maximum [Technology][] by `1`.
 
 ##### Poor
 
-Maximum Influence -1
+Decreases your current and maximum [Influence][] by `1`.
 
-Requires
-:   -
+##### Unimaginative
 
-[Downtime](/character#downtime-dt)
-:   1
-
-##### Uneducated
-
-[Intelligence](/character/#intelligence-in) -1
-
-[Downtime](/character#downtime-dt)
-:   2
-
-##### Slow
-
-[Speed](/character/#speed-sp) -1
-
-[Downtime](/character#downtime-dt)
-:   2
-
-##### Weak
-
-[Might](/character/#might-mi) -1
-
-[Downtime](/character#downtime-dt)
-:   2
+Decreases your current and maximum [Resources][] by `1`.
 
 </div>
+
+--8<-- "_links.md"

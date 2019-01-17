@@ -26,7 +26,7 @@ The GM tells you if you succeeded or failed.
 ### Extras
 
 After a successful roll, divide the final roll by `4` and subtract `1`. This is
-the amount of *Extras* you get for the check. A *Raise* improves certain values,
+the amount of *Extras* you get for the check. An *Extra* improves certain values,
 e.g. the damage you deal after a successful Attack.
 
 !!! summary "Skill Extras"
@@ -39,7 +39,7 @@ e.g. the damage you deal after a successful Attack.
 !!! example "Extras"
     A character makes a **Light Weapon** check to Attack someone. His [Skill][]
     is a [d6][]. For the check he rolls `9` in total. `9` divided by `4` minus
-    `1` results in 1 Raise.
+    `1` results in 1 Extra.
 
 ### Skill Modifiers
 
