@@ -8,7 +8,8 @@ themselves or the environment.
 
 ##### Drunk
 
-*You feel a little dizzy.*
+Drinking too much alcohol, or taking other substances that have a similar effect
+make you drunk.
 
 Penalty
 :   All checks suffer a `-1` penalty. Checks that rely on speed and balance
@@ -24,10 +25,17 @@ until healed or dead.
 
 ##### Exhausted
 
-*You need to catch your breath first.*
+*You need a break.*
 
 Penalty
-:   You only gain 2 [AP][] instead of 4 per round.
+:   All [Attribute][] rolls, [Skill][] rolls, etc. suffer a -2 penalty.
+
+##### Fatigued
+
+*You need to catch your breath.*
+
+Penalty
+:   All [Attribute][] rolls, [Skill][] rolls, etc. suffer a -1 penalty.
 
 ##### Helpless
 

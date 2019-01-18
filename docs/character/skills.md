@@ -58,21 +58,16 @@ the roll.
 
 #### Untrained Skills
 
-An **untrained** [Skill][] cannot be used. The GM decides if the Task you're
-trying to roll on can be done with an [Attribute][] instead.
-
-If you have a negative modifier on an **untrained** [Skill][] you can't use an
-[Attribute][] in its place.
-
-If you have a positive modifer on an **untrained** [Skill][] the GM can decide
-if you receive the bonus to the [Attribute][] roll, if you are allowed to take
-it.
+An **untrained** [Skill][] cannot be used normally. The GM decides if you can
+use the **untrained** [Skill][] for a single Task. Using an **untrained**
+[Skill][] is done by rolling a [d4][], but you also suffer a `-2` penalty.
 
 !!! tip "[GM Tip] Untrained Skills"
     There is no clear rule as to whether or not a character can use an
-    [Attribute][] in place of a [Skill][]. As a rule of thumb, if it's something
-    a character could know or do without specializing in a [Skill][], then they
-    should be able to roll on that [Skill][].
+    **untrained** [Skill][]. As a rule of thumb, if it's something a character
+    could know or do without specializing in a [Skill][], then they should be
+    able to roll on that [Skill][], e.g. common knowledge or something the
+    character might have picked up in TV.
 
 ### Skill Contests
 
@@ -80,16 +75,26 @@ Whenever two or more opponents pit against each other, e.g. rolling **Stealth**
 versus **Perception**, they enter a Skill Contest.
 
 In a Contest the opponents roll on their respective [Skills][]. The higher roll
-wins the contest. On a tie, the GM resolves the conflict.
+wins the contest. On a tie, the active party wins.
 
-## Improving a Skill
-
-Every [Skill][] is initially **untrained**.
+## Improving A Skill
 
 Raising a [Skill][] by 1, e.g. from **untrained** to a [d4][], or from a [d4][]
 to a [d6][] costs 1 Skill Point. You cannot raise the [Skill][] above a [d12][],
 nor decrease a [Skill][]. Increasing a [Skill][] higher than its associated
-[Attribute][] costs 2 Skill Points.
+[Attribute][] costs 2 Skill Points instead.
+
+## Aiding Others
+
+Supporting another character requires you to roll the same [Skill][] check, but
+with a [Difficulty Level][] of 4. A successful check adds a `+2` bonus to the
+supported character's [Skill][] check.
+
+There can be multiple supporters to increase the chance of someone succeeding on
+the [Skill][] check, but the bonus doesn't increase.
+
+Supporters can critically fail on their [Skill][] check. Each critical fail
+imposes a `-2` penalty to the supported character's [Skill][] check.
 
 ## Skill Categories
 
