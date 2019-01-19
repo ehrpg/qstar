@@ -21,7 +21,8 @@ An [Attribute][] has either a [d4][], [d6][], [d8][], [d10][], or [d12][]
 assigned to it. It can be used for basic Tasks related to this [Attribute][] if
 no [Skill][] applies.
 
-Every [Attribute][] has an initial value of a [d4][].
+Every [Attribute][] has an initial value of a [d4][]. An [Attribute][] cannot
+drop below a [d4][] or be raised above a [d12][].
 
 #### Body
 

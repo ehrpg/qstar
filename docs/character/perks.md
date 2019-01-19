@@ -17,7 +17,7 @@ Requires
 providing its benefits.
 
 [INF][]
-:   The [INF][] cost needed to unlock this perk. If this entry is missing, the
+:   The [INF][] cost needed to unlock this perk. If this entry is omitted, the
 perk costs 1 [INF][].
 
 [AP][]
@@ -156,10 +156,8 @@ Requires
 
 ##### Cleave
 
-TODO
-
-When you critically hit an enemy with a melee weapon, you can attack another
-enemy in range for free with a normal Attack.
+When you make a killing-blow with a melee weapon, you can make an individual
+Attack against another enemy in range with the same kind of Attack for free.
 
 Requires
 :   [Melee][] [d8][]

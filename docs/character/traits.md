@@ -10,7 +10,7 @@ creation](/character/character-creation).
 
 ##### Beast of Burden
 
-You don't mind carry heavy stuff around with you at all times.
+You don't mind carrying heavy stuff around with you at any time.
 
 Benefit
 :   Increases [Carrying Capacity][] by `2`.
@@ -23,28 +23,29 @@ Penalty
 You like to go out in an explosion... and not quietly.
 
 Benefit
-:   Increases [Force][], [Heavy Weapons][], and [Explosives][] by `1`.
+:   Increases [Force][], [Heavy Weapons][], and [Explosives][] by one step.
 
 Penalty
-:   Decreases [Stealth][], [Medicine][], and [Empathy][] by `1`.
+:   Decreases [Stealth][], [Medicine][], and [Empathy][] by one step.
 
 ##### Pacifist
 
 Weapons win fights, words win wars.
 
 Benefit
-:   Increases [Commerce][], [Empathy][], [Perform][], and [Persuade][] by `1`.
+:   Increases [Commerce][], [Empathy][], [Perform][], and [Persuade][] by one
+step.
 
 Penalty
 :   Decreases [Heavy Weapons][], [Light Weapons][], [Explosives][], and
-[Melee][] by `1`.
+[Melee][] by one step.
 
 ##### Sociopath
 
 You know how to manipulate people.
 
 Benefit
-:   Increases [Bluffing][], [Intimidate][], and [Persuade][] by `1`.
+:   Increases [Bluffing][], [Intimidate][], and [Persuade][] by one step.
 
 Penalty
 :   You cannot use [Empathy][] anymore.
@@ -64,10 +65,10 @@ Penalty
 You have read many books and literature.
 
 Benefit
-:   Increases [Engineering][], [Linguistics][], and [Science][] by `1`.
+:   Increases [Engineering][], [Linguistics][], and [Science][] by one step.
 
 Penalty
-:   Decreases [Athletics][], [Force][], and [Melee][] by `1`.
+:   Decreases [Athletics][], [Force][], and [Melee][] by one step.
 
 </div>
 

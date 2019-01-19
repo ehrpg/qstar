@@ -26,8 +26,9 @@ The GM tells you if you succeeded or failed.
 ### Extras
 
 After a successful roll, divide the final roll by `4` and subtract `1`. This is
-the amount of *Extras* you get for the check. An *Extra* improves certain values,
-e.g. the damage you deal after a successful Attack.
+the amount of *Extras* you get for the check. An *Extra* improves certain
+values, e.g. the damage you deal after a successful Attack. The *Extras* cannot
+be lower than 0.
 
 !!! summary "Skill Extras"
     <div class="formula formula-top formula-bottom">
@@ -47,6 +48,12 @@ Any modifier can influence the final roll for a [Skill][]. For example, bad
 weather gives you a `-1` penalty, or having the right tool at hand might give
 you a `+1` bonus. Modifiers make it harder or easier for a Task to succeed.
 
+#### Skill Dice
+
+Under some circumstances, a die can be modified beyond a [d12][] or below a
+[d4][]. If it's increased beyond a [d12][], you gain a `+1` bonus on all checks.
+If a [d4][] is decreased, you suffer a `-2` penalty on all checks.
+
 #### Skill Familiarization
 
 Most [Skills][] are very vaguely described and not very specific to simplify
@@ -56,7 +63,7 @@ use it. In this case, the [Skill][] roll should suffer a `-2` penalty. For
 exceptional knowledge about a certain topic, the GM may provide a `+2` bonus to
 the roll.
 
-#### Untrained Skills
+### Untrained Skills
 
 An **untrained** [Skill][] cannot be used normally. The GM decides if you can
 use the **untrained** [Skill][] for a single Task. Using an **untrained**
@@ -91,7 +98,7 @@ with a [Difficulty Level][] of 4. A successful check adds a `+2` bonus to the
 supported character's [Skill][] check.
 
 There can be multiple supporters to increase the chance of someone succeeding on
-the [Skill][] check, but the bonus doesn't increase.
+the [Skill][] check, but the bonus doesn't stack.
 
 Supporters can critically fail on their [Skill][] check. Each critical fail
 imposes a `-2` penalty to the supported character's [Skill][] check.
@@ -121,10 +128,10 @@ falling debris, etc.
 <br>
 With this [Skill][] being **untrained**, the character **cannot** swim.
 
-| Modifier | Example                        |
-|:--------:|--------------------------------|
-|   `-2`   | Sparce or only thin handholds. |
-|   `-2`   | Surface is slippery            |
+| Climbing Modifier | Example                        |
+|:-----------------:|--------------------------------|
+|       `-2`        | Sparce or only thin handholds. |
+|       `-2`        | Surface is slippery            |
 
 ##### Force
 
