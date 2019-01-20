@@ -225,13 +225,13 @@ If a target wears Armor, all damage you deal is reduced by the target's DR.
 Damage that's reduced by the Armor is dealt to the Armor's Durability instead.
 If the Armor's Durability reaches 0, it does not provide DR anymore.
 
-Some weapons and Actions circumvent the armor's damage reduction, e.g.
+Some weapons and Actions circumvent the Armor's damage reduction, e.g.
 Armor-Piercing Ammunition.
 
 !!! example "Damage Reduction"
-    A target wears an armour with a physical DR of 3, and a durability of 10. He
-    receives 5 physical damage. The armour blocks 3 of the 5 incoming damage.
-    The durability of armour is reduced to 7, and the target only receives 2
+    A target wears an armor with a physical DR of 3, and a durability of 10. He
+    receives 5 physical damage. The armor blocks 3 of the 5 incoming damage.
+    The durability of armor is reduced to 7, and the target only receives 2
     points of damage.
 
 ### Non-lethal damage

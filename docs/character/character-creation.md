@@ -47,7 +47,7 @@ A character has 15 Skill Points that can be distributed among the available
 Every character needs some equipment. With your starting money, buy some
 commonly helpful [items](/equipment/util-misc/), such as a torchlight, rations,
 backpacks, etc. With the rest of your money you should buy a half decent
-[Weapon](/equipment/weapons/) and some [Armour](/equipment/armour-outfits/).
+[Weapon](/equipment/weapons/) and some [Armor](/equipment/armor-outfits/).
 
 ### 7. Fill In The Blanks
 

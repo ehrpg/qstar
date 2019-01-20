@@ -79,7 +79,7 @@ You can roll an Athletics check, similar to [Dodging](/crisis#dodging), to treat
 the fall 2 tiles less. For every [Extra](/character/skills#extras) you can treat
 the fall 2 tiles less.
 
-An armour's [Physical][] DR does not block this kind of damage.
+An armor's [Physical][] DR does not block this kind of damage.
 
 #### Jumping out a moving vehicle
 

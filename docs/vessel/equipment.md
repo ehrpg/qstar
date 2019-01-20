@@ -1,6 +1,6 @@
 # Equipment
 
-## Armour
+## Armor
 
 ## Utility
 

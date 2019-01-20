@@ -1,43 +1,43 @@
 
-# Armour & Outfits
+# Armor & Outfits
 
-### Armour
+### Armor
 
-> Armour is the first layer of defenses and prevents some damage a character
+> Armor is the first layer of defenses and prevents some damage a character
 > receives.
 
-Armour provides Damage Reduction (DR) for these damage types:
+Armor provides Damage Reduction (DR) for these damage types:
 
 - [Physical][] (including Kinetic) Damage,
 - [Fire][] (including Explosive) Damage,
 - [Cold][] Damage,
 - [Acid][] (including Radiation, Biohazard) Damage.
 
-An armour blocks an amount of damage equal to its DR value for the type of the
+An armor blocks an amount of damage equal to its DR value for the type of the
 damage.
 
-If the damage received is less than the armour's DR, the armour's Durability is
-still reduced by 2 points. If the armour doesn't block all damage with its DR,
-the armour's Durability is reduced by the blocked damage---its DR value.
+If the damage received is less than the armor's DR, the armor's Durability is
+still reduced by 2 points. If the armor doesn't block all damage with its DR,
+the armor's Durability is reduced by the blocked damage---its DR value.
 
-| Name         | Durability | [Physical][] | [Fire][] | [Cold][] | [Acid][] | Bulk |   Cost | [RES][] |
-|--------------|:----------:|:------------:|:--------:|:--------:|:--------:|:----:|-------:|:-------:|
-| Light Armour |     25     |      4       |    2     |    4     |    2     |  2   |  1.000 |    0    |
-| Heavy Armour |    100     |      8       |    4     |    2     |    4     |  5   | 10.000 |    3    |
-| Hazmat Suit  |     50     |      0       |    4     |    6     |    8     |  4   |  2.500 |    2    |
+| Name        | Durability | [Physical][] | [Fire][] | [Cold][] | [Acid][] | Bulk |   Cost | [RES][] |
+|-------------|:----------:|:------------:|:--------:|:--------:|:--------:|:----:|-------:|:-------:|
+| Light Armor |     25     |      4       |    2     |    4     |    2     |  2   |  1.000 |    0    |
+| Heavy Armor |    100     |      8       |    4     |    2     |    4     |  5   | 10.000 |    3    |
+| Hazmat Suit |     50     |      0       |    4     |    6     |    8     |  4   |  2.500 |    2    |
 
-!!! example "Armour, DR and Durablity"
-    An opponent wears a *Light Armour* and his hit for 4 Physical Damage. The
-    Armour's DR blocks all the incoming damage, so the Armour's Durablity is
+!!! example "Armor, DR and Durablity"
+    An opponent wears a *Light Armor* and his hit for 4 Physical Damage. The
+    Armor's DR blocks all the incoming damage, so the Armor's Durablity is
     only reduced by 2 points.
     <br>
-    Next time, the opponent his hit harder with 9 Physical Damage. The Armour's
+    Next time, the opponent his hit harder with 9 Physical Damage. The Armor's
     DR blocks 5 damage, so the opponent only receives 4 Physical Damage. The
-    Armour's Durability is reduced by 5 points.
+    Armor's Durability is reduced by 5 points.
 
-#### Repairing Armour
+#### Repairing Armor
 
-Armour that reaches 0 Durability does not provide DR anymore. It has to be
+Armor that reaches 0 Durability does not provide DR anymore. It has to be
 repaired first, which costs half its **Cost**.
 
 ### Outfits

@@ -34,9 +34,9 @@ Like race, only for vessels.
 
 All stats defined by vessel base.
 
-| Primary stat |    0 |    1 |    2 |    3 |    4 |    5 |    6 |    7 |    8 |    9 |   10 |
-|--------------|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
-| Modifier     |   -3 |   -2 |   -2 |   -1 |   -1 |   +0 |   +1 |   +1 |   +2 |   +2 |   +3 |
+| Primary stat |  0 |  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 |
+|--------------|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Modifier     | -3 | -2 | -2 | -1 | -1 | +0 | +1 | +1 | +2 | +2 | +3 |
 
 `MAX = 10 - origin penalties`
 
@@ -134,9 +134,9 @@ penalty, and the second one a -4 penalty.
 #### Ammunition
 
 AP Ammunition
-:   Reduces the armour's durability by another point.
+:   Reduces the armor's durability by another point.
 
 HP Ammunition
 :   Deals double the amount of [Endurance](/character#endurance-ep) damage to a
-target, provided it's not wearing any armour that provides DR and has durability
+target, provided it's not wearing any armor that provides DR and has durability
 left.

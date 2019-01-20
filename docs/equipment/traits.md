@@ -147,7 +147,7 @@ minimum of 1.
 ##### Armor-Piercing Ammo
 
 You bypass up to 2 [Physical][] DR, but still reduce the durability of the
-target's armour by that amount.
+target's armor by that amount.
 
 [RES][]
 :   3
@@ -187,13 +187,13 @@ Your weapons **CAP** is increased by 5.
 
 </div>
 
-## Armour Attachments & Upgrades
+## Armor Attachments & Upgrades
 
 <div class="qs-list-test full-width" markdown="1">
 
-##### Armour Plating
+##### Armor Plating
 
-Your Armour's Durability is increased by 10 points.
+Your Armor's Durability is increased by 10 points.
 
 [RES][]
 :   1
@@ -207,14 +207,14 @@ Your [Carrying Capacity][] increases by 1 point.
 
 ##### Protective Linen
 
-The DR of your Armour for [Fire][] and [Cold][] increases by 1 point each.
+The DR of your Armor for [Fire][] and [Cold][] increases by 1 point each.
 
 [RES][]
 :   1
 
 ##### Lighter Meshes
 
-The [Bulk][] of your Armour is reduced by 1, to a minimum of 1.
+The [Bulk][] of your Armor is reduced by 1, to a minimum of 1.
 
 [RES][]
 :   1
