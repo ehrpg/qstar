@@ -6,7 +6,7 @@ in another. There is always a trade-off for specialization.
 You can pick 0 to 2 Traits. Traits can only be picked at [character
 creation](/character/character-creation).
 
-<div class="qs-list-test full-width" markdown="1">
+<div class="qs-list-test full-width" style="display: none;" markdown="1">
 
 ##### Beast of Burden
 

@@ -63,7 +63,9 @@ perk itself, in case the requirements are met once again.
 
 ##### Animal Friend
 
-You can use the [Persuade][] Skill to tame animals that aren't hostile.
+You can use the [Persuade][] Skill to tame animals that aren't hostile. Tamed
+animals follow you and can do basic tasks, provided you feed them regularly. The
+longer you have an animal, the more loyal it gets.
 
 Requires
 :   [Soul][] [d8][]
@@ -77,7 +79,7 @@ Requires
 
 ##### Healthy
 
-You gain 3 additional [Health](/character/#health-hp) points.
+You gain 5 additional [Health](/character/#health-hp) points.
 
 Requires
 :   [Body][] [d8][]
@@ -91,7 +93,7 @@ Requires
 
 ##### Versatile
 
-You gain 2 Skill Points.
+You gain 1 Skill Point.
 
 Requires
 :   [Mind][] [d6][]
@@ -132,8 +134,8 @@ Requires
 ##### Assassin
 
 While sneaking and undetected by your target, you deal additional wounds,
-provided the Attack hits your target. The extra damage you deal is equal to
-twice the [Extras](/character/skills/#extras) you score.
+provided the Attack hits your target. You deal extra damage equal to your
+[Mind][].
 
 Requires
 :   [Stealth][] [d10][]
@@ -187,15 +189,14 @@ Requires
 
 ##### Lightning Reflexes
 
-When you [Parry](/crisis#parrying) and wield a melee weapon, you receive a `+1`
-bonus on your [Melee][] roll.
+When rolling for Turn Order, you receive a `+2` bonus on the roll.
 
 Requires
 :   [Melee][] [d8][]
 
 ##### Martial Arts Master
 
-Your Attacks only cost 1 [AP][] when attacking unarmed.
+Your Attacks cost one [AP][] less when attacking unarmed.
 
 Requires
 :   [Melee][] [d12][]
@@ -207,7 +208,7 @@ Requires
 
 When an enemy moves out of your melee range, and you wield a melee weapon, you
 can make a melee Attack versus the enemy without any [AP][] cost. You cannot use
-special Actions while doing so.
+special Actions while doing so. Can only trigger once per round.
 
 Requires
 :   [Melee][] [d6][]
