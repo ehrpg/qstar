@@ -18,17 +18,16 @@ See [Races][].
 > him.
 
 An [Attribute][] has either a [d4][], [d6][], [d8][], [d10][], or [d12][]
-assigned to it. It can be used for basic Tasks related to this [Attribute][] if
-no [Skill][] applies.
+assigned to it. The average for a human is a [d6][].
 
-Every [Attribute][] has an initial value of a [d4][]. An [Attribute][] cannot
-drop below a [d4][] or be raised above a [d12][].
+Every [Attribute][] has an **initial value** of a [d4][]. An [Attribute][]
+cannot drop below a [d4][] or be raised above a [d12][].
 
 #### Body
 
-[Body][] is used for [Pace][], [Turn Order](/crisis/#turn-order), [Natural
-Healing](/crisis/#natural-healing) and resisting bodily effects such as poisons,
-diseases, etc.
+[Body][] is used for [Health][], [Pace][], [Turn Order](/crisis/#turn-order),
+[Natural Healing](/crisis/#natural-healing) and resisting bodily effects such as
+[Hazards][], etc.
 
 Its associated [Skills][] are [Action][] Skills.
 
@@ -74,11 +73,15 @@ See [Skills][] for a list of available skills and more information.
 > Health abstracts how much wounds a character can take before being
 > incapacitated or dead.
 
+For the [Body][] Attribute you roll your die and add it to the Base value. As
+with any die, the [Body][] die can *explode* as well. If your [Body][] Attribute
+is improved by a level-up, you roll your new die and add it to your [Health][].
+
 See [Wounds](/crisis#wounds) and [Healing](/crisis#healing) for more details.
 
 !!! summary "Health"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">8</span> +
+        <span data-bracket-bottom="Base">20</span> +
         <span data-bracket-top="Body Attribute">[Body][]</span> ±
         <span data-bracket-bottom="Race / Talents / etc">Circumstance</span>
     </div>
@@ -88,18 +91,19 @@ See [Wounds](/crisis#wounds) and [Healing](/crisis#healing) for more details.
 > The Pace gives you an estimate how quickly you can go from A to B.
 
 The Pace is used to determine how far the creature gets by using the Move
-Action.
+Action. You can use up your [Body][] die's sides halfed in meters.
 
 The Pace can be lowered by Conditions and Overburdening due to too much
-[Bulk][]. In any case, the Pace can't drop below 1, unless an effect
-specifically states it.
+[Bulk][]. If your [Pace][] drops to 0, your character is immobilized.
 
 !!! summary "Pace"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">2</span> +
-        <span data-bracket-top="Body Attribute">[Body][] / 2</span> +
-        <span data-bracket-bottom="Race / Talents / etc">Circumstance</span>
+        <span data-bracket-bottom="Body Attribute">[Body][] / 2</span> +
+        <span data-bracket-top="Race / Talents / etc">Circumstance</span>
     </div>
+
+!!! example "Pace"
+    A character with a [d8][] in [Body][] has a [Pace][] of 4.
 
 ### Parry
 
@@ -112,10 +116,9 @@ The value for Parry cannot drop below 2.
 
 !!! summary "Parry"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">2</span> +
-        <span data-bracket-top="Melee Skill">[Melee][] / 2</span> -
-        <span data-bracket-bottom="max 5">`1` per ally</span> ±
-        <span data-bracket-top="Race / Talents / etc">Circumstance</span>
+        <span data-bracket-bottom="Melee Skill">[Melee][]</span> -
+        <span data-bracket-top="max 4">`1` per additional enemy</span> ±
+        <span data-bracket-bottom="Race / Talents / etc">Circumstance</span>
     </div>
 
 ### Perception (PER)
@@ -123,15 +126,13 @@ The value for Parry cannot drop below 2.
 > Perception measures your character's ability to detect hidden stuff without
 > looking for it actively.
 
-Every Stealth [Skill][] roll is opposed by [Perception][]. Per ally near you,
-that's able to detect, you receive a `+1` bonus to your [Perception][].
+Every [Stealth][] roll is opposed by [Perception][]. Per ally near you, that's
+able to detect, you receive a `+1` bonus to your [Perception][].
 
 !!! summary "Perception"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">2</span> +
-        <span data-bracket-top="Body Attribute">[Body][] / 4</span> +
-        <span data-bracket-bottom="Mind Attribute">[Mind][] / 4</span> +
-        <span data-bracket-top="max 5">`1` per ally</span> ±
+        <span data-bracket-bottom="Mind Attribute">[Mind][] / 2</span> +
+        <span data-bracket-top="max 4">`1` per ally</span> ±
         <span data-bracket-bottom="Race / Talents / etc">Circumstance</span>
     </div>
 
@@ -169,12 +170,12 @@ resourceful and adaptable.
 
 ### Attribute Points
 
-Every 4 levels (Level 4, 8, 12, 16, and so on), a character gains an Attribute
+Every 3 levels (Level 3, 6, 9, 12, and so on), a character gains an Attribute
 Point that can be assigned to [Body][], [Mind][], or [Soul][].
 
 ### Skill Points
 
-Every level, a character receives 4 Skill Points.
+Every level, a character receives 3 Skill Points.
 
 ## Acquisitions
 
@@ -430,9 +431,8 @@ Cost
 
 ### Learning languages at character creation
 
-If a character is created, the player can spend Skill Points to learn new
-languages, or to improve his native language. The cost to learn is different for
-each step: *Basic* and *Normal* cost 1 Skipp Point, *Master* costs 2 Skill
-Points.
+If a character chooses to upgrade the [Linguistics][] Skill, he also improves
+one of his languages to the next step, or learns a new on at *Basic* level.
+Upgrading to *Master* level requires two [Linguistics][] upgrades however.
 
 --8<-- "_links.md"

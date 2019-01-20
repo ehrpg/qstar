@@ -26,7 +26,7 @@ See [Races][] for a list of available [Races], or talk to your GM if the
 ### 3. Improve Attributes
 
 After you pick a [Race][] you can improve your [Attributes][]. You get a total
-of 4 Attribute Points. . See [Improving an
+of 3 Attribute Points. . See [Improving an
 Attribute](/character#improving-an-attribute).
 
 ### 4. Choose traits
@@ -39,7 +39,7 @@ to your GM if he approves of it.
 
 ### 5. Improve Skills
 
-A character has 20 Skill Points that can be distributed among the available
+A character has 15 Skill Points that can be distributed among the available
 [Skills][]. See [Improving a Skill](/character/skills#improving-a-skill).
 
 ### 6. Buy Equipment

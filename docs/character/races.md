@@ -25,7 +25,7 @@ Below is a list of possible [Races][], provided by the Q* RPG system.
 
 ##### Human
 
-A human starts with all [Attributes][] at a [d6][].
+A human starts with [Soul][] at a [d6][].
 
 [Perks][]
 :   Humans start with the [Versatile](/character/perks#versatile) Talent for

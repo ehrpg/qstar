@@ -8,10 +8,10 @@ to chance and its outcome is uncertain.
 
 ### Skill Ranks
 
-A [Skill][] has either a [d4][], [d6][], [d8][], [d10][], or [d12][] assigned
-to it.
+Every [Skill][] has either a [d4][], [d6][], [d8][], [d10][], or [d12][]
+assigned to it.
 
-A [Skill][] is initially **untrained**.
+Every [Skill][] has an **initial value** of a [d4][].
 
 ## Skill Rolls
 
@@ -25,6 +25,7 @@ The GM tells you if you succeeded or failed.
 
 ### Extras
 
+**Combat only**{.block}
 After a successful roll, divide the final roll by `4` and subtract `1`. This is
 the amount of *Extras* you get for the check. An *Extra* improves certain
 values, e.g. the damage you deal after a successful Attack. The *Extras* cannot
@@ -52,7 +53,8 @@ you a `+1` bonus. Modifiers make it harder or easier for a Task to succeed.
 
 Under some circumstances, a die can be modified beyond a [d12][] or below a
 [d4][]. If it's increased beyond a [d12][], you gain a `+1` bonus on all checks.
-If a [d4][] is decreased, you suffer a `-2` penalty on all checks.
+If a [d4][] is decreased, you cannot use the [Skill][] anymore but for very
+basic tasks.
 
 #### Skill Familiarization
 
@@ -62,19 +64,6 @@ that a [Skill][] is dramatically different than how the character would normale
 use it. In this case, the [Skill][] roll should suffer a `-2` penalty. For
 exceptional knowledge about a certain topic, the GM may provide a `+2` bonus to
 the roll.
-
-### Untrained Skills
-
-An **untrained** [Skill][] cannot be used normally. The GM decides if you can
-use the **untrained** [Skill][] for a single Task. Using an **untrained**
-[Skill][] is done by rolling a [d4][], but you also suffer a `-2` penalty.
-
-!!! tip "[GM Tip] Untrained Skills"
-    There is no clear rule as to whether or not a character can use an
-    **untrained** [Skill][]. As a rule of thumb, if it's something a character
-    could know or do without specializing in a [Skill][], then they should be
-    able to roll on that [Skill][], e.g. common knowledge or something the
-    character might have picked up in TV.
 
 ### Skill Contests
 

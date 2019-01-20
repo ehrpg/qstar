@@ -81,7 +81,8 @@ A weapon can have one or more of the following tags.
 ##### Burst
 
 Weapons with the Burst Tag can only fire a single bullet or a number of bullets
-equal to its **RoF**.
+equal to its **RoF**. You can add and deal the damage for all Attacks that hit
+as if they were a single Attack.
 
 ##### Close range
 
@@ -90,18 +91,21 @@ within the first range increment.
 
 ##### Long range
 
-`+2` on **HIT** for the Attack when using an **RoF** of `1`.
+If you make an Attack with an **RoF** of `1` you deal a single die more damage.
+<br>
+A weapon with [2d6](#d6) damage would deal [3d6](#d6) instead when using an
+**RoF** of `1`.
 
 ##### Explosive
 
 An explosive weapon deals more damage, the closer the target is to the center of
-the **AoE**. At the center, an explosive weapon deals its damage multiplied by
-its **AoE** value. Per tile away from the center, the weapon deals 1x its damage
-less, to a minimum of its normal damage.
+the **AoE**. At the center, an explosive weapon deals all its dice as damage.
+Per tile away from the center, the weapon deals one die less, to a minimum of a
+single die of its damage.
 <br>
-For example, a Grenade (**AoE**: 3; **AoE DMG**: 5) deals 15 damage at the
-center, 10 damage next to the center, and 5 damage when the target is away 2 or
-3 tiles.
+For example, a Grenade deals [3d8](#d8) damage at the center. [2d8](#d8) next to
+the center, and [1d8](#d8) when the target is two tiles away. Three tiles away
+the grenade doesn't deal any damage anymore.
 
 </div>
 
@@ -109,15 +113,15 @@ center, 10 damage next to the center, and 5 damage when the target is away 2 or
 
 All weapons listed in this category use the Melee [Skill][] for Attacks.
 
-| Name                    |  HIT | DMG | RoF | Bulk |  Cost | [RES][] |
-|-------------------------|-----:|----:|----:|:----:|------:|:-------:|
-| Unarmed                 |  `0` |   1 |   1 |  -   |     - |    -    |
-| Improvised blunt weapon | `-1` |   2 |   1 |  1   |     - |    -    |
-| Improvised sharp weapon | `-1` |   2 |   1 |  1   |     - |    -    |
-| Brass knuckles          | `+1` |   1 |   1 |  L   |   100 |    -    |
-| Knife                   |  `0` |   2 |   1 |  L   |   100 |    -    |
-| Baton                   | `+1` |   3 |   1 |  L   |   250 |    -    |
-| Sword                   | `+1` |   4 |   1 |  2   | 1.000 |    1    |
+| Name                    |          DMG | RoF | Bulk |  Cost | [RES][] |
+|-------------------------|-------------:|----:|:----:|------:|:-------:|
+| Unarmed                 | [Body][] - 2 |   1 |  -   |     - |    -    |
+| Improvised blunt weapon | [Body][] - 1 |   1 |  1   |     - |    -    |
+| Improvised sharp weapon | [Body][] - 1 |   1 |  1   |     - |    -    |
+| Brass knuckles          |     [Body][] |   1 |  L   |   100 |    -    |
+| Knife                   |     [Body][] |   1 |  L   |   100 |    -    |
+| Baton                   |     [Body][] |   1 |  L   |   250 |    -    |
+| Sword                   |  2x [Body][] |   1 |  2   | 1.000 |    1    |
 
 ### Ranged Weapons
 
@@ -125,14 +129,14 @@ All weapons listed in this category use the Light Weapons [Skill][] for Attacks.
 
 </table>
 
-| Name         |  HIT | DMG | RNG | RoF | MAG | CAP | REL | Bulk |   Cost | [RES][] | Tags                          |
-|--------------|-----:|----:|----:|----:|----:|----:|----:|:----:|-------:|:-------:|-------------------------------|
-| Pistol       | `+1` |   3 |   4 |   2 |   ∞ |   7 |   2 |  1   |  1.000 |    -    |                               |
-| SMG          | `+1` |   3 |   4 |   3 |   4 |  25 |   2 |  2   |  3.000 |    1    |                               |
-| Shotgun      | `+1` |   4 |   2 |   1 |   - |  24 |   1 |  4   |  2.500 |    1    | Attack: 3 [AP][]; close range |
-| Carbine      | `+2` |   4 |   5 |   3 |   3 |  30 |   2 |  3   |  5.000 |    2    |                               |
-| Battle Rifle | `+2` |   4 |  10 |   2 |   3 |  20 |   2 |  4   | 10.000 |    2    | long range                    |
-| Sniper Rifle | `+4` |   5 |  20 |   1 |   - |   5 |   1 |  5   | 25.000 |    3    | Attack: 3 [AP][]; long range  |
+| Name         |          DMG | RNG | RoF | MAG | CAP | REL | Bulk |   Cost | [RES][] | Tags                          |
+|--------------|-------------:|----:|----:|----:|----:|----:|:----:|-------:|:-------:|-------------------------------|
+| Pistol       |       [d6][] |   4 |   2 |   ∞ |   7 |   2 |  1   |  1.000 |    -    |                               |
+| SMG          |       [d6][] |   4 |   3 |   4 |  25 |   2 |  2   |  3.000 |    1    |                               |
+| Shotgun      |   [2d6](#d6) |   2 |   1 |   - |  24 |   1 |  4   |  2.500 |    1    | Attack: 3 [AP][]; close range |
+| Carbine      |      [d10][] |   5 |   3 |   3 |  30 |   2 |  3   |  5.000 |    2    |                               |
+| Battle Rifle |      [d12][] |  10 |   1 |   3 |  20 |   2 |  4   | 10.000 |    2    |                               |
+| Sniper Rifle | [2d12](#d12) |  20 |   1 |   - |   5 |   1 |  5   | 25.000 |    3    | Attack: 3 [AP][];             |
 
 ### Thrown Weapons
 
@@ -143,20 +147,20 @@ Without any equipment that can hold thrown weapons, you can only carry one
 combat-ready thrown weapon with you at any time. You can still have backups in
 e.g. a backpack.
 
-| Name             | HIT |    AoE | RNG | Bulk | Cost | [RES][] | Tags                                                                 |
-|------------------|----:|-------:|----:|:----:|-----:|:-------:|----------------------------------------------------------------------|
-| Grenade          | `0` | `3(5)` |   4 |  L   |      |    -    | explosive                                                            |
-| Molotov Cocktail | `0` | `1(4)` |   3 |  L   |      |    -    | Burns the **AoE** area for [1d4](#d4) rounds with 1 [Fire][] damage. |
-| Smoke Grenade    | `0` | `2(-)` |   4 |  L   |      |    -    | *Obscures* an area with smoke.                                       |
-| Stun Grenade     | `0` | `3(-)` |   4 |  L   |      |    -    | Applies [Stunned](/crisis#stunned) for 1 round.                      |
+| Name             |        AoE | RNG | Bulk | Cost | [RES][] | Tags                                                                                     |
+|------------------|-----------:|:---:|:----:|-----:|:-------:|------------------------------------------------------------------------------------------|
+| Grenade          | [3d8](#d8) |  4  |  L   |      |    -    | explosive                                                                                |
+| Molotov Cocktail |     [d4][] |  3  |  L   |      |    -    | Burns the area 1 tile away from the center for [1d4](#d4) rounds with 1 [Fire][] damage. |
+| Smoke Grenade    |    - `(2)` |  4  |  L   |      |    -    | *Obscures* an area with smoke.                                                           |
+| Stun Grenade     |    - `(3)` |  4  |  L   |      |    -    | Applies [Stunned](/crisis#stunned) for 1 round.                                          |
 
 ### Heavy Weapons
 
 All weapons listed in this category use Heavy Weapons [Skill][] for Attacks.
 
-| Name |  HIT |    AoE | RNG | RoF | MAG | CAP | REL | Bulk |   Cost | [RES][] | Tags                        |
-|------|-----:|-------:|----:|----:|----:|----:|----:|:----:|-------:|:-------:|-----------------------------|
-| RPG  | `+2` | `4(5)` |  10 |   1 |   - |   1 |   4 |  8   | 20.000 |    4    | Attack: 4 [AP][]; explosive |
+| Name |        AoE | RNG | RoF | MAG | CAP | REL | Bulk |   Cost | [RES][] | Tags                        |
+|------|-----------:|----:|----:|----:|----:|----:|:----:|-------:|:-------:|-----------------------------|
+| RPG  | [4d8](#d8) |  10 |   1 |   - |   1 |   4 |  8   | 20.000 |    4    | Attack: 4 [AP][]; explosive |
 
 --8<--
 _links.md

@@ -26,7 +26,7 @@ Benefit
 :   Increases [Force][], [Heavy Weapons][], and [Explosives][] by one step.
 
 Penalty
-:   Decreases [Stealth][], [Medicine][], and [Empathy][] by one step.
+:   You suffer a `-2` penalty on [Stealth][], [Medicine][], and [Empathy][].
 
 ##### Pacifist
 
@@ -37,8 +37,8 @@ Benefit
 step.
 
 Penalty
-:   Decreases [Heavy Weapons][], [Light Weapons][], [Explosives][], and
-[Melee][] by one step.
+:   You suffer a `-2` penalty on [Heavy Weapons][], [Light Weapons][],
+[Explosives][], and [Melee][].
 
 ##### Sociopath
 
@@ -68,7 +68,7 @@ Benefit
 :   Increases [Engineering][], [Linguistics][], and [Science][] by one step.
 
 Penalty
-:   Decreases [Athletics][], [Force][], and [Melee][] by one step.
+:   You suffer a `-2` penalty on [Athletics][], [Force][], and [Melee][].
 
 </div>
 

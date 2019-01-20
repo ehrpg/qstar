@@ -13,20 +13,27 @@ Armour provides Damage Reduction (DR) for these damage types:
 - [Cold][] Damage,
 - [Acid][] (including Radiation, Biohazard) Damage.
 
-Any damage you receive is reduced by the armour's DR value for the type of the
-damage. The damage blocked by the DR is substracted from the armour's
-Durability.
+An armour blocks an amount of damage equal to its DR value for the type of the
+damage.
 
-Any incoming damage is reduced by the armour's DR value for the type of the
-damage first.
+If the damage received is less than the armour's DR, the armour's Durability is
+still reduced by 2 points. If the armour doesn't block all damage with its DR,
+the armour's Durability is reduced by the blocked damage---its DR value.
 
 | Name         | Durability | [Physical][] | [Fire][] | [Cold][] | [Acid][] | Bulk |   Cost | [RES][] |
 |--------------|:----------:|:------------:|:--------:|:--------:|:--------:|:----:|-------:|:-------:|
-| Light Armour |     20     |      5       |    2     |    4     |    2     |  2   |  1.000 |    0    |
-| Heavy Armour |    100     |      10      |    4     |    2     |    4     |  5   | 10.000 |    3    |
-| Hazmat Suit  |     45     |      0       |    4     |    8     |    10    |  4   |  2.500 |    2    |
+| Light Armour |     25     |      4       |    2     |    4     |    2     |  2   |  1.000 |    0    |
+| Heavy Armour |    100     |      8       |    4     |    2     |    4     |  5   | 10.000 |    3    |
+| Hazmat Suit  |     50     |      0       |    4     |    6     |    8     |  4   |  2.500 |    2    |
 
-
+!!! example "Armour, DR and Durablity"
+    An opponent wears a *Light Armour* and his hit for 4 Physical Damage. The
+    Armour's DR blocks all the incoming damage, so the Armour's Durablity is
+    only reduced by 2 points.
+    <br>
+    Next time, the opponent his hit harder with 9 Physical Damage. The Armour's
+    DR blocks 5 damage, so the opponent only receives 4 Physical Damage. The
+    Armour's Durability is reduced by 5 points.
 
 #### Repairing Armour
 

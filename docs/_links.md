@@ -57,6 +57,9 @@
 [Skill Ranks]: /character/skills/#skill-ranks
 [Trained-only Skills]: /character/skills/#trained-only-skills
 
+[Hazard]: /environment/#hazards
+[Hazards]: /environment/#hazards
+
 [Talent]: /character/talents/
 [Talents]: /character/talents/
 

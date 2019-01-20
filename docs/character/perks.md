@@ -91,7 +91,7 @@ Requires
 
 ##### Versatile
 
-You gain 25 CP.
+You gain 2 Skill Points.
 
 Requires
 :   [Mind][] [d6][]

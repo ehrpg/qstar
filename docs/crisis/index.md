@@ -5,28 +5,27 @@ crisis time slows down and actions become more atomic.*
 
 ## Difficulty
 
-Every task has a difficulty. Sometimes, under certain circumstances, a task
-might be easier or harder. Some tasks require equipment or knowledge in order to
-not suffer a penalty. Other tasks are very easy, and the roll gains a bonus, or
-you don't even have to roll at all.
+Every task usually has a difficulty of **4**. Sometimes, the GM may want to
+emphasize however, that a Task is a lot harder or easier than usually and adjust
+this value.
 
 Not all tasks **require** a check. For example, finding some information inside
 books can be done without a skill check given enough time. A skill check could
 be used to reduce the time spent searching, or it could unearth additional
 information that might be helpful.
 
-| Difficulty Level | Name        | Description                                                        |
-|:----------------:|-------------|--------------------------------------------------------------------|
-|       `0`        | Trivial     | Everyday tasks.                                                    |
-|       `1`        | Routine     | Tasks you do every few days, which can be done by almost everyone. |
-|       `2`        | Simple      | Most people can do this without much effort.                       |
-|       `3`        | Easy        | Even untrained people still can do these tasks sometimes.          |
-|       `4`        | Normal      | You need at least some training to complete these kind of tasks.   |
-|       `5`        | Demanding   | You either need gear or good training for these tasks.             |
-|       `8`        | Challenging | You need a lot of training and good gear.                          |
-|       `12`       | Hard        | You need to be a specialist for these tasks.                       |
-|       `16`       | Very Hard   | You require help from others to achieve this.                      |
-|       `20`       | Impossible  | A once in a lifetime achievement.                                  |
+| Difficulty Level | Name        | Description                                                          |
+|:----------------:|-------------|----------------------------------------------------------------------|
+|       `0`        | Trivial     | Everyday tasks.                                                      |
+|       `1`        | Routine     | Tasks you do every few days, which can be done by almost everyone.   |
+|       `2`        | Simple      | Most people can do this without much effort.                         |
+|       `3`        | Easy        | Even untrained people still can do these tasks sometimes.            |
+|     **`4`**      | **Normal**  | **You need at least some training to complete these kind of tasks.** |
+|       `5`        | Demanding   | You either need gear or good training for these tasks.               |
+|       `8`        | Challenging | You need a lot of training and good gear.                            |
+|       `12`       | Hard        | You need to be a specialist for these tasks.                         |
+|       `16`       | Very Hard   | You require help from others to achieve this.                        |
+|       `20`       | Impossible  | A once in a lifetime achievement.                                    |
 
 !!! tip "Difficulty"
     This is only a guideline about the difficulty level of certain tasks.
@@ -218,8 +217,7 @@ Status Effects are not applied in this case.
 
 !!! example "Attacking and Damaging"
     A character makes a Ranged Attack. His roll results in a 13. This nets him 2
-    Extras. The used weapon's damage is 2; adding the 2 extras, he would deal 4
-    points of damage.
+    Extras. Whatever weapon the attacker uses, he gains 2 extra damage.
 
 ### Damage Reduction
 
