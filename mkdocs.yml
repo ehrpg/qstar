@@ -85,6 +85,9 @@ nav:
 
         - NPCs:
             - NPCs: 'npc/index.md'
+            - Animals: 'npc/animals.md'
+            - Beasts: 'npc/beasts.md'
+            - Humanoids: 'npc/humanoids.md'
 
         - Vehicles & Vessels:
             - Vessel: 'vessel/index.md'

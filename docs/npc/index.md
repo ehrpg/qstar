@@ -71,9 +71,10 @@ Per Difficulty Level of the NPC, it receives three additional skill points.
 
 !!! summary "Health"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">Difficulty Level</span>
-        <span data-bracket-top="Base">x5</span> ±
-        <span data-bracket-bottom="Perks / Flaws / Race">Circumstance</span>
+        <span data-bracket-bottom="Base">10</span> +
+        <span data-bracket-top="Base">Difficulty Level</span>
+        <span data-bracket-bottom="Base">x5</span> ±
+        <span data-bracket-top="Perks / Flaws / Race">Circumstance</span>
     </div>
 
 ### Pace (PACE)
@@ -128,17 +129,17 @@ can be butchered for food, or skinned to make a profit later.
 [Credits](/equipment#credits) only make a small portion of the loot, if any at
 all. NPCs usually drop [LOOT][].
 
-### Ammunition
+#### Ammunition
 
 NPCs that use some sort of ranged weapon drop ammunition. See [Looting
 Ammunition](/equipment/#ammunition).
 
-### Credits
+#### Credits
 
 Some NPCs might have Credits on them: the easiest kind of loot. You can loot all
 their Credits without complications.
 
-### Items
+#### Items
 
 Items an NPC was using can also be looted. Depending on the combat, most items
 can break however. See [Looting Equipment](/equipment/#equipment_1).
