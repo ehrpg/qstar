@@ -25,15 +25,16 @@ cannot drop below a [d4][] or be raised above a [d12][].
 
 #### Body
 
-[Body][] is used for [Health][], [Pace][], [Turn Order](/crisis/#turn-order),
-[Natural Healing](/crisis/#natural-healing) and resisting bodily effects such as
+[Body][] is used for [Health][], [Pace][], [Natural
+Healing](/crisis/#natural-healing) and resisting bodily effects such as
 [Hazards][], etc.
 
 Its associated [Skills][] are [Action][] Skills.
 
 #### Mind
 
-[Mind][] is used for [Perception](/character#perception-per).
+[Mind][] is used for [Turn Order](/crisis/#turn-order), and
+[Perception](/character#perception-per).
 
 Its associated [Skills][] are [Knowledge][] Skills.
 

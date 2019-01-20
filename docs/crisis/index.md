@@ -63,7 +63,7 @@ character and an NPC tie, the player character acts first.
 
 !!! summary "Turn Order"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Body Attribute">[Body][]</span> ±
+      <span data-bracket-bottom="Mind Attribute">[Mind][]</span> ±
       <span data-bracket-top="Race / Talents / etc">Circumstance</span>
     </div>
 
