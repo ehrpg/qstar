@@ -1,36 +1,67 @@
-html {
-  font-size: 77.5%;
-}
-
-body, input {
-  font-family: 'Zag', 'Roboto';
-}
-
 .md-typeset:not(.md-search-result__item) strong.hf {
-  font-family: 'Zag';
+  font-family: "Zag";
   letter-spacing: 1px;
 }
 
-.md-typeset:not(.md-search-result__item) h1, .md-typeset:not(.md-search-result__item) h2, .md-typeset:not(.md-search-result__item) h3, .md-typeset:not(.md-search-result__item) h4, .md-typeset:not(.md-search-result__item) h5 {
-  font-family: 'Zag';
+.md-typeset:not(.md-search-result__item) h1,
+.md-typeset:not(.md-search-result__item) h2,
+.md-typeset:not(.md-search-result__item) h3,
+.md-typeset:not(.md-search-result__item) h4,
+.md-typeset:not(.md-search-result__item) h5 {
+  font-family: "Zag";
   letter-spacing: 2px;
   padding-left: 0;
   font-weight: normal;
 }
 
+.md-typeset:not(.md-search-result__item) h5:before {
+  margin-top: -2.1rem;
+  padding-top: 2.1rem;
+}
+
 .md-typeset:not(.md-search-result__item) h2 {
-  border: 2px solid #333;
-  border-radius: 25px;
-  padding-left: 20px !important;
-  background-color: #333;
+  border: 2px solid black;
+  background: black;
   color: white;
+  border-radius: 50px;
+  text-align: left !important;
+  padding-left: 20px !important;
 }
 
 .md-typeset:not(.md-search-result__item) h2 > a.headerlink {
   color: #efefef;
 }
 
+.md-typeset:not(.md-search-result__item) h3 {
+  border: 2px solid black;
+  border-radius: 50px;
+  text-align: left !important;
+  padding-left: 20px !important;
+}
+
+.md-typeset:not(.md-search-result__item) h1,
+.md-typeset:not(.md-search-result__item) h2,
+.md-typeset:not(.md-search-result__item) h3,
+.md-typeset:not(.md-search-result__item) h4 {
+  font-weight: bold;
+}
+
+.md-typeset:not(.md-search-result__item) h4 {
+  margin-bottom: 0;
+}
+
 article.md-typeset:not(.md-search-result__item) > a.md-icon.md-content__icon {
   z-index: 2;
+}
+
+.md-typeset p,
+.md-typeset ul,
+.md-typeset ol,
+.md-typeset blockquote {
+  margin: 0 0 0.5em 0;
+}
+
+.md-typeset .admonition > p.admonition-title {
+  margin-bottom: 0.5em;
 }
 /*# sourceMappingURL=font.css.map */

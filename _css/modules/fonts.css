@@ -1,21 +1,21 @@
 @font-face {
-  font-family: 'Mainframe';
-  src: url("../_fonts/Mainframe-Opto.woff2") format("woff2"), url("../_fonts/Mainframe-Opto.woff") format("woff"), url("../_fonts/Mainframe-Opto.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Zag';
+  font-family: "Zag";
   src: url("../_fonts/ZagRegular.woff2") format("woff2"), url("../_fonts/ZagRegular.woff") format("woff"), url("../_fonts/ZagRegular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Zag';
+  font-family: "Zag";
   src: url("../_fonts/ZagBold.woff2") format("woff2"), url("../_fonts/ZagBold.woff") format("woff"), url("../_fonts/ZagBold.ttf") format("truetype");
   font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nasalization";
+  src: url("../_fonts/NasalizationRg-Regular.woff2") format("woff2"), url("../_fonts/NasalizationRg-Regular.woff") format("woff"), url("../_fonts/NasalizationRg-Regular.ttf") format("truetype"), url("../_fonts/NasalizationRg-Regular.svg#NasalizationRg-Regular") format("svg");
+  font-weight: normal;
   font-style: normal;
 }
 /*# sourceMappingURL=fonts.css.map */
