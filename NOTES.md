@@ -23,7 +23,7 @@ Character
     PACE: movement (Body)
     PER: perception (Mind)
     HP: health (Body)
-    Karma: -10 to +10
+    Karma: -10 to +10 ???
   Acquisitions: LOOT, ST, INF, RES, TECH
     LOOT: abstracts Looting
     ST: abstracts time
