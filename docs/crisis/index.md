@@ -250,14 +250,15 @@ When a target would die from a lethal Attack, the attacker can decide whether or
 not to apply non-lethal force, knocking the target unconcious instead of killing
 it.
 
-If a creature's Health drops to `0`, the creature is incapacitated and
-[Dying](#dying). If the Health drops to `-10`, the creature immediately dies.
+If a creature's Health drops to `0`, the creature is incapacitated and dying. If
+it drops to `-10`, the creature dies.
 
-Attacks that deal more than `12` wounds in one hit also incapacitate the target.
+Attacks that deal more than `20` wounds in one hit incapacitate the target.
 
 ## Healing
 
-The Medicine Skill can be used to treat wounds suffered within the last hour.
+The [Medicine][] Skill can be used to treat wounds suffered within the last
+hour.
 
 Wounds that are older than one hour have to heal naturally.
 
@@ -271,29 +272,31 @@ penalty to his roll. Having the right tools at hand via an Asset, the penalty is
 reduced to 0, rather than a `+1` bonus. Multiple Assets can provide a bonus
 instead.
 
-If the Medicine check was successful, the patient recovers from `1` wound, and
-an additional wound for each [Extra](/character/skill#extras).
+If the [Medicine][] check was successful, the patient heals wounds equal to the
+roll in addition to natural healing. Certain healing items also restore a
+specific amount of wounds.
+
+Healing a character can only be done once a day. Multiple healers provide a `+1`
+bonus, up to a `+4` bonus.
 
 #### Healing A Dying Character
 
-If a healer was successful on his Medicine check for his patient, the patient is
-not dying anymore, but stays incapacitated for the next 10 rounds.
+If a healer was successful on his [Medicine][] check for his patient, the
+patient is not dying anymore, but stays incapacitated for the next 10 rounds.
 
 #### Healing Non-Lethal Damage
 
-Non-lethal damage can be healed like lethal damage, but it's twice as effective,
-meaning a succesful Medicine check heals `2` non-lethal wounds, and each
-[Extra](/character/skill#extras) also heals `2` non-lethal damage.
+Non-lethal damage can be healed like lethal damage, but it's twice as effective.
 
 ### Natural Healing
 
 Every hour a non-lethal wound is healed automatically.
 
-Every day a wounded or incapacitated character has to attempt a [Body][] roll to
-heal `1` wound naturally. A critical failure on the [Body][] roll causes an
-additional wound. On a failed check nothing happens.
+Every day a wounded character can roll a [Body][] check and heal wounds equal to
+the roll, regardless of being healed or not. A critical failure on the [Body][]
+check causes an additional wound.
 
-The difficulty of Natural Healing is influenced by these conditions:
+The Natural Healing [Body][] roll is influenced by these conditions:
 
 | Modifier | Condition                                                             |
 |:--------:|-----------------------------------------------------------------------|

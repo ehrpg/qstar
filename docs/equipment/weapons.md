@@ -86,8 +86,8 @@ as if they were a single Attack.
 
 ##### Close range
 
-Close range weapons deal double their weapon damage when Attacking targets
-within the first range increment.
+Close range weapons deal less damage when attacking targets further away. Per
+range increment after the first one, you deal `-1` damage, to a minimum of `1`.
 
 ##### Long range
 
@@ -113,15 +113,15 @@ the grenade doesn't deal any damage anymore.
 
 All weapons listed in this category use the Melee [Skill][] for Attacks.
 
-| Name                    |          DMG | RoF | Bulk |  Cost | [RES][] |
-|-------------------------|-------------:|----:|:----:|------:|:-------:|
-| Unarmed                 | [Body][] - 2 |   1 |  -   |     - |    -    |
-| Improvised blunt weapon | [Body][] - 1 |   1 |  1   |     - |    -    |
-| Improvised sharp weapon | [Body][] - 1 |   1 |  1   |     - |    -    |
-| Brass knuckles          |     [Body][] |   1 |  L   |   100 |    -    |
-| Knife                   |     [Body][] |   1 |  L   |   100 |    -    |
-| Baton                   |     [Body][] |   1 |  L   |   250 |    -    |
-| Sword                   |  2x [Body][] |   1 |  2   | 1.000 |    1    |
+| Name                    |                   DMG | RoF | Bulk |  Cost | [RES][] |
+|-------------------------|----------------------:|----:|:----:|------:|:-------:|
+| Unarmed                 |              [Body][] |   1 |  -   |     - |    -    |
+| Improvised blunt weapon |              [Body][] |   1 |  1   |     - |    -    |
+| Improvised sharp weapon |              [Body][] |   1 |  1   |     - |    -    |
+| Brass knuckles          |     [Body][] + [d4][] |   1 |  L   |   100 |    -    |
+| Knife                   |     [Body][] + [d4][] |   1 |  L   |   100 |    -    |
+| Baton                   |     [Body][] + [d6][] |   1 |  L   |   250 |    -    |
+| Sword                   | [Body][] + [2d6](#d6) |   1 |  2   | 1.000 |    1    |
 
 ### Ranged Weapons
 
@@ -131,11 +131,11 @@ All weapons listed in this category use the Light Weapons [Skill][] for Attacks.
 
 | Name         |          DMG | RNG | RoF | MAG | CAP | REL | Bulk |   Cost | [RES][] | Tags                          |
 |--------------|-------------:|----:|----:|----:|----:|----:|:----:|-------:|:-------:|-------------------------------|
-| Pistol       |       [d6][] |   4 |   2 |   ∞ |   7 |   2 |  1   |  1.000 |    -    |                               |
-| SMG          |       [d6][] |   4 |   3 |   4 |  25 |   2 |  2   |  3.000 |    1    |                               |
-| Shotgun      |   [2d6](#d6) |   2 |   1 |   - |  24 |   1 |  4   |  2.500 |    1    | Attack: 3 [AP][]; close range |
-| Carbine      |      [d10][] |   5 |   3 |   3 |  30 |   2 |  3   |  5.000 |    2    |                               |
-| Battle Rifle |      [d12][] |  10 |   1 |   3 |  20 |   2 |  4   | 10.000 |    2    |                               |
+| Pistol       | [2d6+1](#d6) |   4 |   2 |   ∞ |   7 |   2 |  1   |  1.000 |    -    |                               |
+| SMG          |   [2d6](#d6) |   4 |   3 |   4 |  25 |   2 |  2   |  3.000 |    1    |                               |
+| Shotgun      |   [3d6](#d6) |   2 |   1 |   - |  24 |   1 |  4   |  2.500 |    1    | Attack: 3 [AP][]; close range |
+| Carbine      |   [2d8](#d8) |   5 |   3 |   3 |  30 |   2 |  3   |  5.000 |    2    |                               |
+| Battle Rifle | [2d10](#d10) |  10 |   1 |   3 |  20 |   2 |  4   | 10.000 |    2    |                               |
 | Sniper Rifle | [2d12](#d12) |  20 |   1 |   - |   5 |   1 |  5   | 25.000 |    3    | Attack: 3 [AP][];             |
 
 ### Thrown Weapons

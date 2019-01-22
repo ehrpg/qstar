@@ -91,6 +91,20 @@ You receive a `+1` bonus on all [Stealth][] checks.
 Requires
 :   [Body][] [d8][]
 
+##### Skill Focus
+
+You receive a `+1` bonus on a [Skill][] of your choice.
+
+Requires
+:   [Skill][] [d8][]
+
+##### Skill Master
+
+You receive another `+1` bonus on a [Skill][] of your choice.
+
+Requires
+:   [Skill Focus](#skill-focus), [Skill][] [d10][]
+
 ##### Versatile
 
 You gain 1 Skill Point.
@@ -172,6 +186,24 @@ cost.
 Requires
 :   [Light Weapons][] [d8][]
 
+##### Disarm
+
+You can use your [Melee][] Skill to disarm an opponent for 2 [AP][]. You and
+your opponent roll on [Melee][]. If you have the same or more on the roll than
+your opponent, the opponent drops the weapon.
+
+Requires
+:   [Melee][] [d8][]
+
+##### Disarm - Snatch Weapon
+
+When you successfully disarm an opponent, you can choose to take the opponent's
+weapon instead. If you already have a weapon equipped, it's automatically
+dropped when you snatch the weapon.
+
+Requires
+:   [Disarm](#disarm), [Melee][] [d10][]
+
 ##### Fighter
 
 If [Parrying](/crisis#parrying) you can treat the amount of enemies within melee
@@ -212,6 +244,10 @@ special Actions while doing so. Can only trigger once per round.
 
 Requires
 :   [Melee][] [d6][]
+
+##### Precognitive
+
+You have to use [Mind]][] instead of [Body][] for rolling on Turn Order.
 
 </div>
 
