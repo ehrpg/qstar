@@ -63,7 +63,7 @@ character and an NPC tie, the player character acts first.
 
 !!! summary "Turn Order"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Mind Attribute">[Mind][]</span> ±
+      <span data-bracket-bottom="Body Attribute">[Body][]</span> ±
       <span data-bracket-top="Race / Talents / etc">Circumstance</span>
     </div>
 
@@ -154,15 +154,16 @@ a number of squares equal to the range increment of the throw.
 
 #### Dodging
 
-Dodging is a Contest between two opponents, whereas the dodger rolls an
-[Athletics][] check and the attacker his respective weapon's [Skill][].
+Dodging is an [Athletics][] check done as a response to an AoE attack. Once
+per round you can try to dodge an incoming Area of Effect Attack. You have to
+choose to dodge before the attacker rolls his attack.
 
-Only Area of Effect Attacks can be dodged. Once per round you can try to dodge
-an incoming Area of Effect Attack. You have to choose to dodge before the
-attacker rolls his attack. Dodging is an Athletics roll.
+If you succeed on the [Athletics][] roll---the Difficulty is **4**--you can move
+one tile into any direction away from the center of the AoE before you receive
+any damage or effect from it.
 
-If you win the contest you can move your character by 1 tile into any direction
-away from the AoE effect before you receive any damage or effect from it.
+Some AoE weapons and effects, and circumstances can make it easier or harder to
+dodge an AoE attack.
 
 ### Cover
 
@@ -257,10 +258,8 @@ Attacks that deal more than `20` wounds in one hit incapacitate the target.
 
 ## Healing
 
-The [Medicine][] Skill can be used to treat wounds suffered within the last
-hour.
-
-Wounds that are older than one hour have to heal naturally.
+The [Medicine][] Skill can be used to treat wounds. Healing is more effective if
+you have a healing item.
 
 #### Healing A Character
 
@@ -273,8 +272,8 @@ reduced to 0, rather than a `+1` bonus. Multiple Assets can provide a bonus
 instead.
 
 If the [Medicine][] check was successful, the patient heals wounds equal to the
-roll in addition to natural healing. Certain healing items also restore a
-specific amount of wounds.
+[Extras][] of the roll in addition to natural healing. If a healing item was
+used, the character also restores an amount specified by the item.
 
 Healing a character can only be done once a day. Multiple healers provide a `+1`
 bonus, up to a `+4` bonus.
@@ -283,6 +282,7 @@ bonus, up to a `+4` bonus.
 
 If a healer was successful on his [Medicine][] check for his patient, the
 patient is not dying anymore, but stays incapacitated for the next 10 rounds.
+This [Medicine][] check does not heal the character.
 
 #### Healing Non-Lethal Damage
 
@@ -293,8 +293,8 @@ Non-lethal damage can be healed like lethal damage, but it's twice as effective.
 Every hour a non-lethal wound is healed automatically.
 
 Every day a wounded character can roll a [Body][] check and heal wounds equal to
-the roll, regardless of being healed or not. A critical failure on the [Body][]
-check causes an additional wound.
+[Extras][] of the roll, regardless of being healed or not. A critical failure on
+the [Body][] check causes an additional wound.
 
 The Natural Healing [Body][] roll is influenced by these conditions:
 

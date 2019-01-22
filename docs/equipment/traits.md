@@ -3,7 +3,7 @@
 Equipment Traits make an item more unique. Some Traits can be added to a weapon
 via attachments and upgrades.
 
-Every Trait costs [RES][]. The [RES][] cost is *added* to the weapons [RES][]
+Every Trait costs [RES][]. The [RES][] cost is *added* to the weapon's [RES][]
 cost. If a character does not have enough [RES][] for both the weapon and the
 Trait, the Trait is lost first.
 
@@ -167,7 +167,7 @@ If your target has no [Physical][] DR, you deal 2 extra damage.
 
 ##### Drum-Mag
 
-A Drum-Mag doubles your weapons **CAP**.
+A Drum-Mag doubles your weapon's **CAP**.
 
 [RES][]
 :   4
@@ -177,7 +177,7 @@ A Drum-Mag doubles your weapons **CAP**.
 
 ##### Extended-Mag
 
-Your weapons **CAP** is increased by 5.
+Your weapon's **CAP** is increased by 5.
 
 [RES][]
 :   2

@@ -91,6 +91,13 @@ You receive a `+1` bonus on all [Stealth][] checks.
 Requires
 :   [Body][] [d8][]
 
+##### Resilient
+
+You receive 5 additional [Health][] points.
+
+Requires
+:   [Soul][] [d8][]
+
 ##### Skill Focus
 
 You receive a `+1` bonus on a [Skill][] of your choice.

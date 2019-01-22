@@ -13,14 +13,14 @@ half the item's price, unless otherwise noted in the item's description.
 
 ### Food, Mundane & Tools
 
-| Name              | Asset                | Uses  | Bulk  |  Cost | [RES][] |
-| ----------------- | -------------------- | :---: | :---: | ----: | :-----: |
-| Climbing Gear     | Athletics (Climbing) |   -   |   3   |   500 |    -    |
-| Crowbar           | Force                |   -   |   1   |   250 |    -    |
-| Flashlight / Lamp | -                    |   -   |   1   |   250 |    -    |
-| Food Supplies     | -                    |   7   |   4   | 1.000 |    -    |
-| Ration            | -                    |   1   |   1   |   100 |    -    |
-| Toolbox           | Engineering          |   -   |   5   | 1.000 |    -    |
+| Name              | Asset                | Uses | Bulk |  Cost | [RES][] |
+|-------------------|----------------------|:----:|:----:|------:|:-------:|
+| Climbing Gear     | Athletics (Climbing) |  -   |  3   |   500 |    -    |
+| Crowbar           | Force                |  -   |  1   |   250 |    -    |
+| Flashlight / Lamp | -                    |  -   |  1   |   250 |    -    |
+| Food Supplies     | -                    |  7   |  4   | 1.000 |    -    |
+| Ration            | -                    |  1   |  1   |   100 |    -    |
+| Toolbox           | Engineering          |  -   |  5   | 1.000 |    -    |
 
 <div class="qs-list-test full-width" markdown="1">
 
@@ -59,15 +59,23 @@ screws, etc.
 Medical items are used to restore [Health](/character#health-hp) in or after
 combat.
 
-| Name             | Asset    | Uses  | Bulk  | Cost | [RES][] |
-| ---------------- | -------- | :---: | :---: | ---: | :-----: |
-| Medical Supplies | Medicine |   -   |   4   |  500 |    1    |
+| Name             | Asset    | Uses | Bulk | Cost | [RES][] |
+|------------------|----------|:----:|:----:|-----:|:-------:|
+| First Aid Kit    | Medicine |  1   |  1   |  100 |    -    |
+| Medical Supplies | Medicine |  10  |  4   |  500 |    1    |
 
 <div class="qs-list-test full-width" markdown="1">
 
+##### First Aid Kit
+
+A first aid kit can be used a single time and heals an additional [d6][] health
+on a successful [Medicine][] check. On a failed check, the item is lost.
+
 ##### Medical Supplies
 
-Consists of scissors, bandages, disinfectant, alcohol, painkillers etc.
+Consists of scissors, bandages, disinfectant, alcohol, painkillers etc. Medical
+supplies heal an additional [d4][] health on a successful [Medicine][] check. On
+a failed check, nothing happens.
 
 </div>
 

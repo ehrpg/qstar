@@ -50,8 +50,9 @@ A GM should also have a d20 and a d100 to roll on random tables.
 <td><i class="game-icon-d12"></i></td>
 <td>
 Every character uses a [d4][], [d6][], [d8][], [d10][] and a [d12][] for
-everything he's doing. Every roll is made with a single die. The more sides the
-die has the better the chance on rolling **higher**, which is **better**.
+everything he's doing. Every roll is made with a single die, with exception of
+damage rolls. The more sides the die has the better the chance on rolling
+**higher**, which is **better**.
 </td>
 </tr>
 <tr>
