@@ -75,14 +75,16 @@ See [Skills][] for a list of available skills and more information.
 > Health abstracts how much wounds a character can take before being
 > incapacitated or dead.
 
-Each Attribute has its own Health pools. Furthermore, each die of an Attribute
-has its own Health pool. If the Health pool of a die drops to 0, you receive one
-Attribute Damage, and your die is lowered by one step. If the Health pool of an
-Attribute drops to zero, the damage carries over to another Attribute.
+Each [Attribute][] has its own Health pools. Furthermore, each die of an
+[Attribute][] has its own Health pool. If the Health pool of a die drops to 0,
+you receive one [Attribute][] Damage, and your die is lowered by one step. If
+the Health pool of a die drops to zero, the remaining damage carries over to
+next lower die. If the Health pool of the [d4][] of an [Attribute][] drops to
+zero, the damage carries over to another [Attribute][].
 
-| Attribute |   [d4][]   |   [d6][]   |   [d8][]   |   [d10][]   |   [d12][]   |
-|-----------|:----------:|:----------:|:----------:|:-----------:|:-----------:|
-| Health    | [d4][] + 0 | [d6][] + 2 | [d8][] + 4 | [d10][] + 6 | [d12][] + 8 |
+| [Attribute][] |   [d4][]   |   [d6][]   |   [d8][]   |   [d10][]   |   [d12][]   |
+|---------------|:----------:|:----------:|:----------:|:-----------:|:-----------:|
+| **Health**    | [d4][] + 0 | [d6][] + 2 | [d8][] + 4 | [d10][] + 6 | [d12][] + 8 |
 
 The minimum value of a health pool is 1. There is no maximum value.
 
@@ -94,7 +96,8 @@ The Pace is used to determine how far the creature gets by using the Move
 Action. You can use up your [Body][] die's sides halfed in meters.
 
 The Pace can be lowered by Conditions and Overburdening due to too much
-[Bulk][]. If your [Pace][] drops to 0, your character is immobilized.
+[Bulk][]. If your [Pace][] drops to `0`, your character is immobilized and can't
+move anymore.
 
 !!! summary "Pace"
     <div class="formula formula-top formula-bottom">
@@ -112,7 +115,7 @@ within melee range you suffer a `-1` penalty.
 
 If you don't have a melee weapon equipped, you suffer a `-2` penalty.
 
-The value for Parry cannot drop below 2.
+The value for Parry cannot drop below `2`.
 
 !!! summary "Parry"
     <div class="formula formula-top formula-bottom">
