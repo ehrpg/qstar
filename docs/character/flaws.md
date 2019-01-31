@@ -36,6 +36,10 @@ Your [Pace][] decreases by `2`.
 
 All [Skills][], Stats, etc. related to vision suffer a `-2` penalty.
 
+##### Weak
+
+Your [Body][] rolls suffer a `-2` penalty.
+
 </div>
 
 ### Acquisitions

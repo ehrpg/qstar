@@ -113,15 +113,15 @@ the grenade doesn't deal any damage anymore.
 
 All weapons listed in this category use the Melee [Skill][] for Attacks.
 
-| Name                    |                   DMG | RoF | Bulk |  Cost | [RES][] |
-|-------------------------|----------------------:|----:|:----:|------:|:-------:|
-| Unarmed                 |              [Body][] |   1 |  -   |     - |    -    |
-| Improvised blunt weapon |              [Body][] |   1 |  1   |     - |    -    |
-| Improvised sharp weapon |              [Body][] |   1 |  1   |     - |    -    |
-| Brass knuckles          |     [Body][] + [d4][] |   1 |  L   |   100 |    -    |
-| Knife                   |     [Body][] + [d4][] |   1 |  L   |   100 |    -    |
-| Baton                   |     [Body][] + [d6][] |   1 |  L   |   250 |    -    |
-| Sword                   | [Body][] + [2d6](#d6) |   1 |  2   | 1.000 |    1    |
+| Name                    |               DMG | RoF | Bulk |  Cost | [RES][] |
+|-------------------------|------------------:|----:|:----:|------:|:-------:|
+| Unarmed                 |          [Body][] |   1 |  -   |     - |    -    |
+| Improvised blunt weapon |          [Body][] |   1 |  1   |     - |    -    |
+| Improvised sharp weapon |          [Body][] |   1 |  1   |     - |    -    |
+| Brass knuckles          | [Body][] + [d4][] |   1 |  L   |   100 |    -    |
+| Knife                   | [Body][] + [d4][] |   1 |  L   |   100 |    -    |
+| Baton                   | [Body][] + [d6][] |   1 |  L   |   250 |    -    |
+| Sword                   | [Body][] + [d8][] |   1 |  2   | 1.000 |    1    |
 
 ### Ranged Weapons
 

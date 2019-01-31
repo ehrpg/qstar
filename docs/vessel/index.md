@@ -1,9 +1,6 @@
 # Vessel
 
-## Stats
-
-### Primary
-
+## Attributes
 
 #### Firepower
 
@@ -20,15 +17,6 @@ engines improve the overall maneuverability of a vessel.
 
 Subsystems represent the quality of the ship's internal components, such as
 shield generators, sensors, fuel, etc.
-
-#### Power-Level
-
-The vessel's upgrades require a certain amount of power-level. Better generators
-provide more energy, which the vessel can utilize for more upgrades.
-
-The power-level can be temporarily shifted to other primary Attributes. If the
-power-level requirements of an upgrade isn't met, that upgrade becomes rendered
-inert, until enough power is available again.
 
 ### Secondary
 
