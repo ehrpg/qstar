@@ -85,6 +85,13 @@ a:not(.headerlink) {
     @extend .game-icon-backpack;
   }
 
+  &[href*="#raises"]:before {
+    @extend .game-icon-dna1;
+    font-family: "Zag";
+    content: "↑";
+    vertical-align: text-bottom;
+  }
+
   // &[href$="/flaws/"]:before {
   //   @include game-icon;
   //   @extend .game-icon-broken-bone;

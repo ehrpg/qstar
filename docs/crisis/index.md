@@ -140,8 +140,7 @@ to hit is the target's [Parry][] value.
 Thrown weapons, e.g. grenades, require you to make an Athletics check. The roll
 otherwise is a normal Ranged Attack with a [Difficulty Level][] of `4`.
 
-An Area of Effect weapon does not receive extra damage from
-[Extras](/character/skill#extras).
+An Area of Effect weapon does not receive extra damage from [Raises][].
 
 If you miss an Area of Effect Attack, roll a [d8][]. The result of the [d8][]
 determines in which direction you missed. A 1 is being straight back at you, 5
@@ -202,8 +201,8 @@ on vision, such as attacking, suffer a penalty.
 If an Attack is successful, damage can be dealt to the target.
 
 You deal your used weapon's damage, but receive extra damage from the Attack
-roll. The amount of [Extras](/character/skill#extras) on the attack roll is the
-amount of extra damage you deal.
+roll. The amount of [Raises][] on the attack roll is the amount of extra damage
+you deal.
 
 If your damage would be reduced to 0 or lower because of defenses, such as
 damage reduction or dodging, you still deal 1 non-lethal damage to the target.
@@ -272,7 +271,7 @@ reduced to 0, rather than a `+1` bonus. Multiple Assets can provide a bonus
 instead.
 
 If the [Medicine][] check was successful, the patient heals wounds equal to the
-[Extras][] of the roll in addition to natural healing. If a healing item was
+[Raises][] of the roll in addition to natural healing. If a healing item was
 used, the character also restores an amount specified by the item.
 
 Healing a character can only be done once a day. Multiple healers provide a `+1`
@@ -293,7 +292,7 @@ Non-lethal damage can be healed like lethal damage, but it's twice as effective.
 Every hour a non-lethal wound is healed automatically.
 
 Every day a wounded character can roll a [Body][] check and heal wounds equal to
-[Extras][] of the roll, regardless of being healed or not. A critical failure on
+[Raises][] of the roll, regardless of being healed or not. A critical failure on
 the [Body][] check causes an additional wound.
 
 The Natural Healing [Body][] roll is influenced by these conditions:

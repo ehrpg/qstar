@@ -76,8 +76,7 @@ by [1d6](#d6)+1. The maximum damage is [10d6](#d6)+10 at a falling distance
 of 20 tiles.
 
 You can roll an Athletics check, similar to [Dodging](/crisis#dodging), to treat
-the fall 2 tiles less. For every [Extra](/character/skills#extras) you can treat
-the fall 2 tiles less.
+the fall 2 tiles less. For every [Raise][] you can treat the fall 2 tiles less.
 
 An armor's [Physical][] DR does not block this kind of damage.
 

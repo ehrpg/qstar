@@ -60,6 +60,9 @@
 [Hazard]: /environment/#hazards
 [Hazards]: /environment/#hazards
 
+[Raise]: /character/skills/#raises
+[Raises]: /character/skills/#raises
+
 [Talent]: /character/talents/
 [Talents]: /character/talents/
 
