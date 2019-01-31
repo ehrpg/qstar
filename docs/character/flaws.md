@@ -28,6 +28,10 @@ Below is a list of flaws, provided by the Q* RPG system.
 
 All [Skills][], Stats, etc. related to vision suffer a `-4` penalty.
 
+##### Fragile
+
+All [Body][] health pools suffer a `-1` penalty.
+
 ##### Lame
 
 Your [Pace][] decreases by `2`.

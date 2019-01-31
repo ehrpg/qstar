@@ -91,6 +91,15 @@ You receive a `+1` bonus on all [Stealth][] checks.
 Requires
 :   [Body][] [d8][]
 
+##### Mind over Matter
+
+Whenever you receive physical damage, you can choose to roll your current
+[Mind][] die. You can assign damage up to your roll to your [Mind][] health pool
+instead of your [Body][] health pool.
+
+Requires
+:   [Mind][] [d8][]
+
 ##### Resilient
 
 You receive 5 additional [Health][] points.
@@ -111,6 +120,15 @@ You receive another `+1` bonus on a [Skill][] of your choice.
 
 Requires
 :   [Skill Focus](#skill-focus), [Skill][] [d10][]
+
+##### Soulless
+
+Whenever you receive mental damage, you can choose to roll your current [Soul][]
+die. You can assign damage up to your roll to your [Body][] health pool instead
+of your [Soul][] health pool.
+
+Requires
+:   [Soul][] [d8][]
 
 ##### Versatile
 
@@ -254,7 +272,7 @@ Requires
 
 ##### Precognitive
 
-You have to use [Mind]][] instead of [Body][] for rolling on Turn Order.
+You can use [Mind][] instead of [Body][] for rolling on Turn Order.
 
 </div>
 

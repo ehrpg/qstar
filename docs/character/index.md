@@ -32,8 +32,9 @@ Its associated [Skills][] are [Action][] Skills.
 
 #### Mind
 
-[Mind][] is used for [Turn Order](/crisis/#turn-order), and
-[Perception](/character#perception-per).
+[Mind][] is used for [Turn Order](/crisis/#turn-order),
+[Perception](/character#perception-per), and resisting mental effects such as
+psionic attacks.
 
 Its associated [Skills][] are [Knowledge][] Skills.
 
