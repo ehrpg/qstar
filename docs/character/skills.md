@@ -23,22 +23,22 @@ fails.
 After you roll add all modifiers to your die roll and tell the GM your result.
 The GM tells you if you succeeded or failed.
 
-### Extras
+### Raises
 
 **Combat only**{.block}
 After a successful roll, divide the final roll by `4` and subtract `1`. This is
-the amount of *Extras* you get for the check. An *Extra* improves certain
-values, e.g. the damage you deal after a successful Attack. The *Extras* cannot
+the amount of *Raises* you get for the check. An *Extra* improves certain
+values, e.g. the damage you deal after a successful Attack. The *Raises* cannot
 be lower than 0.
 
-!!! summary "Skill Extras"
+!!! summary "Skill Raises"
     <div class="formula formula-top formula-bottom">
-        <span>Extras</span> =
+        <span>Raises</span> =
         <span data-bracket-bottom="Final Roll with all modifiers">Roll / 4</span> -
         <span data-bracket-top="Base">1</span>
     </div>
 
-!!! example "Extras"
+!!! example "Raises"
     A character makes a **Light Weapon** check to Attack someone. His [Skill][]
     is a [d6][]. For the check he rolls `9` in total. `9` divided by `4` minus
     `1` results in 1 Extra.

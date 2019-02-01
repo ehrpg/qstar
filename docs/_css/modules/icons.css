@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "game-icons";
   src: url("../_fonts/game-icons.eot");
@@ -6900,7 +6901,7 @@
   content: "\E6B4";
 }
 
-.game-icon-dna1:before, a[href*="#race"]:not(.headerlink):before {
+.game-icon-dna1:before, a[href*="#race"]:not(.headerlink):before, a[href*="#raises"]:not(.headerlink):before {
   content: "\E6B5";
 }
 
@@ -13831,6 +13832,12 @@ a:not(.headerlink)[href$="/equipment"]:before {
   text-transform: none;
   margin-right: 5px;
   vertical-align: top;
+}
+
+a:not(.headerlink)[href*="#raises"]:before {
+  font-family: "Zag";
+  content: "↑";
+  vertical-align: text-bottom;
 }
 
 *:not(.md-search-result__item) > a[href$="#d4"],

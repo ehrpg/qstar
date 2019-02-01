@@ -25,22 +25,23 @@ cannot drop below a [d4][] or be raised above a [d12][].
 
 #### Body
 
-[Body][] is used for [Health][], [Pace][], [Natural
-Healing](/crisis/#natural-healing) and resisting bodily effects such as
-[Hazards][], etc.
+[Body][] is used for [Pace][], [Natural Healing](/crisis/#natural-healing) and
+resisting bodily effects such as [Hazards][].
 
 Its associated [Skills][] are [Action][] Skills.
 
 #### Mind
 
-[Mind][] is used for [Turn Order](/crisis/#turn-order), and
-[Perception](/character#perception-per).
+[Mind][] is used for [Turn Order](/crisis/#turn-order),
+[Perception](/character#perception-per), and resisting mental effects such as
+psionic attacks.
 
 Its associated [Skills][] are [Knowledge][] Skills.
 
 #### Soul
 
-[Soul][] is used to resist mental effects, such as drugs, alcohol, stuns, etc.
+[Soul][] is used to resist mental effects, such as drugs, alcohol, stuns, and
+horrors.
 
 Its associated [Skills][] are [Social][] Skills.
 
@@ -74,18 +75,18 @@ See [Skills][] for a list of available skills and more information.
 > Health abstracts how much wounds a character can take before being
 > incapacitated or dead.
 
-For the [Body][] Attribute you roll your die and add it to the Base value. As
-with any die, the [Body][] die can *explode* as well. If your [Body][] Attribute
-is improved by a level-up, you roll your new die and add it to your [Health][].
+Each [Attribute][] has its own Health pools. Furthermore, each die of an
+[Attribute][] has its own Health pool. If the Health pool of a die drops to 0,
+you receive one [Attribute][] Damage, and your die is lowered by one step. If
+the Health pool of a die drops to zero, the remaining damage carries over to
+next lower die. If the Health pool of the [d4][] of an [Attribute][] drops to
+zero, the damage carries over to another [Attribute][].
 
-See [Wounds](/crisis#wounds) and [Healing](/crisis#healing) for more details.
+| [Attribute][] |   [d4][]   |   [d6][]   |   [d8][]   |   [d10][]   |   [d12][]   |
+|---------------|:----------:|:----------:|:----------:|:-----------:|:-----------:|
+| **Health**    | [d4][] + 0 | [d6][] + 2 | [d8][] + 4 | [d10][] + 6 | [d12][] + 8 |
 
-!!! summary "Health"
-    <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">20</span> +
-        <span data-bracket-top="Body Attribute">[Body][]</span> ±
-        <span data-bracket-bottom="Race / Talents / etc">Circumstance</span>
-    </div>
+The minimum value of a health pool is 1. There is no maximum value.
 
 ### Pace (PACE)
 
@@ -95,7 +96,8 @@ The Pace is used to determine how far the creature gets by using the Move
 Action. You can use up your [Body][] die's sides halfed in meters.
 
 The Pace can be lowered by Conditions and Overburdening due to too much
-[Bulk][]. If your [Pace][] drops to 0, your character is immobilized.
+[Bulk][]. If your [Pace][] drops to `0`, your character is immobilized and can't
+move anymore.
 
 !!! summary "Pace"
     <div class="formula formula-top formula-bottom">
@@ -113,7 +115,7 @@ within melee range you suffer a `-1` penalty.
 
 If you don't have a melee weapon equipped, you suffer a `-2` penalty.
 
-The value for Parry cannot drop below 2.
+The value for Parry cannot drop below `2`.
 
 !!! summary "Parry"
     <div class="formula formula-top formula-bottom">
