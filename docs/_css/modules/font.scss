@@ -20,23 +20,20 @@
     padding-top: 2.1rem;
   }
 
+  h1,
   h2 {
-    & > a.headerlink {
-      color: #efefef;
-    }
-    border: 2px solid black;
-    background: black;
-    color: white;
+    font-family: "Earth Orbiter";
+    text-align: center !important;
+  }
+
+  h2 {
     border-radius: 50px;
-    text-align: left !important;
     padding-left: 20px !important;
   }
 
   h3 {
-    border: 2px solid black;
-    border-radius: 50px;
     text-align: left !important;
-    padding-left: 20px !important;
+    margin-bottom: 1rem;
   }
 
   h1,
