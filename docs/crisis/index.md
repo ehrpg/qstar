@@ -200,60 +200,49 @@ on vision, such as attacking, suffer a penalty.
 
 If an Attack is successful, damage can be dealt to the target.
 
-You deal your used weapon's damage, but receive extra damage from the Attack
-roll. The amount of [Raises][] on the attack roll is the amount of extra damage
-you deal.
-
-If your damage would be reduced to 0 or lower because of defenses, such as
-damage reduction or dodging, you still deal 1 non-lethal damage to the target.
-Status Effects are not applied in this case.
+You deal your used weapon's damage. This damage can be increased by [Raises][].
 
 !!! summary "Dealing Damage"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Extras for the Attack Roll">Extras</span> +
-      <span data-bracket-top="Weapon Damage">DMG</span> ±
-      <span data-bracket-bottom="Environment / Traits / Race">Circumstance</span>
+      <span data-bracket-bottom="Weapon Damage">( DMG</span> +
+      <span>[Raises][]</span> +
+      <span data-bracket-top="Environment / Traits / Race">Circumstance )</span> /
+      <span>4</span>
     </div>
 
 !!! example "Attacking and Damaging"
     A character makes a Ranged Attack. His roll results in a 13. This nets him 2
-    Extras. Whatever weapon the attacker uses, he gains 2 extra damage.
+    [Raises][], and he would deal 3 wounds without any extras from the
+    [Raises][].
 
 ### Damage Reduction
 
-If a target wears Armor, all damage you deal is reduced by the target's DR.
-Damage that's reduced by the Armor is dealt to the Armor's Durability instead.
-If the Armor's Durability reaches 0, it does not provide DR anymore.
-
-Some weapons and Actions circumvent the Armor's damage reduction, e.g.
-Armor-Piercing Ammunition.
+If a target wears Armor, all wounds you deal are reduced by the target's DR.
+Some weapons and Actions can circumvent the target's DR.
 
 !!! example "Damage Reduction"
-    A target wears an armor with a physical DR of 3, and a durability of 10. He
-    receives 5 physical damage. The armor blocks 3 of the 5 incoming damage.
-    The durability of armor is reduced to 7, and the target only receives 2
-    points of damage.
+    A target wears an armor with a physical DR of 2. He receives 4 wounds. The
+    armor blocks 2 of the 4 incoming wounds. The target only receives 2 wounds.
 
-### Non-lethal damage
-
-Non-lethal damage is separate pool. If the non-lethal damage is higher than the
-target's current [Health][], the character becomes incapacitated.
-
-## Wounds
-
-Every point of damage you receive deals a wound. A wound can either be lethal or
-non-lethal.
-
-### Lethal
+### Non-lethal
 
 When a target would die from a lethal Attack, the attacker can decide whether or
 not to apply non-lethal force, knocking the target unconcious instead of killing
 it.
 
-If a creature's Health drops to `0`, the creature is incapacitated and dying. If
-it drops to `-10`, the creature dies.
+### Wounds
 
-Attacks that deal more than `20` wounds in one hit incapacitate the target.
+Damage reduces a character's health for a specific [Attribute][]. If this
+[Attribute][] drops to 0 health, all remaining wounds carry over to another
+[Attribute][]. Each [Attribute][] has consequences once it reaches 0:
+
+* Physical damage---dealt by almost all weapons---targets the [Body][]
+[Attribute][].
+* Mental damage---such as psionics or certain sound frequencies---targets the
+[Mind][] [Attribute][].
+* Fear, Horrors, Sanity, Morale, etc. target the [Soul][] [Attribute][].
+
+If all three [Attributes][] reach 0, the character dies.
 
 ## Healing
 

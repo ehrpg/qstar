@@ -25,15 +25,14 @@ The GM tells you if you succeeded or failed.
 
 ### Raises
 
-**Combat only**{.block}
-After a successful roll, divide the final roll by `4` and subtract `1`. This is
-the amount of *Raises* you get for the check. An *Extra* improves certain
-values, e.g. the damage you deal after a successful Attack. The *Raises* cannot
-be lower than 0.
+**Combat only**{.block} After a successful roll, divide the final roll by `4`
+and subtract `1`. This is the amount of [Raises][] you get for the check. A
+[Raise][] improves certain values, e.g. the damage you deal after a successful
+Attack. The [Raises][] cannot be lower than 0.
 
 !!! summary "Skill Raises"
     <div class="formula formula-top formula-bottom">
-        <span>Raises</span> =
+        <span>[Raises][]</span> =
         <span data-bracket-bottom="Final Roll with all modifiers">Roll / 4</span> -
         <span data-bracket-top="Base">1</span>
     </div>
@@ -41,7 +40,7 @@ be lower than 0.
 !!! example "Raises"
     A character makes a **Light Weapon** check to Attack someone. His [Skill][]
     is a [d6][]. For the check he rolls `9` in total. `9` divided by `4` minus
-    `1` results in 1 Extra.
+    `1` results in 1 [Raise][].
 
 ### Skill Modifiers
 

@@ -154,24 +154,24 @@ details .formula.formula-top,
   padding-top: 2.1rem;
 }
 
+.md-typeset:not(.md-search-result__item) h1,
 .md-typeset:not(.md-search-result__item) h2 {
-  border: 2px solid black;
-  background: black;
-  color: white;
-  border-radius: 50px;
-  text-align: left !important;
-  padding-left: 20px !important;
+  font-family: "Earth Orbiter";
+  text-align: center !important;
 }
 
-.md-typeset:not(.md-search-result__item) h2 > a.headerlink {
-  color: #efefef;
+.md-typeset:not(.md-search-result__item) h2 {
+  padding-left: 20px !important;
+  text-shadow: #999 2px 2px 5px;
+}
+
+.md-typeset:not(.md-search-result__item) h2 a {
+  text-shadow: none;
 }
 
 .md-typeset:not(.md-search-result__item) h3 {
-  border: 2px solid black;
-  border-radius: 50px;
   text-align: left !important;
-  padding-left: 20px !important;
+  margin-bottom: 0;
 }
 
 .md-typeset:not(.md-search-result__item) h1,
@@ -14399,7 +14399,7 @@ blockquote.important {
     overflow: hidden;
     position: relative;
   }
-  div.qs-list-test section > div {
+  div.qs-list-test section h5 + div {
     width: calc(100% - 120px);
     margin-left: 120px;
   }
@@ -14453,11 +14453,6 @@ blockquote.important {
 .qs-list-test h5 + p > em {
   color: rgba(0, 0, 0, 0.54);
   font-size: 1.5rem;
-}
-
-.qs-list-test p {
-  width: calc(100% - 120px);
-  margin-bottom: 0;
 }
 
 .qs-list-test dl {

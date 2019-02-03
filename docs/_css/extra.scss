@@ -71,11 +71,7 @@ strong,
 }
 
 @media only screen and (min-width: 76.25em) {
-  .md-tabs--active
-    ~ .md-main
-    .md-nav--primary
-    > .md-nav__list
-    > .md-nav__item--nested {
+  .md-tabs--active ~ .md-main .md-nav--primary > .md-nav__list > .md-nav__item--nested {
     display: block;
   }
 }
@@ -238,8 +234,6 @@ blockquote.important {
       padding: 0.25em 0;
       padding-right: 12px;
 
-      // padding-top: 0.4em;
-      // padding-bottom: 0.2em;
       -webkit-column-break-inside: avoid;
       page-break-inside: avoid;
       break-inside: avoid;
@@ -247,7 +241,7 @@ blockquote.important {
       overflow: hidden;
       position: relative;
 
-      > div {
+      h5 + div {
         width: calc(100% - 120px);
         margin-left: 120px;
       }
@@ -304,11 +298,6 @@ blockquote.important {
       color: rgba(0, 0, 0, 0.54);
       font-size: 1.5rem;
     }
-  }
-
-  p {
-    width: calc(100% - 120px);
-    margin-bottom: 0;
   }
 
   dl {

@@ -10,7 +10,7 @@
   text-decoration: none;
   text-transform: none;
   margin-right: 5px;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 a:not(.headerlink) {
@@ -89,7 +89,7 @@ a:not(.headerlink) {
     @extend .game-icon-dna1;
     font-family: "Zag";
     content: "↑";
-    vertical-align: text-bottom;
+    vertical-align: middle;
   }
 
   // &[href$="/flaws/"]:before {
