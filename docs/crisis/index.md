@@ -198,7 +198,7 @@ on vision, such as attacking, suffer a penalty.
 
 ## Damage
 
-If an Attack is successful, the attacker can roll on the damage table.
+If an Attack is successful, the attacker can roll for damage.
 
 !!! summary "Dealing Damage"
     <div class="formula formula-top formula-bottom">
@@ -206,15 +206,6 @@ If an Attack is successful, the attacker can roll on the damage table.
       <span>[Raises][]</span> +
       <span data-bracket-top="Environment / Traits / Race">Circumstance</span>
     </div>
-
-### Damage Reduction
-
-If a target wears Armor, all wounds you deal are reduced by the target's DR.
-Some weapons and Actions can circumvent the target's DR.
-
-!!! example "Damage Reduction"
-    A target wears an armor with a physical DR of 2. He receives 4 wounds. The
-    armor blocks 2 of the 4 incoming wounds. The target only receives 2 wounds.
 
 ### Non-lethal
 
@@ -227,7 +218,7 @@ it.
 Each wound reduces the health pool's current value by one. If the Health of an
 [Attribute][] drops to 0, the character is dying, and disabled, incapacitated or
 otherwise unable to act. Each [Attribute][] has specfic consequences once it
-reaches 0. If an [Attribute][] drops to -4 hit points, the character dies.
+reaches 0. If an [Attribute][] drops to -10 hit points, the character dies.
 
 * Physical damage---dealt by almost all weapons---targets the [Body][]
 [Attribute][].
@@ -246,8 +237,21 @@ your character is unable to act, but otherwise healthy.
 fear. She can't act, or act according to her mental state. E.g. when being
 afraid, the character might run away or cower.
 
-Whenever an [Attribute][] drops below 0, the character receives a [Flaw][]
-associated to the [Attribute][] that dropped below 0 when stabilized or healed.
+!!! danger "Wounds and Flaws"
+    Whenever an [Attribute][] drops below 0, the character receives a [Flaw][]
+    associated to the [Attribute][] that dropped below 0 when stabilized or
+    healed.
+
+#### Damage Reduction
+
+If a target wears Armor, all wounds you deal are reduced by the target's DR.
+Some weapons and Actions can circumvent the target's DR.
+
+Some Armors and Outfits can help to avoid conditions.
+
+!!! example "Damage Reduction"
+    A target wears an armor with a physical DR of 2. He receives 4 wounds. The
+    armor blocks 2 of the 4 incoming wounds. The target only receives 2 wounds.
 
 ## Healing
 

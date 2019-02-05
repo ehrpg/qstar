@@ -75,13 +75,13 @@ See [Skills][] for a list of available skills and more information.
 > Health abstracts how much wounds a character can take before being
 > incapacitated or dead.
 
-Every character starts with 4 hit points in each [Attribute][]. For every step
-of the [Attribute][] above a [d4][] you gain 1 additional hit point.
+Every character starts with 12 hit points in each [Attribute][]. For the initial
+[d4][] and each upgrade you roll the die and add it to your health.
 
 !!! summary "Health"
     <div class="formula formula-top formula-bottom">
-        <span data-bracket-bottom="Base">4</span> +
-        <span data-bracket-top="per step above a d4">1</span> +
+        <span data-bracket-bottom="Base">12</span> +
+        <span data-bracket-top="roll per die">Attribute</span> +
         <span data-bracket-bottom="Race / Talents / etc">Circumstance</span>
     </div>
 
