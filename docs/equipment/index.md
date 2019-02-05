@@ -40,7 +40,7 @@ character can't hold or carry more [Bulk][] than twice his Carrying Capacity.
     <div class="formula formula-top formula-bottom">
       <span>Carrying Capacity</span> =
       <span data-bracket-bottom="Base">2</span> +
-      <span data-bracket-top="Body Attribute">[Body][] / 2</span> ±
+      <span data-bracket-top="Body Attribute">2 per die</span> ±
       <span data-bracket-bottom="Environment / Traits / Race">Circumstance</span>
     </div>
     <br>

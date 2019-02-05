@@ -198,22 +198,14 @@ on vision, such as attacking, suffer a penalty.
 
 ## Damage
 
-If an Attack is successful, damage can be dealt to the target.
-
-You deal your used weapon's damage. This damage can be increased by [Raises][].
+If an Attack is successful, the attacker can roll on the damage table.
 
 !!! summary "Dealing Damage"
     <div class="formula formula-top formula-bottom">
-      <span data-bracket-bottom="Weapon Damage">( DMG</span> +
+      <span data-bracket-bottom="Weapon Damage">DMG</span> +
       <span>[Raises][]</span> +
-      <span data-bracket-top="Environment / Traits / Race">Circumstance )</span> /
-      <span>4</span>
+      <span data-bracket-top="Environment / Traits / Race">Circumstance</span>
     </div>
-
-!!! example "Attacking and Damaging"
-    A character makes a Ranged Attack. His roll results in a 13. This nets him 2
-    [Raises][], and he would deal 3 wounds without any extras from the
-    [Raises][].
 
 ### Damage Reduction
 
@@ -232,9 +224,10 @@ it.
 
 ### Wounds
 
-Damage reduces a character's health for a specific [Attribute][]. If this
-[Attribute][] drops to 0 health, all remaining wounds carry over to another
-[Attribute][]. Each [Attribute][] has consequences once it reaches 0:
+Each wound reduces the health pool's current value by one. If the Health of an
+[Attribute][] drops to 0, the character is dying, and disabled, incapacitated or
+otherwise unable to act. Each [Attribute][] has specfic consequences once it
+reaches 0. If an [Attribute][] drops to -4 hit points, the character dies.
 
 * Physical damage---dealt by almost all weapons---targets the [Body][]
 [Attribute][].
@@ -242,7 +235,19 @@ Damage reduces a character's health for a specific [Attribute][]. If this
 [Mind][] [Attribute][].
 * Fear, Horrors, Sanity, Morale, etc. target the [Soul][] [Attribute][].
 
-If all three [Attributes][] reach 0, the character dies.
+[Body][] being at 0 Health incapacitates your character, making her unable to
+act. The character is helpless, can't move or use an action, but she isn't
+necessarily unconcious.
+
+[Mind][] being at 0 Health makes your character lethargic. Like with [Body][],
+your character is unable to act, but otherwise healthy.
+
+[Soul][] being at 0 Health makes your character mad, crazy, or petrified by
+fear. She can't act, or act according to her mental state. E.g. when being
+afraid, the character might run away or cower.
+
+Whenever an [Attribute][] drops below 0, the character receives a [Flaw][]
+associated to the [Attribute][] that dropped below 0 when stabilized or healed.
 
 ## Healing
 

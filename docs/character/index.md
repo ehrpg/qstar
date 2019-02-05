@@ -75,17 +75,22 @@ See [Skills][] for a list of available skills and more information.
 > Health abstracts how much wounds a character can take before being
 > incapacitated or dead.
 
-Each [Attribute][] has its own health pool. Each wound reduces the health pool's
-current value by one. Every 3 wounds in an [Attribute][] temporarily reduce the
-die by one step. If the [Attribute][]'s die is at a [d4][] and receives equal to
-or more than 3 wounds, the character dies.
+Every character starts with 4 hit points in each [Attribute][]. For every step
+of the [Attribute][] above a [d4][] you gain 1 additional hit point.
+
+!!! summary "Health"
+    <div class="formula formula-top formula-bottom">
+        <span data-bracket-bottom="Base">4</span> +
+        <span data-bracket-top="per step above a d4">1</span> +
+        <span data-bracket-bottom="Race / Talents / etc">Circumstance</span>
+    </div>
 
 ### Pace (PACE)
 
 > The Pace gives you an estimate how quickly you can go from A to B.
 
 The Pace is used to determine how far the creature gets by using the Move
-Action. You can use up your [Body][] die's sides halfed in meters.
+Action.
 
 The Pace can be lowered by Conditions and Overburdening due to too much
 [Bulk][]. If your [Pace][] drops to `0`, your character is immobilized and can't
@@ -106,8 +111,6 @@ Parry is used to defend against incoming melee attacks. Per additional enemy
 within melee range you suffer a `-1` penalty.
 
 If you don't have a melee weapon equipped, you suffer a `-2` penalty.
-
-The value for Parry cannot drop below `2`.
 
 !!! summary "Parry"
     <div class="formula formula-top formula-bottom">
